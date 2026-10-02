@@ -9,7 +9,7 @@
 
 ## ダウンロード
 
-[Releases](../../releases/latest) から `ModJP_1.20.1_v1.2.zip` をダウンロードしてください。
+[Releases](../../releases/latest) から `ModJP_1.20.1_v1.3.zip` をダウンロードしてください。
 
 ## 使い方
 

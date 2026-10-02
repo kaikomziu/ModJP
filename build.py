@@ -11,7 +11,7 @@ from pathlib import Path
 WORK = Path(__file__).parent
 PACK = WORK / "pack"
 BUNDLE_BROKEN_OFFICIAL = False
-DESC = "§6MOD日本語化パック §7v1.2 (1.20.1)"
+DESC = "§6MOD日本語化パック §7v1.3 (1.20.1)"
 TR = WORK / "tr"
 KEEP = TR / "_keep_english.json"   # {ns: {key: 理由}} 意味が判断できず英語のまま残すキー
 
@@ -41,6 +41,23 @@ def load_translations():
     return all_tr
 
 
+def official_keys():
+    """ゲームが実際に読み込める公式訳のキー集合(ja_jpが壊れたMODの分は読み込めないので含めない)"""
+    official = set(json.loads((WORK / "vanilla/ja_jp.json").read_text(encoding="utf-8")))
+    for f in glob.glob(str(WORK / "extracted" / "*.json")):
+        d = json.loads(Path(f).read_text(encoding="utf-8"))
+        if d.get("ja_broken") and not BUNDLE_BROKEN_OFFICIAL:
+            continue
+        official |= set(d["ja_jp"])
+    return official
+
+
+def effective_missing(d, official):
+    """訳すべきキー。ja_jpが壊れたMODは公式訳が読み込まれないので en_us 全体が対象"""
+    src = d["en_us"] if (d.get("ja_broken") and not BUNDLE_BROKEN_OFFICIAL) else d["missing"]
+    return {k: v for k, v in src.items() if k not in official}
+
+
 def main():
     keep = json.loads(KEEP.read_text(encoding="utf-8")) if KEEP.exists() else {}
     all_tr = load_translations()
@@ -48,13 +65,11 @@ def main():
     shutil.rmtree(PACK, ignore_errors=True)
     PACK.mkdir(parents=True, exist_ok=True)
     # 他のMOD(またはバニラ)が同じキーを公式に訳している場合はそちらを優先し、パックには入れない
-    official = {k for k in json.loads((WORK / "vanilla/ja_jp.json").read_text(encoding="utf-8"))}
-    for f in glob.glob(str(WORK / "extracted" / "*.json")):
-        official |= set(json.loads(Path(f).read_text(encoding="utf-8"))["ja_jp"])
+    official = official_keys()
     for f in sorted(glob.glob(str(WORK / "extracted" / "*.json"))):
         d = json.loads(Path(f).read_text(encoding="utf-8"))
         ns, en, ja, missing = d["namespace"], d["en_us"], d["ja_jp"], d["missing"]
-        missing = {k: v for k, v in missing.items() if k not in official}
+        missing = effective_missing(d, official)
         tr = all_tr.get(ns, {})
         kp = keep.get(ns, {})
         out = dict(ja) if (d.get("ja_broken") and BUNDLE_BROKEN_OFFICIAL) else {}

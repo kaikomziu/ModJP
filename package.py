@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 WORK = Path(__file__).parent
 PACK = WORK / "pack"
-VERSION = "1.2"
+VERSION = "1.3"
 ZIP_NAME = f"ModJP_1.20.1_v{VERSION}.zip"
 DIST = WORK / "dist"
 INSTANCE_RP = Path(r"C:/Users/4yoma/curseforge/minecraft/Instances/____ (2)/resourcepacks")

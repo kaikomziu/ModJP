@@ -60,7 +60,7 @@
 | better_weaponry-1.1.3-forge-1.20.1.jar | better_weaponry | 347 | 0 | 347 | 347 | 0 |  |
 | BetterAdvancements-Forge-1.20.1-0.6.0.73.jar | betteradvancements | 1 | 0 | 1 | 1 | 0 |  |
 | YungsBetterCaves-1.20.1-Forge-2.0.7.jar | bettercaves | 5 | 0 | 5 | 5 | 0 |  |
-| bettercombat-forge-1.9.0+1.20.1.jar | bettercombat | 39 | 36 | 3 | 3 | 0 | 同梱ja_jpが壊れていて読み込まれないため公式訳ごと同梱 |
+| bettercombat-forge-1.9.0+1.20.1.jar | bettercombat | 39 | 0 | 39 | 39 | 0 | 同梱ja_jpが壊れていて読み込まれないため公式訳ごと同梱 |
 | YungsBetterDesertTemples-1.20-Forge-3.0.3.jar | betterdeserttemples | 7 | 0 | 7 | 7 | 0 |  |
 | YungsBetterDungeons-1.20-Forge-4.0.4.jar | betterdungeons | 86 | 0 | 86 | 86 | 0 |  |
 | YungsBetterEndIsland-1.20-Forge-2.0.6.jar | betterendisland | 5 | 0 | 5 | 5 | 0 |  |
@@ -211,7 +211,7 @@
 | geckolib-forge-1.20.1-4.8.4.jar | geckolib | 31 | 0 | 31 | 31 | 0 |  |
 | genshin_moonoracle-neoforge-1.21.1-1.2.4.jar | genshin_moonoracle | 438 | 0 | 438 | 438 | 0 |  |
 | glassential-forge-1.20.1-2.0.0.jar | glassential | 41 | 0 | 41 | 41 | 0 |  |
-| goblintraders-forge-1.20.1-1.11.5.jar | goblintraders | 19 | 13 | 6 | 6 | 0 | 同梱ja_jpが壊れていて読み込まれないため公式訳ごと同梱 |
+| goblintraders-forge-1.20.1-1.11.5.jar | goblintraders | 19 | 6 | 13 | 13 | 0 | 同梱ja_jpが壊れていて読み込まれないため公式訳ごと同梱 |
 | GravitationalModulatingAdditionalUnit-1.20.1-3.5.jar | gravitationalmodulatingunittweaks | 10 | 7 | 3 | 3 | 0 |  |
 | guideme-20.1.15.jar | guideme | 36 | 0 | 36 | 36 | 0 |  |
 | handcrafted-forge-1.20.1-3.0.6.jar | handcrafted | 392 | 216 | 176 | 176 | 0 |  |
@@ -454,7 +454,7 @@
 | TravelAnchors-1.20.1-5.0.1.jar | travelanchors | 19 | 0 | 19 | 19 | 0 |  |
 | twilight_construct-1.0.7.jar | twilight_construct | 97 | 0 | 97 | 97 | 0 |  |
 | twilightdelight-2.2.4.jar | twilightdelight | 204 | 177 | 27 | 27 | 0 |  |
-| twilightforest-1.20.1-4.3.2508-universal.jar | twilightforest | 1488 | 1105 | 383 | 383 | 0 | 同梱ja_jpが壊れていて読み込まれないため公式訳ごと同梱 |
+| twilightforest-1.20.1-4.3.2508-universal.jar | twilightforest | 1488 | 0 | 1488 | 1488 | 0 | 同梱ja_jpが壊れていて読み込まれないため公式訳ごと同梱 |
 | Universal Enchantment Info-1.20.1-forge-1.4.0.jar | uei | 59 | 0 | 59 | 59 | 0 |  |
 | The_Undergarden-1.20.1-0.8.14.jar | undergarden | 548 | 381 | 167 | 167 | 0 |  |
 | Create-Unify-1.20.1-1.0a.Release.jar | unify | 131 | 0 | 131 | 131 | 0 |  |
@@ -489,7 +489,7 @@
 | ycurrenci-2.1.0-forge-1.20.1.jar | ycurrenci | 30 | 1 | 29 | 29 | 0 |  |
 | YungsCaveBiomes-1.20.1-Forge-2.0.5.jar | yungscavebiomes | 126 | 70 | 56 | 56 | 0 |  |
 | Zeta-1.0-31.jar | zeta | 2 | 0 | 2 | 1 | 1 |  |
-| **合計** | | 142338 | 72696 | 69642 | 68644 | 998 | |
+| **合計** | | 142338 | 71548 | 70790 | 69792 | 998 | |
 
 ## 英語のまま残したキー
 

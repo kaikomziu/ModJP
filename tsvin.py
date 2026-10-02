@@ -2,6 +2,8 @@
 訳の中の \n は改行に変換。未翻訳リストに無いキーはエラー。"""
 import json, sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
+from build import BUNDLE_BROKEN_OFFICIAL
 WORK = Path(__file__).parent
 bad = 0
 for f in sorted((WORK / "tsv").glob("*.tsv")):
@@ -11,7 +13,8 @@ for f in sorted((WORK / "tsv").glob("*.tsv")):
             continue
         if line.startswith("## "):
             ns = line[3:].strip()
-            miss = json.loads((WORK / f"extracted/{ns}.json").read_text(encoding="utf-8"))["missing"]
+            _d = json.loads((WORK / f"extracted/{ns}.json").read_text(encoding="utf-8"))
+            miss = _d["en_us"] if (_d.get("ja_broken") and not BUNDLE_BROKEN_OFFICIAL) else _d["missing"]
             out.setdefault(ns, {})
             continue
         if line.startswith("@ "):  # @ 接頭辞 : 以降「.」で始まるキーは接頭辞+残り(長いキーの省略用)

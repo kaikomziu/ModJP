@@ -1,4 +1,11 @@
 {
+  "entity.goblintraders.goblin_trader": "ゴブリンの商人",
+  "entity.goblintraders.vein_goblin_trader": "鉱脈ゴブリンの商人",
+  "subtitle.goblintraders.goblin_trader.annoyed_grunt": "いらだったうなり声",
+  "subtitle.goblintraders.goblin_trader.idle_grunt": "うなり声",
+  "item.goblintraders.goblin_trader_spawn_egg": "ゴブリンの商人のスポーンエッグ",
+  "item.goblintraders.vein_goblin_trader_spawn_egg": "鉱脈ゴブリンの商人のスポーンエッグ",
+  "stat.goblintraders.trade_with_goblin": "ゴブリンと取引した回数",
   "mob_spawner.type.zombie": "ゾンビ",
   "mob_spawner.type.skeleton": "スケルトン",
   "mob_spawner.type.creeper": "クリーパー",

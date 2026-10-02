@@ -3,7 +3,7 @@ import json, glob
 from pathlib import Path
 
 PACK = Path(__file__).parent / "pack"
-DESC = "§6MOD日本語化パック §7v1.2 (1.20.1)"
+DESC = "§6MOD日本語化パック §7v1.3 (1.20.1)"
 
 
 def strict_load(p):
@@ -27,9 +27,14 @@ for p in files:
     assert all(isinstance(v, str) for v in d.values()), p
     ns = p.parts[-3]
     ex = json.loads(Path(f"extracted/{ns}.json").read_text(encoding="utf-8"))
-    over = [k for k in d if k in ex["ja_jp"] and d[k] != ex["ja_jp"][k]]
+    # ja_jpが壊れたMODの公式訳はゲームに読み込まれないので「上書き」にはならない
+    over = [] if ex.get("ja_broken") else [k for k in d if k in ex["ja_jp"] and d[k] != ex["ja_jp"][k]]
     assert not over, f"公式訳を上書き: {ns} {over[:3]}"
     restored = sum(1 for k in d if k in ex["ja_jp"])
+    if ex.get("ja_broken"):
+        same = sum(1 for k in d if d[k] == ex["ja_jp"].get(k) and len(d[k]) > 8)
+        assert same * 10 <= len(d), f"{ns}: 公式訳と同一の長い訳が多すぎる({same}件) 自前訳か確認"
+        restored = 0
     assert not restored, f"{ns}: 公式訳のキーを{restored}件含んでいる(他人の訳の同梱は禁止)"
     total += len(d)
     print(f"OK {ns:24} {len(d):6} keys" + (f" (うち公式訳の復旧 {restored})" if restored else ""))
