@@ -1,0 +1,8 @@
+{
+  "getittogetherdrops.configuration.checkY": "Yも確認する",
+  "getittogetherdrops.configuration.checkY.tooltip": "落ちたアイテムが上下も確認するならtrue、しないならfalseにする(「false」がバニラのふるまい)。",
+  "getittogetherdrops.configuration.radius": "半径",
+  "getittogetherdrops.configuration.radius.tooltip": "落ちたアイテムが、まとめる相手の落ちたアイテムを周りで探す半径(ブロック)(「0.5」がバニラのふるまい)。",
+  "tag.item.getittogetherdrops.do_not_combine": "ドロップがまとまらない",
+  "tag.item.getittogetherdrops.ignore": "ドロップが普通にまとまる"
+}

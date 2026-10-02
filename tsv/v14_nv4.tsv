@@ -1,0 +1,314 @@
+## neovitae
+key.category.neovitae.neovitae	Neo Vitae
+@ ritual.neovitae.
+=Reaps ore blocks from the volume below the master stone (loading unloaded chunks as needed). Inserts as items into a chest at the configured chest position (directly above the master stone by default) if one is present; otherwise places the ore as a block in a 3x3x3 volume above. Scan radius scales with the foundation block: iron 7, gold 15, diamond 31, netherite 63, anything else 3. 50 EV per ore moved; up to 3 ores and 100 checks per refresh, scan reaches bedrock. Spiritus Invictus packs each emptied slot with the surrounding stone instead of leaving a hole.	マスター石の下の範囲から鉱石ブロックを掘り取る(必要なら未読み込みのチャンクも読み込む)。設定したチェストの位置(初期設定ではマスター石の真上)にチェストがあればアイテムとして入れ、なければ上の3x3x3の範囲にブロックとして置く。調べる半径は土台のブロックで決まる: 鉄7、金15、ダイヤモンド31、ネザライト63、それ以外3。鉱石1つの移動ごとに50 EV。1回の更新で最大3個の鉱石と100回の判定を行い、岩盤まで調べる。スピリトゥス・インウィクトゥスがあると、空いた場所に穴を残さず周りの石で埋める。
+.meteor	メテオの儀式
+=Consumes a catalyst item dropped within the area and crashes a corresponding meteor from above. Catalysts are defined by meteor recipes.	範囲内に落とした触媒のアイテムを消費し、対応する隕石を上空から落とす。触媒は隕石のレシピで決まる。
+.offset.info	オフセット: X=%d, Y=%d, Z=%d
+.phantom_bridge	幻影の橋の儀式
+=Weaves spectral platforms beneath the feet of practitioners in range.	範囲内の術者の足元に霊体の足場を編み出す。
+.placer	石工の儀式
+=Places blocks drawn from an adjacent chest across the configured area. Raw Spiritus sets how large an area you may configure and how fast it fills, and the Ritual Configurator chooses the shape.	隣のチェストから取り出したブロックを、設定した範囲に並べていく。未加工のスピリトゥスで設定できる範囲の広さと埋める速さが決まり、形は儀式の設定装置で選ぶ。
+.pump	吸い上げの賛歌
+=Draws fluid source blocks into a fluid tank at the configured tank position (directly above the master stone by default).	液体の源を、設定したタンクの位置(初期設定ではマスター石の真上)の液体タンクに吸い込む。
+.regeneration	再生の儀式
+=Applies Regeneration to practitioners in range; with Spiritus Ruina present, also drains nearby mobs to heal you.	範囲内の術者に再生を与える。スピリトゥス・ルイナがあると、近くのモブから吸い取って回復もする。
+.shepherd	羊飼いの儀式
+=Tends the animals in range: it hastens the growth of the young and coaxes ready adults into breeding, spending a little Essentia Vitae to feed them so no food or chest is required. Raw Spiritus quickens its pulse.	範囲内の動物の世話をする。子どもの成長を早め、準備のできた大人を繁殖させる。少しのエッセンティア・ヴィータを餌代わりに使うので、食べ物もチェストもいらない。未加工のスピリトゥスで脈動が速まる。
+.simple_dungeon	悪魔の領域の境界を越えて
+=One-shot rite: consumes a large EV pool and assembles a complete Starter tier dungeon structure at the master ritual stone.	一度きりの儀式。大量のEVを消費して、マスター儀式石に入門級のダンジョンの構造物を丸ごと組み上げる。
+.speed	速度の儀式
+=Propels non-sneaking entities in the master stone's facing direction. Sneak inside the area to receive Speed II for 30 minutes instead. Aspects modulate velocity, target filtering, and add Soft Fall.	スニークしていないエンティティをマスター石の向いている方向へ飛ばす。範囲内でスニークすると、代わりに移動速度上昇IIを30分間得る。アスペクトで速度や対象の絞り込みが変わり、軟着地も加わる。
+.sphere	新月の夜明け
+=Scoops the ellipsoidal volume of terrain below the master stone and lifts it upward into a floating moon. Foundation block beneath the master sets the size: iron 41, gold 49, diamond 57, netherite 65 across, anything else 33. 10 EV per block moved; ~100 checks per refresh.	マスター石の下の楕円体の地形をすくい取り、空に浮かぶ月として持ち上げる。マスター石の下の土台のブロックで大きさが決まる: 直径は鉄41、金49、ダイヤモンド57、ネザライト65、それ以外33。ブロック1つの移動ごとに10 EV。1回の更新で約100回の判定を行う。
+.standard_dungeon	地獄へのハイウェイ
+=Opens a permanent gateway to the Endless tier dungeon: a vast procedural dungeon (Mines, Foreman fight, aspected loot) that goes on forever and can be returned to as often as you like. Consumes a very large EV pool.	果てなき級のダンジョンへの永続的な門を開く。どこまでも続く広大な自動生成ダンジョン(鉱山、現場監督との戦い、アスペクト付きの戦利品)で、何度でも戻ってこられる。非常に大量のEVを消費する。
+.structure.invalid	儀式の構造が未完成か無効。
+.suppression	抑制のドーム
+=Replaces fluid source blocks in range with air, restoring them when the ritual stops.	範囲内の液体の源を空気に置き換え、儀式が止まると元に戻す。
+.torment_nexus	苦悶の結節点
+=Binds every spawner and trial spawner in range, suppressing their natural spawns and harvesting an equivalent stream of EV from the simulated kills. Loot funnels into a chest atop the master stone; an Experience Tome in the chest soaks up the kills' XP. Requires an Awakened Activation Crystal.	範囲内のすべてのスポナーと試練のスポナーを縛り、通常のスポーンを抑えて、模擬的な討伐から同等のEVを集める。戦利品はマスター石の上のチェストに流れ込み、チェストにペリティアの書があれば討伐の経験値を吸い取る。覚醒した起動の結晶が必要。
+.upgrade_remove	タブラ・ラサ
+=Wipes every upgrade from worn Sentient Armor and resets used points to zero; no tomes are produced.	着ている意志ある防具の強化をすべて消し、使ったポイントを0に戻す。書物は出てこない。
+.water	満ちる泉の儀式
+=Places water source blocks in the area; with Raw Spiritus, also fills any fluid tank above the master stone, faster the more saturated the chunk. The aura is not consumed.	範囲内に水源を置く。未加工のスピリトゥスがあると、マスター石の上の液体タンクも満たす。チャンクが満ちているほど速い。オーラは消費されない。
+.well_of_suffering	苦痛の井戸
+=Damages every hostile creature in range and channels their pain into Essentia Vitae at the master stone.	範囲内のすべての敵対的な生き物にダメージを与え、その苦痛をマスター石でエッセンティア・ヴィータに変える。
+.yawning_void	すべてを呑む虚空
+=Erases blocks in a small box directly beneath the master ritual stone, one block per refresh. No drops. Spiritus Invictus moves the block to a placement volume above instead of consuming it; Spiritus Ruina limits consumption to blocks matching items in the chest above; Raw Spiritus accelerates the refresh rate.	マスター儀式石の真下の小さな箱型の範囲から、更新ごとに1ブロックずつ消し去る。ドロップはない。スピリトゥス・インウィクトゥスがあると消さずに上の設置範囲へ移す。スピリトゥス・ルイナがあると上のチェストのアイテムに一致するブロックだけを消す。未加工のスピリトゥスで更新が速くなる。
+.yawning_void.spiritus.invictus	スピリトゥス・インウィクトゥス: 消したブロックを消さずにマスター石の上の3x3x3の設置範囲へ移す。
+.yawning_void.spiritus.raw	未加工のスピリトゥス: 更新を速める。未加工のオーラが十分なら1tickに1ブロックに近づく。
+.yawning_void.spiritus.ruina	スピリトゥス・ルイナ: マスター石の真上のホワイトリスト用チェストに一致するアイテムのブロックだけを消す。
+.zephyr	集いの風
+=Persistent wind that gathers loose items and XP, depositing them with the master stone or a nearby player.	落ちているアイテムと経験値を集めて、マスター石か近くのプレイヤーに届ける絶え間ない風。
+@ sentient_upgrade.neovitae.
+.arrow_protect	針山
+.battle_hungry	戦いに飢えて
+.crippled_arm	不自由な腕
+.curios_socket	Curios枠
+.dig_slowdown	鉛のツルハシ
+.digging	ドワーフの力
+.elytra	エリトラ
+.experienced	熟練
+.fall_protect	軟着地
+.fire_resist	イグニスの加護
+.gilded	金めっき
+.health	健康
+.hollow_hunger	うつろな飢え
+.jump	強靭な脚
+.knockback_resist	筋肉自慢
+.luck	器用
+.melee_damage	激しい一撃
+.melee_decrease	なまくら刃
+.netherite_protect	輝き
+.physical_protect	頑強
+.poison_resist	毒耐性
+.quenched	渇きの消失
+.repair	修復
+.self_sacrifice	硬い手のひら
+.slow_heal	病
+.speed	俊足
+.speed_decrease	足の引きずり
+.sprint_attack	突進攻撃
+.storm_trooper	ノーコン兵
+.swim_decrease	コンクリートの靴
+=Spiritus Invictus	スピリトゥス・インウィクトゥス
+=Spiritus Nihilum	スピリトゥス・ニヒルム
+spiritus.neovitae.raw	未加工のスピリトゥス
+=Spiritus Ruina	スピリトゥス・ルイナ
+=Spiritus Vindicta	スピリトゥス・ウィンディクタ
+@ tooltip.neovitae.
+.activated	起動中
+.activationcrystal.awakened	より強力な儀式を起動する。
+.activationcrystal.creative	クリエイティブ専用 - どんな儀式でも起動する。
+.activationcrystal.weak	低レベルの儀式を起動する。
+.anointment.bow_power.desc	矢のダメージを上げる
+.anointment.bow_velocity.desc	矢の速度を上げる
+.anointment.fortune.desc	ブロックのドロップを増やす(幸運)
+.anointment.hidden_knowledge.desc	ブロックの採掘で得る経験値を増やす
+.anointment.holy_water.desc	アンデッドに追加ダメージを与える
+.anointment.level	レベル: %s
+.anointment.looting.desc	モブのドロップを増やす(ドロップ増加)
+.anointment.melee_damage.desc	与える近接ダメージを上げる
+.anointment.quick_draw.desc	弓を引く時間を短くする
+.anointment.repairing.desc	攻撃が当たると経験値を使って武器を修理する
+=Hold Shift for details	Shiftを押し続けると詳細を表示
+.anointment.silk_touch.desc	シルクタッチでブロックを回収する
+.anointment.smelting.desc	採掘のドロップを自動で精錬する
+.anointment.spiritus_drain.desc	矢が当たるとスピリトゥスを吸い取る
+.anointment.uses	使用回数: %s
+.anointment.voiding.desc	採掘の不要なドロップを消す
+.arcane_scribe_tool	表面に使うと錬金陣を描く
+.arcane_scribe_tool.color	色: %s
+.arctool.additionaldrops	追加出力の確率: %s倍
+.arctool.craftspeed	クラフト速度: %s倍
+.arctool.usage	アタノールで使う
+.arctool.usage.cutting_fluid	アタノールとタブラ・ヴィータで使う
+.arctool.uses	残り使用回数: %s
+.array_effect.binding	アイテムを所有者の魂のネットワークに結びつける。
+.array_effect.bounce	エンティティを空高く跳ね上げる。しゃがむと無効。
+.array_effect.collection	2ブロック以内の落ちているアイテムを引き寄せる。チェストの上に置くと自動で回収する。
+.array_effect.crafting	アイテムを新しい形に変える。
+.array_effect.day	時刻を夜明けまで進める。使うと消費される。
+.array_effect.deflection	陣の上の柱状の範囲を通る投射物を跳ね返す。
+.array_effect.elevator	上か下に別の転移の陣が必要。ジャンプで上へ、スニークで下へテレポートする。範囲: 64ブロック。
+.array_effect.endless_fountain	5tickごとに、隣接する液体タンクを最大6バケツ分の水で満たす。
+.array_effect.freeze	水源を凍らせ、地面を雪で覆う。使うと消費される。
+.array_effect.furnace	地面のアイテムをかまどのレシピで精錬する。1スタックごとに10 EV。アイテムが消えなくなる。
+.array_effect.growth	半径2ブロックの作物と植物の成長を早める。
+.array_effect.imprisonment	モブスポナーの上に置く。11x11x11以内で次に倒したモブがスポナーの新しいモブになり、陣は消費される。
+.array_effect.light	陣の上の範囲に見えない光源を置く。
+.array_effect.loyal_friends	飼いならした仲間を陣の近くに呼び出し、復活させる。
+.array_effect.movement	陣の向いている方向にエンティティを加速させる。
+.array_effect.night	時刻を夜まで進める。使うと消費される。
+.array_effect.rain	雨の有無を切り替える。500 EVかかる。使うと消費される。
+.array_effect.repulsion	半径5ブロックの敵対モブを押しのける。
+.array_effect.signal	所有者のEVの量に応じて0〜15のレッドストーン信号を出す。
+.array_effect.spike	陣を踏んだエンティティにダメージを与える。
+.array_effect.spirit_siphon	プレイヤー以外のモブにダメージを与え、チャンクに未加工のスピリトゥスを放出する。
+.array_effect.trigger	モブかプレイヤーが陣を踏むとレッドストーンのパルスを出す。
+.array_effect.undertow	上の水に泡の柱を通す。右クリックで上向き(押し上げ)と下向き(引き込み)を切り替える。
+.array_effect.updraft	突風でエンティティを上に打ち上げる。
+.array_effect.vortex	近くのエンティティを陣に引き寄せ、エンダーマンのテレポートを防ぐ。
+.blood_battery.capacity	容量: %s FE
+.blood_battery.creative	クリエイティブ専用
+.blood_lantern.desc	半径16ブロックの友好モブと環境モブのスポーンを防ぐ。
+.blood_mending	血の修繕のエンチャント付き
+.blood_provider.slate.desc	500 EVの入った簡素なアンプル。
+.bound_treasures.linked	コンテナと連結済み
+.bound_treasures.missing	連結したコンテナはもう存在しない
+.bound_treasures.not_linked	コンテナと連結していない。コンテナをShift+右クリックで結びつける。
+.bound_treasures.unloaded	連結したコンテナは読み込まれていない場所にある
+.container_tier	現在のティア: %s
+.container_tier_missing	ティアが見つからない！
+.crystal_catalyst.aspect	アスペクト: %s
+.crystal_catalyst.desc	同じアスペクトのスピリトゥスの結晶を右クリックすると成長を早め、成長しきった未加工の結晶群を右クリックすると変成させる(アニムスの粒を1つ消費)
+.currentOwner	結びつけた相手: %s
+.current_owner	現在の所有者: %s
+.current_type.invictus	内容: インウィクトゥスのスピリトゥス
+.current_type.nihilum	内容: ニヒルムのスピリトゥス
+.current_type.raw	内容: 未加工のスピリトゥス
+.current_type.ruina	内容: ルイナのスピリトゥス
+.current_type.vindicta	内容: ウィンディクタのスピリトゥス
+.deactivated	停止中
+.decoration.safe	装飾に使っても安全
+.diviner.airRune	風のルーン: %d
+.diviner.blankRune	無地のルーン: %d
+.diviner.currentDirection	現在の方向: %s
+.diviner.currentRitual	現在の儀式: %s
+.diviner.cycleHint	空中を右クリックで儀式を選ぶ
+.diviner.desc	儀式を組み立てるのに使う。
+.diviner.earthRune	地のルーン: %d
+.diviner.extraExtraInfo	-Shift+Altを押し続けると増強の情報-
+.diviner.extraInfo	Shiftで追加情報を表示。
+.diviner.fireRune	火のルーン: %d
+.diviner.noRitual	儀式が選ばれていない
+.diviner.stat.activation	覚醒: %s EV
+.diviner.stat.crystal	%sが必要
+.diviner.stat.cycle	周期: %s tickごと
+.diviner.stat.upkeep	維持費: 1周期あたり%s EV
+.diviner.totalRune	ルーンの合計: %d
+.diviner.waterRune	水のルーン: %d
+.dungeon_key.desc	封印されたダンジョンの扉に使う
+.dungeon_key.type	鍵の種類: %s
+.enchantment_amplifier	エンチャントテーブルの増幅に使える
+.experience_tome.sneak_use	使用: 書物を開く
+.experience_tome.stored	蓄えた経験値: %s
+.experience_tome.use	レベルをまとめて蓄えたり引き出したりする
+.flask.combination	組み合わせのポーション - 詳しくはスクリプトゥラ・ヴィータを参照
+.fluid_content	内容: %2$s %1$smB
+.fluid_content_empty	空
+.has_living_stats	何かのメモがあるが、読み解けない
+.imperfectRitualStone.desc	手軽な効果を得るための簡素な儀式石
+.imperfectRitualStone.hint	上にブロックを置いて右クリックで起動
+.inscriber.desc	文字は壁に書いてある…
+.lavaCrystal.desc	火を置く。結びつけられるかまどの燃料
+.lexVitae.active	起動中
+.lexVitae.desc	意志ある万能道具: 伐採、採掘、掘削、耕作をこなす。スニーク+右クリックで切り替え。スニーク+スクロールで採掘範囲を設定。モード切り替えキーでビームを採掘、攻撃、両方に切り替える。掘ったブロックは直接インベントリに送られる。
+.lexVitae.dormant	休眠中
+.lexVitae.mode	モード: %s
+.lexVitae.mode.both	採掘と攻撃
+.lexVitae.mode.damaging	攻撃
+.lexVitae.mode.mining	採掘
+.lexVitae.radius	範囲: %sx%s
+.lexVitae.rider.nihilum	壊滅的なダメージと採掘のボーナス
+.lexVitae.rider.raw	蓄えた未加工のスピリトゥスであらゆる動作を強化
+.lexVitae.rider.vindicta	振りと照射が速くなる
+.masterRitualStone.inverted	反転 - 動かすにはレッドストーン信号が必要
+.no_owner	まだ結びつけられていない
+.noderouter.coords	記録した位置: %d, %d, %d
+.orb.anima_max	アニマの上限を%sに上げる
+.orb.fluid	蓄えた血: %s / %s mB
+.orb.tier	ティア%s
+.reader.currentRange	範囲: %s
+.reader.currentState	モード: %s
+.reader.desc	儀式の範囲を設定するのに使う。
+.reader.help.1	マスター儀式石を右クリックで設定装置を開く
+.reader.help.2	作業範囲かチェストの枠を選んで「ワールドで範囲を編集」を選ぶ
+.reader.help.3	2つの角をクリックで範囲を、1ブロックをクリックで単一ブロックの枠を設定
+.reader.help.4	スニーク+右クリックで範囲の編集をキャンセル
+.reader.state.information	情報
+.reader.state.set_area_corner_1	範囲の角1を設定
+.reader.state.set_area_corner_2	範囲の角2を設定
+.rune.acceleration	アラ・ヴィータの動作間隔のtickを減らす
+.rune.blank	特別な効果のない基本のルーン
+.rune.capacity	アラ・ヴィータのEV容量を増やす
+.rune.capacity_augmented	アラ・ヴィータのEV容量を倍率で増やす
+.rune.charging	EVを事前に充填してクラフトを速くする
+.rune.dislocation	アラ・ヴィータとの液体の転送速度を上げる
+.rune.efficiency	クラフト中にアラ・ヴィータのEVが尽きたときの損失を減らす
+.rune.orb	アラ・ヴィータに置いたヴィータのオーブの容量を増やす
+.rune.reinforced	強化: 基本のルーンの効果が2倍
+.rune.sacrifice	モブを捧げて得るEVを増やす
+.rune.self_sacrifice	自己犠牲で得るEVを増やす
+.rune.speed	アラ・ヴィータのクラフト速度を上げる
+.save_for_decoration	装飾用に取っておく
+=Empowered by spiritus in your inventory	インベントリのスピリトゥスで強化される
+=Grants Absorption on kills	倒すと衝撃吸収を得る
+.sentientAxe.rider.nihilum	ダメージが大きく伸びる
+=Damage scales with stored Raw spiritus	蓄えた未加工のスピリトゥスに応じてダメージが伸びる
+=Withers struck targets	攻撃した相手をウィザー状態にする
+.sentientAxe.rider.vindicta	軽くて素早い振り
+=Heavy damage when used as a weapon	武器として使うと大ダメージ
+=Mining speed and damage scale with Raw spiritus	未加工のスピリトゥスに応じて採掘速度とダメージが伸びる
+=Quicker strikes; light in hand	素早い一撃。手に軽い
+.sentientScythe.desc	スピリトゥスで強化される範囲ダメージ
+.sentientScythe.rider.nihilum	壊滅的ななぎ払いダメージ
+.sentientScythe.rider.raw	蓄えた未加工のスピリトゥスに応じてなぎ払いダメージが伸びる
+.sentientScythe.rider.ruina	なぎ払った相手をウィザー状態にする
+.sentientScythe.rider.vindicta	速く軽いなぎ払い
+.sentientSword.rider.nihilum	ダメージが大きく伸びるが、攻撃速度は遅い
+.sentientSword.rider.vindicta	攻撃が速く、移動速度にもボーナス
+.sigil.air.desc	空中に飛び上がる
+.sigil.blood_light.brightness	明るさ: %s
+.sigil.blood_light.color	色: %s
+.sigil.blood_light.desc	設定できる色付きの光源を作る
+.sigil.blood_light.rainbow	虹色
+.sigil.bound_treasures.desc	結びつけたコンテナをどこからでも開く。コンテナをShift+右クリックで結びつける。
+.sigil.damned.desc	倒れた者の血が持ち主を強くする。
+.sigil.damned.sacrifice	+25 生贄ボーナス
+.sigil.damned.siphon	+10 血の吸い上げ(倒すと回復)
+.sigil.damned.spiritus	+50 スピリトゥス収集ボーナス
+.sigil.divination.creative.capacityMod	容量の倍率: %s倍
+.sigil.divination.creative.chargingRate	充填速度: %s EV/tick
+.sigil.divination.creative.dislocationMod	移送の倍率: %s倍
+.sigil.divination.creative.efficiencyMod	効率: %s倍
+.sigil.divination.creative.incense	香: %s
+.sigil.divination.creative.orbCapMod	オーブ容量のボーナス: +%s
+.sigil.divination.creative.sacrificeMod	生贄のボーナス: +%s
+.sigil.divination.creative.selfSacMod	自己犠牲のボーナス: +%s
+.sigil.divination.creative.speedMod	速度のボーナス: +%s
+.sigil.divination.creative.tickRate	tick間隔: %s tick
+=Ara Vitae Capacity: %s EV	アラ・ヴィータの容量: %s EV
+=Current Ara Vitae Tier: %s	現在のアラ・ヴィータのティア: %s
+=Current Essentia Vitae: %s	現在のエッセンティア・ヴィータ: %s
+.sigil.divination.currentNetworkLP	アニマ: %s EV
+.sigil.divination.desc	アラ・ヴィータか自分のアニマの状態を示す
+=Viewing network of: %s	表示中のネットワーク: %s
+.sigil.fast_miner.desc	有効な間、採掘速度が上がる
+.sigil.frost.desc	足元の水を凍らせる
+.sigil.green_grove.desc	近くの植物の成長を早める
+.sigil.holding.desc	印章を最大5つまで保持する - スクロールで切り替え
+.sigil.holding.sigilInSlot	スロット%s: %s
+.sigil.lava.desc	溶岩源を置く
+.sigil.magnetism.desc	近くのアイテムを引き寄せる
+.sigil.necromancy.desc	倒れたモブの骨を、命令に従う一時的な骸骨の味方としてよみがえらせる。
+.sigil.phantom_bridge.desc	足元に幻影の橋を作る
+.sigil.seer.currentAltarConsumption	消費速度: %s EV/t
+.sigil.seer.currentAltarProgress	クラフトの進行度: %s%%
+.sigil.seer.desc	アラ・ヴィータか自分のアニマの詳しい情報を示す
+.sigil.suppression.desc	近くの液体を押しのける
+.sigil.teleposition.bound	%s, %s, %sのテレポーザーに結びつけ済み。
+.sigil.teleposition.desc	結びつけた場所へテレポートする
+.sigil.teleposition.invalid_dimension	結びつけたテレポーザーのディメンションが読み込まれていない。
+.sigil.teleposition.no_teleposer	結びつけた場所にはもうテレポーザーがない。
+.sigil.teleposition.unbound	この印章はテレポーザーに結びついていない。テレポーザーを右クリックで結びつける。
+.sigil.upkeep	維持費: %s EV / %s秒
+.sigil.void.desc	目の前の液体を消す
+.sigil.water.desc	水源を置く
+.spiritus	スピリトゥス: %s
+.spiritus.aoe_radius	範囲半径%sブロック
+.spiritus.damage_bonus	+%s ボーナスダメージ
+.spiritus.level	レベル%s(意志%s)
+.spiritus.mining_speed	+%s 採掘速度
+.spiritus.raw	未加工
+.spiritus.rider.invictus	倒すと%s秒間の衝撃吸収のハート
+.spiritus.rider.invictus.inactive	衝撃吸収を与えるにはスピリトゥス・インウィクトゥスが足りない
+.spiritus.rider.ruina	攻撃が当たると%s秒間のウィザー%s
+.spiritus.rider.ruina.inactive	ウィザーを与えるにはスピリトゥス・ルイナが足りない
+.spiritus.type	同調: %s
+.spiritus_gauge	周囲のスピリトゥスの量を示す
+.spiritus_gem.spiritus_gem_common	より多くのスピリトゥスを入れておくジェム。
+.spiritus_gem.spiritus_gem_grand	大量のスピリトゥスを入れておくジェム。
+.spiritus_gem.spiritus_gem_greater	かなりの量のスピリトゥスを入れておくジェム。
+.spiritus_gem.spiritus_gem_lesser	いくらかのスピリトゥスを入れておくジェム。
+.spiritus_gem.spiritus_gem_petty	少しのスピリトゥスを入れておくジェム。
+.spiritus_stored	スピリトゥス: %s / %s
+.telepositionfocus.coords	座標: %s, %s, %s
+.telepositionfocus.world	ディメンション: %s
+.throwing_dagger.desc	敵に投げてダメージを与える
+.upgrade_points	強化ポイント: %s/%s
+trainer.neovitae.allow_others	他を許可
+trainer.neovitae.deny_others	他を拒否
+trainer.neovitae.save	保存
+trim_material.neovitae.demonite	獄炎鍛造

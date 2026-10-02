@@ -1,0 +1,1006 @@
+## aether_ii
+block.aether_ii.abandoned_bag	捨てられたかばん
+block.aether_ii.aechor_cutting	エーコル草の挿し穂
+block.aether_ii.aether_bush	エーテルの茂み
+block.aether_ii.aether_dirt	エーテルの土
+block.aether_ii.aether_dirt_path	エーテルの土の道
+block.aether_ii.aether_farmland	エーテルの耕地
+block.aether_ii.aether_fern	エーテルのシダ
+block.aether_ii.aether_grass_block	エーテルの草ブロック
+block.aether_ii.aether_portal	エーテルポータル
+block.aether_ii.agiosite	アギオサイト
+block.aether_ii.agiosite_base_bricks	アギオサイトの土台レンガ
+block.aether_ii.agiosite_base_pillar	アギオサイトの土台の柱
+block.aether_ii.agiosite_brick_slab	アギオサイトレンガのハーフブロック
+block.aether_ii.agiosite_brick_stairs	アギオサイトレンガの階段
+block.aether_ii.agiosite_brick_wall	アギオサイトレンガの壁
+block.aether_ii.agiosite_bricks	アギオサイトレンガ
+block.aether_ii.agiosite_capstone_bricks	アギオサイトの笠石レンガ
+block.aether_ii.agiosite_capstone_pillar	アギオサイトの笠石の柱
+block.aether_ii.agiosite_flagstones	アギオサイトの敷石
+block.aether_ii.agiosite_keystone	アギオサイトの要石
+block.aether_ii.agiosite_pillar	アギオサイトの柱
+block.aether_ii.agiosite_slab	アギオサイトのハーフブロック
+block.aether_ii.agiosite_stairs	アギオサイトの階段
+block.aether_ii.agiosite_wall	アギオサイトの壁
+block.aether_ii.alkahest	アルカヘスト
+block.aether_ii.alkahest_purifier	アルカヘスト浄化器
+block.aether_ii.altar	祭壇
+block.aether_ii.amber_hourglass	琥珀の砂時計
+block.aether_ii.amberoot_base_beam	アンバールートの土台の梁
+block.aether_ii.amberoot_base_planks	アンバールートの土台の板材
+block.aether_ii.amberoot_beam	アンバールートの梁
+block.aether_ii.amberoot_bookshelf	アンバールートの本棚
+block.aether_ii.amberoot_button	アンバールートのボタン
+block.aether_ii.amberoot_deposit	アンバールートの琥珀鉱床
+block.aether_ii.amberoot_door	アンバールートのドア
+block.aether_ii.amberoot_fence	アンバールートのフェンス
+block.aether_ii.amberoot_fence_gate	アンバールートのフェンスゲート
+block.aether_ii.amberoot_floorboards	アンバールートの床板
+block.aether_ii.amberoot_hanging_sign	アンバールートの吊り看板
+block.aether_ii.amberoot_highlight	アンバールートの縁取り板材
+block.aether_ii.amberoot_leaf_pile	アンバールートの落ち葉
+block.aether_ii.amberoot_leaves	アンバールートの葉
+block.aether_ii.amberoot_log	アンバールートの原木
+block.aether_ii.amberoot_planks	アンバールートの板材
+block.aether_ii.amberoot_pressure_plate	アンバールートの感圧板
+block.aether_ii.amberoot_sapling	アンバールートの苗木
+block.aether_ii.amberoot_shelf	アンバールートの棚
+block.aether_ii.amberoot_shingles	アンバールートの屋根板
+block.aether_ii.amberoot_sign	アンバールートの看板
+block.aether_ii.amberoot_slab	アンバールートのハーフブロック
+block.aether_ii.amberoot_small_shingles	アンバールートの小さな屋根板
+block.aether_ii.amberoot_stairs	アンバールートの階段
+block.aether_ii.amberoot_top_beam	アンバールートの上部の梁
+block.aether_ii.amberoot_top_planks	アンバールートの上部の板材
+block.aether_ii.amberoot_trapdoor	アンバールートのトラップドア
+block.aether_ii.amberoot_trunk	アンバールートの幹
+block.aether_ii.amberoot_wood	アンバールートの木
+block.aether_ii.ambrelinn_moss_block	アンブレリン苔ブロック
+block.aether_ii.ambrelinn_moss_carpet	アンブレリン苔のカーペット
+block.aether_ii.ambrelinn_moss_vines	アンブレリン苔のつる
+block.aether_ii.ambrosium_block	アンブロシアのブロック
+block.aether_ii.ambrosium_campfire	アンブロシアの焚き火
+block.aether_ii.ambrosium_ore	アンブロシア鉱石
+block.aether_ii.ambrosium_torch	アンブロシアの松明
+block.aether_ii.animal_stash	動物の隠し場所
+block.aether_ii.arctic_ice	極地の氷
+block.aether_ii.arctic_packed_ice	極地の氷塊
+block.aether_ii.arctic_snow	極地の雪
+block.aether_ii.arctic_snow_block	極地の雪ブロック
+block.aether_ii.arilum	アリラム
+block.aether_ii.arilum_plant	アリラム
+block.aether_ii.arilum_shoot	アリラム
+block.aether_ii.arkenium_bars	アーケニウムの鉄格子
+block.aether_ii.arkenium_block	アーケニウムのブロック
+block.aether_ii.arkenium_chain	アーケニウムの鎖
+block.aether_ii.arkenium_door	アーケニウムのドア
+block.aether_ii.arkenium_forge	アーケニウムの鍛造炉
+block.aether_ii.arkenium_framed_crude_scatterglass	アーケニウム枠の粗い散光ガラス
+block.aether_ii.arkenium_framed_crude_scatterglass_pane	アーケニウム枠の粗い散光ガラス板
+block.aether_ii.arkenium_framed_scatterglass	アーケニウム枠の散光ガラス
+block.aether_ii.arkenium_framed_scatterglass_pane	アーケニウム枠の散光ガラス板
+block.aether_ii.arkenium_lantern	アーケニウムのランタン
+block.aether_ii.arkenium_ore	アーケニウム鉱石
+block.aether_ii.arkenium_trapdoor	アーケニウムのトラップドア
+block.aether_ii.artisans_bench	職人の作業台
+block.aether_ii.black_arilum_lantern	黒色のアリラムのランタン
+block.aether_ii.black_cloudwool	黒色の雲羊毛
+block.aether_ii.black_cloudwool_carpet	黒色の雲羊毛のカーペット
+block.aether_ii.black_skyroot_bed	黒色のスカイルートのベッド
+block.aether_ii.blade_poa	ブレードポア
+block.aether_ii.blooming_arilum	咲いたアリラム
+block.aether_ii.blooming_arilum_plant	咲いたアリラム
+block.aether_ii.blue_aercloud	青い天空雲
+block.aether_ii.blue_arilum_lantern	青色のアリラムのランタン
+block.aether_ii.blue_cloudwool	青色の雲羊毛
+block.aether_ii.blue_cloudwool_carpet	青色の雲羊毛のカーペット
+block.aether_ii.blue_skyroot_bed	青色のスカイルートのベッド
+block.aether_ii.blueberry_bush	ブルーベリーの茂み
+block.aether_ii.blueberry_bush_stem	ブルーベリーの茂みの茎
+block.aether_ii.boss_doorway_block	ボス部屋の入口ブロック
+block.aether_ii.brettl_flower	ブレトルの花
+block.aether_ii.brettl_grass_bundle	ブレトル草の束
+block.aether_ii.brettl_plant	ブレトル草
+block.aether_ii.brettl_plant_tip	ブレトル草の先端
+block.aether_ii.brexallen_vase	ブレクサレンの花瓶
+block.aether_ii.brown_arilum_lantern	茶色のアリラムのランタン
+block.aether_ii.brown_cloudwool	茶色の雲羊毛
+block.aether_ii.brown_cloudwool_carpet	茶色の雲羊毛のカーペット
+block.aether_ii.brown_skyroot_bed	茶色のスカイルートのベッド
+block.aether_ii.bryalinn_moss_block	ブリャリン苔ブロック
+block.aether_ii.bryalinn_moss_carpet	ブリャリン苔のカーペット
+block.aether_ii.bryalinn_moss_flowers	ブリャリン苔の花
+block.aether_ii.bryalinn_moss_vines	ブリャリン苔のつる
+block.aether_ii.carrion_cutting	キャリオン芽の挿し穂
+block.aether_ii.cloudwool	雲羊毛
+block.aether_ii.cloudwool_bedroll	雲羊毛の寝袋
+block.aether_ii.cloudwool_carpet	雲羊毛のカーペット
+block.aether_ii.cloudwool_roofing	雲羊毛の屋根
+block.aether_ii.coarse_aether_dirt	粗いエーテルの土
+block.aether_ii.cold_aercloud	冷たい天空雲
+block.aether_ii.corrobonite_block	コロボナイトのブロック
+block.aether_ii.corrobonite_cluster	コロボナイトの結晶群
+block.aether_ii.corrobonite_ore	コロボナイト鉱石
+block.aether_ii.crude_scatterglass	粗い散光ガラス
+block.aether_ii.crude_scatterglass_pane	粗い散光ガラス板
+block.aether_ii.curved_arkenium_bars	曲がったアーケニウムの鉄格子
+block.aether_ii.cyan_arilum_lantern	青緑色のアリラムのランタン
+block.aether_ii.cyan_cloudwool	青緑色の雲羊毛
+block.aether_ii.cyan_cloudwool_carpet	青緑色の雲羊毛のカーペット
+block.aether_ii.cyan_skyroot_bed	青緑色のスカイルートのベッド
+block.aether_ii.enchanted_aether_grass_block	エンチャントされたエーテルの草ブロック
+block.aether_ii.faded_holystone_base_bricks	色あせた聖石の土台レンガ
+block.aether_ii.faded_holystone_base_pillar	色あせた聖石の土台の柱
+block.aether_ii.faded_holystone_brick_slab	色あせた聖石レンガのハーフブロック
+block.aether_ii.faded_holystone_brick_stairs	色あせた聖石レンガの階段
+block.aether_ii.faded_holystone_brick_wall	色あせた聖石レンガの壁
+block.aether_ii.faded_holystone_bricks	色あせた聖石レンガ
+block.aether_ii.faded_holystone_capstone_bricks	色あせた聖石の笠石レンガ
+block.aether_ii.faded_holystone_capstone_pillar	色あせた聖石の笠石の柱
+block.aether_ii.faded_holystone_flagstones	色あせた聖石の敷石
+block.aether_ii.faded_holystone_headstone	色あせた聖石の墓石
+block.aether_ii.faded_holystone_keystone	色あせた聖石の要石
+block.aether_ii.faded_holystone_pillar	色あせた聖石の柱
+block.aether_ii.ferrosite	フェロサイト
+block.aether_ii.ferrosite_mud	フェロサイトの泥
+block.aether_ii.ferrosite_sand	フェロサイトの砂
+block.aether_ii.floral_arkenium_bars	花模様のアーケニウムの鉄格子
+block.aether_ii.fragile_arctic_ice	もろい極地の氷
+block.aether_ii.frosted_arctic_ice	霜の降りた極地の氷
+block.aether_ii.frosted_ice	氷霜
+block.aether_ii.fungal_cache	菌類の隠し場所
+block.aether_ii.gel_block	ジェルブロック
+block.aether_ii.glint_block	グリントのブロック
+block.aether_ii.glint_ore	グリント鉱石
+block.aether_ii.golden_aercloud	金色の天空雲
+block.aether_ii.golden_amber_block	黄金の琥珀のブロック
+block.aether_ii.gravitite_block	グラビタイトのブロック
+block.aether_ii.gravitite_ore	グラビタイト鉱石
+block.aether_ii.gray_arilum_lantern	灰色のアリラムのランタン
+block.aether_ii.gray_cloudwool	灰色の雲羊毛
+block.aether_ii.gray_cloudwool_carpet	灰色の雲羊毛のカーペット
+block.aether_ii.gray_skyroot_bed	灰色のスカイルートのベッド
+block.aether_ii.greatboa_leaf_pile	グレートボアの落ち葉
+block.aether_ii.greatboa_leaves	グレートボアの葉
+block.aether_ii.greatboa_sapling	グレートボアの苗木
+block.aether_ii.greatoak_leaf_pile	グレートオークの落ち葉
+block.aether_ii.greatoak_leaves	グレートオークの葉
+block.aether_ii.greatoak_sapling	グレートオークの苗木
+block.aether_ii.greatroot_base_beam	グレートルートの土台の梁
+block.aether_ii.greatroot_base_planks	グレートルートの土台の板材
+block.aether_ii.greatroot_beam	グレートルートの梁
+block.aether_ii.greatroot_bookshelf	グレートルートの本棚
+block.aether_ii.greatroot_button	グレートルートのボタン
+block.aether_ii.greatroot_door	グレートルートのドア
+block.aether_ii.greatroot_fence	グレートルートのフェンス
+block.aether_ii.greatroot_fence_gate	グレートルートのフェンスゲート
+block.aether_ii.greatroot_floorboards	グレートルートの床板
+block.aether_ii.greatroot_hanging_sign	グレートルートの吊り看板
+block.aether_ii.greatroot_highlight	グレートルートの縁取り板材
+block.aether_ii.greatroot_leaf_pile	グレートルートの落ち葉
+block.aether_ii.greatroot_leaves	グレートルートの葉
+block.aether_ii.greatroot_log	グレートルートの原木
+block.aether_ii.greatroot_planks	グレートルートの板材
+block.aether_ii.greatroot_pressure_plate	グレートルートの感圧板
+block.aether_ii.greatroot_sapling	グレートルートの苗木
+block.aether_ii.greatroot_shelf	グレートルートの棚
+block.aether_ii.greatroot_shingles	グレートルートの屋根板
+block.aether_ii.greatroot_sign	グレートルートの看板
+block.aether_ii.greatroot_slab	グレートルートのハーフブロック
+block.aether_ii.greatroot_small_shingles	グレートルートの小さな屋根板
+block.aether_ii.greatroot_stairs	グレートルートの階段
+block.aether_ii.greatroot_top_beam	グレートルートの上部の梁
+block.aether_ii.greatroot_top_planks	グレートルートの上部の板材
+block.aether_ii.greatroot_trapdoor	グレートルートのトラップドア
+block.aether_ii.greatroot_trunk	グレートルートの幹
+block.aether_ii.greatroot_wood	グレートルートの木
+block.aether_ii.green_aercloud	緑の天空雲
+block.aether_ii.green_arilum_lantern	緑色のアリラムのランタン
+block.aether_ii.green_cloudwool	緑色の雲羊毛
+block.aether_ii.green_cloudwool_carpet	緑色の雲羊毛のカーペット
+block.aether_ii.green_skyroot_bed	緑色のスカイルートのベッド
+block.aether_ii.gridded_quicksoil_glass	格子の流土のガラス
+block.aether_ii.gridded_quicksoil_glass_pane	格子の流土のガラス板
+block.aether_ii.guardian_donation_box	ガーディアンの献金箱
+block.aether_ii.guardian_lamp	ガーディアンのランプ
+block.aether_ii.guardian_log	ガーディアンの原木
+block.aether_ii.guardian_log_slab	ガーディアンの原木のハーフブロック
+block.aether_ii.guardian_pew	ガーディアンの長椅子
+block.aether_ii.guardian_roots	ガーディアンの根
+block.aether_ii.guardian_trunk	ガーディアンの幹
+block.aether_ii.guardian_wood	ガーディアンの木
+block.aether_ii.guardian_wood_slab	ガーディアンの木のハーフブロック
+block.aether_ii.hanging_undergrowth	垂れ下がる下草
+block.aether_ii.hanging_undergrowth_plant	垂れ下がる下草の株
+block.aether_ii.hesperose	ヘスペローズ
+block.aether_ii.hestveil	ヘストヴェイル
+block.aether_ii.holpupea	ホルプピア
+block.aether_ii.holystone	聖石
+block.aether_ii.holystone_base_bricks	聖石の土台レンガ
+block.aether_ii.holystone_base_pillar	聖石の土台の柱
+block.aether_ii.holystone_bookshelf	聖石の本棚
+block.aether_ii.holystone_brick_slab	聖石レンガのハーフブロック
+block.aether_ii.holystone_brick_stairs	聖石レンガの階段
+block.aether_ii.holystone_brick_wall	聖石レンガの壁
+block.aether_ii.holystone_bricks	聖石レンガ
+block.aether_ii.holystone_button	聖石のボタン
+block.aether_ii.holystone_capstone_bricks	聖石の笠石レンガ
+block.aether_ii.holystone_capstone_pillar	聖石の笠石の柱
+block.aether_ii.holystone_flagstones	聖石の敷石
+block.aether_ii.holystone_furnace	聖石のかまど
+block.aether_ii.holystone_headstone	聖石の墓石
+block.aether_ii.holystone_keystone	聖石の要石
+block.aether_ii.holystone_lever	聖石のレバー
+block.aether_ii.holystone_pillar	聖石の柱
+block.aether_ii.holystone_pressure_plate	聖石の感圧板
+block.aether_ii.holystone_quartz_ore	聖石の石英鉱石
+block.aether_ii.holystone_rock	聖石の小石
+block.aether_ii.holystone_slab	聖石のハーフブロック
+block.aether_ii.holystone_smoker	聖石の燻製器
+block.aether_ii.holystone_stairs	聖石の階段
+block.aether_ii.holystone_vase	聖石の花瓶
+block.aether_ii.holystone_wall	聖石の壁
+block.aether_ii.icestone	氷石
+block.aether_ii.icestone_base_bricks	氷石の土台レンガ
+block.aether_ii.icestone_base_pillar	氷石の土台の柱
+block.aether_ii.icestone_bricks	氷石レンガ
+block.aether_ii.icestone_bricks_slab	氷石レンガのハーフブロック
+block.aether_ii.icestone_bricks_stairs	氷石レンガの階段
+block.aether_ii.icestone_bricks_wall	氷石レンガの壁
+block.aether_ii.icestone_capstone_bricks	氷石の笠石レンガ
+block.aether_ii.icestone_capstone_pillar	氷石の笠石の柱
+block.aether_ii.icestone_flagstones	氷石の敷石
+block.aether_ii.icestone_keystone	氷石の要石
+block.aether_ii.icestone_pillar	氷石の柱
+block.aether_ii.icestone_slab	氷石のハーフブロック
+block.aether_ii.icestone_stairs	氷石の階段
+block.aether_ii.icestone_wall	氷石の壁
+block.aether_ii.ichorite	イコライト
+block.aether_ii.ichorite_base_bricks	イコライトの土台レンガ
+block.aether_ii.ichorite_base_pillar	イコライトの土台の柱
+block.aether_ii.ichorite_brick_slab	イコライトレンガのハーフブロック
+block.aether_ii.ichorite_brick_stairs	イコライトレンガの階段
+block.aether_ii.ichorite_brick_wall	イコライトレンガの壁
+block.aether_ii.ichorite_bricks	イコライトレンガ
+block.aether_ii.ichorite_capstone_bricks	イコライトの笠石レンガ
+block.aether_ii.ichorite_capstone_pillar	イコライトの笠石の柱
+block.aether_ii.ichorite_flagstones	イコライトの敷石
+block.aether_ii.ichorite_keystone	イコライトの要石
+block.aether_ii.ichorite_pillar	イコライトの柱
+block.aether_ii.ichorite_runestone	イコライトのルーン石
+block.aether_ii.ichorite_slab	イコライトのハーフブロック
+block.aether_ii.ichorite_stairs	イコライトの階段
+block.aether_ii.ichorite_wall	イコライトの壁
+block.aether_ii.inert_arkenium_block	不活性のアーケニウムのブロック
+block.aether_ii.inert_gravitite_block	不活性のグラビタイトのブロック
+block.aether_ii.infected_log	感染した木の原木
+block.aether_ii.infected_log_slab	感染した木の原木のハーフブロック
+block.aether_ii.infected_trunk	感染した木の幹
+block.aether_ii.infected_wood	感染した木の木
+block.aether_ii.infected_wood_slab	感染した木の木のハーフブロック
+block.aether_ii.irradiated_dust_block	照射された塵のブロック
+block.aether_ii.irradiated_greatboa_leaf_pile	照射されたグレートボアの落ち葉
+block.aether_ii.irradiated_greatboa_leaves	照射されたグレートボアの葉
+block.aether_ii.irradiated_greatoak_leaf_pile	照射されたグレートオークの落ち葉
+block.aether_ii.irradiated_greatoak_leaves	照射されたグレートオークの葉
+block.aether_ii.irradiated_greatroot_leaf_pile	照射されたグレートルートの落ち葉
+block.aether_ii.irradiated_greatroot_leaves	照射されたグレートルートの葉
+block.aether_ii.irradiated_holystone	照射された聖石
+block.aether_ii.irradiated_holystone_slab	照射された聖石のハーフブロック
+block.aether_ii.irradiated_holystone_stairs	照射された聖石の階段
+block.aether_ii.irradiated_holystone_wall	照射された聖石の壁
+block.aether_ii.irradiated_skybirch_leaf_pile	照射されたスカイバーチの落ち葉
+block.aether_ii.irradiated_skybirch_leaves	照射されたスカイバーチの葉
+block.aether_ii.irradiated_skypine_leaf_pile	照射されたスカイパインの落ち葉
+block.aether_ii.irradiated_skypine_leaves	照射されたスカイパインの葉
+block.aether_ii.irradiated_skyplane_leaf_pile	照射されたスカイプレーンの落ち葉
+block.aether_ii.irradiated_skyplane_leaves	照射されたスカイプレーンの葉
+block.aether_ii.irradiated_skyroot_leaf_pile	照射されたスカイルートの落ち葉
+block.aether_ii.irradiated_skyroot_leaves	照射されたスカイルートの葉
+block.aether_ii.irradiated_wisproot_leaf_pile	照射されたウィスプルートの落ち葉
+block.aether_ii.irradiated_wisproot_leaves	照射されたウィスプルートの葉
+block.aether_ii.irradiated_wisptop_leaf_pile	照射されたウィスプトップの落ち葉
+block.aether_ii.irradiated_wisptop_leaves	照射されたウィスプトップの葉
+block.aether_ii.large_arctic_ice_crystal	大きな極地の氷晶
+block.aether_ii.light_blue_arilum_lantern	空色のアリラムのランタン
+block.aether_ii.light_blue_cloudwool	空色の雲羊毛
+block.aether_ii.light_blue_cloudwool_carpet	空色の雲羊毛のカーペット
+block.aether_ii.light_blue_skyroot_bed	空色のスカイルートのベッド
+block.aether_ii.light_gray_arilum_lantern	薄灰色のアリラムのランタン
+block.aether_ii.light_gray_cloudwool	薄灰色の雲羊毛
+block.aether_ii.light_gray_cloudwool_carpet	薄灰色の雲羊毛のカーペット
+block.aether_ii.light_gray_skyroot_bed	薄灰色のスカイルートのベッド
+block.aether_ii.lilichime	リリチャイム
+block.aether_ii.lime_arilum_lantern	黄緑色のアリラムのランタン
+block.aether_ii.lime_cloudwool	黄緑色の雲羊毛
+block.aether_ii.lime_cloudwool_carpet	黄緑色の雲羊毛のカーペット
+block.aether_ii.lime_skyroot_bed	黄緑色のスカイルートのベッド
+block.aether_ii.locked_block	鍵のかかったブロック
+block.aether_ii.lucent_guardian_roots	光るガーディアンの根
+block.aether_ii.magenta_arilum_lantern	赤紫色のアリラムのランタン
+block.aether_ii.magenta_cloudwool	赤紫色の雲羊毛
+block.aether_ii.magenta_cloudwool_carpet	赤紫色の雲羊毛のカーペット
+block.aether_ii.magenta_skyroot_bed	赤紫色のスカイルートのベッド
+block.aether_ii.magnetic_shroom	磁気キノコ
+block.aether_ii.magnetic_shroom_block	磁気キノコブロック
+block.aether_ii.magnetic_shroom_stem	磁気キノコの柄
+block.aether_ii.marbled_base_bricks	大理石模様の土台レンガ
+block.aether_ii.marbled_base_pillar	大理石模様の土台の柱
+block.aether_ii.marbled_brick_slab	大理石模様レンガのハーフブロック
+block.aether_ii.marbled_brick_stairs	大理石模様レンガの階段
+block.aether_ii.marbled_brick_wall	大理石模様レンガの壁
+block.aether_ii.marbled_bricks	大理石模様レンガ
+block.aether_ii.marbled_capstone_bricks	大理石模様の笠石レンガ
+block.aether_ii.marbled_capstone_pillar	大理石模様の笠石の柱
+block.aether_ii.marbled_flagstones	大理石模様の敷石
+block.aether_ii.marbled_ichorite	大理石模様のイコライト
+block.aether_ii.marbled_ichorite_slab	大理石模様のイコライトのハーフブロック
+block.aether_ii.marbled_ichorite_stairs	大理石模様のイコライトの階段
+block.aether_ii.marbled_ichorite_wall	大理石模様のイコライトの壁
+block.aether_ii.marbled_keystone	大理石模様の要石
+block.aether_ii.marbled_pillar	大理石模様の柱
+block.aether_ii.medium_aether_grass	中くらいのエーテルの草
+block.aether_ii.medium_arctic_ice_crystal	中くらいの極地の氷晶
+block.aether_ii.moa_egg	モアの卵
+block.aether_ii.mossy_holystone	苔むした聖石
+block.aether_ii.mossy_holystone_slab	苔むした聖石のハーフブロック
+block.aether_ii.mossy_holystone_stairs	苔むした聖石の階段
+block.aether_ii.mossy_holystone_wall	苔むした聖石の壁
+block.aether_ii.mossy_wisproot_log	苔むしたウィスプルートの原木
+block.aether_ii.mossy_wisproot_log_base	苔むしたウィスプルートの原木の根元
+block.aether_ii.mossy_wisproot_trunk	苔むしたウィスプルートの幹
+block.aether_ii.mossy_wisproot_wood	苔むしたウィスプルートの木
+block.aether_ii.mural	壁画
+block.aether_ii.mycelial_aether_dirt	菌糸のエーテルの土
+block.aether_ii.orange_arilum_lantern	橙色のアリラムのランタン
+block.aether_ii.orange_cloudwool	橙色の雲羊毛
+block.aether_ii.orange_cloudwool_carpet	橙色の雲羊毛のカーペット
+block.aether_ii.orange_skyroot_bed	橙色のスカイルートのベッド
+block.aether_ii.orange_tree	オレンジの木
+block.aether_ii.outpost_campfire	前哨地の焚き火
+block.aether_ii.patterned_arkenium_bars	模様入りのアーケニウムの鉄格子
+block.aether_ii.pink_arilum_lantern	桃色のアリラムのランタン
+block.aether_ii.pink_cloudwool	桃色の雲羊毛
+block.aether_ii.pink_cloudwool_carpet	桃色の雲羊毛のカーペット
+block.aether_ii.pink_skyroot_bed	桃色のスカイルートのベッド
+block.aether_ii.pluracian	プルラシアン
+block.aether_ii.poasprout	ポアの芽
+block.aether_ii.pointed_holystone	尖った聖石
+block.aether_ii.pointed_ichorite	尖ったイコライト
+block.aether_ii.potted_aechor_cutting	鉢植えのエーコル草の挿し穂
+block.aether_ii.potted_aether_fern	鉢植えのエーテルのシダ
+block.aether_ii.potted_amberoot_sapling	鉢植えのアンバールートの苗木
+block.aether_ii.potted_blade_poa	鉢植えのブレードポア
+block.aether_ii.potted_carrion_cutting	鉢植えのキャリオン芽の挿し穂
+block.aether_ii.potted_greatboa_sapling	鉢植えのグレートボアの苗木
+block.aether_ii.potted_greatoak_sapling	鉢植えのグレートオークの苗木
+block.aether_ii.potted_greatroot_sapling	鉢植えのグレートルートの苗木
+block.aether_ii.potted_hesperose	鉢植えのヘスペローズ
+block.aether_ii.potted_lilichime	鉢植えのリリチャイム
+block.aether_ii.potted_magnetic_shroom	鉢植えの磁気キノコ
+block.aether_ii.potted_pluracian	鉢植えのプルラシアン
+block.aether_ii.potted_poasprout	鉢植えのポアの芽
+block.aether_ii.potted_rotshroom	鉢植えの腐れキノコ
+block.aether_ii.potted_satival_shoot	鉢植えのサティヴァルの芽
+block.aether_ii.potted_shield_fern	鉢植えのシールドシダ
+block.aether_ii.potted_skybirch_sapling	鉢植えのスカイバーチの苗木
+block.aether_ii.potted_skypine_sapling	鉢植えのスカイパインの苗木
+block.aether_ii.potted_skyplane_sapling	鉢植えのスカイプレーンの苗木
+block.aether_ii.potted_skyroot_sapling	鉢植えのスカイルートの苗木
+block.aether_ii.potted_tarabloom	鉢植えのタラブルーム
+block.aether_ii.potted_wisproot_sapling	鉢植えのウィスプルートの苗木
+block.aether_ii.potted_wisptop_sapling	鉢植えのウィスプトップの苗木
+block.aether_ii.prayer_candle	祈りのろうそく
+block.aether_ii.purple_aercloud	紫の天空雲
+block.aether_ii.purple_arilum_lantern	紫色のアリラムのランタン
+block.aether_ii.purple_cloudwool	紫色の雲羊毛
+block.aether_ii.purple_cloudwool_carpet	紫色の雲羊毛のカーペット
+block.aether_ii.purple_skyroot_bed	紫色のスカイルートのベッド
+block.aether_ii.quicksoil	流土
+block.aether_ii.quicksoil_glass	流土のガラス
+block.aether_ii.quicksoil_glass_pane	流土のガラス板
+block.aether_ii.red_arilum_lantern	赤色のアリラムのランタン
+block.aether_ii.red_cloudwool	赤色の雲羊毛
+block.aether_ii.red_cloudwool_carpet	赤色の雲羊毛のカーペット
+block.aether_ii.red_skyroot_bed	赤色のスカイルートのベッド
+block.aether_ii.rotgrowth_vines	腐れ茂みのつる
+block.aether_ii.rotshroom	腐れキノコ
+block.aether_ii.rotshroom_block	腐れキノコブロック
+block.aether_ii.rotshroom_cluster	腐れキノコの群生
+block.aether_ii.rotshroom_slab	腐れキノコのハーフブロック
+block.aether_ii.rotshroom_stem	腐れキノコの柄
+block.aether_ii.rotshroom_toadstool	腐れキノコの傘
+block.aether_ii.rusted_ferrosite	錆びたフェロサイト
+block.aether_ii.rustic_arkenium_bars	素朴なアーケニウムの鉄格子
+block.aether_ii.rustic_arkenium_lantern	素朴なアーケニウムのランタン
+block.aether_ii.rustic_curved_arkenium_bars	素朴な曲がったアーケニウムの鉄格子
+block.aether_ii.rustic_floral_arkenium_bars	素朴な花模様のアーケニウムの鉄格子
+block.aether_ii.rustic_patterned_arkenium_bars	素朴な模様入りのアーケニウムの鉄格子
+block.aether_ii.sage_chest	賢者のチェスト
+block.aether_ii.satival_shoot	サティヴァルの芽
+block.aether_ii.scatterglass	散光ガラス
+block.aether_ii.scatterglass_pane	散光ガラス板
+block.aether_ii.secret_amberoot_door	アンバールートの隠しドア
+block.aether_ii.secret_amberoot_trapdoor	アンバールートの隠しトラップドア
+block.aether_ii.secret_greatroot_door	グレートルートの隠しドア
+block.aether_ii.secret_greatroot_trapdoor	グレートルートの隠しトラップドア
+block.aether_ii.secret_skyroot_door	スカイルートの隠しドア
+block.aether_ii.secret_skyroot_trapdoor	スカイルートの隠しトラップドア
+block.aether_ii.secret_wisproot_door	ウィスプルートの隠しドア
+block.aether_ii.secret_wisproot_trapdoor	ウィスプルートの隠しトラップドア
+block.aether_ii.sentry_base_bricks	哨兵石の土台レンガ
+block.aether_ii.sentry_base_pillar	哨兵石の土台の柱
+block.aether_ii.sentry_brick_slab	哨兵石レンガのハーフブロック
+block.aether_ii.sentry_brick_stairs	哨兵石レンガの階段
+block.aether_ii.sentry_brick_wall	哨兵石レンガの壁
+block.aether_ii.sentry_bricks	哨兵石レンガ
+block.aether_ii.sentry_button	哨兵石のボタン
+block.aether_ii.sentry_capstone_bricks	哨兵石の笠石レンガ
+block.aether_ii.sentry_capstone_pillar	哨兵石の笠石の柱
+block.aether_ii.sentry_crate	哨兵の木箱
+block.aether_ii.sentry_flagstones	哨兵石の敷石
+block.aether_ii.sentry_lightstone	哨兵石の光石
+block.aether_ii.sentry_pillar	哨兵石の柱
+block.aether_ii.sentry_spawner	哨兵のスポナー
+block.aether_ii.sentry_tile	哨兵石のタイル
+block.aether_ii.sentry_trap	哨兵の罠
+block.aether_ii.shayelinn_moss_block	シェイエリン苔ブロック
+block.aether_ii.shayelinn_moss_carpet	シェイエリン苔のカーペット
+block.aether_ii.shayelinn_moss_vines	シェイエリン苔のつる
+block.aether_ii.shelf_rotshroom	棚状の腐れキノコ
+block.aether_ii.shelf_rotshroom_slab	棚状の腐れキノコのハーフブロック
+block.aether_ii.shield_fern	シールドシダ
+block.aether_ii.shimmering_silt	きらめく沈泥
+block.aether_ii.short_aether_grass	背の低いエーテルの草
+block.aether_ii.sky_roots	天空の根
+block.aether_ii.skybirch_leaf_pile	スカイバーチの落ち葉
+block.aether_ii.skybirch_leaves	スカイバーチの葉
+block.aether_ii.skybirch_sapling	スカイバーチの苗木
+block.aether_ii.skypine_leaf_pile	スカイパインの落ち葉
+block.aether_ii.skypine_leaves	スカイパインの葉
+block.aether_ii.skypine_sapling	スカイパインの苗木
+block.aether_ii.skyplane_leaf_pile	スカイプレーンの落ち葉
+block.aether_ii.skyplane_leaves	スカイプレーンの葉
+block.aether_ii.skyplane_sapling	スカイプレーンの苗木
+block.aether_ii.skyroot_barrel	スカイルートの樽
+block.aether_ii.skyroot_base_beam	スカイルートの土台の梁
+block.aether_ii.skyroot_base_planks	スカイルートの土台の板材
+block.aether_ii.skyroot_beam	スカイルートの梁
+block.aether_ii.skyroot_bed	スカイルートのベッド
+block.aether_ii.skyroot_bookshelf	スカイルートの本棚
+block.aether_ii.skyroot_button	スカイルートのボタン
+block.aether_ii.skyroot_chest	スカイルートのチェスト
+block.aether_ii.skyroot_crafting_table	スカイルートの作業台
+block.aether_ii.skyroot_door	スカイルートのドア
+block.aether_ii.skyroot_fence	スカイルートのフェンス
+block.aether_ii.skyroot_fence_gate	スカイルートのフェンスゲート
+block.aether_ii.skyroot_floorboards	スカイルートの床板
+block.aether_ii.skyroot_framed_crude_scatterglass	スカイルート枠の粗い散光ガラス
+block.aether_ii.skyroot_framed_crude_scatterglass_pane	スカイルート枠の粗い散光ガラス板
+block.aether_ii.skyroot_framed_scatterglass	スカイルート枠の散光ガラス
+block.aether_ii.skyroot_framed_scatterglass_pane	スカイルート枠の散光ガラス板
+block.aether_ii.skyroot_hanging_sign	スカイルートの吊り看板
+block.aether_ii.skyroot_highlight	スカイルートの縁取り板材
+block.aether_ii.skyroot_ladder	スカイルートのはしご
+block.aether_ii.skyroot_leaf_pile	スカイルートの落ち葉
+block.aether_ii.skyroot_leaves	スカイルートの葉
+block.aether_ii.skyroot_log	スカイルートの原木
+block.aether_ii.skyroot_planks	スカイルートの板材
+block.aether_ii.skyroot_pressure_plate	スカイルートの感圧板
+block.aether_ii.skyroot_sapling	スカイルートの苗木
+block.aether_ii.skyroot_shelf	スカイルートの棚
+block.aether_ii.skyroot_shingles	スカイルートの屋根板
+block.aether_ii.skyroot_sign	スカイルートの看板
+block.aether_ii.skyroot_slab	スカイルートのハーフブロック
+block.aether_ii.skyroot_small_shingles	スカイルートの小さな屋根板
+block.aether_ii.skyroot_stairs	スカイルートの階段
+block.aether_ii.skyroot_top_beam	スカイルートの上部の梁
+block.aether_ii.skyroot_top_planks	スカイルートの上部の板材
+block.aether_ii.skyroot_trapdoor	スカイルートのトラップドア
+block.aether_ii.skyroot_trunk	スカイルートの幹
+block.aether_ii.skyroot_twig	スカイルートの小枝
+block.aether_ii.skyroot_wood	スカイルートの木
+block.aether_ii.small_arctic_ice_crystal	小さな極地の氷晶
+block.aether_ii.smooth_ichorite	なめらかなイコライト
+block.aether_ii.smooth_ichorite_slab	なめらかなイコライトのハーフブロック
+block.aether_ii.smooth_ichorite_stairs	なめらかなイコライトの階段
+block.aether_ii.smooth_ichorite_wall	なめらかなイコライトの壁
+block.aether_ii.spotted_magnetic_shroom_block	斑点のある磁気キノコブロック
+block.aether_ii.storm_aercloud	嵐の天空雲
+block.aether_ii.stripped_amberoot_log	樹皮を剥いだアンバールートの原木
+block.aether_ii.stripped_amberoot_trunk	樹皮を剥いだアンバールートの幹
+block.aether_ii.stripped_amberoot_wood	樹皮を剥いだアンバールートの木
+block.aether_ii.stripped_greatroot_log	樹皮を剥いだグレートルートの原木
+block.aether_ii.stripped_greatroot_trunk	樹皮を剥いだグレートルートの幹
+block.aether_ii.stripped_greatroot_wood	樹皮を剥いだグレートルートの木
+block.aether_ii.stripped_guardian_log	樹皮を剥いだガーディアンの原木
+block.aether_ii.stripped_guardian_log_slab	樹皮を剥いだガーディアンの原木のハーフブロック
+block.aether_ii.stripped_guardian_trunk	樹皮を剥いだガーディアンの幹
+block.aether_ii.stripped_guardian_wood	樹皮を剥いだガーディアンの木
+block.aether_ii.stripped_guardian_wood_slab	樹皮を剥いだガーディアンの木のハーフブロック
+block.aether_ii.stripped_infected_log	樹皮を剥いだ感染した木の原木
+block.aether_ii.stripped_infected_log_slab	樹皮を剥いだ感染した木の原木のハーフブロック
+block.aether_ii.stripped_infected_trunk	樹皮を剥いだ感染した木の幹
+block.aether_ii.stripped_infected_wood	樹皮を剥いだ感染した木の木
+block.aether_ii.stripped_infected_wood_slab	樹皮を剥いだ感染した木の木のハーフブロック
+block.aether_ii.stripped_skyroot_log	樹皮を剥いだスカイルートの原木
+block.aether_ii.stripped_skyroot_trunk	樹皮を剥いだスカイルートの幹
+block.aether_ii.stripped_skyroot_wood	樹皮を剥いだスカイルートの木
+block.aether_ii.stripped_wisproot_log	樹皮を剥いだウィスプルートの原木
+block.aether_ii.stripped_wisproot_trunk	樹皮を剥いだウィスプルートの幹
+block.aether_ii.stripped_wisproot_wood	樹皮を剥いだウィスプルートの木
+block.aether_ii.tall_aether_grass	背の高いエーテルの草
+block.aether_ii.tangled_branches	絡まった枝
+block.aether_ii.tarabloom	タラブルーム
+block.aether_ii.tarahesp_flowers	タラヘスプの花
+block.aether_ii.tiled_quicksoil_glass	タイル張りの流土のガラス
+block.aether_ii.tiled_quicksoil_glass_pane	タイル張りの流土のガラス板
+block.aether_ii.treasure_doorway_block	宝物部屋の入口ブロック
+block.aether_ii.undergrowth_leaves	下草の葉
+block.aether_ii.undergrowth_vines	下草のつる
+block.aether_ii.undershale	アンダーシェール
+block.aether_ii.undershale_ambrosium_ore	アンダーシェールのアンブロシア鉱石
+block.aether_ii.undershale_arkenium_ore	アンダーシェールのアーケニウム鉱石
+block.aether_ii.undershale_base_bricks	アンダーシェールの土台レンガ
+block.aether_ii.undershale_base_pillar	アンダーシェールの土台の柱
+block.aether_ii.undershale_brick_button	アンダーシェールレンガのボタン
+block.aether_ii.undershale_brick_pressure_plate	アンダーシェールレンガの感圧板
+block.aether_ii.undershale_brick_slab	アンダーシェールレンガのハーフブロック
+block.aether_ii.undershale_brick_stairs	アンダーシェールレンガの階段
+block.aether_ii.undershale_brick_wall	アンダーシェールレンガの壁
+block.aether_ii.undershale_bricks	アンダーシェールレンガ
+block.aether_ii.undershale_capstone_bricks	アンダーシェールの笠石レンガ
+block.aether_ii.undershale_capstone_pillar	アンダーシェールの笠石の柱
+block.aether_ii.undershale_flagstones	アンダーシェールの敷石
+block.aether_ii.undershale_glint_ore	アンダーシェールのグリント鉱石
+block.aether_ii.undershale_gravitite_ore	アンダーシェールのグラビタイト鉱石
+block.aether_ii.undershale_pillar	アンダーシェールの柱
+block.aether_ii.undershale_slab	アンダーシェールのハーフブロック
+block.aether_ii.undershale_stairs	アンダーシェールの階段
+block.aether_ii.undershale_tile	アンダーシェールのタイル
+block.aether_ii.undershale_wall	アンダーシェールの壁
+block.aether_ii.undershale_zanite_ore	アンダーシェールのザナイト鉱石
+block.aether_ii.unstable_guardian_roots	不安定なガーディアンの根
+block.aether_ii.unstable_holystone	不安定な聖石
+block.aether_ii.unstable_obsidian	不安定な黒曜石
+block.aether_ii.unstable_undershale	不安定なアンダーシェール
+block.aether_ii.valkyrie_sprout	ワルキューレの芽
+block.aether_ii.veradexian_vase	ヴェラデクシアンの花瓶
+block.aether_ii.white_arilum_lantern	白色のアリラムのランタン
+block.aether_ii.white_cloudwool	白色の雲羊毛
+block.aether_ii.white_cloudwool_carpet	白色の雲羊毛のカーペット
+block.aether_ii.white_skyroot_bed	白色のスカイルートのベッド
+block.aether_ii.wisproot_base_beam	ウィスプルートの土台の梁
+block.aether_ii.wisproot_base_planks	ウィスプルートの土台の板材
+block.aether_ii.wisproot_beam	ウィスプルートの梁
+block.aether_ii.wisproot_bookshelf	ウィスプルートの本棚
+block.aether_ii.wisproot_button	ウィスプルートのボタン
+block.aether_ii.wisproot_door	ウィスプルートのドア
+block.aether_ii.wisproot_fence	ウィスプルートのフェンス
+block.aether_ii.wisproot_fence_gate	ウィスプルートのフェンスゲート
+block.aether_ii.wisproot_floorboards	ウィスプルートの床板
+block.aether_ii.wisproot_hanging_sign	ウィスプルートの吊り看板
+block.aether_ii.wisproot_highlight	ウィスプルートの縁取り板材
+block.aether_ii.wisproot_leaf_pile	ウィスプルートの落ち葉
+block.aether_ii.wisproot_leaves	ウィスプルートの葉
+block.aether_ii.wisproot_log	ウィスプルートの原木
+block.aether_ii.wisproot_planks	ウィスプルートの板材
+block.aether_ii.wisproot_pressure_plate	ウィスプルートの感圧板
+block.aether_ii.wisproot_sapling	ウィスプルートの苗木
+block.aether_ii.wisproot_shelf	ウィスプルートの棚
+block.aether_ii.wisproot_shingles	ウィスプルートの屋根板
+block.aether_ii.wisproot_sign	ウィスプルートの看板
+block.aether_ii.wisproot_slab	ウィスプルートのハーフブロック
+block.aether_ii.wisproot_small_shingles	ウィスプルートの小さな屋根板
+block.aether_ii.wisproot_stairs	ウィスプルートの階段
+block.aether_ii.wisproot_top_beam	ウィスプルートの上部の梁
+block.aether_ii.wisproot_top_planks	ウィスプルートの上部の板材
+block.aether_ii.wisproot_trapdoor	ウィスプルートのトラップドア
+block.aether_ii.wisproot_trunk	ウィスプルートの幹
+block.aether_ii.wisproot_wood	ウィスプルートの木
+block.aether_ii.wisptop_leaf_pile	ウィスプトップの落ち葉
+block.aether_ii.wisptop_leaves	ウィスプトップの葉
+block.aether_ii.wisptop_sapling	ウィスプトップの苗木
+block.aether_ii.woven_skyroot_sticks	編んだスカイルートの棒
+block.aether_ii.yellow_arilum_lantern	黄色のアリラムのランタン
+block.aether_ii.yellow_cloudwool	黄色の雲羊毛
+block.aether_ii.yellow_cloudwool_carpet	黄色の雲羊毛のカーペット
+block.aether_ii.yellow_skyroot_bed	黄色のスカイルートのベッド
+block.aether_ii.zanite_block	ザナイトのブロック
+block.aether_ii.zanite_ore	ザナイト鉱石
+item.aether_ii.aechor_petal	エーコル花弁
+item.aether_ii.aechor_plant_spawn_egg	エーコル草のスポーンエッグ
+item.aether_ii.aerbunny_bell	ソラウサギの鈴
+item.aether_ii.aerbunny_spawn_egg	ソラウサギのスポーンエッグ
+item.aether_ii.aerwhale_spawn_egg	天界鯨のスポーンエッグ
+item.aether_ii.aether_portal_frame	エーテルポータルのフレーム
+item.aether_ii.aether_quartz	エーテルの石英
+item.aether_ii.amber_darts	琥珀のダーツ
+item.aether_ii.amber_darts.effect.ambrosium_poisoning	アンブロシア中毒のダーツ
+item.aether_ii.amber_darts.effect.charged	帯電のダーツ
+item.aether_ii.amber_darts.effect.crystallized	結晶化のダーツ
+item.aether_ii.amber_darts.effect.fracture	骨折のダーツ
+item.aether_ii.amber_darts.effect.frostbite	凍傷のダーツ
+item.aether_ii.amber_darts.effect.fungal_rot	菌腐れのダーツ
+item.aether_ii.amber_darts.effect.immolation	焼身のダーツ
+item.aether_ii.amber_darts.effect.stun	気絶のダーツ
+item.aether_ii.amber_darts.effect.toxin	毒素のダーツ
+item.aether_ii.amber_darts.effect.venom	猛毒のダーツ
+item.aether_ii.amber_darts.effect.vulnerability	琥珀のダーツ
+item.aether_ii.amber_darts.effect.webbed	クモの巣のダーツ
+item.aether_ii.amber_darts.effect.wound	負傷のダーツ
+item.aether_ii.ambrosium_shard	アンブロシアの欠片
+item.aether_ii.ambrosium_shard.nitrogen_internals.ability.tooltip.1	§9能力:§r 自然をエンチャントする
+item.aether_ii.antitoxin_vial	解毒剤の小瓶
+item.aether_ii.antivenom_vial	抗毒素の小瓶
+item.aether_ii.arctic_burrukai_spawn_egg	ブルカイのスポーンエッグ
+item.aether_ii.arctic_kirrid_spawn_egg	キリッドのスポーンエッグ
+item.aether_ii.arctic_snowball	極地の雪玉
+item.aether_ii.arctic_taegore_spawn_egg	タエゴアのスポーンエッグ
+item.aether_ii.arilum_bulbs	アリラムの球根
+item.aether_ii.arkenium_alkahest_canister	アルカヘスト入りのアーケニウムの容器
+item.aether_ii.arkenium_axe	アーケニウムの斧
+item.aether_ii.arkenium_axe.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.arkenium_boots	アーケニウムのブーツ
+item.aether_ii.arkenium_boots.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.arkenium_boots.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.arkenium_canister	アーケニウムの容器
+item.aether_ii.arkenium_chestplate	アーケニウムのチェストプレート
+item.aether_ii.arkenium_chestplate.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.arkenium_chestplate.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.arkenium_chip	アーケニウムのかけら
+item.aether_ii.arkenium_core	アーケニウムのコア
+item.aether_ii.arkenium_core.nitrogen_internals.ability.tooltip.1	§4§o開発中§r§r
+item.aether_ii.arkenium_crossbow	アーケニウムのクロスボウ
+item.aether_ii.arkenium_crossbow.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.arkenium_gloves	アーケニウムのガントレット
+item.aether_ii.arkenium_gloves.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.arkenium_gloves.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.arkenium_hammer	アーケニウムのハンマー
+item.aether_ii.arkenium_hammer.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.arkenium_helmet	アーケニウムのヘルメット
+item.aether_ii.arkenium_helmet.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.arkenium_helmet.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.arkenium_hestveil_canister	ヘストヴェイル入りのアーケニウムの容器
+item.aether_ii.arkenium_leggings	アーケニウムのレギンス
+item.aether_ii.arkenium_leggings.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.arkenium_leggings.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.arkenium_pickaxe	アーケニウムのツルハシ
+item.aether_ii.arkenium_pickaxe.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.arkenium_pike	アーケニウムのパイク
+item.aether_ii.arkenium_pike.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.arkenium_plate	アーケニウムの板
+item.aether_ii.arkenium_shield	アーケニウムの盾
+item.aether_ii.arkenium_shortsword	アーケニウムの短剣
+item.aether_ii.arkenium_shortsword.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.arkenium_shovel	アーケニウムのシャベル
+item.aether_ii.arkenium_shovel.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.arkenium_taluton_spawn_egg	アーケニウムのタルトンのスポーンエッグ
+item.aether_ii.arkenium_trowel	アーケニウムの移植ごて
+item.aether_ii.arkenium_trowel.nitrogen_internals.ability.tooltip.1	§9能力:§r さらに強化できる
+item.aether_ii.bandage	包帯
+item.aether_ii.beast_pelt	獣皮
+item.aether_ii.beast_pelt_boots	獣皮のブーツ
+item.aether_ii.beast_pelt_boots.nitrogen_internals.ability.tooltip.1	§9能力:§r 動物を落ち着かせる
+item.aether_ii.beast_pelt_boots.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.beast_pelt_bundle	獣皮の包み
+item.aether_ii.beast_pelt_chestplate	獣皮のチュニック
+item.aether_ii.beast_pelt_chestplate.nitrogen_internals.ability.tooltip.1	§9能力:§r 動物を落ち着かせる
+item.aether_ii.beast_pelt_chestplate.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.beast_pelt_gloves	獣皮の手袋
+item.aether_ii.beast_pelt_gloves.nitrogen_internals.ability.tooltip.1	§9能力:§r 動物を落ち着かせる
+item.aether_ii.beast_pelt_gloves.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.beast_pelt_helmet	獣皮の帽子
+item.aether_ii.beast_pelt_helmet.nitrogen_internals.ability.tooltip.1	§9能力:§r 動物を落ち着かせる
+item.aether_ii.beast_pelt_helmet.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.beast_pelt_leggings	獣皮のズボン
+item.aether_ii.beast_pelt_leggings.nitrogen_internals.ability.tooltip.1	§9能力:§r 動物を落ち着かせる
+item.aether_ii.beast_pelt_leggings.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.blue_aercloud_glider	青い天空雲のグライダー
+item.aether_ii.blue_aercloud_glider.nitrogen_internals.ability.tooltip.1	§9能力:§r 上昇ブースト
+item.aether_ii.blue_aercloud_glider.nitrogen_internals.ability.tooltip.2	§3使い方:§r クリックで使用
+item.aether_ii.blue_swet_spawn_egg	青スェットのスポーンエッグ
+item.aether_ii.blueberry	ブルーベリー
+item.aether_ii.blueberry_moa_feed	ブルーベリーのモアの餌
+item.aether_ii.brettl_cane	ブレトルの茎
+item.aether_ii.brettl_grass	ブレトル草
+item.aether_ii.brettl_rope	ブレトルのロープ
+item.aether_ii.broken_item	壊れたアイテム
+item.aether_ii.broken_item_template	壊れた%s
+item.aether_ii.burrukai_plate	ブルカイの甲殻
+item.aether_ii.burrukai_plate_boots	ブルカイの甲殻のブーツ
+item.aether_ii.burrukai_plate_boots.nitrogen_internals.ability.tooltip.1	§9能力:§r 気絶耐性
+item.aether_ii.burrukai_plate_boots.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.burrukai_plate_chestplate	ブルカイの甲殻のチュニック
+item.aether_ii.burrukai_plate_chestplate.nitrogen_internals.ability.tooltip.1	§9能力:§r 気絶耐性
+item.aether_ii.burrukai_plate_chestplate.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.burrukai_plate_gloves	ブルカイの甲殻の手袋
+item.aether_ii.burrukai_plate_gloves.nitrogen_internals.ability.tooltip.1	§9能力:§r 気絶耐性
+item.aether_ii.burrukai_plate_gloves.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.burrukai_plate_helmet	ブルカイの甲殻の帽子
+item.aether_ii.burrukai_plate_helmet.nitrogen_internals.ability.tooltip.1	§9能力:§r 気絶耐性
+item.aether_ii.burrukai_plate_helmet.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.burrukai_plate_leggings	ブルカイの甲殻のズボン
+item.aether_ii.burrukai_plate_leggings.nitrogen_internals.ability.tooltip.1	§9能力:§r 気絶耐性
+item.aether_ii.burrukai_plate_leggings.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.burrukai_plate_shield	ブルカイの甲殻の盾
+item.aether_ii.burrukai_rib_cut	ブルカイのあばら肉の切り身
+item.aether_ii.burrukai_ribs	ブルカイのあばら肉
+item.aether_ii.carrion_sprout_spawn_egg	キャリオン芽のスポーンエッグ
+item.aether_ii.charge_catalyst	チャージの触媒
+item.aether_ii.charge_catalyst.nitrogen_internals.ability.tooltip.1	§4§o開発中§r§r
+item.aether_ii.charm_of_agility_1	敏捷のお守り I
+item.aether_ii.charm_of_damage_1	ダメージのお守り I
+item.aether_ii.charm_of_defense_1	防御のお守り I
+item.aether_ii.charm_of_dexterity_1	器用さのお守り I
+item.aether_ii.charm_of_efficiency_1	効率のお守り I
+item.aether_ii.charm_of_health_1	体力のお守り I
+item.aether_ii.charm_of_knockback_1	ノックバックのお守り I
+item.aether_ii.charm_of_reach_1	リーチのお守り I
+item.aether_ii.charm_of_resistance_1	耐性のお守り I
+item.aether_ii.charm_of_toughness_1	強靭さのお守り I
+item.aether_ii.cloud_skiff	雲の小舟
+item.aether_ii.cloudtwine	雲より糸
+item.aether_ii.cockatrice_feather	コカトリスの羽根
+item.aether_ii.cockatrice_spawn_egg	コカトリスのスポーンエッグ
+item.aether_ii.cold_aercloud_glider	冷たい天空雲のグライダー
+item.aether_ii.cold_aercloud_glider.nitrogen_internals.ability.tooltip.1	§3使い方:§r クリックで使用
+item.aether_ii.corrobonite_crystal	コロボナイトの結晶
+item.aether_ii.dart_shooter	吹き筒
+item.aether_ii.detonation_sentry_spawn_egg	爆発セントリーのスポーンエッグ
+item.aether_ii.enchanted_blueberry	エンチャントされたブルーベリー
+item.aether_ii.enchanted_moa_feed	エンチャントされたモアの餌
+item.aether_ii.enchanted_orange	エンチャントされたオレンジ
+item.aether_ii.enchanted_swet_jelly	エンチャントされたスェットゼリー
+item.aether_ii.enchanted_wyndberry	エンチャントされたウィンドベリー
+item.aether_ii.engraved_disc_aerwhale	刻まれたディスク
+item.aether_ii.engraved_disc_approaches	刻まれたディスク
+item.aether_ii.engraved_disc_ascending_dawn	刻まれたディスク
+item.aether_ii.engraved_disc_chinchilla	刻まれたディスク
+item.aether_ii.engraved_disc_demise	刻まれたディスク
+item.aether_ii.engraved_disc_high	刻まれたディスク
+item.aether_ii.engraved_disc_revolutions	刻まれたディスク
+item.aether_ii.eye_of_the_mimic	ミミックの目
+item.aether_ii.eye_of_the_mimic.nitrogen_internals.ability.tooltip.1	§4§o開発中§r§r
+item.aether_ii.flying_cow_spawn_egg	空飛ぶウシのスポーンエッグ
+item.aether_ii.fossilized_corrobonite	化石化したコロボナイト
+item.aether_ii.fossilized_glint	化石化したグリント
+item.aether_ii.fossilized_zanite	化石化したザナイト
+item.aether_ii.fried_prismallard_egg	プリズマラードの目玉焼き
+item.aether_ii.glint_coin	グリント硬貨
+item.aether_ii.glint_gemstone	グリントの宝石
+item.aether_ii.glitterwing_spawn_egg	グリッターウィングのスポーンエッグ
+item.aether_ii.golden_aercloud_glider	金色の天空雲のグライダー
+item.aether_ii.golden_aercloud_glider.nitrogen_internals.ability.tooltip.1	§3使い方:§r クリックで使用
+item.aether_ii.golden_amber	黄金の琥珀
+item.aether_ii.golden_swet_spawn_egg	金のスェットのスポーンエッグ
+item.aether_ii.golden_wyndberry	黄金のウィンドベリー
+item.aether_ii.golden_wyndberry.nitrogen_internals.ability.tooltip.1	§9能力:§r 子どもの動物の成長を止める
+item.aether_ii.gravitite_axe	グラビタイトの斧
+item.aether_ii.gravitite_axe.nitrogen_internals.ability.tooltip.1	§9能力:§r ブロックを浮かせる
+item.aether_ii.gravitite_axe.nitrogen_internals.ability.tooltip.2	§3使い方:§r しゃがんで使用
+item.aether_ii.gravitite_boots	グラビタイトのブーツ
+item.aether_ii.gravitite_boots.nitrogen_internals.ability.tooltip.1	§9能力:§r 二段ジャンプ
+item.aether_ii.gravitite_boots.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.gravitite_chestplate	グラビタイトのチェストプレート
+item.aether_ii.gravitite_chestplate.nitrogen_internals.ability.tooltip.1	§9能力:§r 二段ジャンプ
+item.aether_ii.gravitite_chestplate.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.gravitite_core	グラビタイトのコア
+item.aether_ii.gravitite_core.nitrogen_internals.ability.tooltip.1	§4§o開発中§r§r
+item.aether_ii.gravitite_crossbow	グラビタイトのクロスボウ
+item.aether_ii.gravitite_crossbow.nitrogen_internals.ability.tooltip.1	§9能力:§r 直進射撃
+item.aether_ii.gravitite_crossbow.nitrogen_internals.ability.tooltip.2	§3使い方:§r しゃがんで使用
+item.aether_ii.gravitite_gloves	グラビタイトのガントレット
+item.aether_ii.gravitite_gloves.nitrogen_internals.ability.tooltip.1	§9能力:§r 二段ジャンプ
+item.aether_ii.gravitite_gloves.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.gravitite_hammer	グラビタイトのハンマー
+item.aether_ii.gravitite_hammer.nitrogen_internals.ability.tooltip.1	§9能力:§r 重力を強める
+item.aether_ii.gravitite_helmet	グラビタイトのヘルメット
+item.aether_ii.gravitite_helmet.nitrogen_internals.ability.tooltip.1	§9能力:§r 二段ジャンプ
+item.aether_ii.gravitite_helmet.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.gravitite_leggings	グラビタイトのレギンス
+item.aether_ii.gravitite_leggings.nitrogen_internals.ability.tooltip.1	§9能力:§r 二段ジャンプ
+item.aether_ii.gravitite_leggings.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.gravitite_pickaxe	グラビタイトのツルハシ
+item.aether_ii.gravitite_pickaxe.nitrogen_internals.ability.tooltip.1	§9能力:§r ブロックを浮かせる
+item.aether_ii.gravitite_pickaxe.nitrogen_internals.ability.tooltip.2	§3使い方:§r しゃがんで使用
+item.aether_ii.gravitite_pike	グラビタイトのパイク
+item.aether_ii.gravitite_pike.nitrogen_internals.ability.tooltip.1	§9能力:§r 重力を強める
+item.aether_ii.gravitite_plate	グラビタイトの板
+item.aether_ii.gravitite_shield	グラビタイトの盾
+item.aether_ii.gravitite_shortsword	グラビタイトの短剣
+item.aether_ii.gravitite_shortsword.nitrogen_internals.ability.tooltip.1	§9能力:§r 重力を強める
+item.aether_ii.gravitite_shovel	グラビタイトのシャベル
+item.aether_ii.gravitite_shovel.nitrogen_internals.ability.tooltip.1	§9能力:§r ブロックを浮かせる
+item.aether_ii.gravitite_shovel.nitrogen_internals.ability.tooltip.2	§3使い方:§r しゃがんで使用
+item.aether_ii.gravitite_taluton_spawn_egg	グラビタイトのタルトンのスポーンエッグ
+item.aether_ii.gravitite_trowel	グラビタイトの移植ごて
+item.aether_ii.gravitite_trowel.nitrogen_internals.ability.tooltip.1	§9能力:§r ブロックを浮かせる
+item.aether_ii.gravitite_trowel.nitrogen_internals.ability.tooltip.2	§3使い方:§r しゃがんで使用
+item.aether_ii.guidebook_page	手引書のページ
+item.aether_ii.hammer_of_demolition	破壊のハンマー
+item.aether_ii.hammer_of_demolition.nitrogen_internals.ability.tooltip.1	§9能力:§r 爆発物を撃つ
+item.aether_ii.hammer_of_demolition.nitrogen_internals.ability.tooltip.2	§3使い方:§r しゃがんで使用
+item.aether_ii.healing_stone	治癒の石
+item.aether_ii.highfields_burrukai_spawn_egg	ブルカイのスポーンエッグ
+item.aether_ii.highfields_kirrid_spawn_egg	キリッドのスポーンエッグ
+item.aether_ii.highfields_taegore_spawn_egg	タエゴアのスポーンエッグ
+item.aether_ii.holystone_axe	聖石の斧
+item.aether_ii.holystone_axe.nitrogen_internals.ability.tooltip.1	§9能力:§r アンブロシアを落とす
+item.aether_ii.holystone_crossbow	聖石のクロスボウ
+item.aether_ii.holystone_crossbow.nitrogen_internals.ability.tooltip.1	§9能力:§r 拡散射撃
+item.aether_ii.holystone_crossbow.nitrogen_internals.ability.tooltip.2	§3使い方:§r しゃがんで使用
+item.aether_ii.holystone_hammer	聖石のハンマー
+item.aether_ii.holystone_hammer.nitrogen_internals.ability.tooltip.1	§9能力:§r アンブロシアを落とす
+item.aether_ii.holystone_pickaxe	聖石のツルハシ
+item.aether_ii.holystone_pickaxe.nitrogen_internals.ability.tooltip.1	§9能力:§r アンブロシアを落とす
+item.aether_ii.holystone_pike	聖石のパイク
+item.aether_ii.holystone_pike.nitrogen_internals.ability.tooltip.1	§9能力:§r アンブロシアを落とす
+item.aether_ii.holystone_shortsword	聖石の短剣
+item.aether_ii.holystone_shortsword.nitrogen_internals.ability.tooltip.1	§9能力:§r アンブロシアを落とす
+item.aether_ii.holystone_shovel	聖石のシャベル
+item.aether_ii.holystone_shovel.nitrogen_internals.ability.tooltip.1	§9能力:§r アンブロシアを落とす
+item.aether_ii.holystone_trowel	聖石の移植ごて
+item.aether_ii.holystone_trowel.nitrogen_internals.ability.tooltip.1	§9能力:§r アンブロシアを落とす
+item.aether_ii.icestone_pendant	氷石のペンダント
+item.aether_ii.icestone_pendant.nitrogen_internals.ability.tooltip.1	§9能力:§r 液体を凍らせる
+item.aether_ii.inert_arkenium	不活性のアーケニウム
+item.aether_ii.inert_gravitite	不活性のグラビタイト
+item.aether_ii.irradiated_armor	照射された防具
+item.aether_ii.irradiated_armor_result	ランダムな防具
+item.aether_ii.irradiated_chunk	照射された塊
+item.aether_ii.irradiated_chunk_result	ランダムなアイテム
+item.aether_ii.irradiated_dust	照射された塵
+item.aether_ii.irradiated_dust.nitrogen_internals.ability.tooltip.1	§9能力:§r 自然を照射する
+item.aether_ii.irradiated_tool	照射された道具
+item.aether_ii.irradiated_tool_result	ランダムな道具
+item.aether_ii.irradiated_weapon	照射された武器
+item.aether_ii.irradiated_weapon_result	ランダムな武器
+item.aether_ii.kinetic_thrusters	運動推進器
+item.aether_ii.kirrid_cutlet	キリッドのカツレツ
+item.aether_ii.kirrid_loin	キリッドのロース
+item.aether_ii.kirrid_plate	キリッドの板
+item.aether_ii.kirrid_plate.nitrogen_internals.ability.tooltip.1	§4§o開発中§r§r
+item.aether_ii.large_moa_saddlebag	大きなモアの鞍袋
+item.aether_ii.lasso	ブレトルの投げ縄
+item.aether_ii.magnetic_burrukai_spawn_egg	ブルカイのスポーンエッグ
+item.aether_ii.magnetic_kirrid_spawn_egg	キリッドのスポーンエッグ
+item.aether_ii.magnetic_taegore_spawn_egg	タエゴアのスポーンエッグ
+item.aether_ii.moa_egg	モアの卵
+item.aether_ii.moa_feather	モアの羽根
+item.aether_ii.moa_feed	モアの餌
+item.aether_ii.moa_saddle	モアの鞍
+item.aether_ii.moa_saddlebag	モアの鞍袋
+item.aether_ii.moa_spawn_egg	モアのスポーンエッグ
+item.aether_ii.mural_item	壁画
+item.aether_ii.music_player	音楽プレーヤー
+item.aether_ii.neptune_boots	ネプチューンのブーツ
+item.aether_ii.neptune_boots.nitrogen_internals.ability.tooltip.1	§9能力:§r 水中歩行
+item.aether_ii.neptune_boots.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.neptune_chestplate	ネプチューンのチェストプレート
+item.aether_ii.neptune_chestplate.nitrogen_internals.ability.tooltip.1	§9能力:§r 水中歩行
+item.aether_ii.neptune_chestplate.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.neptune_gloves	ネプチューンのガントレット
+item.aether_ii.neptune_gloves.nitrogen_internals.ability.tooltip.1	§9能力:§r 水中歩行
+item.aether_ii.neptune_gloves.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.neptune_helmet	ネプチューンのヘルメット
+item.aether_ii.neptune_helmet.nitrogen_internals.ability.tooltip.1	§9能力:§r 水中歩行
+item.aether_ii.neptune_helmet.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.neptune_leggings	ネプチューンのレギンス
+item.aether_ii.neptune_leggings.nitrogen_internals.ability.tooltip.1	§9能力:§r 水中歩行
+item.aether_ii.neptune_leggings.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.neptune_scale	ネプチューンの鱗
+item.aether_ii.orange	オレンジ
+item.aether_ii.phyg_spawn_egg	トブタのスポーンエッグ
+item.aether_ii.prismallard_egg	プリズマラードの卵
+item.aether_ii.prismallard_feather	プリズマラードの羽根
+item.aether_ii.prismallard_leg	プリズマラードのもも肉
+item.aether_ii.prismallard_roast	プリズマラードのロースト
+item.aether_ii.prismallard_spawn_egg	プリズマラードのスポーンエッグ
+item.aether_ii.purple_aercloud_glider	紫の天空雲のグライダー
+item.aether_ii.purple_aercloud_glider.nitrogen_internals.ability.tooltip.1	§9能力:§r 前進ブースト
+item.aether_ii.purple_aercloud_glider.nitrogen_internals.ability.tooltip.2	§3使い方:§r クリックで使用
+item.aether_ii.raw_taegore_meat	生のタエゴアの肉
+item.aether_ii.resonant_stone	共鳴する石
+item.aether_ii.roasted_skyroot_lizard_on_a_stick	スカイルートトカゲの串焼き
+item.aether_ii.satival_bulb	サティヴァルの球根
+item.aether_ii.scatterglass_bolt	散光ガラスの矢
+item.aether_ii.scatterglass_shard	散光ガラスの破片
+item.aether_ii.scatterglass_vial	散光ガラスの小瓶
+item.aether_ii.sentry_boots	哨兵のブーツ
+item.aether_ii.sentry_boots.nitrogen_internals.ability.tooltip.1	§9能力:§r ゼファーからの保護
+item.aether_ii.sentry_crate_mimic_spawn_egg	哨兵の木箱ミミックのスポーンエッグ
+item.aether_ii.sentry_golem_spawn_egg	セントリーゴーレムのスポーンエッグ
+item.aether_ii.sentry_servo	哨兵のサーボ
+item.aether_ii.sheepuff_spawn_egg	ワターメェのスポーンエッグ
+item.aether_ii.shifting_glass	移ろいのガラス
+item.aether_ii.shifting_glass.nitrogen_internals.ability.tooltip.1	§9能力:§r 方向ダッシュ
+item.aether_ii.shifting_glass.nitrogen_internals.ability.tooltip.2	§3使い方:§r クリックで使用
+item.aether_ii.shroudwing_spawn_egg	シュラウドウィングのスポーンエッグ
+item.aether_ii.skephid_spawn_egg	スケフィッドのスポーンエッグ
+item.aether_ii.skyroot_axe	スカイルートの斧
+item.aether_ii.skyroot_axe.nitrogen_internals.ability.tooltip.1	§9能力:§r 収穫量が増える
+item.aether_ii.skyroot_axolotl_bucket	ウーパールーパー入りスカイルートのバケツ
+item.aether_ii.skyroot_bucket	スカイルートのバケツ
+item.aether_ii.skyroot_cod_bucket	タラ入りスカイルートのバケツ
+item.aether_ii.skyroot_crossbow	スカイルートのクロスボウ
+item.aether_ii.skyroot_crossbow.nitrogen_internals.ability.tooltip.1	§9能力:§r 二連射
+item.aether_ii.skyroot_crossbow.nitrogen_internals.ability.tooltip.2	§3使い方:§r しゃがんで使用
+item.aether_ii.skyroot_hammer	スカイルートのハンマー
+item.aether_ii.skyroot_hammer.nitrogen_internals.ability.tooltip.1	§9能力:§r 収穫量が増える
+item.aether_ii.skyroot_lizard_on_a_stick	スカイルートトカゲの串刺し
+item.aether_ii.skyroot_lizard_spawn_egg	スカイルートトカゲのスポーンエッグ
+item.aether_ii.skyroot_milk_bucket	牛乳入りスカイルートのバケツ
+item.aether_ii.skyroot_pickaxe	スカイルートのツルハシ
+item.aether_ii.skyroot_pickaxe.nitrogen_internals.ability.tooltip.1	§9能力:§r 収穫量が増える
+item.aether_ii.skyroot_pike	スカイルートのパイク
+item.aether_ii.skyroot_pike.nitrogen_internals.ability.tooltip.1	§9能力:§r 収穫量が増える
+item.aether_ii.skyroot_pinecone	スカイルートの松ぼっくり
+item.aether_ii.skyroot_powder_snow_bucket	粉雪入りスカイルートのバケツ
+item.aether_ii.skyroot_pufferfish_bucket	フグ入りスカイルートのバケツ
+item.aether_ii.skyroot_salmon_bucket	サケ入りスカイルートのバケツ
+item.aether_ii.skyroot_shield	スカイルートの盾
+item.aether_ii.skyroot_shortsword	スカイルートの短剣
+item.aether_ii.skyroot_shortsword.nitrogen_internals.ability.tooltip.1	§9能力:§r 収穫量が増える
+item.aether_ii.skyroot_shovel	スカイルートのシャベル
+item.aether_ii.skyroot_shovel.nitrogen_internals.ability.tooltip.1	§9能力:§r 収穫量が増える
+item.aether_ii.skyroot_stick	スカイルートの棒
+item.aether_ii.skyroot_tadpole_bucket	オタマジャクシ入りスカイルートのバケツ
+item.aether_ii.skyroot_tropical_fish_bucket	熱帯魚入りスカイルートのバケツ
+item.aether_ii.skyroot_trowel	スカイルートの移植ごて
+item.aether_ii.skyroot_trowel.nitrogen_internals.ability.tooltip.1	§9能力:§r 収穫量が増える
+item.aether_ii.skyroot_water_bucket	水入りスカイルートのバケツ
+item.aether_ii.slider_spawn_egg	スライダーのスポーンエッグ
+item.aether_ii.splint	添え木
+item.aether_ii.swet_gel	スェットのジェル
+item.aether_ii.swet_gel.nitrogen_internals.ability.tooltip.1	§9能力:§r 自然を育てる
+item.aether_ii.swet_jelly	スェットゼリー
+item.aether_ii.swet_sugar	スェットの砂糖
+item.aether_ii.taegore_steak	タエゴアのステーキ
+item.aether_ii.tempest_spawn_egg	テンペストのスポーンエッグ
+item.aether_ii.valkyrie_tea	ワルキューレの茶
+item.aether_ii.valkyrie_wings	ワルキューレの翼
+item.aether_ii.water_vial	水の小瓶
+item.aether_ii.wyndberry	ウィンドベリー
+item.aether_ii.zanite_axe	ザナイトの斧
+item.aether_ii.zanite_axe.nitrogen_internals.ability.tooltip.1	§9能力:§r 強くなっていく
+item.aether_ii.zanite_boots	ザナイトのブーツ
+item.aether_ii.zanite_boots.nitrogen_internals.ability.tooltip.1	§9能力:§r 速度上昇
+item.aether_ii.zanite_boots.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.zanite_chestplate	ザナイトのチェストプレート
+item.aether_ii.zanite_chestplate.nitrogen_internals.ability.tooltip.1	§9能力:§r 速度上昇
+item.aether_ii.zanite_chestplate.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.zanite_crossbow	ザナイトのクロスボウ
+item.aether_ii.zanite_crossbow.nitrogen_internals.ability.tooltip.1	§9能力:§r 強くなっていく
+item.aether_ii.zanite_crossbow.nitrogen_internals.ability.tooltip.2	§3使い方:§r しゃがんで使用
+item.aether_ii.zanite_gemstone	ザナイトの宝石
+item.aether_ii.zanite_gloves	ザナイトのガントレット
+item.aether_ii.zanite_gloves.nitrogen_internals.ability.tooltip.1	§9能力:§r 速度上昇
+item.aether_ii.zanite_gloves.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.zanite_hammer	ザナイトのハンマー
+item.aether_ii.zanite_hammer.nitrogen_internals.ability.tooltip.1	§9能力:§r 強くなっていく
+item.aether_ii.zanite_helmet	ザナイトのヘルメット
+item.aether_ii.zanite_helmet.nitrogen_internals.ability.tooltip.1	§9能力:§r 速度上昇
+item.aether_ii.zanite_helmet.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.zanite_leggings	ザナイトのレギンス
+item.aether_ii.zanite_leggings.nitrogen_internals.ability.tooltip.1	§9能力:§r 速度上昇
+item.aether_ii.zanite_leggings.nitrogen_internals.ability.tooltip.2	§9セット:§r %s
+item.aether_ii.zanite_pendant	ザナイトのペンダント
+item.aether_ii.zanite_pendant.nitrogen_internals.ability.tooltip.1	§9能力:§r 強くなっていく
+item.aether_ii.zanite_pickaxe	ザナイトのツルハシ
+item.aether_ii.zanite_pickaxe.nitrogen_internals.ability.tooltip.1	§9能力:§r 強くなっていく
+item.aether_ii.zanite_pike	ザナイトのパイク
+item.aether_ii.zanite_pike.nitrogen_internals.ability.tooltip.1	§9能力:§r 強くなっていく
+item.aether_ii.zanite_shears	ザナイトのハサミ
+item.aether_ii.zanite_shears.nitrogen_internals.ability.tooltip.1	§9能力:§r 強くなっていく
+item.aether_ii.zanite_shield	ザナイトの盾
+item.aether_ii.zanite_shortsword	ザナイトの短剣
+item.aether_ii.zanite_shortsword.nitrogen_internals.ability.tooltip.1	§9能力:§r 強くなっていく
+item.aether_ii.zanite_shovel	ザナイトのシャベル
+item.aether_ii.zanite_shovel.nitrogen_internals.ability.tooltip.1	§9能力:§r 強くなっていく
+item.aether_ii.zanite_trowel	ザナイトの移植ごて
+item.aether_ii.zanite_trowel.nitrogen_internals.ability.tooltip.1	§9能力:§r 強くなっていく
+item.aether_ii.zephyr_husk	ゼファーの抜け殻
+item.aether_ii.zephyr_husk.nitrogen_internals.ability.tooltip.1	§4§o開発中§r§r
+item.aether_ii.zephyr_spawn_egg	ゼファーのスポーンエッグ

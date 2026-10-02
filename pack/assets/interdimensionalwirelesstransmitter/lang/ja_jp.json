@@ -1,0 +1,12 @@
+{
+  "mod.interdimensional_wireless_transmitter": "Interdimensional Wireless Transmitter",
+  "block.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter": "ディメンション間ワイヤレス送信機",
+  "gui.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter.distance": "無限の範囲",
+  "item.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter.help": "ワイヤレスグリッドなどのアイテムにワイヤレスでネットワークへのアクセスを提供する。範囲は無限で、ディメンションをまたぐ。",
+  "text.autoconfig.interdimensionalwirelesstransmitter.option.interdimensionalWirelessTransmitter": "ディメンション間ワイヤレス送信機",
+  "text.autoconfig.interdimensionalwirelesstransmitter.option.interdimensionalWirelessTransmitter.tooltip": "ディメンション間ワイヤレス送信機の設定。",
+  "text.autoconfig.interdimensionalwirelesstransmitter.option.interdimensionalWirelessTransmitter.energyUsage": "エネルギー使用量",
+  "text.autoconfig.interdimensionalwirelesstransmitter.option.interdimensionalWirelessTransmitter.energyUsage.tooltip": "ディメンション間ワイヤレス送信機のエネルギー使用量。",
+  "advancements.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter": "ディメンションを超える>>力<<",
+  "advancements.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter.description": "ディメンション間ワイヤレス送信機で、ディメンションをまたいで無限の範囲にネットワークの信号を送る"
+}

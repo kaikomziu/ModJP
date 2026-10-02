@@ -1,0 +1,16 @@
+{
+  "item.ae2netanalyser.tick_analyser": "ME tickプロファイラー",
+  "gui.ae2netanalyser.tick_analyser.set_duration": "計測時間(秒)",
+  "gui.ae2netanalyser.tick_analyser.begin": "開始",
+  "gui.ae2netanalyser.tick_analyser.cancel": "中止",
+  "gui.ae2netanalyser.tick_analyser.range1": "<5μs/tick",
+  "gui.ae2netanalyser.tick_analyser.range2": "5-100μs/tick",
+  "gui.ae2netanalyser.tick_analyser.range3": "100-500μs/tick",
+  "gui.ae2netanalyser.tick_analyser.range4": ">500μs/tick",
+  "chat.ae2netanalyser.tick_analyser.begin": "%s秒間計測する。",
+  "chat.ae2netanalyser.tick_analyser.finish": "計測が終わった。",
+  "chat.ae2netanalyser.tick_analyser.waiting": "計測の要求は送信済み。終わるまで待って。",
+  "chat.ae2netanalyser.tick_analyser.cannel": "計測を中止した。",
+  "chat.ae2netanalyser.tick_analyser.no_cannel": "実行中の計測はない。",
+  "chat.ae2netanalyser.tick_analyser.user_control": "このサーバーで計測する権限がない。"
+}

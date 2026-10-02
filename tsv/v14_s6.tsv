@@ -1,0 +1,186 @@
+## jupiter
+config.jupiter.general.configButtonReplacement	設定ボタンの置き換え
+config.jupiter.general.configButtonReplacement.tooltip	MODメニューの設定を開くボタンをJupiterに転送するかどうか
+config.jupiter.general.loadClothConfigs	Clothの設定を読み込む
+config.jupiter.general.loadClothConfigs.tooltip	Cloth Config APIの設定ファイルを読み込む
+config.jupiter.general.loadForgeConfigs	(Neo)Forgeの設定を読み込む
+config.jupiter.general.loadForgeConfigs.tooltip	(Neo)ForgeとForge Config API Portの設定ファイルを読み込む
+config.jupiter.general.redirectAutoConfigScreen	Auto Configの画面を転送
+config.jupiter.general.redirectAutoConfigScreen.tooltip	Auto Configの画面をJupiterの設定画面に置き換える。
+jupiter.config_source.cloth_config	Cloth
+jupiter.config_source.jupiter	Jupiter
+jupiter.config_source.night_config	(Neo)Forge
+@ jupiter.screen.
+.back	戻る
+.button.remove	削除
+.button.reset	リセット
+.cannot_process_list_enum	Jupiterは初期値が空のList<Enum>の項目を処理できない
+.check_server	権限を確認中…
+.client_config	クライアント設定
+.common_config	共通設定
+.config.general	一般
+.config.title	Jupiter の設定
+.config_list.title	Jupiter の設定一覧
+.current_modifying_client	クライアント設定を変更中
+.current_modifying_dedicate_server	専用サーバーの設定を変更中
+.current_modifying_local_server	ローカルサーバーの設定を変更中
+.disable_server	権限なし
+.edit	編集
+.edit_local	ローカルを編集
+.edit_remote	リモートを編集
+.error_server	無効なサーバー設定のデータを受信した
+.local_common_config	ローカル共通
+.local_server_config	ローカルサーバー
+.need_remote_server	専用サーバーに接続していない。
+.open_client	クライアント設定を開く
+.open_local_common	ローカル共通設定を開く
+.open_local_server	ローカルサーバー設定を開く
+.open_remote_common	リモート共通設定を開く
+.open_remote_server	リモートサーバー設定を開く
+.remote_common_config	リモート共通
+.remove_server_config	リモートサーバー
+.restart_required	(再起動が必要)
+.server_config	サーバー設定
+.unavailable	設定が無効か、用意されていない
+.unregistered_widget	%sのウィジェットが見つからない。%sの開発者に連絡してください
+## jupiter
+jupiter.toast.upload_config_error_content	権限がない
+jupiter.toast.upload_config_error_title	サーバー設定の変更に失敗した
+## oracle_index
+oracle_index.title.oracle_index	Oracle Index
+oracle_index.title.oracle-index	Oracle Index
+oracle_index.title.screen	Oracle Index
+oracle_index.title.search	Oracle Index を検索
+key.oracle_index.open	Oracle Index を開く
+key.oracle_index.search	Oracle の検索を開く
+key.category.oracle_index.oracle	Oracle Index
+oracle_index.searchbar.placeholder	検索または計算
+oracle_index.searchbar.tooltip	文章や数式にも対応した賢い検索。
+oracle_index.searchbar.indexing	索引を作成中%s
+tooltip.oracle_index.open_search	検索を開く。[CTRL + %s]か[%s]でいつでも開ける。
+tooltip.oracle_index.back	前のページに戻る。
+tooltip.oracle_index.close_screen	Wikiを閉じる。
+oracle_index.button.docs	説明書
+oracle_index.button.content	内容
+oracle_index.tooltip.docs	[ALT]を押し続けると説明書を表示
+oracle_index.callout.note	メモ
+oracle_index.callout.tip	ヒント
+oracle_index.callout.important	重要
+oracle_index.callout.warning	警告
+oracle_index.callout.caution	注意
+oracle_index.video.watch	YouTubeで見る
+oracle_index.code_tab	タブ%s
+oracle_index.properties.title	詳細
+oracle_index.property.max_stack	最大スタック数
+oracle_index.property.durability	耐久値
+oracle_index.property.hardness	硬さ
+oracle_index.property.resistance	爆発耐性
+oracle_index.property.tool_required	道具が必要
+oracle_index.property.effective_tool	適した道具
+oracle_index.property.light_level	明るさ
+oracle_index.value.yes	はい
+oracle_index.tool.pickaxe	ツルハシ
+oracle_index.tool.axe	斧
+oracle_index.tool.shovel	シャベル
+oracle_index.tool.hoe	クワ
+oracle_index.error.recipe_inputs	クラフトレシピのデータが無効: 材料は9個のはず
+oracle_index.error.image_location	画像の場所がない
+oracle_index.error.image_not_found	画像が見つからない: %s
+oracle_index.error.image_read	画像の読み込みエラー: %s
+oracle_index.search.unavailable	申し訳ないが、Oracle Indexの検索は君の環境では使えない。
+oracle_index.search.xplat_hint	検索を使うには、MODのGitHubページにあるxplat版のjarを導入すること。
+oracle_index.search.jar_size_hint	jarのサイズの制限のため、標準のファイルにはなっていない。
+oracle_index.search.calculation	計算:
+oracle_index.page.untitled	無題のページ
+## inworldrecipes
+@ jei.inworldrecipes.
+.dropped_items	落ちているアイテム
+.held_item	持っているアイテム
+.inventory_items	インベントリに必要
+.weather	天気
+.entity	必要なエンティティ
+.block_state	置いたブロック
+.chance_results	確率の結果
+.consume_held_item	持っているアイテムを消費する
+.consume_dropped_items	必要な落ちているアイテムを消費する
+.consume_inventory_items	インベントリの必要なアイテムを消費する
+.consume_cauldron_fluid	大釜の液体の量を消費する
+.consume_cauldron_items	大釜の必要なアイテムを消費する
+.consume_fluid_items	液体の中の必要なアイテムを消費する
+.consume_fluid	液体を消費する
+.damage_held_item	持っているアイテムの耐久値を減らす
+.message	メッセージ
+.block_landed	ブロックの着地
+.chat_message	チャットメッセージを送る
+.click_type	クリックの種類
+.block_target	対象のブロック
+.fluid	液体の中
+.cauldron	大釜
+.standing_on	このブロックの上に立つ必要がある
+.lightning	雷が落ちる必要がある
+.to_inventory	インベントリに入る
+.damage	ダメージ
+.left_click	左クリック
+.right_click	右クリック
+.triggers	きっかけ
+.conditions	条件
+.results	結果
+.output_block_state	ブロックをこのブロックに置き換える
+.pop_items	結果のアイテムはワールドに置かれる
+.chance	確率: %s
+.dropped_item	落ちているアイテムとしてワールドに必要
+.ignore_block_state	ブロックの状態を無視する
+.target_block	このブロックを対象にする必要がある
+.target_block_tag	このブロックタグを対象にする必要がある(%s)
+.world_recipe	ワールド内レシピ
+.weather_condition	天気が%sである必要がある
+## inworldrecipes
+weather.inworldrecipes.clear	晴れ
+weather.inworldrecipes.rain	雨
+weather.inworldrecipes.thunder	雷雨
+weather.inworldrecipes.snow	雪
+## railcraft
+entity.railcraft.villager.cartman	トロッコ職人
+entity.railcraft.villager.trackman	線路工
+key.category.railcraft.default	Railcraft Reborn
+@ tips.railcraft.
+.distant_signal	連結したコントローラーの信号の表示を映す
+.manipulator.redstone_mode.complete.desc	作業が完了するまで処理する。
+.manipulator.redstone_mode.immediate	即時
+.manipulator.redstone_mode.immediate.desc	空きか供給がなくなるまで処理する。
+.manipulator.redstone_mode.manual	手動
+.manipulator.redstone_mode.manual.desc	レッドストーン信号を一切出さない。
+.manipulator.redstone_mode.partial	部分
+.manipulator.redstone_mode.partial.desc	空きか供給がなくなるまで処理するが、手つかずのトロッコは残す。
+.manipulator.transfer_mode.all	すべて
+.manipulator.transfer_mode.all.desc	一致するアイテムをすべて動かす。
+.manipulator.transfer_mode.excess	余剰
+.manipulator.transfer_mode.excess.desc	送り元がフィルターと一致するまで動かす。
+.manipulator.transfer_mode.stock	在庫
+.manipulator.transfer_mode.stock.desc	行き先がフィルターと一致するまで動かす。
+.manipulator.transfer_mode.transfer	移送
+.manipulator.transfer_mode.transfer.desc	フィルターにある量だけちょうど動かす。
+.manual_operation	手動操作
+.one_way_track	トロッコは矢印の方向にしか通れない
+.overalls	線路作業の危険から身を守る
+.percentage	割合:
+.powered_by_electricity	電気で動く
+.receivers	受信機 %s台
+.redstone_linkage	レッドストーンの連動:
+.relevant_tools	関連する道具:
+.rolling_machine	さまざまな金属アイテムの作業台
+.routing.routing_table_book.last_edit	最終編集者: %s
+.routing.ticket.dest	行き先:
+.routing_track	通過する機関車の切符を設定する
+.scripted_logic_operation	スクリプトによる論理操作
+.send_signals_to_receivers	受信機に信号を送る
+.signal_interlock_box	1つの信号の表示だけを通す
+.signal_label.desc2	スニークしながら右クリックすると、信号機や信号ボックスに名前を付けられる
+.signal_receiver_box	コントローラーの信号を受け取る
+.signal_surveyor	信号の測量器
+.signal_tuner	信号の調整器
+.slow_unpowered	動力がないと減速する
+.token_area	トークン範囲 %s
+.token_signal	トークン範囲に出入りするトロッコを検知する
+.token_signal_box	トークン範囲に出入りするトロッコを検知する
+.track_kit.slopes_unsupported	坂には対応していない

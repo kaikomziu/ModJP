@@ -3,7 +3,7 @@ import json, glob
 from pathlib import Path
 
 PACK = Path(__file__).parent / "pack"
-DESC = "§6MOD日本語化パック §7v1.3 (1.20.1)"
+DESC = "§6MOD日本語化パック §7v1.4 (1.20.1)"
 
 
 def strict_load(p):

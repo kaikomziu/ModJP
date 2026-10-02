@@ -11,7 +11,7 @@ from pathlib import Path
 WORK = Path(__file__).parent
 PACK = WORK / "pack"
 BUNDLE_BROKEN_OFFICIAL = False
-DESC = "§6MOD日本語化パック §7v1.3 (1.20.1)"
+DESC = "§6MOD日本語化パック §7v1.4 (1.20.1)"
 TR = WORK / "tr"
 KEEP = TR / "_keep_english.json"   # {ns: {key: 理由}} 意味が判断できず英語のまま残すキー
 
@@ -47,6 +47,9 @@ def official_keys():
     for f in glob.glob(str(WORK / "extracted" / "*.json")):
         d = json.loads(Path(f).read_text(encoding="utf-8"))
         if d.get("ja_broken") and not BUNDLE_BROKEN_OFFICIAL:
+            continue
+        # 別バージョン(ATM11)から借りたjarの公式訳は、1.20.1の他MODのキーを隠す根拠にしない
+        if d.get("other_version"):
             continue
         official |= set(d["ja_jp"])
     return official

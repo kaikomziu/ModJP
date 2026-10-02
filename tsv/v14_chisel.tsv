@@ -1,0 +1,78 @@
+## chisel
+=An Old Relic from the land of Oneteufyv	オネトゥーフィヴの地の古い遺物
+=Bookshelf filled to the brim with boring Pastel Books	退屈なパステル色の本がぎっしり詰まった本棚
+=Wireframe in a Shade of Purple	紫がかったワイヤーフレーム
+=Smiling open	口を開けて笑う
+=Laughing out loud	大笑い
+=Small Obsidian Blocks inside an Oak Wood Crate	オーク材の木箱に入った小さな黒曜石ブロック
+=Stone Bricks in a Fancy Arrangement	凝った並びの石レンガ
+=Ornate Stone Brick tiles	装飾石レンガタイル
+=Transparent Still Fan	止まった透明なファン
+=Gears and Flywheels	歯車とはずみ車
+=If it speaks, I wouldn't touch it	しゃべり出したら触らないほうがいい
+=There's a flame in my heart	胸に炎が燃えている
+=Cryogenic Freezing in progress	極低温凍結中
+=Loud Sounds	大きな音
+chisel.builders_guide.mode_changed	モードを変更:
+chisel.builders_guide.size_changed	サイズを変更:
+chisel.building_mode.chisel:axes	軸
+chisel.building_mode.chisel:cuboid	直方体(辺)
+chisel.building_mode.chisel:cylinder	円柱
+chisel.building_mode.chisel:dome	ドーム
+chisel.building_mode.chisel:full_cuboid	直方体(面)
+chisel.building_mode.chisel:hexagon	六角形
+chisel.building_mode.chisel:octagon	八角形
+chisel.building_mode.chisel:pentagon	五角形
+chisel.building_mode.chisel:planes	平面
+chisel.building_mode.chisel:sphere	球
+chisel.building_mode.chisel:triangle	三角形
+chisel.gui.no_variants	一致するバリエーションがない
+chisel.gui.search	検索:
+=Column	列
+=Panel	パネル
+=Row	行
+=Single	単体
+chisel.mode.shapeless	形状なし
+chisel.mode.shapeless_exact	形状なし(完全一致)
+chisel.mode.shapeless_flat	形状なし(平面)
+chisel.mode.shapeless_flat_exact	形状なし(平面・完全一致)
+chisel.preview.donut	ドーナツ
+chisel.preview.plus	十字
+chisel.search	検索
+config.jade.plugin_chisel.jade_plugin	Chiselの説明
+=Auto Chisel	自動のみ
+=Chisel	のみ
+item.chisel.ball_o_moss.desc	右クリックで投げる。さまざまなブロックを苔むした版に変える
+item.chisel.ballomoss	苔玉
+item.chisel.builders_guide	建築ガイド
+item.chisel.chisel.desc1	右クリックでGUIを開く
+item.chisel.chisel.desc2	左クリックでワールドのブロックを彫る
+item.chisel.chisel.desc3	のみスロットに置いたブロックが彫る目標になる
+item.chisel.chisel_diamond	ダイヤモンドのみ
+item.chisel.chisel_obsidian	黒曜石のみ
+item.chisel.cloud_in_a_bottle.desc	右クリックで投げる。当たった場所に雲が出る。
+item.chisel.cloudinabottle	瓶詰めの雲
+item.chisel.measuring_tape	巻き尺
+item.chisel.offset_tool	エンダーずらしの杖
+item.chisel.offset_tool.desc	強調表示された方向を右クリックするとテクスチャをずらす
+item.chisel.offset_tool.desc2	ずらせるテクスチャのときだけ強調表示する
+item.chisel.smashing_rock.desc	右クリックで投げる。当たったブロックを砕く。
+item.chisel.smashingrock	破砕の石
+item.chisel.upgrade_automation	自動化アップグレード
+item.chisel.upgrade_reversion	復元アップグレード
+item.chisel.upgrade_speed	速度アップグレード
+item.chisel.upgrade_stack	スタックアップグレード
+itemGroup.tabChisel	Chiselのアイテム
+itemGroup.tabMetalChiselBlocks	Chiselの金属ブロック
+itemGroup.tabModdedChiselBlocks	ChiselのMODブロック
+itemGroup.tabOtherChiselBlocks	Chiselのその他のブロック
+itemGroup.tabStoneChiselBlocks	Chiselの石ブロック
+itemGroup.tabWoodChiselBlocks	Chiselの木材ブロック
+key.category.chisel.chisel	Chisel
+key.chisel.mode_select	のみのモードを選択
+stat.chisel.blocks_chiseled	彫ったブロック数
+tooltip.chisel.builders_guide.height_desc	上面/底面を右クリックで高さを変更
+tooltip.chisel.builders_guide.length_desc	北面/南面を右クリックで長さを変更
+tooltip.chisel.builders_guide.mode_desc	Shift+右クリックでモードを変更
+tooltip.chisel.builders_guide.place_desc	ブロックを持って右クリックでその形に設置
+tooltip.chisel.builders_guide.width_desc	東面/西面を右クリックで幅を変更

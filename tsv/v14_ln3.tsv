@@ -1,0 +1,243 @@
+## logisticsnetworks
+advancement.logisticsnetworks.root.title	Logistics Networks
+advancement.logisticsnetworks.root.description	アイテムにカーソルを合わせて「G」を押し続けるとガイドが出る
+storage.logisticsnetworks.ae2	AE2
+storage.logisticsnetworks.refined_storage	RS
+item.logisticsnetworks.tag_filter	タグフィルター
+item.logisticsnetworks.amount_filter	量フィルター
+item.logisticsnetworks.durability_filter	耐久値フィルター
+item.logisticsnetworks.nbt_filter	NBTフィルター
+item.logisticsnetworks.slot_filter	スロットフィルター
+key.logisticsnetworks.wrench_modes	レンチのモードホイール(押し続ける)
+@ gui.logisticsnetworks.
+.node.channel_name.hint	チャンネル名…
+.node.channel_name.set_tooltip	%sを2回使うとチャンネルに名前を付けられる
+.config.title	Logistics Networks の設定
+.config.tab.common	共通
+.config.tab.client	クライアント
+.config.tab.upgrades	アップグレード
+.config.done	完了
+.config.cancel	キャンセル
+.config.enabled	オン
+.config.disabled	オフ
+.config.common.dropNodeItem	ノードのアイテムを落とす
+.config.common.debugMode	デバッグモード
+.config.common.networkTicking	ネットワークの更新
+.config.common.nodeAccessMode	ノードへのアクセス
+.config.common.nodeAccessMode.teams	チーム
+.config.common.nodeAccessMode.all	全員
+.config.common.nodeAccessMode.allies	味方
+.config.common.backoffMaxTicks	待機の最大tick
+.config.common.backoffItem	アイテムの待機
+.config.common.backoffFluid	液体の待機
+.config.common.backoffEnergy	エネルギーの待機
+.config.common.backoffChemical	化学物質の待機
+.config.common.backoffSource	ソースの待機
+.config.client.defaultNodeVisibility	ノードの初期表示
+.config.client.maxRenderedNodes	描画するノードの最大数
+.config.client.maxVisibleNodes	表示するノードの最大数
+.config.client.connectedNodeTextures	つながったノードのテクスチャ
+.config.client.invertCopyPasteControls	コピー/貼り付けの操作を反転
+.config.client.theme	テーマ
+.config.client.computerClassicTheme	昔ながらのコンピューター端末
+.config.upgrades.tier.none	アップグレードなし
+.config.upgrades.tier.iron	鉄ティア
+.config.upgrades.tier.gold	金ティア
+.config.upgrades.tier.diamond	ダイヤモンドティア
+.config.upgrades.tier.netherite	ネザライトティア
+.config.upgrades.minTicks	最小tick
+.config.upgrades.itemBatch	アイテムの量/回
+.config.upgrades.fluidBatch	液体の量/回
+.config.upgrades.energyBatch	エネルギーの量/回
+.config.upgrades.chemicalBatch	化学物質の量/回
+.config.upgrades.sourceBatch	ソースの量/回
+.config.no_permission	この設定を変更する権限がない
+.node.docs	説明書
+.node.tweaks	調整
+.node.tweaks.theme	テーマ
+.theme.light	ライト
+.theme.dark	ダーク
+.theme.redstone	レッドストーン
+.theme.nebula	星雲
+.theme.glass	ガラス
+.theme.terminal	ターミナル
+.theme.pastel	パステル
+.theme.brutalist	ブルータリスト
+.filter.scan_storage	つないだストレージを調べる
+.filter.scan_storage.unavailable	つないだストレージを調べる(標準のノードフィルターのみ)
+.config.client.flowLines	流れの線
+.config.client.flowLinesEnabled	流れの線を有効にする
+.config.client.flowLinesEnabled.tooltip	レンチを持っている間、資源のつながりを表示する。つながりは画面に描画されたノードに沿う。
+.config.client.flowLineThickness	太さ(ピクセル)
+.config.client.flowLineThickness.tooltip	線の太さ、1から20ピクセル。パルスは50%太い。初期値: 6。
+.config.client.flowLineSpeed	速さ(ブロック/秒)
+.config.client.flowLineSpeed.tooltip	最初の表示とパルスの速さ、毎秒0.1から60ブロック。初期値: 3。
+.config.client.flowLineOpacity	不透明度(0.05-1)
+.config.client.flowLineOpacity.tooltip	線とパルスの不透明度。1で完全に不透明。初期値: 0.95。
+.config.client.flowLinePulses	パルスを表示
+.config.client.flowLinePulses.tooltip	つながりに沿って電気のパルスを動かす。オフにしても線は表示されたまま。
+.config.client.flowLinePulseSpacing	パルスの間隔(ブロック)
+.config.client.flowLinePulseSpacing.tooltip	パルス同士の距離、0.5から32ブロック。初期値: 3。
+.config.client.flowLinePulseLength	パルスの長さ(ブロック)
+.config.client.flowLinePulseLength.tooltip	パルスの長さ、0.1から8ブロック。パルスの間隔で制限される。初期値: 0.6。
+.config.client.flowLinesThroughBlocks	ブロック越しに表示
+.config.client.flowLinesThroughBlocks.tooltip	無効にするとブロックが線を隠す。有効にしてもノードの描画制限は適用される。
+.graph.routes	%s 経路
+.graph.more_routes	…ほか%s経路
+.graph.open	グラフエディター
+.graph.description	ノードを配置して設定する
+.graph.title	ネットワークのグラフ
+.graph.back	戻る
+.graph.fit	全体表示
+.graph.reset	配置をリセット
+.graph.previous	前のメンバー
+.graph.next	次のメンバー
+.graph.loading	ネットワークを読み込み中…
+.graph.empty	このネットワークに読み込まれたノードがない。
+.graph.hint	クリックで編集 / Ctrl+クリックで複数選択 / Shift+ドラッグで範囲選択 / 選択をドラッグで移動 / 背景をドラッグで移動 / スクロールで拡大縮小
+.graph.unloaded	%s 未読み込み
+.graph.selected_member	メンバー %s / %s
+.graph.individual	設定はこのノードに適用される。
+.graph.shared	チャンネルとフィルターは共有。アップグレードと割り当てはこのメンバーに適用される。
+.graph.members	%s メンバー
+.graph.member_detail	%s: %s, %s, %s (%s)
+.graph.dimensional	ディメンションをまたぐ経路
+.graph.route	チャンネル%s: %s %s
+.graph.more_members	…ほか%s
+.graph.channel.item	アイテム
+.graph.channel.fluid	液体
+.graph.channel.energy	エネルギー
+.graph.channel.chemical	化学物質
+.graph.channel.source	ソース
+.graph.mode.import	受信
+.graph.mode.export	送信
+.network_graph	ネットワークのグラフ
+.node.search	アイテムを検索…
+.node.tweaks.density	密度
+.node.tweaks.density.normal	通常
+.node.tweaks.density.compact	コンパクト
+.config.client.density	密度
+.node.storage_upgrades	ネットワークのアップグレード
+.node.storage_upgrades.backend	%sのアップグレード
+.node.storage_upgrades.loading	読み込み中…
+.node.storage_upgrades.empty	使えるアップグレードがない
+.node.storage_upgrades.unavailable	ストレージネットワークが使えない
+.node.storage_upgrades.stored	%s 保管中
+.node.storage_upgrades.craftable	自動クラフト可能
+.mass_placement.status_pending	ストレージへの要求を待機中
+.mass_placement.autocraft	 + 自動クラフト
+.mass_placement.queued	待機中
+.node.back_to_table	表に戻る
+.computer.bulk_label	ラベル
+.computer.apply_label	適用
+.computer.settings_source	設定元: %s
+.computer.same_block	同じブロック
+.wrench.modes.title	レンチのモード
+.wrench.modes.active	使用中
+.wrench.modes.hint	%sを離して選択 · Escでキャンセル
+.node.network_search_hint	ネットワークを検索…
+.node.network_create	作成
+.node.confirm_network_creation	%sという名前のネットワークを作成する
+.node.resource_rotation.hint	資源を順番に
+.node.resource_rotation.hint.operation	1回の動作で、一致するアイテムか液体を1種類ずつ運ぶ。
+.node.resource_rotation.hint.blocked	詰まった種類は飛ばす。
+.node.resource_rotation.hint.settings	一度に運ぶ量、間隔、受信側の分配は引き続き適用される。
+.node.storage_upgrades.craft	クラフト
+.filter.advanced_settings_hint	%s+クリックで詳細設定。
+.config.client.confirmNetworkCreation	ネットワーク作成の確認
+.graph.selected_nodes	%s 選択中 / %s を編集中
+.graph.confirm.apply	%sに適用
+.graph.confirm.remove	選択した%s個のノードからラベルを外す？別々のグラフノードになる。
+.graph.confirm.join	ラベル「%s」はすでにある。選択した%s個のノードはそこに加わり、共有設定を使う。
+.graph.confirm.join_replace	ラベル「%s」はすでにある。選択した%s個のノードはそこに加わって共有設定を使い、今のラベルのグループから外れる。
+.graph.confirm.replace	選択した%2$s個のノードに「%1$s」を適用する？ラベル付きの%3$s個のノードは今のグループから外れる。最初に選んだノードの設定が共有される。
+.filter.tag_picker.open	タグを選ぶ
+.filter.tag_picker.title	タグを選ぶ
+.filter.tag_picker.back	< 戻る
+.filter.tag_picker.help	タグは似たものをまとめたもの。一致させるグループを選ぶ。
+.filter.tag_picker.search	検索
+.filter.tag_picker.search_hint.items	グループ、アイテム名、タグID
+.filter.tag_picker.search_hint.fluids	グループ、液体名、タグID
+.filter.tag_picker.search_hint.chemicals	グループ、化学物質名、タグID
+.filter.tag_picker.tag	タグ
+.filter.tag_picker.sort.name	名前順に並べる。もう一度クリックで逆順。
+.filter.tag_picker.sort.count	数で並べる。もう一度クリックで逆順。
+.filter.tag_picker.examples	例
+.filter.tag_picker.column.items	数
+.filter.tag_picker.column.fluids	数
+.filter.tag_picker.column.chemicals	数
+.filter.tag_picker.count.items	%s種類のアイテム
+.filter.tag_picker.count.fluids	%s種類の液体
+.filter.tag_picker.count.chemicals	%s種類の化学物質
+.filter.tag_picker.empty	タグが見つからない。名前か、もっと広いグループで試して。
+.filter.tag_picker.select	行を選ぶと中身をプレビューできる。
+.filter.tag_picker.related	今のアイテム、液体、化学物質を含む
+.filter.tag_picker.unavailable	このタグはこのワールドに中身がない。
+.filter.tag_picker.more	、ほか%s
+.filter.tag_picker.one_per_slot	1スロットにつきタグ1つ
+.filter.tag_picker.use	タグを使う
+.filter.tag_picker.view_all.items	左Ctrl+クリックですべてのアイテムを表示
+.filter.tag_picker.view_all.fluids	左Ctrl+クリックですべての液体を表示
+.filter.tag_picker.view_all.chemicals	左Ctrl+クリックですべての化学物質を表示
+.filter.tag_picker.contents.search.items	アイテム名またはID
+.filter.tag_picker.contents.search.fluids	液体名またはID
+.filter.tag_picker.contents.search.chemicals	化学物質名またはID
+.filter.tag_picker.contents.matches	一致: %s / %s
+.filter.tag_picker.contents.empty	一致するものがない。
+@ tooltip.logisticsnetworks.wrench.
+.ae2_linked	連結済み
+.ae2_linked_detail	%4$sの[%1$s, %2$s, %3$s]に連結
+.ae2_unlinked	未連結
+.storage_linked	%sに連結
+.storage_linked_detail	%5$sの[%2$s, %3$s, %4$s]にある%1$s
+.storage_unlinked	ストレージネットワークに連結していない
+@ message.logisticsnetworks.
+.ae2.linked	レンチを[%s, %s, %s]のMEネットワークに連結した
+.ae2.unlinked	レンチをMEネットワークから外した
+.filter.scan_storage.success	つないだストレージから%s項目を追加した
+.filter.scan_storage.full	%s項目を追加した。フィルターは満杯
+.filter.scan_storage.no_new_entries	つないだストレージに新しい中身が見つからない
+.filter.scan_storage.unavailable	対応するつないだストレージが見つからない
+.mass_placement.missing_detail	一括設置に足りないもの: %s
+.storage.linked	レンチを[%2$s, %3$s, %4$s]の%1$sに連結した
+.storage.unlinked	レンチを%sから外した
+.storage.link_conflict	このレンチはすでに%sに連結している。別のネットワークに連結する前に外すこと。
+.storage.upgrade.crafting	%sをクラフト中…
+.storage.upgrade.complete	%sをノード%sに追加した
+.storage.upgrade.failed	ノード%2$s用の%1$sをクラフトできなかった
+.storage.upgrade.duplicate	そのアップグレードはすでに取り付けてある
+.storage.upgrade.pending	このノード用のアップグレードはすでにクラフト中
+.storage.upgrade.no_slot	空いているアップグレードスロットがない
+.storage.upgrade.unavailable	そのアップグレードはもう保管もクラフトもできない
+.wrench.place_node.inventory	インベントリからノードを設置
+.wrench.place_node.storage_network	連結したストレージからノードを設置
+.wrench.place_node.queued	ノードの設置を待機中
+.wrench.place_node.duplicate	ノードの設置はすでに待機中
+.wrench.place_node.unavailable	連結したネットワークにノードの在庫もクラフト手段もない
+.wrench.place_node.crafted	ネットワークの自動クラフトからノードを設置した
+.wrench.place_node.crafted_batch	ネットワークの自動クラフトから待機中のノードを%s個設置した
+.wrench.place_node.crafting_failed	ノードをクラフトできなかった
+.wrench.place_node.returned	ノードの設置に失敗したため、クラフトしたノードをストレージに戻した
+.mass_placement.queued	連結したストレージで一括設置を待機中
+.storage.subject.nodes	物流ノード%s個
+.storage.subject.mass_placement	ノード%s個の一括設置
+.storage.subject.label	%2$s個のノードにまたがるラベル「%1$s」
+.storage.subject.upgrade	ノード%2$s用の%1$s
+.storage.subject.upgrade_unknown	読み込まれていないノード用の%s
+.storage.failure.missing	%sは%sを用意できなかった。足りない材料: %s
+.storage.failure.missing_unknown	クラフトの材料が足りないため、%sは%sを用意できなかった
+.storage.failure.no_pattern	%sには%sのクラフトパターンがない
+.storage.failure.network_unavailable	連結した%sネットワークは%sに使えない
+.storage.failure.permission_denied	%sは%sの用意中にアクセスを拒否した
+.storage.failure.no_cpu	%2$sに使える%1$sのクラフトプロセッサーがない
+.storage.failure.cpu_busy	%2$sに使える%1$sのクラフトプロセッサーはすべて使用中
+.storage.failure.cpu_offline	%2$s用に選んだ%1$sのクラフトプロセッサーはオフライン
+.storage.failure.cpu_too_small	%1$sのクラフトプロセッサーは%2$sには小さすぎる
+.storage.failure.canceled	%2$sの%1$sのクラフト要求はキャンセルされた
+.storage.failure.submission	%sは%sのクラフトを開始または完了できなかった
+.storage.failure.target_invalid	%sが%sを用意し終える前に対象が変わったため、クラフトしたアイテムを戻した
+.label.synced	読み込まれたラベル付きのノード%s個を同期した
+.label.loaded_synced	読み込まれたノードをラベル%sと同期した
+.label.sync_failed	ラベル%sを同期できなかった
+.label.rollback_incomplete	元のアップグレードがもうなかったため、送り元のノードは一部しか元に戻らなかった
+.label.unloaded_unknown	このラベルを作る前に、ネットワークのすべてのノードを読み込んで。

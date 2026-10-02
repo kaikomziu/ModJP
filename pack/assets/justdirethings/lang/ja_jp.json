@@ -1,0 +1,12 @@
+{
+  "entity.justdirethings.creature_catcher": "生き物捕獲器",
+  "entity.justdirethings.justdireareaeffectcloud": "範囲効果の雲",
+  "entity.justdirethings.justdirearrow": "ダイアの矢",
+  "entity.justdirethings.portal_entity": "ダイアポータル",
+  "entity.justdirethings.portal_projectile": "ポータル弾",
+  "justdirethings.screen.hideparticles": "パーティクルを隠す",
+  "justdirethings.screen.inv-hotbar": "ホットバーのみ",
+  "justdirethings.screen.inv-main": "メインのインベントリ",
+  "justdirethings.screen.target-mob": "モブ",
+  "key.category.justdirethings.category": "Just Dire Things"
+}

@@ -1,0 +1,21 @@
+{
+  "block.luminax.luminax_block": "ルミナックスブロック",
+  "block.luminax.luminax_button": "ルミナックスのボタン",
+  "block.luminax.luminax_pressure_plate": "ルミナックスの感圧板",
+  "block.luminax.luminax_slab": "ルミナックスのハーフブロック",
+  "block.luminax.luminax_stair": "ルミナックスの階段",
+  "block.luminax.luminax_wall": "ルミナックスの壁",
+  "creative_tab.luminax.default": "Luminax",
+  "item.luminax.luminax_wand": "ルミナックスの杖",
+  "key.category.luminax.default": "Luminax",
+  "key.luminax.open_color_picker": "色の選択を開く",
+  "key.luminax.toggle_glowing": "発光を切り替え",
+  "property.luminax.color": "色",
+  "property.luminax.color.tooltip": "ブロックの色を変える",
+  "property.luminax.glowing": "発光",
+  "tooltip.luminax.glowing.off": "ブロックを光らせる",
+  "tooltip.luminax.glowing.on": "ブロックを光らせる",
+  "tooltip.luminax.lmb": "%sか%sで次へ切り替え",
+  "tooltip.luminax.mmb": "%sで色の選択を開く",
+  "tooltip.luminax.rmb": "%sか%sで前へ切り替え"
+}

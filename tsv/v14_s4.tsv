@@ -1,0 +1,198 @@
+## routers
+block.routers.distributor	分配器(ベータ版)
+block.routers.exporter	エクスポーター
+block.routers.importer	インポーター
+item.routers.blacklist_upgrade	ブラックリストアップグレード
+item.routers.connector	コネクター
+item.routers.dimensional_upgrade	ディメンションアップグレード
+item.routers.fluid_upgrade_1	液体アップグレード I
+item.routers.fluid_upgrade_2	液体アップグレード II
+item.routers.fluid_upgrade_3	液体アップグレード III
+item.routers.fluid_upgrade_4	液体アップグレード IV
+item.routers.ignore_nbt_upgrade	NBT/コンポーネント無視アップグレード
+item.routers.item_upgrade_1	アイテムアップグレード I
+item.routers.item_upgrade_2	アイテムアップグレード II
+item.routers.item_upgrade_3	アイテムアップグレード III
+item.routers.item_upgrade_4	アイテムアップグレード IV
+item.routers.mod_filter	MODフィルターアップグレード
+item.routers.rf_upgrade_1	エネルギーアップグレード I
+item.routers.rf_upgrade_2	エネルギーアップグレード II
+item.routers.rf_upgrade_3	エネルギーアップグレード III
+item.routers.rf_upgrade_4	エネルギーアップグレード IV
+item.routers.round_robin_upgrade	ラウンドロビンアップグレード
+item.routers.speed_upgrade_1	速度アップグレード I
+item.routers.speed_upgrade_2	速度アップグレード II
+item.routers.speed_upgrade_3	速度アップグレード III
+item.routers.speed_upgrade_4	速度アップグレード IV
+item.routers.stock_filter	在庫フィルターアップグレード
+item.routers.tag_filter	タグフィルターアップグレード
+itemGroup.routers	Routers
+message.routers.connected_exporter_to_importer	エクスポーターを%sのインポーターに接続した
+message.routers.connected_importer_to_exporter	インポーターを%sのエクスポーターに接続した
+message.routers.disconnected_exporter_from_importer	エクスポーターをインポーターから外した！
+message.routers.exporter_selected	エクスポーターの対象を%sに設定した
+message.routers.importer_selected	インポーターの対象を%sに設定した
+message.routers.no_exporter_importer_selected	エクスポーター/インポーターが選択されていない。Shift+右クリックで接続元を設定する！
+message.routers.not_loaded	ルーターを接続する範囲が読み込まれていない！
+screen.routers.config	設定メニュー
+@ tooltip.routers.
+.amount	最大量
+.blacklist_upgrade	絞り込みをブラックリストにする。絞り込めるすべての資源の種類に影響する
+.button.back	戻る
+.button.energy	エネルギー
+.button.fluid	液体フィルター
+.button.item	アイテムフィルター
+.connector	Shift+右クリックでエクスポーター/インポーターの対象を設定。右クリックで対象に接続
+.dimensional_upgrade	エクスポーターが別のディメンションのインポーターに資源を送れるようにする
+.distributor	ここから周りのエネルギーを受け取るブロックへエネルギーを分配する
+.empty_fluid_filter_slot	空の液体フィルタースロット
+.empty_item_filter_slot	空のアイテムフィルタースロット
+.energy_upgrade	エクスポーターから1回の動作で%sRFのエネルギーを取り出せるようにする
+.exporter	接続したブロックからインポーターへ資源を送り出す。エクスポーターは%stickごとに取り出す
+.fluid_upgrade	エクスポーターから1回の動作で%smbの液体を取り出せるようにする
+.ignore_nbt_upgrade	資源を絞り込むときNBT/データを無視する。絞り込めるすべての資源の種類に影響する
+.importer	接続したエクスポーターから資源を受け取る
+.item_upgrade	エクスポーターから1回の動作で%s個のアイテムを取り出せるようにする
+.menu.energy	エネルギー
+.menu.fluid	液体フィルター
+.menu.item	アイテムフィルター
+.mod_filter	%sに設定済み
+.mod_filter_info	MODをフィルターとして設定するのに使う
+.mod_filter_tooltip	MOD名を入力…
+.round_robin_upgrade	動作のたびに、エクスポーターは接続した次のインポーターに入れようとする
+.speed_upgrade	取り出し口が%stickごとに取り出すようにする
+.stock_filter	%sを%s個に設定済み
+.stock_filter_info	インポーターで、中に設定したアイテムをその量までだけ受け入れるのに使う
+.stock_filter_tooltip	アイテムを入力…
+.tag_filter	%sに設定済み
+.tag_filter_info	タグをフィルターとして設定するのに使う
+.tag_filter_tooltip	タグを入力…
+.wrench_exporter	%sのエクスポーターに連結済み
+.wrench_importer	%sのインポーターに連結済み
+## ftbfiltersystem
+ftbfiltersystem	FTB Filter System
+item.ftbfiltersystem.smart_filter	スマートフィルター
+item.ftbfiltersystem.smart_filter.tooltip.1	右クリック: フィルターを設定
+item.ftbfiltersystem.smart_filter.tooltip.2	スニーク+右クリック: オフハンドのアイテムでフィルターを試す
+@ ftbfiltersystem.
+.message.parse_failed	フィルターの解析に失敗: %s
+.message.not_a_filter	メインハンドにスマートフィルターを持つ必要がある
+.message.not_configured	このスマートフィルターにはフィルターが設定されていない
+.message.no_offhand_item	試すアイテムをオフハンドに持つ
+.message.matched	フィルターに一致: %s
+.message.not_matched	フィルターに一致しない: %s
+.message.changes_saved	フィルターを更新した！
+.message.cache_cleared	コンパイル済みのフィルターのキャッシュを消去した
+.message.components_header	%2$sのデータコンポーネント%1$s個:
+.message.components_header_none	データコンポーネントなし
+.message.non_default_components	初期値でないコンポーネントだけを表示
+.gui.add	追加…
+.gui.delete	削除
+.gui.configure	設定…
+.gui.percentage	割合
+.gui.item_source.creative	クリエイティブ
+.gui.item_source.inventory	インベントリ
+.gui.item_source.mod	MOD
+.gui.nbt_ok	SNBTの解析に成功
+.gui.nbt_bad	SNBTの解析に失敗！
+.gui.filter_ok	フィルターの解析に成功
+.gui.filter_bad	フィルターの解析に失敗！
+.gui.custom_id	カスタムイベントID:
+.gui.custom_data	追加のカスタムデータ:
+.gui.changes_made	このフィルターに変更を加えた
+.gui.changes_made.question	保存せずにエディターを閉じる？
+.gui.compound	複合フィルター
+.gui.basic	基本フィルター
+.gui.fuzzy_match	あいまい一致
+.gui.custom_name	独自の名前
+@ filter.ftbfiltersystem.
+.and.name	すべて
+.and.tooltip	複合フィルター: 子フィルターがすべて一致すると一致する。
+.or.name	いずれか
+.or.tooltip	複合フィルター: 子フィルターのどれかが一致すると一致する。
+.not.name	否定
+.not.tooltip	複合フィルター: 子フィルターが一致しないと一致する。子は1つまで追加できる。
+.only_one.name	1つだけ
+.only_one.tooltip	複合フィルター: 子フィルターのちょうど1つが一致すると一致する。
+.block.name	ブロック
+.block.tooltip	アイテムが設置できるブロックなら一致する単純なフィルター。
+.component.name	アイテムコンポーネント
+.component.tooltip	アイテムのデータコンポーネントで照合する。\n完全一致(すべてのコンポーネントが一致)とあいまい一致(フィルター内のコンポーネントだけ照合)に対応。\n管理者権限があれば、インベントリにある(初期値でない)コンポーネントデータを持つアイテムをクリックして、今のデータをSNBTとしてテキストエディターにコピーできる。
+.durability.name	耐久値
+.durability.tooltip	アイテムの残りの耐久値で照合する。\n耐久値のないアイテムは耐久値0として扱う。
+.food_value.name	食料の値
+.food_value.tooltip	アイテムの栄養値(回復する満腹度の半分の数)で照合する\n食べ物でないアイテムの栄養値は0
+.item.name	アイテム
+.item.tooltip	特定のアイテムと照合する。\nアイテムのコンポーネントデータはここでは確認しない(コンポーネントフィルターを参照)\nアイテムはクリエイティブやインベントリのアイテム一覧から選べる。\nテキスト欄でアイテムIDを絞り込んで表示するアイテムを減らせる。
+.item_tag.name	アイテムタグ
+.item_tag.tooltip	アイテムタグと照合する。タグに含まれるアイテムが一致する。\nテキスト欄で表示するアイテムタグを絞り込める。
+.stack_size.name	スタック数
+.stack_size.tooltip	アイテムの今のスタック数で照合する。
+.max_stack_size.name	最大スタック数
+.max_stack_size.tooltip	アイテムの最大スタック数で照合する。\nスタックできないアイテムの最大スタック数は1。
+.mod.name	MOD
+.mod.tooltip	アイテムを追加するMODで照合する。\nバニラのアイテムはMinecraftという「MOD」に含まれる。
+.custom.name	カスタム
+.custom.tooltip	MOD作者やMODパック作者向けの高度なフィルター。\n照合を試みるたびにCustomFilterEventを発火する。イベントの結果を設定して照合の成功か失敗を示す。\nテキスト欄で、イベントの「data」パラメーターとして渡す自由なテキストデータを指定できる。
+.expression.name	式
+.expression.tooltip	フィルターの式をそのまま入力するか、インベントリのフィルターアイテムから読み込める。\n分かりやすくするため、独自の名前を付けるのは任意(だがおすすめ！)。
+.root.name	ルート(すべて)
+## irons_artifice
+item.irons_artifice.bloodletting_tip_modifier	瀉血の弾頭の改造パーツ
+item.irons_artifice.heavy_bolt_modifier	重いボルトの改造パーツ
+item.irons_artifice.suppressor_attachment_modifier	サプレッサーの改造パーツ
+item.irons_artifice.hook_shot_modifier	フックショットの改造パーツ
+irons_artifice.component_type.bullet_drag	弾の空気抵抗係数
+irons_artifice.component_type.underwater_drag	水中の抵抗係数
+irons_artifice.component_type.leech	吸収弾の最大数
+irons_artifice.modifier.leech_damage	吸収弾は%s%%のダメージを与える
+irons_artifice.modifier.leech_cost	吸収弾はハートを%s消費する
+irons_artifice.modifier.suppressor	銃声の届く範囲を狭める
+irons_artifice.modifier.flash_hider	銃口の閃光を隠す
+irons_artifice.modifier.hook_shoot	命中した生き物を手元に引き寄せる
+irons_artifice.tooltip.max_range	最大射程 %s
+@ advancements.irons_artifice.
+.root.title	Iron's Arms 'n Artifice
+.root.description	まず武装、それから技巧。
+.blackpowder_heart.title	黒色火薬の心
+.blackpowder_heart.description	黒色火薬を手に入れる
+.arms.title	武装。
+.arms.description	銃を撃つ
+.artifice.title	技巧。
+.artifice.description	銃に改造パーツを取り付ける
+.fully_loaded.title	フル装備
+.fully_loaded.description	銃の改造パーツのスロットをすべて埋める
+.simple_machines.title	単純機械
+.simple_machines.description	簡単な機械部品を手に入れる
+.mag_fed.title	弾倉給弾
+.mag_fed.description	それなりの装弾数の銃を手に入れる
+.seven_sockets.title	ウィキペディア歴史家
+.seven_sockets.description	火縄銃を手に入れる
+.tick_tock.title	チクタク
+.tick_tock.description	ぜんまい式ライフルを手に入れる
+.fan_the_hammer.title	ファニング
+.fan_the_hammer.description	1秒間に15発撃つ
+.the_whole_arsenal.title	武器庫まるごと
+.the_whole_arsenal.description	7種類の銃をすべて手に入れる
+.peer_review.title	査読
+.peer_review.description	イリフィサーを弾で倒す
+.professionals_have_standards.title	プロにはプロの流儀がある
+.professionals_have_standards.description	100ブロック以上離れたところから弾で20以上のダメージを与える
+.ventilated.title	風通し良好
+.ventilated.description	1回の射撃で1つの標的に12発以上の弾を当てる
+.bank_shot.title	跳弾撃ち
+.bank_shot.description	跳ね返った弾で何かを倒す
+.through_and_through.title	貫通
+.through_and_through.description	1回の射撃で5体以上の生き物を倒す
+.dont_bring_a_gun_to_a_knife_fight.title	銃撃戦に何を持ってきたって？
+.dont_bring_a_gun_to_a_knife_fight.description	銃剣突撃で何かを倒す
+.davy_joness_locker.title	デイヴィ・ジョーンズの監獄
+.davy_joness_locker.description	完全に水に潜った状態で弾で何かを倒す
+.pistols_at_dawn.title	夜明けの決闘
+.pistols_at_dawn.description	トリコーンの最初の一発で倒す
+.fistful_of_lead.title	荒野の鉛弾
+.fistful_of_lead.description	カウボーイハットの即リロードの弾でもう1体倒す
+.over_over_overkill.title	オーバーオーバーキル
+.over_over_overkill.description	100ダメージはほぼウルトラ…キル…
+.ultrakill.title	ウルトラキル
+.ultrakill.description	(1000以上)本当にバニラで遊んでる？

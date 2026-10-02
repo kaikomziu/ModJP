@@ -1,0 +1,183 @@
+## pipe_connector
+@ item.pipe_connector.
+.pipe_connector	パイプコネクター
+.message.holdValidItem	オフハンドに有効なパイプのアイテムを持つ必要がある
+.gui.button.tooltip.disabledButtonHoldValidItem	オフハンドに有効なパイプのアイテムを持つ必要がある
+.message.UpSideNotAllowed	ブロックの上面にはパイプをつなげない
+.message.firstPositionSet	1つ目の位置を選んだ: %s
+.message.secondPositionSet	2つ目の位置を選んだ: %s
+.message.resettingPositions	位置をリセット中
+.tooltip.usageExplanation	ブロックをスニーク+右クリックで位置を設定
+.tooltip.CancelSelectionExplanation	空中をスニーク+右クリックで選択を取り消す
+.tooltip.changeDepthExplanation	スニーク+スクロールでパイプの深さを変える
+.tooltip.openGui	空気ブロックをスニーク+右クリックすると、パイプの設置や位置のリセットができるGUIが開く
+.tooltip.shiftForMoreInfo	Shiftを押し続けると詳細を表示
+.message.newDepth	深さを%sにした
+.message.notEnoughPipes	インベントリのパイプが足りない。%s本不足
+.gui.button.tooltip.disabledNotEnoughPipes	インベントリのパイプが足りない。%s本不足
+.message.reachedPipeLimit	一度に%s本を超えるパイプは設置できない
+.message.unbreakableBlockReached	パイプは%sのブロックを置き換えられない
+.gui.button.tooltip.disabledInventoryInPath	インベントリのブロックは壊せない。経路に%sがある。
+.gui.button.ResetPipePos	位置をリセット
+.gui.button.PlacePipes	パイプを設置
+.gui.button.tooltip.disabledResetPipePos	まだ2つ以上の位置を選んでいない
+.gui.button.tooltip.disabledPlacePipes	先に2つ以上の位置を選んで
+.gui.button.toolTip.maxAllowedPipesReached	一度に%s本を超えるパイプは設置できない
+.gui.label.depth	深さ
+.gui.label.requiredPipes	必要なパイプ: %s
+.gui.label.availablePipes	使えるパイプ: %s
+.gui.label.reusedPipes	再利用: %s
+.gui.label.required	必要: %s
+.gui.label.available	手持ち: %s
+.gui.label.depthValue	深さ: %s
+.gui.label.mirrorPath	経路を反転
+.gui.section.pathfinding	経路探索
+.gui.section.buildOptions	設置の設定
+.gui.section.pipes	パイプ
+.gui.label.missingPipes	不足: %s
+.gui.tooltip.depthOutOfRange	深さは0から%sの間で指定する
+.gui.button.bridgeType	橋の種類: %s
+.gui.button.aStarPathfinding	A*経路探索
+.gui.tooltip.Pathfinding	位置の間の最短経路を探す
+.gui.tooltip.aStarPathfindingImportantInfo	A*は鉱石を避けて進もうとする。
+.gui.tooltip.defaultPathfindingImportantInfo	マンハッタンは鉱石を突き抜けて消してしまう。
+.gui.tooltip.performanceImpact	性能への影響:
+.gui.tooltip.performanceImpactLow	低
+.gui.tooltip.performanceImpactMediumHigh	中〜高
+.gui.button.defaultPathfinding	マンハッタン経路探索
+.gui.button.stepPath	足跡の経路
+.gui.tooltip.stepPath	1つ目の位置を選んだ後、選んだ深さで君の足取りに沿って経路を引く
+.gui.tooltip.comingSoon	近日公開…
+.gui.label.utilizeExistingPipes	設置済みのパイプを利用
+.gui.label.preventBlockWithInventoryDestruction	チェスト保護
+.gui.label.avoidInventoryBlocks	インベントリを避ける
+.gui.button.tooltip.inactiveUtilizeExistingPipes	この機能を使うにはA*経路探索を選ぶ必要がある
+.gui.button.tooltip.utilizeExistingPipesInfoPartOne	すでに設置したパイプを使って
+.gui.button.tooltip.utilizeExistingPipesInfoPartTwo	位置同士をつなごうとする
+.gui.button.tooltip.noPathFound	有効な経路が見つからない(ふさがっているか回避された)
+.gui.button.tooltip.InventoryGuard	インベントリを持つブロックが壊されるのを防ぐ
+.preview.position	位置
+.gui.button.tooltip.avoidInventoryBlocks	できればインベントリのブロックを避けて経路を引く
+.message.inventoryBlocksNotAvoided	経路がすべてのインベントリのブロックを避けられなかった
+.jei.supportedPipesInfo	対応しているパイプ
+.message.maxNodesReached	ノードの最大数に達した。既存のノードをスニーク+右クリックすると取り除ける
+.gui.button.preview_outline	輪郭
+.gui.button.preview_solid	塗りつぶし
+.gui.label.preview_style	プレビューの見た目
+.gui.label.pipe_vision	パイプの透視
+.gui.button.tooltip.manhattanMirror	経路を反転する - マンハッタン経路探索でのみ使える。
+.gui.label.returnedPipes	返却: %s
+.gui.button.buildModeTab	設置
+.gui.button.replaceModeTab	置き換え
+.gui.button.tooltip.buildMode	選んだ位置の間に新しいパイプの経路を作る
+.gui.button.tooltip.replaceMode	経路に沿って既存のパイプを置き換える
+.gui.section.replace	置き換え
+.gui.section.selection	選択
+.gui.label.replaceHint1	経路をスニーク+右クリックすると
+.gui.label.replaceHint2	オフハンドのパイプに
+.gui.label.replaceHint3	置き換えられる
+.gui.label.replaceHint4	(同じMODである必要がある)
+.gui.label.noRunSelected	経路が選択されていない
+.gui.button.ReplacePipes	パイプを置き換え
+.gui.button.ClearSelection	選択を解除
+.gui.button.tooltip.disabledClearSelection	まだパイプの経路が選択されていない
+.gui.button.tooltip.replaceNoSeed	既存のパイプをスニーク+右クリックして、置き換える経路を選ぶ
+.gui.button.tooltip.replaceWrongFamily	オフハンドのパイプは、選んだパイプの経路と同じMODのものである必要がある
+.gui.button.tooltip.replaceSameAsTarget	選んだ経路はすでにオフハンドのパイプでできている
+.gui.button.tooltip.replaceEioDowngrade	Ender IOのコンジットは上位版にしか交換できない - 下位版への交換には対応していない
+.message.replaceNoSeed	パイプの経路が選択されていない - 先に既存のパイプをスニーク+右クリックする
+.message.replaceInvalidSeed	そのブロックは置き換えられるパイプではない
+.message.replaceEioAmbiguous	この束には複数のコンジットがある - 置き換えるコンジットをオフハンドに持って選ぶ
+.message.replaceSeedChanged	選んだパイプが変わったか取り除かれた - もう一度選ぶ
+.message.replaceWrongFamily	%sは%sを置き換えられない - パイプは同じMODのものである必要がある
+.message.replaceSameAsTarget	選んだ経路はすでにそのパイプでできている
+.message.replaceEioDowngrade	Ender IOのコンジットは上位版にしか交換できない - 下位版への交換には対応していない
+## apothic_spawners
+item.apothic_spawners.spawner	%sのスポナー
+enchantment.apothic_spawners.capturing	捕獲
+enchantment.apothic_spawners.capturing.desc	モブが確率でスポーンエッグを落とすようになる。
+title.apothic_spawners.spawner	スポナーの改造
+info.apothic_spawners.spawner	スポナーはさまざまなアイテムで改造でき、%sで回収できる。
+info.apothic_spawners.spawner.no_silk	スポナーはさまざまなアイテムで改造できるが、シルクタッチでの回収は今は無効になっている。
+info.apothic_spawners.spawner.always_drop	スポナーはさまざまなアイテムで改造でき、壊すと必ずドロップする。
+config.jade.plugin_apothic_spawners.spawner	Apothic Spawners
+emi.category.apothic_spawners.spawner	スポナーの改造
+@ misc.apothic_spawners.
+.min_value	最小値: %s
+.max_value	最大値: %s
+.mainhand	メインハンドに持つ
+.offhand	オフハンドに持つ
+.not_consumed	このアイテムは消費されない
+.rclick_spawner	スポナーを右クリック
+.entity	エンティティ
+.shift_stats	Shiftを押し続けると性能を表示
+.ctrl_stats	Ctrlを押し続けると性能を表示
+.banned	スポナーには使えない
+.on	%s: オン
+.off	%s: オフ
+@ stat.apothic_spawners.
+.min_delay	最小スポーン間隔
+.min_delay.desc	スポーンの間の最小tick数
+.max_delay	最大スポーン間隔
+.max_delay.desc	スポーンの間の最大tick数
+.spawn_count	スポーン数
+.spawn_count.desc	一度にスポーンするエンティティの数
+.max_nearby_entities	最大エンティティ数
+.max_nearby_entities.desc	近くにいてよいエンティティの総数
+.req_player_range	起動範囲
+.req_player_range.desc	スポーンが止まるまでにプレイヤーが離れられる距離
+.spawn_range	スポーン範囲
+.spawn_range.desc	モブがスポーンできる半径(ブロック)
+.ignore_players	プレイヤーを無視
+.ignore_players.desc	近くにプレイヤーがいなくても動く
+.ignore_conditions	条件を無視
+.ignore_conditions.desc	スポーンの条件を無視する
+.redstone_control	レッドストーン制御
+.redstone_control.desc	動くのにレッドストーン信号が必要
+.ignore_light	明るさを無視
+.ignore_light.desc	明るさを無視する
+.no_ai	AIなし
+.no_ai.desc	スポーンしたエンティティにAIがない
+.silent	消音
+.silent.desc	スポーンしたエンティティが音を立てない
+.youthful	若返り
+.youthful.desc	可能なら常に子どものエンティティをスポーンさせる
+.initial_health	初期体力
+.initial_health.desc	スポーンしたモブの最初の体力の割合
+.burning	炎上
+.burning.desc	スポーンしたモブに火がつく
+.echoing	こだま
+.echoing.desc	スポーンしたモブが追加の戦利品を落とし、レベルとともに増える
+@ advancements.apothic_spawners.
+.spawner.root	apothic_spawners スポナー
+.spawner.root.desc	スポナーは回収して改造できる。詳しくはJEIを見よう。
+.spawner	Apothic Spawners
+.spawner.desc	シルクタッチでモンスタースポナーを回収する。
+.capturing	捕まえた！
+.capturing.desc	捕獲のエンチャントでモブからスポーンエッグを手に入れる
+.modifier	ちょっといじるだけ…
+.modifier.desc	スポナーの改造アイテムでスポナーの性能を変える。
+.spawncount	このスポナーの大きさを見よ！
+.spawncount.desc	スポナーのスポーン数を16に上げる
+.maxdelay	時を歪めたスポナー
+.maxdelay.desc	スポナーの最大スポーン間隔を20に下げる
+.mindelay	我こそ速さなり
+.mindelay.desc	スポナーの最小スポーン間隔を20に下げる
+.nearbyents	大群を作る
+.nearbyents.desc	スポナーの最大エンティティ数を32に上げる
+.playerrange	戦いから遠く離れて
+.playerrange.desc	スポナーのプレイヤーの起動範囲を48に上げる
+.spawnrange	見渡す限りのモブ
+.spawnrange.desc	スポナーのスポーン範囲を32に上げる
+.conditions	無制限のスポーン
+.conditions.desc	スポナーのスポーン条件を無効にする
+.players	工場向き
+.players.desc	スポナーに近くのプレイヤーを不要にする
+.redstone	スイッチを付ける
+.redstone.desc	スポナーのレッドストーン制御を有効にする
+.light	暗闇なんて要らない
+.light.desc	スポナーがどんな明るさでも動くようにする。
+.noai	頭脳流出
+.noai.desc	スポナーのモブのAIを無効にする。
+.ultimate_spawner	究極のスポナー
+.ultimate_spawner.desc	間隔が最小で、レッドストーン制御があり、AIなし、スポーン条件を無視し、プレイヤーを無視するスポナーを作る。

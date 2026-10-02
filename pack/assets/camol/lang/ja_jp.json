@@ -1,0 +1,12 @@
+{
+  "item.camol.camo_item": "擬態ブロック",
+  "item.camol.solid_camo_item": "形を保つ擬態ブロック",
+  "item.camol.camo_item.camo": "擬態ブロック - %s",
+  "item.camol.solid_camo_item.camo": "形を保つ擬態ブロック - %s",
+  "item.camol.camo_item.hover": "ブロックを右クリックすると、このブロックに見せかける。擬態したブロックを右クリックすると元に戻す。",
+  "item.camol.camo_item.hover_type": "擬態したブロックの当たり判定の形を使う。",
+  "item.camol.camo_item.hover_empty": "ブロックと一緒にクラフトする。",
+  "item.camol.solid_camo_item.hover": "ブロックを右クリックすると、このブロックに見せかける。擬態したブロックを右クリックすると元に戻す。",
+  "item.camol.solid_camo_item.hover_type": "擬態させているブロックの当たり判定の形を使う。",
+  "item.camol.solid_camo_item.hover_empty": "ブロックと一緒にクラフトする。"
+}

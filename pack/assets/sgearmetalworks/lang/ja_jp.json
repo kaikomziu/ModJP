@@ -1,0 +1,12 @@
+{
+  "book.sgearmetalworks.category.text": "鋳造炉でのSilent Gearの鋳造。",
+  "book.sgearmetalworks.category.title": "Silent Gear Metalworks",
+  "book.sgearmetalworks.page.casts": "鋳造が必要なギアの種類ごとに、先端や道具の棒も含めてギアの鋳型がある。$(br2)道具の棒の鋳型は、普通の棒の鋳型とは別のアイテムであることに注意。",
+  "book.sgearmetalworks.page.grading": "このMODがSilent Gearに加える変更は鋳造だけではない。道具の等級付けや星のチャージは、個々の素材ではなく完成したギアの部品に行うようになった。$(br2)また、部品には複数回行う必要がある。1回ごとに部品の中の素材1つにしか作用しないからだ。",
+  "book.sgearmetalworks.page.parts": "溶けた形を持つ素材で作るギアの部品は、作業台で組み立てるのではなく鋳造炉で鋳造する必要がある。$(br2)ギアの種類ごと - ツルハシ、シャベル、先端など - に鋳型が必要だ。手に入れるには、石、木、火打石、骨などの簡単な素材でそのギアの部品を作り、その部品で型を取る。",
+  "book.sgearmetalworks.page.title": "ギアの鋳造",
+  "book.sgearmetalworks.page.uru": "このMODはウル金属も追加する。他のどこにも存在しない合金だ。鉱石もドロップもないので、手に入れる道は鋳造炉だけだ。$(br2)これで作ったギアは「刺され耐性」の特性を持ち、ハチもいるパックでは見た目以上に価値がある。",
+  "material.group.silentgear.infusing": "注入",
+  "trait.silentgear.sting_resist": "刺され耐性",
+  "trait.silentgear.sting_resist.desc": "ハチに刺されても痛くなくなる"
+}

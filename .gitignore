@@ -16,3 +16,10 @@ err.txt
 rest.txt
 ns_rest.txt
 __pycache__/
+extracted_v1.3_backup/
+nvb_*.txt
+ae_gloss.txt
+ae_miss.txt
+rest_all.txt
+rest_ns.txt
+todo_list.txt

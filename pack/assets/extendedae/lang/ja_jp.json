@@ -1,0 +1,19 @@
+{
+  "block.extendedae.ex_emc_interface": "ME拡張変成インターフェース",
+  "item.extendedae.smart_annihilation_plane": "MEスマート消滅プレーン",
+  "item.extendedae.wireless_connector_upgrade": "ワイヤレスコネクターアップグレード",
+  "item.extendedae.ex_emc_interface_part": "ME拡張変成インターフェース",
+  "item.extendedae.emc_interface_upgrade": "変成インターフェースアップグレード",
+  "item.extendedae.ex_emc_export_bus_part": "ME拡張変成エクスポートバス",
+  "item.extendedae.ex_emc_import_bus_part": "ME拡張変成インポートバス",
+  "item.extendedae.emc_io_bus_upgrade": "変成インポート/エクスポートバスアップグレード",
+  "gui.extendedae.tag_storage_bus.whitelist.tooltip": "ここにホワイトリストのタグを入力",
+  "gui.extendedae.tag_storage_bus.blacklist.tooltip": "ここにブラックリストのタグを入力",
+  "gui.wireless_connect.remote_channel": "位置 X: %s, Y: %s, Z: %s\n使用チャンネル: %s",
+  "gui.extendedae.ex_emc_interface": "ME拡張変成インターフェース",
+  "gui.extendedae.ex_emc_export_bus_part": "ME拡張変成エクスポートバス",
+  "gui.extendedae.ex_emc_import_bus_part": "ME拡張変成インポートバス",
+  "gui.extendedae.smart_annihilation_plane": "MEスマート消滅プレーン",
+  "group.ex_emc_io_bus_part": "ME拡張変成インポート/エクスポートバス",
+  "emi.extendedae.text.energy": "%s AE"
+}

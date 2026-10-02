@@ -1,0 +1,189 @@
+## mffs
+itemGroup.mffs.main	Modular Force Field System
+@ info.mffs.
+.coercion_deriver.mode.integrate	統合
+.coercion_deriver.mode.derive	変換
+.link	%2$sの%1$sに連結
+.frequency	周波数: %s
+.frequency.generated	ランダムな周波数を生成した: %s
+.frequency.set	周波数を設定した: %s
+.cannot_harness	フォートロン場から%s FEを取り出せない。
+.stored_energy	蓄えたエネルギー: %s / %s FE
+.identity	身元: %s
+.identity_set	身元を設定した: %s
+.identity_cleared	身元を消去した
+.field_permission.warp_sneak	すり抜け(スニーク)
+.field_permission.warp_sneak.tooltip	スニーク歩きでフォースフィールドをすり抜けられるようにする。
+.field_permission.warp_walk	すり抜け(歩行)
+.field_permission.warp_walk.tooltip	歩いてフォースフィールドをすり抜けられるようにする。
+.field_permission.use_blocks	ブロックを使う
+.field_permission.use_blocks.tooltip	ブロックを操作したりGUIを開いたりできるようにする。
+.field_permission.place_blocks	ブロックを置く
+.field_permission.place_blocks.tooltip	ブロックを置いたり壊したりできるようにする。
+.field_permission.configure_security_center	セキュリティを設定
+.field_permission.configure_security_center.tooltip	生体認証装置を設定できるようにする。
+.field_permission.bypass_defense	防衛を回避
+.field_permission.bypass_defense.tooltip	阻止マトリックスの制限を回避できるようにする。
+.field_permission.bypass_confiscation	没収を回避
+.field_permission.bypass_confiscation.tooltip	阻止マトリックスによる没収を回避できるようにする。
+.field_permission.remote_control	遠隔操作
+.field_permission.remote_control.tooltip	防衛範囲内でリモコンを使えるようにする。
+.interdiction_matrix.warning	[%s] 警告！走査範囲に近づいている！
+.interdiction_matrix.no_entry	[%s] 直ちにこの区域から立ち去れ。立ち入る権利はない。
+.interdiction_matrix.no_permission	[%s] その権限はない！
+.interdiction_matrix.fairwell	[%s] さらば。
+.interdiction_matrix.confiscation_singular	[%s] アイテムが%s個没収された。
+.interdiction_matrix.confiscation_plural	[%s] アイテムが%s個没収された。
+.show_details	%sを押し続けると詳細を表示
+.key.shift	Shift
+.fortron_usage	フォートロン: %s L/s
+.handbook.title	フォースフィールドの手引書
+.handbook.landing_text	MFFSのゲーム内ガイドへようこそ。フォースフィールド技術の複雑な世界を進む手助けをする。フォースフィールド、ハイテク機械、防衛手段のすべてを収録している。さあ始めよう！
+## mffs
+death.attack.mffs.field_shock	%1$sはフォースフィールドに分解された。
+block.mffs.machine_block	基本機械ブロック
+block.mffs.force_field	フォースフィールド
+block.mffs.projector	フォースフィールド投射機
+block.mffs.coercion_deriver	強制変換機
+block.mffs.fortron_capacitor	フォートロンキャパシター
+block.mffs.biometric_identifier	生体認証装置
+block.mffs.interdiction_matrix	阻止マトリックス
+sounds.mffs.field	フィールドの音
+fluid_type.mffs.fortron	フォートロン
+mffs.projector_menu.mode	モード
+mffs.projector_menu.down	下
+mffs.projector_menu.up	上
+mffs.projector_menu.north	北
+mffs.projector_menu.south	南
+mffs.projector_menu.west	西
+mffs.projector_menu.east	東
+mffs.confiscation_mode.blacklist	禁止
+mffs.confiscation_mode.whitelist	許可
+@ item.mffs.
+.remote_controller	リモコン
+.remote_controller.description	機械に遠隔でアクセスする。スニークしながら機械に使うと連結する。
+.cube_mode	立方体モード
+.sphere_mode	球体モード
+.tube_mode	筒モード
+.pyramid_mode	ピラミッドモード
+.cylinder_mode	円柱モード
+.custom_mode	カスタムモード
+.custom_mode.mode	モード: %s
+.custom_mode.mode.additive	追加
+.custom_mode.mode.subtractive	削除
+.custom_mode.primary_point	1つ目の位置: %s
+.custom_mode.secondary_point	2つ目の位置: %s
+.custom_mode.pattern_id	パターンID: %s
+.custom_mode.field_size	フィールドの大きさ: %s
+.custom_mode.not_saved	フィールドは保存されていない。
+.custom_mode.set_primary_point	2つ目の位置を選択
+.custom_mode.set_secondary_point	[Shift+右クリックで保存]
+.custom_mode.data_saved	フィールドの構造を保存した。
+.custom_mode.changed_mode	選択したモード: %s
+.custom_mode.clear	フィールドの構造を消去した
+.custom_mode.too_far	選択した位置が遠すぎる！最大%sブロックまで。
+.camouflage_module	擬態モジュール
+.camouflage_module.description	フォースフィールドのブロックに独自のモデルを適用する。
+.capacity_module	容量モジュール
+.capacity_module.description	特定の装置の容量を増やす。
+.disintegration_module	分解モジュール
+.disintegration_module.description	フォースフィールドの代わりにブロックを破壊する。
+.rotation_module	回転モジュール
+.rotation_module.description	フィールドを特定の角度だけ回転させる。
+.scale_module	拡大モジュール
+.scale_module.description	特定の部品の規模を大きくする。
+.speed_module	速度モジュール
+.speed_module.description	装置の速さを上げる。
+.translation_module	移動モジュール
+.translation_module.description	フィールドを原点からずらして移動させる。
+.glow_module	発光モジュール
+.glow_module.description	フォースフィールドのブロックを光らせる
+.silence_module	消音モジュール
+.silence_module.description	フォースフィールドを静かにし、音を出さないようにする。
+.reinforcement_module	補強モジュール
+.reinforcement_module.description	フォースフィールドのブロックをウィザーに耐えるようにする
+.shock_module	電撃モジュール
+.shock_module.description	フォースフィールドに触れたエンティティを傷つける。
+.sponge_module	スポンジモジュール
+.sponge_module.description	フォースフィールドの範囲から液体を取り除く
+.fusion_module	フィールド融合モジュール
+.fusion_module.description	同じ周波数の重なったフォースフィールドを1つにつなげる
+.dome_module	ドームモジュール
+.dome_module.description	フォースフィールドの下半分を取り除く
+.collection_module	回収モジュール
+.collection_module.description	分解モジュールが落としたブロックを回収する。
+.stabilization_module	安定化モジュール
+.stabilization_module.description	投射したフォースフィールドを安定させ、固体のブロックとして結晶化する。投射機の隣にブロックの入ったチェストを置くとフィールドが安定する。
+.inverter_module	反転モジュール
+.inverter_module.description	フィールドを反転させ、内側ではなく外側の空間を使う。
+.warn_module	警告モジュール
+.warn_module.description	侵入者に警告を送る。
+.block_alter_module	ブロック改変防止モジュール
+.block_alter_module.description	侵入者がブロックを置いたり壊したりするのを防ぐ。
+.block_access_module	ブロック操作防止モジュール
+.block_access_module.description	侵入者がブロックを右クリックするのを防ぐ。
+.anti_friendly_module	対友好モブモジュール
+.anti_friendly_module.description	阻止マトリックスにすべての友好モブを倒させる。
+.anti_hostile_module	対敵対モブモジュール
+.anti_hostile_module.description	阻止マトリックスにすべての敵対モブを倒させる。
+.anti_personnel_module	対人モジュール
+.anti_personnel_module.description	阻止マトリックスにすべてのプレイヤーを倒させる。
+.anti_spawn_module	スポーン防止モジュール
+.anti_spawn_module.description	特定の範囲でエンティティがスポーンするのを防ぐ。
+.confiscation_module	没収モジュール
+.confiscation_module.description	侵入者のアイテムを没収する。
+.focus_matrix	集束マトリックス
+.battery	バッテリー
+.steel_compound	鋼の配合物
+.steel_ingot	鋼鉄インゴット
+.blank_card	白紙のカード
+.id_card	身分証明カード
+.id_card.description	生体認証装置でプレイヤーを認可する。スニークしながら使うと身元を設定する
+.infinite_power_card	無限電力カード
+.infinite_power_card.description	キャパシターに入れると無限のエネルギーが得られる、クリエイティブ専用のアイテム。
+.frequency_card	周波数カード
+.frequency_card.description	周波数の受け渡しを楽にする。スニークしながら使うとランダムな周波数を生成する。
+@ screen.mffs.
+.frequency	周波数:
+.frequency.tooltip	同じ周波数の機械はフォートロンのエネルギーを共有する。
+.matrix	マトリックス
+.matrix.tooltip	投射マトリックスで投射の作り方を決める。
+.fortron	フォートロン: %s L / %s L
+.fortron.name	フォートロン:
+.fortron.short	フォートロン: %s L
+.fortron.tooltip	フォートロンはMFFSの機械で使われる力のエネルギーの一種。
+.upgrade	アップグレード
+.linked_devices	連結した装置: %s
+.transmission_rate	伝送速度: %s L/s
+.range	範囲: %s
+.progress	進行状況:
+.progress.running	稼働中
+.progress.idle	待機中
+.rights	権限
+.rights.tooltip	左のカードにここで権限を割り当てる。
+.master	マスター
+.master.tooltip	マスターカードは、カードに記録されたプレイヤーを生体認証装置の所有者とする。
+.copy	コピー
+.copy.tooltip	権限スロットのデータをすべてこのカードにコピーする
+.warn_range	警告: %s
+.action_range	対処: %s
+.filter_mode	フィルターモード:
+@ advancements.mffs.
+.root.title	Modular Force Field Systems
+.root.description	フォースフィールドの世界へ！
+.steel_compound.title	頑丈な混ぜ物
+.steel_compound.description	鋼の配合物をクラフトする
+.smelt_steel.title	鉄より硬く
+.smelt_steel.description	鋼鉄インゴットを精錬する
+.field_shock.title	衝撃的な体験
+.field_shock.description	フォースフィールドに抹殺される
+.projector.title	フォースと共にあらんことを！
+.projector.description	フォースフィールド投射機をクラフトする
+.sponge_module.title	水はどこ？
+.sponge_module.description	スポンジモジュールをクラフトする
+.field_shape.title	フィールドの建築家
+.field_shape.description	独自のフィールドの形を作る
+.camouflage.title	堂々と隠れる
+.camouflage.description	擬態モジュールをクラフトする
+.custom_camouflage.title	マトリックスへ
+.custom_camouflage.description	カスタムモードを擬態と一緒に使う

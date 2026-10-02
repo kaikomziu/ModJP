@@ -1,0 +1,241 @@
+## deepnullreforged
+itemGroup.deepnullreforged	DeepNull Reforged
+item.deepnullreforged.deep_null_0	DeepNull
+item.deepnullreforged.deep_null_1	DeepNull MK II
+item.deepnullreforged.deep_null_2	DeepNull MK III
+item.deepnullreforged.deep_null_3	DeepNull MK IV
+item.deepnullreforged.deep_null_4	DeepNull MK V
+item.deepnullreforged.deep_null_5	DeepNull MK VI
+item.deepnullreforged.deep_null_6	DeepNull クリエイティブ
+item.deepnullreforged.damp_null_0	DampNull
+item.deepnullreforged.damp_null_1	DampNull MK II
+item.deepnullreforged.damp_null_2	DampNull MK III
+item.deepnullreforged.damp_null_3	DampNull MK IV
+item.deepnullreforged.damp_null_4	DampNull MK V
+item.deepnullreforged.damp_null_5	DampNull MK VI
+item.deepnullreforged.damp_null_6	DampNull クリエイティブ
+item.deepnullreforged.deep_null_panel_0	レッドストーンのDeepNullパネル
+item.deepnullreforged.deep_null_panel_1	ラピスラズリのDeepNullパネル
+item.deepnullreforged.deep_null_panel_2	鉄のDeepNullパネル
+item.deepnullreforged.deep_null_panel_3	金のDeepNullパネル
+item.deepnullreforged.deep_null_panel_4	ダイヤモンドのDeepNullパネル
+item.deepnullreforged.deep_null_panel_5	エメラルドのDeepNullパネル
+item.deepnullreforged.filter	フィルター
+item.deepnullreforged.upgrade_core	アップグレードコア
+item.deepnullreforged.ender_upgrade_core	エンダーアップグレードコア
+item.deepnullreforged.filter_upgrade	フィルターアップグレード
+item.deepnullreforged.fluid_upgrade	バケツアップグレード
+item.deepnullreforged.energy_upgrade	エネルギーアップグレード
+item.deepnullreforged.deep_energy_upgrade	ディープエネルギーアップグレード
+item.deepnullreforged.auto_feeding_upgrade	自動食事アップグレード
+item.deepnullreforged.auto_smelting_upgrade	自動精錬アップグレード
+item.deepnullreforged.basic_compression_upgrade	基本圧縮アップグレード
+item.deepnullreforged.advanced_compression_upgrade	高度圧縮アップグレード
+item.deepnullreforged.stoneworks_upgrade	石材加工アップグレード
+item.deepnullreforged.stone_generator_upgrade	石の生成器
+item.deepnullreforged.obsidian_generator_upgrade	黒曜石の生成器
+item.deepnullreforged.sponge_upgrade	スポンジアップグレード
+item.deepnullreforged.gas_upgrade	化学物質アップグレード
+item.deepnullreforged.ender_upgrade	エンダーアップグレード
+item.deepnullreforged.synchronizer	同期装置
+item.deepnullreforged.synchronizer.empty	設定が保存されていない。
+item.deepnullreforged.synchronizer.cleared	同期装置を消去した。
+item.deepnullreforged.synchronizer.stored_generic	%sの設定を保存した。
+item.deepnullreforged.synchronizer.stored_tiered	%2$sティアの%1$sの設定を保存した。
+item.deepnullreforged.deepnull	DeepNull
+item.deepnullreforged.dampnull	DampNull
+block.deepnullreforged.deepnull_dock	DeepNullドッキングステーション
+block.deepnullreforged.null_workbench	Null作業台
+container.deepnullreforged.null_workbench	Null作業台
+container.deepnullreforged.null_workbench.craft	クラフト
+container.deepnullreforged.null_workbench.sync	同期
+container.deepnullreforged.null_workbench.style	見た目
+container.deepnullreforged.null_workbench.backup	バックアップ
+container.deepnullreforged.null_workbench.restore	復元
+container.deepnullreforged.null_workbench.frame_color	枠の色
+container.deepnullreforged.null_workbench.glass_color	ガラスの色
+container.deepnullreforged.null_workbench.preview	プレビュー
+gui.deepnullreforged.apply	適用
+gui.deepnullreforged.reset	リセット
+key.categories.deepnullreforged	DeepNull
+key.next_item.desc	DeepNullの次のアイテムに切り替え
+key.previous_item.desc	DeepNullの前のアイテムに切り替え
+key.open_deepnull.desc	ホットバーのDeepNullを開く/閉じる
+key.toggle_transfer_lock.desc	DeepNullの出力モードを切り替え
+key.toggle_transfer_direction.desc	DeepNullの移送方向を切り替え
+key.toggle_sponge.desc	DampNullのスポンジアップグレードを切り替え
+key.toggle_hud.desc	DeepNullのHUDを切り替え
+key.toggle_auto_pickup.desc	DeepNullの自動回収を切り替え
+key.toggle_global_auto_pickup.desc	全Nullの自動回収を切り替え
+key.toggle_auto_feeding.desc	DeepNullの自動食事を切り替え
+key.toggle_auto_smelting.desc	DeepNullの自動精錬を切り替え
+key.cycle_stone_generator.desc	DampNullの石の種類を切り替え
+key.gui_primary_action.desc	DeepNull画面の主ボタン
+key.gui_secondary_action.desc	DeepNull画面の副ボタン
+key.gui_tertiary_action.desc	DeepNull画面の第3ボタン
+guideme.deepnullreforged.guide_name	DeepNull Reforged ガイド
+guideme.deepnullreforged.guide_desc	DeepNull Reforgedのゲーム内説明書(任意)。
+jei.deepnullreforged.desc	DeepNullは、OpenBlocksの/dev/null/の精神的後継かつ強化版。
+jei.deepnullreforged.desc0	レッドストーンのDeepNull(MK I)は最下位のティアで、9スロット、各スロット最大2スタック。
+jei.deepnullreforged.desc1	ラピスラズリのDeepNull(MK II)は2番目のティアで、18スロット、各スロット最大4スタック。
+jei.deepnullreforged.desc2	鉄のDeepNull(MK III)は3番目のティアで、27スロット、各スロット最大8スタック。
+jei.deepnullreforged.desc3	金のDeepNull(MK IV)は4番目のティアで、36スロット、各スロット最大16スタック。
+jei.deepnullreforged.desc4	ダイヤモンドのDeepNull(MK V)は5番目のティアで、45スロット、各スロット最大32スタック。
+jei.deepnullreforged.desc5	エメラルドのDeepNull(MK VI)は最上位のティアで、54スロット、各スロットにアイテムを最大21.4億個。
+jei.deepnullreforged.transfer.missing	インベントリかDeepNullに材料が足りない。
+jei.deepnull_dock.desc	-DeepNullを手に持って右クリックすると、ドッキングステーションにDeepNullを置ける\n-アイテムはDeepNullから取り出せるだけで、下から入れることはできない\n-速さはドックから引き出すブロックで決まる
+upgrade.kind.deepnull	DeepNullのアップグレード
+upgrade.kind.dampnull	DampNullのアップグレード
+upgrade.kind.anynull	DeepNullかDampNullのアップグレード
+upgrade.tiers.iron_plus	鉄ティア以上
+upgrade.tiers.every_tier	すべてのティア
+upgrade.tiers.diamond_plus	ダイヤモンドティア以上
+upgrade.tiers.emerald_only	エメラルドティアのみ
+upgrade.ender_upgrade.unlinked	ドックに置いたNullをShift+右クリックすると、このアップグレードを連結できる。
+upgrade.ender_upgrade.linked	%2$s, %3$s, %4$sの%1$sに連結済み
+upgrade.ender_upgrade.linked_message	%2$s, %3$s, %4$sの%1$sに連結した
+upgrade.filter_upgrade.desc	ホワイトリスト、ブラックリスト、プリセットのモードを持つ、設定可能なゴーストアイテムのフィルターを追加する。
+upgrade.fluid_upgrade.desc	保管したバケツや液体容器を、DeepNullのアイテムスロットから直接使えるようにする。
+upgrade.energy_upgrade.desc	内部のFE貯蔵とエネルギー移送の対応を追加する。
+upgrade.deep_energy_upgrade.desc	エネルギーアップグレードが必要。エメラルドの貯蔵量を25,000,000 FE、移送量を100,000 FEに上げる。
+upgrade.auto_feeding_upgrade.desc	プレイヤーがお腹を空かせたとき、保管した食べ物を自動で食べる。
+upgrade.auto_smelting_upgrade.desc	拾ったアイテムの原料か焼いた形がすでに保管されているとき、自動で精錬する。
+upgrade.basic_compression_upgrade.desc	圧縮後のものがすでに保管されているとき、入ってきたアイテムを同じアイテムだけの2x2のレシピで自動クラフトする。
+upgrade.advanced_compression_upgrade.desc	圧縮後のものがすでに保管されているとき、入ってきたアイテムを同じアイテムだけの3x3のレシピで自動クラフトする。
+upgrade.stoneworks_upgrade.desc	保管した丸石を順番に加工して、土、砂利、砂、粉、粘土、ガラスを切らさないようにする。
+upgrade.stone_generator_upgrade.desc	水と溶岩があるとき、選んだ種類の石を生成する。持ち歩いているときの出力は対応するDeepNullに、ドックにあるときの出力はドックのバッファに送られる。
+upgrade.obsidian_generator_upgrade.desc	水と溶岩をそれぞれ1000 mB消費して、5秒ごとに黒曜石を生成する。持ち歩いているときの出力は対応するDeepNullに、ドックにあるときの出力はドックのバッファに送られる。
+upgrade.sponge_upgrade.desc	見えている液体源を右クリックすると、近くの見えている液体源をティアの上限までDampNullに吸い込む。
+upgrade.gas_upgrade.desc	Mekanismが導入されているとき、DampNullのタンクにMekanismの化学物質の移送の対応を追加する。
+upgrade.ender_upgrade.desc	このNullを、ドックに置いた同じ種類とティアのNullに連結し、そのインベントリをディメンションをまたいで同期する。
+upgrade.filter_upgrade.installed	フィルターアップグレードを取り付けた
+upgrade.fluid_upgrade.installed	バケツアップグレードを取り付けた
+upgrade.energy_upgrade.installed	エネルギーアップグレードを取り付けた
+upgrade.deep_energy_upgrade.installed	ディープエネルギーアップグレードを取り付けた
+upgrade.auto_feeding_upgrade.installed	自動食事アップグレードを取り付けた
+upgrade.auto_smelting_upgrade.installed	自動精錬アップグレードを取り付けた
+upgrade.basic_compression_upgrade.installed	基本圧縮アップグレードを取り付けた
+upgrade.advanced_compression_upgrade.installed	高度圧縮アップグレードを取り付けた
+upgrade.stoneworks_upgrade.installed	石材加工アップグレードを取り付けた
+upgrade.stone_generator_upgrade.installed	石の生成器を取り付けた
+upgrade.obsidian_generator_upgrade.installed	黒曜石の生成器を取り付けた
+upgrade.sponge_upgrade.installed	スポンジアップグレードを取り付けた
+upgrade.gas_upgrade.installed	化学物質アップグレードを取り付けた
+upgrade.ender_upgrade.installed	エンダーアップグレードを取り付けた
+=Available on %s	使えるもの: %s
+filter.mode.whitelist	ホワイトリスト
+filter.mode.blacklist	ブラックリスト
+filter.mode.miner	鉱夫
+filter.mode.herbalist	薬草師
+filter.mode.hunter	狩人
+filter.mode.network_engineer	ネットワーク技師
+filter.mode.connections	接続
+filter.mode.builder	建築家
+@ dn.
+.selected.desc	選択中
+.selected_item.desc	選択中のアイテム
+.count.desc	数
+.extract.desc	取り出し
+.place.desc	設置
+.extract_mode.desc	取り出しモード
+.placement_mode.desc	設置モード
+.no_open_keybind.desc	開くキーが設定されていない
+.open_with.desc	開くキー:
+.ore_dictionary.desc	タグで照合
+.tag_matching.desc	タグで照合
+.enabled.desc	有効
+.disabled.desc	無効
+.disabled_by_config.desc	サーバーの設定で無効
+.not_oredicted.desc	辞書タグなし
+.ctrl_click_change.desc	Ctrl+クリックで取り出しモードを変更
+.middle_click_custom_extract.desc	中クリックで独自の最小数を設定
+.o_click_toggle.desc	O+クリックでタグ照合を切り替え
+.p_click_toggle.desc	P+クリックで設置モードを変更
+.alt_click_set.desc	Alt+クリックで選択スロットを設定
+.alt_arrow_move.desc	Alt+矢印キーでスロットの位置を移動
+.items.desc	アイテム
+.upgrades.desc	アップグレード
+.upgrades_hint.desc	アップグレードボタンでアップグレードを取り付け、設定する
+.upgrades_screen.desc	DeepNullのアップグレード
+.dampnull_upgrades_screen.desc	DampNullのアップグレード
+.upgrade_unavailable.desc	このティアではこのスロットは使えない
+.filter_screen.desc	DeepNullのフィルター
+.auto_smelt_filter_screen.desc	自動精錬のフィルター
+.fluid_screen.desc	DeepNullのバケツ
+.back.desc	戻る
+.configure_filter.desc	フィルターを設定
+.configure_auto_smelt.desc	自動精錬を設定
+.filter_mode_label.desc	フィルターモード
+.auto_smelt_mode_label.desc	自動精錬モード
+.filter_mode_cycle.desc	モード: %s
+.filter_slot.desc	フィルター
+.fluid_slot.desc	バケツ
+.energy_slot.desc	エネルギー
+.will.desc	動作:
+.from_slot.desc	(このスロットから)
+.do.desc	動作:
+.not_extract.desc	取り出さない
+.extract_all_but.desc	指定数を残して取り出す
+.extract_all.desc	すべて取り出す
+.not_place.desc	設置しない
+.place_all_but.desc	指定数を残して設置する
+.place_all.desc	すべて設置する
+.slot.desc	スロット
+.hover_for_details.desc	スロットにカーソルを合わせるとモードの詳細が出る
+.lock.desc	固定
+.unlock.desc	固定解除
+.transfer_all.desc	すべて移送
+.transfer_matching.desc	一致するものを移送
+.transfer_locked.desc	固定したものを移送
+.transfer_unlocked.desc	固定していないものを移送
+.item_output_mode.desc	アイテムの出力モード
+.fluid_output_mode.desc	液体の出力モード
+.item_transfer_direction.desc	アイテムの移送方向
+.fluid_transfer_direction.desc	液体の移送方向
+.transfer_direction_omnidirectional.desc	双方向
+.transfer_direction_insert.desc	搬入
+.transfer_direction_extract.desc	搬出
+.hud_enabled.desc	DeepNullのHUDを有効にした
+.hud_disabled.desc	DeepNullのHUDを無効にした
+.auto_pickup_enabled.desc	自動回収を有効にした
+.auto_pickup_disabled.desc	自動回収を無効にした
+.global_auto_pickup_enabled.desc	全Nullの自動回収を有効にした
+.global_auto_pickup_disabled.desc	全Nullの自動回収を無効にした
+.auto_feeding_enabled.desc	自動食事を有効にした
+.auto_feeding_disabled.desc	自動食事を無効にした
+.auto_smelting_enabled.desc	自動精錬を有効にした
+.auto_smelting_disabled.desc	自動精錬を無効にした
+.guideme_hint.desc	Gを押すとGuideMEのページが開く。
+.charging.desc	充電
+.charging_on.desc	充電: オン
+.charging_off.desc	充電: オフ
+.infinite.desc	無限
+.items_per_slot.desc	個/スロット
+.number_of_slots.desc	スロット数
+.number_of_tanks.desc	タンク数
+.buckets_per_tank.desc	バケツ/タンク
+.fluid.desc	液体
+.chemical.desc	化学物質
+.fluids.desc	液体
+.energy.desc	エネルギー
+.empty.desc	空
+.amount.desc	量
+.capacity.desc	容量
+.fluid_empty_hint.desc	ここに液体を保管する。
+.chemical_transfer_only.desc	対応する化学物質のインベントリをShift+右クリックすると、このタンクを満たせる。
+.fluid_hover_for_details.desc	タンクにカーソルを合わせると液体の詳細が出る。
+.left_click_select_tank.desc	タンクを左クリックで選択。
+.shift_click_clear_tank.desc	タンクをShift+クリックで空にする。
+.stone_type.desc	石の種類
+.stone_generator_select.desc	石の種類:
+.stone_generator_rate.desc	生成速度: %s/秒
+.stone_generator_requires.desc	水と溶岩がそれぞれ1000 mBある必要があるが、消費はしない。
+.stone_generator_output_rule.desc	持ち歩いているときの出力は、そのブロックをすでに保管しているか明示的にフィルターに入れているDeepNullにだけ送られる。ドックにあるときの出力はドックのバッファに送られる。
+.sponge_enabled.desc	スポンジアップグレードを有効にした
+.sponge_disabled.desc	スポンジアップグレードを無効にした
+.stoneworks_amount.desc	石材加工の量
+.custom_extract_amount.desc	独自の最小数
+.custom_extract_limit.desc	取り出しの上限
+.stoneworks_outputs.desc	監視する出力
+.monitoring_on.desc	監視を有効にした
+.monitoring_off.desc	監視を無効にした

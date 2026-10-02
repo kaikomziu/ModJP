@@ -26,8 +26,14 @@ for f in sorted(Path("extracted").glob("*.json")):
             why = "Modonomicon内蔵の開発用デモ/テスト本の文言"
         elif ns == "darkutils" and k.startswith("font.") and k.endswith(".preview"):
             why = "特殊フォントの英字パングラム見本(英字グリフ専用)"
+        elif ns in ("productivetrees", "productivefarming") and k.endswith(".latin"):
+            why = "樹木の学名(ラテン語)"
         elif ns == "zeta" and k == "zeta.jei.hint_preamble":
             why = "MOD名の接頭辞のみ"
+        elif k.startswith("jukebox_song.") or k.startswith("aether_ii.music.") or k.startswith("subtitle.apothic_enchanting.music_disc."):
+            why = "楽曲名(作曲者 - 曲名)"
+        elif ns == "aether_ii" and v.startswith("Lorem ipsum"):
+            why = "未完成の図鑑項目のダミー文"
         elif re.fullmatch(r"(%\d+\$[sd])+", v):
             why = "書式指定子のみ"
         elif k.endswith(".tooltip") and re.fullmatch(r"item\.[A-Z_]+", v):

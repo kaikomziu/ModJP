@@ -1,0 +1,15 @@
+{
+  "laserbridges.deimosconfig.title": "Laser Bridges & Doors の設定",
+  "laserbridges.deimosconfig.max_length": "レッドストーンの最大出力時の橋の長さ",
+  "laserbridges.deimosconfig.blocks_cut_through_by_lasers": "レーザーで置き換えられるブロック",
+  "block.laserbridges.laser_source_block": "レーザー源",
+  "item.laserbridges.laser_source_block": "レーザー源",
+  "block.laserbridges.laser_fence_source_block": "レーザーフェンス源",
+  "item.laserbridges.laser_fence_source_block": "レーザーフェンス源",
+  "block.laserbridges.laser_source_fullblock": "レーザー源ブロック",
+  "item.laserbridges.laser_source_fullblock": "レーザー源ブロック",
+  "block.laserbridges.laser_fence_source_fullblock": "レーザーフェンス源ブロック",
+  "item.laserbridges.laser_fence_source_fullblock": "レーザーフェンス源ブロック",
+  "block.laserbridges.laser_block_powered": "レーザーブロック",
+  "block.laserbridges.laser_fence_powered": "レーザーブロック"
+}

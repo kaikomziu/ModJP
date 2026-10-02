@@ -1,0 +1,164 @@
+## shulespotions
+gui.shulespotions.slot_blocked	ふさがっている
+gui.shulespotions.too_complex	複雑すぎる
+block.shulespotions.meteor_cauldron	隕石の大釜
+block.shulespotions.big_cauldron	巨大な大釜
+block.shulespotions.spitter_trap	吐き出し罠
+block.shulespotions.ancite_bricks	アンサイトレンガ
+block.shulespotions.cracked_ancite_bricks	ひび割れたアンサイトレンガ
+block.shulespotions.chiseled_ancite_bricks	模様入りのアンサイトレンガ
+block.shulespotions.smooth_ancite	なめらかなアンサイト
+block.shulespotions.mossy_ancite_bricks	苔むしたアンサイトレンガ
+block.shulespotions.grown_mossy_ancite_bricks	苔の伸びたアンサイトレンガ
+block.shulespotions.overgrown_mossy_ancite_bricks	苔に覆われたアンサイトレンガ
+block.shulespotions.ancite_ornamented_bricks	装飾されたアンサイトレンガ
+block.shulespotions.chiseled_ancite_ornamented_bricks	模様入りの装飾されたアンサイトレンガ
+block.shulespotions.ancite_lock	アンサイトの錠
+block.shulespotions.ancite_blocking_wall	アンサイトの遮断壁
+block.shulespotions.ancite_pillar	アンサイトの柱
+block.shulespotions.ancite_bricks_stairs	アンサイトレンガの階段
+block.shulespotions.instable_ancite_bricks	不安定なアンサイトレンガ
+block.shulespotions.sitting_ancient_statue	座った古代の像
+block.shulespotions.ancient_pedestal	古代の台座
+block.shulespotions.election_ancient_pedestal	古代の選択の台座
+block.shulespotions.ominous_pedestal	古代の不吉な台座
+block.shulespotions.meteorite_stone	隕石
+block.shulespotions.meteorite_stone_burned	焼けた隕石
+block.shulespotions.meteorite_stone_petrified	石化した隕石
+block.shulespotions.onyx_ore	オニキス鉱石
+block.shulespotions.ancite_redstone_clock	アンサイトのレッドストーンクロック
+block.shulespotions.spike	とげ
+item.shulespotions.crushed_totem	砕けたトーテム
+item.shulespotions.dolphin_fin	イルカのひれ
+item.shulespotions.relic_of_instability	不安定の遺物
+item.shulespotions.ancient_key	古代の鍵
+item.shulespotions.fermented_carrot	発酵したニンジン
+item.shulespotions.common_loot_bundle	ありふれた戦利品の包み
+item.shulespotions.uncommon_loot_bundle	珍しい戦利品の包み
+item.shulespotions.inusual_loot_bundle	変わった戦利品の包み
+item.shulespotions.rare_loot_bundle	レアな戦利品の包み
+item.shulespotions.exotic_loot_bundle	異国の戦利品の包み
+item.shulespotions.ancient_loot_bundle	古代の戦利品の包み
+block.shulespotions.meteor_cauldron.commentary	古代人は星そのもののかけらを使ってこれを作った。私の疑問は、どうやって？
+block.shulespotions.meteor_cauldron.description	隕石の大釜は錬金術師により高度な醸造を可能にし、中身を安定させて、より複雑な錬金術を行えるようにする。
+block.shulespotions.big_cauldron.commentary	遺跡の象形文字は、この大釜に封じられた神の物語を伝えている…自分の物を入れるのは気が進まない。
+block.shulespotions.big_cauldron.description	巨大な大釜はジャングルの下に埋もれた古代遺跡の最も深いところで見つかる…その錬金術の性質は、ただただあらゆるものに勝る。
+effect.shulespotions.body_break_down	バラバラ
+effect.shulespotions.body_break_down.description	手足が1本ずつ落ちていき、最後には切り落とされた頭だけが残る。
+death.attack.shulespotions.alchemy_damage	%1$sは錬金術の力で倒された
+shulespotions.screen.effect_codex.neutral	中立
+shulespotions.screen.effect_codex.level	レベル:
+shulespotions.complexity.name	複雑さ
+shulespotions.screen.effect_codex.complexity.description	効果の複雑さは、それを醸造するのに必要な大釜の最低ティアを決める。複雑さの高い効果には高度な大釜が必要。
+shulespotions.screen.effect_codex.no_effects	このレベルに登録された効果はない。
+sounds.shulespotions.body_break	体の一部がもげる
+entity.shulespotions.player_head	切り落とされた頭
+entity.shulespotions.player_arm	切り落とされた腕
+entity.shulespotions.player_leg	切り落とされた脚
+## trainingdummy
+itemGroup.trainingdummy	Training Dummy
+item.trainingdummy.dummy_spawner	練習用かかし
+item.trainingdummy.dummy_spawner.tooltip.configure	棒で右クリックするとインベントリが開く
+item.trainingdummy.dummy_spawner.tooltip.remove	棒で叩くと取り除ける
+item.trainingdummy.dummy_spawner.tooltip.loaded	名前、体力、装備を覚えている
+item.trainingdummy.dummy_spawner.tooltip.holdCtrl	Ctrlを押し続けるとカスタマイズの詳細を表示
+item.trainingdummy.dummy_spawner.tooltip.maxHealth	最大体力: %s
+item.trainingdummy.dummy_spawner.tooltip.displayMetric	ダメージの表示: %s
+item.trainingdummy.dummy_spawner.tooltip.equipment	装備: %s
+item.trainingdummy.dummy_spawner.tooltip.curios	Curios: %s
+item.trainingdummy.lure_bait	おびき寄せの餌
+item.trainingdummy.lure_bait.tooltip	かかしのメインハンドに持たせると、近くのモブをおびき寄せてかかしを攻撃させる
+entity.trainingdummy.dummy	練習用かかし
+container.trainingdummy.dummy	練習用かかし
+gui.trainingdummy.inventory	インベントリ
+trainingdummy.gui.location.chat	チャット
+trainingdummy.gui.location.screen	画面
+trainingdummy.gui.maxHealth	最大体力
+trainingdummy.gui.maxHealth.set	設定
+trainingdummy.gui.clearNegativeEffects	悪い効果を消す
+trainingdummy.slot.head	ヘルメット
+trainingdummy.slot.chest	チェストプレート
+trainingdummy.slot.legs	レギンス
+trainingdummy.slot.feet	ブーツ
+trainingdummy.slot.mainhand	メインハンド
+trainingdummy.slot.offhand	オフハンド
+@ trainingdummy.configuration.
+.title	Training Dummy - クライアント設定
+.section.trainingdummy.client.toml	ダメージの表示
+.section.trainingdummy.client.toml.title	ダメージの表示
+.hitResetSeconds	ヒットのリセット間隔(秒)
+.hitResetSeconds.tooltip	ヒットするたびに累計に加算される。ヒットせずにこの秒数が過ぎると、次のヒットは古い累計に足さずに新しく数え始める。
+.displayDurationSeconds	表示時間(秒)
+.displayDurationSeconds.tooltip	最後のヒットの後、ダメージの表示が見え続ける時間。
+.displayLocation	表示場所
+.displayLocation.tooltip	ダメージの表示を出す場所: 画面(HUD)か自分のチャット。
+.displayOffsetX	表示のXずらし(ピクセル)
+.displayOffsetX.tooltip	画面中央からの横方向のピクセル数(負 = 左、正 = 右)。画面表示のみ。
+.displayOffsetY	表示のYずらし(ピクセル)
+.displayOffsetY.tooltip	画面下端から上方向のピクセル数。画面表示のみ。
+.displayColor	表示の色(16進数)
+.displayColor.tooltip	文字の色。6桁のRRGGBBか8桁のAARRGGBBの16進数の文字列で、#は付けない。画面表示のみ。
+.section.trainingdummy.common.toml	ゲームプレイ
+.section.trainingdummy.common.toml.title	ゲームプレイ
+.baitRadius	おびき寄せの餌の半径(ブロック)
+.baitRadius.tooltip	おびき寄せの餌を持ったかかしを攻撃させるために、モブを引き寄せる距離。
+.maxHealth	最大体力
+.maxHealth.tooltip	かかしの最大体力。この値に関係なく毎tick満タンに保たれるので、1でもヒットで倒されることはない - 取り除くには棒で叩くしかない。
+@ trainingdummy.display.
+.total	%sダメージ
+.dps	%s DPS
+.perhit	1ヒット%s
+.total.name	合計
+.dps.name	DPS
+.perhit.name	1ヒットあたり
+## epitaphs
+command.epitaphs.preview.failure	%2$sの%1$sのプレビューに失敗した
+command.epitaphs.preview.success	%2$sの%1$sのプレビューを開いた
+command.epitaphs.preview.title	%sのバックアップ
+config.epitaphs.backup_max_age_days	バックアップの最大保存日数
+config.epitaphs.backup_max_age_days.tooltip	§8バックアップを完全に削除するまで保存する日数。0で無効§r\n\n§7初期値: 0§r
+config.epitaphs.blacklisted_dimensions	ブラックリストのディメンション
+config.epitaphs.blacklisted_dimensions.tooltip	§8墓が生成されないようにするディメンションの一覧§r\n\n§7初期値: []§r
+config.epitaphs.villager_death_distance	村人の死の距離
+config.epitaphs.villager_death_distance.tooltip	§8村人の死が反映される最大距離。0で無効§r\n\n§7初期値: 6§r
+creative_tab.epitaphs	Epitaphs
+item.epitaphs.soul_bottle	瓶詰めの魂
+message.epitaphs.decorative	装飾用
+message.epitaphs.file_purged_info	このセーブは%sより前に作られたため、自動で削除された！
+message.epitaphs.file_purging_warning	このサーバーではファイルの自動削除が有効になっている。
+message.epitaphs.preview_denied	バックアップのプレビューからアイテムを取り出すことはできない
+message.epitaphs.soul_bottle_obtain	魂のさまよう墓に瓶を使うと手に入る
+message.epitaphs.soul_bottle_use	飲むと最後の墓へテレポートする
+message.epitaphs.soul_death_hint	魂のない墓の近くで村人が死ぬと、その魂が墓に宿る
+message.epitaphs.soulbound_hint	金床で組み合わせると魂の束縛のエンチャントを付ける
+message.epitaphs.souls_hint	この墓にはまだ魂が閉じ込められている…瓶が使えるかもしれない
+message.epitaphs.souls_none	この墓にはもう魂は残っていない
+@ screen.epitaphs.preview.
+.backups	バックアップ
+.backups.back	戻る
+.backups.back.hint	バックアップの詳細に戻る
+.backups.empty	バックアップが見つからない
+.backups.hint	このプレイヤーのバックアップをすべて表示
+.backups.title	バックアップ(%s)
+.cosmetics.toggle	見た目用のCuriosスロットを切り替え
+.curios	Curios
+.curios.cosmetic	%s(見た目用)
+.curios.none	このバックアップにはCuriosスロットがない
+.curios.slot	スロット: %s
+.curios.toggle	Curiosを表示
+.entry.dimension	ディメンション
+.entry.game_mode	ゲームモード
+.entry.position	位置
+.entry.score	スコア
+.entry.taken	回収済み
+.entry.type	種類
+.give_hint	クリックするとこのアイテムを自分に与える
+.page	ページ %s / %s
+.restore	復元
+.restore.hint	プレビューを閉じて、復元コマンドをチャットに入れる
+.section.backup	バックアップ
+.section.location	場所
+.section.status	状態
+.value.death	死亡
+.value.save	保存
+.value.unknown	不明

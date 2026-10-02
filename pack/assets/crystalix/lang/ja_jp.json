@@ -1,0 +1,14 @@
+{
+  "apply_mode.crystalix.colorless": "色以外",
+  "apply_mode.crystalix.default": "初期設定",
+  "apply_mode.crystalix.exact": "完全一致",
+  "config.crystalix.show_wand_tooltips": "杖のツールチップを表示",
+  "config.crystalix.show_wand_tooltips.tooltip": "§8杖に特性のツールチップを表示する§r\n\n§7初期値: false§r",
+  "key.crystalix.highlight_blocks": "ブロックを強調表示",
+  "property.crystalix.apply_mode": "適用モード",
+  "tooltip.crystalix.apply_mode.colorless": "色以外のすべての特性を適用する",
+  "tooltip.crystalix.apply_mode.default": "すべての特性を普通に適用する",
+  "tooltip.crystalix.apply_mode.exact": "特性を一括で適用するとき、最初のブロックと完全に一致するものだけを編集する",
+  "tooltip.crystalix.highlight": "%sで周りのすべてのcrystalixブロックを強調表示",
+  "tooltip.crystalix.show_properties": "今選んでいる特性をツールチップに表示するには設定を切り替える"
+}

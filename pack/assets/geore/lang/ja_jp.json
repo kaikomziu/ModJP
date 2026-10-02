@@ -1,0 +1,4 @@
+{
+  "geore.configuration.disableImmovability": "動かせなくする設定を無効にする",
+  "geore.configuration.disableImmovability.tooltip": "芽生えたGeOreブロックを動かせなくする設定を無効にする(内蔵のデータパックが有効になる)[初期値: false]"
+}

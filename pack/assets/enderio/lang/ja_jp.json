@@ -1,0 +1,16 @@
+{
+  "conduit.enderio.energetic_energy": "エナジェティックのエネルギーコンジット",
+  "conduit.enderio.energetic_fluid": "エナジェティックの液体コンジット",
+  "conduit.enderio.energetic_item": "エナジェティックのアイテムコンジット",
+  "conduit.enderio.vibrant_energy": "ヴァイブラントのエネルギーコンジット",
+  "conduit.enderio.vibrant_fluid": "ヴァイブラントの液体コンジット",
+  "conduit.enderio.vibrant_item": "ヴァイブラントのアイテムコンジット",
+  "key.category.enderio.enderio_keys": "EnderIO",
+  "message.enderio.tool.soul_vial.error.denied": "このエンティティは拒否リストに入っている。",
+  "tag.entity_type.enderio.soul_vial_allow_list": "魂の小瓶の許可リスト",
+  "tag.entity_type.enderio.soul_vial_deny_list": "魂の小瓶の拒否リスト",
+  "tag.entity_type.enderio.spawner_allow_list": "スポナーの許可リスト",
+  "tag.entity_type.enderio.spawner_deny_list": "スポナーの拒否リスト",
+  "tag.item.enderio.deny_lists.broken_spawner": "壊れたスポナーの拒否リスト",
+  "tag.item.enderio.deny_lists.electromagnet": "電磁石の拒否リスト"
+}

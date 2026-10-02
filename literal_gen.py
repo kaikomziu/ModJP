@@ -22,6 +22,12 @@ D = {
         "log.error.loadMuffledList": "ESM: 消音リストの読み込みエラー:" + B + " %s",
         "log.error.saveMuffledList": "ESM: 消音リストの保存エラー:" + B + " %s",
     },
+    "pipe_connector": {
+        "item.pipe_connector.jei.description": "パイプコネクターでは、スニーク+右クリックで最大%s個の位置を選べる。すべての位置を選ぶと経路のプレビューが表示される。" + B + " Shift+スクロールでパイプの深さを変えられる。" + B + " 経路に満足したら、Shift+右クリックでGUIを開き、「パイプを設置」をクリックしてパイプを設置する。\n 選んだ位置に不満があれば「位置をリセット」でリセットできる。\n 設置できる対応パイプの一覧はJEIで確認できる。",
+    },
+    "apothic_spawners": {
+        "info.apothic_spawners.capturing": "捕獲のエンチャントは、モンスターがスポーンエッグを落とす確率を与える。" + B + " " + B + "ドロップ率: レベルごとに%s%%",
+    },
 }
 json.dump(D, open('tr/batch_19_literal.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(sum(map(len, D.values())))

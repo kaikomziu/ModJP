@@ -1,0 +1,202 @@
+## neovitae
+@ book.neovitae.guide.tabula_vitae.
+.anointments.description	道具と武器のための錬金術の塗膜。
+.anointments.intro.text	フラスコが体を強くするなら、[#](8B0000)塗油[#]()は手を強くする。道具、武器、[#](8B0000)チャージ[#]()に塗る[#](4A0080)錬金術の塗膜[#]()だ。片手に塗油を持って使用キーを押すと、もう片方の手のアイテムに塗れる。どの塗膜もすべての道具に合うわけではない。よく選ぶこと。\\n\\n霊薬と違って、塗油は時間に縛られない。塗った道具を使うたびに減り、一振りごとに薄れて尽きる。
+.anointments.intro.title	塗油
+.anointments.name	塗油
+.anointments.slate_vial.text	[#](8B0000)タブラの小瓶[#]()はタブラ・ヴィータで作る(レシピ: neovitae:alchemytable/slate_vial)。普通のガラスは塗油の中の反応性の化合物に耐えられない。粉末の石板で補強したこの小瓶なら、劣った器に収まらないものも収められる。
+.anointments.slate_vial.title	タブラの小瓶
+.anointments.smithing.text	[#](8B0000)塗油[#]()は鍛冶台でも塗れる。その場合は鍛冶型の代わりに置く。両手持ちの武器や、手がふさがっている場合に特に便利だ。
+.bow_power_anointment.description	錬金術の密度で矢を重くする。
+.bow_power_anointment.intro.text	[#](8B0000)鉄の矢じり[#]()は錬金術の密度で一本一本の矢を重くし、ダメージを25%%上げる。既存のエンチャントと重ねがけできる。\\n\\n対象アイテム: [#](8B0000)#neovitae:anointable/bows[#]()に含まれるもの。\\n\\n付与: 重い一射(256射)
+.bow_power_anointment.intro.title	鉄の矢じり
+.bow_power_anointment.name	鉄の矢じり
+.bow_velocity_anointment.description	不自然な速さで矢を放つ。
+.bow_velocity_anointment.intro.text	[#](8B0000)射手の磨き油[#]()は弦と矢柄の摩擦を減らし、矢を50%%速く撃ち出す。速度が上がった分だけダメージも比例して上がる。既存のエンチャントと重ねがけできる。\\n\\n対象アイテム: [#](8B0000)#neovitae:anointable/bows[#]()に含まれるもの。\\n\\n付与: 狙撃(256射)
+.bow_velocity_anointment.intro.title	射手の磨き油
+.bow_velocity_anointment.name	射手の磨き油
+.flask_bounce.description	落下を無害な跳ね返りに変える。
+.flask_bounce.intro.text	[#](8B0000)跳ね返り[#]()の霊薬は体を生きたばねに変える。石に叩きつけられて砕けるはずのところを、無傷で心躍らせながら空へ跳ね返る。\\n\\n[#](2E8B57)着地の前にしゃがむと跳ね返りを抑えて普通に着地できる。[#]()
+.flask_bounce.intro.title	跳ね返り
+.flask_bounce.name	跳ね返り
+.flask_fire_resistance.description	炎と熱を防ぐ守り。
+.flask_fire_resistance.intro.text	[#](8B0000)耐火[#]()の霊薬は、飲んだ者を炎と熱をはじく見えない守りで包む。溶岩でさえぬるま湯ほどの脅威にしかならない。とはいえ油断は禁物だ。
+.flask_fire_resistance.intro.title	耐火
+.flask_fire_resistance.name	耐火
+.flask_flight.description	重力の錬金術の頂点、真の飛行。
+.flask_flight.intro.text	[#](8B0000)飛行[#]()の霊薬は[#](4A0080)重力の錬金術[#]()の最高傑作 - 風そのもののように自由な、何にも縛られない真の飛行だ。レベルが高いほど空中で速く飛べる。\\n\\n作るには、[#](8B0000)宙づり[#]()と[#](8B0000)浮遊[#]()を1つのフラスコに醸造し、タブラ・ヴィータで[#](8B0000)組み合わせ触媒[#]()を使って融合させる。
+.flask_flight.intro.title	飛行
+.flask_flight.name	飛行
+.flask_gravity.description	大地の引力を押しつぶすほどに強める。
+.flask_gravity.intro.text	[#](8B0000)重力[#]()の霊薬は飲んだ者にかかる大地の引力を強め、より速く落下させ、着地時により大きなダメージを与える。ジャンプの高さは変わらない - 落ちていく間のささやかな慰めだ。\\n\\n作るには、[#](8B0000)接地[#]()と[#](8B0000)低速落下[#]()を1つのフラスコに醸造し、タブラ・ヴィータで[#](8B0000)組み合わせ触媒[#]()を使って融合させる。
+.flask_gravity.intro.title	重力
+.flask_gravity.name	重力
+.flask_grounded.description	体を大地につなぎ止め、ジャンプを一切封じる。
+.flask_grounded.intro.text	[#](8B0000)接地[#]()の霊薬は体を大地につなぎ止め、ジャンプする力を完全に封じる。泳ぐのには影響しない。縛りつけるのは石にであって、水にではない。\\n\\n[#](8B0000)跳躍力上昇[#]()のフラスコから派生させる。
+.flask_grounded.intro.title	接地
+.flask_grounded.name	接地
+.flask_hard_cloak.description	錬金術の硬さで肉体と防具をこわばらせる。
+.flask_hard_cloak.intro.text	[#](8B0000)硬い外套[#]()の霊薬は、身に着けた者の皮膚と防具をともに硬くし、レベルごとに防具強度を3ポイント与える。貫くはずの一撃が、その下に思わぬ弾力を見いだす。
+.flask_hard_cloak.intro.title	硬い外套
+.flask_hard_cloak.name	硬い外套
+.flask_heavy_heart.description	犠牲者を地面へ引きずり下ろす鉛の重み。
+.flask_heavy_heart.intro.text	[#](8B0000)重い心[#]()の霊薬は胸を鉛の重みで満たし、犠牲者を絶えず下へ引きずり下ろす。飛ぶことは必死のあがきになり、泳ぐことはゆっくりとした溺死になる。\\n\\n作るには、[#](8B0000)重力[#]()と[#](8B0000)即時回復[#]()を1つのフラスコに醸造し、タブラ・ヴィータで[#](8B0000)組み合わせ触媒[#]()を使って融合させる。
+.flask_heavy_heart.intro.title	重い心
+.flask_heavy_heart.name	重い心
+.flask_instant_damage.description	秘術の害の矢に反転した生命力。
+.flask_instant_damage.intro.text	[#](8B0000)即時ダメージ[#]()の霊薬は反転した生命力 - 凝縮された[#](4A0080)秘術の害[#]()の矢で、レベルごとに6ポイントの魔法ダメージを与える。逆説的なことに、[#](8B0000)アンデッド[#]()はそこに救いを見いだし、代わりにレベルごとに6ポイント回復する。\\n\\n[#](8B0000)即時回復[#]()か[#](8B0000)毒[#]()のフラスコから派生させる。
+.flask_instant_damage.intro.title	即時ダメージ
+.flask_instant_damage.name	即時ダメージ
+.flask_instant_health.description	生の生命力の奔流、即座で強力。
+.flask_instant_health.intro.text	[#](8B0000)即時回復[#]()の霊薬は穏やかな軟膏ではない。体を生の生命力で満たし、一瞬でレベルごとに体力を4回復させる。[#](8B0000)アンデッド[#]()に対しては、同じ生命力が忌まわしいものとなり、代わりにレベルごとに4ポイントの害を与える。
+.flask_instant_health.intro.title	即時回復
+.flask_instant_health.name	即時回復
+.flask_invisibility.description	光を曲げて肉体を視界から隠す。
+.flask_invisibility.intro.text	[#](8B0000)透明化[#]()の霊薬は飲んだ者の肉体の周りで光を曲げ、姿を見えなくする。注意: 防具と手に持ったアイテムはかたくなに見えたままだ。宙に浮かぶ剣はとても目立つ。\\n\\n[#](8B0000)暗視[#]()のフラスコから派生させる。
+.flask_invisibility.intro.title	透明化
+.flask_invisibility.name	透明化
+.flask_jump_boost.description	脚にばねをため、人の限界を超えて跳ぶ。
+.flask_jump_boost.intro.text	[#](8B0000)跳躍力上昇[#]()の霊薬は脚に力をため込み、レベルごとにジャンプの高さを50%%上げる。同じ力が着地を和らげ、レベルごとに落下ダメージを1ポイント減らす。
+.flask_jump_boost.intro.title	跳躍力上昇
+.flask_jump_boost.name	跳躍力上昇
+.flask_levitation.description	重力を反転させ、体を空へ送る。
+.flask_levitation.intro.text	[#](8B0000)浮遊[#]()の霊薬は大地の引力を反転させ、飲んだ者をなすすべなく空へ昇らせる。レベルが高いほど上昇が速い。慎重に使うこと。上がったものはいつか必ず下りてくる。\\n\\n[#](8B0000)低速落下[#]()のフラスコから派生させる。
+.flask_levitation.intro.title	浮遊
+.flask_levitation.name	浮遊
+.flask_night_vision.description	どんな闇も見通せるよう目を慣らす。
+.flask_night_vision.intro.text	[#](8B0000)暗視[#]()の霊薬は目をかすかな光のきらめきにも慣らし、暗闇や濁った水を陽の当たる草原のようにはっきり見せる。深く潜る術者には欠かせない相棒だ。
+.flask_night_vision.intro.title	暗視
+.flask_night_vision.name	暗視
+.flask_obsidian_cloak.description	物理的な害を防ぐ火山の硬さのマント。
+.flask_obsidian_cloak.intro.text	[#](8B0000)黒曜石の外套[#]()の霊薬は体を火山の硬さを持つ見えないマントで覆い、魔法以外のダメージをレベルごとに20%%減らす。矢はそれ、刃は滑る。[#](4A0080)秘術の力[#]()だけがこれをすり抜ける。\\n\\nタブラ・ヴィータで[#](8B0000)硬い外套[#]()のフラスコを[#](8B0000)ダイヤモンド[#]()、[#](8B0000)泣く黒曜石[#]()と組み合わせて醸造する。
+.flask_obsidian_cloak.intro.title	黒曜石の外套
+.flask_obsidian_cloak.name	黒曜石の外套
+.flask_passive.description	攻撃性を消し、生き物をおとなしくさせる。
+.flask_passive.intro.text	[#](8B0000)温和[#]()の霊薬は生き物の心から攻撃性を消し去り、おとなしく無害にする。最も獰猛な獣でさえ子羊のようにおとなしくなる。\\n\\n[#](2E8B57)この効果はプレイヤーには効かない。その意志は強すぎて、そう簡単には静められない。[#]()
+.flask_passive.intro.title	温和
+.flask_passive.name	温和
+.flask_poison.description	むしばむが殺しはしない、衰弱の毒。
+.flask_poison.intro.text	[#](8B0000)毒[#]()の霊薬は対象の生命力をむしばむ衰弱の毒をもたらす。それだけで殺すことはできない。犠牲者は弱って無防備なまま、死の入口にとどまり続ける。レベルが高いほど衰えが早い。
+.flask_poison.intro.title	毒
+.flask_poison.name	毒
+.flask_regeneration.description	時間をかけて傷をふさぐ。
+.flask_regeneration.intro.text	[#](8B0000)再生能力[#]()の霊薬は裂けた肉をつなぎ、折れた骨を治し、時間とともに着実に体力を回復させる。レベルが高いほど治りが早く、傷は負うのとほとんど同じ速さでふさがる。
+.flask_regeneration.intro.title	再生能力
+.flask_regeneration.name	再生能力
+.flask_slow_falling.description	重力の手をゆるめ、穏やかに漂わせる。
+.flask_slow_falling.intro.text	[#](8B0000)低速落下[#]()の霊薬は重力の手をゆるめ、飲んだ者を静かな空気の中の羽根のように穏やかに地面へ漂わせる。落下ダメージは完全に無効になる。
+.flask_slow_falling.intro.title	低速落下
+.flask_slow_falling.name	低速落下
+.flask_slowness.description	血を濃くし、手足を鈍らせる。
+.flask_slowness.intro.text	[#](8B0000)移動速度低下[#]()の霊薬は血を濃くして手足を鈍らせ、レベルごとに移動速度を15%%下げる。追っ手を妨げるにも、逃げる獲物を捕らえるにも効果的だ。\\n\\n[#](8B0000)移動速度上昇[#]()か[#](8B0000)跳躍力上昇[#]()のフラスコから派生させる。
+.flask_slowness.intro.title	移動速度低下
+.flask_slowness.name	移動速度低下
+.flask_spectral_sight.description	内なる目を開き、近くのすべての命を感じ取る。
+.flask_spectral_sight.intro.text	[#](8B0000)霊視[#]()の霊薬は[#](4A0080)内なる目[#]()を開き、24ブロック以内のすべての生き物の輪郭を光るシルエットとして映し出す。レベルが上がるごとに知覚の範囲が32ブロックずつ広がる。そんな目から隠れられるものはない。\\n\\n[#](8B0000)暗視[#]()のフラスコから派生させる。
+.flask_spectral_sight.intro.title	霊視
+.flask_spectral_sight.name	霊視
+.flask_speed.description	人の歩みを超えて足取りを速める。
+.flask_speed.intro.text	[#](8B0000)移動速度上昇[#]()の霊薬は飲んだ者の足取りを速め、レベルごとに移動速度を20%%上げる。一服だけでも、慎重な歩みが捕食者の駆け足に変わる。
+.flask_speed.intro.title	移動速度上昇
+.flask_speed.name	移動速度上昇
+.flask_strength.description	体に不自然な力をみなぎらせる。
+.flask_strength.intro.text	[#](8B0000)攻撃力上昇[#]()の霊薬は筋肉を[#](4A0080)エッセンティア・ヴィータ[#]()で満たし、レベルごとに攻撃ダメージを3ポイント上げる。互角だった戦いが、明らかに一方的になる。
+.flask_strength.intro.title	攻撃力上昇
+.flask_strength.name	攻撃力上昇
+.flask_suspended.description	体を重力の支配から切り離す。
+.flask_suspended.intro.text	[#](8B0000)宙づり[#]()の霊薬は飲んだ者と重力のつながりを完全に断つ。ジャンプはできない。落ちることもない。ただ今いる高さにとどまり、世界がガラスでできているかのように見えない平面の上を滑っていく。\\n\\n[#](8B0000)重力[#]()のフラスコから派生させる。
+.flask_suspended.intro.title	宙づり
+.flask_suspended.name	宙づり
+.flask_water_breathing.description	肺に水を支配する力を与える。
+.flask_water_breathing.intro.text	[#](8B0000)水中呼吸[#]()の霊薬は、肺に水そのものから空気を取り込む力を与える。劣った魂なら溺れる深みが、君の領域になる。
+.flask_water_breathing.intro.title	水中呼吸
+.flask_water_breathing.name	水中呼吸
+.flask_weakness.description	筋肉の力を奪い、攻撃を弱々しくする。
+.flask_weakness.intro.text	[#](8B0000)弱体化[#]()の霊薬は筋肉の活力を奪い、レベルごとに攻撃ダメージを4ポイント下げる。これに冒された生き物の一撃は、子どもの力ほどしかない。
+.flask_weakness.intro.title	弱体化
+.flask_weakness.name	弱体化
+.fortune_anointment.description	採掘したブロックからより多くの収穫を引き出す。
+.fortune_anointment.intro.text	[#](8B0000)フォルトゥナの抽出液[#]()は、大地が本来以上のものを差し出すよう促す。この塗膜は幸運のエンチャントと重ねがけでき、実に豊かな収穫をもたらす。\\n\\n対象アイテム: [#](8B0000)#neovitae:anointable/mining[#]()に含まれるもの。\\n\\n付与: 幸運(256ブロック)
+.fortune_anointment.intro.title	フォルトゥナの抽出液
+.fortune_anointment.name	フォルトゥナの抽出液
+.hidden_knowledge_anointment.description	大地から隠れた経験値を引き出す。
+.hidden_knowledge_anointment.intro.text	[#](8B0000)鉱夫の秘訣[#]()は石から隠れた知恵を引き出す。普段から経験値を落とすブロックは、採掘ごとに2ポイント多く落とす。塗膜はこのボーナスの経験値が実際に引き出されたときにだけ消費される。\\n\\n対象アイテム: [#](8B0000)#neovitae:anointable/mining[#]()に含まれるもの。\\n\\n付与: 鉱夫の秘訣(経験値を落とすブロック256個)
+.hidden_knowledge_anointment.intro.title	鉱夫の秘訣
+.hidden_knowledge_anointment.name	鉱夫の秘訣
+.holy_water_anointment.description	清めの光でアンデッドを焼く。
+.holy_water_anointment.intro.text	[#](8B0000)聖水[#]()は不浄なものを焼く。これを塗った刃はアンデッドに追加で5ポイントの焼けつくダメージを与える - 彼らが耐えられない清めの炎だ。\\n\\n対象アイテム: [#](8B0000)#neovitae:anointable/melee[#]()に含まれるもの。\\n\\n付与: 聖なる光(256ヒット)
+.holy_water_anointment.intro.title	聖水
+.holy_water_anointment.name	聖水
+.looting_anointment.description	倒した者からより多くの戦利品を引き出す。
+.looting_anointment.intro.text	[#](8B0000)略奪者のきらめき[#]()は、本来なら隠れたままの戦利品を倒した者から引き出す。この塗膜はドロップ増加のエンチャントと重ねがけできる。\\n\\n対象アイテム: [#](8B0000)#neovitae:anointable/melee[#]()に含まれるもの。\\n\\n付与: 略奪 I(256ヒット)
+.looting_anointment.intro.title	略奪者のきらめき
+.looting_anointment.name	略奪者のきらめき
+.melee_anointment.description	刃を必殺の鋭さに研ぐ。
+.melee_anointment.intro.text	[#](8B0000)研ぎ油[#]()は触れたあらゆる刃を必殺の鋭さに研ぎ、一撃ごとに近接ダメージを3ポイント加える。\\n\\n対象アイテム: [#](8B0000)#neovitae:anointable/melee[#]()に含まれるもの。\\n\\n付与: 砥石 I(256ヒット)
+.melee_anointment.intro.title	研ぎ油
+.melee_anointment.name	研ぎ油
+.name	タブラ・ヴィータ
+.potion_crafting.advanced_intro.text	今の醸造で足りなくなったら、答えはより深い素材にある。[#](8B0000)グロウベリー[#]()、[#](8B0000)深層岩の丸石[#]()、そしていくらかの[#](8B0000)獄炎鍛造の砂[#]()があれば、はるかに強力な触媒を鍛え、持続時間と強さの両方をかつての限界のはるか先まで押し上げられる。
+.potion_crafting.advanced_intro.title	高度な触媒作用
+.potion_crafting.avg_lengthening.text	[#](8B0000)並の延長触媒[#]()はタブラ・ヴィータで醸造する(レシピ: neovitae:alchemytable/average_lengthening)。一番上の効果の持続時間を、わずか3:00から驚異の21:20まで延ばす。8回分で、まさに途方もない長さの力が続く。
+.potion_crafting.avg_lengthening.title	並の延長触媒
+.potion_crafting.avg_power.text	[#](8B0000)並の増強触媒[#]()はタブラ・ヴィータで醸造する(レシピ: neovitae:alchemytable/average_power)。下位版を凝縮して精製したもので、効果を[#](B8860B)レベルIII[#]()の強さまで引き上げるが、持続時間は1回あたりわずか45秒に縮む。壊滅的だが、はかない。
+.potion_crafting.avg_power.title	並の増強触媒
+.potion_crafting.catalysts_intro.text	フラスコ醸造の術の中心にあるのが[#](8B0000)触媒[#]() - 霊薬を形作り増幅する試薬だ。まずは次の3つから始めよう: [#](8B0000)単純な触媒[#]()、[#](8B0000)平凡な増強触媒[#]()、[#](8B0000)平凡な延長触媒[#]()。1つ目は、[#](8B0000)ネザーウォート[#]()が普通のポーションの土台になるのと同じように、ほぼすべての錬金術の醸造の基礎になる。
+.potion_crafting.combinational_catalyst.text	[#](8B0000)組み合わせ触媒[#]()はタブラ・ヴィータで醸造する(レシピ: neovitae:alchemytable/combinational)。これは[#](4A0080)合成[#]()の試薬で、フラスコ内の既存の2つの効果を融合してまったく新しい効果にする。[#](8B0000)宙づり[#]()と[#](8B0000)浮遊[#]()の両方を持つフラスコをこの触媒で処理すると、念願の[#](8B0000)飛行[#]()の霊薬ができる。
+.potion_crafting.combinational_catalyst.title	組み合わせ触媒
+.potion_crafting.cycling_catalyst.text	[#](8B0000)循環触媒[#]()はタブラ・ヴィータで醸造する(レシピ: neovitae:alchemytable/cycling_catalyst)。フラスコ内に重ねた効果の順番を回し、別の効果を一番上に持ってくる。これにより、後から使う触媒や薬剤の対象になる効果が変わる。
+.potion_crafting.cycling_catalyst.title	循環触媒
+.potion_crafting.description	フラスコ醸造、触媒、効果の重ねがけ。
+.potion_crafting.effects.text	器はどれほど立派でも、満たすものがなければ無意味だ。\\n\\nおなじみの霊薬 - [#](8B0000)水中呼吸[#]()、[#](8B0000)再生能力[#]()、[#](8B0000)暗視[#]() - のほかに、この術にはもっと奇妙な醸造もある: [#](8B0000)飛行[#]()、[#](8B0000)黒曜石の外套[#]()、さらには[#](8B0000)温和[#]()まで。それぞれ次のページ以降で解説する。
+.potion_crafting.filling_agent.text	[#](8B0000)弱い充填剤[#]()はタブラ・ヴィータで醸造する(レシピ: neovitae:alchemytable/weak_filling)。一部を飲んだフラスコを満たし直すが、代償がある: 補充後に残るのは一番上の効果だけで、ほかはすべて失われる。\\n\\n[#](2E8B57)奥の効果を残したいなら、先に循環触媒でフラスコの順番を並べ替えること。[#]()
+.potion_crafting.filling_agent.title	弱い充填剤
+.potion_crafting.flask.text	[#](8B0000)錬金フラスコ[#]()は[#](8B0000)アラ・ヴィータ[#]()で鍛える(レシピ: neovitae:ara_vitae/alchemy_flask)。どんな普通の瓶よりはるかに丈夫で大きく、満たした霊薬を8回分入れられる。まさにこの術にふさわしい器だ。
+.potion_crafting.flask.title	錬金フラスコ
+.potion_crafting.intro.text	ポーション醸造はありふれた術だ。大釜を持つ野良魔女なら誰でも、ネザーウォートを煮て使える程度の薬液を作れる。だが[#](4A0080)ヴィータ術師[#]()は使える程度では満足しない。\\n\\n[#](4A0080)エッセンティア・ヴィータ[#]()を醸造に織り込むことで、従来の錬金術の粗い限界を完全に超えられる。
+.potion_crafting.intro.title	錬金術師の技
+.potion_crafting.intro2.text	巧みな[#](4A0080)ヴィータ術[#]()によって、君は普通のガラスに、瓶が本来持てるよりはるかに大きな容量を与えるすべを身につけた。さらに驚くべきことに、専用の[#](8B0000)触媒[#]()を使えば、1つのフラスコに複数の効果を混ざり合ったり打ち消し合ったりさせずに重ねられる。\\n\\nその結果が、名に恥じない霊薬だ。
+.potion_crafting.lengthening_catalyst.text	[#](8B0000)平凡な延長触媒[#]()はタブラ・ヴィータで醸造する(レシピ: neovitae:alchemytable/mundane_lengthening)。普通のポーションに[#](8B0000)レッドストーン[#]()を使うのと同じように、フラスコ内の一番上の効果の持続時間を延ばす。\\n\\n増強触媒と同じく、一番上の効果がそれ以上延ばせない場合は、その下の次に対象となる効果を探す。
+.potion_crafting.lengthening_catalyst.title	平凡な延長触媒
+.potion_crafting.multi_effects.text	1つのフラスコに複数の効果を重ねるのは、実に簡単だ。最初の霊薬を醸造したら、できたフラスコを空のフラスコの代わりに使って2回目の醸造をする。\\n\\n例えば、[#](8B0000)跳ね返り[#]()のフラスコを醸造してから、そのフラスコを[#](8B0000)暗視[#]()のレシピの土台に使う。結果: 一口ごとに[#](8B0000)跳ね返り[#]()と[#](8B0000)暗視[#]()の両方を授ける8回分のフラスコができる。
+.potion_crafting.name	錬金術師の技
+.potion_crafting.power_catalyst.text	[#](8B0000)平凡な増強触媒[#]()はタブラ・ヴィータで醸造する(レシピ: neovitae:alchemytable/mundane_power)。持続時間を縮める代わりにフラスコ内の一番上の効果を強める。普通のポーションでの[#](8B0000)グロウストーン[#]()の働きに相当する。\\n\\n一番上の効果がそれ以上強まらない場合、触媒はさらに奥へ届き、次に対象となる効果を順に強める。
+.potion_crafting.power_catalyst.title	平凡な増強触媒
+.potion_crafting.refill.text	フラスコを最後の一滴まで飲み干したら、水ですすぐだけで次の調合のための新しい器になる。[#](2E8B57)補充のレシピはJEIで確認しよう。[#]()
+.potion_crafting.simple_catalyst.text	[#](8B0000)単純な触媒[#]()はタブラ・ヴィータで醸造する(レシピ: neovitae:alchemytable/simple_catalyst)。ほぼすべてのフラスコのレシピの錬金術的な土台になる。[#](2E8B57)たくさん用意しておこう。絶え間なく消費することになる。[#]()
+.potion_crafting.simple_catalyst.title	単純な触媒
+.potion_crafting.splash_linger.text	すべての霊薬を飲む必要はない。フラスコは投げる形に変えられる:\\n\\n[#](8B0000)スプラッシュ錬金フラスコ[#]()(レシピ: neovitae:flask/flask_splash)\n[#](8B0000)残留する錬金フラスコ[#]()(レシピ: neovitae:flask/flask_lingering)\\n\\n[#](8B0000)残留するフラスコ[#]()は[#](8B0000)アタノール[#]()で8本の[#](8B0000)アメジストの投げナイフ[#]()と組み合わせると、[#](8B0000)効果付きのアメジストの投げナイフ[#]()になる。このナイフが当たった生き物は、命中時にフラスコの効果を受ける。
+.potion_crafting.strengthened_catalyst.text	[#](8B0000)強化触媒[#]()はタブラ・ヴィータで醸造する(レシピ: neovitae:alchemytable/strengthened_catalyst)。精製された錬金術の基材で、すべての上位の触媒の土台になる。
+.potion_crafting.strengthened_catalyst.title	強化触媒
+.quick_draw_anointment.description	遠距離武器を引く速さを上げる。
+.quick_draw_anointment.intro.text	[#](8B0000)器用さのアルカヘスト[#]()は遠距離武器の機構と弓腕をほぐし、引く時間を33%%短くする。戦いのさなかでは、そのわずかな一瞬が生死を分ける。\\n\\n対象アイテム: [#](8B0000)#neovitae:anointable/bows[#]()に含まれるもの。\\n\\n付与: 早撃ち I(256射)
+.quick_draw_anointment.intro.title	器用さのアルカヘスト
+.quick_draw_anointment.name	器用さのアルカヘスト
+.silk_touch_anointment.description	採掘したブロックをそのままの形で保つ。
+.silk_touch_anointment.intro.text	[#](8B0000)柔らかな握り[#]()は道具の刃を保護膜で包み、ブロックを砕かずにそのまま採掘できるようにする。シルクタッチのエンチャントとは重ねがけできない。\\n\\n対象アイテム: [#](8B0000)#neovitae:anointable/mining[#]()に含まれるもの。\\n\\n付与: 優しい手つき I(256ブロック)
+.silk_touch_anointment.intro.title	柔らかな握り
+.silk_touch_anointment.name	柔らかな握り
+.smelting_anointment.description	残った熱で、触れたブロックを精錬する。
+.smelting_anointment.intro.text	[#](8B0000)ゆっくり燃える油[#]()は道具にくすぶる熱を宿し、壊した瞬間にブロックを精錬する。鉱石が一振りでインゴットになる。\\n\\n対象アイテム: [#](8B0000)#neovitae:anointable/mining[#]()に含まれるもの。\\n\\n付与: 熱した道具 I(256ブロック)
+.smelting_anointment.intro.title	ゆっくり燃える油
+.smelting_anointment.name	ゆっくり燃える油
+.tabula_vitae.crafting.text	[#](2E8B57)このページやJEIでレシピを調べるときは、EVの表示が付いた矢印にカーソルを合わせると、消費コスト、クラフト時間、必要なティアが表示される。[#]()
+.tabula_vitae.description	アニマのEVを燃料にする変成の作業台。
+.tabula_vitae.errors.text	台が動かないときは、原因はほぼ間違いなく次のどれかだ:\n\n- [#](8B0000)オーブのエラー[#](): [#](8B0000)ヴィータのオーブ[#]()がない、またはオーブの[#](B8860B)ティア[#]()が試そうとしているレシピに足りない。\n\n- [#](8B0000)アニマのエラー[#](): オーブは十分だが君に結びついていない(右クリックで結びつける)、または君の[#](4A0080)アニマ[#]()に変成をまかなうだけの[#](4A0080)エッセンティア・ヴィータ[#]()がない。\\n\\n次のページ以降に、タブラ・ヴィータで使える基本的なレシピをいくつか載せている。
+.tabula_vitae.errors.title	よくある失敗
+.tabula_vitae.intro.text	[#](8B0000)タブラ・ヴィータ[#]()は変成の作業台で、君の[#](4A0080)アニマ[#]()から[#](4A0080)エッセンティア・ヴィータ[#]()を引き出して物質そのものを作り変える。どの[#](4A0080)アニマ[#]()から引き出すか、どの[#](B8860B)ティア[#]()のレシピが使えるかは、右側のスロットにはめた[#](8B0000)ヴィータのオーブ[#]()で決まる。\\n\\nこの道具によって、ヴィータ術師はありふれた素材を、術に欠かせない試薬、触媒、部品へと変成させる。
+.tabula_vitae.intro.title	タブラ・ヴィータ
+.tabula_vitae.name	タブラ・ヴィータ
+.tabula_vitae.recipes1.text	最も単純な変成にも使い道はある。タブラ・ヴィータで作れるもの:\n\n- 不毛の土から[#](8B0000)草ブロック[#]()\n\n- 腐った肉を清めた[#](8B0000)革[#]()\n\n- 生の穀物から[#](8B0000)パン[#]()\n\n- 砂から引き出した[#](8B0000)粘土[#]()\n\n- [#](8B0000)糸[#]()と[#](8B0000)クモの巣[#]()
+.tabula_vitae.recipes1.title	ありふれた変成
+.tabula_vitae.recipes2.text	腕が上がるにつれ、台の作れるものも増える:\n\n- 小麦、ニンジン、ジャガイモ、ビートルートから抽出した[#](8B0000)植物油[#]()\n\n- [#](8B0000)石炭の砂[#]()と[#](8B0000)爆発性の粉[#]()\n\n- 砂利から引き出した[#](8B0000)火打石[#]()\n\n- [#](8B0000)硝石[#]()と[#](8B0000)火薬[#]()
+.tabula_vitae.recipes2.title	さらなる変成
+.tabula_vitae.sigil_recipes.text	抜け目のないヴィータ術師は、タブラ・ヴィータに[#](8B0000)溶岩の印章[#]()か[#](8B0000)水の印章[#]()を置いて、印章を消費せずに[#](8B0000)溶岩入りバケツ[#]()や[#](8B0000)水入りバケツ[#]()を作り出せる。さらに[#](8B0000)水の印章[#]()は、台が受け付けるどのレシピでも[#](8B0000)水入りバケツ[#]()の代わりに使える。井戸へ何度も通わずに済む、ちょっとした便利さだ。
+.voiding_anointment.description	価値のないブロックを忘却へ送る。
+.voiding_anointment.intro.text	[#](8B0000)消去のエッセンス[#]()は価値のない素材を壊した瞬間に忘却へ送る。石、土、ネザーラックなどのありふれたがらくたが、ただ消え去る。\\n\\n対象アイテム: [#](8B0000)#neovitae:anointable/mining[#]()に含まれるもの。\\n\\n付与: 消去 I(256ブロック)
+.voiding_anointment.intro.title	消去のエッセンス
+.voiding_anointment.name	消去のエッセンス
+.weapon_repair_anointment.description	一振りごとに道具を修繕する。
+.weapon_repair_anointment.intro.text	[#](8B0000)修繕の香油[#]()は働きながら修繕する。塗った武器を振るたびに状態が少しずつ回復し、愛用の道具が本来よりはるかに長く持つ。\\n\\nどの武器や弓にも塗れる。
+.weapon_repair_anointment.intro.title	修繕の香油
+.weapon_repair_anointment.name	修繕の香油

@@ -1,0 +1,289 @@
+## neovitae
+@ item.neovitae.
+.spiritus_gem_common	並のスピリトゥスジェム
+.spiritus_gem_grand	大スピリトゥスジェム
+.spiritus_gem_greater	上級スピリトゥスジェム
+.spiritus_gem_lesser	下級スピリトゥスジェム
+.spiritus_gem_petty	小さなスピリトゥスジェム
+.spiritus_invictus_catalyst	スピリトゥス・インウィクトゥスの触媒
+.spiritus_invictus_shard	スピリトゥス・インウィクトゥスの結晶
+.spiritus_nihilum_catalyst	スピリトゥス・ニヒルムの触媒
+.spiritus_nihilum_shard	スピリトゥス・ニヒルムの結晶
+.spiritus_ruina_catalyst	スピリトゥス・ルイナの触媒
+.spiritus_ruina_shard	スピリトゥス・ルイナの結晶
+.spiritus_vindicta_catalyst	スピリトゥス・ウィンディクタの触媒
+.spiritus_vindicta_shard	スピリトゥス・ウィンディクタの結晶
+.standard_filling_agent	標準の充填剤
+.standard_key	標準のダンジョンの鍵
+.strengthened_catalyst	強化触媒
+.sulfur	硫黄
+.tabula_aetherea	タブラ・アエテレア
+.tabula_ampoule	タブラのアンプル
+.tabula_animata	タブラ・アニマタ
+.tabula_rasa	タブラ・ラサ
+.tabula_robur	タブラ・ロブル
+.tabula_spiritus	タブラ・スピリトゥス
+.tabula_vial	タブラの小瓶
+.tainted_flesh	汚れた肉
+.tau_oil	タウ油
+.teleposer_focus	テレポーザーの焦点具
+.tenebrae_scribe_tool	刻印具: テネブラエ
+.throwing_dagger	投げナイフ
+.throwing_dagger_syringe	注射器の投げナイフ
+.tipped_throwing_dagger	効能付きの投げナイフ
+.training_bracelet	意志ある訓練の腕輪
+.upgrade_tome	アップグレードの書
+.upgrade_tome.arrow_protect	アップグレードの書(針山)
+.upgrade_tome.battle_hungry	アップグレードの書(戦いに飢えて)
+.upgrade_tome.crippled_arm	アップグレードの書(不自由な腕)
+.upgrade_tome.curios_socket	アップグレードの書(Curios枠)
+.upgrade_tome.dig_slowdown	アップグレードの書(鉛のツルハシ)
+.upgrade_tome.digging	アップグレードの書(ドワーフの力)
+.upgrade_tome.elytra	アップグレードの書(エリトラ)
+.upgrade_tome.experienced	アップグレードの書(熟練)
+.upgrade_tome.fall_protect	アップグレードの書(軟着地)
+.upgrade_tome.fire_resist	アップグレードの書(イグニスの加護)
+.upgrade_tome.gilded	アップグレードの書(金めっき)
+.upgrade_tome.health	アップグレードの書(健康)
+.upgrade_tome.jump	アップグレードの書(強靭な脚)
+.upgrade_tome.knockback_resist	アップグレードの書(筋肉自慢)
+.upgrade_tome.luck	アップグレードの書(器用)
+.upgrade_tome.melee_damage	アップグレードの書(激しい一撃)
+.upgrade_tome.melee_decrease	アップグレードの書(なまくら刃)
+.upgrade_tome.netherite_protect	アップグレードの書(輝き)
+.upgrade_tome.physical_protect	アップグレードの書(頑強)
+.upgrade_tome.poison_resist	アップグレードの書(毒耐性)
+.upgrade_tome.quenched	アップグレードの書(渇きの消失)
+.upgrade_tome.repair	アップグレードの書(修復)
+.upgrade_tome.self_sacrifice	アップグレードの書(硬い手のひら)
+.upgrade_tome.slow_heal	アップグレードの書(病)
+.upgrade_tome.speed	アップグレードの書(俊足)
+.upgrade_tome.speed_decrease	アップグレードの書(足の引きずり)
+.upgrade_tome.sprint_attack	アップグレードの書(突進攻撃)
+.upgrade_tome.storm_trooper	アップグレードの書(ノーコン兵)
+.upgrade_tome.swim_decrease	アップグレードの書(コンクリートの靴)
+.venomgland_sac	毒腺の袋
+.vitae_morsel	ヴィータのひと口
+.voiding_anointment	消去のエッセンス
+.voiding_anointment_l	消去のエッセンス L
+.voiding_anointment_xl	消去のエッセンス XL
+.water_scribe_tool	刻印具: 水
+.weak_blood_shard	弱い血のかけら
+.weak_filling_agent	弱い充填剤
+.weapon_repair_anointment	修繕の香油
+.weapon_repair_anointment_2	修繕の香油 II
+.weapon_repair_anointment_3	修繕の香油 III
+.weapon_repair_anointment_l	修繕の香油 L
+.weapon_repair_anointment_xl	修繕の香油 XL
+item_group.neovitae.main	Neo Vitae
+item_group.neovitae.tomes	Neo Vitae アップグレードの書
+item_group.neovitae.trainers	Neo Vitae 訓練の書
+@ jade.neovitae.
+.altar_tier	ティア%s
+.array_accel	加速: %s
+.array_effect.bounce	跳躍の陣
+.array_effect.day	夜明けの陣
+.array_effect.elevator	昇降の陣
+.array_effect.generic	錬金陣
+.array_effect.movement	移動の陣
+.array_effect.night	日暮れの陣
+.array_effect.spike	トゲの陣
+.array_effect.undertow	引き波の陣
+.array_effect.updraft	上昇気流の陣
+.array_max_vel	最高速度: %s
+.crafting	クラフト中…
+.inactive	停止中
+.incense_bonus	香のボーナス: +%s%%
+.light_color	色: %s
+.orb_link.linked	連結済み
+.orb_link.network	ネットワーク: %s%%
+.orb_link.unlinked	未連結
+.progress	進行度: %s%%
+.tank_ev	%s / %s mB
+.tranquility	静けさ: %s
+.vitae_link.crafting	クラフト中…
+.vitae_link.tier	クラフトのティア: %s / %s
+.vitae_link.unlinked	未連結
+@ jei.neovitae.
+.athanor.mb	%s mB
+.athanor.spiritus_requirement	%s %sのスピリトゥスが必要
+.disenchant.any_item	エンチャントされた任意のアイテム
+.disenchant.ev	エッセンティア・ヴィータ100 mB
+.disenchant.info	アタノールの道具スロットに血の復元具を入れると、アイテムのエンチャントを外せる。\n\n入力に本のスタックと、エンチャントされたアイテム(装備、道具、エンチャントの本)を1つ置く。1回の処理でエンチャントを1つ本に移してアイテムから取り除く。コストは未加工のスピリトゥス5とエッセンティア・ヴィータ100 mB。\n\nアイテムにエンチャントが残っていなければ出力に移る。埋められる本があり、出力に空きがある間だけ動く。
+.disenchant.per_enchant	エンチャント1つあたり:
+.disenchant.spiritus	未加工のスピリトゥス5
+.effect.binding.desc	アイテムを所有者の魂のネットワークに結びつける
+.effect.binding.name	束縛の陣
+.effect.bounce.desc	エンティティを空高く跳ね上げる
+.effect.bounce.name	跳躍の陣
+.effect.collection.desc	近くのアイテムを陣の中心に引き寄せる
+.effect.collection.name	収集の陣
+.effect.crafting.desc	アイテムを新しい形に変える
+.effect.crafting.name	クラフトの陣
+.effect.day.desc	時刻を夜明けにする
+.effect.day.name	日の出の陣
+.effect.deflection.desc	上の柱状の範囲を通る投射物を跳ね返す
+.effect.deflection.name	そらしの陣
+.effect.elevator.desc	上下に並んだ陣へテレポートする
+.effect.elevator.name	転移の陣
+.effect.endless_fountain.desc	数tickごとに隣接する液体タンクを水で満たす
+.effect.endless_fountain.name	尽きぬ泉の陣
+.effect.freeze.desc	水を氷に変え、雪を積もらせる
+.effect.freeze.name	凍結の陣
+.effect.furnace.desc	近くの地面に落ちたアイテムを精錬する
+.effect.furnace.name	かまどの陣
+.effect.growth.desc	狭い範囲で作物の成長を早める
+.effect.growth.name	成長の陣
+.effect.imprisonment.desc	モブスポナーの上に置く。11x11x11以内で次にモブを倒すと、スポナーがそのモブに切り替わり、陣は消費される
+.effect.imprisonment.name	幽閉の陣
+.effect.light.desc	たいまつを置かずに周囲を照らす
+.effect.light.name	光の陣
+.effect.loyal_friends.desc	飼いならした仲間を呼び出し、復活させる
+.effect.loyal_friends.name	忠実な友の陣
+.effect.movement.desc	エンティティをある方向に加速させる
+.effect.movement.name	移動の陣
+.effect.night.desc	時刻を夜にする
+.effect.night.name	月の出の陣
+.effect.rain.desc	雨の有無を切り替える。起動にEVがかかる。
+.effect.rain.name	嵐の陣
+.effect.repulsion.desc	敵対モブを陣から押しのける
+.effect.repulsion.name	反発の陣
+.effect.signal.desc	所有者のEVに比例したレッドストーン信号を出す
+.effect.signal.name	信号の陣
+.effect.spike.desc	エンティティを傷つけるトゲを生やす
+.effect.spike.name	トゲの陣
+.effect.spirit_siphon.desc	モブにダメージを与え、チャンクに未加工のスピリトゥスを放出する
+.effect.spirit_siphon.name	霊吸いの陣
+.effect.trigger.desc	エンティティが踏むとレッドストーンのパルスを出す
+.effect.trigger.name	引き金の陣
+.effect.undertow.desc	水中に泡の柱を作る。右クリックで向きを反転
+.effect.undertow.name	引き波の陣
+.effect.updraft.desc	上向きの突風を起こす
+.effect.updraft.name	上昇気流の陣
+.effect.vortex.desc	近くのエンティティを陣に引き寄せ、エンダーマンのテレポートを防ぐ
+.effect.vortex.name	渦の陣
+.orb.info	ヴィータのオーブには3つの使い方がある:\n\nメインハンド: 右クリックでハート1つを捧げ、200 EVを自分のアニマに注ぐ。\n\nオフハンド(盾): 使用キーを押し続けると血の守りを掲げ、正面からの遠距離攻撃を防ぐ。近接攻撃は防げず、トライデントや投げナイフは壊れずに守りの前に落ちる。維持には毎秒50 EVかかる。起動には少なくとも200 EVが必要。\n\nオフハンド(収穫): オフハンドにオーブを持って生き物を倒すと、オーブ内部の貯蔵がエッセンティア・ヴィータで満たされる(最大体力1ポイントにつき10 EV)。オーブをアラ・ヴィータに置くと、貯蔵分を10倍の速さで水盤に流し込む。\n\n内部タンクが満タンになると、オーブがエンチャントの輝きを放つ。
+.recipe.altar	アラ・ヴィータ
+.recipe.arc	アタノール
+.recipe.array_crafting	陣のクラフト
+.recipe.array_effects	陣の効果
+.recipe.athanor.chance	確率: %s%%
+.recipe.athanor.spiritus_cost	スピリトゥスのコスト:
+.recipe.blood_tank_upgrade	血のタンクの強化
+.recipe.componentTransfer	コンポーネントを保持
+.recipe.consumptionrate	消費速度: %s EV/t
+.recipe.disenchant	エンチャント解除
+.recipe.drainrate	吸収速度: %s EV/t
+.recipe.flask	フラスコの醸造
+.recipe.flask_combination	フラスコの組み合わせ
+.recipe.hellfire_forge	獄炎の炉
+.recipe.hellfire_forge_upgrade	獄炎の炉での強化
+.recipe.imperfect_ritual	不完全な儀式
+.recipe.info	カーソルを合わせると情報を表示
+.recipe.lp	EV
+.recipe.lpDrained	吸収したEV: %s
+.recipe.meteor	隕石の儀式
+.recipe.meteor.estimate	推定: %sブロック(約%s%%)
+.recipe.meteor.fill	詰めるブロック
+.recipe.meteor.weight	重み: %s
+.recipe.minimum_spiritus	最低限のスピリトゥス: %s
+.recipe.requiredlp	必要なエッセンティア・ヴィータ: %s
+.recipe.requiredtier	必要なティア: %s
+.recipe.ritual	儀式
+.recipe.ritual.activation	起動コスト:
+.recipe.ritual.crystal.awakened	ティア: 覚醒
+.recipe.ritual.crystal.creative	ティア: クリエイティブ
+.recipe.ritual.crystal.weak	ティア: 弱い
+.recipe.ritual.refresh	更新コスト:
+.recipe.ritual.total_runes	ルーンの合計: %s
+.recipe.spiritus	スピリトゥス
+.recipe.spiritus_drained	吸収したスピリトゥス: %s
+.recipe.tabulavitae	タブラ・ヴィータ
+.recipe.ticksRequired	tick数: %s
+.recipe.upgrade_hint	耐久値のあるアイテムなら何でも血の修繕付きに変えられる
+jukebox_song.neovitae.blood_sweat_and_tears	Saereth - Blood, Sweat & Tears
+@ key.neovitae.
+.blood_shield	血の盾(ヴィータのオーブ)
+.edit_hud	HUDの配置を編集
+.lex_beam	レクス・ヴィータ: ビームを撃つ
+.lex_mode	レクス・ヴィータ: モード切り替え
+menu.neovitae.athanor	アタノール
+menu.neovitae.teleposer	テレポーザー
+@ message.neovitae.
+.altar_draws_blood	祭壇が必要な血を吸い上げる…
+.blood_light.brightness	血の光: 明るさ%s
+.blood_light.redstone_off	レッドストーン制御: 無効
+.blood_light.redstone_on	レッドストーン制御: 有効
+.divination.altar_stats_header	===== 祭壇の診断 =====
+.dungeon_seal.debug.header	===== ダンジョンの封印のデバッグ =====
+.dungeon_seal.debug.synth_null	この封印には稼働中の合成器がない
+.dungeon_seal.foreman_not_found	現場監督が見つからなかった
+.dungeon_seal.placements_since_special	前回の特殊配置からの配置数: %s
+.dungeon_seal.seals_none	登録された封印がない
+.dungeon_seal.special_buffer.empty	特殊バッファ: 空
+.dungeon_seal.special_buffer.label	特殊バッファ(%s):
+.dungeon_tester.failed	テスト用ダンジョンを生成できなかった
+.dungeon_tester.generated	テスト用ダンジョンを%sに生成した
+.lex_vitae.radius	レクス・ヴィータの採掘範囲: %sx%s
+.materials.generated	[Neo Vitae] 新しい鉱石素材を検出して設定に追加した。
+.materials.restart_required	[Neo Vitae] 新しい素材アイテムを表示するにはゲームの再起動が必要。
+.sigil.blood_light.brightness	印章の明るさ: %s
+.too_far_from_altar	アラ・ヴィータから離れすぎている
+.vitae_link.locked	クラフト中はティアを変更できない
+.vitae_link.tier	クラフトのティア: %s / %s
+pack.neovitae.materials	NeoVitae 生成素材
+@ ritual.neovitae.
+.activation.insufficient	この儀式を起動するエッセンティア・ヴィータが足りない。
+.armour_evolve	意志ある進化の儀式
+=Stand on the master stone in Sentient Armor; each activation adds 100 Upgrade Points of capacity, up to a maximum of 500.	意志ある防具を着てマスター石の上に立つ。起動するたびに強化ポイントの容量が100増え、最大500まで。
+.blockRange.noRange	そのキーの範囲がない。
+.blockRange.tooBig	範囲の体積が上限の%dブロックを超えている。
+.blockRange.tooFar	範囲が上限を超えて広がっている(垂直: %d、水平: %d)。
+.butchering	屠殺の儀式
+=Slaughters adult animals in range and gathers their drops into an adjacent chest, always leaving enough of each species alive to keep breeding. Set how many of each to spare with the Ritual Configurator.	範囲内の大人の動物を屠り、ドロップを隣のチェストに集める。繁殖を続けられるよう、各種は常に十分な数だけ生かしておく。何頭残すかは儀式の設定装置で決める。
+.condor	大空を舞う
+=Bestows true flight upon every practitioner within the circle. Tenebrae-tier.	円内のすべての術者に真の飛行を授ける。テネブラエ級。
+.containment	封じ込めの儀式
+=Pushes any creature trying to leave the area back toward the center; an invisible cage.	範囲から出ようとする生き物を中心へ押し戻す。見えない檻。
+.crafting	打ち鳴らす金床の律動
+=Automates crafting through an adjacent inventory. Spiritus Invictus routes through a Hellfire Forge, Spiritus Ruina through a Tabula Vitae. Tenebrae-tier.	隣接するインベントリを通してクラフトを自動化する。スピリトゥス・インウィクトゥスでは獄炎の炉、スピリトゥス・ルイナではタブラ・ヴィータを経由する。テネブラエ級。
+.crafting.spiritus.invictus	スピリトゥス・インウィクトゥス: まず獄炎の炉のレシピを試し、合うものがなければバニラのクラフトにする。
+.crafting.spiritus.ruina	スピリトゥス・ルイナ: まずタブラ・ヴィータのレシピを試し、合うものがなければバニラのクラフトにする。
+.crystalLevel.insufficient	結晶のティアが低すぎてこの儀式を起動できない。
+.crystallum_fractura	クリスタッルム・フラクトゥラ
+.crystallum_fractura.aspect_effect	成長のオーラが注ぐスピリトゥスを、選んだアスペクトの結晶に偏らせる。未加工ならオーラは偏らない。
+=Auto-harvests Spiritus Crystal clusters in range, doubles their growth speed, and biases the chunk's aspect via the Ritual Configurator.	範囲内のスピリトゥスの結晶群を自動で収穫し、成長速度を2倍にする。儀式の設定装置でチャンクのアスペクトを偏らせる。
+.downgrade	意志ある抽出
+=Throw a piece of Sentient Armor onto the small zone above the master stone; the ritual extracts every upgrade as a separate Upgrade Tome.	マスター石の上の狭い範囲に意志ある防具を1つ投げ入れる。儀式がすべての強化をそれぞれ別のアップグレードの書として取り出す。
+.dungeon.no_space	空間が足りない: マスター儀式石の周りの%sx%sx%sの範囲を空けること。
+.expulsion	追放の儀式
+=Drives every creature outward from the ritual center.	すべての生き物を儀式の中心から外へ追い払う。
+.feathered_knife	自ら捧げる者の儀式
+=Wounds the practitioner standing on the master stone, converting their health into EV for the altar.	マスター石の上に立つ術者を傷つけ、その体力を祭壇用のEVに変える。
+.felling	倒れた木々の儀式
+=Fells every tree in range and drops the logs into an adjacent chest.	範囲内のすべての木を切り倒し、原木を隣のチェストに入れる。
+.forsaken_soul	失われた魂の儀式
+=Watches the 21x21x21 area for non-player mob deaths and drops a charged Raw Spiritus item at each death position.	21x21x21の範囲でプレイヤー以外のモブの死を見張り、死んだ場所ごとにチャージされた未加工のスピリトゥスを落とす。
+.full_stomach	満ち足りた胃袋の儀式
+=Feeds every practitioner in range from food stored in an adjacent chest.	隣のチェストに入れた食料で、範囲内のすべての術者に食事をさせる。
+.green_grove	繁茂の儀式
+=Suffuses the earth with life; bonemeals nearby crops and saplings. Spiritus aspects extend it to farmland hydration, Plant Leech, or scaled chance.	大地を生命で満たし、近くの作物や苗木に骨粉を与える。スピリトゥスのアスペクトによって、耕地への給水、植物吸収、確率の上昇にも広がる。
+.green_grove.spiritus.invictus	スピリトゥス・インウィクトゥス: 近くの耕地を十分に湿らせる。
+.green_grove.spiritus.raw	未加工のスピリトゥス: 更新の頻度を上げる(未加工が増えるにつれ20tickから10tickに)。
+.green_grove.spiritus.ruina	スピリトゥス・ルイナ: 近くのモブに植物吸収を与える。
+.green_grove.spiritus.vindicta	スピリトゥス・ウィンディクタ: 成長の成功率を最大100%%まで上げる。
+.grounding	罪人の重荷
+=Imposes heavy gravity within the area; entities that try to fly are dragged back to the earth. Spiritus aspects shift between Heavy Heart, Suspended, and Levitation effects.	範囲内に強い重力をかけ、飛ぼうとするエンティティを地面に引き戻す。スピリトゥスのアスペクトによって、重い心、宙づり、浮遊の効果に切り替わる。
+.harvest	収穫の儀式
+=Reaps every mature crop in range and replants the seeds. Place a chest atop the Master Ritual Stone to collect the yield; otherwise it drops where it grew.	範囲内の実った作物をすべて刈り取り、種を植え直す。収穫物を集めるにはマスター儀式石の上にチェストを置く。置かなければ育った場所に落ちる。
+.imperfect.night	昼を夜に
+.imperfect.night.desc	昼を夜にする
+.imperfect.rain	雨を降らせよ
+.imperfect.rain.desc	雷雨を呼ぶ
+.imperfect.resistance	火炎耐性
+.imperfect.resistance.desc	火炎耐性IIを与える
+.imperfect.zombie	強いゾンビ
+.imperfect.zombie.desc	強化されたゾンビを出す
+.lava	ネザーのセレナーデ
+=Places lava source blocks within the area.	範囲内に溶岩源を置く。
+.magnetism	果てなき採石場

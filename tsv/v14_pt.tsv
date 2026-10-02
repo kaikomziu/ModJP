@@ -1,0 +1,43 @@
+## productivetrees
+block.productivetrees.maple_sap	カエデの樹液
+=Pollen Sifter	花粉ふるい機
+block.productivetrees.pollinated_leaves	受粉した葉
+block.productivetrees.red_delicious_apple_crate	レッドデリシャスリンゴの木箱
+=Sawmill	製材機
+=Stripper	樹皮剥ぎ機
+block.productivetrees.time_traveller_display	時間旅行者の展示台
+block.productivetrees.wood_worker	木工台
+entity.productivebees.allergy_bee	アレルギーバチ
+item.productivetrees.cork	コルク
+item.productivetrees.cured_rubber	加硫ゴム
+item.productivetrees.date_palm_juice	ナツメヤシの樹液ジュース
+item.productivetrees.dracaena_sap	リュウケツジュの樹液
+item.productivetrees.fustic	ファスティック
+item.productivetrees.haematoxylin	ヘマトキシリン
+item.productivetrees.maple_sap_bucket	カエデの樹液
+item.productivetrees.maple_syrup	メープルシロップ
+item.productivetrees.pollen	花粉
+item.productivetrees.rubber	ゴム
+item.productivetrees.sandalwood_oil	ビャクダン油
+item.productivetrees.sawdust	おがくず
+itemGroup.productivetrees	Productive Trees
+jei.productivetrees.log_stripping	原木の樹皮剥ぎ
+jei.productivetrees.tree_fruiting	木の結実
+jei.productivetrees.tree_pollination	木の受粉
+=Advanced Beehive	高度な養蜂箱
+productivebees.ingredient.description.allergy_bee	木を扱う作業中にアレルギーが出ないよう、花粉集めに精を出してくれる。
+productivetrees.information.pollen	葉に使うと手動で受粉させる。
+productivetrees.information.upgrade.upgrade_pollen_sieve.advanced_hive	このアップグレードを巣箱に取り付けると、ハチが集めた花粉の一部がふるいにかけられて巣箱に入る。
+=Can be installed in machines for faster processing.\n   Multiple upgrades can be installed for a greater time decrease.	機械に取り付けると処理が速くなる。\n   複数取り付けるとさらに時間が短くなる。
+productivetrees.information.upgrade.upgrade_time.stripper	アップグレード1つごとに、1回の処理で扱うアイテムが4個増える。\n   複数取り付けるとさらに時間が短くなる。
+=It's twice as good as the other one.	もう一方の2倍の性能。
+productivetrees.pollen.name	%s
+productivetrees.sapling.configurations	構成: %s
+@ productivetrees.sapling_description.
+.black_ember	ブラックエンバーの苗木は、ネザーの砦の遺跡の宝箱に隠されている。腹ペコで凶暴なブルートたちが守っている。
+.blue_yonder	ブルーヨンダーの苗木は旅をして世界を見るのが大好きだった。根が繊細なため船で運ばれ、今でも沈んだガレオン船の宝箱で見つかる。
+.brown_amber	冷たい海水の重みの下に隠れて、この苗木は掘り出されるのを待っている。
+.firecracker	この爆発する木は大昔にパーティーで禁止されたが、今でも地下深くの古代都市で見つかる。
+.flickering_sun	砂漠の寺院の宝物庫で、腐った肉や骨、クモの目に混じってこの珍しい苗木が見つかることがある。
+.soul_tree	苗木が死にに行く場所、エンドの果ての忘れ去られた都市で見つかる。
+productivetrees.screen.progress	進行度: %s

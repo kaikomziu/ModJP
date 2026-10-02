@@ -1,0 +1,302 @@
+{
+ "extendedae": {
+  "block.extendedae.ex_emc_interface": "ME拡張変成インターフェース",
+  "item.extendedae.smart_annihilation_plane": "MEスマート消滅プレーン",
+  "item.extendedae.wireless_connector_upgrade": "ワイヤレスコネクターアップグレード",
+  "item.extendedae.ex_emc_interface_part": "ME拡張変成インターフェース",
+  "item.extendedae.emc_interface_upgrade": "変成インターフェースアップグレード",
+  "item.extendedae.ex_emc_export_bus_part": "ME拡張変成エクスポートバス",
+  "item.extendedae.ex_emc_import_bus_part": "ME拡張変成インポートバス",
+  "item.extendedae.emc_io_bus_upgrade": "変成インポート/エクスポートバスアップグレード",
+  "gui.extendedae.tag_storage_bus.whitelist.tooltip": "ここにホワイトリストのタグを入力",
+  "gui.extendedae.tag_storage_bus.blacklist.tooltip": "ここにブラックリストのタグを入力",
+  "gui.wireless_connect.remote_channel": "位置 X: %s, Y: %s, Z: %s\n使用チャンネル: %s",
+  "gui.extendedae.ex_emc_interface": "ME拡張変成インターフェース",
+  "gui.extendedae.ex_emc_export_bus_part": "ME拡張変成エクスポートバス",
+  "gui.extendedae.ex_emc_import_bus_part": "ME拡張変成インポートバス",
+  "gui.extendedae.smart_annihilation_plane": "MEスマート消滅プレーン",
+  "group.ex_emc_io_bus_part": "ME拡張変成インポート/エクスポートバス",
+  "emi.extendedae.text.energy": "%s AE"
+ },
+ "ae2netanalyser": {
+  "item.ae2netanalyser.tick_analyser": "ME tickプロファイラー",
+  "gui.ae2netanalyser.tick_analyser.set_duration": "計測時間(秒)",
+  "gui.ae2netanalyser.tick_analyser.begin": "開始",
+  "gui.ae2netanalyser.tick_analyser.cancel": "中止",
+  "gui.ae2netanalyser.tick_analyser.range1": "<5μs/tick",
+  "gui.ae2netanalyser.tick_analyser.range2": "5-100μs/tick",
+  "gui.ae2netanalyser.tick_analyser.range3": "100-500μs/tick",
+  "gui.ae2netanalyser.tick_analyser.range4": ">500μs/tick",
+  "chat.ae2netanalyser.tick_analyser.begin": "%s秒間計測する。",
+  "chat.ae2netanalyser.tick_analyser.finish": "計測が終わった。",
+  "chat.ae2netanalyser.tick_analyser.waiting": "計測の要求は送信済み。終わるまで待って。",
+  "chat.ae2netanalyser.tick_analyser.cannel": "計測を中止した。",
+  "chat.ae2netanalyser.tick_analyser.no_cannel": "実行中の計測はない。",
+  "chat.ae2netanalyser.tick_analyser.user_control": "このサーバーで計測する権限がない。"
+ },
+ "enderio": {
+  "conduit.enderio.energetic_energy": "エナジェティックのエネルギーコンジット",
+  "conduit.enderio.energetic_fluid": "エナジェティックの液体コンジット",
+  "conduit.enderio.energetic_item": "エナジェティックのアイテムコンジット",
+  "conduit.enderio.vibrant_energy": "ヴァイブラントのエネルギーコンジット",
+  "conduit.enderio.vibrant_fluid": "ヴァイブラントの液体コンジット",
+  "conduit.enderio.vibrant_item": "ヴァイブラントのアイテムコンジット",
+  "key.category.enderio.enderio_keys": "EnderIO",
+  "message.enderio.tool.soul_vial.error.denied": "このエンティティは拒否リストに入っている。",
+  "tag.entity_type.enderio.soul_vial_allow_list": "魂の小瓶の許可リスト",
+  "tag.entity_type.enderio.soul_vial_deny_list": "魂の小瓶の拒否リスト",
+  "tag.entity_type.enderio.spawner_allow_list": "スポナーの許可リスト",
+  "tag.entity_type.enderio.spawner_deny_list": "スポナーの拒否リスト",
+  "tag.item.enderio.deny_lists.broken_spawner": "壊れたスポナーの拒否リスト",
+  "tag.item.enderio.deny_lists.electromagnet": "電磁石の拒否リスト"
+ },
+ "laserbridges": {
+  "laserbridges.deimosconfig.title": "Laser Bridges & Doors の設定",
+  "laserbridges.deimosconfig.max_length": "レッドストーンの最大出力時の橋の長さ",
+  "laserbridges.deimosconfig.blocks_cut_through_by_lasers": "レーザーで置き換えられるブロック",
+  "block.laserbridges.laser_source_block": "レーザー源",
+  "item.laserbridges.laser_source_block": "レーザー源",
+  "block.laserbridges.laser_fence_source_block": "レーザーフェンス源",
+  "item.laserbridges.laser_fence_source_block": "レーザーフェンス源",
+  "block.laserbridges.laser_source_fullblock": "レーザー源ブロック",
+  "item.laserbridges.laser_source_fullblock": "レーザー源ブロック",
+  "block.laserbridges.laser_fence_source_fullblock": "レーザーフェンス源ブロック",
+  "item.laserbridges.laser_fence_source_fullblock": "レーザーフェンス源ブロック",
+  "block.laserbridges.laser_block_powered": "レーザーブロック",
+  "block.laserbridges.laser_fence_powered": "レーザーブロック"
+ },
+ "crystalix": {
+  "apply_mode.crystalix.colorless": "色以外",
+  "apply_mode.crystalix.default": "初期設定",
+  "apply_mode.crystalix.exact": "完全一致",
+  "config.crystalix.show_wand_tooltips": "杖のツールチップを表示",
+  "config.crystalix.show_wand_tooltips.tooltip": "§8杖に特性のツールチップを表示する§r\n\n§7初期値: false§r",
+  "key.crystalix.highlight_blocks": "ブロックを強調表示",
+  "property.crystalix.apply_mode": "適用モード",
+  "tooltip.crystalix.apply_mode.colorless": "色以外のすべての特性を適用する",
+  "tooltip.crystalix.apply_mode.default": "すべての特性を普通に適用する",
+  "tooltip.crystalix.apply_mode.exact": "特性を一括で適用するとき、最初のブロックと完全に一致するものだけを編集する",
+  "tooltip.crystalix.highlight": "%sで周りのすべてのcrystalixブロックを強調表示",
+  "tooltip.crystalix.show_properties": "今選んでいる特性をツールチップに表示するには設定を切り替える"
+ },
+ "trophymanager": {
+  "block.trophymanager.trophy": "トロフィー",
+  "trophymanager.trophy.name": "%sのトロフィー",
+  "trophymanager.tooltip.trophy.scale": "大きさ: %s",
+  "gui.trophy.size": "大きさ: %s",
+  "gui.trophy.offset": "Yのずらし: %s",
+  "gui.trophy.pose": "ポーズ: %s",
+  "gui.trophy.pose.standing": "立ち",
+  "gui.trophy.pose.sitting": "座り",
+  "gui.trophy.pose.flying": "飛行",
+  "gui.trophy.jei.item_trophy": "アイテムのトロフィー",
+  "gui.trophy.jei.any_item": "ここにはどんなアイテムでも入れられる",
+  "gui.trophy.reset": "リセット",
+  "gui.apply": "適用"
+ },
+ "camol": {
+  "item.camol.camo_item": "擬態ブロック",
+  "item.camol.solid_camo_item": "形を保つ擬態ブロック",
+  "item.camol.camo_item.camo": "擬態ブロック - %s",
+  "item.camol.solid_camo_item.camo": "形を保つ擬態ブロック - %s",
+  "item.camol.camo_item.hover": "ブロックを右クリックすると、このブロックに見せかける。擬態したブロックを右クリックすると元に戻す。",
+  "item.camol.camo_item.hover_type": "擬態したブロックの当たり判定の形を使う。",
+  "item.camol.camo_item.hover_empty": "ブロックと一緒にクラフトする。",
+  "item.camol.solid_camo_item.hover": "ブロックを右クリックすると、このブロックに見せかける。擬態したブロックを右クリックすると元に戻す。",
+  "item.camol.solid_camo_item.hover_type": "擬態させているブロックの当たり判定の形を使う。",
+  "item.camol.solid_camo_item.hover_empty": "ブロックと一緒にクラフトする。"
+ },
+ "interdimensionalwirelesstransmitter": {
+  "mod.interdimensional_wireless_transmitter": "Interdimensional Wireless Transmitter",
+  "block.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter": "ディメンション間ワイヤレス送信機",
+  "gui.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter.distance": "無限の範囲",
+  "item.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter.help": "ワイヤレスグリッドなどのアイテムにワイヤレスでネットワークへのアクセスを提供する。範囲は無限で、ディメンションをまたぐ。",
+  "text.autoconfig.interdimensionalwirelesstransmitter.option.interdimensionalWirelessTransmitter": "ディメンション間ワイヤレス送信機",
+  "text.autoconfig.interdimensionalwirelesstransmitter.option.interdimensionalWirelessTransmitter.tooltip": "ディメンション間ワイヤレス送信機の設定。",
+  "text.autoconfig.interdimensionalwirelesstransmitter.option.interdimensionalWirelessTransmitter.energyUsage": "エネルギー使用量",
+  "text.autoconfig.interdimensionalwirelesstransmitter.option.interdimensionalWirelessTransmitter.energyUsage.tooltip": "ディメンション間ワイヤレス送信機のエネルギー使用量。",
+  "advancements.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter": "ディメンションを超える>>力<<",
+  "advancements.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter.description": "ディメンション間ワイヤレス送信機で、ディメンションをまたいで無限の範囲にネットワークの信号を送る"
+ },
+ "justdirethings": {
+  "entity.justdirethings.creature_catcher": "生き物捕獲器",
+  "entity.justdirethings.justdireareaeffectcloud": "範囲効果の雲",
+  "entity.justdirethings.justdirearrow": "ダイアの矢",
+  "entity.justdirethings.portal_entity": "ダイアポータル",
+  "entity.justdirethings.portal_projectile": "ポータル弾",
+  "justdirethings.screen.hideparticles": "パーティクルを隠す",
+  "justdirethings.screen.inv-hotbar": "ホットバーのみ",
+  "justdirethings.screen.inv-main": "メインのインベントリ",
+  "justdirethings.screen.target-mob": "モブ",
+  "key.category.justdirethings.category": "Just Dire Things"
+ },
+ "nomorecraters": {
+  "itemGroup.nomorecraters": "サンプルMODのタブ",
+  "block.nomorecraters.example_block": "サンプルブロック",
+  "item.nomorecraters.example_item": "サンプルアイテム",
+  "nomorecraters.configuration.title": "No More Craters の設定",
+  "nomorecraters.configuration.section.nomorecraters.common.toml": "No More Craters の設定",
+  "nomorecraters.configuration.section.nomorecraters.common.toml.title": "No More Craters の設定",
+  "nomorecraters.configuration.items": "アイテムの一覧",
+  "nomorecraters.configuration.logDirtBlock": "土ブロックをログに出す",
+  "nomorecraters.configuration.magicNumberIntroduction": "マジックナンバーの文言",
+  "nomorecraters.configuration.magicNumber": "マジックナンバー"
+ },
+ "sgearmetalworks": {
+  "book.sgearmetalworks.category.text": "鋳造炉でのSilent Gearの鋳造。",
+  "book.sgearmetalworks.category.title": "Silent Gear Metalworks",
+  "book.sgearmetalworks.page.casts": "鋳造が必要なギアの種類ごとに、先端や道具の棒も含めてギアの鋳型がある。$(br2)道具の棒の鋳型は、普通の棒の鋳型とは別のアイテムであることに注意。",
+  "book.sgearmetalworks.page.grading": "このMODがSilent Gearに加える変更は鋳造だけではない。道具の等級付けや星のチャージは、個々の素材ではなく完成したギアの部品に行うようになった。$(br2)また、部品には複数回行う必要がある。1回ごとに部品の中の素材1つにしか作用しないからだ。",
+  "book.sgearmetalworks.page.parts": "溶けた形を持つ素材で作るギアの部品は、作業台で組み立てるのではなく鋳造炉で鋳造する必要がある。$(br2)ギアの種類ごと - ツルハシ、シャベル、先端など - に鋳型が必要だ。手に入れるには、石、木、火打石、骨などの簡単な素材でそのギアの部品を作り、その部品で型を取る。",
+  "book.sgearmetalworks.page.title": "ギアの鋳造",
+  "book.sgearmetalworks.page.uru": "このMODはウル金属も追加する。他のどこにも存在しない合金だ。鉱石もドロップもないので、手に入れる道は鋳造炉だけだ。$(br2)これで作ったギアは「刺され耐性」の特性を持ち、ハチもいるパックでは見た目以上に価値がある。",
+  "material.group.silentgear.infusing": "注入",
+  "trait.silentgear.sting_resist": "刺され耐性",
+  "trait.silentgear.sting_resist.desc": "ハチに刺されても痛くなくなる"
+ },
+ "underwater_village": {
+  "itemGroup.underwater_village": "サンプルMODのタブ",
+  "block.underwater_village.example_block": "サンプルブロック",
+  "item.underwater_village.example_item": "サンプルアイテム",
+  "underwater_village.configuration.title": "Underwater Village の設定",
+  "underwater_village.configuration.section.underwater_village.common.toml": "Underwater Village の設定",
+  "underwater_village.configuration.section.underwater_village.common.toml.title": "Underwater Village の設定",
+  "underwater_village.configuration.items": "アイテムの一覧",
+  "underwater_village.configuration.logDirtBlock": "土ブロックをログに出す",
+  "underwater_village.configuration.magicNumberIntroduction": "マジックナンバーの文言",
+  "underwater_village.configuration.magicNumber": "マジックナンバー"
+ },
+ "bblcore": {
+  "item.bblcore.upgrade_base": "アップグレードの土台",
+  "tooltip.bblcore.shift": "SHIFTを押すと詳細を表示",
+  "tooltip.bblcore.alt": "ALTを押すと詳細を表示",
+  "tooltip.bblcore.ctrl": "CTRLを押すと詳細を表示",
+  "tooltip.bblcore.whitelist_button.whitelist": "ホワイトリスト",
+  "tooltip.bblcore.whitelist_button.blacklist": "ブラックリスト",
+  "tooltip.bblcore.whitelist_button.mode": "モード: %s",
+  "tooltip.core.duration_tooltip": "%s / %s tick",
+  "tooltip.core.ticks": "tick: %s"
+ },
+ "mcwstairs": {
+  "item.mcwstairs.pale_oak_terrace_stairs": "ペールオークのテラス階段",
+  "item.mcwstairs.pale_oak_skyline_stairs": "ペールオークのスカイライン階段",
+  "item.mcwstairs.pale_oak_compact_stairs": "ペールオークのコンパクトな階段",
+  "item.mcwstairs.pale_oak_bulk_stairs": "ペールオークのバルク階段",
+  "item.mcwstairs.pale_oak_loft_stairs": "ペールオークのロフト階段",
+  "item.mcwstairs.pale_oak_railing": "ペールオークの手すり",
+  "item.mcwstairs.pale_oak_balcony": "ペールオークのバルコニー",
+  "item.mcwstairs.pale_oak_platform": "ペールオークのプラットフォーム"
+ },
+ "apothic_attributes": {
+  "attribute.name.block_break_speed.desc": "通常と比べてどれだけ速くブロックを掘れるか。",
+  "attribute.name.burning_time.desc": "通常と比べてどれだけ長く燃えるか。",
+  "attribute.name.fall_damage_multiplier.desc": "落下ダメージがどれだけ増えるか。",
+  "attribute.name.jump_strength.desc": "どれだけうまくジャンプできるか。",
+  "attribute.name.max_absorption.desc": "衝撃吸収のハートが自然に何個まで回復するか。",
+  "apothic_attributes:cooldown_reduction": "クールダウン短縮",
+  "apothic_attributes:cooldown_reduction.desc": "発動する能力や効果のクールダウンを短くする。クールダウンには⌛の記号が使われる。"
+ },
+ "defaultoptions": {
+  "defaultoptions.configuration.title": "Default Options",
+  "defaultoptions.configuration.defaultDifficulty": "初期の難易度",
+  "defaultoptions.configuration.defaultDifficulty.tooltip": "新しく作るワールドで選ばれる初期の難易度。",
+  "defaultoptions.configuration.lockDifficulty": "難易度を固定",
+  "defaultoptions.configuration.lockDifficulty.tooltip": "新しいワールドの難易度を指定した初期値に固定するならtrueにする。外部のツールなしではプレイヤーが固定を解除できない！たぶん悪い考え。おすすめしない。なぜこの設定を追加しているんだろう？",
+  "defaultoptions.configuration.defaultResourcePacks": "初期のリソースパック",
+  "defaultoptions.configuration.defaultResourcePacks.tooltip": "初回起動時に有効にしておくリソースパックのID。"
+ },
+ "underground_villages": {
+  "text.autoconfig.underground_villages.option.generation": "生成",
+  "text.autoconfig.underground_villages.option.generation.yLevel": "Y座標",
+  "text.autoconfig.underground_villages.title": "Underground Villages",
+  "underground_villages.configuration.Generation": "生成",
+  "underground_villages.configuration.Generation.tooltip": "生成の設定",
+  "underground_villages.configuration.yLevel": "Y座標",
+  "underground_villages.configuration.yLevel.tooltip": "村を生成しようとするY座標"
+ },
+ "getittogetherdrops": {
+  "getittogetherdrops.configuration.checkY": "Yも確認する",
+  "getittogetherdrops.configuration.checkY.tooltip": "落ちたアイテムが上下も確認するならtrue、しないならfalseにする(「false」がバニラのふるまい)。",
+  "getittogetherdrops.configuration.radius": "半径",
+  "getittogetherdrops.configuration.radius.tooltip": "落ちたアイテムが、まとめる相手の落ちたアイテムを周りで探す半径(ブロック)(「0.5」がバニラのふるまい)。",
+  "tag.item.getittogetherdrops.do_not_combine": "ドロップがまとまらない",
+  "tag.item.getittogetherdrops.ignore": "ドロップが普通にまとまる"
+ },
+ "betteradvancedtooltips": {
+  "betteradvancedtooltips.configuration.remove_creative_tab_tooltip": "クリエイティブタブのツールチップを消す",
+  "betteradvancedtooltips.configuration.remove_component_count_tooltip": "コンポーネント数のツールチップを消す",
+  "betteradvancedtooltips.configuration.fuel_tooltip": "燃料のツールチップ",
+  "betteradvancedtooltips.configuration.tag_tooltip": "タグのツールチップ",
+  "betteradvancedtooltips.configuration.component_tooltip": "コンポーネントのツールチップ"
+ },
+ "keybindspurger": {
+  "button.keybindspurger.purge": "このカテゴリーのキー割り当てをすべて消す",
+  "button.keybindspurger.purge_all": "すべてのキー割り当てを消す",
+  "button.keybindspurger.purge_non_vanilla": "バニラ以外のキー割り当てをすべて消す",
+  "button.keybindspurger.reset": "このカテゴリーのキー割り当てをすべてリセット"
+ },
+ "ae2importexportcard": {
+  "item.ae2importexportcard.block_picker_card": "ブロック選択カード",
+  "gui.ae2importexportcard.block_picker_amount": "ブロック選択の量",
+  "gui.ae2importexportcard.block_picker_amount.value": "ブロック選択の量: %s"
+ },
+ "constructionstick": {
+  "constructionstick.placement.denied": "このブロックは建築の棒では置けない！",
+  "item.constructionstick.stick_template": "棒の型",
+  "key.category.constructionstick.category": "Construction Sticks"
+ },
+ "imfast": {
+  "itemGroup.imfast": "サンプルMODのタブ",
+  "block.imfast.example_block": "サンプルブロック",
+  "item.imfast.example_item": "サンプルアイテム"
+ },
+ "refinedfluidsubstitution": {
+  "mod.refinedfluidsubstitution": "Refined Fluid Substitution",
+  "item.refinedfluidsubstitution.fluid_substitution_pattern": "液体代用パターン",
+  "item.refinedfluidsubstitution.fluid_substitution_pattern.help": "自動クラフトで、満たしたバケツの代わりに保管した液体を使えるようにする。"
+ },
+ "advanced_ae": {
+  "item.advanced_ae.quantum_crafter_terminal_part": "量子クラフターターミナル",
+  "key.category.advanced_ae.category": "Advanced AE"
+ },
+ "appleskin": {
+  "appleskin.configuration.showFoodStatsInDebugOverlay": "デバッグ画面に食料の値を表示",
+  "appleskin.configuration.showFoodStatsInDebugOverlay.tooltip": "trueにすると、デバッグ画面に満腹度、隠し満腹度、消耗度を表示する"
+ },
+ "appliedsticks": {
+  "tooltip.appliedsticks.unlinked": "ワイヤレスアクセスポイントの中に入れるとAE2ネットワークにつなげる",
+  "tooltip.appliedsticks.linked": "連結済み - AE2:"
+ },
+ "bcc": {
+  "bcc.gui.tooltip.compatible_server": "§3サーバー: %s\n§2クライアント(あなた): %s",
+  "bcc.gui.tooltip.incompatible_server": "§6サーバーと同じバージョンの\n§6MODパックを使っていない :(\n \n§4サーバー: %s\n§4クライアント(あなた): %s"
+ },
+ "geore": {
+  "geore.configuration.disableImmovability": "動かせなくする設定を無効にする",
+  "geore.configuration.disableImmovability.tooltip": "芽生えたGeOreブロックを動かせなくする設定を無効にする(内蔵のデータパックが有効になる)[初期値: false]"
+ },
+ "oritech": {
+  "emi.title.oritech.atomic_forge_energy": "必要なエネルギー: %s RF",
+  "emi.description.oritech.atomic_forge_laser_speed": "レーザーの出力でチャージ時間が決まる"
+ },
+ "refinedsticks": {
+  "tooltip.refinedsticks.unlinked": "コントローラーを右クリックするとRefined Storageのネットワークにつなげる",
+  "tooltip.refinedsticks.linked": "連結済み - Refined Storage:"
+ },
+ "silentgems": {
+  "silentgems.configuration.features": "機能",
+  "silentgems.configuration.rabbitsProduceCoffee": "ウサギがコーヒーを生み出す"
+ },
+ "cobblegengalore": {
+  "jei.cobblegengalore.consumed": "元のブロックは消費される"
+ },
+ "refinedstorage_curios_integration": {
+  "curios.identifier.refinedstorage_curios_integration": "Refined Storage"
+ },
+ "refinedstorage_quartz_arsenal": {
+  "key.category.refinedstorage_quartz_arsenal.keymappings": "Refined Storage - Quartz Arsenal"
+ },
+ "sophisticatedstorageinmotion": {
+  "entity.sophisticatedstorageinmotion.chested_horse_with_storage": "%2$sを付けた%1$s"
+ }
+}
