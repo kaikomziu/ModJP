@@ -1,0 +1,265 @@
+## platforms
+itemGroup.platforms	Platforms
+info.platforms.base	§6土台:§7§o
+info.platforms.addon	§6手すり:§7§o
+info.platforms.wrench.tooltip	設置ガイドを表示する
+info.platforms.wrench.tooltip2	レンチをオフハンドに、プラットフォームを\nメインハンドに持つと\nプラットフォームの設置ガイドが表示される
+info.platforms.particle.enabled	パーティクル: 有効
+info.platforms.particle.disabled	パーティクル: 無効
+info.platforms.particle.with_redstone	パーティクル: レッドストーン有効
+info.platforms.particle.without_redstone	パーティクル: レッドストーン無効
+gui.platforms.platformer.slot.storage.info	保管庫: クラフトに必要な素材を保管する。
+gui.platforms.platformer.slot.craft.info	クラフト出力: 必要な素材があればここをクリックしてクラフトする。
+gui.platforms.platformer.slot.decon.info	分解: ここでプラットフォームを分解できる。スタック数はクラフト時に得られる数以上である必要がある。
+gui.platforms.platformer.slot.buffer.info	出力バッファ: 自動化用の一時保管場所。さらにクラフトするにはここが空である必要がある。
+gui.platforms.platformer.slot.material.info	素材の選択: 見た目と使う素材を決める。
+gui.platforms.platformer.button.select.info	プラットフォーム選択: 利用できるプラットフォームの種類を切り替える。
+gui.platforms.platformer.preview.info	プラットフォームのプレビュー: 完成品の表示。
+gui.platforms.platformer.basic	保管庫の搬入、バッファとクラフトの搬出
+gui.platforms.platformer.output	バッファとクラフトの搬出
+gui.platforms.platformer.decon	分解の搬入/搬出
+gui.platforms.platformer.storage	保管庫の搬入/搬出
+gui.platforms.wrench.edit.apply	すべて適用
+gui.platforms.wrench.edit.apply.info	すべての変更を適用してGUIを閉じる
+gui.platforms.wrench.edit.remove.info	適用時:\n  選択範囲からこの種類のプラットフォームを取り除く\n 設置も有効な場合:\n  この種類でテクスチャが異なるプラットフォームは代わりに置き換えられる
+gui.platforms.wrench.edit.place.info	適用時:\n  インベントリからこのプラットフォームを空いている場所に設置する\n 除去も有効な場合:\n  この種類でテクスチャが異なるプラットフォームは代わりに置き換えられる
+gui.platforms.wrench.edit.revert	変更を元に戻す
+gui.platforms.wrench.edit.direction	向きを変更
+gui.platforms.wrench.select.back	§7§l戻る:§r 左矢印 / 上スクロール
+gui.platforms.wrench.select.next	§7§l次へ:§r 右矢印 / 下スクロール
+gui.platforms.wrench.select.first	§7§l最初の選択肢:§r スペース
+gui.platforms.wrench.select.save	§7§l選択:§r Enter / 右クリック
+block.platforms.floor	床
+block.platforms.ramp	スロープ
+block.platforms.steps	段差
+block.platforms.shingles	こけら葺き屋根
+block.platforms.tiles	瓦屋根
+block.platforms.rise	蹴上げ
+block.platforms.rail	手すり
+block.platforms.platformer	プラットフォーマー
+item.platforms.wrench	モンキーレンチ
+config.jade.plugin_platforms.hud	プラグインを有効化
+## rftoolsstorage
+item.rftoolsstorage.storage_module0	ティア1ストレージモジュール
+item.rftoolsstorage.storage_module1	ティア2ストレージモジュール
+item.rftoolsstorage.storage_module2	ティア3ストレージモジュール
+item.rftoolsstorage.storage_module3	ティア4ストレージモジュール
+item.rftoolsstorage.storage_module6	リモートストレージモジュール(使用禁止)
+item.rftoolsstorage.storage_module_tablet	ストレージタブレット
+item.rftoolsstorage.filter_module	フィルターモジュール
+item.rftoolsstorage.oredict_module	鉱石辞書タイプモジュール
+item.rftoolsstorage.generic_module	汎用タイプモジュール
+item.rftoolsstorage.tablet_scanner	タブレット(スキャナー)
+item.rftoolsstorage.storage_control_module	ストレージ制御スクリーンモジュール
+item.rftoolsstorage.dump_module	一括投入スクリーンモジュール
+block.rftoolsstorage.modular_storage	モジュール式ストレージ
+block.rftoolsstorage.storage_scanner	ストレージスキャナー
+itemGroup.rftoolsstorage	RFTools Storage
+message.rftoolsstorage.shiftmessage	<Shiftを押す>
+message.rftoolsstorage.crafting_manager.header	開発中！ クラフトマネージャー 開発中！
+message.rftoolsstorage.crafting_manager.gold	まだ機能しない
+message.rftoolsstorage.tablet_scanner.header	遠隔のGUIや情報を参照するのに使えるタブレット
+message.rftoolsstorage.tablet_scanner.gold	ストレージスキャナーへのリンク入りのタブレット: 右クリックでスキャナーのGUI、スニーク+右クリックでタブレットのGUI
+message.rftoolsstorage.storage_scanner.header	近くのすべてのインベントリをスキャンして一覧表示する機械。それらのインベントリのアイテムを検索して取り出せる
+message.rftoolsstorage.storage_scanner.gold	注入ボーナス: 消費電力の減少
+message.rftoolsstorage.storage_control_module.header	ストレージスキャナーを通して9種類のアイテムを監視できるスクリーンモジュール。タブレットと組み合わせると、ストレージスキャナーで管理するシステムに遠隔でアクセスできる
+message.rftoolsstorage.storage_control_module.gold	ストレージスキャナーをスニーク+右クリックすると、このストレージモジュールの対象を設定する
+=Power usage: 	消費電力:
+=Storage Scanner: 	ストレージスキャナー:
+message.rftoolsstorage.dump_module.header	リンクしたストレージスキャナーに大量のアイテムを一括投入できるスクリーン用モジュール
+message.rftoolsstorage.dump_module.gold	ストレージスキャナーをスニーク+右クリックすると、この一括投入モジュールの対象を設定する
+message.rftoolsstorage.storage_module.header	モジュール式ストレージブロック用のストレージモジュール
+message.rftoolsstorage.storage_module.gold	このモジュールはリモートインベントリに対応している。リモートストレージブロックで別のストレージモジュールとリンクする
+message.rftoolsstorage.storage_module.info	対応スタック数:
+message.rftoolsstorage.storage_module.remoteid	リモートID:
+message.rftoolsstorage.storage_module.uuid	UUID:
+message.rftoolsstorage.storage_module.version	バージョン:
+message.rftoolsstorage.storage_module.items	内容:
+message.rftoolsstorage.storage_module.advanced	高度:
+message.rftoolsstorage.modular_storage.header	このモジュール式ストレージシステムは大量のアイテムを保管でき、検索や絞り込みも簡単。使う前にストレージモジュールのアイテムを入れる必要がある
+## villagertools
+itemGroup.villagertools	Village Artifacts
+entity.villagertools.reinforced_golem	友好的なゴーレム
+entity.villagertools.guard	町の衛兵
+item.villagertools.guard	呪われたピリジャーのお守り
+item.villagertools.guard.tooltip	闇のエンダーエネルギーを吸収し、ピリジャーを町の衛兵に変える
+item.villagertools.guard.used	彼らはもう敵ではない。
+item.villagertools.gears	忘却の石
+item.villagertools.gears.tooltip	アイアンゴーレムの防御と頭脳を強化する
+item.villagertools.gears.used	プレイヤー保護システム起動。防御を強化した。
+item.villagertools.badge	呪われた戦の紋章
+item.villagertools.badge.tooltip	呪われた戦士を召喚する
+item.villagertools.badge.used	彼らの戦争は終わっていなかった
+item.villagertools.bribe	美徳の霊液
+item.villagertools.bribe.tooltip	村人を買収して罪を忘れさせ、評判を上げる
+item.villagertools.bribe.rep	評判の上昇量:
+item.villagertools.bribe.used	とても嬉しそうだ
+item.villagertools.cure	失われた疫病の治療薬
+item.villagertools.cure.tooltip	村人のための古代のゾンビ治療薬
+item.villagertools.cure.used	治療が始まった…守ってあげよう
+item.villagertools.contract	取引契約書
+item.villagertools.contract.tooltip	行商人に新しい住まいを見つけるよう誘う
+item.villagertools.contract.used	承諾され、署名された。守ってあげよう！
+item.villagertools.darkness	地獄の欠片
+item.villagertools.darkness.tooltip	一部の村人やイリジャーに闇の魔術を吹き込む
+item.villagertools.darkness.used	彼らは闇に呑まれた
+item.villagertools.forget	傲慢の巻物
+item.villagertools.forget.tooltip	読むと村人の職業を解く
+item.villagertools.forget.used	職業の忘却が完了した
+item.villagertools.knowledge	失われた商人ギルドの魔導書
+item.villagertools.knowledge.tooltip	ほとんどの取引職業のレベルを上げる
+item.villagertools.knowledge.used	教育が完了した
+item.villagertools.lure	ゴーレム鋼の火鉢
+item.villagertools.lure.tooltip	村人や衛兵は昔からこれに引き寄せられる
+item.villagertools.key	ラマ解放の鍵
+item.villagertools.key.tooltip	行商人のラマの手綱を解く
+item.villagertools.key.used	束縛から解放された
+item.villagertools.restock	粗いエメラルドの欠片
+item.villagertools.restock.tooltip	村人と交渉して取引を補充させる
+item.villagertools.restock.used	新しい在庫が見つかった
+## ding
+config.ding.cat.ding.name	Ding関連の設定
+config.ding.cat.ding.desc	Dingの動作に関する設定
+config.ding.cat.load.name	Minecraft起動関連の設定
+config.ding.cat.load.desc	ゲームの起動時にDingを鳴らす設定
+config.ding.cat.world.name	ワールド読み込み関連の設定
+config.ding.cat.world.desc	サーバー接続後にワールドが読み込まれたときにDingを鳴らす設定
+config.ding.cat.resourcesReload.name	リソース再読み込み関連の設定
+config.ding.cat.resourcesReload.desc	リソースが再読み込みされたときにDingを鳴らす設定
+config.ding.prop.playOnLoad.name	音を鳴らす - 起動
+config.ding.prop.playOnLoad.desc	ゲームの起動時に音を鳴らす。
+config.ding.prop.name.name	(起動) 音の名前
+config.ding.prop.name.desc	Minecraftの起動完了時に鳴らす音のリソースロケーション名。\n例: "ui.button.click" や "entity.experience_orb.pickup"\n\nMODを導入していればMODの音も指定できる。\n例: modname:modsound.boing\n\n外部の音を使いたい場合は、リソースを追加するMODを探してみよう
+config.ding.prop.volume.name	(起動) 音量
+config.ding.prop.volume.desc	音の音量(Minecraftの起動時)
+config.ding.prop.pitch.name	(起動) 音の高さ
+config.ding.prop.pitch.desc	音の高さ(Minecraftの起動時)
+config.ding.prop.category.name	(起動) 音のカテゴリー
+config.ding.prop.category.desc	Minecraftの起動完了時に鳴らす音のカテゴリー。例: "ambient" や "music"。カテゴリーが見つからない場合は "master" になる。
+config.ding.prop.playOnWorld.name	音を鳴らす - ワールド読み込み
+config.ding.prop.playOnWorld.desc	サーバー接続後にワールドが読み込まれたときに音を鳴らす。変更するとゲームの再起動が必要。
+config.ding.prop.nameWorld.name	(ワールド読み込み) 音の名前
+config.ding.prop.nameWorld.desc	ワールドの読み込み完了時(サーバー接続後)に鳴らす音のリソースロケーション名。\n\n詳しくは "name" の設定を参照。
+config.ding.prop.volumeWorld.name	(ワールド読み込み) 音量
+config.ding.prop.volumeWorld.desc	音の音量(サーバー接続後にワールドが読み込まれたとき)
+config.ding.prop.pitchWorld.name	(ワールド読み込み) 音の高さ
+config.ding.prop.pitchWorld.desc	音の高さ(サーバー接続後にワールドが読み込まれたとき)
+config.ding.prop.categoryWorld.name	(ワールド読み込み) 音のカテゴリー
+config.ding.prop.categoryWorld.desc	ワールドの読み込み完了時(サーバー接続後)に鳴らす音のカテゴリー。例: "ambient" や "music"。カテゴリーが見つからない場合は "master" になる。
+config.ding.prop.playOnResourcesReload.name	音を鳴らす - リソース再読み込み
+config.ding.prop.playOnResourcesReload.desc	リソースの再読み込みが完了したときに音を鳴らす。変更するとゲームの再起動が必要。
+config.ding.prop.nameResourcesReload.name	(リソース再読み込み) 音の名前
+config.ding.prop.nameResourcesReload.desc	リソースの再読み込み完了時に鳴らす音のリソースロケーション名。\n\n詳しくは "name" の設定を参照。
+config.ding.prop.volumeResourcesReload.name	(リソース再読み込み) 音量
+config.ding.prop.volumeResourcesReload.desc	音の音量(リソースの再読み込み完了時)
+config.ding.prop.pitchResourcesReload.name	(リソース再読み込み) 音の高さ
+config.ding.prop.pitchResourcesReload.desc	音の高さ(リソースの再読み込み完了時)
+config.ding.prop.categoryResourcesReload.name	(リソース再読み込み) 音のカテゴリー
+config.ding.prop.categoryResourcesReload.desc	リソースの再読み込み完了時に鳴らす音のカテゴリー。例: "ambient" や "music"。カテゴリーが見つからない場合は "master" になる。
+## ichunutil
+config.ichunutil.cat.general.name	一般
+config.ichunutil.cat.general.desc	他のカテゴリーに当てはまらない一般的な設定。
+config.ichunutil.cat.gameplay.name	ゲームプレイ
+config.ichunutil.cat.gameplay.desc	MODを使っているときのゲームプレイに影響する設定。
+config.ichunutil.cat.global.name	全体
+config.ichunutil.cat.global.desc	MODを読み込むサーバーとクライアントの両方に影響する設定。
+config.ichunutil.cat.serverOnly.name	サーバーのみ
+config.ichunutil.cat.serverOnly.desc	MODを読み込むサーバーにのみ影響する設定。
+config.ichunutil.cat.clientOnly.name	クライアントのみ
+config.ichunutil.cat.clientOnly.desc	MODを読み込むクライアントにのみ影響する設定。
+config.ichunutil.cat.block.name	ブロック
+config.ichunutil.cat.block.desc	MODのブロックに影響する設定。
+config.ichunutil.cat.bns.name	Boxes & Stuff (B&S)
+config.ichunutil.cat.bns.desc	B&Sを使うGUIに影響する設定。
+config.ichunutil.prop.bnsMinecraftStyle.name	B&SをMinecraft風に
+config.ichunutil.prop.bnsMinecraftStyle.desc	B&SのGUIをMinecraft風に描画する。\n0 = 初期スタイル\n1 = バニラスタイル\n2 = テクスチャパックスタイル。
+config.ichunutil.prop.bnsDockPadding.name	ドックの余白
+config.ichunutil.prop.bnsDockPadding.desc	ドッキングしたウィンドウに加える余白の量。
+config.ichunutil.prop.bnsDockBorder.name	ドックの境界サイズ
+config.ichunutil.prop.bnsDockBorder.desc	ウィンドウをドッキングしようとしているとiChunUtilが判断するまでのピクセル数。
+config.ichunutil.prop.bnsDoubleClickSpeed.name	ダブルクリックの速さ
+config.ichunutil.prop.bnsDoubleClickSpeed.desc	ダブルクリックと判定する速さ(tick)。
+config.ichunutil.prop.bnsTooltipCooldown.name	ツールチップの待ち時間
+config.ichunutil.prop.bnsTooltipCooldown.desc	要素にカーソルを合わせてからツールチップを表示するまでの時間(tick)。
+config.ichunutil.prop.bnsTheme.name	テーマ
+config.ichunutil.prop.bnsTheme.desc	Boxes & Stuffで使うテーマ
+gui.ichunutil.configs.title	設定エディター
+gui.ichunutil.configs.configs	設定
+gui.ichunutil.configs.needsRestart	変更した設定の一部は反映に再起動が必要！
+gui.ichunutil.configs.noEditingServerConfig	サーバー設定はシングルプレイのワールドでのみ編集できる！
+gui.ichunutil.element.textField	テキスト欄
+window.popup.title	警告！
+window.saveAs.title	名前を付けて保存
+window.saveAs.fileName	ファイル名
+window.saveAs.overwrite	上書きする？
+window.saveAs.confirmOverwrite	ファイルはすでに存在する！上書きしてよい？
+window.saveAs.failed	ファイルを保存できなかった。
+element.button.clear	クリア
+## itemfilters
+itemGroup.itemfilters.main	Item Filters
+itemGroup.itemfilters.itemfilters	Item Filters
+item.itemfilters.always_true	常に真のフィルター
+item.itemfilters.always_true.description	すべてのアイテムに一致する
+item.itemfilters.always_false	常に偽のフィルター
+item.itemfilters.always_false.description	どのアイテムにも一致しない
+item.itemfilters.or	ORフィルター
+item.itemfilters.or.description	いずれかのフィルターが一致すればよい
+item.itemfilters.and	ANDフィルター
+item.itemfilters.and.description	すべてのフィルターが一致する必要がある
+item.itemfilters.not	NOTフィルター
+item.itemfilters.not.description	フィルターを反転する
+item.itemfilters.xor	XORフィルター
+item.itemfilters.xor.description	2つのフィルターのどちらか一方だけが一致する必要がある
+item.itemfilters.tag.description	「minecraft:wool」や「forge:cobblestone」などのタグ名
+item.itemfilters.mod.description	MOD IDを使う
+item.itemfilters.id_regex	ID正規表現フィルター
+item.itemfilters.id_regex.description	アイテムIDを正規表現で判定する
+item.itemfilters.damage	耐久値フィルター
+item.itemfilters.damage.description	アイテムの耐久値を判定する
+item.itemfilters.block	ブロックフィルター
+item.itemfilters.block.description	アイテムがブロックかどうかを判定する
+item.itemfilters.max_count	最大数フィルター
+item.itemfilters.max_count.description	アイテムの最大スタック数を判定する
+item.itemfilters.strong_nbt	NBTフィルター(厳密)
+item.itemfilters.strong_nbt.description	NBT全体が等しい場合に一致する
+item.itemfilters.weak_nbt	NBTフィルター(緩い)
+item.itemfilters.weak_nbt.description	NBTの指定した部分だけが含まれていれば一致する
+item.itemfilters.custom	カスタムフィルター
+item.itemfilters.custom.description	動かすにはMODかスクリプト(通常はKubeJS)が必要
+itemfilters.variants	バリエーション [%d]
+itemfilters.help_text.variants	Tab、マウスホイール、上下キー: 強調表示を移動\nEnter: 強調表示中のものを選択
+itemfilters.help_text.filter	フィルター(右クリックでクリア)
+itemfilters.help_text.nbt	NBT文字列\n▶ 例: { text:"hello", value: 1, active: true }
+itemfilters.help_text.weak_nbt	緩いNBT文字列\n▶ 例: { text:"hello", value: 1, active: true }\n▶ 指定したNBTの項目だけを判定する(アイテムの他の項目は無視)
+itemfilters.help_text.regex	正規表現\n アイテムIDと照合する\n▶ 例: "^minecraft:" はすべてのバニラアイテムに一致する
+itemfilters.help_text.max_count	最大スタック数\n▶ 比較演算子も使える。例: "<64" や ">=16"
+itemfilters.help_text.damage	アイテムの耐久値\n▶ 比較演算子も使える。例: "<10" や ">=5"\n パーセントでも指定できる。例: ">50%"
+## simplemagnets
+simplemagnets.item_group	Simple Magnets
+simplemagnets.item.basicmagnet	マグネット
+simplemagnets.item.advancedmagnet	高度なマグネット
+simplemagnets.basicmagnet.info	有効にすると最大%dブロック先のアイテムと経験値を回収できる
+simplemagnets.advancedmagnet.info	有効にすると最大%dブロック先のアイテムと経験値を回収できる。アイテムは絞り込める
+simplemagnets.magnets.toggle_message	マグネット:
+=On	オン
+=Off	オフ
+simplemagnets.block.basic_demagnetization_coil	消磁コイル
+simplemagnets.block.advanced_demagnetization_coil	高度な消磁コイル
+simplemagnets.demagnetization_coil.info.no_filter	最大%dブロック先のアイテムがマグネットに引き寄せられないようにする
+simplemagnets.demagnetization_coil.info.filtered	最大%dブロック先のアイテムがマグネットに引き寄せられないようにする。アイテムは絞り込める
+simplemagnets.gui.magnet.title	高度なマグネット
+simplemagnets.gui.magnet.items	アイテム
+simplemagnets.gui.magnet.xp	経験値
+simplemagnets.gui.magnet.filter	アイテムフィルター
+=Increase Range	範囲を広げる
+=Decrease Range	範囲を狭める
+=Range (%1$dx%1$dx%1$d Blocks)	範囲(%1$dx%1$dx%1$dブロック)
+simplemagnets.gui.magnet.whitelist.on	ホワイトリスト
+simplemagnets.gui.magnet.whitelist.off	ブラックリスト
+simplemagnets.gui.demagnetization_coil.durability.on	NBTを照合
+simplemagnets.gui.demagnetization_coil.durability.off	NBTを無視
+simplemagnets.gui.demagnetization_coil.show_range	範囲を強調表示: %s
+simplemagnets.gui.demagnetization_coil.show_range.on	はい
+simplemagnets.gui.demagnetization_coil.show_range.off	いいえ
+simplemagnets.keys.category	Simple Magnets
+simplemagnets.keys.toggle	マグネットの切り替え

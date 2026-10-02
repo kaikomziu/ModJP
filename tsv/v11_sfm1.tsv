@@ -1,0 +1,205 @@
+## sfm
+mod.name	Super Factory Manager
+item_group.sfm	Super Factory Manager
+key.categories.sfm	Super Factory Manager
+container.sfm.manager	ファクトリーマネージャー
+container.sfm.test_barrel_tank	テスト用の樽タンク
+@ block.sfm.
+.buffer	資源バッファ
+.cable_facade	インベントリケーブルの外装
+.fancy_cable	装飾インベントリケーブル
+.fancy_cable_facade	装飾インベントリケーブルの外装
+.manager	ファクトリーマネージャー
+.printing_press	印刷機
+.printing_press.tooltip	下向きのピストンの下に1マス空けて置く。ピストンを伸ばすと使える。
+.test_barrel	テスト用の樽
+.test_barrel_tank	テスト用の樽タンク
+.tough_cable	頑丈なインベントリケーブル
+.tough_cable.tooltip	爆発に耐える。より頑丈なブロックの外装にできる。
+.tough_cable_facade	頑丈なインベントリケーブルの外装
+.tough_fancy_cable	頑丈な装飾インベントリケーブル
+.tough_fancy_cable_facade	頑丈な装飾インベントリケーブルの外装
+.tunnelled_cable	トンネル式インベントリケーブル
+.tunnelled_cable.tooltip	機能を反対側へ通す。
+.tunnelled_cable_facade	トンネル式インベントリケーブルの外装
+.tunnelled_fancy_cable	トンネル式装飾インベントリケーブル
+.tunnelled_fancy_cable_facade	トンネル式装飾インベントリケーブルの外装
+.tunnelled_manager	トンネル式ファクトリーマネージャー
+.tunnelled_manager.tooltip	機能を反対側へ通す。
+.water_tank.tooltip.1	隣接する2つの水源が必要。
+.water_tank.tooltip.2	他の稼働中の水タンクとも隣接していると効果が上がる。
+@ chat.sfm.
+.config_update_and_sync_result.failed_to_find	SFMの設定tomlが見つからなかった。
+.config_update_and_sync_result.internal_failure	SFMの設定の更新中に問題が発生した。変更されたかどうか不明。サーバーのログを確認すること。
+.config_update_and_sync_result.invalid_config	指定したSFMの設定が無効だったため、何も変更しなかった。
+.config_update_and_sync_result.success	SFMの設定を更新した。
+.manager.cable_network_rebuild.failed_fallback	マネージャー%sのケーブルネットワークを再構築できなかったため、代わりにすべてのケーブルネットワークを消去した
+.manager.cable_network_rebuild.success	マネージャー%sのケーブルネットワークを再構築した
+gui.jei.category.sfm.falling_anvil	落下する金床
+gui.jei.category.sfm.falling_anvil.consumed	消費される
+gui.jei.category.sfm.falling_anvil.not_consumed	消費されない
+gui.jei.category.sfm.printing_press	印刷機
+@ gui.sfm.
+.advanced.tooltip.hint	%sを押し続けると詳細を表示。
+.confirm.funny.no.1	いや、やっぱりやめた
+.confirm.funny.no.2	とんでもない、やめて
+.confirm.funny.no.3	だめだめだめだめ
+.confirm.funny.no.4	いや、今日はやめとく
+.confirm.funny.no.5	中止中止中止
+.confirm.funny.no.6	なんでもない
+.confirm.funny.yes.1	うん、いいよ、やろう。
+.confirm.funny.yes.2	いいよ、何も問題ないでしょ。
+.confirm.funny.yes.3	うん、どうぞ。
+.confirm.funny.yes.4	やっちゃえ。
+.confirm.funny.yes.5	笑 やれ
+.confirm.funny.yes.6	変更を適用。
+.container_inspector.container_slot_count	コンテナのスロット: %d
+.container_inspector.inventory_slot_count	インベントリのスロット: %d
+.container_inspector.mekanism_machine_inputs	以下は機械の入力設定に基づく
+.container_inspector.mekanism_machine_outputs	以下は機械の出力設定に基づく
+.container_inspector.mekanism_null_direction_warning	MEKANISMのブロックはnull方向からは読み取り専用！！！！！！
+.container_inspector.notice.1	GUIのスロットは自動化のスロットと一致するとは限らない！！！
+.container_inspector.notice.2	%sでこの表示を切り替える。
+.container_inspector.show_exports_button	エクスポート検査
+.disk.tooltip.edit_in_hand	手に持ったディスクを右クリックすると、マネージャーの外で編集できる。
+.exit_without_saving_confirm.message	本当に作業を破棄しますか？
+.exit_without_saving_confirm.no_button	編集を続ける
+.exit_without_saving_confirm.title	保存せずに終了しますか？
+.exit_without_saving_confirm.yes_button	保存せずに終了
+.facade_confirm_apply.message	%2$d個のブロックにわたる%1$d種類の外装状態が上書きされます。
+.facade_confirm_apply.title	本当に外装の見た目を更新しますか？
+.facade_confirm_change_world_block.message	%d個のブロックの形が変わります。外装は保持されます。
+.facade_confirm_change_world_block.title	本当に外装のワールドブロックを変更しますか？
+.facade_confirm_clear.message	%2$d個のブロックにわたる%1$d種類の外装状態がワールドから消去されます。
+.facade_confirm_clear.title	本当にこれらの外装を消去しますか？
+.item_inspector.copied_to_clipboard	{}文字をクリップボードにコピーした！
+.label_gun.button.toggle_label_view	ラベルの表示を切り替え
+.label_gun.clear_button	消去
+.label_gun.label_button	%s (%d)
+.label_gun.label_edit_placeholder	検索、または新しいラベルを入力
+.label_gun.placeholder	ラベル
+.label_gun.prune_button	整理
+.logs.button.clear_logs	ログを消去
+.logs.button.clear_logs.packet_received	ログを消去した
+.logs.button.copy_logs	ログをコピー
+.logs.button.copy_logs.tooltip	Shift+クリックで生データ
+.logs.empty_capability	%s %s 方向=%s の機能の結果が空だった
+.logs.missing_adjacent_cable	%sに隣接するケーブルが見つからない
+.logs.no_content	やあ、世界！\nこの画面上部のボタンでログレベルを変更できる。\nトレース、デバッグ、情報のログレベルは、プログラムを1回実行すると無効になる。\nログを取ると文の実行に時間がかかることがある。\nコピーボタンを使えば別のエディターで見やすくなる。
+.logs.title	ログ
+.manager.button.copy_to_clipboard	クリップボードにコピー
+.manager.button.discord	Discord
+.manager.button.paste_clipboard	クリップボードから貼り付け
+.manager.button.rebuild	ケーブルネットワークを再構築
+.manager.button.reset	リセット
+.manager.button.server_config	サーバー設定を表示
+.manager.button.view_examples	例を見る
+.manager.button.view_examples.tooltip	Ctrl+Shift+Eで例を表示。
+.manager.button.view_logs	ログを見る
+.manager.button.warning.tooltip	クリックで警告とエラーを含むコードをコピー。\nShift+クリックで警告の修正を試みる。
+.manager.button.warning.tooltip.read_only	クリックで警告とエラーを含むコードをコピー。
+.manager.edit_button	編集
+.manager.edit_button.tooltip	%sで編集。
+.manager.hovered_tick_time	カーソル位置のティック時間: %s ms
+.manager.paste_confirm_screen.message	本当にこのディスクを上書きしますか？
+.manager.paste_confirm_screen.no_button	やめる、何も変更しない
+.manager.paste_confirm_screen.title	クリップボードから貼り付けますか？
+.manager.paste_confirm_screen.yes_button	クリップボードを貼り付け
+.manager.peak_tick_time	ピークのティック時間: %s ms
+.manager.reset_confirm_screen.message	本当にこのディスクをリセットしますか？
+.manager.reset_confirm_screen.no_button	やめる、何も変更しない
+.manager.reset_confirm_screen.title	ディスクをリセットしますか？
+.manager.reset_confirm_screen.yes_button	プログラムとラベルを消去
+.manager.state	状態: %s
+.manager.state.invalid_program	無効なプログラム
+.manager.state.no_disk	ディスクなし
+.manager.state.no_program	プログラムなし
+.manager.state.running	実行中
+.manager.status.fix	問題を修正中！
+.manager.status.loaded_clipboard	クリップボードから読み込んだ！
+.manager.status.rebuild	キャッシュを再構築中！
+.manager.status.reset	プログラムとラベルをリセットした！
+.manager.status.saved_clipboard	クリップボードに保存した！
+.manager.tooltip.paste	Ctrl+Vで貼り付け。
+.manager.tooltip.reset	ディスクのデータをすべて消去する。
+.program_editor_config.intellisense	入力補完
+.program_editor_config.intellisense.advanced	高度
+.program_editor_config.intellisense.basic	基本
+.program_editor_config.intellisense.off	オフ
+.program_editor_config.line_numbers	行番号
+.program_editor_config.preferred_editor	使用するエディター
+.program_editor_config.preferred_editor.v1	V1(デフォルト)
+.program_editor_config.preferred_editor.v2	V2
+.program_editor_config.title	プログラムエディターの設定
+.program_template_picker.warning1	次の画面で「完了」を押すと、既存のプログラムが上書きされる！
+.program_template_picker.warning2	代わりに<esc>でキャンセルできる。
+.remove_active_label_confirm.message	本当に%2$d個のブロックからラベル「%1$s」を削除しますか？
+.remove_active_label_confirm.title	ラベルを削除: %s
+.remove_all_labels_confirm.message	本当に%2$d個のブロックから%1$d個のラベルを削除しますか？
+.remove_all_labels_confirm.title	すべてのラベルを削除
+.save_changes_confirm.message	終了する前に保存しますか？
+.save_changes_confirm.no_button	編集を続ける
+.save_changes_confirm.title	変更を保存
+.save_changes_confirm.yes_button	ディスクを上書き
+.text_editor.config_button.tooltip	エディターの設定を開く
+.text_editor.done_button.tooltip	Shift+Enterで確定
+.text_editor.v1.title	テキストエディター
+.text_editor.v2.title	テキストエディター
+.title.intellisense_pick_list	入力補完の候補一覧
+.title.labelgun	ラベルガン
+.title.program_template_picker	プログラムのテンプレート選択
+@ item.sfm.
+.disk	ファクトリーマネージャーのプログラムディスク
+.disk.tooltip.label_section.entry	 - %s: %dブロック
+.disk.tooltip.label_section.header	ラベル
+.form	印刷用の型
+.labelgun	ラベルガン
+.labelgun.chat.pulled	マネージャーからラベルを取り込んだ。代わりに送るにはラベルガンの取り込み修飾キー(%s)を離すこと。
+.labelgun.chat.pushed	マネージャーにラベルを送った。代わりに取り込むにはラベルガンの取り込み修飾キー(%s)を押し続けること。
+.labelgun.chat.skipped_blocks	ケーブルに接していない%d個のブロックをスキップした
+.labelgun.tooltip.clear_reminder	ブロックを%s + %sでラベルを削除。
+.labelgun.tooltip.contiguous_reminder	%sを押し続けると、ケーブルに接している連続したブロックにまとめて変更を行う。
+.labelgun.tooltip.cycle_view_reminder	%sでラベルの表示を切り替え。
+.labelgun.tooltip.gui_reminder	空中で%sしてGUIを開く。
+.labelgun.tooltip.next_reminder	%sで次のラベルを選択。
+.labelgun.tooltip.pick_reminder	ブロックを%s + %sで、そのブロックから使用中のラベルを取得。
+.labelgun.tooltip.previous_reminder	%sで前のラベルを選択。
+.labelgun.tooltip.pull_reminder	ファクトリーマネージャーを%s + %sでラベルを取り込む。
+.labelgun.tooltip.push_reminder	ファクトリーマネージャーを%sでラベルを送る。
+.labelgun.tooltip.scroll_reminder	%s + マウスホイールで次/前のラベルを選択。
+.labelgun.tooltip.target_manager_reminder	%s + %sでファクトリーマネージャー自体にラベルを付ける。
+.labelgun.tooltip.toggle_label_reminder	ブロックを%sで使用中のラベルを切り替え。
+.labelgun.with_label	ラベルガン: 「%s」
+.network_tool.tooltip.1	持っていると壁越しにケーブルが見える。
+.network_tool.tooltip.2	ブロックの面を右クリックすると診断情報を表示。
+.network_tool.tooltip.3	これは不要かもしれない。インベントリで%sを押すと検査表示を切り替えられることを忘れずに。
+.network_tool.tooltip.4	オフハンドに持ち、メインハンドにブロックを持ってケーブルを右クリックすると外装を設定。
+.network_tool.tooltip.5	Ctrl+クリックで連続して外装を設定。
+.network_tool.tooltip.6	Alt+クリックでネットワーク全体の一致するブロックに外装を設定。
+.network_tool.tooltip.7	Ctrl+Alt+クリックでネットワーク全体に外装を設定。
+.network_tool.tooltip.8	%sを押しながらブロックを右クリックすると、ツールをその位置に合わせる。
+.xp_goop	経験値のねばねば
+.xp_shard	経験値の欠片
+@ key.sfm.
+.container_inspector.activation_key	コンテナ検査の切り替え
+.item_inspector.activation_key	(開発中)カーソル下のアイテムをクリップボードにコピー
+.label_gun.clear_modifier	ラベルガンの消去修飾キー
+.label_gun.contiguous_modifier	ラベルガンの連続修飾キー
+.label_gun.next_label	ラベルガンの次のラベル
+.label_gun.open_gui	ラベルガンのGUIを開く
+.label_gun.pick_block_modifier	ラベルガンのブロック選択修飾キー
+.label_gun.previous_label	ラベルガンの前のラベル
+.label_gun.pull_modifier	ラベルガンの取り込み修飾キー
+.label_gun.scroll_modifier	ラベルガンのスクロール修飾キー
+.label_gun.target_manager_modifier	ラベルガンのマネージャー対象修飾キー
+.manager.text_editor	マネージャー画面 - テキストエディターを開く
+.more_info	押し続けて詳細を表示
+.text_editor.accept_intellisense	テキストエディター - 入力補完の候補を確定
+.title_screen.text_editor	タイトル画面 - テキストエディターを開く
+.toggle_label_view_key	ラベルガンの表示を切り替え
+.toggle_network_tool_overlay	ネットワークツールの表示を切り替え
+sfm.command.bust_cable_network_cache.success	ケーブルネットワークのキャッシュを破棄した。
+sfm.command.bust_water_network_cache.success	水ネットワークのキャッシュを破棄した。
+sfm.label_gun.view_mode.show_only_active_and_targeted	使用中のラベルが付いたブロックを表示中。GUIか%sでモードを切り替え
+sfm.label_gun.view_mode.show_only_targeted	狙っているブロックのラベルのみ表示中。GUIか%sでモードを切り替え
+sfm.network_tool.reminder_overlay	%sでネットワークツールの表示を切り替え

@@ -1,0 +1,237 @@
+## casualswing
+creativetab.casual_swing_tab	Casual Swings
+block.casualswing.thick_swing_rope	太いブランコのロープ
+block.casualswing.thin_swing_rope	細いブランコのロープ
+block.casualswing.fine_swing_rope	極細のブランコのロープ
+block.casualswing.fabric_rope	布のブランコのロープ
+block.casualswing.end_rod_rope	エンドロッドのブランコのロープ
+block.casualswing.oak_swing_seat	オークの平らなブランコの座面
+block.casualswing.backed_oak_swing_seat	オークの背もたれ付きブランコの座面
+block.casualswing.spruce_swing_seat	トウヒの平らなブランコの座面
+block.casualswing.backed_spruce_swing_seat	トウヒの背もたれ付きブランコの座面
+block.casualswing.birch_swing_seat	シラカバの平らなブランコの座面
+block.casualswing.backed_birch_swing_seat	シラカバの背もたれ付きブランコの座面
+block.casualswing.jungle_swing_seat	ジャングルの平らなブランコの座面
+block.casualswing.backed_jungle_swing_seat	ジャングルの背もたれ付きブランコの座面
+block.casualswing.acacia_swing_seat	アカシアの平らなブランコの座面
+block.casualswing.backed_acacia_swing_seat	アカシアの背もたれ付きブランコの座面
+block.casualswing.dark_oak_swing_seat	ダークオークの平らなブランコの座面
+block.casualswing.backed_dark_oak_swing_seat	ダークオークの背もたれ付きブランコの座面
+block.casualswing.mangrove_swing_seat	マングローブの平らなブランコの座面
+block.casualswing.backed_mangrove_swing_seat	マングローブの背もたれ付きブランコの座面
+block.casualswing.cherry_swing_seat	サクラの平らなブランコの座面
+block.casualswing.backed_cherry_swing_seat	サクラの背もたれ付きブランコの座面
+block.casualswing.bamboo_swing_seat	竹の平らなブランコの座面
+block.casualswing.backed_bamboo_swing_seat	竹の背もたれ付きブランコの座面
+block.casualswing.crimson_swing_seat	真紅の平らなブランコの座面
+block.casualswing.backed_crimson_swing_seat	真紅の背もたれ付きブランコの座面
+block.casualswing.warped_swing_seat	歪んだ平らなブランコの座面
+block.casualswing.backed_warped_swing_seat	歪んだ背もたれ付きブランコの座面
+block.casualswing.moss_swing_seat	苔の平らなブランコの座面
+block.casualswing.backed_moss_swing_seat	苔の背もたれ付きブランコの座面
+block.casualswing.quartz_moon_swing_seat	クォーツの月の一本吊り座面
+block.casualswing.sea_lantern_moon_swing_seat	シーランタンの月の一本吊り座面
+block.casualswing.blue_ice_moon_swing_seat	青氷の月の一本吊り座面
+casualswing.ponder.swing.header	ブランコの構造
+casualswing.ponder.swing.text_1	ブランコを作るには、まずロープを掛ける同じ高さの支点を見つけます。
+casualswing.ponder.swing.text_2	次に、その下を座面ブロックでつなぎます。
+casualswing.ponder.swing.text_3	ブランコの構造は自動で組み上がります。
+casualswing.ponder.swing.text_4	モブが座ると、ブランコが揺れ始めます。
+casualswing.ponder.swing.text_5	前進(W)で高くこぎ、後退(S)で低くします。ちょうどいい高さとタイミングで降りると、空中へ飛び出します。
+casualswing.ponder.swing.text_6	ロープ1本だけで組み立てられるブランコもあります。
+casualswing.ponder.swing_size.header	ブランコの大きさ
+casualswing.ponder.swing_size.text_1	ブランコはどんな大きさでも組み立てられます。
+## moreprotectables
+itemGroup.moreprotectables	SecurityCraft: More Protectables
+subtitle.moreprotectables.keypad_beep	ピッ
+subtitle.moreprotectables.keypad_beep_confirm	ピピッ
+block.moreprotectables.keypad_oak_door	パスコード付きのオークのドア
+block.moreprotectables.keypad_spruce_door	パスコード付きのトウヒのドア
+block.moreprotectables.keypad_birch_door	パスコード付きのシラカバのドア
+block.moreprotectables.keypad_acacia_door	パスコード付きのアカシアのドア
+block.moreprotectables.keypad_cherry_door	パスコード付きのサクラのドア
+block.moreprotectables.keypad_jungle_door	パスコード付きのジャングルのドア
+block.moreprotectables.keypad_dark_oak_door	パスコード付きのダークオークのドア
+block.moreprotectables.keypad_crimson_door	パスコード付きの真紅のドア
+block.moreprotectables.keypad_warped_door	パスコード付きの歪んだドア
+block.moreprotectables.keypad_mangrove_door	パスコード付きのマングローブのドア
+block.moreprotectables.keypad_bamboo_door	パスコード付きの竹のドア
+block.moreprotectables.keypad_iron_door	パスコード付きの鉄のドア
+block.moreprotectables.keypad_sky_chest	パスコード付きのスカイストーンチェスト
+block.moreprotectables.keypad_smooth_sky_chest	パスコード付きのスカイストーンブロックチェスト
+block.moreprotectables.keypad_dirt_chest	パスコード付きの土のチェスト
+block.moreprotectables.keypad_copper_chest	パスコード付きの銅のチェスト
+block.moreprotectables.keypad_iron_chest	パスコード付きの鉄のチェスト
+block.moreprotectables.keypad_gold_chest	パスコード付きの金のチェスト
+block.moreprotectables.keypad_diamond_chest	パスコード付きのダイヤモンドのチェスト
+block.moreprotectables.keypad_crystal_chest	パスコード付きのクリスタルのチェスト
+block.moreprotectables.keypad_obsidian_chest	パスコード付きの黒曜石のチェスト
+block.moreprotectables.keypad_tropical_bamboo_chest	パスコード付きの竹のチェスト
+block.moreprotectables.keypad_tropical_bamboo_door	パスコード付きの竹のドア
+block.moreprotectables.keypad_tf_twilight_oak_chest	パスコード付きのトワイライトオークのチェスト
+block.moreprotectables.keypad_tf_twilight_oak_door	パスコード付きのトワイライトオークのドア
+block.moreprotectables.keypad_tf_canopy_chest	パスコード付きの林冠木のチェスト
+block.moreprotectables.keypad_tf_canopy_door	パスコード付きの林冠木のドア
+block.moreprotectables.keypad_tf_mangrove_chest	パスコード付きのマングローブのチェスト
+block.moreprotectables.keypad_tf_mangrove_door	パスコード付きのマングローブのドア
+block.moreprotectables.keypad_tf_dark_chest	パスコード付きのダークウッドのチェスト
+block.moreprotectables.keypad_tf_dark_door	パスコード付きのダークウッドのドア
+block.moreprotectables.keypad_tf_time_chest	パスコード付きの刻の木のチェスト
+block.moreprotectables.keypad_tf_time_door	パスコード付きの刻の木のドア
+block.moreprotectables.keypad_tf_transformation_chest	パスコード付きの変化の木のチェスト
+block.moreprotectables.keypad_tf_transformation_door	パスコード付きの変化の木のドア
+block.moreprotectables.keypad_tf_mining_chest	パスコード付きの採掘の木のチェスト
+block.moreprotectables.keypad_tf_mining_door	パスコード付きの採掘の木のドア
+block.moreprotectables.keypad_tf_sorting_chest	パスコード付きの分類の木のチェスト
+block.moreprotectables.keypad_tf_sorting_door	パスコード付きの分類の木のドア
+## jei_mekanism_multiblocks
+text.jei_mekanism_multiblocks.building.lasers	レーザー
+text.jei_mekanism_multiblocks.building.better_fusion_reactor	改良型核融合炉
+text.jei_mekanism_multiblocks.enter	入力
+text.jei_mekanism_multiblocks.reset	リセット
+text.jei_mekanism_multiblocks.clear	消去
+text.jei_mekanism_multiblocks.save	保存
+text.jei_mekanism_multiblocks.import	読み込み
+text.jei_mekanism_multiblocks.import_from_clipboard	クリップボードから読み込み
+text.jei_mekanism_multiblocks.imported_successfully	読み込みました
+text.jei_mekanism_multiblocks.export	書き出し
+text.jei_mekanism_multiblocks.export_to_clipboard	クリップボードに書き出し
+text.jei_mekanism_multiblocks.exported_successfully	書き出しました
+text.jei_mekanism_multiblocks.json_syntax_error	JSON構文エラー
+text.jei_mekanism_multiblocks.duration.days	%s日
+text.jei_mekanism_multiblocks.duration.hours	%s時間
+text.jei_mekanism_multiblocks.duration.minutes	%s分
+text.jei_mekanism_multiblocks.duration.seconds	%s秒
+text.jei_mekanism_multiblocks.duration.ticks	%st
+text.jei_mekanism_multiblocks.example	例
+text.jei_mekanism_multiblocks.preview	プレビュー
+text.jei_mekanism_multiblocks.preview.layers	層: %1$s/%2$s
+text.jei_mekanism_multiblocks.specs.advanced	詳細
+text.jei_mekanism_multiblocks.specs.layout	配置
+text.jei_mekanism_multiblocks.specs.target_energy	目標エネルギー
+text.jei_mekanism_multiblocks.result.pcs_production	PCS生産量
+text.jei_mekanism_multiblocks.result.energy_per_polonium	ポロニウムあたりのエネルギー
+text.jei_mekanism_multiblocks.result.antimatter_per_polonium	ポロニウムあたりの反物質
+text.jei_mekanism_multiblocks.result.supercharging_elements	過充填要素: %s
+text.jei_mekanism_multiblocks.result.processing_speed	処理速度
+text.jei_mekanism_multiblocks.result.boil_efficiency	沸騰効率
+text.jei_mekanism_multiblocks.result.required_heater_usage	必要な加熱器の使用量
+text.jei_mekanism_multiblocks.result.required_laser_energy	必要なレーザーエネルギー
+text.jei_mekanism_multiblocks.result.energy_rate	エネルギー量
+text.jei_mekanism_multiblocks.result.merge_time	合成時間
+text.jei_mekanism_multiblocks.tooltip.max_damage_ticks	損傷0%%から100%%までの時間: %s
+text.jei_mekanism_multiblocks.tooltip.required_heater_usage.plain	平原バイオーム: %s
+text.jei_mekanism_multiblocks.tooltip.required_heater_usage.coldest	最も寒いバイオーム: %s
+text.jei_mekanism_multiblocks.tooltip.required_heater_usage.hottest	最も暑いバイオーム: %s
+text.jei_mekanism_multiblocks.tooltip.heater_near_and_1_sink_1	「%1$s」は
+text.jei_mekanism_multiblocks.tooltip.heater_near_and_1_sink_2	「%2$s」のすぐ隣に置く必要があります
+text.jei_mekanism_multiblocks.tooltip.click_to_simulate	クリックで「%s」をシミュレート
+## voidlessframework
+block.voidlessframework.scrap_alloy	くず合金
+item_group.chaseisframework.voidless	Voidless
+block.chaseisframework.hot_alloy_block	熱い合金ブロック
+block.voidlessframework.hot_alloy_block	熱い合金ブロック
+jei.chaseisframework.alloy_block_jei	熱い合金ブロックが水に触れると冷えて合金ブロックになります
+item.chaseisframework.empty_can	空の缶
+item.voidlessframework.brass_tool_sword	真鍮の剣
+item.voidlessframework.v.description_0	何もしないよ :3
+item.chaseisframework.can_opener	缶切り
+item.voidlessframework.pipe	パイプ
+block.chaseisframework.alloyblock	合金ブロック
+item.voidlessframework.brass_tool_hoe	真鍮のクワ
+block.voidlessframework.alloyblock	合金ブロック
+item.chaseisframework.salt	塩
+item.voidlessframework.alloy	合金
+item.chaseisframework.alloy	合金
+item.voidlessframework.empty_can	空の缶
+item.voidlessframework.brass_tool_pickaxe	真鍮のツルハシ
+item.chaseisframework.used_can	空き缶
+item.voidlessframework.brass	真鍮
+item.voidlessframework.brass_tool_shovel	真鍮のシャベル
+block.chaseisframework.salt_block	塩ブロック
+item.voidlessframework.can_opener	缶切り
+item.voidlessframework.brass_tool_axe	真鍮の斧
+item.voidlessframework.spring	ばね
+item_group.voidlessframework.voidless	Voidless
+item.voidlessframework.brass_armor_armor_boots	真鍮のブーツ
+item.voidlessframework.used_can	空き缶
+item.chaseisframework.v.description_0	何もしないよ :3
+item.voidlessframework.brass_armor_armor_leggings	真鍮のレギンス
+jei.voidlessframework.alloy_block_jei	熱い合金ブロックが水に触れると冷えて合金ブロックになります
+jei.voidlessframework.alloy_explanation	熱い合金ブロックを置くと5分で冷えます。水に触れると即座に冷えます(ネザーを除く)
+block.chaseisframework.scrap_alloy	くず合金
+item.voidlessframework.brass_armor_armor_chestplate	真鍮のチェストプレート
+item.chaseisframework.spring	ばね
+block.voidlessframework.salt_block	塩ブロック
+item.voidlessframework.brass_armor_armor_helmet	真鍮のヘルメット
+item.voidlessframework.salt	塩
+block.voidlessframework.brass_ore_block	真鍮鉱石ブロック
+## comforts
+comforts.skipping_day	この日を眠って過ごしています
+item.comforts.sleeping_bag.auto_use.tooltip	自動で寝ようとします。\n設置するにはしゃがみながら使ってください。
+item.comforts.hammock.placement.tooltip	設置には%sが必要です。
+item.comforts.rope_and_nail.placement.tooltip	ハンモックを設置するのに使います。
+block.comforts.no_sleep	これは飾りなので、ここでは眠れません
+block.comforts.hammock.no_sleep.2	眠れるのは昼間、夜、雷雨の間だけです
+block.comforts.hammock.no_rope	ハンモックはロープと釘の組に掛ける必要があります
+block.comforts.hammock.no_space	ハンモックを掛けるだけの空間がありません
+block.comforts.hammock.missing_rope	ハンモックを掛けるには、反対側にもロープと釘が必要です
+gui.comforts.config.autoUse.name	寝袋を自動で使う
+gui.comforts.config.autoUse.description	有効にすると、寝袋を設置したときにプレイヤーが自動で使おうとします。
+gui.comforts.config.restrictSleeping.name	連続した睡眠を制限
+gui.comforts.config.restrictSleeping.description	有効にすると、眠った後しばらくは再び眠れなくなります。
+gui.comforts.config.restMultiplier.name	眠気の倍率
+gui.comforts.config.restMultiplier.description	restrictSleepingがtrueのとき、この値で待ち時間の長さが決まります(大きいほど早く眠れる)。
+gui.comforts.config.hammockUse.name	ハンモックを使える時間帯
+gui.comforts.config.hammockUse.description	ハンモックを使える時間帯。
+gui.comforts.config.sleepingBagUse.name	寝袋を使える時間帯
+gui.comforts.config.sleepingBagUse.description	寝袋を使える時間帯。
+gui.comforts.config.sleepingBagBreakChance.name	寝袋が壊れる確率
+gui.comforts.config.sleepingBagBreakChance.description	使用時に寝袋が壊れる確率(%)。
+gui.comforts.config.sleepingBagBreakChanceLuckMultiplier.name	寝袋の幸運倍率
+gui.comforts.config.sleepingBagBreakChanceLuckMultiplier.description	プレイヤーの幸運に掛けてからsleepingBagBreakChanceに足す値。
+gui.comforts.config.sleepingBagEffects.name	寝袋の効果
+gui.comforts.config.sleepingBagEffects.description	寝袋を使った後にプレイヤーに付与するステータス効果。\n書式: 効果;持続時間(秒);強さ
+gui.comforts.config.hammocksStopPhantoms.name	ハンモックでファントムを防ぐ
+gui.comforts.config.hammocksStopPhantoms.description	有効にすると、ハンモックで寝ようとするとファントムがスポーンしなくなります。
+gui.comforts.config.sleepingBagsStopPhantoms.name	寝袋でファントムを防ぐ
+gui.comforts.config.sleepingBagsStopPhantoms.description	有効にすると、寝袋で寝ようとするとファントムがスポーンしなくなります。
+gui.comforts.config.daySleepingPercentage.name	昼間の睡眠の割合
+gui.comforts.config.daySleepingPercentage.description	昼間をスキップするために眠る必要があるプレイヤーの割合。\n0にすると1人だけで昼間をスキップでき、100にするとスキップには全員が眠る必要があります。\n0未満の値はゲームルールのplayerSleepingPercentageを使います。
+gui.comforts.config.dayWakeTimeOffset.name	夜→昼の起床時刻のずれ
+gui.comforts.config.dayWakeTimeOffset.description	夜を眠って過ごした後の新しい時刻に加減する時間(tick)。
+gui.comforts.config.nightWakeTimeOffset.name	昼→夜の起床時刻のずれ
+gui.comforts.config.nightWakeTimeOffset.description	昼を眠って過ごした後の新しい時刻に加減する時間(tick)。
+## mekalights
+block.mekalights.meka_light	MekaLightブロック
+block.mekalights.meka_phantom_light	MekaLightファントム(内部用)
+mekalights.gui.usage	使用量: %s/t
+mekalights.gui.insufficient	⚠ %s/t 必要
+mekalights.gui.section.range	範囲
+mekalights.gui.section.intensity	強さ
+mekalights.gui.section.aperture	開口角
+mekalights.gui.section.direction	向き
+mekalights.gui.section.debug	デバッグ
+mekalights.gui.section.mode	モード
+mekalights.gui.range_value	%sブロック
+mekalights.gui.intensity_value	%s%%
+mekalights.gui.aperture_value	%s°
+mekalights.gui.mode_sphere	球
+mekalights.gui.mode_disc	円盤
+mekalights.gui.mode_cone	円錐
+mekalights.gui.mode_dome	ドーム
+mekalights.gui.mode_cylinder	円柱
+mekalights.gui.section.height	高さ
+mekalights.gui.dir_down	▼ 下
+mekalights.gui.dir_up	▲ 上
+mekalights.gui.dir_north	◀ 北
+mekalights.gui.dir_south	▶ 南
+mekalights.gui.dir_east	▶ 東
+mekalights.gui.dir_west	◀ 西
+mekalights.gui.debug_off_btn	デバッグ: OFF
+mekalights.gui.debug_on_btn	デバッグ: ON
+mekalights.gui.debug_on	デバッグ ON
+mekalights.jade.usage	使用量: %s/t
+mekalights.jade.active	稼働中
+mekalights.jade.inactive	停止中(エネルギーなし)
+mekalights.jade.insufficient	⚠ 電力不足 — %s/t 必要

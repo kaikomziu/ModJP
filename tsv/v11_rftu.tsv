@@ -1,0 +1,169 @@
+## rftoolsutility
+itemGroup.rftoolsutility	RFTools Utility
+=Power usage: 	消費電力:
+=Monitoring: 	監視中:
+=Uses: 	消費:
+=Channel: 	チャンネル:
+=Counter: 	カウンター:
+=Contents: 	中身:
+=Recipes: 	レシピ:
+=Energy: 	エネルギー:
+=Target: 	対象:
+=Name: 	名前:
+=Once: 	1回のみ:
+=Infusing bonus: reduced power consumption	注入ボーナス: 消費電力の削減
+=This module only works on mobs (see config)	このモジュールはモブにのみ効く(設定を参照)
+=Tablet that can be used to reference remote gui's and information	離れたGUIや情報を参照できるタブレット
+=A module for a Screen to display the current count of a Counter block	カウンターブロックの現在のカウントを表示するスクリーン用モジュール
+=Sneak right-click on a counter to set the target for this counter module	カウンターをスニーク右クリックすると、このカウンターモジュールの対象に設定する
+=A module for a Screen that allows you to display the energy status of a block	ブロックのエネルギー状態を表示するスクリーン用モジュール
+=Sneak right-click on a machine to set the target for this energy module	機械をスニーク右クリックすると、このエネルギーモジュールの対象に設定する
+=A module for a Screen that allows you to display the contents of a tank	タンクの中身を表示するスクリーン用モジュール
+=Sneak right-click on a tank to set the target for this fluid module	タンクをスニーク右クリックすると、この液体モジュールの対象に設定する
+=A module for a Screen that allows you to display up to 4 slots of an inventory	インベントリの最大4スロットを表示するスクリーン用モジュール
+=Sneak right-click on an inventory to set the target for this inventory module	インベントリをスニーク右クリックすると、このインベントリモジュールの対象に設定する
+=This RF/charged item allows you to teleport to a previously set matter receiver. Sneak-right clickon a receiver to set the destination. Right click to perform the teleport	このRF充電式アイテムを使うと、事前に設定した物質受信機へテレポートできる。受信機をスニーク右クリックすると行き先を設定。右クリックでテレポートする
+=This module gives feather falling bonus when used in the environmental controller	環境制御装置で使うと落下耐性のボーナスを与えるモジュール
+@ item.rftoolsutility.
+.charged_porter	充電式ポーター
+.advanced_charged_porter	高度な充電式ポーター
+.text_module	テキストスクリーンモジュール
+.energy_module	エネルギースクリーンモジュール
+.energyplus_module	エネルギー+スクリーンモジュール
+.inventory_module	インベントリスクリーンモジュール
+.inventoryplus_module	インベントリ+スクリーンモジュール
+.clock_module	時計スクリーンモジュール
+.fluid_module	液体スクリーンモジュール
+.fluidplus_module	液体+スクリーンモジュール
+.counter_module	カウンタースクリーンモジュール
+.counterplus_module	カウンター+スクリーンモジュール
+.redstone_module	レッドストーンスクリーンモジュール
+.machineinformation_module	機械情報スクリーンモジュール
+.computer_module	コンピュータースクリーンモジュール
+.button_module	ボタンスクリーンモジュール
+.module_template	モジュールテンプレート
+.moduleplus_template	モジュール+テンプレート
+.regeneration_module	再生能力モジュール
+.regenerationplus_module	再生能力+モジュール
+.speedplus_module	移動速度+モジュール
+.haste_module	採掘速度上昇モジュール
+.hasteplus_module	採掘速度上昇+モジュール
+.saturation_module	満腹度回復モジュール
+.saturationplus_module	満腹度回復+モジュール
+.featherfalling_module	落下耐性モジュール
+.featherfallingplus_module	落下耐性+モジュール
+.flight_module	飛行モジュール
+.peaceful_module	ピースフルモジュール
+.waterbreathing_module	水中呼吸モジュール
+.nightvision_module	暗視モジュール
+.glowing_module	発光モジュール
+.luck_module	幸運モジュール
+.noteleport_module	テレポート禁止モジュール
+.blindness_module	盲目モジュール
+.weakness_module	弱体化モジュール
+.poison_module	毒モジュール
+.slowness_module	移動速度低下モジュール
+.tablet_redstone	タブレット(レッドストーン)
+.tablet_screen	タブレット(スクリーン)
+.screen_link	スクリーンリンク
+@ block.rftoolsutility.
+.crafter1	クラフター Tier 1
+.crafter2	クラフター Tier 2
+.crafter3	クラフター Tier 3
+.matter_booster	物質ブースター
+.matter_transmitter	物質送信機
+.matter_receiver	物質受信機
+.destination_analyzer	行き先分析機
+.dialing_device	ダイヤル装置
+.simple_dialer	シンプルダイヤラー
+.screen_controller	スクリーンコントローラー
+.creative_screen	クリエイティブスクリーン
+.matter_beamer	物質ビーマー
+.spawner	スポナー
+.environmental_controller	環境制御装置
+.analog	アナログ
+.counter	カウンター
+.digit	デジット
+.invchecker	インベントリチェッカー
+.sensor	センサー
+.sequencer	シーケンサー
+.logic	ロジック
+.redstone_receiver	レッドストーン受信機
+.redstone_transmitter	レッドストーン送信機
+@ message.rftoolsutility.
+.shiftmessage	<Shiftを押す>
+.analog.header	アナログは2つの側面の入力に基づいて、入力されたレッドストーン信号で簡単な「計算」ができる
+.counter.header	カウンターは指定した最大値までレッドストーンのパルスを数えられる(最大値に達すると自分でレッドストーンのパルスを出す)
+.digit.header	デジットブロックは入力されたレッドストーン信号の強さを表示する
+.invchecker.header	インベントリチェッカーはインベントリにアイテムがあるかを確認してレッドストーン信号を出せる
+.sensor.header	センサーはモブ、プレイヤー、ブロック、液体、作物の成長などを検出し、条件に応じてレッドストーン信号を出せる
+.sequencer.header	シーケンサーは特定の入力信号に応じて一連のレッドストーンのパルスを出せる。シーケンスは繰り返すこともできる
+.logic.header	ロジックブロックは真理値表に従って3つの入力信号を1つの出力信号にまとめられる
+.timer.header	タイマーブロックは一定間隔でレッドストーンのパルスを出せる
+.wire.header	ワイヤーブロックはとてもシンプルな遅延のないレッドストーン線。直線のみ
+.tablet_redstone.gold	レッドストーン情報入りのタブレット: 右クリックでレッドストーンGUI、スニーク右クリックでタブレットGUI
+.tablet_screen.gold	スクリーン入りのタブレット: 右クリックでスクリーン、スニーク右クリックでタブレットGUI
+.screen_link.header	ワールド内のスクリーンを参照し、タブレットに入れて使えるアイテム
+.screen_link.gold	スクリーンをスニーク右クリックしてリンク
+.screen_link.info	スクリーン:
+.redstone_information.header	タブレットで使い、無線のレッドストーンを表示・制御できるモジュール
+.redstone_information.gold	レッドストーン送信機か受信機を右クリックすると、そのチャンネルをこのモジュールに追加する
+.redstone_information.channels	チャンネル:
+.redstone_receiver.header	レッドストーン受信機は(レッドストーン送信機やボタンモジュールから)遠隔でレッドストーン信号を受け取れる
+.redstone_receiver.gold	物質送信機か他のレッドストーン受信機を右クリックしてリンク
+.redstone_transmitter.header	レッドストーン送信機はレッドストーン信号を受け取り、リンクした受信機へ無線で送る
+.redstone_transmitter.gold	設置するとチャンネルを作る。または受信機/送信機を右クリックしてそのチャンネルを使う
+.button_module.header	押すとレッドストーン信号を送るスクリーン用モジュール
+.button_module.gold	レッドストーン受信機をスニーク右クリックすると、このモジュール用のチャンネルを作って受信機にも設定する。送信機や設定済みの受信機に使うと、そのチャンネルをボタンにコピーできる
+.button_module.info	チャンネル:
+.clock_module.header	現在時刻を表示するスクリーン用モジュール
+.text_module.header	テキストを表示するスクリーン用モジュール
+.text_module.info	テキスト:
+.machineinformation_module.header	機械を監視できるスクリーン用モジュール(このシステムに対応した機械のみ)
+.machineinformation_module.gold	対応するブロックをスニーク右クリックすると、このモジュールの対象に設定する
+.redstone_module.header	レッドストーンのチャンネルの状態を表示するスクリーン用モジュール
+.redstone_module.gold	レッドストーン送信機か受信機をスニーク右クリックすると、このモジュールのチャンネルに設定する。または任意のブロックの側面をスニーク右クリックすると、その面のレッドストーン出力を監視する
+.syringe.header	注射器はモブに使ってそのエッセンスを採取できる。採取したものはスポナーで使える。注射器は満タンである必要がある
+.syringe.level	レベル:
+.dialing_device.header	ダイヤル装置を使うと、近くの物質送信機をMinecraftの世界のどの物質受信機にも「ダイヤル」できる。電力が必要。このブロックの隣に行き先分析機があれば、行き先に安全なだけの電力があるかも確認できる
+.matter_receiver.header	このブロックをワールドのどこかに置けば、ダイヤル装置でそこへダイヤルできる。このブロックへテレポートする前に必ず電力を与えること！
+.matter_transmitter.header	このブロックをダイヤル装置の近くに置けば、物質受信機へダイヤルできる。十分な電力を与えること！このブロックの隣に行き先分析機を置くと行き先の状態を確認できる(赤は悪い、緑は良い、黄は不明)。このブロックの隣に物質ブースターを置くと、電力のない受信機へもテレポートできる
+.matter_transmitter.gold	注入ボーナス: 消費電力の削減とテレポート速度の上昇
+.matter_transmitter.dialed	ダイヤル先:
+.simple_dialer.header	このブロックはレッドストーン信号を受けると送信機をダイヤルまたは切断する。このブロックで送信機かダイヤル済みの受信機をスニーク右クリックすると行き先を設定する
+.simple_dialer.transmitter	送信機:
+.simple_dialer.receiver	受信機:
+.matter_beamer.header	このブロックは物質をエネルギーのビームに変換し、接続したスポナーへ送る。レンチで接続する
+.matter_beamer.gold	注入ボーナス: 消費電力の削減、速度の上昇、必要な素材の削減
+.spawner.header	このブロックは生き物をスポーンできる。適切な種類の注射器、RF電力、そしてエネルギーを帯びた物質のビームが必要
+.spawner.gold	注入ボーナス: 消費電力の削減
+.screen.header	これはモジュール式のスクリーン。そのままでは何も表示しない。モジュールを入れて表示内容を決める必要がある。このスクリーンには直接電力を与えられず、近くのスクリーンコントローラーから遠隔で給電する必要がある
+.creative_screen.header	これはモジュール式のスクリーン。そのままでは何も表示しない。モジュールを入れて表示内容を決める必要がある。通常のスクリーンのクリエイティブ版で、電力は不要
+.screen_controller.header	スクリーンが動くには、このコントローラーから電力を受ける必要がある。電力が不要なモジュールだけのスクリーンでもコントローラーが必要。1つのコントローラーで範囲内のたくさんのスクリーンに給電できる
+.screen_controller.gold	注入ボーナス: スクリーンの範囲の拡大
+.environmental_controller.header	環境制御装置を使うと、広い範囲にさまざまな効果を与えられる
+.regeneration_module.header	環境制御装置で使うと再生能力のボーナスを与えるモジュール
+.regenerationplus_module.header	環境制御装置で使うと再生能力 IIIのボーナスを与えるモジュール
+.speed_module.header	環境制御装置で使うと移動速度のボーナスを与えるモジュール
+.speedplus_module.header	環境制御装置で使うと移動速度 IIIのボーナスを与えるモジュール
+.haste_module.header	環境制御装置で使うと採掘速度上昇のボーナスを与えるモジュール
+.hasteplus_module.header	環境制御装置で使うと採掘速度上昇 IIIのボーナスを与えるモジュール
+.saturation_module.header	環境制御装置で使うと満腹度回復のボーナスを与えるモジュール
+.saturationplus_module.header	環境制御装置で使うと満腹度回復 IIIのボーナスを与えるモジュール
+.featherfalling_module.gold	ダメージは通常の半分になる。
+.featherfallingplus_module.gold	ダメージは0になる
+.flight_module.header	環境制御装置で使うとクリエイティブのような飛行能力を与えるモジュール
+.peaceful_module.header	環境制御装置で使うと敵対モブのスポーンを防ぐモジュール
+.waterbreathing_module.header	環境制御装置で使うと水中呼吸のボーナスを与えるモジュール
+.nightvision_module.header	環境制御装置で使うと暗視のボーナスを与えるモジュール
+.glowing_module.header	環境制御装置で使うと発光効果を与えるモジュール
+.luck_module.header	環境制御装置で使うと幸運のボーナスを与えるモジュール
+.noteleport_module.header	環境制御装置で使うとシュルカーとエンダーマンのテレポートを防ぐモジュール
+.blindness_module.header	環境制御装置で使うと盲目を与えるモジュール
+.weakness_module.header	環境制御装置で使うと弱体化を与えるモジュール
+.poison_module.header	環境制御装置で使うと毒を与えるモジュール
+.slowness_module.header	環境制御装置で使うと移動速度低下を与えるモジュール
+.crafter1.header	この機械は同時に最大2つのレシピを扱え、前の段階のクラフト結果をレシピに使える
+.crafter2.header	この機械は同時に最大4つのレシピを扱え、前の段階のクラフト結果をレシピに使える
+.crafter3.header	この機械は同時に最大8つのレシピを扱え、前の段階のクラフト結果をレシピに使える
+.tank.header	フィルター対応の液体タンク

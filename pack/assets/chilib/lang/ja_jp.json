@@ -1,0 +1,10 @@
+{
+  "attribute.chilib.arrow_damage": "矢のダメージ",
+  "attribute.chilib.arrow_velocity": "矢の速度",
+  "attribute.chilib.crit_chance": "会心率",
+  "attribute.chilib.crit_damage": "会心ダメージ",
+  "attribute.chilib.life_steal": "生命吸収",
+  "attribute.chilib.heal": "回復",
+  "attribute.chilib.jump": "ジャンプ",
+  "attribute.chilib.physic_resistance": "物理耐性"
+}

@@ -1,0 +1,14 @@
+{
+  "text.autoconfig.yungsmenutweaks-fabric-1_20_1.title": "YUNG's Menu Tweaks",
+  "text.autoconfig.yungsmenutweaks-fabric-1_20_1.option.yungsMenuTweaks.enableRightClickCycleButton": "右クリックで切替ボタンを逆回し",
+  "text.autoconfig.yungsmenutweaks-fabric-1_20_1.option.yungsMenuTweaks.enableRightClickCycleButton.@Tooltip": "一部のボタンで、右クリックすると選択肢を逆順に切り替えられるようにします。",
+  "text.autoconfig.yungsmenutweaks-fabric-1_20_1.option.yungsMenuTweaks.enableMouseScrollOnSliders": "マウスホイールでスライダーを操作",
+  "text.autoconfig.yungsmenutweaks-fabric-1_20_1.option.yungsMenuTweaks.enableMouseScrollOnSliders.@Tooltip[0]": "スライダーにカーソルを合わせているとき、",
+  "text.autoconfig.yungsmenutweaks-fabric-1_20_1.option.yungsMenuTweaks.enableMouseScrollOnSliders.@Tooltip[1]": "マウスホイールで値を変更できるようにします。",
+  "text.autoconfig.yungsmenutweaks-fabric-1_20_1.option.yungsMenuTweaks.enableBackgroundTexture": "カスタム背景テクスチャを有効化",
+  "text.autoconfig.yungsmenutweaks-fabric-1_20_1.option.yungsMenuTweaks.enableBackgroundTexture.@Tooltip[0]": "有効にすると、可能な場所でカスタム背景テクスチャが使われます。",
+  "text.autoconfig.yungsmenutweaks-fabric-1_20_1.option.yungsMenuTweaks.enableBackgroundTexture.@Tooltip[1]": "使用するテクスチャは下の「カスタム背景テクスチャ」で指定します。",
+  "text.autoconfig.yungsmenutweaks-fabric-1_20_1.option.yungsMenuTweaks.backgroundTexture": "カスタム背景テクスチャ",
+  "text.autoconfig.yungsmenutweaks-fabric-1_20_1.option.yungsMenuTweaks.backgroundTexture.@Tooltip[0]": "通常の土の代わりに背景として使う16x16のテクスチャ。",
+  "text.autoconfig.yungsmenutweaks-fabric-1_20_1.option.yungsMenuTweaks.backgroundTexture.@Tooltip[1]": "「カスタム背景テクスチャを有効化」がオンのときのみ効果があります。"
+}

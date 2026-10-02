@@ -1,0 +1,211 @@
+## immersiveoverlays
+=Align overlay to the left edge	表示を左端に揃える
+=Align overlay to left edge	表示を左端に揃える
+=Text Color	文字の色
+=If this list contains no loaded items, the X coordinate item list is used instead.	このリストに読み込まれたアイテムがない場合、代わりにX座標のアイテムリストを使う。
+=If this list contains no loaded items, the time overlay list is used instead.	このリストに読み込まれたアイテムがない場合、代わりに時刻表示のリストを使う。
+=If this list contains no loaded blocks, the time overlay list is used instead.	このリストに読み込まれたブロックがない場合、代わりに時刻表示のリストを使う。
+=If this list contains no loaded items, the X coordinate block list is used instead.	このリストに読み込まれたアイテムがない場合、代わりにX座標のブロックリストを使う。
+=If this list contains no loaded blocks, the X coordinate block list is used instead.	このリストに読み込まれたブロックがない場合、代わりにX座標のブロックリストを使う。
+=Requires Jade	Jadeが必要
+=Requires Oreganized	Oreganizedが必要
+=Requires Breezy	Breezyが必要
+=Use Breezy for Wind	風にBreezyを使う
+=Moon Overlay At Night	夜だけ月を表示
+=Items that show speed overlay	速度を表示するアイテム
+@ config.immersiveoverlays.
+.biome_title	バイオーム
+.clock_title	時刻/天気/季節
+.compass_title	座標
+.moon_title	月
+.compat_title	互換
+.allow_blocks	ブロックを許可
+.allow_blocks.tooltip	有効にすると、設定した距離内のブロックが、追加されたリストに応じて表示を有効にする。
+.allow_blocks_distance	ブロックを許可する距離
+.avoid_overlapping	表示の重なりを避ける
+.avoid_overlapping.tooltip	Immersive Overlaysの表示同士が重ならないようにするが、デフォルトの設定に基づいて行われる。位置を手動で調整したい場合は無効にする。
+.biome_enable	バイオームの表示を有効化
+.biome_icons	バイオームを表すアイコンを表示
+.biome_items	バイオームを表示するアイテム
+.biome_blocks	バイオームを表示するブロック
+.biome_text_tinted	バイオームの気温で文字に色を付ける
+.biome_text_tinted.tooltip	色の設定は気温の項目にある。
+.biome_reduced_info	バイオーム情報を簡略化
+.biome_reduced_info.tooltip	座標の表示にバイオームのアイコンを表示する
+.biome_vertical_position	バイオームの表示位置
+.clock_24_hour	24時間表示
+.clock_current_time	現在時刻を表示
+.clock_day_count	時計と一緒に日数を表示
+.clock_day_count.tooltip	「日数」リストのアイテムを持っている場合はそちらが優先される。
+.clock_day_count_items	日数のアイテム
+.clock_day_count_blocks	日数のブロック
+.clock_enable	時刻、天気、季節の表示を有効化
+.clock_items	時刻を表示するアイテム
+.clock_blocks	時刻を表示するブロック
+.clock_require_weather_item	天気には別のアイテムを必要とする
+.clock_vertical_position	時刻、天気、季節の表示位置
+.clock_weather_items	天気を表示するアイテム
+.clock_weather_blocks	天気を表示するブロック
+.compass_enable	座標の表示を有効化
+.compass_hide_when_similar_mods_present	座標の重複を防ぐ
+.compass_hide_when_similar_mods_present.tooltip	他のMODの表示があるときは座標を隠す
+.compass_require_y_item	深さには別のアイテムを必要とする
+.compass_single_line	座標を1行で表示
+.compass_vertical_position	座標の表示位置
+.compass_direction	方位
+.compass_direction_text_colour	方位の色
+.compass_text_colour	文字の色
+.compass_x_colour	Xの色
+.compass_lodestone_colour	ロードストーンの色
+.compass_recovery_colour	リカバリーの色
+.compass_x_items	X座標を表示するアイテム
+.compass_x_blocks	X座標を表示するブロック
+.compass_y_colour	Yの色
+.compass_y_items	Y座標を表示するアイテム
+.compass_y_blocks	Y座標を表示するブロック
+.compass_z_colour	Zの色
+.compass_z_items	Z座標を表示するアイテム
+.compass_anchor_items	アンカー(ロードストーンなど)を指せるアイテム
+.compass_relative_pos	アンカー(ロードストーンなど)からの相対座標を表示
+.compass_relative_pos.tooltip	アンカーを指せる最初のアイテムが見つかるとそれ以上探さないため、どの座標を表示するかを制御できる
+.compass_z_blocks	Z座標を表示するブロック
+.compat_accessorify	Accessorifyの表示を置き換える
+.compat_accessorify.tooltip	Accessorifyが必要
+.compat_map_atlases	バンドル内の地図帳を許可(実験的)
+.compat_map_atlases.tooltip	Map Atlasesが必要。実験的機能で、地図帳に書き込もうとすると問題が起こる。
+.compat_oreganized_temperature	気温にOreganizedを使う
+.compat_oreganized_speed	速度にOreganizedを使う
+.compat_breezy	風にBreezyを使う
+.compat_legendary_survival_overhaul_temperature	気温にLegendary Survival Overhaulを使う
+.compat_playerlocatorplus	ロケーターバーの移植版にコンパスを必要とする
+.compat_playerlocatorplus.tooltip	Player Locator PlusかBetter Player Locator Barが必要
+.compat_dead_reckoning	バンドル内のDead Reckoningのコンパスを許可
+.compat_dead_reckoning.tooltip	Dead Reckoningが必要
+.clock_seasons	季節の表示を有効化
+.clock_seasons.tooltip	対応する季節MODが必要
+.compat_serene_seasons	季節にSerene Seasonsを使う
+.compat_serene_seasons.tooltip	Serene Seasonsが必要
+.compat_fabric_seasons	季節にFabric Seasonsを使う
+.compat_fabric_seasons.tooltip	Fabric Seasonsが必要
+.compat_simple_seasons	季節にSimple Seasonsを使う
+.compat_simple_seasons.tooltip	Simple Seasonsが必要
+.compat_tfc_seasons	季節にTFCを使う
+.compat_tfc_seasons.tooltip	TerraFirmaCraftが必要
+.compat_ecliptic_seasons	季節にEcliptic Seasonsを使う
+.compat_ecliptic_seasons.tooltip	Ecliptic Seasonsが必要
+.compat_cold_sweat_temperature	気温にCold Sweatを使う
+.compat_cold_sweat_temperature.tooltip	Cold Sweatが必要
+.compat_tough_as_nails_temperature	気温にTough as Nailsを使う
+.compat_tough_as_nails_temperature.tooltip	Tough as Nailsが必要
+.compat_thermoo_temperature	気温にThermooを使う
+.compat_thermoo_temperature.tooltip	Thermooが必要
+.compat_xaeros	コンテナ内のXaero's Minimapのアイテムを許可
+.compat_xaeros.tooltip	Xaero's Minimap/World Mapとその「minimapItemId」の設定が必要。
+.compat_antique_atlas	コンテナ内のAntique Atlasのアイテムを許可
+.compat_antique_atlas.tooltip	Antique Atlas 4とその「requireItem」の設定が必要。
+.compat_jade	Jadeにアイテムを必要とする
+.compat_waila_items	Jadeの表示を出すアイテム。
+.compat_waila_blocks	Jadeの表示を出すブロック。
+.hide_from_debug	F3画面で表示を隠す
+.enabled	有効
+.enabled.tooltip	Immersive Overlays全体のオン/オフ。キー操作でも切り替えられる。
+.locator_bar	ロケーターバーにコンパスを必要とする
+.moved_by_effects	ステータス効果で表示を下にずらす
+.moon_enable	月の表示を有効化
+.moon_items	月を表示するアイテム
+.moon_blocks	月を表示するブロック
+.moon_text_colour	月の文字の色
+.moon_text_colour_from_events	月のイベントで文字の色を変える
+.moon_text_colour_from_events.tooltip	月のイベントで表示の文字の色を変えられるようにする。MODによっては読みにくくなることがある。
+.moon_vertical_position	月の表示位置
+.moon_reduced_info	月の情報を簡略化
+.moon_reduced_info.tooltip	月の表示を時計の表示とまとめ、文字を隠す。
+.render_background	背景を表示
+.render_endcap	背景の端の飾りを表示
+.render_endcap.tooltip	右側の端の飾りを取り除く。左端を四角くするリソースパックと一緒に使うのが最適。
+.require_item	アイテムを必要とする
+.require_item.tooltip	表示を有効にするのにアイテムを必要とする。これがこのMODの想定された使い方。
+.require_item_in_hand	手にアイテムを持つことを必要とする
+.search_containers	バンドル/コンテナ内のアイテムを許可
+.search_containers.tooltip	例えば、バンドルやシュルカーボックスの中のコンパスも有効になる。
+.search_containers_for_containers	バンドル/コンテナ内のコンテナを許可
+.search_containers_for_containers.tooltip	例えば、シュルカーボックスの中のバンドルの中のコンパスも有効になる。
+.season_items	季節を表示するアイテム
+.season_blocks	季節を表示するブロック
+.temperature_enable	気温の表示を有効化
+.temperature_icons	気温のアイコン
+.temperature_icons.tooltip	気温を表すアイコンを表示する
+.temperature_hot_colour	暑いときの文字の色
+.temperature_cold_colour	寒いときの文字の色
+.temperature_temperate_colour	温暖なときの文字の色
+.temperature_items	気温を表示するアイテム
+.temperature_vertical_position	気温の表示位置
+.temperature_title	気温
+.speed_enable	速度の表示を有効化
+.speed_colour	速度の文字の色
+.speed_vertical_position	速度の表示位置
+.speed_title	速度
+.wind_enable	風の表示を有効化
+.wind_icons	風の強さのアイコン
+.wind_icons.tooltip	風の強さを表すアイコンを表示する
+.wind_colour	風の文字の色
+.wind_items	風を表示するアイテム
+.wind_blocks	風を表示するブロック
+.wind_vertical_position	風の表示位置
+.wind_title	風
+.title	Immersive Overlays
+@ gui.c.
+.day	%s日目
+.temperature.hot	暑い
+.temperature.cold	寒い
+.temperature.warm	暖かい
+.temperature.temperate	温暖
+.temperature.heat_stroke	熱中症
+.temperature.frostbite	凍傷
+.temperature.normal	普通
+.direction.north	北
+.direction.east	東
+.direction.west	西
+.direction.south	南
+.direction.northwest	北西
+.direction.northeast	北東
+.direction.southwest	南西
+.direction.southeast	南東
+.season.early_spring	初春
+.season.mid_spring	仲春
+.season.late_spring	晩春
+.season.early_summer	初夏
+.season.mid_summer	仲夏
+.season.late_summer	晩夏
+.season.early_autumn	初秋
+.season.mid_autumn	仲秋
+.season.late_autumn	晩秋
+.season.early_winter	初冬
+.season.mid_winter	仲冬
+.season.late_winter	晩冬
+.season.spring	春
+.season.summer	夏
+.season.fall	秋
+.season.winter	冬
+.moon_phase.full_moon	満月
+.moon_phase.waning_gibbous	寝待月
+.moon_phase.waxing_gibbous	十三夜月
+.moon_phase.third_quarter	下弦の月
+.moon_phase.first_quarter	上弦の月
+.moon_phase.waning_crescent	有明月
+.moon_phase.waxing_crescent	三日月
+.moon_phase.new_moon	新月
+.moon_phase.blood_moon	ブラッドムーン
+.moon_phase.blue_moon	ブルームーン
+.moon_phase.harvest_moon	ハーベストムーン
+.moon_phase.super_moon	スーパームーン
+.moon_phase.super_blood_moon	スーパーブラッドムーン
+.moon_phase.super_blue_moon	スーパーブルームーン
+.moon_phase.super_harvest_moon	スーパーハーベストムーン
+gui.immersiveoverlays.coordinates.x	X: %s
+gui.immersiveoverlays.coordinates.y	Y: %s
+gui.immersiveoverlays.coordinates.z	Z: %s
+gui.immersiveoverlays.temperature_percentage	%s (%s%%)
+key.immersiveoverlays.toggle	表示の切り替え
+key.immersiveoverlays.settings	設定を開く
+key.category.immersiveoverlays.keybinds	Immersive Overlays

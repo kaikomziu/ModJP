@@ -1,0 +1,191 @@
+## woc_remastered
+skill.woc_remastered.sandstorm_of_wrath.tooltip6	§e突進＆打ち上げ:§f 押しのけてから打ち上げる §b[ダッシュ攻撃 + KEY1]
+epicfight.skill_slot.wocr_extra_passive	WOCRパッシブ
+skill.woc_remastered.ender_duelist_maelstrom.tooltip11	§e§l落ちる石碑:§f 1撃目で砂の墓3列と周囲の輪を、続く2撃でV字の砂の墓2列と周囲の輪を召喚する。各攻撃で1スタック消費  §b(クールダウンなし / 1～3スタック消費) [KEY4 (+ KEY4) (+ KEY4)]
+skill.woc_remastered.sandstorm_of_wrath.tooltip7	§e咆哮の突進:§f 怪物の突進で進路上の敵すべてに当たる §b[KEY2/ガード + KEY3]
+skill.woc_remastered.sandstorm_of_wrath.tooltip8	§e旋風の舞:§f 多段攻撃。使い手を砂嵐に変える §b[ジャンプ + KEY4]
+skill.woc_remastered.sandstorm_of_wrath.tooltip9	§e石碑落とし:§f 弱めの咆哮として働き、相手の前に砂の墓を一列出現させる §b[ダッシュ攻撃 KEY4 / ダッシュ + KEY4]
+skill.woc_remastered.sandstorm_of_wrath.tooltip2	§e通常連撃:§f 砂の爪で薙ぎ払え！ §b[KEY1 + KEY1 + KEY1 + KEY1]
+skill.woc_remastered.sandstorm_of_wrath.tooltip3	§eスピノの爪撃:§f 射程は短いが、命中すると敵をダウンさせる §b[KEY1 + KEY3]
+skill.woc_remastered.sandstorm_of_wrath.tooltip4	§e砂のアッパーカット:§f 素早い攻撃 §b[KEY1 + KEY1 + KEY3]
+item.woc_remastered.good_to_know.description_0	§n§lクレジット: §c§lHAVN§f§lNek §f| §9§lThe Memesmeller §f| §e§lbreadbright(アーティスト)
+skill.woc_remastered.sandstorm_of_wrath.tooltip5	§e残骸の尾の叩きつけ:§f 遅いが範囲攻撃が得意。地面を叩いて周囲に地震の波を起こす §b[KEY1 + KEY1 + KEY1 + KEY3]
+skill.woc_remastered.ender_duelist_maelstrom.tooltip10	§e§l-> ガーディアン・ドミネーション:§f 相手の5ブロック上へテレポートし、叩きつけて星形に砂の墓を外側へ広げる §b[クールダウンなし / 1スタック消費) [ジャンプ + KEY3]
+item.woc_remastered.good_to_know.description_2	§6§lWeapons of Cataclysm: Remastered
+effect.woc_remastered.souls_guardian	ソウルガーディアン
+skill.woc_remastered.ghastly_grasp	§7☠ ガストリー・グラスプ
+item.woc_remastered.good_to_know.description_3	- 説明: このMODはEpic Fight / Weapons of MiraclesとL_Ender's Cataclysmの連携MODで、Cataclysmのすべての武器をボスのように戦えるようにし、独自の要素(独自アニメーション、コンテンツなど)も追加します。The MemesmellerがInvincibleのコンボのアイデアを出してくれ、breadbrightはアイデアと、私がテクスチャを作る時間がないときにテクスチャ(Souls Incineratorなど)を提供してくれました！
+item.woc_remastered.good_to_know.description_4	- このMODのタブには、Epic FightとL_Ender's Cataclysmをつなぐ独自要素(独自のスキルブック、新スキルカテゴリ「カタクリズミック・アーツ」など)が入っています。武器の技構成はCataclysmのアイテム(タブ)を確認してください
+skill.woc_remastered.sandstorm_of_wrath.tooltip1	§e瓶詰めの砂嵐:§f 近～中距離の力押しをこなす万能型。§e砂の流れ§fで敵を斬るような攻撃もあれば、§e肉を引き裂く凶暴な怪物のような攻撃もある
+skill.woc_remastered.tidal_electricity	タイダル・エレクトリシティ
+skill.woc_remastered.ghastly_grasp_alt.tooltip	*注意: このスキルはWOCRとEpic Skill Treeの「ゆるい」連携用です。「パッシブ1」で習得してください。習得後は枠を空けるために外しても、元のスキルは残ります。詳しくはガストリー・グラスプ(カタクリズミック・アーツ)を参照してください
+skill.woc_remastered.shattered_abyss_alt.tooltip	*注意: このスキルはWOCRとEpic Skill Treeの「ゆるい」連携用です。「パッシブ1」で習得してください。習得後は枠を空けるために外しても、元のスキルは残ります。詳しくはシャッタード・アビス(カタクリズミック・アーツ)を参照してください
+item.woc_remastered.good_to_know.description_6	§b- 特殊な技構成あり(Invincibleの出番！)
+item.woc_remastered.good_to_know.description_7	§e§l+ 炎の中へ:§f §eインシネレーター | §eインシネレーター + 炎のブルワーク | §6インファーナル・フォージ | §dヴォイド・フォージ
+item.woc_remastered.good_to_know.description_8	§7§l+ 二つの呪いの目覚め:§f §7二刀アナイアレイター + ソウルレンダー §f| §e瓶詰めの砂嵐(二刀) | §6イモレーター(二刀)
+skill.woc_remastered.flame_avatar_k.tooltip5	§6強化シールドバッシュ:§f より強い盾打ち -> §6シールドバッシュの刺突 §b(クールダウンなし / 1スタック消費) [KEY3 + KEY1 + KEY1]
+skill.woc_remastered.flame_avatar_k.tooltip6	§6剣振りから火球へ:§f 剣でイグニスの火球を3つ呼び出し、最も近い敵を狙う §b(クールダウン: 2秒 / 1スタック以上必要) [KEY2長押し + KEY3]
+skill.woc_remastered.flame_avatar_k.tooltip3	§6打撃の刺突:§f 敵を貫いてから押しのける §b[ダッシュ攻撃 + KEY3 + KEY3]
+skill.woc_remastered.flame_avatar_k.tooltip4	§6シールドバッシュ:§f 敵を押しのけてから貫く §b[KEY3 + KEY3 + KEY1]
+skill.woc_remastered.flame_avatar_k.tooltip1	もう片方の手に§e炎のブルワーク§fを持つと、§eインシネレーター§fは長射程の高威力だけでなく、迫りくる重い攻撃を防ぐ力も得る。両手持ちより遅いものの、§eインシネレーターとその相棒§fは範囲攻撃と、相手を叩いて後退させるのに強い...
+skill.woc_remastered.flame_avatar_k.tooltip2	§6通常連撃:§f シンプルな片手振り §b[KEY1 + KEY1 + KEY1 + KEY1]
+skill.epicfight.cataclysmic_arts.category	カタクリズミック・アーツ
+skill.woc_remastered.flame_avatar_k.tooltip7	§6§lスパーク・コンカッション §e(コンボ):§f 盾で地面を叩く -> 剣を踏み込ませて広範囲に大ダメージを与え、近くの相手を狙うイグニスの火球を3つ生み出す §b(クールダウン: 10秒 / 1スタック消費) [§6剣振りから火球へ§b + KEY1 + KEY1]
+skill.woc_remastered.ender_duelist_bulwark	エンダー・デュエリスト: ブルワーク
+skill.woc_remastered.infernal_awoken.tooltip7_1	§6再利用燃料:§f 周囲8x8の溶岩源を探知し、エネルギーに変えてスキルをチャージする §e(溶岩1つにつき 消費量/エネルギー +50) §b[KEY4 + KEY3]
+skill.woc_remastered.infernal_awoken.tooltip7_2	§6フレア投げ:§f 「溶岩投げ」の別バージョン。フレア爆弾を3つ放つ §b(1スタック以上必要 / クールダウン: 7.5秒 [KEY3 + KEY3]
+skill.woc_remastered.rising_wings.tooltip13_2	§7空襲ハルバード:§f 地上から姿を消し、不意打ち！ §b[KEY3 + KEY1]
+unlock_tip.epicskills.cataclysmic_arts.technical_machination	隠しボス「MechX-12」を倒すと解放
+effect.woc_remastered.souls_phase	ソウルフェーズ
+skill.blue_ignitium.souls_phase	ソウルフェーズ
+skill.woc_remastered.flame_avatar.tooltip4	§6過熱アッパーカット:§f 斬り下ろして相手を焼き、広範囲に大ダメージを与える §b[§6通常連撃§b + KEY3 + KEY3]
+skill.woc_remastered.technical_machination	§c§l⌊ テクニカル・マシネーション ⌉
+advancements.woc_remastered.kill_mechx12.description	高速シューターボス「MechX-12」を倒す
+skill.woc_remastered.flame_avatar.tooltip3	§6押し込み刺突:§f 敵を貫いてから押しのける §b[ダッシュ攻撃 + KEY3 + KEY3]
+skill.woc_remastered.flame_avatar.tooltip6	§6§lスパーク・コンカッション §e(コンボ):§f 炎をまとって前方へ跳ぶ -> 剣を踏み込ませて広範囲に大ダメージを与え、近くの相手を狙うイグニスの火球を3つ生み出す §b(クールダウン: 10秒 / 1スタック消費) [§6剣振りから火球へ§b + KEY1 + KEY1]
+skill.woc_remastered.flame_avatar.tooltip5	§6剣振りから火球へ:§f 剣でイグニスの火球を3つ呼び出し、最も近い敵を狙う §b(クールダウン: 2秒 / 1スタック以上必要) [KEY3]
+skill.woc_remastered.flame_avatar.tooltip8	§6§l燃える審判:§f その場に立ってスキルを発動 -> 前方に炎の打撃を一列に生み出し、自分の近くの敵を燃やす §b(クールダウン: 25秒 / 2スタック消費) [KEY1_2]
+skill.woc_remastered.rising_wings	ライジング・ウィングス
+skill.woc_remastered.flame_avatar.tooltip7	§6§l召喚: 火球の弧:§f 最も近い敵を狙う通常のイグニス火球4つとアビス火球1つを呼び出す §b(クールダウン: 15秒 / 1スタック消費) [KEY4 + KEY3]
+skill.woc_remastered.flame_avatar.tooltip9	§b§l魂の蒼炎:§f §bソウルフェーズ§fに入り、§eインシネレーター§fと§eイグニチウム防具一式§fが魂の炎で輝く。§bソウルフェーズ中:§f 攻撃力 | 防御無視 | ノックバック耐性 | 最大スタミナが上昇し、ライフスティール: 攻撃が命中するたびに回復する(大)。§e持続25秒§fで、§eモブを1体倒すごとに§b5秒延長§f。イグニスの火球と炎の打撃が強化される §b(クールダウンなし / 2スタック消費) [KEY4 + KEY4]
+skill.woc_remastered.rising_wings_mace	ライジング・ウィングス - 二刀アナイアレイター
+skill.woc_remastered.flame_avatar.tooltip2	§6通常連撃:§f 基本の振りから斬撃へ §b[KEY1 + KEY1 + KEY1 + KEY1]
+skill.woc_remastered.flame_avatar.tooltip1	§eインシネレーター§fは中～重量級の炎の剣。大きさを活かし、この§e燃える刃§fは防御力の高い重い敵も倒せ、§6地獄の炎§fの力で防具を貫いて弱らせる
+item.woc_remastered.zweiender	ツヴァイエンダー
+skill.woc_remastered.voiderizer_single.tooltip16	§d-> EMPニュートラライザー:§f EMP爆発を起こし、近くの相手に強いスタンを与え、半径6.0内に飛んでくる飛び道具を跳ね返す §b(5スタック消費 / クールダウン: 7秒) [KEY2]
+skill.woc_remastered.voiderizer_single.tooltip15	§d-> チャージ爆弾:§f ハイブリッド・ヴォイド榴弾を放つ §b(クールダウン: 5秒) [KEY1]
+skill.woc_remastered.voiderizer_single.tooltip18	§d§l完全リロード:§f スキルスタックをすべて補充するが、スタンを受けると中断される §b[KEY4]
+skill.woc_remastered.voiderizer_single.tooltip17	§d-> 解き放たれた榴弾:§f プレイヤーの周りに弧を描いて降り注ぐヴォイド榴弾を3発撃つ §b(クールダウン: 5秒) [KEY4 / ジャンプ KEY3]
+skill.woc_remastered.witherizer_dual.tooltip8	§c爆発射撃:§f それぞれウィザー榴弾を1発ずつ撃つ §b[KEY2 + KEY2]
+skill.woc_remastered.voiderizer_single.tooltip12	§d狙撃:§f ゆっくりチャージしてエンダーレーザーを撃つ §b[KEY1_2]
+effect.woc_remastered.technical_machination	テクニカル・マシネーション
+skill.woc_remastered.witherizer_dual.tooltip9	§cダッシュ:§f 空中で前方へ突進 §b[ダッシュ KEY2] |§f §c着地:§f ダメージなし。浮遊と低速落下を解除し、素早く降りる手段になる §b[KEY2_3 | 同時押し]
+skill.woc_remastered.voiderizer_single.tooltip11	§d空中射撃:§f エンダー弾を2発撃ち、プレイヤーを上と後ろ(見ている方向)へ押し出す §b(クールダウン: 3秒) [ジャンプ KEY1]
+skill.epicfight.wocr_trail_modifier.category	軌跡の変更
+skill.woc_remastered.souls_trail_modify.tooltip	武器の軌跡を青い炎の軌跡に変える(なぜ作ったかって？カスタマイズのためだけだよ)
+skill.woc_remastered.witherizer_dual.tooltip6	§c空中射撃:§f ウィザーミサイルを2発撃ち、プレイヤーを上と後ろ(見ている方向)へ押し出す §b(クールダウン: 3秒) [ジャンプ KEY1]
+skill.woc_remastered.voiderizer_single.tooltip14	§5§l固有技: §b[KEY3]
+skill.woc_remastered.witherizer_dual.tooltip7	§cホーミング仲間:§f ホーミングミサイルを8発撃つ §b[KEY1_2]
+skill.woc_remastered.voiderizer_single.tooltip13	§dダッシュキック:§f 跳んで前方へ突進キック §b[ダッシュ KEY2] §f| §cロケットジャンプ:§f VHの派生型を撃つ §b[ジャンプ KEY2]
+skill.woc_remastered.voiderizer_single.tooltip10	§d近接ダッシュ:§f 射撃の代わりに蹴りのコンボで近接ダメージを与える §b[ダッシュ KEY1]
+advancements.woc_remastered.kill_zertar.description	ゼルターを倒す
+skill.woc_remastered.witherizer_single.tooltip10	§c近接ダッシュ:§f 射撃の代わりに蹴りのコンボで近接ダメージを与える §b[ダッシュ KEY1]
+skill.woc_remastered.witherizer_single.tooltip11	§c空中射撃:§f ウィザーミサイルを2発撃ち、プレイヤーを上と後ろ(見ている方向)へ押し出す §b(クールダウン: 3秒) [ジャンプ KEY1]
+skill.woc_remastered.witherizer_single.tooltip12	§cホーミング仲間:§f ホーミングミサイルを4発撃つ §b[KEY1_2]
+advancements.woc_remastered.mechanic_arena.title	見覚えがあるような...
+skill.woc_remastered.witherizer_single.tooltip13	§cダッシュキック:§f 跳んで前方へ突進キック §b[ダッシュ KEY2] §f| §cロケットジャンプ:§f WHの派生型を撃つ §b[ジャンプ KEY2]
+skill.woc_remastered.witherizer_single.tooltip14	§4§l固有技: §b[KEY3]
+skill.woc_remastered.witherizer_single.tooltip15	§c-> チャージ爆弾:§f チャージしたウィザー榴弾を放つ §b(クールダウン: 5秒) [KEY1]
+skill.woc_remastered.witherizer_single.tooltip16	§c-> EMPニュートラライザー:§f EMP爆発を起こし、近くの相手に強いスタンを与え、半径6.0内に飛んでくる飛び道具を跳ね返す §b(5スタック消費 / クールダウン: 7秒) [KEY2]
+advancements.woc_remastered.kill_mechx12.title	不壊の崩壊
+skill.woc_remastered.witherizer_single.tooltip17	§c-> 解き放たれた榴弾:§f プレイヤーの周りに弧を描いて降り注ぐウィザー榴弾を3発撃つ §b(クールダウン: 5秒) [KEY4 / ジャンプ KEY3]
+skill.woc_remastered.witherizer_single.tooltip18	§c§l完全リロード:§f スキルスタックをすべて補充するが、スタンを受けると中断される §b[KEY4]
+skill.woc_remastered.tidal_electricity.tooltip9	§b§l重い固有技 §b[KEY3]
+skill.woc_remastered.tidal_electricity.tooltip8	§b-> 溺れさせろ:§f プレイヤーの前方に水の波を呼び出す §b(クールダウン: 7秒 / 1スタック消費) [KEY4]
+effect.woc_remastered.multi_hit_saw_mode	MS - ノコギリモード
+item.woc_remastered.wocr_icon.description_0	強力なCataclysmの武器を集めて、ボスのように誰でも倒せ
+unlock_tip.epicskills.cataclysmic_arts.flame_piercer	イグニスを倒すと解放
+skill.woc_remastered.witherizer_dual.tooltip1	§c二丁WASW:§f 自律型の超兵士から作られた武器で、ランチャー1つでは足りないときの最後の手段。ランチャー2つを持つのは誰にとっても重すぎるはずだが、使い手の機動力を制限する代わりに、自由な射撃と引き換えに上下の機動力を得る。動きが硬くなる代わりに撃てる弾が増えるだけでなく、スラスターの組み合わせとネザースターの余剰エネルギーで浮遊できるようにもなる。
+skill.woc_remastered.witherizer_single	ウィザライザー: 片手
+skill.woc_remastered.witherizer_dual.tooltip4	§c連続射撃:§f 最初の2撃でウィザーミサイル、最後の1撃でホーミングミサイル8発を撃つ §b[KEY1 + KEY3 + KEY3 + KEY3]
+skill.woc_remastered.witherizer_dual.tooltip5	§c近接ダッシュ:§f 射撃の代わりに蹴りのコンボで近接ダメージを与える。3撃目で爆発を起こす §b[ダッシュ KEY1]
+skill.woc_remastered.witherizer_dual.tooltip2	§4- ホーミングミサイル(ファイアスターター):§f 威力は元と同じ。着弾時に小さな火の爆発を起こし、燃える敵にも燃えない敵にも追加の火炎ダメージを与えて9秒間燃やす。アンデッドへのダメージ+25%(2スタック消費)
+skill.woc_remastered.witherizer_dual.tooltip3	§c通常射撃:§f ウィザーミサイルを1発撃つ。左右に動きながらだと4発撃つ §b[KEY1 + KEY1]
+effect.woc_remastered.gh_grasp	ガストリー・グラスプ(効果)
+effect.woc_remastered.true_resistance	真の耐性
+skill.woc_remastered.tidal_electricity.tooltip11	§b-> 強化錨投げ:§f より大きなダメージを与え、相手を引っかけて引き寄せる §b(クールダウンなし / 1スタック消費) [KEY2]
+skill.woc_remastered.tidal_electricity.tooltip12	§b-> 潮の大蛇の目覚め:§f 使い手の周りに、近くの敵を狙う嵐の大蛇を2～4体呼び出す(クールダウン: 8秒 / 1スタック消費) [KEY3]
+key.invincible.key4	特殊能力2 [KEY4 / D]
+skill.woc_remastered.tidal_electricity.tooltip13	§b-> 雷鳴と稲妻:§f 周囲に渦を起こして近くの敵を押しのけ、嵐を呼んで相手へ雷の槍の雨を降らせる §f§o(相手を狙っていないと雷は落ちない) §b(クールダウン: 14秒 / 2スタック消費) [KEY4]
+key.invincible.key3	特殊能力1 [KEY3 / C]
+skill.woc_remastered.sandstorm_of_wrath	憤怒の砂嵐
+skill.woc_remastered.tidal_electricity.tooltip14	§b§l軽い固有技 §b[KEY4]
+key.invincible.key2	サブアクション [KEY2 / B]
+skill.woc_remastered.tidal_electricity.tooltip15	§b->§f 水の槍を1本投げる。スキルスタックの数だけこの攻撃を繰り返す §b(1スタック以上必要) [KEY1]
+skill.woc_remastered.abyssal_claw.tooltip9	§5§lアビサルブラスター:§f アビスブラストを撃つ §b(クールダウンなし / 2スタック消費) [KEY3 + KEY3]
+key.invincible.key1	メインアクション [KEY1 / A]
+skill.woc_remastered.tidal_electricity.tooltip16	§b->§f 雷の槍を1本投げる。スキルスタックの数だけこの攻撃を繰り返す §b(1スタック以上必要) [KEY2]
+skill.woc_remastered.tidal_electricity.tooltip17	§b->§f 水の槍を3～5本投げる。本数はスキルスタックの数で決まる §b(3スタック以上必要) [KEY3]
+item.woc_remastered.wocr_icon	WOCRアイコン
+skill.woc_remastered.tidal_electricity.tooltip18	§b->§f 雷の槍を3～5本投げる。本数はスキルスタックの数で決まる §b(3スタック以上必要) [KEY4]
+item.woc_remastered.zertar_spawn_egg	ゼルターのスポーンエッグ
+skill.woc_remastered.tidal_electricity.tooltip10	§b-> 錨投げ:§f プレイヤーが見ている前方へケラウヌスを投げる §b(クールダウン: 3秒 / 消費なし) [KEY1]
+advancements.woc_remastered.mechanic_arena.description	隠し構造物「メカニック・アリーナ」を見つける
+advancements.woc_remastered.root.title	WoC: Remastered
+effect.woc_remastered.crystalized	結晶化
+skill.woc_remastered.voiderizer_dual	ヴォイダライザー: 二丁
+effect.woc_remastered.male_souls_phase	呪いのソウルフェーズ
+skill.woc_remastered.infernal_awoken	インファーナル・アウェイクン
+skill.woc_remastered.flame_piercer	§6🔥 フレイム・ピアサー
+skill.woc_remastered.voiderizer_single.tooltip3	§d- エンダー弾:§f 基本の弾。そこそこの威力で弾速が速い §b(スキル1スタック消費)
+skill.woc_remastered.voiderizer_single.tooltip2	§5§l弾薬構成:
+skill.woc_remastered.voiderizer_single.tooltip1	§dVASW:§f 兵器化された技術が肉弾戦にもたらした極致。エネルギーと虚空の力で動くロケットランチャーは、ただの銃撃戦でも驚くほどの働きを見せる。実際の銃より連射は遅いものの軽量で、狙う・撃つ・走るを楽にこなせる。何より、このロケット型は元の弾をすべて置き換え、エンダー弾、エンダーレーザー、ヴォイド榴弾でより正確かつ素早く撃てる
+skill.woc_remastered.ender_force_bulwark	エンダー・フォース: ブルワーク
+effect.woc_remastered.voided	虚無化
+skill.woc_remastered.spark_of_the_wings.tooltip5	§6ガードメイスカウンター:§f 通常連撃の最後の2撃だけを繰り出す §b[KEY1長押し + KEY1]
+skill.woc_remastered.spark_of_the_wings.tooltip4	§6ダッシュ打ち上げ -> シンプルな振り:§f アッパーカットの後、オフハンドのメイスを振る §b[ダッシュ攻撃 + KEY1]
+effect.woc_remastered.knockback_resist	ノックバック耐性
+skill.woc_remastered.spark_of_the_wings.tooltip3	§6両手ジャンプスラム:§f 弱めの「呪いの叩きつけ」として働き、相手の頭を叩き割る §b[KEY1 + KEY1 + KEY1 + KEY3]
+skill.woc_remastered.spark_of_the_wings.tooltip2	§6通常連撃:§f 両手振りから重い斬撃へ §b[KEY1 + KEY1 + KEY1 + KEY1]
+skill.woc_remastered.spark_of_the_wings.tooltip9	§6§lスパーク・コンカッション §e(コンボ):§f 空へ飛び上がる -> メイスを叩きつけ、近くの相手を狙うイグニスの火球を3つ生み出す §b(クールダウン: 10秒 / 1スタック消費) [KEY3 + KEY3 + KEY1]
+skill.woc_remastered.witherizer_dual.tooltip11	§c-> ダッシュ:§f 空中で前方へ突進 §b[KEY1]
+skill.woc_remastered.spark_of_the_wings.tooltip8	§6§l炎のチャージ空中叩きつけ:§f 飛び上がり -> 敵へ向かって急降下し、広範囲に地震を起こして前方に炎の噴流を生み出す §b(クールダウン: 3秒 / 1スタック以上必要) [KEY3 + KEY1]
+skill.woc_remastered.witherizer_dual.tooltip12	§c-> ロックオン:§f 空中にいる間にホーミングミサイルを6発撃つ §b[KEY4]
+skill.woc_remastered.spark_of_the_wings.tooltip7	§6過熱アッパーカット: 使い手の前方に小さな地震の波を起こしつつ相手を焼く §b[§6通常連撃§b + KEY3]
+item.woc_remastered.ring_of_healstealer	回復泥棒の指輪
+skill.woc_remastered.spark_of_the_wings.tooltip6	§6クイックスラッシュ:§f 両手の振りから防具を貫く刺突へ §b[KEY1 + KEY1 + KEY3 + KEY3]
+skill.woc_remastered.witherizer_dual.tooltip10	§c§l上昇:§f 地上から姿を消す... §b[ジャンプ KEY2]
+skill.woc_remastered.tidal_electricity.tooltip9_1	§b§l錨の雷撃:§f 錨を投げ、着地するとプレイヤーを錨の位置へ引き寄せ、地面に雷の爆発を起こす §b(クールダウン: 15秒 / 2スタック消費) [ジャンプ + KEY3 + KEY3]
+skill.woc_remastered.witherizer_dual.tooltip15	§4§l大量破壊:§f プレイヤーの周りに弧を描いて降り注ぐウィザー榴弾を大量に撃つ §b(クールダウン: 7秒) [ジャンプ KEY3]
+skill.woc_remastered.flame_piercer_alt	⌊ フレイム・ピアサー ⌉
+subtitles.parriable_attack_alert	パリィ可能な攻撃の警告
+skill.woc_remastered.witherizer_dual.tooltip13	§c-> 地獄のミサイル:§f HMの「ファイアスターター」型を8発撃つ §b [KEY3]
+item.woc_remastered.mechx12_spawn_egg	MechX-12のスポーンエッグ
+skill.woc_remastered.witherizer_dual.tooltip14	§c-> デスビームレーザー:§f WASWを両手で構えてエネルギーを溜め、死のレーザーを放ち、射線上の敵をすべて焼き尽くす §b(クールダウン: 18秒 / 30スタック消費) [KEY4]
+epicfight.skill_slot.cataclysmic_arts	カタクリズミック・アーツ
+subtitles.attack_indicate_2	攻撃の予兆2
+skill.woc_remastered.rising_wings.tooltip2	§7§l二刀アナイアレイター装備時: §r§7重いのに速い。ダメージを稼げる優秀なコンボ武器だが、油断すると隙を晒す
+skill.woc_remastered.rising_wings.tooltip1	§7魂の繋がり(パッシブ):§f アナイアレイターとソウルレンダーは何かでつながっているようだ §o§e「両者は常に互いを庇い合う」§r§f。この絆により、両武器は同じ§7魂§f(スタック)と§7エネルギー§f(消費量)を共有する §o§7「エネルギーがゼロか魂が満ちると、魂は二つの中に留まる。エネルギーがそれを保てなくなると、武器を持ち替えたときに魂は解き放たれる。魂が消えるのは、持ち主が死ぬかワールドに入り直したときだけ」
+subtitles.attack_indicate_1	攻撃の予兆1
+skill.woc_remastered.rising_wings.tooltip4	§7両手ジャンプスラム:§f 弱めの呪いの叩きつけとして働き、相手の頭を叩き割る §b[KEY1 + KEY1 + KEY1 + KEY3]
+skill.woc_remastered.rising_wings.tooltip3	§7通常連撃:§f 両手振りから重い斬撃へ §b[KEY1 + KEY1 + KEY1 + KEY1]
+skill.woc_remastered.rising_wings.tooltip9	§7§lソウルレンダー装備時: §r§7相方より強く派手で、遅い。重い一撃を外さない使い手に報いる。
+skill.woc_remastered.rising_wings.tooltip6	§7ガードメイスカウンター:§f 通常連撃の最後の2撃だけを繰り出す §b[KEY1長押し + KEY1]
+skill.woc_remastered.rising_wings.tooltip5	§7ダッシュ打ち上げ -> シンプルな振り:§f アッパーカットの後、オフハンドのメイスを振る §b[ダッシュ攻撃 + KEY1]
+skill.woc_remastered.rising_wings.tooltip8	§7§lマレディクティオの雄叫び:§f 霊火の力で半径6.5の呪いの炎の爆発を起こし、防具を50%無視する。使い手の周りにファントムの斧刃を生み出し、爆発後、5秒間の耐性とスタン耐性を得る §b[クールダウン: 12秒 / 2スタック消費) [KEY4]
+skill.woc_remastered.rising_wings.tooltip7	§7§l呪いのチャージ空中叩きつけ:§f 飛び上がり -> 敵へ向かって急降下し、広範囲に地震を起こして前方にファントムの斧刃を5つ生み出す §b(クールダウン: 3秒 / 1スタック消費) [KEY3 + KEY1]
+skill.woc_remastered.voiderizer_single.tooltip12_1	§d爆発射撃:§f ヴォイド榴弾を1発撃つ §b[KEY2]
+skill.woc_remastered.witherizer_dual.tooltip3_1	§c一列射撃:§f 前方へウィザー榴弾を3発撃つ §b[KEY1 + KEY1 + KEY3]
+skill.woc_remastered.shattered_abyss.tooltip	[%s]を押して、近くの敵を引き寄せ地形を破壊する次元の裂け目を25秒間召喚する §l- (スタミナ%.1f消費 | クールダウン: %.1f秒)
+skill.woc_remastered.infernal_awoken.tooltip6	§6容赦なき粉砕: §f相手を叩き伏せてから吹き飛ばす §b[ダッシュ攻撃 + KEY1 + KEY1]
+entity.woc_remastered.zertar	§5ゼルター
+skill.woc_remastered.infernal_awoken.tooltip5	§6ショルダーチャージ -> ゴーレムアッパーカット: §f強化された突進攻撃の後、敵を打ち上げる §b[エアスラッシュ + KEY1]
+skill.woc_remastered.infernal_awoken.tooltip4	§6咆哮のアッパーカット: §f相手や近くの敵を焼き払う §b[§6通常連撃 §b+ KEY3]
+item.woc_remastered.good_to_know.description_15	§o冒険に持っていけ... 星々の彼方まで敵を倒せ！
+skill.woc_remastered.infernal_awoken.tooltip3	§6ジャックハンマーパルス: §f相手を吹き飛ばす §b[KEY1 + KEY1 + KEY1 + KEY3]
+item.woc_remastered.good_to_know.description_13	- はじめての方へ: まずCataclysmの武器にマウスを合わせて「Shift」を押すと、コンボの内容と出し方の説明が見られます。次に「Invincibleのキー」を確認しましょう。キー割り当ての設定にあります！
+skill.woc_remastered.voiderizer_dual.tooltip10	§d§l上昇:§f 地上から姿を消す... §b[ジャンプ KEY2]
+skill.woc_remastered.infernal_awoken.tooltip9	§6§l怪物の咆哮: §fスタンの衝撃波を起こし、火炎耐性を得る §e(戦術: 咆哮中は短い無敵時間があるので、敵の攻撃への反撃に使おう) §b[KEY3 + KEY2]
+key.woc_remastered.slide_key	スライディング
+item.woc_remastered.good_to_know.description_11	§5§l+ 技術と異界の彼方へ:§f 新ボス §5ゼルター§f、回復泥棒の指輪、そして特別にツヴァイエンダーを追加 | Invincibleのコンボを更新: WASW(片手/二丁)、VASW(片手/二丁)、「三つの籠手」(片手/二刀、メイルストロムは二刀のみ)、ブロンテス
+skill.woc_remastered.infernal_awoken.tooltip8	§6§l怪物の落下: §f過熱したハンマーで攻撃を溜め、地面を叩いて炎の噴流を隆起させ、周囲の敵を焼き払う §b(クールダウン: 10秒 / 1スタック消費) [KEY3 + KEY1]
+item.woc_remastered.good_to_know.description_10	§4§l+ 工場を一掃せよ:§f 新ボス §cMechX-12 §fを追加(動作には§eCombat Evolution§fが必要)
+skill.woc_remastered.infernal_awoken.tooltip7	§6ゴーレムジャグル: §f空中の相手を打ってから吹き飛ばす §b[KEY4 + KEY4 + KEY4]
+skill.woc_remastered.voiderizer_dual.tooltip14	§d-> デスビームレーザー:§f VASWを両手で構えてエネルギーを溜め、死のレーザーを放ち、射線上の敵をすべて焼き尽くす §b(クールダウン: 18秒 / 30スタック消費) [KEY4]
+skill.woc_remastered.voiderizer_dual.tooltip13	§d-> アビサルレーザー:§f ELの「アビスレイ」型を撃つ §b[KEY3]
+skill_tree.woc_remastered.cataclysmic_arts	カタクリズミック・アーツ
+skill.woc_remastered.voiderizer_dual.tooltip12	§d-> ロックオン:§f 空中にいる間にエンダーレーザーを2発撃つ §b[KEY4]
+key.woc_remastered.execute_cataclysmics_skill	カタクリズミック・アーツ
+skill.woc_remastered.voiderizer_dual.tooltip11	§d-> ダッシュ:§f 空中で前方へ突進 §b[KEY1]
+skill.woc_remastered.spark_of_the_wings.tooltip1	§6イモレーター§fはアナイアレイターの系統 - 重いのに速い優秀なコンボ武器...だが兄弟とは違い、イグニチウムで力が充填されており、弱点を補う多くの恩恵がある §e「防具を溶かせ」
+skill.woc_remastered.infernal_awoken.tooltip2	§6通常連撃: §f基本のスタンからダウンへ §b[KEY1 + KEY1 + KEY1 + KEY1]
+skill.woc_remastered.infernal_awoken.tooltip1	§eインファーナル・フォージ§fは敵を叩き伏せ、倒れた相手に当たる攻撃を活かして何度も押しつぶしたり、反撃を避けるために敵を吹き飛ばしたりするのに使う
+skill.woc_remastered.spark_of_the_wings	スパーク・オブ・ザ・ウィングス
+unlock_tip.epicskills.cataclysmic_arts.ghastly_grasp	マレディクタスを倒すと解放
+skill.woc_remastered.voiderizer_dual.tooltip15	§5§l大量破壊:§f プレイヤーの周りに弧を描いて降り注ぐヴォイド榴弾を大量に撃つ §b(クールダウン: 7秒) [ジャンプ KEY3]
+advancements.woc_remastered.altar_of_endless_star.description	終わりなき星の祭壇を見つける
+effect.woc_remastered.fl_piercer	フレイム・ピアサー(効果)
+unlock_tip.epicskills.cataclysmic_arts.shattered_abyss	リヴァイアサンを倒すと解放
+entity.woc_remastered.mechx_12	§cMechX-12
+effect.woc_remastered.stun_armor	スタン耐性
+advancements.woc_remastered.root.description	Cataclysmの最強の武器を見せてくれないか？

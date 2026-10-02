@@ -1,0 +1,12 @@
+{
+ "theurgy": {
+  "item.theurgy.alchemical_sulfur_date.source": "デーツ",
+  "item.theurgy.alchemical_sulfur_ginger.source": "ショウガ",
+  "item.theurgy.alchemical_sulfur_lime.source": "ライム",
+  "item.theurgy.alchemical_sulfur_orange.source": "オレンジ",
+  "item.theurgy.alchemical_sulfur_peach.source": "モモ"
+ },
+ "aquaculturedelight": {
+  "item.aquaculturedelight.jellyfish_jelly.descr": "§72%の確率で§c毒 (00:03)を付与"
+ }
+}

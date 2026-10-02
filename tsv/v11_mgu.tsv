@@ -1,0 +1,142 @@
+## mob_grinding_utils
+block.mob_grinding_utils.fan	モブ扇風機
+block.mob_grinding_utils.saw	モブ粉砕機
+block.mob_grinding_utils.absorption_hopper	吸収ホッパー
+block.mob_grinding_utils.absorption_hopper_d_u	オフセット 下/上
+block.mob_grinding_utils.absorption_hopper_n_s	オフセット 北/南
+block.mob_grinding_utils.absorption_hopper_w_e	オフセット 西/東
+block.mob_grinding_utils.spikes	鉄のトゲ
+block.mob_grinding_utils.tank	シンギュラリティタンク
+block.mob_grinding_utils.tank_sink	経験値吸引シンギュラリティタンク
+block.mob_grinding_utils.xp_tap	経験値の蛇口
+block.mob_grinding_utils.wither_muffler	ウィザー死亡音マフラー
+block.mob_grinding_utils.dragon_muffler	エンダードラゴン死亡音マフラー
+block.mob_grinding_utils.dark_oak_stone	ダークオークの石
+block.mob_grinding_utils.ender_inhibitor_on	エンダー抑制装置(有効)
+block.mob_grinding_utils.ender_inhibitor_off	エンダー抑制装置(無効)
+block.mob_grinding_utils.entity_conveyor	エンティティコンベア
+block.mob_grinding_utils.jumbo_tank	ジャンボタンク
+block.mob_grinding_utils.xpsolidifier	経験値固化機
+block.mob_grinding_utils.dreadful_dirt	恐ろしい土
+block.mob_grinding_utils.solid_xp_block	固形経験値
+block.mob_grinding_utils.delightful_dirt	心地よい土
+block.mob_grinding_utils.entity_spawner	エンティティスポナー
+mob_grinding_utils.fluid_xp	液体経験値
+mob_grinding_utils.jei.any_experience	任意のforge:experienceを受け付ける
+mob_grinding_utiles.jei.solidifier	固化機のレシピ
+block.mob_grinding_utils.jumbo_tank.jei.info	シンギュラリティタンクの大型版。任意の液体を1024バケツ分貯蔵できる。
+block.mob_grinding_utils.xpsolidifier.jei.info	型を使って液体経験値を固め、食べられる経験値ゼリーを作る。
+block.mob_grinding_utils.tinted_glass.jei.info	光を入れずにモブトラップの中を見られる。
+block.mob_grinding_utils.dreadful_dirt.jei.info	暗い場所でモンスターを高速でスポーンさせる。昼間に空にさらされると燃える。
+block.mob_grinding_utils.solid_xp_block.jei.info	固めた経験値のブロック。よく弾んでとても楽しい。
+block.mob_grinding_utils.delightfull_dirt.jei.info	明るい場所で動物を高速でスポーンさせる。夜間に空にさらされると雪が積もる。
+block.mob_grinding_utils.entity_spawner.jei.info	3x3x1の範囲にモブをスポーンさせる。\n経験値ゼリーを消費する。\nアップグレードできる。
+block.mob_grinding_utils.delightful_dirt.jei.info	海洋バイオームなど、友好モブがスポーンしないバイオームでは機能しない。
+item.mob_grinding_utils.mob_swab	モブ綿棒
+item.mob_grinding_utils.mob_swab_used	使用済みモブ綿棒
+item.mob_grinding_utils.gm_chicken_feed	遺伝子組み換えニワトリの餌
+item.mob_grinding_utils.gm_chicken_feed_cursed	呪われた遺伝子組み換えニワトリの餌
+item.mob_grinding_utils.nutritious_chicken_feed	栄養満点のニワトリの餌
+item.mob_grinding_utils.fan_upgrade_width	モブ扇風機の幅アップグレード
+item.mob_grinding_utils.fan_upgrade_height	モブ扇風機の高さアップグレード
+item.mob_grinding_utils.fan_upgrade_speed	モブ扇風機の距離アップグレード
+item.mob_grinding_utils.absorption_upgrade	吸収範囲アップグレード
+item.mob_grinding_utils.saw_upgrade_sharpness	モブ粉砕機アップグレード: ダメージ増加
+item.mob_grinding_utils.saw_upgrade_looting	モブ粉砕機アップグレード: ドロップ増加
+item.mob_grinding_utils.saw_upgrade_fire	モブ粉砕機アップグレード: 火属性
+item.mob_grinding_utils.saw_upgrade_smite	モブ粉砕機アップグレード: アンデッド特効
+item.mob_grinding_utils.saw_upgrade_arthropod	モブ粉砕機アップグレード: 虫特効
+item.mob_grinding_utils.saw_upgrade_beheading	モブ粉砕機アップグレード: 斬首
+item.mob_grinding_utils.null_sword	ここにはない架空の剣
+item.mob_grinding_utils.fluid_xp_bucket	液体経験値入りバケツ
+item.mob_grinding_utils.rotten_egg	腐った卵
+item.mob_grinding_utils.golden_egg	金の卵
+item.mob_grinding_utils.solid_xp_mould_blank	経験値の型(未加工)
+item.mob_grinding_utils.solid_xp_mould_baby	経験値の型(ジェリーベビー)
+item.mob_grinding_utils.solid_xp_baby	経験値ジェリーベビー
+item.mob_grinding_utils.xp_solidifier_upgrade	経験値速度アップグレード
+item.mob_grinding_utils.spawner_upgrade_width	エンティティスポナーの幅アップグレード
+item.mob_grinding_utils.spawner_upgrade_height	エンティティスポナーの高さアップグレード
+item.mob_grinding_utils.monocle	片眼鏡
+itemGroup.mob_grinding_utils	Mob Grinding Utils
+fakeplayer.mob_masher	モブ粉砕機
+death.attack.spikes	%1$sはトゲに串刺しにされた
+death.attack.spikes.player	%2$sによって%1$sはトゲに串刺しにされた
+block.mob_grinding_utils.fan.tooltip_1	向いている方向にモブを押し出す。
+block.mob_grinding_utils.fan.tooltip_2	モブ扇風機のアップグレードで強化できる。
+block.mob_grinding_utils.fan.tooltip_3	効果範囲の表示はGUIで切り替えられる。
+block.mob_grinding_utils.saw.tooltip_1	高度なモジュール式モブ粉砕機。
+block.mob_grinding_utils.saw.tooltip_2	モブ粉砕機のアップグレードで強化できる。
+block.mob_grinding_utils.saw.tooltip_3	粉砕したモブはプレイヤーのキルとして扱われる。
+block.mob_grinding_utils.absorption_hopper.tooltip_1	7x7x7の範囲のアイテムと経験値オーブを吸い込む。
+block.mob_grinding_utils.absorption_hopper.tooltip_2	どの面にも押し出すよう設定できる。
+block.mob_grinding_utils.absorption_hopper.tooltip_3	液体はタンクに、アイテムはインベントリに送られる。
+block.mob_grinding_utils.absorption_hopper.tooltip_4	吸収範囲アップグレードで範囲が広がる。
+block.mob_grinding_utils.absorption_hopper.tooltip_5	効果範囲の表示はGUIで切り替えられる。
+block.mob_grinding_utils.absorption_hopper.tooltip_6	位置はGUIでずらせる。
+block.mob_grinding_utils.spikes.tooltip_1	基本的なトゲ。モブの経験値もドロップする。
+block.mob_grinding_utils.spikes.tooltip_2	トゲで倒したモブはプレイヤーのキルとして扱われない。
+block.mob_grinding_utils.xp_tap.tooltip_1	タンクの側面に取り付ける。
+block.mob_grinding_utils.xp_tap.tooltip_2	液体経験値をオーブに戻す。
+block.mob_grinding_utils.wither_muffler.tooltip_1	半径8ブロック以内の
+block.mob_grinding_utils.wither_muffler.tooltip_2	ウィザーの死亡音を消す。
+block.mob_grinding_utils.wither_muffler.tooltip_3	右クリックでボスバーを非表示にする。
+block.mob_grinding_utils.dragon_muffler.tooltip_1	半径32ブロック以内の
+block.mob_grinding_utils.dragon_muffler.tooltip_2	エンダードラゴンの死亡音を消す。
+block.mob_grinding_utils.dragon_muffler.tooltip_3	右クリックでボスバーを非表示にする。
+block.mob_grinding_utils.dark_oak_stone.tooltip_1	不可能だと言われていたのに…
+block.mob_grinding_utils.entity_conveyor.tooltip_1	モブとアイテムを水平方向に運ぶコンベア。
+block.mob_grinding_utils.entity_conveyor.tooltip_2	このブロックの上にモブがスポーンできる。
+=Inhibits Teleportation for Entities up to 8 Blocks away.	8ブロック以内のエンティティのテレポートを抑制する。
+=Can be attached on ANY side of Solid Blocks.	固体ブロックのどの面にも取り付けられる。
+=Right Click to Deactivate/Activate.	右クリックで無効化/有効化。
+block.mob_grinding_utils.tinted_glass.tooltip_1	光を通さないよう設計されたガラスブロック。
+block.mob_grinding_utils.tinted_glass.tooltip_2	ウィザーにも耐えられる頑丈さ。
+block.mob_grinding_utils.dreadful_dirt.tooltip_1	敵対モブを多くスポーンさせる。
+block.mob_grinding_utils.dreadful_dirt.tooltip_2	空にさらされると日中に燃える。
+block.mob_grinding_utils.dreadful_dirt.tooltip_3	明るさ5以上では敵対モブがスポーンしない。
+block.mob_grinding_utils.delightful_dirt.tooltip_1	動物モブを多くスポーンさせる。
+block.mob_grinding_utils.delightful_dirt.tooltip_2	空にさらされると夜間に雪が積もる。
+block.mob_grinding_utils.delightful_dirt.tooltip_3	明るさ10未満では動物モブがスポーンしない。
+block.mob_grinding_utils.delightful_dirt.tooltip_4	海洋バイオームでは機能しない。
+block.mob_grinding_utils.xpsolidifier.tooltip_1	液体経験値を固める。
+block.mob_grinding_utils.xpsolidifier.tooltip_2	経験値の型と、タンク内の液体経験値が必要。
+block.mob_grinding_utils.xpsolidifier.tooltip_3	水平方向に搬出するよう設定できる。
+block.mob_grinding_utils.xpsolidifier.tooltip_4	経験値速度アップグレードで速くなる。
+block.mob_grinding_utils.solid_xp_block.tooltip_1	よく弾む。
+block.mob_grinding_utils.entity_spawner.tooltip_1	3x3x1の範囲にモブをスポーンさせられる。
+block.mob_grinding_utils.entity_spawner.tooltip_2	上のスロットにモブの卵を入れて使う。
+block.mob_grinding_utils.entity_spawner.tooltip_3	燃料は固形経験値ジェリーベビー。
+block.mob_grinding_utils.entity_spawner.tooltip_4	経験値速度アップグレードとスポナーの高さ/幅アップグレードで強化できる。
+block.mob_grinding_utils.entity_spawner.tooltip_5	効果範囲の表示はGUIで切り替えられる。
+block.mob_grinding_utils.entity_spawner.tooltip_6	位置はGUIでずらせる。
+tooltip.hopperupgrade	範囲補正: +1。最大6。
+tooltip.fanupgrade_width	幅補正: +1。最大3。
+tooltip.fanupgrade_height	高さ補正: +1。最大3。
+tooltip.fanupgrade_distance	距離補正: +1。最大10。
+tooltip.chickenfeed_1	ニワトリに与える。
+tooltip.chickenfeed_2	ニワトリには一度きり…
+tooltip.chickenfeed_3	内容:
+tooltip.chickenfeed_4	腐った卵を生み出す。
+tooltip.chickenfeed_5	金の卵を生み出す。
+tooltip.mobswab_1	モブに使って「DNA」を採取する。
+tooltip.mobswab_2	経験値入りバケツと種と一緒にクラフトする。
+tooltip.mobswab_3	内容:
+tooltip.sawupgrade_sharpness	ダメージ増加: +1。最大%d。
+tooltip.sawupgrade_looting	ドロップ増加: +1。最大%d。
+tooltip.sawupgrade_fire	火属性: +1。最大%d。
+tooltip.sawupgrade_smite	アンデッド特効: +1。最大%d。
+tooltip.sawupgrade_arthropods	虫特効: +1。最大%d。
+tooltip.sawupgrade_beheading	斬首: +1。最大%d。
+tooltip.rotten_egg_1	5x5の範囲を恐ろしい土にする。
+tooltip.rotten_egg_2	草ブロック、土、菌糸、耕地に使う。
+tooltip.golden_egg_1	5x5の範囲を心地よい土にする。
+tooltip.golden_egg_2	草ブロック、土、菌糸、耕地に使う。
+tooltip.solid_xp	消費アイテム。経験値:
+tooltip.solid_xp2	スタック全体の経験値:
+tooltip.solid_xp_mould	経験値固化機で使う
+tooltip.solid_xp_mould_blank	クラフトして経験値の型にする
+tooltip.solidifier_upgrade	速度補正: +1。
+tooltip.spawner_upgrade_width	幅補正: +1。最大5。
+tooltip.spawner_upgrade_height	高さ補正: +1。最大5。
+tooltip.monocle	おや？なかなか洒落ているね、君！

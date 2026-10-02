@@ -1,0 +1,125 @@
+## exchangers
+item_group.exchangers.main_creative_tab	Exchangers
+key.categories.exchangers	Exchangers
+key.exchangers.open_gui	エクスチェンジャーのGUIを開く
+key.exchangers.range_switch	エクスチェンジャーの範囲切り替え
+key.exchangers.mode_switch	エクスチェンジャーのモード切り替え
+key.exchangers.force_drop_items_mode_toggle	強制ドロップモードの切り替え
+key.exchangers.directional_placement_mode_toggle	方向設置モードの切り替え
+key.exchangers.fuzzy_placement_mode_toggle	ランダム設置モードの切り替え
+key.exchangers.void_items_mode_toggle	アイテム消去モードの切り替え
+screen.exchangers.exchanger_gui.title	エクスチェンジャーGUI
+exchangers.tooltip.decrease_range_button	範囲を狭める
+exchangers.tooltip.increase_range_button	範囲を広げる
+exchangers.tooltip.mode_switch_button	交換モードを切り替え
+exchangers.tooltip.force_drop_items_button_name	強制ドロップモード
+exchangers.tooltip.force_drop_items_button_desc	交換したブロック/アイテムを地面にドロップさせる。余分なブロック/アイテムを消去できる道具と相性が良い。
+exchangers.tooltip.directional_placement_button_name	方向設置モード
+exchangers.tooltip.directional_placement_button_desc	プレイヤーの向いている方向に基づいてブロックを交換する。
+exchangers.tooltip.fuzzy_placement_button_name	ランダム設置モード
+exchangers.tooltip.fuzzy_placement_button_desc	ブロックを確率で設置する。確率は右のテキストボックスで設定する。
+exchangers.tooltip.fuzzy_placement_chance_box_name	ランダム設置の確率
+exchangers.tooltip.fuzzy_placement_chance_box_desc	各ブロックの設置確率を1〜100の値で設定する。ランダム設置モードが有効なときのみ反映される。
+exchangers.tooltip.void_items_button_name	アイテム消去モード
+exchangers.tooltip.void_items_button_desc	交換したブロック/アイテムをすべて消去する。注意して使うこと。
+exchangers.tooltip.durability	耐久値
+exchangers.tooltip.tier	ティア%d
+exchangers.tooltip.hold_shift	%sを押し続けると詳細を表示
+exchangers.tooltip.hold_shift.shift	Shift
+exchangers.tooltip.hold_ctrl	%sを押し続けると追加情報を表示
+exchangers.tooltip.hold_ctrl.ctrl	Ctrl
+exchangers.tooltip.state.enabled	有効
+exchangers.tooltip.state.disabled	無効
+exchangers.tooltip.extra1	ブロックをスニーク+右クリックで選択。
+exchangers.tooltip.extra2	ブロックを右クリックで交換。
+exchangers.tooltip.extra3	%sでGUIを開く。
+exchangers.tooltip.tuberous_exchanger.warning	§c§oうまいね！でも交換はできない。
+exchangers.tooltip.bee_exchanger.flavor_text	§6§oハチっと幸せに！ :)
+exchangers.tooltip.selected_block	選択中のブロック: %s
+exchangers.tooltip.selected_block.none	なし
+exchangers.tooltip.selected_block.error	ブロック名を取得できない
+exchangers.tooltip.current_range	現在の範囲: %s
+exchangers.tooltip.max_range	最大範囲: %s
+exchangers.tooltip.max_harvest_level	最大採掘レベル: %s
+exchangers.tooltip.current_mode	現在のモード: %s
+exchangers.tooltip.state	状態: %s
+exchangers.tooltip.silk_touch	シルクタッチモードは設定で%sになっている。
+exchangers.tooltip.force_drop_items	強制ドロップモードは%s。
+exchangers.tooltip.directional_placement	方向設置モードは%s。
+exchangers.tooltip.fuzzy_placement	ランダム設置モードは%s。
+exchangers.error.invalid_block.te	§cエラー: 無効なブロック！(タイルエンティティ)
+exchangers.error.invalid_block.unbreakable	§cエラー: 無効なブロック！(破壊不能ブロック)
+exchangers.error.blacklisted	§cエラー: このブロックは設定でブラックリストに入っている！
+exchangers.error.out_of_block	§cエラー: ブロックが足りない！
+exchangers.error.out_of_power	§cエラー: 電力が足りない！
+exchangers.error.event_cancelled	§cエラー: 交換イベントが他のMODによってキャンセルされた！
+exchangers.error.low_harvest_level	§cエラー: エクスチェンジャーの最大採掘レベルが低すぎて、このブロックを交換できない！
+exchangers.msg.force_drop_items.on	強制ドロップモードを§a§l有効§rにした。
+exchangers.msg.force_drop_items.off	強制ドロップモードを§4§l無効§rにした。
+exchangers.msg.directional_placement.on	方向設置モードを§a§l有効§rにした。
+exchangers.msg.directional_placement.off	方向設置モードを§4§l無効§rにした。
+exchangers.msg.fuzzy_placement.on	ランダム設置モードを§a§l有効§rにした。
+exchangers.msg.fuzzy_placement.off	ランダム設置モードを§4§l無効§rにした。
+exchangers.msg.void_items.on	アイテム消去モードを§a§l有効§rにした。
+exchangers.msg.void_items.off	アイテム消去モードを§4§l無効§rにした。
+exchangers.msg.mode	エクスチェンジャーのモードを%sに設定した
+exchangers.mode.plane	平面
+exchangers.mode.horizontal	水平の列
+exchangers.mode.vertical	垂直の列
+item.exchangers.exchanger_core_tier1	エクスチェンジャーコア(ティア1)
+item.exchangers.exchanger_core_tier2	エクスチェンジャーコア(ティア2)
+item.exchangers.exchanger_core_tier3	エクスチェンジャーコア(ティア3)
+item.exchangers.eio_exchanger_core_tier1	Ender IOエクスチェンジャーコア(ティア1)
+item.exchangers.eio_exchanger_core_tier2	Ender IOエクスチェンジャーコア(ティア2)
+item.exchangers.eio_exchanger_core_tier3	Ender IOエクスチェンジャーコア(ティア3)
+item.exchangers.eio_endergy_exchanger_core_tier1	Ender IOエンダジーエクスチェンジャーコア(ティア1)
+item.exchangers.eio_endergy_exchanger_core_tier2	Ender IOエンダジーエクスチェンジャーコア(ティア2)
+item.exchangers.eio_endergy_exchanger_core_tier3	Ender IOエンダジーエクスチェンジャーコア(ティア3)
+item.exchangers.thermal_exchanger_core_tier1	Thermalエクスチェンジャーコア(ティア1)
+item.exchangers.thermal_exchanger_core_tier2	Thermalエクスチェンジャーコア(ティア2)
+item.exchangers.thermal_exchanger_core_tier3	Thermalエクスチェンジャーコア(ティア3)
+item.exchangers.mekanism_exchanger_core_tier1	Mekanismエクスチェンジャーコア(ティア1)
+item.exchangers.mekanism_exchanger_core_tier2	Mekanismエクスチェンジャーコア(ティア2)
+item.exchangers.mekanism_exchanger_core_tier3	Mekanismエクスチェンジャーコア(ティア3)
+item.exchangers.ie_exchanger_core_tier1	Immersive Engineeringエクスチェンジャーコア(ティア1)
+item.exchangers.ie_exchanger_core_tier2	Immersive Engineeringエクスチェンジャーコア(ティア2)
+item.exchangers.ie_exchanger_core_tier3	Immersive Engineeringエクスチェンジャーコア(ティア3)
+item.exchangers.tuberous_exchanger	芋のエクスチェンジャー
+item.exchangers.bee_exchanger	ハチのエクスチェンジャー
+item.exchangers.creative_exchanger	クリエイティブエクスチェンジャー
+item.exchangers.wooden_exchanger	木のエクスチェンジャー
+item.exchangers.stone_exchanger	石のエクスチェンジャー
+item.exchangers.golden_exchanger	金のエクスチェンジャー
+item.exchangers.copper_exchanger	銅のエクスチェンジャー
+item.exchangers.iron_exchanger	鉄のエクスチェンジャー
+item.exchangers.diamond_exchanger	ダイヤモンドのエクスチェンジャー
+item.exchangers.emerald_exchanger	エメラルドのエクスチェンジャー
+item.exchangers.amethyst_exchanger	アメジストのエクスチェンジャー
+item.exchangers.obsidian_exchanger	黒曜石のエクスチェンジャー
+item.exchangers.netherite_exchanger	ネザライトのエクスチェンジャー
+item.exchangers.end_exchanger	エンドのエクスチェンジャー
+item.exchangers.copper_alloy_exchanger	銅合金のエクスチェンジャー
+item.exchangers.conductive_exchanger	伝導合金のエクスチェンジャー
+item.exchangers.pulsating_exchanger	脈動合金のエクスチェンジャー
+item.exchangers.energetic_exchanger	エネルギー合金のエクスチェンジャー
+item.exchangers.dark_steel_exchanger	ダークスチールのエクスチェンジャー
+item.exchangers.vibrant_exchanger	振動合金のエクスチェンジャー
+item.exchangers.end_steel_exchanger	エンドスチールのエクスチェンジャー
+item.exchangers.crude_steel_exchanger	粗鋼のエクスチェンジャー
+item.exchangers.energetic_silver_exchanger	エネルギー銀のエクスチェンジャー
+item.exchangers.vivid_exchanger	鮮烈合金のエクスチェンジャー
+item.exchangers.crystalline_exchanger	結晶合金のエクスチェンジャー
+item.exchangers.melodic_exchanger	旋律合金のエクスチェンジャー
+item.exchangers.stellar_exchanger	恒星合金のエクスチェンジャー
+item.exchangers.leadstone_exchanger	リードストーンのエクスチェンジャー
+item.exchangers.hardened_exchanger	硬化エクスチェンジャー
+item.exchangers.reinforced_exchanger	強化エクスチェンジャー
+item.exchangers.signalum_exchanger	シグナラムのエクスチェンジャー
+item.exchangers.resonant_exchanger	共鳴エクスチェンジャー
+item.exchangers.basic_exchanger	基本エクスチェンジャー
+item.exchangers.advanced_exchanger	高度なエクスチェンジャー
+item.exchangers.elite_exchanger	エリートエクスチェンジャー
+item.exchangers.ultimate_exchanger	究極のエクスチェンジャー
+item.exchangers.lv_exchanger	LVエクスチェンジャー
+item.exchangers.mv_exchanger	MVエクスチェンジャー
+item.exchangers.hv_exchanger	HVエクスチェンジャー

@@ -1,0 +1,7 @@
+## pneumaticcraft
+config.jade.plugin_pneumaticcraft.entity	エンティティ
+config.jade.plugin_pneumaticcraft.semiblock	セミブロック
+config.jade.plugin_pneumaticcraft.tube_module	チューブモジュール
+config.jade.plugin_pneumaticcraft.redstone	レッドストーン
+config.jade.plugin_pneumaticcraft.camo	カモフラージュ
+config.jade.plugin_pneumaticcraft.pneumatic	空気圧

@@ -1,0 +1,8 @@
+{
+  "key.category.sophisticatedinventoryinteractions.main": "Sophisticated Inventory Interactions",
+  "gui.sophisticatedinventoryinteractions.search_hint": "検索",
+  "gui.sophisticatedinventoryinteractions.sort_container": "コンテナのインベントリを整理",
+  "gui.sophisticatedinventoryinteractions.sort_player": "プレイヤーのインベントリを整理",
+  "gui.sophisticatedinventoryinteractions.transfer_to_container": "コンテナのインベントリへ移動",
+  "gui.sophisticatedinventoryinteractions.transfer_to_player": "プレイヤーのインベントリへ移動"
+}

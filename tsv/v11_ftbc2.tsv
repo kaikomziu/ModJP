@@ -1,0 +1,76 @@
+## ftbchunks
+@ ftbteamsconfig.ftbchunks.
+.allow_fake_players	すべての偽プレイヤーを許可
+.allow_fake_players.tooltip	すべての偽プレイヤーをチームの味方として扱う。\n警告: trueにすると、敵対するプレイヤーが偽プレイヤー経由で保護区域にアクセスできてしまう可能性がある。わからない場合はfalseにすること。
+.allow_named_fake_players	味方にする偽プレイヤーの名前/ID
+.allow_named_fake_players.tooltip	これらの偽プレイヤーをチームの味方として扱う。\n警告: ここに追加すると、敵対するプレイヤーがその偽プレイヤー経由で保護区域にアクセスできてしまう可能性がある。わからない場合は空のままにすること。
+.allow_fake_players_by_id	プレイヤーIDで偽プレイヤーを許可
+.allow_fake_players_by_id.tooltip	実在のプレイヤーのIDを持つ偽プレイヤーに、その実在のプレイヤーが味方またはチームメンバーとして許可されている場合、保護区域へのアクセスを許可する。わからない場合はtrueにすること。
+.allow_explosions	爆発ダメージを許可
+.allow_explosions.tooltip	保護区域のブロックが爆発でダメージを受けるか？
+.allow_pvp	PvPを許可
+.allow_pvp.tooltip	保護区域でプレイヤー同士の戦闘を許可するか？\nこれを機能させるには、サーバー設定の「PvPを許可」を「per_team」にする必要がある\n間接的な攻撃を100%%防げるとは限らない。ダメージ源がプレイヤーに帰属できる必要がある
+.allow_mob_griefing	モブによる破壊行為を許可
+.allow_mob_griefing.tooltip	保護区域でモブがブロックを壊すのを許可するか？\n注: 現在はエンダーマンのみ。将来ほかのモブも含む可能性がある\nクリーパーの爆発は「爆発を許可」で防がれる
+.block_edit_and_interact_mode	ブロックの編集/操作モード
+.block_edit_and_interact_mode.tooltip	ブロックを置く、壊す、操作するときに使われる
+.block_edit_mode	ブロックの編集モード
+.block_edit_mode.tooltip	ブロックを置く、壊すときに使われる
+.block_interact_mode	ブロックの操作モード
+.block_interact_mode.tooltip	チェストを開く、レバーを切り替えるなど、ブロックを右クリックしたときに使われる
+.entity_interact_mode	エンティティの操作モード
+.entity_interact_mode.tooltip	エンティティを右クリックしたときに使われる
+.nonliving_entity_attack_mode	生物でないエンティティの攻撃モード
+.nonliving_entity_attack_mode.tooltip	生物でないエンティティ(絵画、額縁など)を左クリックしたときに使われる
+.minimap_mode	ミニマップモード
+.location_mode	位置の表示
+.location_mode.tooltip	マップやミニマップで誰が自分を見られるかを制御する(バニラの通常の追跡範囲外)
+.claim_visibility	保護の表示
+.claim_visibility.tooltip	マップやミニマップで誰が自分の保護区域を見られるかを制御する
+ftbteamsconfig.ftbchunks	FTB Chunksの設定
+@ ftbchunks.
+.fake_players	偽プレイヤーを許可
+.fake_players.tooltip	CHECK: 偽プレイヤーのアクセスを実在のプレイヤーと同様に確認\nDENY: 偽プレイヤーを一切許可しない\nALLOW: 偽プレイヤーを常に許可
+.max_claimed_chunks	プレイヤーあたりの最大保護チャンク数
+.max_claimed_chunks.tooltip	このデフォルト値はFTB Ranksの 'ftbchunks.max_claimed` 権限ノードで上書きできる。
+.max_force_loaded_chunks	プレイヤーあたりの最大常時読み込みチャンク数
+.max_force_loaded_chunks.tooltip	このデフォルト値はFTB Ranksの 'ftbchunks.max_force_loaded` 権限ノードで上書きできる。
+.force_load_mode	常時読み込みモード
+.force_load_mode.tooltip	NEVER: 所有するチームのプレイヤーが1人以上オンラインのときだけチャンクの常時読み込みを許可\nALWAYS: 誰もオンラインでなくても常に常時読み込みを許可\nDEFAULT: チームにFTB Ranksの 'ftbchunks.chunk_load_offline' 権限を持つプレイヤーが1人以上いれば常時読み込みを許可
+.disable_protection	保護を無効化
+.disable_protection.tooltip	全員を信頼でき、保護を常時読み込みにしか使わないプライベートサーバーで便利
+.pvp_mode	保護チャンクでのPvPを許可
+.pvp_mode.tooltip	ALWAYS: すべての保護チャンクでPvPを許可\nNEVER: すべての保護チャンクでPvPを禁止\nPER_TEAM: 各チームがチームの設定で保護区域でのPvPの可否を決める
+.ally_mode	プレイヤーによる味方設定の変更を許可
+.ally_mode.tooltip	DEFAULT: FTB Teamsの味方の状態を確認して、プレイヤーが味方かを判断する\nFORCED_ALL: すべてのプレイヤーを常に味方とみなす\nFORCED_NONE: どのプレイヤーも味方とみなさない
+.claim_dimension_blacklist	ディメンションのブラックリスト
+.claim_dimension_blacklist.tooltip	チャンクを保護できないディメンションIDのブラックリスト。\n例: ジ・エンドでチャンク保護を無効にしたい場合は「minecraft:the_end」をこのリストに追加\nワイルドカードを使える。例: 「othermod:*」は「othermod」が追加したすべてのディメンションに一致
+.claim_dimension_whitelist	ディメンションのホワイトリスト
+.claim_dimension_whitelist.tooltip	チャンクを保護できるディメンションIDのホワイトリスト。空でない場合、ディメンションはこのリストに含まれている*必要がある*(かつ「ディメンションのブラックリスト」に含まれていないこと)。\n書式は「ディメンションのブラックリスト」と同じ
+.no_wilderness	保護されていない地域を保護
+.no_wilderness.tooltip	trueの場合、建築する前にチャンクを保護する必要がある
+.no_wilderness_dimensions	ディメンションごとに保護されていない地域を保護
+.no_wilderness_dimensions.tooltip	変更する前にチャンクを保護する必要があるディメンションIDの一覧。\n例: ネザーでチャンクの保護を必須にするには「minecraft:the_nether」を追加。\nワイルドカードを使える。例: 「othermod:*」は「othermod」が追加したすべてのディメンションに一致
+.force_disable_minimap	クライアントのミニマップを無効化
+.max_idle_days_before_unclaim	保護解除までの最大放置日数
+.max_idle_days_before_unclaim.tooltip	チームメンバーがこの日数ログインしないと、チームの保護が解除される。\n0で自動解除を無効化。
+.max_idle_days_before_unforce	常時読み込み解除までの最大放置日数
+.max_idle_days_before_unforce.tooltip	チームメンバーがこの日数ログインしないと、常時読み込みのチャンクは常時読み込みでなくなる。\n0で常時読み込みの自動解除を無効化。
+.long_range_tracker_interval	遠距離プレイヤー追跡の間隔
+.long_range_tracker_interval.tooltip	遠距離のプレイヤー追跡データをクライアントに送る間隔(ティック)。\n小さいほど更新頻度が上がるが、サーバー負荷と通信量も増える。特に混雑したサーバーでは注意すること。\n0で遠距離追跡を無効化。
+.protect_unknown_explosions	発生源不明の爆発を防ぐ
+.protect_unknown_explosions.tooltip	一部の爆発の発生源(ガストなど)はコード上で特定できない。\ntrueの場合、保護されたチャンクではこのような爆発のダメージを防ぐ。
+.hard_team_claim_limit	チームの保護数の絶対上限
+.hard_team_claim_limit.tooltip	メンバー数やパーティー上限の計算方法に関係なく適用される、パーティーチームの保護数の絶対上限。\nデフォルトの0は絶対上限なし。
+.hard_team_force_limit	チームの常時読み込み数の絶対上限
+.hard_team_force_limit.tooltip	メンバー数やパーティー上限の計算方法に関係なく適用される、パーティーチームの常時読み込み数の絶対上限。\nデフォルトの0は絶対上限なし。
+.party_limit_mode	パーティー上限の計算方法
+.party_limit_mode.tooltip	パーティーの保護数と常時読み込み数の上限の計算方法。\nLARGEST: 上限が最も大きいメンバーの上限を使う\nSUM: 全メンバーの上限を合計する\nOWNER: パーティーの所有者の上限だけを使う\nAVERAGE: 全メンバーの上限の平均を使う。
+.require_game_stage	マップにゲームステージを必要とする
+.require_game_stage.tooltip	trueの場合、マップを開いたりミニマップを見たりするには 'ftbchunks_mapping' のゲームステージ(KubeJSやGamestagesが必要)が必要になる
+.location_mode_override	チームの「位置の表示」を上書き
+.location_mode_override.tooltip	trueの場合、チームの「位置の表示」の設定は無視され、すべてのプレイヤーがマップ上のどこでも互いを見られる
+.max_prevented_log_age	偽プレイヤーのアクセス拒否ログの保存期間
+.max_prevented_log_age.tooltip	偽プレイヤーのアクセスを拒否したログを残す日数\n注: 未完成の機能。将来、保護区域への偽プレイヤーのアクセスの表示と制御に使われる予定
+.piston_protection	ピストン保護
+.piston_protection.tooltip	trueの場合、ピストンは異なるチームが所有する保護区域をまたいでブロックを押し引きできない(ブロック編集モードが公開の保護区域に出入りする場合を除く)\n'disable_protection' がtrueの場合、この設定は無視される。

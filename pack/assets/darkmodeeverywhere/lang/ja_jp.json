@@ -1,0 +1,13 @@
+{
+  "gui.darkmodeeverywhere.dark_mode": "ダークモード",
+  "gui.darkmodeeverywhere.light_mode": "ライトモード",
+  "gui.darkmodeeverywhere.perfect_dark": "完全な暗黒",
+  "gui.darkmodeeverywhere.less_perfect_dark": "やや控えめな暗黒",
+  "gui.darkmodeeverywhere.toasted_light": "焼けたライトモード",
+  "gui.tooltip.darkmodeeverywhere.shader_switch_tooltip": " * Shiftでライトモードまで飛ばす",
+  "config.darkemodeeverywhere.method_shader_blacklist": "ダークシェーダーを適用しないclass:method形式の文字列(描画メソッド)のリスト。\\n各文字列はダークシェーダーを止めるクラスとメソッド(または任意の部分文字列)からなる。\\n例えば 'renderHunger' だけで 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' を止められる(どちらでもよい)",
+  "config.darkemodeeverywhere.method_shader_dump": "この設定を有効にすると、ダークシェーダーを適用したGUIの描画に使われたメソッドを5秒ごとに出力する\\n出力はclass:method形式の文字列のリスト。例: 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'\\nブラックリストに入れたいGUIの描画メソッド文字列を探すのに使おう。",
+  "config.darkemodeeverywhere.button_position_x": "GUIの左端からのx方向のピクセル数",
+  "config.darkemodeeverywhere.button_position_y": "GUIの下端からのy方向のピクセル数",
+  "config.darkmodeeverywhere.enabled": "有効"
+}

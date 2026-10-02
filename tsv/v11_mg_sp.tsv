@@ -1,0 +1,172 @@
+## mininggadgets
+block.mininggadgets.minerslight	採掘者のライト
+block.mininggadgets.modificationtable	改造台
+block.mininggadgets.renderblock	描画ブロック(使用禁止)
+block.mininggadgets.renderblock.name	なりたいものになれる！
+item.mininggadgets.mininggadget	採掘ガジェット MK3
+item.mininggadgets.mininggadget_fancy	採掘ガジェット MK2
+item.mininggadgets.mininggadget_simple	採掘ガジェット MK1
+item.mininggadgets.upgrade_battery_1	アップグレード: バッテリー ティア1
+item.mininggadgets.upgrade_battery_2	アップグレード: バッテリー ティア2
+item.mininggadgets.upgrade_battery_3	アップグレード: バッテリー ティア3
+item.mininggadgets.upgrade_battery_creative	アップグレード: クリエイティブバッテリー
+item.mininggadgets.upgrade_efficiency_1	アップグレード: 効率強化 ティア1
+item.mininggadgets.upgrade_efficiency_2	アップグレード: 効率強化 ティア2
+item.mininggadgets.upgrade_efficiency_3	アップグレード: 効率強化 ティア3
+item.mininggadgets.upgrade_efficiency_4	アップグレード: 効率強化 ティア4
+item.mininggadgets.upgrade_efficiency_5	アップグレード: 効率強化 ティア5
+item.mininggadgets.upgrade_empty	空のアップグレードモジュール
+item.mininggadgets.upgrade_fortune_1	アップグレード: 幸運 ティア1
+item.mininggadgets.upgrade_fortune_2	アップグレード: 幸運 ティア2
+item.mininggadgets.upgrade_fortune_3	アップグレード: 幸運 ティア3
+item.mininggadgets.upgrade_freezing	アップグレード: 凍結
+item.mininggadgets.upgrade_light_placer	アップグレード: ライト設置
+item.mininggadgets.upgrade_magnet	アップグレード: マグネット
+item.mininggadgets.upgrade_range_1	アップグレード: 射程 ティア1
+item.mininggadgets.upgrade_range_2	アップグレード: 射程 ティア2
+item.mininggadgets.upgrade_range_3	アップグレード: 射程 ティア3
+item.mininggadgets.upgrade_silk	アップグレード: シルクタッチ
+item.mininggadgets.upgrade_size_1	アップグレード: 3x3
+item.mininggadgets.upgrade_size_2	アップグレード: 5x5
+item.mininggadgets.upgrade_size_3	アップグレード: 7x7
+item.mininggadgets.upgrade_void_junk	アップグレード: 不要物消去
+itemGroup.mininggadgets	Mining Gadgets
+mininggadgets.gadget.energy	エネルギー: %d/%d
+mininggadgets.gadget.range_change	範囲変更: %1$d x %1$d
+mininggadgets.text.empty_table_helper	Shift+クリックでスロットから入れるか、\nアップグレードをこの画面にドロップする。\n\nアップグレードをクリックで取り外す。
+mininggadgets.text.modification_table	改造台
+mininggadgets.text.open_gui	採掘ガジェットの設定を開く
+mininggadgets.tooltip.item.battery_boost	バッテリー増強: %1$d
+mininggadgets.tooltip.item.break_cost	1ブロックあたりのコスト: %1$d
+mininggadgets.tooltip.item.show_upgrades	Shiftを押し続けるとアップグレードを表示
+mininggadgets.tooltip.item.upgrade_cost	アップグレードのコスト: %1$d
+mininggadgets.tooltip.item.upgrades	現在のアップグレード:
+mininggadgets.tooltip.item.use_cost	使用ごとに+%1$d FE
+mininggadgets.tooltip.screen.beam_preview	ビームのプレビュー
+mininggadgets.tooltip.screen.blacklist	ブラックリスト有効
+mininggadgets.tooltip.screen.block_break_style	破壊の演出
+mininggadgets.tooltip.screen.blue	青
+mininggadgets.tooltip.screen.delay_explain	凍結パーティクルの発生頻度を調整する。\n初期状態では毎tick1つ発生する。パーティクルを\n減らしたい場合は遅延を増やす
+mininggadgets.tooltip.screen.edit_filters	フィルターを編集
+mininggadgets.tooltip.screen.fade	ブロックをフェード
+mininggadgets.tooltip.screen.freeze_delay	凍結の遅延
+mininggadgets.tooltip.screen.green	緑
+mininggadgets.tooltip.screen.inner_color	ビームの内側の色
+mininggadgets.tooltip.screen.mining_gadget	ガジェットの設定
+mininggadgets.tooltip.screen.no_upgrades	利用できるアップグレードがない
+mininggadgets.tooltip.screen.outer_color	外側の光の色
+mininggadgets.tooltip.screen.precision_mode	精密モード: %1$d
+mininggadgets.tooltip.screen.range	射程
+mininggadgets.tooltip.screen.red	赤
+mininggadgets.tooltip.screen.shrink	ブロックを縮小
+mininggadgets.tooltip.screen.size	サイズ: %1$d x %1$d
+mininggadgets.tooltip.screen.sizemode.auto	自動
+mininggadgets.tooltip.screen.sizemode.normal	通常モード
+mininggadgets.tooltip.screen.sizemode.pathway	2段下げ(通路)
+mininggadgets.tooltip.screen.ticks	tick
+mininggadgets.tooltip.screen.toggle_upgrades	アップグレードの切り替え
+mininggadgets.tooltip.screen.visual_settings	見た目の設定
+mininggadgets.tooltip.screen.visuals_menu	見た目を編集
+mininggadgets.tooltip.screen.volume	音量
+mininggadgets.tooltip.screen.whitelist	ホワイトリスト有効
+mininggadgets.tooltip.single.filters	フィルター
+mininggadgets.tooltip.single.insert	挿入
+mininggadgets.upgrade.replacement	アップグレード:
+tooltop.mininggadgets.battery	内部のコンデンサーを強化する
+tooltop.mininggadgets.efficiency	採掘ガジェットに効率強化を付ける
+tooltop.mininggadgets.empty	他のアップグレードのクラフトに使う
+tooltop.mininggadgets.fortune	採掘ガジェットに幸運を付ける
+tooltop.mininggadgets.freezing	水を凍らせ、溶岩をその場で止める！
+tooltop.mininggadgets.light_placer	周囲の明るさが8未満になるたびにたいまつを置く
+tooltop.mininggadgets.magnet	壊したブロックを直接インベントリに入れる
+tooltop.mininggadgets.paver	採掘しながら道を作る
+tooltop.mininggadgets.range	ティアごとに射程を5延ばす
+tooltop.mininggadgets.silk	採掘ガジェットにシルクタッチを付ける
+tooltop.mininggadgets.size	より広い範囲で採掘できるようにする
+tooltop.mininggadgets.void_junk	ブロックを消去する！(フィルターも追加)
+## spirit
+item.spirit.crude_soul_crystal	粗製の魂のクリスタル
+item.spirit.soul_crystal_shard	魂のクリスタルの欠片
+item.spirit.soul_steel_axe	ソウルスチールの斧
+item.spirit.soul_steel_bow	ソウルスチールの弓
+item.spirit.soul_steel_hoe	ソウルスチールのクワ
+item.spirit.soul_steel_pickaxe	ソウルスチールのツルハシ
+item.spirit.soul_steel_shovel	ソウルスチールのシャベル
+item.spirit.soul_steel_sword	ソウルスチールの剣
+item.spirit.soul_steel_wand	ソウルスチールの杖
+item.spirit.soul_powder	魂の粉
+item.spirit.glossary	亡霊の手引書
+item.spirit.soul_steel_ingot	ソウルスチールインゴット
+item.spirit.soul_crystal.upgrade_message	クリスタルの霊が新たな高みに達した！ティアが上がった。
+block.spirit.soul_cage	魂の檻
+block.spirit.soul_slate	魂の石板
+block.spirit.soul_pedestal	魂の台座
+block.spirit.crystal_pedestal	クリスタルの台座
+block.spirit.soul_steel_block	ソウルスチールブロック
+block.spirit.broken_spawner	壊れたスポナー
+block.spirit.soul_powder_block	魂の粉ブロック
+block.spirit.compressed_soul_powder_block	圧縮魂の粉ブロック
+block.spirit.compressed_soul_sand	圧縮ソウルサンド
+entity.spirit.soul	粗製の魂
+spirit.soul_cage.tier_0	役立たず
+spirit.soul_cage.tier_1	並以下
+spirit.soul_cage.tier_2	平均
+spirit.soul_cage.tier_3	上級
+spirit.soul_cage.tier_4	究極
+effect.spirit.corrupted	魂なし
+itemGroup.spirit.itemgroup	Spirit
+enchantment.spirit.soul_reaper	魂の刈り手
+enchantment.spirit.soul_reaper.desc	エンチャントレベルごとに、キル1回で得る魂が1つ増える
+config.spirit.toggletooltip	エンティティの視覚効果の無効化/有効化
+tooltip.spirit.soul_crystal.unbound	未登録
+spirit.item.soul_crystal_shard.tooltip	内容: %s
+spirit.item.crude_soul_crystal.tooltip	魂:
+spirit.item.crude_soul_crystal.tooltip_empty	空
+spirit.item.soul_steel_tool.empowered	§7§8[%s§8]§7で強化を解除§r
+spirit.item.soul_steel_tool.unpowered	§7§8[%s§8]§7で強化§r
+spirit.the_one_probe.soul_cage.tier_suffix	ティア
+spirit.the_one_probe.soul_cage.bar_suffix	 個の魂
+spirit.tooltip.chipped_loaded	正しく使うにはChippedを導入すること
+spirit.jei.soul_transmutation.title	魂の変成
+spirit.jei.soul_transmutation.consumes	アイテムを消費
+spirit.jei.soul_transmutation.empty_hand	素手で右クリック
+spirit.jei.soul_engulfing.title	魂の呑み込み
+spirit.jei.soul_engulfing.consumes	ブロックを消費
+spirit.jei.soul_engulfing.layer	層%s
+spirit.jei.soul_engulfing.duration	所要時間: %s秒
+spirit.jei.soul_cage_tier.title	魂の檻の情報
+spirit.jei.soul_cage_info.tier_prefix	ティア%s
+spirit.jei.soul_cage_info.required_souls	魂が%s個必要
+spirit.jei.soul_cage_info.spawn_delay	間隔は%s〜%stick
+spirit.jei.soul_cage_info.spawn_count	1サイクルに%s体スポーン
+spirit.jei.soul_cage_info.spawn_range	最大%sブロック先までスポーン
+spirit.jei.soul_cage_info.player_nearby	%sブロック以内にプレイヤーが必要
+spirit.jei.soul_cage_info.player_nearby_not_required	近くにプレイヤーがいなくてもよい
+spirit.jei.soul_cage_info.redstone_controlled_true	レッドストーンで制御できる
+spirit.jei.soul_cage_info.redstone_controlled_false	レッドストーンで制御できない
+spirit.jei.soul_cage_info.ignored_spawn_conditions_true	スポーン条件に従う
+spirit.jei.soul_cage_info.ignored_spawn_conditions_false	スポーン条件を無視する
+key.spirit.toggle	強化の切り替え
+category.spirit.keybinds	Spirit
+item.spirit.soul_crystal.tooltip	§b☠§r %s
+item.spirit.soul_crystal.entity_component	%s 🔥 %s
+misc.spirit.shift.shift_info	§8[%s§8]§rを押し続けると詳細を表示
+misc.spirit.shift.key	SHIFT
+item.spirit.soul_crystal.info_empty	モブを1体倒すと登録される
+misc.spirit.soul_cage_compatible	§2✔§r このモブは魂の檻に対応
+misc.spirit.soul_cage_incompatible	§4❌§r このモブは魂の檻に非対応
+misc.vitalize.machine_compatible	§2✔§r このモブは魂の再生機に対応
+misc.vitalize.machine_incompatible	§4❌§r このモブは魂の再生機に非対応
+misc.spirit.tier	§b♦§r %sティア
+misc.spirit.not_viable	§4⚠§r 檻に使うには魂が足りない
+misc.spirit.not_viable_vitalize	§4⚠§r 檻/再生機に使うには魂が足りない
+misc.spirit.next_tier	§b🗡§r %sティアまであと%s 🔥
+item.spirit.soul_steel_bow.description	§b🏹§r 撃つには何らかの魂のクリスタルが必要
+item.spirit.soul_steel_tools.description	§b🗡§r キル時に追加の🔥を得る
+item.spirit.soul_steel_tools.soul_fire_repairable	§b🔥§r ソウルファイアの中で道具が修理される
+item.spirit.soul_steel_wand.desc	§b🔥§r 魂の台座の上の魂を粗製の魂に変える
+rarity.spirit.common	コモン
+rarity.spirit.uncommon	アンコモン
+rarity.spirit.rare	レア
+rarity.spirit.epic	エピック
+rarity.spirit.legendary	レジェンダリー

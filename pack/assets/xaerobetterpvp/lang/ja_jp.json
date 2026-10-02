@@ -1,0 +1,13 @@
+{
+  "gui.xaero_item_tooltip": "アイテムのツールチップ",
+  "gui.xaero_entity_tooltip_settings": "アイテムのツールチップ設定",
+  "gui.xaero_item_tooltip_min_lines": "最小行数",
+  "gui.xaero_potion_effects_blink": "効果切れ間近で点滅",
+  "gui.xaero_armour_main_hand": "メインハンドのアイテム",
+  "gui.xaero_armour_off_hand": "オフハンドのアイテム",
+  "gui.xaero_no_durability": "なし",
+  "gui.xaero_held_centered_position": "中央配置時の手持ちアイテム",
+  "gui.xaero_held_centered_position_screen_edges": "画面端",
+  "gui.xaero_held_centered_position_hotbar": "ホットバー",
+  "gui.xaero_better_pvp_server_profiles": "Better PVP サーバー設定"
+}

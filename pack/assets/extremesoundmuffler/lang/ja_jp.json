@@ -1,0 +1,8 @@
+{
+  "log.warn.loadAnchorList": "ESM: アンカーリストが見つからない。空のアンカーリストを作成中",
+  "log.error.loadAnchorList": "ESM: アンカーリストの読み込みエラー:\\n %s",
+  "log.error.saveAnchorList": "ESM: アンカーリストの保存エラー\\n %s",
+  "log.warn.loadMuffledList": "ESM: 消音リストが見つからない。空の消音リストを作成中",
+  "log.error.loadMuffledList": "ESM: 消音リストの読み込みエラー:\\n %s",
+  "log.error.saveMuffledList": "ESM: 消音リストの保存エラー:\\n %s"
+}

@@ -1,0 +1,5 @@
+{
+  "text.autoconfig.chat_heads.option.threeDeeNess": "立体感",
+  "text.autoconfig.chat_heads.option.threeDeeNess.@Tooltip": "帽子レイヤーを少し大きく描画して\nチャットの頭を平たく見えにくくします。\n描画の問題が起こることがあります。\nワールドに入るとプレビューできます！",
+  "text.autoconfig.chat_heads.option.drawShadow": "影を描画"
+}

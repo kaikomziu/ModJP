@@ -1,0 +1,15 @@
+{
+  "block.industrialforegoing.simulated_hydroponic_bed": "シミュレーション水耕栽培ベッド",
+  "item.industrialforegoing.hydroponic_simulation_processor": "水耕栽培シミュレーションプロセッサー",
+  "tooltip.industrialforegoing.hydroponic.simulating": "シミュレーション中: ",
+  "tooltip.industrialforegoing.hydroponic.nothing": "なし",
+  "tooltip.industrialforegoing.hydroponic.executions": "実行回数: ",
+  "tooltip.industrialforegoing.hydroponic.efficiency": "効率: ",
+  "tooltip.industrialforegoing.hydroponic.next_efficiency": "次の効率ボーナス: ",
+  "tooltip.industrialforegoing.hydroponic.potential_drops": "ドロップの可能性: ",
+  "tooltip.industrialforegoing.hydroponic.drop_format": " - %s%s x %s",
+  "tooltip.titanium.facing_handler.simulation": "水耕栽培シミュレーションプロセッサー",
+  "tooltip.titanium.facing_handler.seed": "シミュレーション対象の種",
+  "tooltip.industrialforegoing.hydroponic.function_1": "* 水耕栽培ベッドで使うと作物データを収集します",
+  "tooltip.industrialforegoing.hydroponic.function_2": "* シミュレーション水耕栽培ベッドで使うとドロップを得られます"
+}

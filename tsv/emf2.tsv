@@ -1,0 +1,136 @@
+## entity_model_features
+entity_model_features.config.render.normal	通常
+entity_model_features.config.render.tooltip	カスタムモデルのパーツの描画方法を変えます。バニラのモデルパーツには影響しません。\n通常 = 通常の描画\n緑に点滅 = カスタムパーツが緑に点滅する\n輪郭 = モデルパーツの輪郭を描画する\n無効 = カスタムモデルのパーツを描画しない
+entity_model_features.config.substitute_vanilla	足りないモデルパーツを補う
+entity_model_features.config.substitute_vanilla.tooltip	.jemモデルファイルに足りないパーツを\n バニラの対応するパーツで置き換えようとします
+entity_model_features.config.texture_override_mode	サブモデルのテクスチャの扱い
+entity_model_features.config.texture_override_mode.dont	テクスチャの上書きを無視
+entity_model_features.config.texture_override_mode.emf	EMFの処理で試す
+entity_model_features.config.texture_override_mode.iris	Irisを優先して試す
+entity_model_features.config.texture_override_mode.tooltip	上書きテクスチャが設定されたサブモデルをEMFがどう描画するかを制御します\n例えば、クリーパーのモデルで頭のサブモデルに別のテクスチャがある場合など\n方法は2つあり、私のコードに頼るか、Iris MODの癖に頼るかです\n私のコードは「動きます」が、描画バッファには詳しくないので問題を起こすかもしれません\nIrisの癖を使う方法はかなり素直で安全・安定に見えますが、Iris本来の挙動ではないそうです\nIrisがない場合、Irisの選択肢はEMFのコードを使います\nサブモデルのテクスチャ上書きをデバッグするとき以外は、ほぼ常にデフォルトのままにしてください
+entity_model_features.config.tools	ツール
+entity_model_features.config.tools.tooltip	モデル作りやカスタムモデルの見分けに役立つ任意のツール
+entity_model_features.config.update	モデルの更新頻度
+entity_model_features.config.update.tooltip	体力や年齢などの変化に合わせて\nモブのモデルを更新する頻度を設定します\nなし = 更新しない\n遅い = 3～5秒\n普通 = 約1秒\n速い = 1秒未満\n即時 = 即座に(モブが数百体いると重くなる可能性あり)
+entity_model_features.config.variable_explanation.age	tick単位の年齢
+entity_model_features.config.variable_explanation.anger_time	エンティティの怒りの残り時間(tick)。敵対中は400～780から始まり、標的を見失うと0までカウントダウンします
+entity_model_features.config.variable_explanation.anger_time_start	anger_timeの開始値
+entity_model_features.config.variable_explanation.day_count	現在の日数
+entity_model_features.config.variable_explanation.day_time	tick単位の現在の時刻(0～24000)
+entity_model_features.config.variable_explanation.death_time	エンティティが死んでからの時間。0から20までカウントアップします
+entity_model_features.config.variable_explanation.dimension	現在のディメンション。オーバーワールド: 0、ネザー: -1、エンド: 1
+entity_model_features.config.variable_explanation.distance	クライアントプレイヤーからのエンティティの距離(ブロック)\n\ndistance変数は便利のために追加されましたが、OptiFineでも次のコードで同じことができます:\n"var.distance": "sqrt(pow(pos_x  -player_pos_x, 2) + pow(pos_y - player_pos_y, 2) + pow(pos_z - player_pos_z, 2))"
+entity_model_features.config.variable_explanation.e	ネイピア数\n2.718281.....
+entity_model_features.config.variable_explanation.entity_variable	エンティティ変数は "var.<name>"(浮動小数点)または "varb.<name>"(真偽値)の形式で指定します \n\n名前は任意の文字列で、例えば "var.xyz"、"var.last_rx" などです。\n\n変数は描画されるエンティティに紐付き、デフォルト値は0またはfalseです。\n\nエンティティ変数はフレーム間でアニメーションのデータを保存するのに便利です。
+entity_model_features.config.variable_explanation.entity_variable.title	エンティティ変数
+entity_model_features.config.variable_explanation.false	定数\nfalse
+entity_model_features.config.variable_explanation.fluid_depth	水没したエンティティの上下にある液体の深さ。水没していなければ0
+entity_model_features.config.variable_explanation.fluid_depth_down	水没したエンティティの下にある液体の深さ。水没していなければ0
+entity_model_features.config.variable_explanation.fluid_depth_up	水没したエンティティの上にある液体の深さ。水没していなければ0
+entity_model_features.config.variable_explanation.frame_time	前のフレームからの経過秒数
+entity_model_features.config.variable_explanation.head_pitch	頭のピッチ(X回転)
+entity_model_features.config.variable_explanation.head_yaw	頭のヨー(Y回転)
+entity_model_features.config.variable_explanation.health	エンティティの現在の体力
+entity_model_features.config.variable_explanation.height_above_ground	地面からのエンティティの高さ\n地面とは、エンティティの下にある当たり判定のあるブロックの最も高い位置
+entity_model_features.config.variable_explanation.hurt_time	エンティティがダメージを受けている時間。10から0までカウントダウンします
+entity_model_features.config.variable_explanation.id	エンティティ固有の数値ID\n同じエンティティなら常に同じ
+entity_model_features.config.variable_explanation.is_aggressive	エンティティがプレイヤーや他のエンティティに敵対しているか
+entity_model_features.config.variable_explanation.is_alive	エンティティが生きているか
+entity_model_features.config.variable_explanation.is_blocking	エンティティが盾で防御しているか
+entity_model_features.config.variable_explanation.is_burning	エンティティが燃えているか
+entity_model_features.config.variable_explanation.is_child	エンティティが子どもの状態か
+entity_model_features.config.variable_explanation.is_climbing	エンティティが登れるブロックを登っているか、壁にいるクモか
+entity_model_features.config.variable_explanation.is_crawling	エンティティが這っているか
+entity_model_features.config.variable_explanation.is_glowing	エンティティが発光の効果を受けているか
+entity_model_features.config.variable_explanation.is_hurt	エンティティがダメージを受けているか
+entity_model_features.config.variable_explanation.frame_counter	現在のフレーム番号(0～720719、その後0に戻る)
+entity_model_features.config.variable_explanation.is_in_ground	トライデントが地面に刺さっているか
+entity_model_features.config.variable_explanation.is_in_gui	エンティティがGUI内にあるか
+entity_model_features.config.variable_explanation.is_in_hand	エンティティを手に持っているか
+entity_model_features.config.variable_explanation.is_in_item_frame	エンティティが額縁の中にあるか
+entity_model_features.config.variable_explanation.is_in_lava	エンティティが溶岩に触れているか
+entity_model_features.config.variable_explanation.is_in_water	エンティティが水に触れているか
+entity_model_features.config.variable_explanation.is_invisible	エンティティが透明化の効果/NBTタグを持っているか
+entity_model_features.config.variable_explanation.is_on_ground	エンティティが地面に触れているか
+entity_model_features.config.variable_explanation.is_on_head	エンティティが他のエンティティの頭にかぶられているか
+entity_model_features.config.variable_explanation.is_on_shoulder	オウムが肩に乗っているか
+entity_model_features.config.variable_explanation.is_ridden	エンティティが他のエンティティに乗られているか
+entity_model_features.config.variable_explanation.is_riding	エンティティが他のエンティティに乗っているか
+entity_model_features.config.variable_explanation.is_sitting	ネコ/オオカミ/オウムが座っているか
+entity_model_features.config.variable_explanation.is_sneaking	ネコ/ヤマネコが忍び足をしているか
+entity_model_features.config.variable_explanation.is_jumping	生きているモブがジャンプしているか
+entity_model_features.config.variable_explanation.is_sprinting	ネコ/ヤマネコが走っているか
+entity_model_features.config.variable_explanation.is_tamed	ネコ/オオカミ/オウムが飼いならされているか
+entity_model_features.config.variable_explanation.is_wet	エンティティが水中/雨の中にいるか
+entity_model_features.config.variable_explanation.is_right_handed	プレイヤーが右利きか
+entity_model_features.config.variable_explanation.is_swimming	エンティティが泳いでいるか
+entity_model_features.config.variable_explanation.is_gliding	エンティティが滑空しているか
+entity_model_features.config.variable_explanation.is_first_person_hand	一人称の手を描画中か
+entity_model_features.config.variable_explanation.limb_speed	手足の動きの速さ。0～1の範囲(静止 = 0、ダッシュ = 1)
+entity_model_features.config.variable_explanation.limb_swing	手足のアニメーションのカウンター。エンティティが動くとtick単位で増えます
+entity_model_features.config.variable_explanation.max_health	エンティティの最大体力
+entity_model_features.config.variable_explanation.model_part	モデル変数は次の形式で指定します\n "<model>.<variable_name>"\n\nmodelには次のものを指定できます:\n "this" - 現在のカスタムモデル\n "part" - カスタムモデルが取り付けられている元のパーツモデル\n "<part>" - パーツ名で指定する元のモデル\n "<id>" - IDで指定するカスタムモデル\n "<part>:<sub_id>:<sub_sub_id>:..." - (階層指定)パーツ名の元モデルから始め、子をIDで探す\n "<id>:<sub_id>:<sub_sub_id>:..." - (階層指定)IDのモデルから始め、子をIDで探す\n\n重複している場合は、パーツ名またはIDで最初に見つかったモデルが使われます。\nIDによるモデルの検索は、階層指定の中で使う場合も深く探索します。 \n\n階層指定を使うと、モデルグループ(jsonパーツモデル)を別のパーツで再利用できます。 \n例えば、1つの手のモデル("shoulder:upper_arm:elbow:forearm:palm:finger[1.5]")を左右両方の手に使えます。\nアニメーションでは、左手の親指に "left_hand:finger1"、右手の親指に "right_hand:finger1" を使えます。 \n階層指定の途中の親は省略できます。 \n\n変数名\n tx, ty, tz    - 平行移動 x, y, z\n rx, ry, rz    - 回転 x, y, z\n sx, sy, sz    - 拡大縮小 x, y, z\n visible       - モデルとサブモデルを表示(真偽値)\n visible_boxes - モデルのみ表示、サブモデルには影響しない(真偽値)
+entity_model_features.config.variable_explanation.model_part.title	モデルパーツの変数
+entity_model_features.config.variable_explanation.move_forward	向いている方向へのエンティティの現在の移動量。プレイヤーの現在の移動ベクトルの単位円上のY軸成分を表す-1～1の範囲。1が前進、-1が後退
+entity_model_features.config.variable_explanation.move_strafing	向いている方向から右に90度の方向へのエンティティの現在の移動量。プレイヤーの現在の移動ベクトルの単位円上のX軸成分を表す-1～1の範囲。
+entity_model_features.config.variable_explanation.nan	非数(Not a number)\n実行時に例外を投げます\nデバッグ用
+entity_model_features.config.variable_explanation.pi	定数\n3.1415926
+entity_model_features.config.variable_explanation.is_using_item	エンティティが現在アイテムを使っているか。例: プレイヤーがバケツで右クリックしている
+entity_model_features.config.variable_explanation.is_holding_item_right	エンティティの右手スロットにアイテムがあるか
+entity_model_features.config.variable_explanation.is_holding_item_left	エンティティの左手スロットにアイテムがあるか
+entity_model_features.config.variable_explanation.player_pos	クライアントプレイヤーの現在のワールド座標
+entity_model_features.config.variable_explanation.player_rot	クライアントプレイヤーの現在のワールドでの向き。北が0
+entity_model_features.config.variable_explanation.pos	エンティティの現在のワールド座標
+entity_model_features.config.variable_explanation.render_variable	描画変数\n render.shadow_size\n - エンティティの下の影の大きさ\n render.shadow_opacity\n - 影の透明度\n render.shadow_offset_x, render.shadow_offset_z\n - 影の位置\n  render.leash_offset_x, render.leash_offset_y, render.leash_offset_z\n - リードを取り付ける点の位置
+entity_model_features.config.variable_explanation.render_variable.title	描画変数
+entity_model_features.config.variable_explanation.rot	エンティティの現在のワールドでの向き。北が0
+entity_model_features.config.variable_explanation.rule_index	現在一致しているランダムモデルのルール番号。デフォルトは0
+entity_model_features.config.variable_explanation.swing_progress	エンティティの攻撃がどこまで進んだか。0から1までカウントアップします
+entity_model_features.config.variable_explanation.time	tick単位の総ゲーム時間。昼夜サイクルとは無関係
+entity_model_features.config.variable_explanation.true	定数\ntrue
+entity_model_features.config.models	すべてのモデル
+entity_model_features.config.models.enabled	モデルを有効化
+entity_model_features.config.models.enabled.tooltip	この.jemモデルファイルを読み込むかどうか
+entity_model_features.config.models.part_names	このモデルのパーツ名
+entity_model_features.config.models.export	モデルを.jemファイルとして書き出す
+entity_model_features.config.models.export.tooltip	このモデルを.jemファイルとして「MC_DIRECTORY/emf/export」フォルダに書き出します\nこのファイルはBlockbenchで開け、ピボット・ボックス・UVなど\nカスタムモデルに必要なデータがすべて含まれています\nリソースパックで使うためにこの.jemファイルをどこに置けばいいかなど、追加の情報もログに出力されます。
+entity_model_features.config.models.export.success	モデルを書き出しました
+entity_model_features.config.models.export.fail	モデルを書き出せません。理由:
+entity_model_features.config.models.arrows	arrow.jem と spectral_arrow.jem はここに表示されませんが、どちらも対応しています
+entity_model_features.config.models.cape	\nplayer_cape.jem はここに表示されませんが対応しています。player.jemの'cloak'パーツだけを抜き出したものです
+entity_model_features.config.variables	変数
+entity_model_features.config.functions	関数
+entity_model_features.config.player_settings	プレイヤーの設定
+entity_model_features.config.only_client	自分のプレイヤーモデルだけ変更
+entity_model_features.config.only_client.tooltip	有効にすると、カスタムプレイヤーモデルを自分のプレイヤーにだけ適用し\nマルチプレイの他のプレイヤーは無視します
+entity_model_features.config.math	アニメーション計算の詳細
+entity_model_features.config.math.explain	EMFのカスタムエンティティモデルのアニメーションで使える計算関数と変数の詳細です。\n他のMODがAPIでEMFに追加したものも含みます。\n各関数と変数はクリックすると詳細が表示されます。
+entity_model_features.config.variables.explain	EMFのカスタムエンティティモデルのアニメーション用に現在登録されている計算変数の一覧です。\n各変数はクリックすると詳細が表示されます。
+entity_model_features.config.functions.explain	EMFのカスタムエンティティモデルのアニメーション用に現在登録されている計算関数の一覧です。\n各関数はクリックすると詳細が表示されます。
+entity_model_features.title	Entity Model Features
+entity_model_features.suffix_property	モデルの接尾辞(任意)\nエンティティのモデルに最後に設定されたランダムモデルの接尾辞番号と照合します\nデフォルトは0\n例: modelSuffix.1= 2 4 6\n§amodelSuffix.<n>=<list>
+entity_model_features.rule_property	モデルルール(任意)\nエンティティのモデルが最後に一致したランダムモデルのルール番号と照合します\nデフォルトは0\n例: modelRule.1= 2 4 6\n§amodelRule.<n>=<list>
+entity_model_features.var_property	エンティティ変数(浮動小数点)(任意)\nエンティティのCEMアニメーション変数の値と照合します\nデフォルトは0\n例: (アニメーション変数 'var.xyz' の場合) var.1.xyz= 2 4 6\n§avar.<n>.<variable>=<list>
+entity_model_features.varb_property	エンティティ変数(真偽値)(任意)\nエンティティのCEMアニメーション変数の値と照合します\nデフォルトはfalse\n例: (アニメーション変数 'varb.xyz' の場合) varb.1.xyz=true\n§avarb.<n>.<variable>=<true|false>
+entity_model_features.global_var_property	グローバル変数(浮動小数点)(任意)\nCEMアニメーションのグローバル変数の値と照合します\nデフォルトは0\n例: (アニメーション変数 'global_var.xyz' の場合) global_var.1.xyz= 2 4 6\n§aglobal_var.<n>.<variable>=<list>
+entity_model_features.global_varb_property	グローバル変数(真偽値)(任意)\nCEMアニメーションのグローバル変数の値と照合します\nデフォルトはfalse\n例: (アニメーション変数 'global_varb.xyz' の場合) global_varb.1.xyz=true\n§aglobal_varb.<n>.<variable>=<true|false>
+entity_model_features.config.variable_explanation.global_variable	グローバル変数は "global_var.<name>"(浮動小数点)または "global_varb.<name>"(真偽値)の形式で指定します \n名前は任意の文字列で、例えば "global_var.xyz"、"global_var.last_rx" などです。\n変数はグローバルに保存され、デフォルト値は0またはfalseです。\nグローバル変数は、複数のエンティティで使うアニメーションのデータを保存するのに便利です。
+entity_model_features.config.variable_explanation.global_variable.title	グローバル変数
+entity_model_features.config.variable_explanation.optifine_parts	OptiFineのパーツ名:
+entity_model_features.config.variable_explanation.unknown_parts	対応付けのないパーツ名:
+entity_model_features.config.prevent_hand	一人称の手のアニメーションを防ぐ
+entity_model_features.config.reset_player	描画のたびにプレイヤーモデルをリセット
+entity_model_features.config.reset_player.tooltip	描画のたびに、事前にプレイヤーモデルのバニラのパーツの変形をすべてリセットします。\nプレイヤーにカスタムモデルがある場合のみ適用されます。\nこれは通常の挙動ではありませんが、プレイヤーのアニメーションを変えるMODが多いため、\nこの設定でMODとアニメーションパックの間のプレイヤーアニメーション互換の難しさを大幅に減らせます。\n例: プレイヤーのエモートMOD。\nこの互換にはパック作者側の対応も必要です。
+entity_model_features.config.models.file_names	ファイル名と場所
+entity_model_features.config.prevent_hand.tooltip	有効にすると、一人称の手のモデルでEMFのカスタムアニメーションをすべて強制的に再生させません
+entity_model_features.config.models_text	EMFで変更できるすべてのモデルです\nこれらの画面では、変更されていない状態のモデル情報だけを表示/書き出します\nモデルの現在の状態を見たい場合は、ゲーム内でモデルを確認してください
+entity_model_features.config.ebe_warn.1	EBE MODの一部の設定がEMFによって強制的に無効にされました
+entity_model_features.config.ebe_warn.2	リソースパックがそのブロックエンティティのカスタムモデルを読み込んでいるためです
+entity_model_features.config.ebe_warn.3	現在無効にしている設定:
+entity_model_features.config.ebe_warn.4	これはEMFのモデル設定で変更できます
+entity_model_features.config.variation_base	バリエーションに基本モデルを必須にする
+entity_model_features.config.variation_base.tooltip	OptiFineでは挙動がかなり不安定になるため、バリエーションには「基本」モデルを必須にするのが推奨されています。有効にすると、'pig.jem' がないと 'pig2.jem' はバリエーションになりません。\nEMFはこれを必須としませんが、OptiFineとの互換をできるだけ保つのが最善なので、ここで有効にすると適用します。\n標準のモデルは、EMFの設定の「モデル > すべてのモデル > *モデル* > 書き出し」で簡単に入手できます。\nまたはこの設定を無効にしてください。
+entity_model_features.config.double_chest_fix	ラージチェストのモデルのログエラーを修正
+entity_model_features.config.double_chest_fix.tooltip	ラージチェストのモデル 'chest_large.jem' はコード上で2つの半分のモデルに分ける必要があるため、\n左右の片方がないというログが大量に出ることがあります。\n有効にするとこれを直し、チェストの反対側を参照するアニメーションもある程度直します。\nそれでも左右の半分のアニメーションは分けておくことを強くおすすめします。\n他のチェストのモデルに影響するMODで問題が起こる可能性があるため、設定項目にしています。
+entity_model_features.config.iris_shadow_skip	Irisの影パスのアニメーションを省略
+entity_model_features.config.iris_shadow_skip.tooltip	エンティティのモデルが毎フレーム、描画とIrisの影パスで\n2回アニメーションしないようにします\n常にONにしておくべきで、将来のIrisのAPI変更で\n壊れたときのためだけに用意しています

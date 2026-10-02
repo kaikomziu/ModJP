@@ -1,0 +1,9 @@
+{
+  "itemGroup.rsrequestify": "RS: Requestify",
+  "block.rsrequestify.requester": "リクエスター",
+  "button.refinedstoragerequestify:requester.save": "保存",
+  "tooltip.refinedstoragerequestify:requester.missing": "材料不足",
+  "block.rsrequestify.crafting_emitter": "クラフト信号発信機",
+  "block.rsrequestify.crafting_emitter.tooltip": "フィルターのアイテム/液体のどれかがクラフト中のときにレッドストーン信号を出す。",
+  "block.rsrequestify.requester.tooltip": "フィルターのアイテム/液体を指定した量の在庫に保つ。"
+}

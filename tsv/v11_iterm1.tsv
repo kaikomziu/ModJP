@@ -1,0 +1,130 @@
+## integratedterminals
+itemGroup.integratedterminals	Integrated Terminals
+general.integratedterminals.description	Integrated Dynamicsのネットワークを管理・一覧するための端末。
+key.categories.integratedterminals	Integrated Terminals
+@ gui.integratedterminals.
+.amount	量
+.channel	チャンネル
+.terminal_storage.tooltip.energy	エネルギー
+.terminal_storage.tooltip.energy.amount	%s FE
+.terminal_storage.tooltip.fluid.amount	%s mB
+.terminal_storage.storage_name	%sの保管庫
+.terminal_storage.crafting_name	%sのクラフト
+.terminal_storage.channel	チャンネル:
+.terminal_storage.craft	クラフト
+.terminal_storage.tooltip.requirements	クラフトに必要なもの:
+.terminal_storage.start_crafting_job	クラフト作業を開始
+.terminal_storage.craftingplan.label.valid	クラフト計画 - 有効
+.terminal_storage.craftingplan.label.failed.incomplete	クラフト計画 - 不完全
+.terminal_storage.craftingplan.label.failed.recursion	クラフト計画 - 再帰的なレシピを検出！
+.terminal_storage.craftingplan.label.failed.insufficient_crafting_interfaces	クラフト計画 - クラフトインターフェースが不足
+.terminal_storage.craftingplan.label.running	クラフト計画 - 実行中
+.terminal_storage.step.next	次へ
+.terminal_storage.step.back	戻る
+.terminal_storage.step.craft	クラフト
+.terminal_storage.step.crafting_plan_calculating	クラフト計画を計算中…
+.terminal_storage.stored	保管: %s
+.terminal_storage.to_craft	クラフト予定: %s
+.terminal_storage.crafting	クラフト中: %s
+.terminal_storage.missing	不足: %s
+.terminal_storage.tooltip.quantity	数量: %s
+.terminal_storage.sort	並べ替え
+.terminal_storage.sort.order.label	順序: %s
+.terminal_storage.sort.order.ascending	昇順
+.terminal_storage.sort.order.descending	降順
+.terminal_storage.sort.itemstack.id	アイテムID
+.terminal_storage.sort.itemstack.id.info	内部のアイテムレジストリIDで並べ替え。
+.terminal_storage.sort.itemstack.name	アイテム名
+.terminal_storage.sort.itemstack.name.info	アイテム名で並べ替え。
+.terminal_storage.sort.itemstack.quantity	アイテム数
+.terminal_storage.sort.itemstack.quantity.info	アイテムのスタック数で並べ替え。
+.terminal_storage.sort.fluidstack.id	液体ID
+.terminal_storage.sort.fluidstack.id.info	内部の液体レジストリIDで並べ替え。
+.terminal_storage.sort.fluidstack.name	液体名
+.terminal_storage.sort.fluidstack.name.info	液体名で並べ替え。
+.terminal_storage.sort.fluidstack.quantity	液体量
+.terminal_storage.sort.fluidstack.quantity.info	mBの量で並べ替え。
+.terminal_storage.craftinggrid.clear	クラフトグリッドを保管庫に片付ける
+.terminal_storage.craftinggrid.clear.info	Shift+クリックでプレイヤーのインベントリに片付ける
+.terminal_storage.craftinggrid.balance	クラフトグリッドを均等配分
+.terminal_storage.craftinggrid.balance.info	同じアイテムをスロットに均等に分ける
+.terminal_storage.craftinggrid.autorefill	クラフトグリッドを自動補充
+.terminal_storage.craftinggrid.autorefill.info	クラフト後に自動でクラフトグリッドを補充する
+.terminal_storage.craftinggrid.autorefill.type.disabled	§o無効
+.terminal_storage.craftinggrid.autorefill.type.storage	§a補充元: ネットワーク
+.terminal_storage.craftinggrid.autorefill.type.player	§a補充元: プレイヤー
+.terminal_storage.craftinggrid.autorefill.type.storage_player	§a補充元: ネットワーク、プレイヤー
+.terminal_storage.craftinggrid.autorefill.type.player_storage	§a補充元: プレイヤー、ネットワーク
+.terminal_storage.crafting.filter	クラフトのフィルター
+.terminal_storage.crafting.filter.info	保管中またはクラフト可能な材料で絞り込む
+.terminal_storage.crafting.filter.type.all	§o両方
+.terminal_storage.crafting.filter.type.storage	§a保管庫
+.terminal_storage.crafting.filter.type.craftable	§aクラフト可能
+.terminal_storage.scale	グリッドのサイズ
+.terminal_storage.scale.info	保管庫のグリッドのサイズを設定する
+.terminal_storage.scale.scalexy	§a高さ/幅に合わせる
+.terminal_storage.scale.scaley	§a高さに合わせる
+.terminal_storage.scale.scalex	§a幅に合わせる
+.terminal_storage.scale.small	§a小
+.terminal_storage.scale.medium	§a中
+.terminal_storage.scale.large	§a大
+.terminal_storage.setdefaults	デフォルトの設定にする
+.terminal_storage.setdefaults.info	現在の設定を新しい端末に使う。
+.terminal_crafting_job.craftingplan.dependencies	サイズ: %s
+.terminal_crafting_job.craftingplan.cancel	作業を中止
+.terminal_crafting_job.craftingplan.cancel_all	すべての作業を中止
+.terminal_crafting_job.craftingplan.empty	空のクラフト作業
+.terminal_crafting_job.craftingplan.duration	所要時間: %s
+.terminal_crafting_job.craftingplan.crafting_channel	チャンネル: %s
+.terminal_crafting_job.craftingplan.owner	所有者: %s
+.craftingplan.view.flat	まとめて表示
+.craftingplan.view.tree	ツリー表示
+.craftingplan.status	状態: %s
+.craftingplan.status.error	エラー
+.craftingplan.status.error.desc	不明なエラー
+.craftingplan.status.invalid	無効
+.craftingplan.status.invalid.desc	保管庫の材料が不足
+.craftingplan.status.unstarted	有効
+.craftingplan.status.unstarted.desc	まだ開始していない
+.craftingplan.status.queueing	順番待ち
+.craftingplan.status.queueing.desc	他の作業が終わるのを待っている
+.craftingplan.status.pending_dependencies	依存待ち
+.craftingplan.status.pending_dependencies.desc	依存する作業が終わるのを待っている
+.craftingplan.status.pending_inputs	入力待ち
+.craftingplan.status.pending_inputs.desc	入力の材料が不足
+.craftingplan.status.invalid_inputs	レシピが許可されていない
+.craftingplan.status.invalid_inputs.desc	レシピの入力をクラフト先に搬入できなかった
+.craftingplan.status.crafting	クラフト中
+.craftingplan.status.crafting.desc	作業を開始し、出力を待っている
+.craftingplan.status.finished	完了
+.craftingplan.status.finished.desc	作業が完了し、出力を受け取った
+@ key.integratedterminals.
+.terminal.tab.next	次の端末タブへ
+.terminal.tab.previous	前の端末タブへ
+.terminal.craftinggrid.clearplayer	クラフトグリッドをインベントリに片付ける
+.terminal.craftinggrid.clearstorage	クラフトグリッドを保管庫に片付ける
+.terminal.craftinggrid.balance	クラフトグリッドを均等配分
+.terminal.portable.open	最初の携帯保管端末を開く
+@ advancement.integratedterminals.
+.menril_glass	照らすガラス
+.menril_glass.desc	メンリル樹脂をガラスの上で乾かしてメンリルガラスを手に入れる。
+.craft_storage_terminal	保管端末の誕生
+.craft_storage_terminal.desc	保管端末をクラフトする
+.gui_storage_terminal	GUIシミュレーター9000
+.gui_storage_terminal.desc	保管端末のGUIを開く
+.filter_enchantable	保管端末の動的フィルター
+.filter_enchantable.desc	変数を使って保管端末のエンチャント可能なアイテムを動的に絞り込む
+block.integratedterminals.menril_glass	メンリルガラス
+block.integratedterminals.menril_glass.info	照らすガラス
+block.integratedterminals.chorus_glass	コーラスガラス
+block.integratedterminals.chorus_glass.info	通り抜けられるガラス
+item.integratedterminals.terminal_storage_portable	携帯保管端末
+item.integratedterminals.terminal_storage_portable.info	リンクしたネットワークに保管された材料を画面で操作する。全方向コネクターを右クリックしてリンクする。
+item.integratedterminals.terminal_storage_portable.status.no_network	ネットワークがリンクされていない。全方向コネクターを右クリックしてリンクする。
+item.integratedterminals.terminal_storage_portable.status.invalid_network	リンクしたネットワークが見つからなかった
+item.integratedterminals.terminal_storage_portable.status.linked	ネットワークにリンク済み
+parttype.integratedterminals.terminal_storage	保管端末
+parttype.integratedterminals.terminal_storage.info	ネットワークに保管された材料を画面で操作する。
+parttype.integratedterminals.terminal_crafting_job	クラフト作業端末
+parttype.integratedterminals.terminal_crafting_job.info	ネットワーク内のすべてのクラフト作業を管理・一覧する。
+parttype.integratedterminals.terminal_crafting_job.tooltip.nohandlers	警告: 利用できるクラフトハンドラーがない。Integrated Craftingなどの他のMODを導入すると使えるようになる。

@@ -1,0 +1,133 @@
+## domum_ornamentum
+=Material: %s	素材: %s
+=Main Material: %s	主素材: %s
+=Variant: %s	バリエーション: %s
+=  - Material: %s	  - 素材: %s
+=  - Center:    %s	  - 中央:    %s
+=  - Frame:     %s	  - 枠:     %s
+=  - Type:     %s	  - 種類:     %s
+=Materials:	素材:
+=Center:	中央:
+=Frame:	枠:
+=Framing:	枠組み:
+=Full	全面
+=Creeper	クリーパー
+=Port Manteau	ポートマントー
+=Vertically Striped	縦縞
+=Horizontally Striped	横縞
+=Waffle	ワッフル
+=Boss	ボス
+=Coffer	格間
+=Horizontal Bars	横棒
+=Vertical Bars	縦棒
+=Horizontally Squiggly Striped	横の波縞
+=Vertically Squiggly Striped	縦の波縞
+=Moulding	モールディング
+=Porthole	丸窓
+=Roundel	円形飾り
+=Slot	スロット
+=Supported by: %s	支え: %s
+=Framed %s	枠付きの%s
+=%s Shingles	%sの屋根板
+@ block.domum_ornamentum.
+.architectscutter	建築家のカッター
+.beige_bricks	ベージュのレンガ
+.beige_stone_bricks	ベージュの石レンガ
+.blockbarreldeco_onside	横倒しの樽
+.blockbarreldeco_standing	立てた樽
+.brown_bricks	茶色のレンガ
+.brown_stone_bricks	茶色の石レンガ
+.cream_bricks	クリーム色のレンガ
+.cream_stone_bricks	クリーム色の石レンガ
+.roan_bricks	葦毛色のレンガ
+.roan_stone_bricks	葦毛色の石レンガ
+.sand_bricks	砂色のレンガ
+.sand_stone_bricks	砂色の石レンガ
+@ cuttergroup.domum_ornamentum.
+.avanilla	バニラのブロック
+.btimberframe	木骨
+.cshingle	屋根板
+.ddoor	ドア
+.etrapdoor	トラップドア
+.fpanel	パネル
+.gpillar	柱
+.hpaperwall	枠付きの窓板
+.ilight	照明
+.jbrick	レンガ
+.kpost	支柱
+@ domum_ornamentum.
+.architectscutter	建築家のカッター
+.blockpaperwall.name.format	%sの枠付き窓板
+.blockpillar.name.format	丸い%sの柱
+.blocktiledpaperwall.name.format	%sのタイル窓板
+.blockypillar.name.format	ボクセルの%sの柱
+.dark_brick.name.format	暗い%sのレンガ
+.dark_brick_stair.name.format	暗い%sのレンガの階段
+.desc.center	中央 %s
+.desc.frame	枠 %s
+.desc.main	主 %s
+.desc.onlyone	%s
+.desc.shingle	屋根板 %s
+.desc.support	支え %s
+.door.name.format	%sのドア
+.dynamic.frame.name.format	動的な枠付きの%s
+.extra.name.format	%s(追加)
+.fancydoor.name.format	装飾的な%sのドア
+.fancytrapdoor.name.format	装飾的な%sのトラップドア
+.fence-gate.name.format	%sのフェンスゲート
+.fence.name.format	%sのフェンス
+.group	グループ:
+.light.frame.type.center_light	中央
+.light.frame.type.crossed_light	交差
+.light.frame.type.fancy_light	装飾
+.light.frame.type.four_light	4分割
+.light.frame.type.framed_light	枠付き
+.light.frame.type.horizontal_light	横
+.light.frame.type.vertical_light	縦
+.light_brick.name.format	明るい%sのレンガ
+.light_brick_stair.name.format	明るい%sのレンガの階段
+.origin.tooltip	建築家のカッターでクラフト
+.panel.name.format	%sのパネル
+.pillar.header	種類:
+.post.name.format	%sの支柱
+.post.type.name.double	二重
+.post.type.name.heavy	重厚
+.post.type.name.pinched	くびれ
+.post.type.name.plain	無地
+.post.type.name.quad	四重
+.post.type.name.turned	ろくろ挽き
+.shingle.name.format.block.domum_ornamentum.shingle_flat	%sの平らな屋根板
+.shingle.name.format.block.domum_ornamentum.shingle_flat_lower	%sの平らな下部屋根板
+.shingle.name.format.block.domum_ornamentum.shingle_steep	%sの急勾配の屋根板
+.shingle.name.format.block.domum_ornamentum.shingle_steep_lower	%sの急勾配の下部屋根板
+.shingle_slab.cover.format	覆い: %s
+.slab.name.format	%sのハーフブロック
+.squarepillar.name.format	四角い%sの柱
+.stair.name.format	%sの階段
+.timber.frame.type.double_crossed	二重交差
+.timber.frame.type.down_gated	下向きゲート
+.timber.frame.type.framed	枠付き
+.timber.frame.type.horizontal_plain	横の無地
+.timber.frame.type.one_crossed_lr	左右の交差
+.timber.frame.type.one_crossed_rl	右左の交差
+.timber.frame.type.plain	無地
+.timber.frame.type.side_framed	側面
+.timber.frame.type.side_framed_horizontal	側面の横
+.timber.frame.type.up_gated	上向きゲート
+.trapdoor.name.format	%sのトラップドア
+.variant	バリエーション:
+.wall.name.format	%sの塀
+@ itemGroup.domum_ornamentum.
+.doors	DO - ドア
+.extra-blocks	DO - 装飾ブロック
+.fences	DO - フェンス
+.floating-carpets	DO - 浮遊カーペット
+.general	Domum Ornamentum (DO)
+.paperwalls	DO - 薄い枠付きの壁
+.posts	DO - 支柱
+.shingle_slabs	DO - 屋根板のハーフブロック
+.shingles	DO - 屋根板
+.slabs	DO - ハーフブロック
+.stairs	DO - 階段
+.timber_frames	DO - 枠付きブロック
+.walls	DO - 塀

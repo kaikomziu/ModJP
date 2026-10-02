@@ -1,0 +1,7 @@
+{
+  "gui.xycraft_core.slot.strict": "厳密モード",
+  "gui.xycraft_core.slot.strict.set": "%1$sで厳密モードを切り替え",
+  "key.category.xycraft_core.key_binds": "XyCraft",
+  "key.xycraft_core.modifier_key": "修飾キー",
+  "xycraft.core.system.finished_reloading": "再読み込みが完了した！"
+}

@@ -1,0 +1,262 @@
+## pneumaticcraft
+@ pneumaticcraft.gui.
+.redstoneModule.comparatorInput.tooltip	レッドストーンモジュールをバニラのコンパレーターのように動かす
+.redstoneModule.invert	出力を反転？
+.redstoneModule.invert.tooltip	レッドストーントーチを使ったように出力信号を反転する
+.redstoneModule.operation_and	AND
+.redstoneModule.operation_and.tooltip	%sと%sのチャンネルの最大入力信号がどちらも0でなければ、出力信号は15。それ以外は0。
+.redstoneModule.operation_clock	クロック
+.redstoneModule.operation_clock.tooltip	%sのチャンネルに入力信号がないとき、%d tickごとに2 tickだけ出力信号が15になる。それ以外は0。
+.redstoneModule.operation_comparator	比較器
+.redstoneModule.operation_comparator.tooltip	%sのチャンネルの最大入力信号が%sのチャンネルの最大入力信号より大きければ、出力信号は15。それ以外は0。
+.redstoneModule.operation_compare	定数と比較
+.redstoneModule.operation_compare.tooltip	%sのチャンネルの最大入力信号が定数%dより大きければ、出力信号は15。それ以外は0。
+.redstoneModule.operation_constant	定数
+.redstoneModule.operation_constant.tooltip	%sのチャンネルの出力信号は単に定数%d。
+.redstoneModule.operation_counter	カウンター
+.redstoneModule.operation_counter.tooltip	%sのチャンネルの信号が立ち上がると、出力信号が1増える。新しい出力信号がMIN(%d,15)より大きくなると0に戻る。
+.redstoneModule.operation	演算
+.redstoneModule.operation_or	OR
+.redstoneModule.operation_or.tooltip	%sか%sのチャンネルの最大入力信号のどちらかが0でなければ、出力信号は15。それ以外は0。
+.redstoneModule.operation_passthrough	パススルー
+.redstoneModule.operation_passthrough.tooltip	出力信号は単に%sのチャンネルの入力信号の最大値。
+.redstoneModule.operation_subtract	減算
+.redstoneModule.operation_subtract.tooltip	出力信号は、%sのチャンネルの最大入力信号から%sのチャンネルの最大入力信号を引いたもの(0〜15に制限)。
+.redstoneModule.operation_toggle	トグル
+.redstoneModule.operation_toggle.tooltip	%sのチャンネルの信号が立ち上がると、出力信号が0と15で切り替わる。
+.redstoneModule.operation_xor.tooltip	%sと%sのチャンネルの最大入力信号が両方0か、両方0でなければ、出力信号は15。それ以外は0。
+.redstoneModule.operation_xor	XOR
+.redstoneModule.output	レッドストーンを出力
+.redstone	レッドストーン
+.regulatorTube.hudMessage.inverted	§cレギュレーターのチューブモジュールは矢印の方向の空気しか調整しない。
+.regulatorTube.hudMessage.notInLine	§cレギュレーターのチューブモジュールはモジュールと一直線上の空気しか調整しない。
+.remote.boundSecurityStation	リモコンは%sのセキュリティステーションに紐付けられています。このステーションにアクセスできるプレイヤーだけが変更できます。
+.remote.button.height	高さ:
+.remote.button.importRemoteButton	別のリモコンから既存のリモコンの配置を読み込む。
+.remote.button.pastebinButton	Pastebinから配置を読み込む/Pastebinへ書き出す。
+.remote.button.settingValue	設定する値:
+.remote.button.value.tooltip	このボタンを押すと、変数がこの座標に設定される。
+.remote.button.width	幅:
+.remote.cantBindSecurityStation	§cこのリモコンをこのセキュリティステーションに紐付けられません: アクセス権がありません。
+.remote.differentSecuritySettings	§cセキュリティステーションの紐付けが異なるリモコンからは配置を読み込めません。
+.remote.dropdown.dropDownElements	ドロップダウンの要素:
+.remote.dropdown.dropDownElements.tooltip	ドロップダウンの要素を指定する。要素はカンマ(,)で区切る。
+.remote.dropdown.sort	並べ替え
+.remote.dropdown.sort.tooltip	オンにすると、要素の一覧をアルファベット順に並べる。オフなら入力した順に追加する。
+.remote.enable	有効化の変数:
+.remote.enable.tooltip	変数を指定すると、そのウィジェットは変数が指定した値と等しいときだけ表示・動作する。
+.remote.enableValue	変数がこの値のとき有効:
+.remote.enableValue.tooltip	ウィジェットを有効にするのに変数が等しくなるべき値。
+.remote.label.tooltip	このウィジェットに表示される文字。
+.remote.noEditRights	%sのセキュリティステーションにより、リモコンを編集できません。
+.remote.text	文字:
+.remote.tooltip.boundToSecurityStation	%sのセキュリティステーションに紐付け済み
+.remote.tooltip.rightClickToBind	このリモコンをセキュリティステーションに紐付けると、そのステーションが許可したプレイヤーだけがリモコンを編集できる。
+.remote.tooltip.sneakRightClickToEdit	§aしゃがみ右クリックで編集
+.remote.tooltip	ツールチップ:
+.remote.tray.button.name	ボタン
+.remote.tray.button.tooltip	クリックすると、つながった変数に値を直接代入するシンプルな押しボタン。
+.remote.tray.checkbox.name	チェックボックス
+.remote.tray.checkbox.tooltip	オンのときはつながった変数のXに1、オフのときは0を代入する切り替えボタン。
+.remote.tray.dropdown.name	ドロップダウン
+.remote.tray.dropdown.tooltip	ユーザーが選べる文字の要素の集まり。つながった変数のXに、選んだ要素の(0始まりの)番号が設定される。
+.remote.tray.label.name	ラベル
+.remote.tray.label.tooltip	ツールチップを付けられる文字のラベル。情報表示専用で、つながった変数はない。
+.remote.variable.tooltip	このウィジェットが変更する変数。
+.remote.varType.tooltip	'#': プレイヤーグローバル変数、あなた専用\n'%%': グローバル変数、全プレイヤーで共有
+.remote.widgetTray	ウィジェットトレイ
+.search	検索:
+.securityStation.test	テスト…
+.securityStation.status	状態
+.securityStation.sharedUsers	信頼するプレイヤー
+.securityStation.reboot	再起動！
+.securityStation.rebooting	再起動中…
+.securityStation.networkLayout	ネットワーク配置
+.securityStation.nukeVirus.none	インベントリに核ウイルスがありません
+.securityStation.nukeVirus.coolDown	核ウイルスを再充填中、お待ちください…
+.securityStation.nukeVirus	ネットワークノードを中クリックで核ウイルスを使う
+.securityStation.stopWorm.none	インベントリにストップ！ワームがありません
+.securityStation.stopWorm.notTracing	診断に追跡されるまでストップ！ワームは使えません
+.securityStation.stopWorm	クリックでストップ！ワームを使う(診断を一時的に止める)
+.sentryTurret.ammo	弾薬
+.sentryTurret.targetFilter	目標フィルター
+.setKeybind	割り当てるキー/ボタンを押してください
+.sideConfigurator.items.armorInv	防具スロット
+.sideConfigurator.items.curiosInv	Curiosスロット
+.sideConfigurator.items.droneInv	ドローンのインベントリ
+.sideConfigurator.items.enderInv	エンダーインベントリ
+.sideConfigurator.items.mainInv	メインインベントリ
+.sideConfigurator.items.offhandInv	オフハンドスロット
+.sideConfigurator.items.programmableInv	プログラム可能スロット
+.sideConfigurator.title.items	面の設定: アイテム
+.sideConfigurator.unconnected	§o未接続
+.smart_chest.filter	§fフィルター\n§7%s\n§7アイテム上限: %d\n§3▶ Alt+左クリック: フィルターを消去\n§3▶ Alt+マウスホイール: アイテム上限を調整\n§3▶ Alt+Shift+マウスホイール: 素早く調整
+.tab.amadron.customTrades	独自の取引
+.tab.amadron.disclaimer	アマドロンは配達サービスの利用によって生じたいかなる損失・損害にも責任を負いかねます。一部の支払いがアマドロンに届いた場合、アマドロンは本来購入者に販売されるはずだったアイテムを保持する権利を有します。
+.tab.amadron.disclaimer.title	免責事項
+.tab.gasLift.mode.drawIn	ドリルパイプを引き戻す
+.tab.gasLift.mode	モード
+.tab.gasLift.mode.pumpEmpty	くみ上げてタンクを空にしてよい
+.tab.gasLift.mode.pumpLeave	くみ上げてタンクに液体を残す(フィルター用)
+.tab.hopperStatus	ホッパーの状態
+.tab.hopperStatus.itemTransferPerSecond	アイテム移送速度:\n§0%s 個/秒
+.tab.hopperStatus.itemTransferPerTick	アイテム移送速度:\n§0%s 個/tick
+.tab.hopperStatus.liquidTransferPerSecond	液体移送速度:\n§0%s mB/秒
+.tab.hopperStatus.liquidTransferPerTick	液体移送速度:\n§0%s mB/tick
+.tab.info.aerialInterface.feedMode.frugal.desc	与える食べ物を無駄なく使い切れるときだけ食べさせる。
+.tab.info.aerialInterface.feedMode.frugal	給餌モード: 倹約
+.tab.info.aerialInterface.feedMode.greedy.desc	満腹でなくなったらすぐに食べさせる。
+.tab.info.aerialInterface.feedMode.greedy	給餌モード: 欲張り
+.tab.info.aerialInterface.feedMode.smart.desc	体力が満タンのときは、食べ物を無駄なく使い切れるときだけ食べさせる。\n体力が満タンでないときは、満腹でなければ食べさせる。
+.tab.info.aerialInterface.feedMode.smart	給餌モード: スマート
+.tab.info.aerialInterface.insertDispenser	ディスペンサーアップグレードを入れると、食べ物と経験値の連携に切り替わる。
+.tab.info.aerialInterface.interfacingFood	食べ物と経験値を連携中
+.tab.info.aerialInterface.interfacingItems	アイテムを連携中
+.tab.info.aerialInterface.interfacingRF.info	エアリアルインターフェースはForge Energy(RFや多くのMODと互換)を受け付ける。内部バッファ(100,000 FE)に蓄えたエネルギーで、プレイヤーのインベントリ内の充電可能なアイテムを最大1,000 FE/tickで充電する。\n注意: エネルギーはディスペンサーアップグレードの有無にかかわらず常に連携される。
+.tab.info.aerialInterface.interfacingRF.info.title	エネルギーを連携
+.tab.info.aerialInterface.linked	§0リンク先: %s
+.tab.info.aerialInterface.liquidXp.info	エアリアルインターフェースにディスペンサーアップグレードを付けると、液体経験値をインターフェースに出し入れし、プレイヤーの経験値を直接増やしたり減らしたりできる。上のボタンで使う液体経験値の種類を選べる。クリックするたびに使える種類と(初期設定の)無効が切り替わる。\n\n使える経験値の種類:
+.tab.info.aerialInterface.liquidXp.info.title	経験値を連携
+.tab.info.aerialInterface.problem.player_barred	現在エアリアルインターフェースは使用できません。
+.tab.info.aerialInterface.problem.bad_dimension	このディメンションではエアリアルインターフェースを使用できません。
+.tab.info.aerialInterface.removeDispenser	ディスペンサーアップグレードを外すと、アイテムの連携に切り替わる。
+.tab.info.airCannon.coord	座標: %d,%d,%d
+.tab.info.airCannon.force	力: %d%%
+.tab.info.airCannon.heading	方位: %d°
+.tab.info.airCannon.height	仰角: %d°
+.tab.info.airCannon.no_coord	座標なし
+.tab.info.airCannon.range	射程: 約%dm
+.tab.info.airCannon.status	キャノンの状態
+.tab.info.installDocsProvider	詳しい情報を見るにはPatchouliを導入してください。
+.tab.info.electrostaticCompressor.title	静電情報
+.tab.info.electrostatic.connected	接続した圧縮機: %d
+.tab.info.electrostatic.generating	空気の生産量: %s/落雷
+.tab.info.electrostatic.lightningRod	避雷針の長さ: %d
+.tab.info.electrostatic.maxRedirection	逃がせる空気の最大量: %s mL
+.tab.info.electrostatic.strikeTime	平均落雷間隔: %s(最適な大きさの網の場合)
+.tab.info.elevator.extension	現在の伸長: %sm
+.tab.info.elevator.floorNames	階の名前
+.tab.info.elevator.floorNumber	%d / %d 階
+.tab.info.elevator.maxExtension	最大伸長: %sm
+.tab.info.elevator.noCallers	エレベーター呼び出し機が見つかりません
+.tab.info.ghostSlotInteraction	\n§f• +1: §e右クリック\n§f• -1: §e左クリック\n§f• x2: §eShift+右クリック\n§f• /2: §eShift+左クリック\n§f• =0: §e中クリック
+.tab.info.ghostSlotInteraction.title	スロットの操作
+.tab.info.heat	この機械は熱を必要とするか、生み出す。熱を生むブロックをこの機械の隣に置くと加熱できる。ボルテックスチューブ(速いが動力が必要)のほか、溶岩(速いが固まる)や松明(とても遅い)など。機械を冷やすには熱源を取り除くか、ヒートシンクや氷/氷塊/青氷などの冷たいブロックを置いて冷却を早める。
+.tab.info.heat.title	熱
+.tab.info	情報
+.tab.info.item.amadron_tablet.volumeUpgrade	§0アマドロンタブレットの空気容量を2 * √U(U = 容量アップグレードの数)倍にし、充電なしで長く使えるようにする。
+.tab.info.item.armor.chest.chargingUpgrade	§0充電アップグレードを1つ以上付けると、チェストプレートが着ている・持っている他の加圧可能なアイテムをすべて自動で充電する(注意: チェストプレートより圧力の低いアイテムだけを充電する)。
+.tab.info.item.armor.chest.dispenserUpgrade	§0ディスペンサーアップグレードを1つ以上付けると、発射キー(初期設定はCtrl+C)を押して離すことで、オフハンドスロットのアイテムやブロックを発射できるようになる。\n\n• 一部のアイテムやブロックは特別に扱われ、ディスペンサーと同じようにアイテム/ブロックをエンティティとして展開する。\n• 特別な扱いのないアイテムは単にアイテムエンティティとして発射される。\n• 特別な扱いのないブロックは「転がるブロック」エンティティとして発射され、他のブロックに当たるとブロックに戻ろうとする。\n\nディスペンサーアップグレードは最大4つまで付けられ、発射距離が伸びる。
+.tab.info.item.armor.chest.elytraUpgrade	§0バニラのエリトラを着ているのと同じように、エリトラで滑空できる。耐久値は減らないが、滑空中に少し空気を消費する。\n\nジェットブーツやスマートホバーモードと相性抜群！
+.tab.info.item.armor.chest.magnetUpgrade	§0マグネットアップグレードを付けると、少しの空気を使ってチェストプレートが近くのアイテムを自動で引き寄せる。基本の範囲は4ブロックで、アップグレード1つごとに1ブロック広がる。
+.tab.info.item.armor.chest.rangeUpgrade	§0チェストプレートに範囲アップグレードを付けると、リーチ(近接攻撃を除く)が4ブロック伸びる。少しずつ空気を消費し続ける。
+.tab.info.item.armor.chest.securityUpgrade	§0セキュリティアップグレードを付けると、多くの空気を使って火や溶岩から身を守れる: チェストプレートから空気を勢いよく噴き出し、近くの炎を消して近くの溶岩を固める。\n注意: この防護は火のダメージを受けそうなときに働くので、すでに(ポーションなどで)守られている場合は何もしない。
+.tab.info.item.armor.feet.dispenserUpgrade	§0ブーツにディスペンサーアップグレードを付けると、そこそこの空気を使って前方のエンティティを蹴れる。蹴られたエンティティは中程度のダメージを受け、大きくノックバックする。アップグレードを増やすとダメージとノックバックが増えるが、空気の消費も増える。\n\n生きていないエンティティにも効く……
+.tab.info.item.armor.feet.flippersUpgrade	§0ブーツに足ひれアップグレードを付けると、泳ぐ速さが少し上がる。追加の空気消費はなく、水中でジェットブーツを使うよりずっと安上がり。
+.tab.info.item.armor.feet.jetbootsUpgrade	§0ブーツにジェットブーツアップグレードを付けると、多くの空気を使って限定的に飛べるようになる。アップグレードが有効なとき、ジャンプキー(初期設定はスペース)を押し続けると見ている方向に進む。ジャンプを押していないときは、ゆっくり安全に地面へ降りる(しゃがむと速く降りる)。\nアップグレードは5段階あり、より速く飛べる(そしてもちろん空気の消費も増える)。ティア3以上ではアーマーのGUIで建築モードを切り替えられ、空中でのブロック破壊が速い、よりクリエイティブに近い飛行ができるが、移動速度は落ちる。ティア5では降下せずにその場でホバーできる。\nジェットブーツは水中でも使えるが、空気の消費がはるかに多い。
+.tab.info.item.armor.feet.stompUpgrade	§0ストンプアップグレードを有効にすると、高い所から近くのモンスターの上に落ちたときにダメージを与える。与えるダメージ(と消費する空気)は地面に当たる速さに比例する。
+.tab.info.item.armor.generic.airConditioningUpgrade	§0空調アップグレードは、そこそこの空気を使って体温の調整を助ける。各防具が必要に応じて体を冷やしたり温めたりして、快適な体温を保つ。全部位に空調アップグレードを付けると最も効果的だが、少しでも役に立つ。
+.tab.info.item.armor.generic.armorUpgrade	§0アーマーアップグレードは防具の防御力を少し上げる。2つでダイヤモンドの防具並みの防御力になり、最大数付ければ優れた防御力になる。
+.tab.info.item.armor.generic.creativeUpgrade	§0クリエイティブアップグレードをどの防具に付けても、その防具の損傷と空気の消費を無条件で打ち消す。
+.tab.info.item.armor.generic.gildedUpgrade	§0金めっきアップグレードをどの防具に付けても、ピグリンにとっては金の防具を1つ着ているのと同じになる。
+.tab.info.item.armor.generic.item_lifeUpgrade	§0アイテム寿命アップグレードを付けると、空気を使ってこの防具がゆっくり自動修理される。アップグレードを増やすほど修理が速くなる(が、空気の効率はだんだん悪くなる)。
+.tab.info.item.armor.generic.radiation_shieldingUpgrade	§0Mekanismなど他のMODの放射線ダメージから身を守る。完全に守るには全部位に放射線遮蔽アップグレードを1つずつ付ける必要があるが、少しでも付ければないよりはまし。
+.tab.info.item.armor.generic.speedUpgrade	§0スピードアップグレードを1つ付けるごとに、この防具の起動時間が短くなる。
+.tab.info.item.armor.generic.thaumcraftUpgrade	§0Thaumcraftアップグレードを付けると、対応する奇術師の防具と同じだけVisが割引される。
+.tab.info.item.armor.generic.volumeUpgrade	§0容量アップグレードを1つ付けるごとに、この防具の空気容量が2 * √U倍(例: 1つでx2、4つでx4…)になり、充電なしで長く動けるようになる。
+.tab.info.item.armor.head.block_trackerUpgrade	§0ブロック追跡を付けると、30ブロック以内のチェスト、スポナー、かまど、シルバーフィッシュのブロック、トリップワイヤー、ディスペンサー、TNT、エンドポータルブロックを追跡できる。これでダンジョン、要塞、寺院を簡単に見つけられる。インジケーターにカーソルを合わせると中身が表示されるので、離れた所からインベントリを調べることもできる。
+.tab.info.item.armor.head.coordinate_trackerUpgrade	§0座標追跡アップグレードでは特定の座標を1つ追跡できる。たとえば、今いる場所から見て目的地がどこにあるかわからないまま、そこへトンネルを掘っていくときに使える。F3を使いたくない人向け。2つ目の機能として、Minecraftのエンティティ経路探索を使って好きな場所へナビゲートしてくれる。
+.tab.info.item.armor.head.dispenserUpgrade	§0エンティティ追跡アップグレードと組み合わせると、ディスペンサーアップグレードで動いているドローンをデバッグ・監視できる。ドローンを狙ってドローンデバッグのホットキー(初期設定: Y)を押し、ヘルメットの設定GUI(初期設定: U)を開く。\n\n近く(32ブロック以内)のドローンが関心を持っているブロックにはレッドストーンの粒子も表示される。
+.tab.info.item.armor.head.ender_visorUpgrade	§0有効にするとエンダーマンを見ても安全になり、見ていることに気づかれなくなる。注意: 少し視界が乱れるが、カボチャをかぶるよりはまし……
+.tab.info.item.armor.head.entity_trackerUpgrade	§0エンティティ追跡アップグレードを付けると、ヘルメットが16ブロック以内の生きたエンティティを追跡できる。見えていなくても追跡できるので、クリーパーに忍び寄られるのを防ぐのに最適。
+.tab.info.item.armor.head.night_visionUpgrade	§0名前のとおり、暗視アップグレードを付けると少しの空気で暗闇でもはっきり見えるようになる。
+.tab.info.item.armor.head.rangeUpgrade	§0範囲アップグレードは、ブロック追跡とエンティティ追跡のアップグレードが働く範囲を広げる。1つにつき範囲が5ブロック広がる(が、空気の消費も増える)。
+.tab.info.item.armor.head.scubaUpgrade	§0このアップグレードを付けると、ヘルメットに蓄えた空気を使って水中で呼吸できる。空気の使い方ではエアリアルインターフェースより効率が悪いが、そのぶん……自己完結している。
+.tab.info.item.armor.head.searchUpgrade	§0検索アップグレードでは、(たとえば)拠点内で特定のアイテムを探せる。インベントリ内のアイテムを見つけるにはブロック追跡が、地面に落ちているアイテムを見つけるにはエンティティ追跡が必要。効果を最大限に発揮するには両方を付けよう。
+.tab.info.item.armor.head.securityUpgrade	§0セキュリティアップグレードを1つ以上付けると、ハッキングのホットキー(初期設定: H)でワールドのさまざまなブロックやエンティティを§oハッキング§0できるようになる。ハッキングにはいろいろ便利な効果がある。ブロック追跡やエンティティ追跡のアップグレードも付けて、ワールドの物を狙ってみよう。
+.tab.info.item.armor.head.speedUpgrade	§0スピードアップグレードを付けると、ヘルメットを装備したときのシステムの初期化が速くなり、ブロック/エンティティへのロックも(それぞれブロック追跡かエンティティ追跡を付けていれば)速くなる。複数付けると初期化時間がさらに短くなるが、空気の消費が増える。
+.tab.info.item.armor.head.thaumcraftUpgrade	§0Thaumcraftアップグレードを付けると、啓示のゴーグルの効果が得られる: ノードが見えるようになり、Visが5%%割引され、さまざまな容器のエッセンシアの量が画面に表示される。
+.tab.info.item.armor.legs.jumpingUpgrade	§0レギンスにジャンプアップグレードを付けると、より高く跳べる。4段階あり、段階が上がるほど高く跳べる(そして空気の消費も増える)。しゃがみながらジャンプすると、ジャンプアップグレード1つ分の高さに抑えられる。落下防止付き(空気圧ブーツは不要)。
+.tab.info.item.armor.legs.speedUpgrade	§0レギンスにスピードアップグレードを1つ以上付けると、速く走れるようになる。増やすほど速さと空気の消費が増える。
+.tab.info.item.collector_drone.rangeUpgrade	§0アップグレード1つにつき、ドローンの回収範囲が1ブロック広がる。
+.tab.info.item.drone	§0ここでドローンにアップグレードを入れられる。他のタブを開くと、どんな強化ができるか見られる。
+.tab.info.item.drone.armorUpgrade	§0アーマーアップグレードはドローンを少し守り、受ける物理ダメージを減らす。1つにつき防御力1ポイント(15個で鉄の防具一式に相当)。\nアーマーアップグレードを7つ以上付けると移動に少しペナルティがかかるので、防御と速さのバランスを取る必要がある。
+.tab.info.item.drone.chunkloaderUpgrade	§0チャンクローダーアップグレードを1つ入れると、ドローンがいるチャンクを読み込んだままにする。2つでは東西南北の十字形に5チャンク、3つでは3x3の9チャンクを読み込む。${br}これでドローンが読み込まれていないチャンクへテレポートできるようになるわけではない。そうしたい場合は設定の「allow_navigate_to_unloaded_chunks」を参照。
+.tab.info.item.drone.creativeUpgrade	§0クリエイティブ供給アップグレードは空気の消費をすべて打ち消し、ミニガンアップグレードを付けていれば弾薬の消費もすべて打ち消す(ただし弾薬箱はドローンに持たせておく必要がある)。
+.tab.info.item.drone.inventoryUpgrade	§0ドローンは初期状態でアイテムを1スタック運べる。インベントリアップグレードを1つ入れるごとに、内部の保管スロットが1つ増える。\n\nアップグレード1つにつき、内部の液体タンクも16000mB、(付いていれば)RFの容量も100000RF増える。ドローンがRFを移せる速さも上がる(移送量 = 最大容量 / 100)。
+.tab.info.item.drone.item_lifeUpgrade	§0アイテム寿命アップグレードを入れると、少しの空気を使ってドローンが自動修理される。入れるほど修理が速くなり、空気の消費も増える。
+.tab.info.item.drone.magnetUpgrade	§0マグネットアップグレードを入れると、インベントリに空きがあれば、ドローンが近くのアイテムを自動で拾う。基本の範囲は2ブロックで、1つ入れるごとに1ブロック広がる。
+.tab.info.item.drone.minigunUpgrade	§0入れるとドローンにミニガンが付き、エンティティ攻撃のピースを使ったときに遠距離攻撃(目標から最大16ブロック、範囲アップグレードも参照)ができるようになる。撃つには銃弾が必要で、インベントリ搬入のピースで取り込む必要がある。
+.tab.info.item.drone.rangeUpgrade	§0アップグレード1つにつき、ドローンの遠距離攻撃(ミニガンアップグレードが必要)の射程が1ブロック伸びる。
+.tab.info.item.drone.securityUpgrade	§0セキュリティアップグレードを1つ入れると、ドローンが液体の中で動けるようになる。2つでは周りの液体を一時的に押しのけ、3つ(以上)では液体を永久に取り除く。\nセキュリティアップグレードの有無にかかわらず、ドローンは自分から溶岩に入ることはない。\n\nセキュリティアップグレードを1つ以上入れると、Immersive Engineeringの被覆されていない配線による電気ダメージからもドローンを守れる。これには打ち消したダメージに比例して空気がかかる。
+.tab.info.item.drone.speedUpgrade	§0スピードアップグレードを1つ入れるごとに、ドローンの移動速度が基本速度の10%%ずつ上がる。
+.tab.info.item.drone.standbyUpgrade	§0入れると、ドローンは何もしていないとき待機モードになり、空気を節約する。ドローンは落下ダメージを受けるので注意しよう。
+.tab.info.item.drone.volumeUpgrade	§0容量アップグレードを1つ入れるごとに、ドローンの空気容量が2 * √U倍(例: 1つでx2、4つでx4…)になり、充電なしで長く動けるようになる。
+.tab.info.item.jackhammer.magnetUpgrade	§0マグネットアップグレードを付けると、鉱脈掘りのとき、壊したブロックがすべて掘ったブロックの位置にドロップする。少し余分に空気がかかるが、鉱脈掘りの掘削モードのときだけ。
+.tab.info.item.jackhammer.speedUpgrade	§0ジャックハンマーの採掘速度を上げ、それに応じて空気の消費も増える。スピードアップグレードを増やすほど効果は逓減する。
+.tab.info.item.jackhammer.volumeUpgrade	§0ジャックハンマーの空気容量を2 * √U(U = 容量アップグレードの数)倍にし、充電なしで長く使えるようにする。
+.tab.info.item.minigun.creativeUpgrade	§0クリエイティブ供給アップグレードでミニガンの弾薬が無限になり、空気を消費しなくなる。
+.tab.info.item.minigun.dispenserUpgrade	§0ディスペンサーアップグレードを1つ付けるごとに、弾薬の効果(ポーション、炸裂、冷凍など)が発動する確率が上がる。使う弾薬の種類によっては空気の消費が大きく増える。
+.tab.info.item.minigun.entity_trackerUpgrade	§0ミニガンを起動するとプレイヤーの視界をズームする。追加の空気消費はない。
+.tab.info.item.minigun.item_lifeUpgrade	§0ミニガンの弾倉の弾薬をゆっくり補充するが、空気を大量に使う。空の薬莢が消えるのも防ぐ。\n弾薬を補充するにはミニガンがホットバーにある必要がある。
+.tab.info.item.minigun.rangeUpgrade	§0ミニガンの射程を伸ばす。1つにつき基本の射程50mに5mずつ加わる。射程が伸びるほど空気の消費も増える。
+.tab.info.item.minigun.securityUpgrade	§0ミニガンが飼いならしたエンティティや他のプレイヤーを傷つけないようにする。追加の空気消費はない。
+.tab.info.item.minigun.speedUpgrade	§0ミニガンの回転の立ち上がりが速くなり、発射までの遅れが減るほか、一度に複数発撃つ確率がわずかに加わる。空気の消費が大きく増える。
+.tab.info.item.minigun.volumeUpgrade	ミニガンの空気容量を2 * √U(U = 容量アップグレードの数)倍にし、充電なしで長く使えるようにする。
+.tab.info.item.pneumatic_boots	§0このブーツ単体では鉄のブーツより少し良い程度。ただし、さまざまなアップグレードを付けて多くの便利な機能を解放できる。ブーツには無料(アップグレード不要、空気消費なし)で段差補助の機能がある。段差補助が嫌なら空気圧アーマーのGUIで無効にできる。ブーツは少しの空気で落下ダメージも打ち消す。
+.tab.info.item.pneumatic_chestplate	§0このチェストプレート単体では鉄のチェストプレートより少し良い程度。ただし、さまざまなアップグレードを付けて多くの便利な機能を解放できる。
+.tab.info.item.pneumatic_helmet	§0このヘルメット単体では鉄のヘルメットより少し良い程度。ただし、さまざまなアップグレードを付けて多くの便利な機能を解放できる。
+.tab.info.item.pneumatic_leggings	§0このレギンス単体では鉄のレギンスより少し良い程度。ただし、さまざまなアップグレードを付けて多くの便利な機能を解放できる。
+.tab.info.items	下のスロットにプラスチックを入れる。冷えてプラスチックになったものもこのスロットに入る。上のスロットに染料を入れる。プラスチックに染料を混ぜても、別の色のプラスチックを混ぜるよりずっと効果が弱いので注意。
+.tab.info.logistic_frame_active_provider	§0アクティブ供給フレームは、要求フレームと保管/デフォルト保管フレームに資源を供給できる。\n\n初期設定ではフレームを付けたインベントリの全アイテムを供給する。このフィルターにアイテムを追加すると、指定したアイテムだけを供給する。インベントリからアイテムを追加するか、空のスロットを右クリックしてアイテム/液体を検索する。
+.tab.info.logistic_frame_default_storage	§0デフォルト保管フレームは、アクティブ供給フレームから資源を受け取り、要求フレームと保管フレームに資源を供給できる。保管フレームより優先度が低く、可能なら常に保管フレームが先に使われる。\n\n初期設定ではフレームを付けたインベントリは供給元からのどんな資源も受け付ける。このフィルターにアイテムを追加すると、指定したアイテムだけが物流ネットワーク経由で入れられる。インベントリからアイテムを追加するか、空のスロットを右クリックしてアイテム/液体を検索する。
+.tab.info.logistic_frame_passive_provider	§0パッシブ供給フレームは要求フレームに資源を供給できる。\n\n初期設定ではフレームを付けたインベントリの全アイテムを供給する。このフィルターにアイテムを追加すると、そのアイテムだけを供給する。インベントリからアイテムを追加するか、空のスロットを右クリックしてアイテム/液体を検索する。
+.tab.info.logistic_frame_requester	§0要求フレームは、フレームを付けた他のどのインベントリにも資源を要求できる。\n\nここでは、物流ドローン/物流モジュールがフレームを付けたインベントリに在庫として保つ資源と量を指定する。インベントリからアイテムを入れるか、空のスロットを右クリックしてアイテム/液体を検索する。
+.tab.info.logistic_frame_storage	§0保管フレームは、アクティブ供給フレームから資源を受け取り、要求フレームに資源を供給できる。\n\n初期設定ではフレームを付けたインベントリは供給元からのどんなアイテムも受け付ける。このフィルターにアイテムを追加すると、指定したアイテムだけが物流ネットワーク経由で入れられる。インベントリからアイテムを追加するか、空のスロットを右クリックしてアイテム/液体を検索する。
+.tab.info.logisticsRequester.aeIntegration.enable	連携を有効化
+.tab.info.logisticsRequester.aeIntegration.title	AE2連携
+.tab.info.logisticsRequester.aeIntegration	オンにすると、物流ドローンが物流で供給できるアイテムをAE2ネットワークに知らせる(AE2では「クラフト可能」なアイテムとして表示される)。クラフトが要求されると、AE2が要求フレームを設定して要求されたアイテムを取り寄せる。
+.tab.info.pneumatic_armor.timeRemaining	推定残り時間:
+.tab.info.pneumatic_armor.usage	空気の消費:
+.tab.info.programmable_controller.excluded	除外されたピース
+.tab.info.programmable_controller.charging	持っているアイテムの充電
+.tab.info.programmable_controller.chargeHeld	持っているアイテムを充電
+.tab.info.programmable_controller.chargeHeld.tooltip	オンにすると、プログラマブルコントローラーが「ドローン」の持っているアイテムを、必要に応じて自分のバッファ(圧力やForge Energy)から自動で充電する。
+.tab.info.programmable_controller.chunkLoading	チャンク読み込み
+.tab.info.programmable_controller.chunkLoading.self	自分を読み込む
+.tab.info.programmable_controller.chunkLoading.work	作業中のチャンクを読み込む
+.tab.info.programmable_controller.chunkLoading.work_3x3	作業中のチャンク + 3x3
+.tab.info.security_station.hacking	§0これはセキュリティステーションのハッキングコンソール。ハッカーであるあなたはI/Oポートから始める。そこから隣のネットワークノードを左クリックするとハッキングできる。ノードのハッキングが始まり、目標のノードの大きさに応じて時間がかかる。\nノードを奪うたびに診断サブルーチンに見つかる可能性があり、見つかるとI/Oポートにいるあなたへの逆探知が始まる。\nサブルーチンがI/Oポートまで逆探知したら負け。本番のハッキング(テストでない)で診断が起きていると、痛い目に遭う。とても。\n診断サブルーチンかネットワークレジストリをハッキングしたら勝ち。セキュリティステーションは持ち主が再起動するまで周囲を守らなくなる。
+.tab.info.security_station.nukeVirus	§0核ウイルスは消耗品で、診断サブルーチンに見つかる可能性なしに、ネットワークノードなどの部品を即座に奪える。使うには、隣がすでにハッキング済みのハッキング可能なノードを中クリックする。\n核ウイルスを続けて使うには短いクールダウンがある。
+.tab.info.security_station.stopWorm	§0ストップ！ワームを使うと、動いている診断サブルーチンの逆探知をおよそ5秒(前後1秒ほど)止められる。このソフトウェアは使うと消費される。使うには、見つかった後でストップ！ワームのボタンをクリックする。
+.tab.info.smart_chest.push_pull.title	押し出し/引き込みモード
+.tab.info.smart_chest.slots	§eAlt+左クリック\n§f• 空のスロット: そのスロット(と以降のすべてのスロット)を閉じる\n• 空の閉じた/フィルター付きスロット: フィルターを外す\n• スロットかカーソルにアイテム: そのアイテムでフィルター\n• Shiftも押すとアイテム上限を最大にする\n\n§eAlt+マウスホイール\n§f• フィルター付きスロット: アイテム上限を調整\n• Shiftも押すと素早く調整\n\n§eAlt+カーソル上/下\n§f• Alt+マウスホイールと同じくアイテム上限を調整
+.tab.info.smart_chest.slots.title	スロットの操作
+.tab.info.tubeModule	§0このインターフェースでは、レッドストーン信号に応じたモジュールの動きを細かく決められる。信号は下限と上限の間で補間された圧力や温度に比例する。
+.tab.liquidCompressor.fuel	使用可能な燃料
+.tab.liquidHopper.mode.empty	タンクを空にする。
+.tab.liquidHopper.mode.leaveLiquid	フィルター用にタンクに1000mB残す。
+.tab.minigun.slotInfo	ミニガンは通常、弾薬の入っている番号の一番小さいスロットから弾薬を取る。\n\nスロットを§a中クリック§fするとそのスロットを固定する: 固定中は、ミニガンはそのスロットからだけ弾薬を取る。固定したスロットを§a中クリック§fすると解除する。\n\n複数の種類の弾薬を持ち歩くときにスロットの固定が便利。
+.tab.minigun.slotInfo.title	弾薬の管理
+.tab.omnidirectionalHopper.mode.empty	通常のホッパー動作。
+.tab.omnidirectionalHopper.mode.leaveItem	フィルター用に各スロットにアイテムを1つ残す。
+.tab.pneumaticDoorBaseRedstone.title	ドアへの動力
+.tab.pneumaticDoorBaseRedstone.text	レッドストーンをドアに伝える？
+.tab.pneumaticDoorBaseRedstone.tooltip	オンにすると、木のドアか鉄のドアのモードのとき、このドアベースへのレッドストーン信号がつながった空気圧ドアにも影響する。\nオフなら、空気圧ドア自体がレッドストーン信号を受けないと開かない。
+.tab.pressure	圧力
+.tab.pressureChamber.chamberSize	チャンバーの大きさ:
+.tab.status.pressurizedSpawner.spawnRate	湧きの間隔: %d tick
+.tab.status.pressurizedSpawner.airUsage	空気の消費: 湧き1回あたり%d mL
+.tab.problems.advancedAirCompressor.efficiency	§f圧縮機は最適でない効率で動いています。効率: %s\n§0機械を50°C未満に冷やしてください。
+.tab.problems.solar_compressor.efficiency	§f圧縮機は最適でない効率で動いています。\n効率: %s\n\n§0最大効率にするには機械を約350°Cまで加熱してください。ただし%s°Cを超えないように！\n
+.tab.problems.solar_compressor.overheat	§fソーラー圧縮機が熱くなりすぎています！ 火事が好きでなければ%s°Cを超えないように！\n
+.tab.problems.aerialInterface.noPlayer	§fプレイヤーが設定されていません！\n§0機械を壊して置き直すとリンクされます。
+.tab.problems.aerialInterface.playerOffline	§fプレイヤー%sはオフラインです！\n§0戻ってくるまでエアリアルインターフェースは機能しません。
+.tab.problems.air_cannon.inv_space	§fインベントリに空きがない\n§0空きがないため、最後に発射したアイテムを目標のインベントリに入れられませんでした。
+.tab.problems.air_cannon.no_coordinate	§f座標が設定されていない\n§0(座標を設定した)GPSツールをGPSスロットに入れてください。入れた後はGPSツールを取り出しても大丈夫です。
+.tab.problems.air_cannon.no_items	§f発射する物がない\n§0キャノンのスロットにアイテムを入れてください。
+.tab.problems.air_cannon.out_of_range	§f射程外\n§0選んだ座標が遠すぎます。範囲アップグレードを追加するか、もっと近い座標を選んでください。
+.tab.problems.air_cannon.still_turning	§f旋回中\n§0キャノンが旋回し終わるのを待ってください。
+.tab.problems.airCompressor.noFuel	§f燃料がありません！\n§0燃やせるアイテムを入れてください(溶岩入りバケツや燃料入りバケツは除く)。
+.tab.problems.airLeak	§f空気漏れ！\n§0出力側にパイプか機械を置いてください。
+.tab.problems.amadron.noInventory	§fインベントリか液体タンクがありません。\n§0アマドロンタブレットでインベントリや液体タンクを右クリックしてください。

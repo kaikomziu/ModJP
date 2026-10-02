@@ -1,0 +1,185 @@
+## engineersdecor
+itemGroup.tabengineersdecor	Engineer's Decor
+engineersdecor.book.name	Engineer's Decor
+engineersdecor.book.subtitle	リファレンスマニュアル
+engineersdecor.book.landing_text	先にひとこと: ブロックや装置にカーソルを合わせてCONTROLとSHIFTを同時に押すと、短いヘルプのツールチップが表示される。だからこの重いマニュアルをいつも持ち歩く必要はない。このマニュアルの詳しい説明は、機能が初めてのときや背景を読んでみたいときに役立つ。
+item.engineersdecor.metal_bar	金属棒
+@ engineersdecor.config.
+.title	Engineer's Decorの設定
+.chair_mob_sitting_probability_percent	椅子: 座る確率 %
+.chair_mob_standup_probability_percent	「椅子: 立ち上がる確率 %」
+.e_furnace_power_consumption	電気炉: 消費電力
+.e_furnace_speed_percent	電気炉: 精錬速度 %
+.furnace_boost_energy_consumption	炉: ブースト用エネルギー
+.furnace_fuel_efficiency_percent	炉: 燃料効率 %
+.furnace_smelting_speed_percent	炉: 精錬速度 %
+.pattern_excludes	除外パターン
+.pattern_includes	包含パターン
+.pipevalve_max_flowrate	バルブ: 最大流量
+.pipevalve_redstone_gain	バルブ: レッドストーンの傾き
+.with_crafting_quickmove_buttons	作業台: 移動ボタン
+.without_chair_sitting	椅子に座れなくする
+.without_clinker_bricks	クリンカーレンガなし
+.without_crafting_table	作業台なし
+.without_crafting_table_history	作業台の履歴なし
+.without_direct_slab_pickup	ハーフブロックの直接回収なし
+.without_electrical_furnace	電気炉なし
+.without_factory_dropper	工場用ドロッパーなし
+.without_halfslabs	薄板なし
+.without_hsupports	水平の支えなし
+.without_lab_furnace	実験用炉なし
+.without_ladder_speed_boost	はしごの速度上昇なし
+.without_ladders	はしごなし
+.without_light_sources	照明なし
+.without_mob_chair_sitting	モブが椅子に座らなくする
+.without_panzer_glass	パンツァーガラスなし
+.without_poles	ポールなし
+.without_rebar_concrete	鉄筋コンクリートなし
+.without_recipes	レシピなし
+.without_sign_plates	標識なし
+.without_slabs	ハーフブロックなし
+.without_slag_bricks	スラグレンガなし
+.without_stairs	階段なし
+.without_tooltips	ツールチップなし
+.without_treated_wood_furniture	処理木材の家具なし
+.without_valves	バルブなし
+.without_walls	塀なし
+.without_waste_incinerator	ゴミ焼却炉なし
+.without_windows	窓なし
+engineersdecor.tooltip.hint.extended	§6[§9shift§r 詳細§6]§r
+engineersdecor.tooltip.hint.help	§6[§9ctrl-shift§r ヘルプ§6]§r
+engineersdecor.tooltip.massive_speed_boost_with_rf_power	RF電力を与えると高速化する。
+engineersdecor.tooltip.requires_rf_power	RF電力が必要。
+@ block.engineersdecor.
+.clinker_brick_block	クリンカーレンガブロック
+.clinker_brick_recessed	くぼんだクリンカーレンガ
+.clinker_brick_sastor_corner_block	砂岩装飾のクリンカーレンガ
+.clinker_brick_stained_block	汚れたクリンカーレンガブロック
+.clinker_brick_stained_slab	汚れたクリンカーレンガのハーフブロック
+.clinker_brick_stained_slab.help	汚れたクリンカーブロックから作ったハーフブロック。
+.clinker_brick_stained_stairs	汚れたクリンカーレンガの階段
+.clinker_brick_vertical_slab_structured	構造的な縦置きクリンカーハーフブロック
+.clinker_brick_vertically_slit	縦に溝の入ったクリンカーレンガ
+.clinker_brick_wall.help	シンプルなクリンカーレンガの塀。
+.dark_shingle_roof	暗い屋根板の屋根
+.dark_shingle_roof_block	暗い屋根板の屋根ブロック
+.dark_shingle_roof_chimney	暗い屋根板の屋根の煙突。
+.dark_shingle_roof_chimneytrunk	暗い屋根板の屋根の煙突の胴
+.dark_shingle_roof_metallized	暗い屋根板の屋根の雪止め
+.dark_shingle_roof_skylight	暗い屋根板の屋根の天窓
+.dark_shingle_roof_slab	暗い屋根板の屋根のハーフブロック
+.dark_shingle_roof_slabslice	暗い屋根板の屋根の薄板
+.dark_shingle_roof_wireconduit	暗い屋根板の屋根の配線管
+.dense_grit_dirt_block	固めた砂利の土
+.dense_grit_sand_block	固めた砂利の砂
+.factory_dropper	工場用ドロッパー
+.factory_dropper.tooltips.dropcount	投げるスタック数(1〜32個)
+.factory_dropper.tooltips.period	投げる間隔(1秒〜10秒)
+.factory_hopper	工場用ホッパー
+.factory_hopper.tooltips.count	搬入のスタック数 §7(1〜32個)
+.factory_hopper.tooltips.inversion	レッドストーンモード §7(反転/非反転/無視)
+.factory_hopper.tooltips.period	搬入の遅延 §7(1秒〜10秒)
+.factory_hopper.tooltips.range	回収半径 §7(0〜4)
+.factory_hopper.tooltips.rssignal	外部のレッドストーン信号の表示
+.factory_hopper.tooltips.triggermode	トリガーモード §7(連続/パルス)
+.factory_placer	工場用ブロック設置機
+.factory_placer.tooltips.inversion	レッドストーンモード §7(反転/非反転/無視)
+.factory_placer.tooltips.rssignal	外部のレッドストーン信号の表示
+.factory_placer.tooltips.triggermode	トリガーモード §7(連続/パルス)
+.fluid_barrel	液体の樽
+.fluid_barrel.status	満たされた樽: §6%1$s§r / %2$s mB(§6%3$s§r)
+.fluid_barrel.status.empty	空の樽: §6%1$s§r / %2$s mB
+.fluid_barrel.status.tip	§6%1$s§r / %2$s mB(§6%3$s§r)
+.fluid_barrel.status.tip.empty	空、最大%2$s mB
+.halfslab_rebar_concrete	鉄筋コンクリートの薄板
+.halfslab_sheetmetal_aluminum	アルミニウム板金の薄板
+.halfslab_sheetmetal_copper	銅板金の薄板
+.halfslab_sheetmetal_gold	金板金の薄板
+.halfslab_sheetmetal_iron	鉄板金の薄板
+.halfslab_sheetmetal_steel	鋼鉄板金の薄板
+.halfslab_treated_wood	処理木材の薄板
+.iron_bulb_light	鉄の電球
+.iron_ceiling_edge_light	天井の縁の照明
+.iron_floor_edge_light	埋め込み式の床の縁の照明
+.iron_hatch	鉄のハッチ
+.iron_inset_light	埋め込み照明
+.metal_rung_ladder	金属の段はしご
+.metal_rung_steps	互い違いの金属の段
+.metal_sliding_door	金属の引き戸
+.old_industrial_wood_door	古い工業用木材のドア
+.old_industrial_wood_planks	古い工業用木材の板材
+.old_industrial_wood_slab	古い工業用木材のハーフブロック
+.old_industrial_wood_slabslice	古い工業用木材の薄板
+.old_industrial_wood_stairs	古い工業用木材の階段
+.panzerglass_block	パンツァーガラスブロック
+.panzerglass_slab	パンツァーガラスのハーフブロック
+.rebar_concrete	鉄筋コンクリートブロック
+.rebar_concrete_slab	鉄筋コンクリートのハーフブロック
+.rebar_concrete_stairs	鉄筋コンクリートの階段
+.rebar_concrete_tile	鉄筋コンクリートタイル
+.rebar_concrete_tile_slab	鉄筋コンクリートタイルのハーフブロック
+.rebar_concrete_tile_stairs	鉄筋コンクリートタイルの階段
+.rebar_concrete_wall	鉄筋コンクリートの塀
+.sign_caution	標識「一般的な注意」
+.sign_danger	標識「注意 本当に危険」
+.sign_decor	標識プレート(Engineer's decor)
+.sign_defense	標識「注意 この先防衛システム」
+.sign_exit	非常口の標識
+.sign_exit.help	出口はあちら、どうぞ…
+.sign_firehazard	標識「火災の危険」
+.sign_frost	標識「凍結注意」
+.sign_hotsurface	標識「注意 高温面」
+.sign_hotwire	標識「注意 高圧線」
+.sign_laser	標識「レーザーの危険」
+.sign_magichazard	標識「注意 魔法の危険」
+.sign_magneticfield	標識「注意 強い磁場」
+.sign_radioactive	標識「放射能の危険」
+.slag_brick_block	スラグレンガブロック
+.slag_brick_slab.help	灰褐色のレンガのハーフブロック。
+.slag_brick_stairs.help	灰褐色のレンガの階段。
+.slag_brick_wall.help	シンプルなスラグレンガの塀。
+.small_block_breaker	小型ブロック破壊機
+.small_block_breaker.status	充電: %2$sRFの%1$s%%§r | 進捗: %3$s%%
+.small_electrical_furnace	小型電気炉
+.small_electrical_furnace.tooltips.capacitors	充電 %1$s%%、%2$srf/t
+.small_electrical_furnace.tooltips.speed	精錬速度の選択 §7(OFF/I/II/III)
+.small_fluid_funnel	小型液体収集漏斗
+.small_freezer	小型製氷機
+.small_lab_furnace	小型実験用炉
+.small_milking_machine	小型搾乳機
+.small_milking_machine.status	牛乳: %1$smB %2$s
+.small_milking_machine.status.rf	| %1$sRF
+.small_mineral_smelter	小型鉱物溶解炉
+.small_solar_panel	小型ソーラーパネル
+.small_solar_panel.status	充電: %2$sRFの%1$s%%§r | 発電 %3$sRF/t | 供給 %4$sRF/t
+.small_tree_cutter	小型伐採機
+.small_tree_cutter.status	充電: %2$sRFの%1$s%%§r | 進捗: %3$s%% (%4$s秒)
+.small_waste_incinerator	小型ゴミ焼却炉
+.steel_catwalk	鋼鉄のキャットウォーク
+.steel_catwalk_stairs	鋼鉄のキャットウォークの階段
+.steel_catwalk_ta	高架の鋼鉄のキャットウォーク
+.steel_double_t_support	鋼鉄のH形鋼の支え
+.steel_double_t_support.help	天井を水平に支える梁の部品。
+.steel_floor_grating	鋼鉄の床格子
+.steel_framed_window	鋼鉄枠の窓
+.steel_mesh_fence	鋼鉄の金網フェンス
+.steel_mesh_fence_gate	鋼鉄の金網フェンスゲート
+.steel_railing	鋼鉄の手すり
+.steel_table	鋼鉄のテーブル
+.steel_table.help	頑丈な4本脚の鋼鉄のテーブル。
+.straight_pipe_valve	液体パイプの逆止弁
+.straight_pipe_valve_redstone	レッドストーン制御の液体バルブ
+.straight_pipe_valve_redstone_analog	レッドストーンのアナログ液体バルブ
+.testblock	EDテスト用ブロック(使用禁止)
+.thick_steel_pole	まっすぐな太い鋼鉄のポール
+.thick_steel_pole_head	まっすぐな太い鋼鉄のポールの先端/根元
+.thin_steel_pole	まっすぐな細い鋼鉄のポール
+.thin_steel_pole_head	まっすぐな細い鋼鉄のポールの先端/根元
+.treated_wood_floor	処理木材の床
+.treated_wood_floor.help	模様の変化がある装飾用の床タイル。
+.treated_wood_pole	まっすぐな処理木材のポール
+.treated_wood_pole_head	まっすぐな処理木材のポールの先端/根元
+.treated_wood_pole_support	まっすぐな処理木材のポールの支え
+.treated_wood_side_table	処理木材のサイドテーブル
+.treated_wood_side_table.help	仕事の後に必要なもの。
+.treated_wood_stool	処理木材のスツール

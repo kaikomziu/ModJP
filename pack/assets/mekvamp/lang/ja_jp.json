@@ -1,0 +1,6 @@
+{
+  "module.mekvamp.sunscreen_unit": "日光遮断ユニット",
+  "module.mekvamp.auto_feeding_unit": "輸血ユニット",
+  "description.mekvamp.auto_feeding_unit": "§cヴァンパイア専用§r - 複雑なセンサー網で吸血衝動を監視し、必要なときに血を消化器系へ直接注入します。インベントリに新鮮な血で満たした液体タンクが必要です。",
+  "description.mekvamp.sunscreen_unit": "§cヴァンパイア専用§r - メカスーツに実験的な装甲板を追加し、ヴァンパイアの遺伝子に有害な太陽放射の波長を動的に遮断します。スーツのエネルギーを消費します。"
+}

@@ -1,0 +1,285 @@
+## tombstone
+@ tombstone.advancement.
+.wololo.title	色とりどりでもヒツジはヒツジ
+.wololo.desc	しもべがヒツジの色を変えた
+.master_wololo.title	虹色のヒツジ
+.master_wololo.desc	しもべがヒツジをすべての色に染めた
+.create_imbued_arrow.title	魔力を宿した矢
+.create_imbued_arrow.desc	魔力付与の書で矢にエンチャントした
+.event.title	特別イベント
+.event.desc	特別イベント期間限定の進捗
+.halloween.title	ハロウィン
+.halloween.desc	ハロウィン期間の進捗
+.eat_lollipop.title	悪くない
+.eat_lollipop.desc	ハロウィンのキャンディを味わった
+.expert_tasting.title	味見の達人
+.expert_tasting.desc	ハロウィンのキャンディを全種類味わった
+.candy_sick.title	お菓子の食べすぎ
+.candy_sick.desc	ハロウィンのキャンディを50個食べた
+.trade_lollipop.title	取引できるキャンディ
+.trade_lollipop.desc	墓の守護者とハロウィンのキャンディを取引した
+.trade_10_lollipop.title	楽な取引
+.trade_10_lollipop.desc	墓の守護者とハロウィンのキャンディを10個取引した
+.trade_50_lollipop.title	有望な商売
+.trade_50_lollipop.desc	墓の守護者とハロウィンのキャンディを50個取引した
+.trade_lollipop_for_essence.title	不死のエッセンス
+.trade_lollipop_for_essence.desc	墓の守護者とハロウィンのキャンディを不死のエッセンスと交換した
+.christmas.title	クリスマス
+.christmas.desc	クリスマス期間の進捗
+.mysterious_gift.title	謎の贈り物
+.mysterious_gift.desc	どこからともなく贈り物が現れた
+.villager_gift.title	贈り物の配達
+.villager_gift.desc	村人への贈り物をうまく置いた
+.spring_bloom.title	春の花
+.spring_bloom.desc	春の花の期間の進捗
+.thornveil_awakens.title	ソーンヴェールの目覚め
+.thornveil_awakens.desc	ソーンヴェールを収穫した
+.silent_ceremony.title	沈黙の儀式
+.silent_ceremony.desc	ソーンヴェールに囲まれた装飾用の墓の前でひざまずいた
+.floral_trading.title	花の取引
+.floral_trading.desc	墓の守護者と花を取引した
+.drink_earthly_garden.title	庭のエッセンス
+.drink_earthly_garden.desc	ポーションで春の魔法を味わった
+.thornveil_spawn.title	神秘の開花
+.thornveil_spawn.desc	墓の近くでソーンヴェールが咲くのを目撃した
+.get_essence_from_thornveil.title	墓の心臓
+.get_essence_from_thornveil.desc	ソーンヴェールのおかげで不死のエッセンスを手に入れた
+.springbloom_plant_1_seed.title	最初の芽
+.springbloom_plant_1_seed.desc	春の花の期間に初めて種を植えた
+.springbloom_plant_10_seed.title	緑の指
+.springbloom_plant_10_seed.desc	春の花の期間に種を10個植えた
+.springbloom_plant_50_seed.title	再生の庭師
+.springbloom_plant_50_seed.desc	春の花の期間に種を50個植えた
+tombstone.config_cat.client	クライアント
+tombstone.config_cat.client.tooltip	サーバー上でも変更できる個人設定
+@ tombstone.config.
+.fog_density	霧の濃さ
+.fog_density.tooltip	墓の周りの霧の濃さ
+.particle_casting_color	パーティクルの色
+.particle_casting_color.tooltip	魔法のアイテムを使うときのパーティクルの色(10進数)
+.fog_color	霧の色
+.fog_color.tooltip	霧の色(10進数)
+.show_magic_circle	魔法陣を表示
+.show_magic_circle.tooltip	一部のアイテムを使うときに魔法陣を表示する
+.show_enhanced_tooltips	拡張ツールチップ
+.show_enhanced_tooltips.tooltip	アイテムのツールチップにすべての情報を表示する
+.highlight	墓を強調表示
+.highlight.tooltip	鍵を持っているとき、遠くから墓を強調表示する
+.skip_respawn_screen	リスポーン画面を飛ばす
+.skip_respawn_screen.tooltip	リスポーン画面を飛ばす
+.show_shield_particle	盾のパーティクルを表示
+.show_shield_particle.tooltip	村人に盾のパーティクルを表示する
+.enable_halloween_ghost	ハロウィンの幽霊を許可
+.enable_halloween_ghost.tooltip	ハロウィン期間中、周りに幽霊が現れるのを許可する
+.text_color_death_date.tooltip	墓の文字<死亡日>の色(10進数)
+.text_color_rip.tooltip	墓の文字<安らかに眠れ>の色(10進数)
+.text_color_owner.tooltip	墓の文字<持ち主の名前>の色(10進数)
+.date_in_mc_time	日付をMC時間で表示
+.date_in_mc_time.tooltip	墓には死んでから経過したMinecraftの日数だけを表示する
+.display_knowledge_message	知識のメッセージを表示
+.display_knowledge_message.tooltip	死の知識のポイント獲得メッセージを表示するかどうか
+.display_alignment_message	属性のメッセージを表示
+.display_alignment_message.tooltip	属性のポイント獲得メッセージを表示するかどうか
+.equip_elytra_in_priority	エリトラを優先して装備
+.equip_elytra_in_priority.tooltip	失ったアイテムを取り戻すとき、エリトラを優先して装備する
+.equip_shield_in_priority	盾を優先して装備
+.equip_shield_in_priority.tooltip	失ったアイテムを取り戻すとき、盾を優先して装備する
+.reverse_inventory_sorting	インベントリの並びを逆順に
+.reverse_inventory_sorting.tooltip	最後のスロットから埋めてインベントリを並べる
+.equip_curio_slot_magic_book	魔法の本を装備
+.equip_curio_slot_magic_book.tooltip	魔法の本をCuriosスロットに自動で装備する
+.favorite_grave.tooltip	お気に入りの墓
+.favorite_grave_marble.tooltip	お気に入りの墓の大理石
+.show_info_on_enchantment	エンチャントの情報
+.show_info_on_enchantment.tooltip	ツールチップにTombstoneのエンチャントの用途を表示する
+.grave_skin_rule	墓の見た目
+.grave_skin_rule.tooltip	墓の見た目に使う規則を決める
+.priorize_tool_on_hotbar	道具をホットバーに優先
+.priorize_tool_on_hotbar.tooltip	墓を回収するとき、道具をホットバーに優先して置く
+.activate_grave_by_sneaking	しゃがんで墓を起動
+.activate_grave_by_sneaking.tooltip	しゃがんで墓を起動できるようにする
+.allow_grave_in_water	水中の墓
+.allow_grave_in_water.tooltip	墓が水中に現れるのを許可する
+.auto_equip_rule	自動装備の規則
+.auto_equip_rule.tooltip	アイテムを自動で装備するタイミングを決める
+.marker_type	マーカーの種類
+.marker_type.tooltip	墓の鍵などのアイテムを手に持ったときのマーカーの種類を決める
+.font_rule	フォントの規則
+.font_rule.tooltip	Tombstoneの画面で使うフォントを決める(英語、フランス語、オランダ語のみ)
+.show_tooltip_combine	組み合わせのツールチップ
+.show_tooltip_combine.tooltip	アイテムのツールチップに組み合わせを表示する
+.no_blinking_nightvision	暗視の点滅なし
+.no_blinking_nightvision.tooltip	残り5秒未満のときに暗視が点滅しないようにする
+.scale_guiscreens	GUI画面の拡大
+.scale_guiscreens.tooltip	GUI画面をできるだけ大きく表示する
+@ tombstone.command.
+.tbteleport.default.usage	テレポート用のコマンド。テレポートの種類を選ぶ必要がある\n/tbteleport <pos, player, grave, death, home, discovery, biome>
+.tbteleport.discovery.usage	未探索の構造物へテレポートする\n/tbteleport discovery <entity> [structure] [dim]
+.tbteleport.biome.usage	バイオームへテレポートする\n/tbteleport biome <entity> [biome] [dim]
+.tbshowlastgrave.usage	プレイヤーの最後の墓の位置を表示する\n/tbshowlastgrave [player]
+.tbteleport.grave.usage	プレイヤーの最後の墓へテレポートする\n/tbteleport grave [player] [playerGrave]
+.tbteleport.home.usage	プレイヤーのリスポーン地点へテレポートする\n/tbteleport home [player] [target]
+.tbteleport.pos.usage	位置へテレポートする\n/tbteleport pos [entity] <x> <y> <z> [dim]
+.tbteleport.player.usage	プレイヤーのもとへテレポートする\n/tbteleport player [entity] <targetEntity>
+.tbrestoreinventory.usage	最後の墓でプレイヤーのインベントリを復元する\n/tbrestoreinventory [player]
+.tbrecovery.usage	プレイヤーをバックアップ・復元する\n/tbrecovery <save_all_players|save_player <player>|load_player <player> [save]>
+.tbknowledge.usage	プレイヤーの死の知識を調整する\n/tbknowledge <player> <show|set|increase|decrease> <amount>\n/tbknowledge <player> <reset_ankh|reset_perks> でアンクのクールダウンとパークもリセットできる
+.tbalignment.usage	プレイヤーの属性を調整する\n/tbalignment <player> <show|set|increase|decrease> <amount>
+.tbsiege.usage	村の包囲を開始・中断する\n/tbsiege <start|stop> [dim]
+.tbrevivefamiliar.usage	プレイヤーの最後に死んだ使い魔を生き返らせる\n/tbrevivefamiliar <player>
+.tbacceptteleport.usage	このコマンドは手動で呼び出すものではない
+.tbrequestteleport.usage	別のプレイヤーへのテレポートの許可を求める\n/tbrequestteleport <player>
+.tbteleport.death.usage	最後に死んだ場所へテレポートする\n/tbteleport death
+.tbreadable.usage	物語のすでに入手した巻物の写しを渡す\n/tbreadable <narrative>
+@ tombstone.compendium.
+.intro	大全は、新しいプレイヤーを助けるためのTombstoneに関する情報集。\n各情報は右側のメニューで他の情報とつながっており、まとめて読める。
+.alignment.desc	属性はプレイヤーの行動で決まる。\n属性が上がるのは:\n- 墓で魂の器を使って魂を解放したとき\n- 村の包囲中に略奪者やゾンビを倒したとき\n- 祈りのアンクで村人ゾンビを浄化したとき\n- 祈りのアンクで村人を守ったとき\n- 地上の楽園のポーションを使ったとき\n属性が下がるのは:\n- 村人を殺したとき\n- 強欲の石板を使ったとき\n- 見捨てられたプレイヤーの墓を鍵なしで荒らしたとき\n- 手なずけた生き物を殺したとき\nMinecoloniesの住民と襲撃者は、それぞれ村人と略奪者とみなされる。\n一部のパークを解放したり、一部の魔法のアイテムを使えるようにしたりする。\n属性の各レベルは、属性の側に応じてアンデッド/生者から受けるダメージも減らす。\nダメージの軽減は他のプレイヤーからのダメージには影響しない。
+.ankh_of_prayer.desc	祈りのアンクは死の知識を得られるアイテムだが、クールダウンがある。\nアンクが使えるとき、装飾用の墓の近くで祈ったり、属性に応じて一部の生き物に祈ったりできる。
+.bone_needle.desc	骨の針は、生き物のエッセンスの一部を捕らえて魔法のつながりを作る道具。\nエッセンスで満たした針で使い魔の器を変化させ、捕らえられる生き物の種類を決められる。
+.book_of_disenchantment.desc	この本は墓の魂に触れると、アイテムからエンチャントを取り出せる。\nエンチャントを取り除くアイテムは右手に持つ必要がある。\n写本師のパークはレベルごとに取り除けるエンチャントを1つ増やす。
+.book_of_recycling.desc	墓の魂の助けを借りて、もう片方の手のアイテムの山を再利用し、クラフトの材料を集められる。\n再利用するアイテムは容器であってはならない。\nアイテムにエンチャントがあれば失われる。
+.book_of_repairing.desc	アイテムを修理し、魔法以外の方法で残った傷みを消せる。
+.book_of_scribe.desc	魔法の巻物を魔法で複数複製できる。
+.book_of_magic_impregnation.desc	一部のエンチャント可能なアイテムや矢に、エンチャントを付けたり、宿る魔法を強めたりできる。
+.book_of_soulbound.desc	アイテムに魂縛のエンチャントを付け、死んだ後も持っていられるようにする。
+.book_of_oblivion.desc	死の知識のパークをリセットできる。
+.combination.title	組み合わせ
+.combination.desc	一部のレシピは作業台ではなく、インベントリ内のアイテムに材料を直接組み合わせて使う(バンドルに入れる操作と同じ)。\nたとえば墓の鍵にエンダーパールを組み合わせるとエンチャントできる。\nこれらのレシピは、アイテムにカーソルを合わせてツールチップを表示するか、Just Enough Itemsなどレシピを表示するMODで確認できる。
+.enchanted_bundle.desc	バンドルは墓の魂でエンチャントでき、中身ごと死の向こうまでついてくるようになる。
+.grave_marble.desc	墓の大理石は装飾用の墓を作るためのクラフト材料。\nレシピに骨粉を加えると白大理石もクラフトできる。\n墓の大理石は爆発にとても強い。
+.death.title	Tombstoneでの死
+.death.desc	プレイヤーが死ぬと、失ったアイテムをすべて入れた墓が作られる。\nプレイヤーは、エンチャントすればテレポートできる墓の鍵と、生き物に襲われなくなる幽体化の効果を持って再び現れる。\n失う経験値の量は設定で決まり、メメント・モリのパークでレベルごとに20 %%調整され、100 %%に達する。
+.decorative_grave.title	装飾用の墓
+.decorative_grave.desc	装飾用の墓は夜に煙を出す特別なブロック。\nツルハシかシャベルで採れる。\n記念の銘板で刻印できる。\n装飾用の墓にはときどき(設定で決まる)魂が取り憑いており、墓の鍵、巻物、石板などの一部の魔法のアイテムのエンチャントに使える。\nチャンクが読み込まれていなくても、装飾用の墓に魂が宿る確率は変わらない。
+.screaming_grave.title	叫ぶ墓
+.screaming_grave.desc	叫ぶ墓は、古代の儀式の使いすぎや墓の魂の不適切な使用で装飾用の墓に腐敗が溜まりすぎると現れる。\n墓にはそれぞれ腐敗度があり、プレイヤーの行動で変わる。\n腐敗が減るのは:\n- 時間経過(春の花の期間はより速い)\n- 墓で祈ったとき\n増えるのは:\n- 墓の魂で特定のアイテムをエンチャントしたとき\n- 短時間に古代の儀式を集中して使ったとき\n- 青い魂を一部だけ使ったとき\n墓が腐敗の危険なしきい値を超えると、叫ぶ墓になる:\n- 儀式やエンチャントを拒む\n- 近くのプレイヤーに骨を投げ、鈍化させる\n- ときどきささやいたりうめいたりする\n- 装飾がすべて失われ、動く文字に囲まれた霊の光輪だけが残る\n墓を鎮めて再び使うには、腐敗を最小まで減らす必要がある。
+.dust_of_vanishing.desc	消失の粉は、煙に紛れて生き物の目から姿を消し、元の位置の少し後ろに再び現れることで、簡単に退却できる。
+.dust_of_frost.desc	霜の粉は、粉雪の壁を作り、元の位置の少し後ろへテレポートすることで、簡単に退却できる。
+.enchantments.title	エンチャント
+.enchantments.desc	Corail Tombstoneはいくつかのエンチャントを追加する。\n武器のエンチャントは遠距離武器にも付けられる。\nポーションの効果は効果時間が累積する。\n設定で、これらのエンチャントを許可するか、エンチャントテーブルで出るかを決められる。\n魔力付与の書でも、装備にエンチャントを付けたり既存のエンチャントを強化したりできる。
+.soulbound.desc	このエンチャントの付いたアイテムは、死んでも手元に残る。\n魂縛の書でも、同じように働く魂縛のルーンをアイテムに付けられる。\nスロット: すべて
+.spectral_bite.desc	攻撃を受けるたびに、一定確率で周囲のすべての敵に霊の噛みつきを起こす。\nスロット: 足\n確率: レベルごとに5%%\nダメージ: レベルごとに1と、5秒間の衰弱の効果
+.magic_siphon.desc	生き物に攻撃が当たるたびに、その生き物の魔法の効果の一部を奪う。\nスロット: 武器\n奪う効果時間: レベルごとに30秒
+.plague_bringer.desc	生き物に攻撃が当たるたびに、ランダムな有害な効果を与える。\nこのエンチャントは魔力吸収と両立しない。\nスロット: 武器\n効果時間: レベルごとに2秒
+.curse_of_bones.desc	攻撃を受けるたびに、一定確率で骨の盾の効果を得て、ダメージを減らし一部を攻撃者に跳ね返す。\nスロット: 胴\n確率: レベルごとに10%%\nダメージ: 受けたダメージのレベルごとに5%%\n効果時間: 3秒 + レベルごとに2秒
+.blessing.desc	攻撃を受けるたびに、一定確率で有益な効果を得る。\nスロット: 防具\n確率: レベルごとに1%%\n効果時間: レベルごとに2秒
+.frostbite.desc	生き物に攻撃が当たるたびに、ダメージを与えて凍らせる効果を与える。\nスロット: 武器\n効果時間: 4秒 + レベルごとに1秒\nダメージ: 凍ったらレベルごとに1
+.spectral_conjurer.desc	攻撃を受けるたびに、一定確率で霊のオオカミを呼び出すか、近くの霊のオオカミの残り時間を延ばす。\nスロット: 頭\n確率: レベルごとに5%%\n効果時間: レベルごとに5秒
+.incurable_wounds.desc	生き物に攻撃が当たるたびに、回復を減らす効果を与える。\nスロット: 武器\n回復の減少: レベルごとに10%%\n効果時間: 3秒 + レベルごとに2秒
+.decrepitude.desc	生き物に攻撃が当たるたびに、時間とともに体力を割合で減らす効果を与える。\n属性の悪いプレイヤーへのダメージは半減する。\nアンデッドは衰弱の影響を受けない。\nスロット: 武器\nダメージ: レベルごとに1%%\n効果時間: レベルごとに2秒
+.sanctified.desc	武器が聖なるダメージを与えるようになり、短時間体力を少し回復する。\n聖なるダメージは防具を無視するが、属性の良いプレイヤーへのダメージは半減する。\nアンデッドは回復の効果でダメージを受ける。\nスロット: 武器\n再生の効果時間: レベルごとに1秒\nアンデッドへのダメージ: 4 + 最初の後3レベルごとに4
+.ruthless_strike.desc	クリティカルダメージが上がる。\nスロット: 武器\nクリティカルダメージ: レベルごとに+15%%
+.receptacle_of_familiar.desc	この器で、死んだ使い魔の魂を持ち物ごと捕らえられる。\n器の中の魂は、持ち主の生命のエッセンスを少しずつ吸収して回復する必要がある。\n器の最も一般的な使い方は、アンクで祈ってその使い魔を生き返らせること。\n専用サーバーでは、オフラインでも使い魔の器が捕らえられる。
+.fishing_rod_of_misadventure.desc	この釣り竿は不運な釣りをするようだ。\n墓の魂でエンチャントすると、さらに不運になるようだ。
+.ghostly_shape.desc	幽体化は死んだ後に得る中立的な効果で、生き物に襲われなくなり、落下が遅くなり、有害な効果と受けるダメージを打ち消し、真実の目を得る。\n墓の鍵でテレポートすると効果時間が10秒(設定可能)に、墓からアイテムを拾うと5秒に短くなる。\n生き物を攻撃すると効果は解除される。\n設定によっては、チェストを開けたり、ブロックを壊したり、敵対的な生き物を押したりしても解除される。
+.essence_of_undeath.desc	不死のエッセンスは装飾用の墓を作るためのクラフト材料。\nアンデッドがまれに落とすほか、深い水域での釣りやネコの朝の贈り物で手に入る。
+.grave_dust.desc	墓の塵は、墓の大理石、巻物、石板など、いくつものレシピで使うクラフト材料。\nアンデッドが落とすほか、ネコの朝の贈り物や、失われた石板が壊れたときに手に入ることがある。
+.grave_key.desc	死んで再び現れると、墓の鍵を受け取る。\n同じディメンションにいれば、離れた所から自分の墓の場所がわかる。\n装飾用の墓に取り憑いた魂でエンチャントするか、エンダーパールを組み合わせると、墓へ直接テレポートできるようになる。\n鍵が最初からエンチャントされる確率は設定で決まり、看守のパークでレベルごとに20 %%調整され、100 %%に達する。
+.grave_plate.desc	記念の銘板で装飾用の墓に名前を付けられる。\n設定で許可されていれば付け替えられる。まず金床と鉄インゴットで記念の銘板に刻印する必要がある。
+.impregnated_diamond.desc	魔力を宿したダイヤモンドは、使い魔の器のクラフトに使う材料。
+.halloween.title	ハロウィン
+.halloween.desc	ハロウィンのイベントは10月20日から11月3日まで。\nハロウィン期間中は:\n- 墓の守護者が新しいアイテムを取引し、この時期に合わせて仮装する\n- アンデッドやネコの朝の贈り物からキャンディが落ちることがある\n- 複数のパークが強化される\n- 青い魂を得る確率が上がる\n- 墓で祈らないプレイヤーに取り憑く幽霊が夜に現れる\n- いくつかの進捗がある\n- 装飾用の墓に特別な装飾が付く
+.christmas.title	クリスマス
+.christmas.desc	クリスマスのイベントは12月6日から12月の間行われる。\nクリスマス期間中は:\n- 墓の守護者が新しいアイテムを取引し、この時期に合わせて仮装する\n- アンデッドやネコの朝の贈り物からキャンディが落ちることがある\n- 複数のパークが強化される\n- いくつかの進捗がある\n- 装飾用の墓に特別な装飾が付く
+.spring_bloom.title	春の花
+.spring_bloom.desc	春の花のイベントは3月10日から3月31日まで。\nこの期間中は:\n- 墓の守護者が春の装いで新しい取引を出す\n- 装飾用の墓が珍しく神秘的な花、ソーンヴェールに囲まれる\n- いくつかのパークが一時的に強化される\n- イベント限定の進捗がある\n- 装飾用の墓に花が散りばめられる
+.knowledge_of_death.desc	死の知識は、さまざまな方法で進めると解放できるパークの一覧:\n- 祈りのアンクで\n- Tombstoneの進捗を達成して\n- 装飾用の墓でアイテムをエンチャントして\n- 魂の器から魂を解放して\n死の知識のレベルごとに、プレイヤーの近くにファントムが湧くまでの眠らない最低時間も10%%延びる(設定で許可されていれば)
+.lollipop.desc	ハロウィンのキャンディはランダムな恩恵を与える。\n与えない効果を設定で指定できる。
+.lost_tablet.desc	この石板は不運な漁師に見つけられがち。\nまず、エネルギーを回復させる必要がある。\nその後、遠くの村や、より珍しい構造物、さらには設定で許可されていれば別の世界へ導いてくれる。\n考古学者のパークで珍しい構造物をより見つけやすくなる。\n墓の魂で強化するとその場所へテレポートできる。
+.magic_items.title	魔法のアイテム
+.magic_items.desc	Tombstoneのほとんどのアイテムは、装飾用の墓にランダムに取り憑く墓の魂の助けでエンチャントできる。墓に向けてアイテムを右クリックで使う。
+.magic_scrolls.title	魔法の巻物
+.magic_scrolls.desc	墓の魂でエンチャントすると、右クリック長押しで効果を得られ、同時に巻物は壊れる。\n巻物の効果時間は設定で決められる。
+.magic_tablets.title	魔法の石板
+.magic_tablets.desc	エンチャントすると、さまざまな方法でテレポートできる。\n古代には石板で複数の生き物を運べたが、その製法の秘密を覚えている者はもういない。
+.magic_books.title	魔法の本
+.magic_books.desc	墓の魂の助けを借りてオフハンドで使い、メインハンドのアイテムに効果を与える。\n効果が起きると本は壊れる。\n写本師のパークは本の効果を強化する。
+.perk.title	パーク
+.perk.desc	パークは、死の知識のポイントで得られるTombstoneの機能に関するボーナス。
+.prayer.title	祈り
+.prayer.desc	アンクで一定期間ごとに祈れる。\n装飾用の墓の近くで祈ると有益な効果(設定可能)を得る確率があり、属性に応じて一部の生き物に祈ることもできる。\n属性が中立以上なら、悪魔祓いで村人ゾンビを村人に戻せる(属性が負なら逆のゾンビ化)。\n属性が+1なら、守護の祈りで村人(またはMinecoloniesの住民)を次の死から守れる。\n属性が+2なら、共感の祈りで手なずけられる生き物を仲間にできる。
+.scroll_of_feather_fall.desc	この巻物は落下を遅くする効果を与える。
+.scroll_of_knowledge.desc	この巻物は経験値を保存するのに使う。\n墓の魂に触れると、経験値がすべて巻物に吸い取られる。\nもう一度巻物を使うと、その経験値を取り戻せる。
+.scroll_of_preservation.desc	この巻物は、死んだ後も有益な効果を保つ効果を与える。\n復元しない効果を設定で指定できる。
+.scroll_of_purification.desc	この巻物は、効果時間の間ずっと悪い効果を取り除く効果を与える。
+.scroll_of_true_sight.desc	この巻物で、暗闇、霧、水中でも見えるようになる。\n透明な生き物も見えるようになる。
+.scroll_of_unstable_intangibility.desc	この巻物は、5秒ごとに丸1秒無敵になる効果を与える。
+.scroll_of_reach.desc	この巻物は、生き物を攻撃したり採取したりできる範囲を広げる効果を与える。
+.scroll_of_lightning_resistance.desc	この巻物は、雷から受けるダメージを75%減らす。
+.scroll_of_frost_resistance.desc	この巻物は、冷気から受けるダメージを75%減らす。
+.scroll_of_aquatic_life.desc	この巻物で、水中で自由に動き、呼吸できるようになる。
+.scroll_of_mercy.desc	この巻物で、有益な効果を近くの仲間と分け合える。
+.soul.title	墓の魂
+.soul.desc	一部の魂は人間の世界をさまよう運命にあり、やがて装飾用の墓などの場所に取り憑く。\nこれらの魂はアイテムの魔法を目覚めさせて手助けし、永遠の運命から解放される。\n魂の器に閉じ込められているのが見つかることもある。\n強い魂は、アイテムに強化された効果を与えられる。
+.grave_guardian.desc	まれに、装飾用の墓の近くに墓の守護者が現れる。\n守護者は周囲を敵対的な生き物から守り、プレイヤーに取引を持ちかける。\n特別イベント中は取引が変わることがある。
+.receptacle_of_soul.desc	死霊術師はときどき魂を器に閉じ込めて、死なないようにすると言われている。\nこれらの魂を装飾用の墓に連れ戻して自由にすると、死の知識ポイントが10もらえる。\nアンデッドのボスから見つかることがある。
+.special_bonus.title	特別ボーナス
+.special_bonus.desc	一年のうち特定の時期や、Tombstoneの継続に必要なその他の理由で与えられるボーナスがある。
+.strange_scroll.desc	奇妙な巻物は、インベントリで組み合わせて魔法の巻物をクラフトするのに使う。
+.strange_tablet.desc	奇妙な石板は、インベントリで組み合わせて魔法の石板をクラフトするのに使う。
+.tablet_of_assistance.desc	援護の石板でプレイヤーのもとへテレポートできる。\nそのためには墓の魂でエンチャントしてから、金床と墓の塵でプレイヤーの名前を刻む必要がある。
+.tablet_of_home.desc	家路の石板でリスポーン地点へテレポートできる。
+.tablet_of_recall.desc	帰還の石板で装飾用の墓へテレポートできる。
+.tablet_of_cupidity.desc	強欲の石板で、幸運が微笑むかもしれないが、身を滅ぼすかもしれない場所へテレポートできる。
+.tablet_of_guard.desc	守護の石板で霊のオオカミを呼び出し、しばらくその場を守らせられる
+.voodoo_poppet.desc	ブードゥー人形は、まず墓の魂でエンチャントして発動の魔法を封じておけば、プレイヤーを次の死から守る。\n呪術医のパークで、発動後もブードゥー人形が消費されずに残る確率が得られる。
+.flying_carpet.desc	空飛ぶじゅうたんは、空中や水中を見ている方向へ移動できる乗り物。\n右クリックで呼び出す(Shift+右クリックで乗らずに呼び出す)。\nソウルサンドの上に浮かべると再充電される。
+readable_scroll.read_info	右クリックで読む
+readable_scroll.title	%1$s 第%2$s部
+readable_scroll.by_author	著: %s
+readable_scroll.elyra_diary.title	エリラの日記
+readable_scroll.elyra_diary.author	エリラ
+readable_scroll.rite_of_silent_bond.title	沈黙の絆の儀
+readable_scroll.rite_of_silent_bond.author	聴く者
+readable_scroll.coral_chant.title	珊瑚の詠唱
+readable_scroll.coral_chant.author	砂丘の見張り人
+readable_scroll.erdos_fragments.title	エルドスの断片
+readable_scroll.erdos_fragments.author	消えた者
+readable_scroll.nights_of_nour.title	ヌールの夜
+readable_scroll.nights_of_nour.author	終わりなき語り部
+@ stat.tombstone.
+.capture_soul	捕らえた魂
+.consume_soul	消費した魂
+.create_ancient_item	作った古代のアイテム
+.exorcism	悪魔祓い
+.free_soul	解放した魂
+.kill_undead_boss	倒したアンデッドのボス
+.pray_of_protection	守った村人
+.pray_on_grave	墓での祈り
+.raider_killed	倒した襲撃者
+.revive_familiar	生き返らせた使い魔
+.sneak_grave	ひそかに回収した墓
+.steal_effect	奪った効果
+.tomb_raiding	荒らした墓
+.undead_killed	倒したアンデッド
+.use_disenchantment	魔法のエンチャント除去
+.use_recycling	魔法の再利用
+.use_repairing	魔法の修理
+.use_scribe	魔法の写本
+.use_magic_impregnation	魔力付与
+.use_soulbound	魂縛
+.use_oblivion	パークのリセット
+.use_vanishing	消失
+.villager_killed	殺した村人
+.zombify	ゾンビ化した村人
+.prayer_of_empathy	共感の祈り
+.prayer_of_undead	アンデッドの祈り
+.trade_grave_guardian	墓の守護者との取引
+.eaten_lollipop	食べたキャンディ
+.traded_lollipop	取引したキャンディ
+.cast_on_ally	仲間にかけた呪文
+.create_imbued_arrow	魔力を宿した矢
+.elyra_diary	エリラの日記
+.spring_bloom_planted_seed	春の花の期間に植えた種
+.rite_of_silent_bond	沈黙の絆の儀
+.coral_chant	珊瑚の詠唱
+.healed_coral	よみがえらせたサンゴ
+.planted_coral	植えたサンゴ
+.erdos_fragments	エルドスの断片
+.nights_of_nour	ヌールの夜
+entity.tombstone.grave_guardian	墓の守護者
+entity.tombstone.spectral_bite	霊の噛みつき
+entity.tombstone.spectral_wolf	霊のオオカミ
+entity.tombstone.flying_carpet	空飛ぶじゅうたん
+config.jade.plugin_tombstone.player_graves	プレイヤーの墓
+config.jade.plugin_tombstone.decorative_graves	装飾用の墓

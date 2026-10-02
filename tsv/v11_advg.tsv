@@ -1,0 +1,189 @@
+## advgenerators
+=Fluid Intake Valve	液体吸入弁
+=Heat Exchanger	熱交換器
+=Heating Chamber	加熱室
+=Mixing Chamber	混合室
+=Sensor Module	センサーモジュール
+=Redstone Control Module	レッドストーン制御モジュール
+=Fuel/Air Mixer	燃料/空気ミキサー
+=Gas Mix Compressor	混合ガス圧縮機
+=Machine Data Port	機械データポート
+=Item Output Port	アイテム出力ポート
+=Item Input Port	アイテム入力ポート
+=Fluid Output Valve	液体出力弁
+=Power Capacitor	電力キャパシタ
+=Syngas	合成ガス
+=Disabled	無効
+=Stopped	停止中
+=No heat	熱なし
+=Heating up ( < %s HU)	加熱中( < %s HU)
+=Maximum Heat (%s HU)	最大熱(%s HU)
+=Internal Heat	内部の熱
+@ block.advgenerators.
+.fuel_turbine_controller	ガスタービンコントローラー
+.eu_output_lv	低電圧エミッター
+.eu_output_mv	中電圧エミッター
+.eu_output_hv	高電圧エミッター
+.eu_output_ev	超高電圧エミッター
+.eu_output_iv	極超高電圧エミッター
+.tesla_output	テスラ発電機
+.fe_output	フラックス発電機
+.steam_turbine_controller	蒸気タービンコントローラー
+.exchanger_controller	熱交換器コントローラー
+.pressure_output_select	加圧出力弁
+.pressure_input	加圧入力弁
+.syngas_controller	合成ガス生産機コントローラー
+.gas_input	ガス吸入弁
+.control	レッドストーン制御モジュール
+.efficiency_upgrade_tier1	燃料/空気ミキサー
+.efficiency_upgrade_tier2	混合ガス圧縮機
+.generators_data_port	機械データポート
+.turbine_tier1	基本タービン
+.turbine_tier2	強化タービン
+.turbine_tier3	高度なタービン
+.turbine_tier4	補強タービン
+.turbine_tier5	複合材タービン
+.power_capacitor_tier1	基本電力キャパシタ
+.power_capacitor_tier2	高度な電力キャパシタ
+.power_capacitor_tier3	高密度電力キャパシタ
+@ item.advgenerators.
+.iron_frame	鉄のフレーム
+.power_io	電力IOモジュール
+.iron_tubing	鉄の配管
+.iron_wiring	レッドストーン鉄配線
+.controller	制御回路
+.pressure_valve	圧力弁
+.advanced_pressure_valve	高度な圧力弁
+.turbine_blade	基本タービンブレード
+.upgrade_kit	アップグレードキット
+.turbine_rotor_tier1	基本タービンローター
+.turbine_rotor_tier2	強化タービンローター
+.turbine_rotor_tier3	高度なタービンローター
+.turbine_rotor_tier4	補強タービンローター
+.turbine_rotor_tier5	複合材タービンローター
+.turbine_kit_tier2	強化タービンアップグレードキット
+.turbine_kit_tier3	高度なタービンアップグレードキット
+.turbine_kit_tier4	補強タービンアップグレードキット
+.turbine_kit_tier5	複合材タービンアップグレードキット
+.capacitor_kit_tier2	高度なキャパシタアップグレードキット
+.capacitor_kit_tier3	高密度キャパシタアップグレードキット
+.syngas_bucket	合成ガス入りバケツ
+.steam_bucket	蒸気入りバケツ
+@ advgenerators.
+.gui.turbine.title	ガスタービン制御
+.gui.turbine.steam.title	蒸気タービン制御
+.gui.exchanger.title	熱交換器制御
+.gui.syngas.title	合成ガス生産機制御
+.gui.output.title	出力の設定
+.gui.sensor.title	センサーモジュールの設定
+.gui.control.title	制御モジュールの設定
+.gui.dump	内部バッファを消去
+.gui.module.count	%s x %s
+.module.PowerOutput.name	電力エミッターモジュール
+.module.Turbine.name	タービン
+.module.FuelTank.name	燃料タンク
+.label.turbine.turbines	接続したタービン
+.label.turbine.maxprod	最大発電量
+.label.turbine.fuel	最大燃料消費量
+.label.turbine.efficiency	燃料効率: %s
+.label.turbine.prod	現在の発電量
+.label.turbine.fuelaverage	現在の燃料消費量
+.label.turbine.rpm	回転速度
+.label.turbine.steamaverage	蒸気消費量
+.label.exchanger.heat	現在の熱
+.label.exchanger.maxtransfer	最大熱伝達量
+.label.exchanger.inrate	%s 消費
+.label.exchanger.noinput	入力なし
+.label.exchanger.outrate	%s 生産
+.label.exchanger.nooutput	出力なし
+.label.exchanger.heatloss	熱損失
+.label.syngas.steam	蒸気: %s
+.label.syngas.carbon	炭素: %s
+.label.syngas.heat	熱: %s / %s HU
+.label.syngas.heat.disabled	加熱室が設置されていない
+.label.syngas.produced	合成ガスの生産量(ティックあたり)
+.label.syngas.consumed	炭素の消費量(ティックあたり)
+.label.syngas.heat.delta	熱の増減
+.label.energy.output	%s %s/t
+.waila.turbine.nofuel	燃料なし
+.waila.turbine.nosteam	蒸気なし
+.waila.turbine.consuming	%s %s/t 消費中
+.waila.turbine.producing	%s %s/t 生産中
+.flow.fluid	%s mB/t
+.flow.other	%s/t
+.output.0	赤の出力
+.output.1	緑の出力
+.output.2	青の出力
+.output.3	黄の出力
+.output.4	青緑の出力
+.output.5	紫の出力
+.tooltip.turbine.fuel	タービン発電機で %s %s/mB
+.tooltip.carbon	炭素値: %s
+.exchanger.output.hot	高温の液体
+.exchanger.output.cold	低温の液体
+.exchanger.output.both	両方の液体
+.sensor.on	信号オン
+.sensor.off	信号オフ
+.sensor.power	電力キャパシタ
+.sensor.turbine.fuel	燃料タンク
+.sensor.turbine.steam	蒸気タンク
+.sensor.exchanger.hot.input	高温の入力タンク
+.sensor.exchanger.hot.output	高温の出力タンク
+.sensor.exchanger.cold.input	低温の入力タンク
+.sensor.exchanger.cold.output	低温の出力タンク
+.sensor.param.resource.solid	固体のアイテムを含む
+.sensor.param.resource.fluid	液体を含む
+.sensor.param.heat.exchanger.medium	熱交換できる( > %s HU)
+.sensor.turbine.speed	タービンの回転速度
+.sensor.param.turbine.speed.low	回転中
+.sensor.param.turbine.speed.medium	> %s RPM
+.sensor.param.turbine.speed.high	%s RPM(最大)
+.sensor.turbine.generation	発電
+.sensor.param.turbine.generation.low	発電中(> %s)
+.sensor.param.turbine.generation.medium	半分以上の出力(> %s)
+.sensor.param.turbine.generation.high	最大出力(%s)
+.sensor.syngas.water	水タンク
+.sensor.syngas.steam	蒸気バッファ
+.sensor.syngas.carbon	炭素バッファ
+.sensor.syngas.syngas	合成ガスタンク
+.sensor.param.heat.syngas.medium	蒸気を作れる( > %s HU)
+.sensor.param.fill.empty	空
+.sensor.param.fill.not.empty	空ではない
+.sensor.param.fill.gt5	5%以上
+.sensor.param.fill.gt25	25%以上
+.sensor.param.fill.gt50	50%以上
+.sensor.param.fill.gt75	75%以上
+.sensor.param.fill.gt95	95%以上
+.sensor.param.fill.full	満タン
+.sensor.param.fill.not.full	満タンではない
+.tooltip.turbine.produce	最大%sを生産
+.tooltip.turbine.inertia	慣性: %s
+.tooltip.capacity	容量: %s
+.tooltip.kit	スニークしながら右クリックでアップグレード
+.tooltip.efficiency	燃料効率を%sに上げる
+.tooltip.efficiency.req	燃料/空気ミキサーの設置が必要
+.tooltip.fe_output	RF / FEを生産する
+.tooltip.eu	ティア%s、%s EU/tを出力
+.control.mode.high	信号で有効
+.control.mode.low	信号で無効
+.control.action.useSteam	蒸気の使用
+.control.action.useFuel	燃料の使用
+.control.action.generateEnergy	発電
+.control.action.exchangeHeat	熱交換
+.control.action.mix	蒸気/炭素の混合
+.control.action.heatWater	水の加熱
+.recipe.turbine_fuels	タービン燃料
+.recipe.turbine_steam	蒸気タービン
+.recipe.syngas_conversion	合成ガスへの変換
+.recipe.exchanger.heating	熱交換器 - 加熱
+.recipe.exchanger.cooling	熱交換器 - 冷却
+.recipe.upgrade	ワールド内でのアップグレード
+itemGroup.bdew.generators	Advanced Generators
+resource.item.format	%s / %s
+resource.fluid.format	%s / %s mB
+fluid.advgenerators.syngas	合成ガス
+bdlib.unit.carbon	炭素
+bdlib.unit.eu	EU
+bdlib.unit.carbon_short	C
+bdlib.unit.hu	HU
+bdlib.unit.rpm	RPM

@@ -1,0 +1,5 @@
+{
+  "item.tiab.time_in_a_bottle": "瓶に封じられし時",
+  "item.tiab.time_in_a_bottle.tooltip.stored_time": "蓄えた時間 %s:%s:%s",
+  "item.tiab.time_in_a_bottle.tooltip.total_accumulated_time": "累計の時間 %s:%s:%s"
+}

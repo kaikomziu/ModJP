@@ -1,0 +1,494 @@
+## tcc
+itemGroup.tcc.tacz_curio_tab	TACZ キュリオ
+curios.identifier.tcc_slot	TACZ キュリオスロット
+curios.modifiers.tcc_slot	TACZ キュリオの属性:
+curios.identifier.tcc_3rd	逐火の蛾
+curios.modifiers.tcc_3rd	逐火の蛾の属性:
+curios.identifier.tcc_tdk	神の鍵
+curios.modifiers.tcc_tdk	神の鍵の属性:
+block.tcc.teshin_workbench	テシンの作業台
+entity.minecraft.villager.tcc.teshin	テシン
+@ item.tcc.
+.soldier_basic_tag	§9兵士の基本タグ
+.soldier_basic_tag.effect	汎用銃ダメージ %1$s%%
+.soldier_specific_tag	§f兵士の専用タグ
+.soldier_specific_tag.effect	汎用銃ダメージ %1$s%%
+.heavy_caliber_tag	§6ヘビーキャリバー
+.heavy_caliber_tag.effect	ライフル・スナイパーライフル・SMG・LMG・ランチャーのダメージ %1$s%%、拡散 %2$s%%
+.red_movement_tag	§bレッド・ハズ・スリー
+.red_movement_tag.effect	銃所持時の移動速度 %1$s%%
+.summer_beach	§fケビン
+.brahma_beasts	§f無尽の剣
+.salvation	§4救済
+.salvation.passive_bonuses	パッシブ: 耐性 III、ノックバック無効
+.xiora	§fシオラ
+.island_boom_raven	§4アイランドブーム・レイヴン
+.seven_thunders	§6七雷
+.seven_thunders_thunder_seen	§6七雷・雷見
+.judgement_key	§4審判の鍵
+.raven.special_invis	%1$s秒ごとに%2$s秒間透明化
+.seven_thunders_thunder_seen.special	ヘッドショット時、%4$s%%の確率で最大HPの%5$s%%の追加虚数ダメージ
+.judgement_key.special	ヘッドショット時: 確率で追加の虚数ダメージ。出血は虚数崩壊のダメージボーナスを引き継ぐ
+.island_boom_raven.attr_regen	再生能力 II
+.island_boom_raven.special_invis	%1$s秒ごとに%2$s秒間透明化
+.ural_wolf_tag	§bウラルの銀狼
+.ural_wolf_tag.effect	ヘッドショット倍率 %1$s%%
+.heaven_fire_judgment	§f天火の裁き
+.heaven_fire_judgment.special	現在HPの%s%% 出血付与: 最大HPの%s%%/レベル、%s秒間 HP40%%未満では無効 出血の決着時に天火の黙示録へ進化可能
+.heaven_fire_apocalypse	§d天火の黙示録
+.heaven_fire_apocalypse.special	HP100%%時 最大HPの%1$s%%を失う 5秒後に出血 %2$sブロック以内のプレイヤーに汎用銃ダメージ%3$s%%を%4$s秒間付与 装備解除不可 死亡時も保持
+.heaven_fire_apocalypse_endless	§4天火の黙示録・終焉なき
+.heaven_fire_apocalypse_endless.special	%sブロック以内のプレイヤーに天火ブースト IIIを%s秒間付与 装備解除不可 死亡時も保持
+.burst_reload	§9バーストリロード
+.burst_reload.effect	ライフル・スナイパーライフル・SMG・LMG・ランチャーのリロード時間 %1$s%%
+.corrupt_magazine	§6腐敗したマガジン
+.corrupt_magazine.effect	ライフル・スナイパーライフル・SMG・LMG・ランチャーのマガジン容量 %1$s%%、リロード時間 %2$s%%
+.split_chamber	§6スプリットチャンバー
+.split_chamber.effect	ライフル・スナイパーライフル・SMG・LMG・ランチャーの弾数 %1$s%%
+.despicable_acceleration	§6卑劣な加速
+.despicable_acceleration.effect	射撃速度 %1$s%%、汎用ダメージと全ライフル・スナイパーライフル・SMG・LMG・ランチャー・ピストル・ショットガンのダメージ %2$s%%
+.merged_rifling	§f融合ライフリング
+.merged_rifling.effect	ライフル・スナイパーライフル・SMG・LMG・ランチャーのダメージ %1$s%%、銃所持時の移動速度 %2$s%%、ライフリングと同時装備不可
+.alloy_drill	§6合金ドリル
+.alloy_drill.effect	防具貫通 %1$s%%
+.careful_heart	§f慎重な心
+.careful_heart.effect	ランチャーダメージボーナス %1$s%%、爆発ダメージボーナス %2$s%%、爆発範囲ボーナス %3$s%%
+.blaze_storm.effect	爆発範囲 %1$s%%、爆発ダメージ %2$s%%、ブレイズストーム・プライムと同時装備不可
+.blaze_storm_prime	§fブレイズストーム・プライム
+.blaze_storm_prime.effect	爆発範囲 %1$s%%、爆発ダメージ %2$s%%、ブレイズストームと同時装備不可
+.ripping_prime	§fリッピング・プライム
+.ripping_prime.effect	連射速度 %1$s%%、貫通 %2$s
+.close_combat_prime	§f近接戦闘・プライム
+.close_combat_prime.effect	ショットガンダメージ %1$s%%
+.evil_accuracy	§6邪悪な精度
+.evil_accuracy.effect	反動 %1$s%%、連射速度 %2$s%%
+.limit_speed	§b限界速度
+.limit_speed.effect	弾速 %1$s%%
+.ferocious_extension	§b獰猛な延長
+.ferocious_extension.effect	弾の射程 %1$s%%
+.rifling	§bライフリング
+.rifling.effect	ライフル・スナイパーライフル・SMG・LMG・ランチャーのダメージ %1$s%%、融合ライフリングと同時装備不可
+.close_range_shot	§b近距離射撃
+.close_range_shot.effect	ショットガンダメージ %1$s%%
+.heavy_firepower	§6重火力
+.heavy_firepower.effect	ピストルダメージ %1$s%%、拡散 %2$s%%
+.wasp_stinger	§bスズメバチの針
+.wasp_stinger.effect	ピストルダメージ %1$s%%
+.prophecy_pact	§9予言の契約
+.prophecy_pact.effect	ピストルダメージ %1$s%%
+.malignant_spread	§6悪性の拡散
+.malignant_spread.effect	ショットガンダメージ %1$s%%、拡散 %2$s%%
+.chamber	§6チャンバー
+.chamber.effect	スナイパーライフルのマガジン満タン時のダメージ %1$s%%、チャンバー・プライムと同時装備不可
+.chamber_prime	§fチャンバー・プライム
+.chamber_prime.effect	スナイパーライフルのマガジン満タン時のダメージ %1$s%%、チャンバーと同時装備不可
+.core_fusion	コアフュージョン
+.core_fusion.effect	上位キュリオのクラフト素材
+.rift_silver	§d裂け目の銀
+.rift_silver.effect	右クリックでランダムなキュリオを入手
+.rift_silver.usage	使うとランダムなキュリオを1つ入手する。
+.tactical_reload	§bタクティカルリロード
+.tactical_reload.effect	ショットガンのリロード時間 %1$s%%
+.overloaded_magazine	§6過積載マガジン
+.overloaded_magazine.effect	ショットガンのマガジン容量 %1$s%%、リロード時間 %2$s%%
+.infernal_chamber	§6地獄のチャンバー
+.infernal_chamber.effect	ショットガンの弾数 %1$s%%
+.sustained_fire	§9持続射撃
+.sustained_fire.effect	ピストルのリロード時間 %1$s%%
+.infected_magazine	§6感染したマガジン
+.infected_magazine.effect	ピストルのマガジン容量 %1$s%%、リロード時間 %2$s%%
+.deadly_surge	§6致命の奔流
+.deadly_surge.effect	ピストルの連射速度 %1$s%%、弾数 %2$s%%
+.bullet_spread	§6弾の拡散
+.bullet_spread.effect	ピストルの弾数 %1$s%%
+.oppression_point	§9圧迫点
+.oppression_point.effect	近接ダメージ %1$s%%
+.oppression_point_prime	§f圧迫点・プライム
+.oppression_point_prime.effect	近接ダメージ %1$s%%
+.sword_wind	§9剣風
+.sword_wind.effect	近接距離 %1$s
+.sword_wind_prime	§f剣風・プライム
+.sword_wind_prime.effect	近接距離 %1$s
+.depleted_reload	§6枯渇リロード
+.depleted_reload.effect	マガジン容量 %1$s%%、リロード時間 %2$s%%
+.burst_reload_prime	§fバーストリロード・プライム
+.burst_reload_prime.effect	ライフル・スナイパーライフル・SMG・LMG・ランチャーのリロード時間 %1$s%%
+.tactical_reload_prime	§fタクティカルリロード・プライム
+.tactical_reload_prime.effect	ショットガンのリロード時間 %1$s%%
+.shotgun_expansion_prime	§fショットガン拡張・プライム
+.shotgun_expansion_prime.effect	ショットガンのマガジン容量 %1$s%%
+.magazine_boost_prime	§fマガジンブースト・プライム
+.magazine_boost_prime.effect	ライフル・スナイパーライフル・SMG・LMG・ランチャーのマガジン容量 %1$s%%
+.tandem_magazine_prime	§fタンデムマガジン・プライム
+.tandem_magazine_prime.effect	ピストルのマガジン容量 %1$s%%
+.shotgun_expansion	§9ショットガン拡張
+.shotgun_expansion.effect	ショットガンのマガジン容量 %1$s%%
+.magazine_boost	§9マガジンブースト
+.magazine_boost.effect	ライフル・スナイパーライフル・SMG・LMG・ランチャーのマガジン容量 %1$s%%
+.tandem_magazine	§9タンデムマガジン
+.tandem_magazine.effect	ピストルのマガジン容量 %1$s%%
+.kikaku_ichijin	§d鬼角一陣
+.fusion_vessel	§6フュージョン容器
+.fusion_vessel.count	§6コアフュージョン: §e%d §7/ §e%d
+.fusion_vessel.deposit	- 預ける: 容器でコアフュージョンを右クリック
+.fusion_vessel.deposit_hint	  (キュリオを右クリックすると直接変換)
+.fusion_vessel.remove	- 取り出す: 容器を持ち上げて空きスロットを右クリック
+.fusion_vessel.auto_on	自動吸収モード: インベントリのコアフュージョンを自動で吸収する。このモードでは取り出し不可
+.fusion_vessel.auto_off	自動吸収モード: オフ(容器をメインハンドに持って右クリックで切り替え)
+.fusion_vessel.upgrade	作業台にキュリオとフュージョン容器を置くと、コアフュージョンを使って強化できる。
+.kikaku_ichijin.effect	ダメージを与えるとき、64ブロック以内で最も近いプレイヤーかメイドを生贄にする。生贄の最大HPに応じた倍率でダメージを増やし、対象の周囲の球状範囲のブロックを破壊する。生贄は死亡する
+.critical_delay	§6クリティカルディレイ
+.critical_delay.effect	会心率 %1$s%%、連射速度 %2$s%%
+.lethal_crit	§9致命の会心
+.lethal_crit.effect	ライフル会心率 %1$s%%
+.weakness_sense	§6弱点感知
+.weakness_sense.effect	ライフル会心ダメージ %1$s%%
+.destruction	§6破壊
+.destruction.effect	ショットガン会心ダメージ %1$s%%
+.destruction_prime	§f破壊・プライム
+.destruction_prime.effect	ショットガン会心ダメージ %1$s%%
+.thunder_barrel	§9雷鳴のバレル
+.thunder_barrel.effect	ショットガン会心率 %1$s%%
+.thunder_barrel_prime	§f雷鳴のバレル・プライム
+.thunder_barrel_prime.effect	ショットガン会心率 %1$s%%
+.weakness_mastery	§b弱点の熟達
+.weakness_mastery.effect	ピストル会心ダメージ %1$s%%
+.weakness_mastery_prime	§f弱点の熟達・プライム
+.weakness_mastery_prime.effect	ピストル会心ダメージ %1$s%%
+.hollow_point	§6ホローポイント
+.hollow_point.effect	ピストル会心ダメージ %1$s%%、ピストルダメージ %2$s%%
+.pistol_mastery	§9ピストルの熟達
+.pistol_mastery.effect	ピストル会心率 %1$s%%
+.pistol_mastery_prime	§fピストルの熟達・プライム
+.pistol_mastery_prime.effect	ピストル会心率 %1$s%%
+.steel_slash	§9鋼の斬撃
+.steel_slash.effect	近接会心率 %1$s%%
+.dismemberment	§9解体
+.dismemberment.effect	近接会心ダメージ %1$s%%
+.sacrifice_oppression	§f犠牲の圧迫
+.sacrifice_oppression.effect	近接ダメージ %1$s%%
+.sacrifice_oppression.set_bonus	セット: 犠牲の鋼も装備時、さらに %1$s%%
+.sacrifice_steel	§f犠牲の鋼
+.sacrifice_steel.effect	近接会心率 %1$s%%
+.sacrifice_steel.set_bonus	セット: 犠牲の圧迫も装備時、さらに %1$s%%
+.argon_scope	§6アルゴンスコープ
+.argon_scope.effect	ヘッドショット時: %2$s秒間ライフル会心率 +%1$s%%
+.gilded_argon_scope	§f金色のアルゴンスコープ
+.gilded_argon_scope.effect_base	ライフル会心率 +%s%%(%s秒間)
+.gilded_argon_scope.effect_kill	キルごとに +%s%%、最大%s回、%s秒
+.sharp_bullet	§b鋭い弾丸
+.sharp_bullet.effect	キル時: %2$s秒間ライフル会心ダメージ +%1$s%%
+.gilded_split_chamber	§f金色のスプリットチャンバー
+.gilded_split_chamber.effect_base	ライフル弾数 +%s%%
+.gilded_split_chamber.effect_kill	キルごとに +%s%%、最大%s回、%s秒
+.laser_scope	§bレーザースコープ
+.laser_scope.effect	ヘッドショット時: %2$s秒間ショットガン会心率 +%1$s%%
+.fragment_shot	§9破片弾
+.fragment_shot.effect	キル時: %2$s秒間ショットガン会心ダメージ +%1$s%%
+.gilded_infernal_chamber	§f金色の地獄のチャンバー
+.gilded_infernal_chamber.effect_base	ショットガン弾数 +%s%%
+.gilded_infernal_chamber.effect_kill	キルごとに +%s%%、最大%s回、%s秒
+.hydraulic_crosshair	§9油圧式クロスヘア
+.hydraulic_crosshair.effect	ヘッドショット時: %2$s秒間ピストル会心率 +%1$s%%
+.gilded_hydraulic_crosshair	§f金色の油圧式クロスヘア
+.gilded_hydraulic_crosshair.effect_base	ピストル会心率 +%s%%(%s秒間)
+.gilded_hydraulic_crosshair.effect_kill	キルごとに +%s%%、最大%s回、%s秒
+.sharp_ammo	§b鋭い弾薬
+.sharp_ammo.effect	キル時: %2$s秒間ピストル会心ダメージ +%1$s%%
+.gilded_bullet_spread	§f金色の弾の拡散
+.gilded_bullet_spread.effect_base	ピストル弾数 +%s%%
+.gilded_bullet_spread.effect_kill	キルごとに +%s%%、最大%s回、%s秒
+.gilded_steel_slash	§f金色の鋼の斬撃
+.gilded_steel_slash.effect_base	基本会心率 %s%%
+.gilded_steel_slash.effect_kill	キル時: 近接会心ダメージ %s%%、最大%s回、%s秒
+.gilded_rifle_aptitude	§f金色のライフル適性
+.gilded_rifle_aptitude.effect	ライフル使用時: 有害効果の種類ごとにダメージ %1$s%%(乗算)
+.gilded_shotgun_savvy	§f金色のショットガン精通
+.gilded_shotgun_savvy.effect	ショットガン使用時: 有害効果の種類ごとにダメージ %1$s%%(乗算)
+.gilded_marksman	§f金色の射手
+.gilded_marksman.effect	ピストル使用時: 有害効果の種類ごとにダメージ %1$s%%(乗算)
+.condition_overload	§6状態異常過負荷
+.condition_overload.effect	近接: 対象の有害効果の種類ごとにダメージ %1$s%%(乗算)
+.collapse_crystal	§d崩壊の結晶
+.collapse_crystal.usage	§7インベントリに入れておく。逐火の蛾・神の鍵スロットからキュリオを外そうとしたときに消費される
+.collapse_crystal.progress_true_self	§d真我の記録: %1$s/%2$s
+.collapse_crystal.progress_heiyuan	§d黒淵白花の記録: %1$s/%2$s
+.collapse_crystal.select_group	§7神の鍵か逐火の蛾で初めてクラフトすると、そのグループに固定される。
+.jiu_chan_zhi_yuan	§d糾纏の縁
+.jiu_chan_zhi_yuan.usage	§7神の鍵/逐火の蛾のキュリオを複製する。(真我と黒淵白花は対象外)
+.griseo	§6グリーセオ
+.griseo.effect	ダメージを受けた後、%1$sティックの被ダメージクールダウンに入る
+.qianjie_yicheng	§6千界一乗
+.huishi_zhijuan	§f絵世の紙巻
+.huishi_zhijuan.effect	ダメージを受けた後、%1$sティックの被ダメージクールダウンに入る
+.yongjie_zhijian	§f永劫の鍵
+.fanxing	§4繁星
+.fanxing.special_cooldown	ダメージを受けた後、%1$sティックの被ダメージクールダウンに入る
+.shijie_fanyan	§4始界の鍵・界面反演
+.shijie_fanyan.special	虚数崩壊の発動 %s%%、
+.vill_v	§6ヴィルヴィ
+.vill_v.effect	HPが%1$s%%未満のとき衝撃吸収 Lv.%2$sを付与、クールダウン%3$s秒
+.xukong_wancang	§6虚空万蔵
+.xukong_wancang.effect	攻撃に虚数ダメージ +%1$.0f。毎秒弾薬を%2$s%%回復、最低1発
+.yuxi_zhixia	§f愚戯の匣
+.yuxi_zhixia.effect	HPが%1$s%%未満のとき衝撃吸収 Lv.%2$sを付与、クールダウン%3$s秒
+.qishi_zhijian	§f啓示の鍵
+.qishi_zhijian.effect	攻撃に虚数ダメージ +%1$.0f。毎秒弾薬を%2$s%%回復、最低1発
+.luoxuan	§4螺旋
+.luoxuan.special_absorption	%2$s秒ごとに衝撃吸収 %3$sを付与
+.xukong_wancang_yzth	§4虚空万蔵・甘露の廃墟
+.xukong_wancang_yzth.effect.damage	攻撃に約%sの追加虚数ダメージ。
+.xukong_wancang_yzth.effect.ammo	毎秒弾薬を%s%%回復、最低1発。
+.kalpas	§6カルパス
+.kalpas.effect	被弾時、%1$s種類のダメージタイプに順に適応する。適応: 同じタイプのダメージを%2$.0f%%軽減、\n戦闘外で%3$s秒後に消える
+.imer	§6イーマー
+.huajie_zhiyan	§5焼尽の炎
+.huajie_zhiyan.special_adapt	被弾時、%1$s種類のダメージタイプに順に適応する。適応: 同じタイプのダメージを%2$.0f%%軽減、\n戦闘外で%3$s秒後に消える
+.dominance_key	§5支配の鍵
+.dominance_key.special_damage	約%1$sの追加虚数ダメージを与える
+.aomie.special_adapt	被弾時、%1$s種類のダメージタイプに順に適応する。適応: 同じタイプのダメージを%2$.0f%%軽減、\n戦闘外で%3$s秒後に消える
+.meta_morph	§4メタモルフ
+.meta_morph.special_damage	約%1$sの追加虚数ダメージを与える
+.su	§6スー
+.wanwu_xiumian	§6万物休眠
+.wanwu_xiumian.special_ammo	毎秒弾薬を%1$s%%回復
+.juezhe	§5覚者
+.tingzhi_zhijian	§5停滞の鍵
+.tingzhi_zhijian.special_ammo	毎秒弾薬を%1$s%%回復
+.tianhui	§4天慧
+.tianhui.special_damage_limit	虚数耐性が高いほど被ダメージが減る、最低%1$s%%
+.yinguo_zhuanlun	§4因果の転輪
+.yinguo_zhuanlun.special.damage	攻撃に約%sの追加虚数ダメージ。
+.yinguo_zhuanlun.special.ammo	毎秒弾薬を%s%%回復、最低1発。
+.aponia	§6アポニア
+.shenzui_zhijian	§f深罪の鍵
+.jielv	§4戒律
+.wangshi_de_kuqiu	§6往事の囚人
+.wangshi_de_kuqiu_mingzhiqi	§f往事の囚人・命の契り
+.shenen_jiejie	§4第零権能・神恩結界
+.eden	§6エデン
+.cuiyao_zhi_ge	§f翠耀の歌
+.eden_star	§6エデンの星
+.tuntian_zhijian	§f呑天の鍵
+.qidian_chonggou	§4第三権能・奇点再構
+.kosma	§6コズマ
+.liming_zhi_shao	§f黎明の哨
+.xuguang	§4曙光
+.dizang_yuhun	§6地蔵御魂
+.qinshi_zhijian	§f侵蝕の鍵
+.yuhun_shixian	§4御魂顕現
+.mebius	§6メビウス
+.shijie_zhi_she	§f忘却の蛇
+.wangshi_de_sheying	§6往事の蛇
+.shesha	§4シェーシャ
+.si_zhi_yi	§f往事の蛇・死の衣
+.hua	§6華
+.duchen_zhi_yu	§f静寂の羽
+.fusheng	§4浮生
+.yuduchen	§6塵の羽
+.fanchen_nandu	§f凡塵渡り難し
+.bushi_shiwu	§4時務を識らず
+.pado_philipis	§6パルドフェリス
+.lueji_zhi_shou	§f掠奪の獣
+.kongmeng	§4空夢
+.wangshi_de_huanmeng	§6往事の幻夢
+.la_zhi_yan	§4ラーの眼
+.ye_zhi_tong	§f往事の幻夢・夜の瞳
+.zhen_wo	§4逐火の英桀・真我
+.zhen_wo.all_attributes	全属性 +%1$s%%(乗算)
+.zhen_wo.effect.trigger	HPが%1$s%%未満になると結界が発動: HPを即座に100%%回復。
+.zhen_wo.effect.world_pool	結界が展開されると世界の泡状態になる: 死亡しなくなる。
+.zhen_wo.effect.duration	発動中の%1$s秒間、毎秒%2$sブロック以内(球状)のプレイヤーとメイドのHPを100%%回復し、デバフ無効を付与する。
+.zhen_wo.effect.damage	毎秒その範囲内の敵対対象に鈍化 %1$sを付与し、%2$sの虚数ダメージを与える。
+.zhen_wo.effect.cooldown	クールダウン%1$s秒。
+.heiyuan_baihua	§4黒淵白花・創滅の螺旋
+.heiyuan_baihua.effect	攻撃のたびに最大HPの%1$s%%に等しい虚数ダメージを追加で与える
+.discipline.curio_effect	命中時15%%の確率でランダムなデバフを%s個付与(15秒、重複可)
+.discipline.key_effect	%sブロック以内のプレイヤー以外のエンティティは毎秒レベル%sの虚数感染を受ける(15秒)
+.golden.curio_effect	%sブロック以内のプレイヤーは5秒ごとにランダムなバフを得る(レベル%s、30秒)
+.golden.key_effect	%sブロック以内のプレイヤー以外のエンティティはテレポートできない
+.dawn.key_effect	命中時、対象の現在の防具値/防具強度の%s%%を永久に剥がす
+.dawn.key_effect_resistance	命中時、対象の現在の防具値/防具強度を永久に剥がす
+.infinite.curio_effect	エンティティの種類ごとに倒すと全属性が%s%%上昇
+.infinite.curio_effect_current	現在の上昇値: %s%%
+.infinite.key_effect	ダメージ時%s%%の確率で対象のバフを1つ解除
+.infinite.key_effect_resistance	ダメージ時、対象のバフを1つ解除
+.transient.key_effect	命中時、%s%%の確率で対象のAIを5秒停止
+.transient.key_effect_resistance	命中時、対象のAIを5秒停止
+.transient.key_effect_armor_imaginary_damage	命中時、%1$sの追加虚数ダメージ
+.transient.key_effect_armor_imaginary_resistance	命中時、約%1$sの追加虚数ダメージ
+.dream.curio_effect_fish	釣り中0.01%%の確率でネザースターかドラゴンの卵を入手
+.dream.curio_effect_loot	キル時のドロップが2倍
+.dream.lootr_highlight	装備中、64ブロック以内の未開封Lootrチェストに緑の柱が表示される(自分にのみ見える)
+.dream.spawner_highlight	装備中、64ブロック以内のスポナーに赤い柱が表示される(自分にのみ見える)
+.dream.key_effect	確率で%s倍のダメージ
+.dream.fall_immunity	落下ダメージ無効
+.dream.fishing_speed	装備中、魚が食いつくまでの待ち時間が半分になる
+message.tcc.kikaku_ichijin.self_sacrifice	%s: ステラ
+message.tcc.kikaku_ichijin.sacrifice	%s: %s、これは必要な犠牲なの、わかってくれるよね？
+message.tcc.kikaku_ichijin.sacrificed	%sの生贄にされた
+message.tcc.kikaku_ichijin.other_sacrifice	%s: %s、これは必要な犠牲なの、わかってくれるよね
+@ tcc.tooltip.
+.slot	§7装備スロット: §aTACZ キュリオスロット
+.slot.3rd	§7装備スロット: §aTCC 第3キュリオスロット
+.restricted_all_guns	§7対象: すべての銃
+.restricted_gun_types	§7対象: %s
+.restricted_melee	§7対象: 近接
+.rarity.common	§7レアリティ: §9コモン
+.rarity.uncommon	§7レアリティ: §bアンコモン
+.rarity.rare	§7レアリティ: §6レア
+.rarity.epic	§7レアリティ: §fレジェンダリー
+.rarity.rift	§7レアリティ: §d裂け目
+.fusion_level	§7レベル: §e%d§7/§e%d
+.how_to_obtain	§7§o「%1$s」の入手: %2$s
+.growth_condition	§7§o成長: %s
+.next_evolution_hint	§7§oShiftで進化条件を表示
+.achievement_progress	§7進捗:
+.achievement_cond_biome	バイオーム
+.achievement_cond_dimension	ディメンション
+.achievement_cond_kill	キル数
+.achievement_cond_any_entity	任意のエンティティ
+.achievement_cond_progress	進捗
+.achievement_cond_unknown	???
+.requires_collapse_crystal	使用後、装備を外すにはインベントリに崩壊の結晶が必要。
+.gun_to_imaginary	銃ダメージが虚数になる、
+.always_infection	常に感染を付与
+.always_imaginary_collapse	常に虚数感染を付与
+.damage_reduction	被ダメージを%1$s%%軽減
+.fire_lava_immunity	装備中、火と溶岩のダメージを無効化し、炎上を常に消す
+.silent_movement	装備中、移動しても振動が出ず、スカルクシュリーカーが反応しない
+.cooked_drops	エンティティを倒すと、食べられるドロップがかまどで焼いたように精錬される(精錬レシピが必要)
+.debuff_immunity	悪い効果を無効化
+.bound	紐付け先: %1$s
+.affected_by_imaginary_resistance	§7効果は虚数耐性の影響を受ける
+.affected_by_luck	§7効果は幸運の影響を受ける
+.affected_by_max_health	§7効果は最大HPの影響を受ける
+gun_type.tcc.pistol	ピストル
+gun_type.tcc.rifle	ライフル
+gun_type.tcc.shotgun	ショットガン
+gun_type.tcc.sniper	スナイパー
+gun_type.tcc.smg	SMG
+gun_type.tcc.mg	機関銃
+gun_type.tcc.rpg	ランチャー
+tcc.mobtype.undead	アンデッド
+tcc.mobtype.arthropod	虫系
+tcc.mobtype.illager	イリジャー
+tcc.mobtype.water	水生モブ
+tcc.mobtype.undefined	未定義
+gem_class.tcc_slot	TCC キュリオ
+attribute.name.taa.explosion_knockbacknew	爆発ノックバック
+attribute.name.taa.explosion_knockbacknew.desc	爆発のノックバック効果
+text.apotheosis.category.curios:tcc_slot.plural	TCC キュリオ
+text.apotheosis.category.curios:tcc_3rd.plural	逐火の蛾
+text.apotheosis.category.curios:tcc_tdk.plural	神の鍵
+@ affix.tcc:tcc_slot/attribute/
+.critical_chance	会心しやすい
+.critical_chance.suffix	隙だらけの心
+.critical_damage	強打
+.critical_damage.suffix	致命の力
+.gun_damage	強火力
+.gun_damage.suffix	強化銃
+.fire_rate	速射
+.fire_rate.suffix	弾の節約家！
+.magazine_capacity	大容量マガジン
+.magazine_capacity.suffix	ドラムマガジン装備
+.reload_time	クイックリロード
+.reload_time.suffix	リロードの達人
+.headshot_damage	残忍なヘッドショット
+.headshot_damage.suffix	ヘッドショット愛好家
+.ads_speed	クイックADS
+.ads_speed.suffix	冷静な射手
+.pierce	強貫通
+.pierce.suffix	貫通焼夷弾
+.recoil_reduction	低反動
+.recoil_reduction.suffix	人間三脚
+.accuracy	高精度
+.accuracy.suffix	完璧主義者の夢
+.armor_penetration	残忍な貫通
+.armor_penetration.suffix	防具粉砕者
+.bullet_count	弾数増加
+.bullet_count.suffix	一発が多発に
+.explosion_radius	広範囲爆発
+.explosion_radius.suffix	解体班長
+.explosion_damage	重爆発
+.explosion_damage.suffix	TNT魂
+.knockback	遠くへノックバック
+.knockback.suffix	人間ボウリング
+.effective_range	長射程
+.effective_range.suffix	視界外射撃
+.ammo_speed	高速弾
+.ammo_speed.suffix	超音速特急
+.move_speed	高速移動
+.move_speed.suffix	減量成功
+.silence	消音
+.silence.suffix	静かな紳士
+.weight_reduction	軽量
+.weight_reduction.suffix	軽量化の達人
+.accuracy_stand	安定した立ち撃ち
+.accuracy_stand.suffix	固定砲台
+.accuracy_move	正確な走り撃ち
+.accuracy_move.suffix	ラン&ガンの達人
+.accuracy_sneak	安定したしゃがみ撃ち
+.accuracy_sneak.suffix	芋の王
+.accuracy_lie	正確な伏せ撃ち
+.accuracy_lie.suffix	寝技
+.accuracy_aim	精密エイム
+.accuracy_aim.suffix	外さない
+.recoil_pitch	縦反動安定
+.recoil_pitch.suffix	縦反動制御
+.recoil_yaw	横反動安定
+.recoil_yaw.suffix	横反動制御
+.pistol_damage	強ピストル
+.pistol_damage.suffix	小さな銃に大きな力
+.rifle_damage	強ライフル
+.rifle_damage.suffix	ライフルの専門家
+.shotgun_damage	強ショットガン
+.shotgun_damage.suffix	近距離の王
+.sniper_damage	強スナイパー
+.sniper_damage.suffix	千ヤード狙撃
+.smg_damage	強SMG
+.smg_damage.suffix	突撃マニア
+.lmg_damage	強LMG
+.lmg_damage.suffix	制圧の達人
+.launcher_damage	強ランチャー
+.launcher_damage.suffix	重火器好き
+.imaginary_damage_resistance	虚数の盾
+.imaginary_damage_resistance.suffix	虚空の守り
+attribute.name.tcc.imaginary_damage	虚数ダメージ
+attribute.name.tcc.imaginary_damage.desc	攻撃時の追加虚数ダメージ。防具と魔法耐性を無視する
+attribute.name.tcc.imaginary_damage_resistance	虚数ダメージ耐性
+attribute.name.tcc.imaginary_damage_resistance.desc	受ける虚数ダメージの軽減率
+death.attack.imaginary_damage	%1$sは虚数に呑まれた
+death.attack.imaginary_damage.player	%1$sは%2$sとの戦闘中に虚数に呑まれた
+@ effect.tcc.
+.heaven_fire_bleeding	天火の出血
+.imaginary_infection	虚数感染
+.imaginary_collapse	虚数崩壊
+.erosion	侵蝕
+.heaven_fire_apocalypse_delay	天火の黙示録の遅延
+.heaven_fire_apocalypse_buff	天火ブースト
+.argon_scope	アルゴンスコープ
+.gilded_argon_scope	金色のアルゴンスコープ
+.gilded_argon_scope_kill	金色のアルゴンスコープのスタック
+.laser_scope	レーザースコープ
+.hydraulic_crosshair	油圧式クロスヘア
+.gilded_hydraulic_crosshair	金色の油圧式クロスヘア
+.gilded_hydraulic_crosshair_kill	金色の油圧式クロスヘアのスタック
+.sharp_bullet	鋭い弾丸
+.fragment_shot	破片弾
+.sharp_ammo	鋭い弾薬
+.gilded_split_chamber	金色のスプリットチャンバー
+.gilded_infernal_chamber	金色の地獄のチャンバー
+.gilded_bullet_spread	金色の弾の拡散
+.gilded_steel_slash	金色の鋼の斬撃
+.zhen_wo_barrier	真我の結界
+stat.tcc.items_crafted	クラフトしたアイテム数
+stat.tcc.zombie_villager_cured	治療したゾンビ村人
+stat.tcc.play_time_griseo	グリーセオでのプレイ時間(ティック)
+stat.tcc.play_time_huishi_zhijuan	絵世の紙巻でのプレイ時間(ティック)
+stat.tcc.play_time_fanxing	繁星でのプレイ時間(ティック)
+stat.tcc.play_time_qishi_zhijian	啓示の鍵でのプレイ時間(ティック)
+jei.tcc.category.evolution	キュリオの進化ルート
+jei.tcc.category.collapse	崩壊の結晶の合成
+jei.tcc.collapse.complete	素材 %1$s/%2$s
+jei.tcc.collapse.hint	装備解除時に消費

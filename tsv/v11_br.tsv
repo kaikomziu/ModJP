@@ -1,0 +1,195 @@
+## biggerreactors
+=Toggle Direction\n§7Change which direction this port flows.	向きの切り替え\n§7このポートの流れる向きを変える。
+=Status: §2Online	状態: §2稼働中
+=Status: §4Offline	状態: §4停止中
+=Direction: §cInput	向き: §c入力
+=Direction: §9Output	向き: §9出力
+=Internal Battery\n§7How much RF is stored internally.	内部バッテリー\n§7内部に蓄えたRFの量。
+=Apply	適用
+item_group.biggerreactors	Bigger Reactors
+item.biggerreactors.wrench	リアクターレンチ
+fluid.biggerreactors.liquid_uranium	液体ウラン
+item.biggerreactors.liquid_uranium_bucket	液体ウラン入りバケツ
+item.biggerreactors.steam_bucket	蒸気入りバケツ
+fluid.biggerreactors.liquid_obsidian	液体黒曜石
+item.biggerreactors.liquid_obsidian_bucket	液体黒曜石入りバケツ
+item.biggerreactors.uranium_chunk	ウランの塊
+block.biggerreactors.blutonium_block	ブルトニウムブロック
+item.biggerreactors.blutonium_dust	ブルトニウムの粉
+item.biggerreactors.blutonium_ingot	ブルトニウムインゴット
+block.biggerreactors.cyanite_block	シアナイトブロック
+item.biggerreactors.cyanite_dust	シアナイトの粉
+item.biggerreactors.cyanite_ingot	シアナイトインゴット
+block.biggerreactors.graphite_block	グラファイトブロック
+item.biggerreactors.graphite_ingot	グラファイトインゴット
+block.biggerreactors.ludicrite_block	ルディクライトブロック
+item.biggerreactors.ludicrite_dust	ルディクライトの粉
+item.biggerreactors.ludicrite_ingot	ルディクライトインゴット
+tooltip.biggerreactors.is_a_moderator	§eBigger Reactorの減速材として使える
+tooltip.biggerreactors.is_a_coil	§eBigger Turbineのコイルとして使えるブロック
+@ multiblock.error.biggerreactors.
+.no_terminal	リアクターには少なくとも1つの端末が必要。
+.no_rods	リアクターには少なくとも1つの燃料要素が必要。
+.control_rod_not_on_top	制御棒はリアクターの最上部にしか置けない(%d, %d, %d)。
+.fuel_rod_gap	すべての燃料要素はリアクターの最上部から最下部まで伸びている必要がある(%d, %d, %d)。
+.no_control_rod_for_fuel_rod	すべての燃料要素の上には制御棒が必要(%d, %d)。
+.dangling_internal_part	このリアクターの中に別のリアクターがあるようだ。何かおかしくない？(%d, %d, %d)。
+.coolant_and_power_ports	リアクターに置けるのは冷却材ポート(能動冷却型)か電力タップ(受動冷却型)のどちらか一方で、両方は置けない。
+.no_manifold_neighbor	リアクターの冷却材マニホールドは、別のマニホールドかケーシングに隣接している必要がある
+.turbine.mixed_blades_and_coil	ローターシャフトの同じ位置にブレードとコイルは共存できない
+.turbine.multiple_groups	ブレード群とコイル群はそれぞれ1つまでしか置けない
+.turbine.dangling_coil	すべてのコイルブロックはタービンのシャフトに最も近い8ブロック内に置く必要がある
+.turbine.rotor_bearing_count	タービンには両端に1つずつ、ちょうど2つのローターベアリングが必要
+.heat_exchanger.dangling_internal_part	この熱交換器の中に別の熱交換器があるようだ。何かおかしくない？(%d, %d, %d)。
+.heat_exchanger.dangling_channel	すべての流路は液体ポートに接続されている必要がある。(%d, %d, %d)
+.heat_exchanger.duplicate_port_types	蒸発器と凝縮器はどちらも2つの液体ポートに接続する必要がある。
+.heat_exchanger.fluid_port_unconnected	すべての液体ポートには接続された流路が必要。
+.heat_exchanger.invalid_port_count	液体ポートはちょうど4つ必要。
+.heat_exchanger.missing_channel_type	蒸発器と凝縮器の流路がそれぞれ少なくとも1つ必要。
+@ block.biggerreactors.
+.cyanite_reprocessor	シアナイト再処理機
+.reactor_casing	リアクターケーシング
+.reactor_fuel_rod	リアクター燃料棒
+.reactor_power_tap	リアクター電力タップ
+.reactor_access_port	リアクターアクセスポート
+.reactor_coolant_port	リアクター冷却材ポート
+.reactor_computer_port	リアクターコンピューターポート
+.reactor_redstone_port	リアクターレッドストーンポート
+.reactor_manifold	リアクター冷却材マニホールド
+.reactor_terminal	リアクター端末
+.reactor_control_rod	リアクター制御棒
+.turbine_glass	タービンガラス
+.turbine_rotor_shaft	タービンローターシャフト
+.turbine_rotor_blade	タービンローターブレード
+.turbine_rotor_bearing	タービンローターベアリング
+.turbine_fluid_port	タービン液体ポート
+.turbine_power_tap	タービン電力タップ
+.turbine_computer_port	タービンコンピューターポート
+.turbine_terminal	タービン端末
+.heat_exchanger_casing	熱交換器ケーシング
+.heat_exchanger_glass	熱交換器ガラス
+.heat_exchanger_condenser_channel	熱交換器の凝縮器流路
+.heat_exchanger_evaporator_channel	熱交換器の蒸発器流路
+.heat_exchanger_terminal	熱交換器端末
+.heat_exchanger_computer_port	熱交換器コンピューターポート
+.heat_exchanger_fluid_port	熱交換器液体ポート
+@ screen.biggerreactors.
+.disabled	無効
+.cyanite_reprocessor	シアナイト再処理機
+.cyanite_reprocessor.internal_battery.tooltip	内部バッテリー
+.cyanite_reprocessor.water_tank.tooltip	水タンク
+.reactor_terminal	リアクター情報
+.reactor_terminal.temperature.tooltip	温度\n§7リアクターの熱さ。
+.reactor_terminal.energy_generation_rate.tooltip	RF発電量\n§7リアクターが発電しているRFの量。
+.reactor_terminal.exhaust_generation_rate.tooltip	排出物の生成量\n§7リアクターが生成している排出物の量。
+.reactor_terminal.fuel_usage_rate.tooltip	燃料消費量\n§7リアクターが消費している燃料の量。
+.reactor_terminal.reactivity_rate.tooltip	反応度\n§7リアクターの反応の強さ。
+.reactor_terminal.fuel_mix.tooltip	燃料の混合\n§7リアクター内の燃料と廃棄物の比率。
+.reactor_terminal.case_heat.tooltip	ケースの熱\n§7リアクターの熱さ。
+.reactor_terminal.fuel_heat.tooltip	燃料の熱\n§7燃料の熱さ。
+.reactor_terminal.fuel_mix_gauge.tooltip	%%s/%%s 混合\n§a燃料 %%s\n§b廃棄物 %%s
+.reactor_terminal.coolant_intake_tank.tooltip	冷却材の取り込みタンク\n§7内部に蓄えた冷却材の量。
+.reactor_terminal.exhaust_tank.tooltip	排出物タンク\n§7内部に蓄えた排出物の量。
+.reactor_terminal.activity_toggle.tooltip	リアクターの状態の切り替え\n§7リアクターをオン/オフする。
+.reactor_terminal.auto_eject_toggle.enabled	廃棄物の排出: §3有効
+.reactor_terminal.auto_eject_toggle.disabled	廃棄物の排出: §4無効
+.reactor_terminal.auto_eject_toggle.tooltip	廃棄物の排出の切り替え\n§7廃棄物を自動で排出するかを設定する。
+.reactor_control_rod	リアクター制御棒
+.reactor_control_rod.name	名前:
+.reactor_control_rod.retract_rod.tooltip	制御棒を引き抜く\n§7挿入を減らすと反応速度が上がる。\n§8[Shift]: 10%引き抜く。\n§8[Ctrl]: 50%引き抜く。\n§8[Ctrl + Shift]: 最大まで引き抜く。\n§8[Alt]: すべての制御棒に適用。
+.reactor_control_rod.insert_rod.tooltip	制御棒を挿入する\n§7挿入を増やすと反応速度が下がる。\n§8[Shift]: 10%挿入する。\n§8[Ctrl]: 50%挿入する。\n§8[Ctrl + Shift]: 最大まで挿入する。\n§8[Alt]: すべての制御棒に適用。
+.reactor_coolant_port	リアクター冷却材ポート
+.reactor_coolant_port.manual_dump	タンクの手動排出
+.reactor_coolant_port.manual_dump.tooltip	タンクの液体を排出\n§7リアクターのすべての液体を手動で排出する。
+.reactor_access_port	リアクターアクセスポート
+.reactor_access_port.direction_toggle.input	向き: §6入力
+.reactor_access_port.fuel_mode_toggle.fuel	出力中: §6燃料
+.reactor_access_port.fuel_mode_toggle.waste	出力中: §3廃棄物
+.reactor_access_port.fuel_mode_toggle.nope	出力中: §7---
+.reactor_access_port.fuel_mode_toggle.tooltip	出力の切り替え\n§7このポートが何を出力するかを変える。
+.reactor_access_port.manual_eject	廃棄物の手動排出
+.reactor_access_port.manual_eject.tooltip	廃棄物をすべて排出\n§7リアクターのすべての廃棄物を手動で排出する。
+.reactor_coolant_port.direction_toggle.input	向き: §3入力
+.reactor_coolant_port.direction_toggle.output	向き: §c出力
+.reactor_redstone_port	リアクターレッドストーンポート
+.reactor_redstone_port.choose_setting	設定を選ぶ:
+.reactor_redstone_port.input_reactor_activity	リアクターの状態を変更(入力)
+.reactor_redstone_port.input_reactor_activity.tooltip	リアクターの状態を変更(入力)\n§8[パルス時] リアクターのオン/オフを切り替える。\n§8[信号時] レッドストーンが入っている間、リアクターが稼働する。
+.reactor_redstone_port.input_control_rod_insertion	制御棒の挿入を変更(入力)
+.reactor_redstone_port.input_control_rod_insertion.while_on	信号がある間:
+.reactor_redstone_port.input_control_rod_insertion.while_off	それ以外:
+.reactor_redstone_port.input_control_rod_insertion.tooltip	制御棒の挿入を変更(入力)\n§8[パルス時] 現在のモードに応じて制御棒を動かす。\n§8[信号時] レッドストーンの有無に応じて挿入量を設定する。
+.reactor_redstone_port.input_eject_waste	廃棄物を排出(入力)
+.reactor_redstone_port.input_eject_waste.tooltip	廃棄物を排出(入力)\n§8[パルス時] リアクターのすべての廃棄物を排出する。\n§8[信号時] なし。
+.reactor_redstone_port.output_fuel_temp	燃料の温度(出力)
+.reactor_redstone_port.output_fuel_temp.tooltip	燃料の温度(出力)\n§8[上回る/下回る間] 燃料の温度が設定温度を上回る/下回るときに作動。
+.reactor_redstone_port.output_casing_temp	ケーシングの温度(出力)
+.reactor_redstone_port.output_casing_temp.tooltip	ケーシングの温度(出力)\n§8[上回る/下回る間] 燃料の温度が設定温度を上回る/下回るときに作動。
+.reactor_redstone_port.output_fuel_enrichment	燃料の濃縮度(出力)
+.reactor_redstone_port.output_fuel_enrichment.tooltip	燃料の濃縮度(出力)\n§8[上回る/下回る間] 燃料の濃縮度が設定した割合を上回る/下回るときに作動。
+.reactor_redstone_port.output_fuel_amount	燃料の量(出力)
+.reactor_redstone_port.output_fuel_amount.tooltip	燃料の量(出力)\n§8[上回る/下回る間] 燃料の量が設定量を上回る/下回るときに作動。
+.reactor_redstone_port.output_waste_amount	廃棄物の量(出力)
+.reactor_redstone_port.output_waste_amount.tooltip	廃棄物の量(出力)\n§8[上回る/下回る間] 廃棄物の量が設定量を上回る/下回るときに作動。
+.reactor_redstone_port.output_output_stored	出力の貯蔵量(出力)
+.reactor_redstone_port.output_output_stored.tooltip	出力の貯蔵量(出力)\n§8[上回る/下回る間] 出力の貯蔵量が設定量を上回る/下回るときに作動。
+.reactor_redstone_port.apply_changes.tooltip	変更を適用\n§7適用するまで変更は反映されない。
+.reactor_redstone_port.revert_changes.tooltip	§4[未実装]\n変更を元に戻す\n§7現在の変更を最後に適用した状態に戻す。
+.reactor_redstone_port.trigger_type_toggle.ps.tooltip	トリガーの切り替え\n§7トリガーの種類を切り替える。\n§8[パルス時] レッドストーンのパルスで状態を切り替える。 \n§8[信号時] レッドストーン信号がある間だけ有効。
+.reactor_redstone_port.trigger_type_toggle.ab.tooltip	トリガーの切り替え\n§7トリガーの種類を切り替える。\n§8[上回る/下回る間] 上回る/下回るときに信号を出す…
+.reactor_redstone_port.trigger_type_toggle.ps.on_pulse	トリガー: パルス時
+.reactor_redstone_port.trigger_type_toggle.ps.on_signal	トリガー: 信号時
+.reactor_redstone_port.trigger_type_toggle.ab.while_above	トリガー: 上回る間
+.reactor_redstone_port.trigger_type_toggle.ab.while_below	トリガー: 下回る間
+.reactor_redstone_port.trigger_mode_toggle.mode_a	モードA: 挿入
+.reactor_redstone_port.trigger_mode_toggle.mode_b	モードB: 引き抜き
+.reactor_redstone_port.trigger_mode_toggle.mode_c	モードC: 設定
+.reactor_redstone_port.text_buffer_a.trigger_at	作動する値:
+.reactor_redstone_port.text_buffer_a.mode_a	挿入量:
+.reactor_redstone_port.text_buffer_a.mode_b	引き抜き量:
+.reactor_redstone_port.text_buffer_a.mode_c	設定値:
+.reactor_redstone_port.trigger_mode_toggle.tooltip	モードの切り替え\n§7トリガーモードを切り替える。\n§8[モードA] 挿入量…\n§8[モードB] 引き抜き量…\n§8[モードC] 設定値…
+.turbine_terminal	タービン情報
+.turbine_terminal.tachometer.tooltip	回転計\n§7タービンの回転の速さ。\n§7ローターは900か1800 RPMで最も性能を発揮する。
+.turbine_terminal.energy_generation_rate.tooltip	RF発電量\n§7タービンが発電しているRFの量。
+.turbine_terminal.flow_rate_governor.tooltip	流量調速機\n§7タービンが液体を処理する速さ。
+.turbine_terminal.rotor_efficiency.tooltip	ローター効率\n§7流量がローターの容量を超えると効率が落ちる。
+.turbine_terminal.intake_tank.tooltip	取り込みタンク\n§7内部に蓄えた高温の取り込み液の量。
+.turbine_terminal.exhaust_tank.tooltip	排出物タンク\n§7内部に蓄えた低温の排出物の量。
+.turbine_terminal.activity_toggle.tooltip	タービンの状態の切り替え\n§7タービンをオン/オフする。
+.turbine_terminal.coil_engage_toggle.engaged	コイル: §2接続
+.turbine_terminal.coil_engage_toggle.disengaged	コイル: §4切断
+.turbine_terminal.coil_engage_toggle.tooltip	コイルの接続の切り替え\n§7接続すると、タービンのローターの回転が電気に変換される。
+.turbine_terminal.vent_state_toggle.overflow	排気: §6あふれた分のみ
+.turbine_terminal.vent_state_toggle.all	排気: §2すべての排出物
+.turbine_terminal.vent_state_toggle.closed	排気: §4排気なし
+.turbine_terminal.vent_state_toggle.tooltip	排気の切り替え\n§7排出物をどう排気するか、するかどうかを設定する。
+.turbine_terminal.flow_rate_increase.tooltip	流量を増やす\n§7流量が多いほどローターの回転が速くなる。\n§8[Shift]: %s mB増やす。\n§8[Ctrl]: %s mB増やす。\n§8[Ctrl + Shift]: %s mB増やす。
+.turbine_terminal.flow_rate_decrease.tooltip	流量を減らす\n§7流量が少ないほどローターの回転が遅くなる。\n§8[Shift]: %s mB減らす。\n§8[Ctrl]: %s mB減らす。\n§8[Ctrl + Shift]: %s mB減らす。
+.turbine_fluid_port	タービン液体ポート
+.heat_exchanger_terminal	熱交換器情報
+.heat_exchanger_terminal.temperature.condenser.tooltip	凝縮器流路の温度\n§7凝縮器の流路内の\n§7液体の熱さ。
+.heat_exchanger_terminal.temperature.evaporator.tooltip	蒸発器流路の温度\n§7蒸発器の流路内の\n§7液体の熱さ。
+.heat_exchanger_terminal.flow_rate.condenser.tooltip	凝縮器の流量\n§7凝縮器の流路を流れる\n§7液体の量。
+.heat_exchanger_terminal.flow_rate.evaporator.tooltip	蒸発器の流量\n§7蒸発器の流路を流れる\n§7液体の量。
+.heat_exchanger_terminal.intake_gauge.condenser.tooltip	凝縮器の取り込みタンク\n§7凝縮器の流路内の\n§7高温の液体の量。
+.heat_exchanger_terminal.exhaust_gauge.condenser.tooltip	凝縮器の排出タンク\n§7凝縮器の流路内の\n§7低温の液体の量。
+.heat_exchanger_terminal.heat_gauge.tooltip	熱交換器の温度\n§7熱交換器の熱さ。
+.heat_exchanger_terminal.intake_gauge.evaporator.tooltip	蒸発器の取り込みタンク\n§7蒸発器の流路内の\n§7低温の液体の量。
+.heat_exchanger_terminal.exhaust_gauge.evaporator.tooltip	蒸発器の排出タンク\n§7蒸発器の流路内の\n§7高温の液体の量。
+.heat_exchanger_fluid_port	熱交換器液体ポート
+.heat_exchanger_fluid_port.channel_type.condenser	流路の接続: §c凝縮器
+.heat_exchanger_fluid_port.channel_type.evaporator	流路の接続: §9蒸発器
+.heat_exchanger_fluid_port.manual_dump	流路の液体の手動排出
+.heat_exchanger_fluid_port.manual_dump.tooltip	流路の液体を排出\n§7接続した流路のすべての液体を手動で排出する。
+@ jei.biggerreactors.classic.
+.turbine_coil_block	タービンのコイルブロック
+.turbine_coil_bonus	ボーナス: %s
+.turbine_coil_efficiency	効率: %s
+.turbine_coil_extraction	抽出率: %s
+.reactor_moderator_block	リアクターの減速材ブロック
+.reactor_moderator_fluid	リアクターの減速材液体
+.reactor_moderator_moderation	減速: %s
+.reactor_moderator_absorption	吸収: %s
+.reactor_moderator_conductivity	熱伝導率: %s
+.reactor_moderator_efficiency	熱効率: %s

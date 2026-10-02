@@ -1,0 +1,266 @@
+## pneumaticcraft
+@ pneumaticcraft.armor.
+.search.configure	[%s]で設定
+.search.found	 (%d個発見)
+.upgrade.air_conditioning	空調
+.upgrade.block_tracker	ブロック追跡
+.upgrade.block_tracker.module.bc_energy	BuildCraftのエネルギーブロック
+.upgrade.block_tracker.module.end_portal	エンドポータルフレーム
+.upgrade.block_tracker.module.fluids	液体タンク
+.upgrade.block_tracker.module.hackables	ハッキング可能なもの
+.upgrade.block_tracker.module.hydraulicraft	Hydraulicraftの動力ブロック
+.upgrade.block_tracker.module.ic2	IC2の動力ブロック
+.upgrade.block_tracker.module.inventories	インベントリ
+.upgrade.block_tracker.module.misc	その他のブロック
+.upgrade.block_tracker.module.spawner	スポナー
+.upgrade.block_tracker.module.peripheral	ComputerCraftの周辺機器
+.upgrade.block_tracker.module.energy	Forge Energyのブロック
+.upgrade.block_tracker.module.thaumcraft	Thaumcraftの相ブロック
+.upgrade.charging	自動充電
+.upgrade.chestplate_launcher	アイテムランチャー
+.upgrade.coordinate_tracker	座標追跡
+.upgrade.core_components	コア部品
+.upgrade.drone_debug	ドローンデバッガー
+.upgrade.elytra	エリトラ
+.upgrade.ender_visor	エンダーバイザー
+.upgrade.entity_tracker	エンティティ追跡
+.upgrade.fall_protection	落下防止
+.upgrade.hacking	ハッキング
+.upgrade.jet_boots	ジェットブーツ
+.upgrade.jet_boots.module.builder_mode	建築モード
+.upgrade.jet_boots.module.builder_mode.desc	よりクリエイティブに近い飛行を可能にする: 推進キーで垂直に上昇する。また、空中でのブロック破壊速度が上がる。
+.upgrade.jet_boots.module.flight_stabilizers	飛行安定装置
+.upgrade.jet_boots.module.flight_stabilizers.desc	推進キーを離すと、プレイヤーを即座に停止させる。
+.upgrade.jet_boots.module.hover	ホバー
+.upgrade.jet_boots.module.hover.desc	ホバーモードでは、ジェットブーツを噴射していないとき、空から落ちる代わりにゆっくり沈む(最大まで強化するとまったく沈まない)。
+.upgrade.jet_boots.module.smart_hover	スマートホバー
+.upgrade.jet_boots.module.smart_hover.desc	ホバーモードは推進キーを押したときだけ働き、ジャンプしたり段差から降りたりしたときには働かない。
+.upgrade.jump_boost	跳躍力上昇
+.upgrade.kick	空気圧キック
+.upgrade.magnet	マグネット
+.upgrade.night_vision	暗視
+.upgrade.reach_distance	リーチ延長
+.upgrade.run_speed	走る速さ
+.upgrade.scuba	スキューバ
+.upgrade.search	アイテム検索
+.upgrade.stomp	ストンプ
+.upgrade.step_assist	段差補助
+@ pneumaticcraft.blockTracker.info.
+.bcEnergy	BuildCraftのエネルギーブロック
+.endportal.eye	エンダーアイがはめ込まれている
+.endportal.noEye	エンダーアイがはめ込まれていない
+.fluids.tankEmpty	タンク%d: 0/%dmB
+.fluids.tankFull	タンク%d: %d/%dmB %s
+.hydraulicraft	Hydraulicraftの動力ブロック
+.ic2	IC2の動力ブロック
+.lostTarget	目標を見失いました！
+.noTrackedBlocks	追跡中のブロックなし
+.peripheral.availableMethods	使えるメソッド:
+.peripheral.title	ComputerCraftの周辺機器
+.rf	FEの動力ブロック
+.spawner.type	スポナーの種類: %s
+.spawner.time	次の湧きまで: %s
+.spawner.hacked	スポナーはハッキングされている
+.spawner.standby	スポナーは待機中
+.thaumcraft	含まれる相:
+.thaumcraft.nodeModifier	ノードの修飾:
+.thaumcraft.nodetype	ノードの種類:
+.thaumcraft.none	相なし
+.trackedBlocks	追跡中のブロック:
+@ pneumaticcraft.
+.boots.jet_boots	空気圧ジェットブーツの推進
+.boots.kick	空気圧ブーツのキック
+.chestplate.launcher	空気圧チェストプレートのランチャー
+.command.deliverAmazon.noInventory	%sにインベントリがありません。
+.command.deliverAmazon.noItems	%sのインベントリにアイテムがありません。
+.command.deliverAmazon.success	%sから%sへアイテムを配達中！
+.command.globalVariable.delete	グローバル変数「%s」を削除しました
+.command.globalVariable.missing	そのような変数はありません: 「%s」
+.command.globalVariable.output	変数名: 「%s」: [%s]
+.command.globalVariable.prefixReminder	「%s」に接頭辞がないため、プレイヤーグローバルとみなします。プレイヤーグローバルには「#」、サーバーグローバルには「%%」を使います。
+death.attack.pnc_acid	%1$sはエッチングされて死んだ！
+death.attack.pnc_plastic_block	%1$sはとんでもなく痛い物を踏んだ！
+death.attack.pnc_pressure	%1$sは圧縮されて死んだ！
+death.attack.pnc_minigun	%1$sは%2$sのミニガンで蜂の巣にされた！
+death.attack.pnc_security_station	%1$sはセキュリティステーションのハッキングに失敗し、報いを受けた！
+.death.drone.named	「%s」という名前のドローンが%sで死亡しました [%s, %s %s]
+.death.drone.overload.areaTooLarge	範囲が大きすぎます(> %dブロック)
+.death.drone.overload.jumpStackTooLarge	ジャンプスタックが大きすぎます(> %d)
+.death.drone.overload.suicide	自爆パズルピースを実行した
+.death.drone.overload.wrenched	レンチで分解された
+.death.drone	ドローンが%sで死亡しました [%s, %s %s]
+.drone.amadronDeliveryDrone	アマドロン配達ドローン
+@ pneumaticcraft.entityTracker.info.
+.acquiring	目標を捕捉中…
+.canBreedIn	繁殖可能まで: %s
+.canBreedNow	繁殖可能
+.canTame	手なずけられる
+.creeper.coolDown	冷却中: %d
+.creeper.fuse	導火線: %d
+.drone.debugging	このドローンをデバッグ中
+.drone.debugging.key	[%s]でデバッガー
+.drone.pressDebugKey	[%s]でデバッグ
+.drone.routine	ルーチン: %s
+.drone.stopDebugging.key	[%s]でデバッグを終了
+.growsUpIn	大人になるまで: %s
+.health	体力: %d%%
+.itemframe.item	アイテム: %s
+.itemframe.rotation	回転: %d°
+.painting.art	作品: %s
+.player.armor	防具:
+.player.holding	所持品:
+.slimeLarge	大きさ: 大
+.slimeOther	大きさ: %d
+.slimeSmall	大きさ: 小
+.slimeTiny	大きさ: 極小
+.tamed	飼い主: %s
+.target	目標: %s
+.trackedEntities	追跡中のエンティティ:
+@ pneumaticcraft.gui.
+.aerial_interface.fedItem	§eエアリアルインターフェースが食べさせた: §a%s
+.amadron.addTrade.buying	購入
+.amadron.addTrade.gpsSearch	インベントリ検索(GPS)
+.amadron.addTrade.invSearch	インベントリ検索
+.amadron.addTrade.itemFluidAmount	アイテム/液体の量
+.amadron.addTrade.itemSearch	アイテム検索
+.amadron.addTrade.problems.noSellingOrPayingBlock	補充/支払いに使う場所が選ばれていません。\n§0アマドロンタブレットでアイテム/液体の場所を選ぶか、GPSボタンで任意の場所を選んでください。
+.amadron.addTrade.selling	販売
+.amadron	アマドロン
+.amadron.basket	カートの中身
+.amadron.villager	村人
+.amadron.amadronWidget.buying	        対価: %s
+.amadron.amadronWidget.inBasket	カート内の注文: %s
+.amadron.amadronWidget.selling	取引品: %s
+.amadron.amadronWidget.sneakRightClickToRemove	§eXボタンをShift+左クリックで出品を取り下げ。\n§7売れ残った在庫は補充場所に戻される。そこのインベントリがないかいっぱいなら、アイテムは地面に落とされ、液体は失われる。
+.amadron.amadronWidget.stock	販売者の在庫: %s件の取引
+.amadron.amadronWidget.vendor	販売者: %s
+.amadron.button.addTrade	§eプレイヤー独自の取引を追加
+.amadron.button.addTrade.tooltip	自分のアイテムを出品し、他のプレイヤーが購入できるようにする。
+.amadron.button.addTrade.tooltip.offerCount	出品数 %s/%s
+.amadron.button.order	注文する
+.amadron.button.order.tooltip	カートのアイテムを注文する。ドローンが支払いを受け取りに来て、別のドローンが購入したアイテムを届ける。
+.amadron.button.selectPaymentBlock.tooltip	プレイヤーがあなたの出品を買ったときに、アマドロンが支払いに使うインベントリかタンクを選ぶ。\n§7初期設定ではこのアマドロンタブレットで選んだインベントリ/タンクを使う。
+.amadron.button.selectSellingBlock.tooltip	アマドロンが出品の補充のために資源を取るインベントリかタンクを選ぶ。\n§7初期設定ではこのアマドロンタブレットで選んだインベントリ/タンクを使う。
+.amadron.title	アマドロンへようこそ！
+.aphorismTileEditor	格言タイルエディター
+.aphorismTile.insert	挿入:
+.aphorismTile.insertItem	アイテム…
+.aphorismTile.helpText	§a§n格言タイルエディター\n\n§e← → ↑ ↓:§r カーソル移動\n§eHome:§r 行頭へ\n§eEnd:§r 行末へ\n§eEnter:§r 改行を挿入\n§eBackspace:§r カーソルの前を削除\n§eDelete:§r カーソルの後を削除\n§eAlt+Delete:§r 行を削除\n§eShift+Delete:§r すべて消去\n§eEsc:§r 編集を終了\n§eAlt + §o文字§r: 制御コードを挿入\n §7- コード: 0-9、a-f、l、m、n、o、r
+.button.showRange	範囲を表示
+.config.category.advanced	高度な設定
+.config.category.client	クライアント側の設定
+.config.category.general	全般
+.config.category.helmet	非推奨: 空気圧ヘルメットのHUD配置
+.config.category.integration	MOD連携
+.config.category.machine	機械
+.config.category.micromissile	マイクロミサイル
+.config.category.minigun	ミニガンと弾薬
+.config.category.pneumaticArmor	空気圧アーマー
+.config.category.recipes	レシピ
+.enableModule	%sを有効化
+.entityFilter	エンティティフィルター
+.entityFilter.show	エンティティフィルター: 「%s」
+.entityFilter.holdF1	F1長押しでエンティティフィルターのヘルプ
+.entityFilter.helpText	§a§nエンティティのフィルター${br}${br}§e@player§f: プレイヤーに一致${br}§e@mob§f: 攻撃的な生き物に一致${br}§e@animal§f: 友好的な生き物に一致${br}§e@animal(age=adult)§f: 大人の動物すべてに一致${br}§e@animal(age=baby)§f: 子どもの動物すべてに一致${br}§e@living(aquatic=yes)§f: 水生動物すべてに一致${br}§e@mob(undead=yes)§f: アンデッドのMobすべてに一致${br}§e@living(arthropod=yes)§f: 虫型の生きたエンティティすべてに一致${br}§e@animal(breedable=yes)§f: 繁殖可能な動物すべてに一致${br}§e@player(holding=minecraft:stick)§f: 棒を持っているプレイヤーすべてに一致${br}§e@player(holding!=minecraft:stick)§f: 棒を持っていないプレイヤーすべてに一致${br}§e@minecart§f: トロッコに一致${br}§e@boat§f: ボートに一致${br}§e@living§f: 生きたエンティティすべてに一致${br}§e@item§f: アイテムエンティティに一致${br}§e@drone§f: ドローンエンティティに一致${br}§e@orb§f: 経験値オーブに一致${br}§e@mob(mod=minecraft)§f: Minecraftが追加したMobにだけ一致${br}§eCreeper§f: クリーパーに一致${br}§e'MineMaarten'§f: 「MineMaarten」という名前のエンティティに一致${br}§ec*§f: 「c」で始まるエンティティ(CreeperやCowなど)に一致${br}§e*pig*§f: 名前に「pig」を含むエンティティ(PigやZombified Piglinなど)に一致${br}§ecreeper;zombie§f: クリーパーとゾンビの両方に一致${br}§e!@player§f: プレイヤー以外すべてに一致${br}§e!creeper;zombie§f クリーパーとゾンビ以外すべてに一致${br}${br}• 大文字小文字は区別しない${br}• フィルターの先頭に「!」を付けると判定を反転${br}• 1つのフィルターで複数を指定するには「;」(セミコロン)を使う(OR判定)
+.general.bar	bar
+.gps_tool.teleport	テレポート
+.gps_area_tool.changeAreaType	範囲の種類を変更
+.holdF1forHelp	§6F1§r長押しでヘルプ
+.jei.description.create_blaze_burner.smouldering	くすぶり
+.jei.description.create_blaze_burner.kindled	燃焼
+.jei.description.create_blaze_burner.seething	激しく燃焼
+.jei.description.create_blaze_burner.fading	消えかけ
+.jei.filterDrag	ヒント: アイテムや液体はJEIから直接フィルタースロットにドラッグできる。
+.jei.heatCapacity	熱容量: %s
+.jei.thermalResistance	熱抵抗:
+.jei.title.plasticSolidifying	ワールド内での固化
+.jei.title.yeastCrafting	ワールド内での酵母の生産
+.jei.title.spawnerExtraction	スポナーの抽出
+.jei.title.heatProperties	ブロックの熱特性
+.jei.tooltip.thermalResistance	熱抵抗は、ブロックに熱が出入りする速さを決める。値が高いほど熱の出入りが遅い。
+.jei.tooltip.heatCapacity	熱容量は、ブロックが別のブロックに変わるまでに出入りできる熱の量。
+.jei.tooltip.plasticSolidifying	溶融プラスチック入りバケツをワールドに流すと、1秒以内に固まってプラスチックシートになる。
+.jei.tooltip.processingTime	追加の圧力を与えると、実際の処理時間は短くなることがある
+.jei.tooltip.yeastCrafting	酵母培養液の溜まりに砂糖を落とし、その隣に水を置くと、酵母培養液が水に広がる。\n\nクラフトの判定は砂糖を落としたときではなく、水を置いたときに行われる。砂糖は1スタックまとめて酵母培養液に落とせ、一度に1つずつ使われる。
+.jei.tooltip.droneImportOrbs	経験値オーブをドローンの液体タンクに取り込むには、エンティティ搬入ウィジェットを使う。@orbのエンティティフィルターと組み合わせるとよい。
+.keroseneLamp.fuelsHeader	tick/mB | 液体 @ 範囲 %d
+.keroseneLamp.maxRange	最大範囲:
+.keroseneLamp.timeLeft	残り時間: %s
+.keybindBoundKey	割り当て: §a%s
+.keybindRightClickToSet	▶ 右クリック: キーかマウスボタンを割り当て
+.keybindShiftRightClickToClear	▶ Shift+右クリック: 割り当てを解除
+.liquidCompressor.fuelsHeader	mL/mB | 液体 (x 燃焼速度)
+.logistics_frame_active_provider.fluidFilters	供給する液体
+.logistics_frame_active_provider.itemFilters	供給するアイテム
+.logistics_frame_default_storage.fluidFilters	保管する液体
+.logistics_frame_default_storage.itemFilters	保管するアイテム
+.logistics_frame.facing	向き: %s
+.logistics_frame.facing.tooltip	フレームを付けたインベントリ/タンクのうち、ドローンがアクセスする面を決める。\n物流モジュールは常に向いている面のインベントリ/タンクにアクセスするので、これは無視される。
+.logistics_frame.filter_settings	フィルター設定
+.logistics_frame.fluidBlacklist	液体ブラックリスト
+.logistics_frame.fluidWhitelist	液体ホワイトリスト
+.logistics_frame.hasFilters	§e独自の要求フィルターが設定されている。クラフトグリッドに置くと消去される。
+.logistics_frame.invisible	透明
+.logistics_frame.invisible.tooltip	物流フレームを透明にする(物流アイテムを手に持っているときを除く)
+.logistics_frame.itemBlacklist	アイテムブラックリスト
+.logistics_frame.itemWhitelist	アイテムホワイトリスト
+.logistics_frame.liquid	液体フィルター
+.logistics_frame.matchBlockstate	ブロックステート
+.logistics_frame.matchBlockstate.tooltip	オンにすると、ドロップするアイテムではなくブロックで照合する。ドローンが今装備している道具で壊しても何もドロップしないブロックを照合したいときに使う。§7§o「掘る」プログラムピースでのみ使われる。
+.logistics_frame.matchDurability	アイテムの耐久値
+.logistics_frame.matchDurability.tooltip	オンにすると、損傷度の異なる道具を別物として扱う
+.logistics_frame.matchModId	MOD ID
+.logistics_frame.matchModId.tooltip	オンにすると、同じMODのアイテムを同等として扱う
+.logistics_frame.matchNBT	アイテムのNBT
+.logistics_frame.matchNBT.tooltip	オンにすると、エンチャントやMOD固有のデータなど、アイテムの拡張データの一致も必要になる
+.logistics_frame.min_amount	最小注文量
+.logistics_frame.min_fluid	最小液体量(mB)
+.logistics_frame.min_fluid.tooltip	このフレームは一度にこれより少ない液体を注文しない。1回で運べば効率的なのに、ドローンが少量ずつ何度も往復するのを防ぐのに便利。要求量より低い値にしておくこと。
+.logistics_frame.min_items	最小アイテム数
+.logistics_frame.min_items.tooltip	このフレームは一度にこれより少ないアイテムを注文しない。1回で運べば効率的なのに、ドローンが少量ずつ何度も往復するのを防ぐのに便利。要求量より低い値にしておくこと。
+.logistics_frame_passive_provider.fluidFilters	供給する液体
+.logistics_frame_passive_provider.itemFilters	供給するアイテム
+.logistics_frame_requester.fluidFilters	要求する液体
+.logistics_frame_requester.itemFilters	要求するアイテム
+.logistics_frame_storage.fluidFilters	保管する液体
+.logistics_frame_storage.itemFilters	保管するアイテム
+.micromissile.damage	ダメージ
+.micromissile.firingMode	発射モード
+.micromissile.mode.dumb	無誘導
+.micromissile.mode.smart	誘導
+.micromissile.modeTooltip	§e誘導モード: §fミサイルは(設定されていれば)エンティティフィルターに一致する最も近い目標を積極的に探してロックする。最高速度・旋回速度・ダメージの配分を調整できる。\n§e無誘導モード: §fミサイルはまっすぐにしか飛ばないが、非常に速く、ダメージが大きい。
+.micromissile.remaining	残りのミサイル:
+.micromissile.saveDefault	デフォルトとして保存
+.micromissile.topSpeed	最高速度
+.micromissile.turnSpeed	旋回速度
+.misc.any	任意
+.misc.all	すべて
+.misc.empty	空
+.misc.holdShiftFastAdjust	Shiftを押しながらで素早く調整
+.misc.no_fluids	液体なし
+.misc.no_items	アイテムなし
+.misc.none	なし
+.misc.requiredTemperature	必要な温度: %d°C
+.misc.requiredTemperatureString	必要な温度: %s
+.misc.searchFluid	液体を検索…
+.misc.searchInventory	インベントリを検索…
+.misc.searchItem	アイテムを検索…
+.misc.snapToGrid	グリッドに吸着
+.nei.recipe.explosionCrafting	材料を地面に投げ、その隣で爆発を起こす。\n\n§e平均素材損失率: %d%%
+.nei.recipe.heatFrameCooling.bonus	\nボーナス出力の確率！\n1度下がるごとに%5.2f%%の確率で%sが追加(%d°C未満のとき)\n (倍率上限: x%5.2f)
+.nei.recipe.heatFrameCooling	ヒートフレームを付けたインベントリに材料を入れ、ヒートフレームを%d°C未満に冷やす。
+.nei.recipe.uvLightBox	UVライトボックスを作り、圧力を供給し、空のPCBを入れる。この工程はかなり遅いので、スピードアップグレードがおすすめ。
+.nei.title.explosionCrafting	爆発クラフト
+.nei.title.heatFrameCooling	ヒートフレームによる冷却
+.nei.tooltip.pressureEnchantBook	§a対応するエンチャントを持つエンチャントの本なら何でも
+.nei.tooltip.pressureEnchantBookOut	§aエンチャントを1つ取り除いた(そして入力アイテムに付けた)入力の本
+.nei.tooltip.pressureEnchantItem	§aエンチャント可能なアイテムなら何でも
+.nei.tooltip.pressureEnchantItemOut	§a本のエンチャントを1つ付けた入力アイテム
+.nei.tooltip.vacuumEnchantBookOut	§aアイテムのエンチャントを1つ付けた入力の本
+.nei.tooltip.vacuumEnchantItem	§aエンチャントされたアイテムなら何でも
+.nei.tooltip.vacuumEnchantItemOut	§aエンチャントを1つ取り除いた(そして本に付けた)入力アイテム
+.pastebin.button.copyToClipboard	コードをクリップボードに保存
+.pastebin.button.get	Pastebinから取得
+.pastebin.button.loadFromClipboard	クリップボードからコードを読み込む
+.pastebin.button.login	ログイン
+.pastebin.button.logout	ログアウト

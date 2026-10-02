@@ -1,0 +1,264 @@
+## integrateddynamics
+variable.integrateddynamics.error.recursion	ID %sの変数が自分自身を参照しています。
+proxy.integrateddynamics.tooltip.proxy_id	§e§oプロキシID: §r§o%s
+proxy.integrateddynamics.error.proxy_not_in_network	ID %sのプロキシが今のネットワーク内に見つかりません。
+proxy.integrateddynamics.error.proxy_invalid	ID %sのプロキシは変数を公開していません。
+proxy.integrateddynamics.error.proxy_invalid_type	ID %sのプロキシは型%sの変数を公開するはずですが、%sが見つかりました。
+delay.integrateddynamics.tooltip.delay_id	§e§o遅延器ID: §r§o%s
+delay.integrateddynamics.error.delay_not_in_network	ID %sの遅延器が今のネットワーク内に見つかりません。
+delay.integrateddynamics.error.delay_invalid	ID %sの遅延器は変数を公開していません。
+delay.integrateddynamics.error.delay_invalid_type	ID %sの遅延器は型%sの変数を公開するはずですが、%sが見つかりました。
+@ aspect.integrateddynamics.
+.tooltip.aspect_name	§eアスペクト: §r%s
+.tooltip.value_type_name	§e型: §r%s
+.tooltip.part_id	§e§oパーツID: §r§o%s
+.error.invalid_type	このアスペクトは%sを期待していますが、%sが渡されました。
+.error.recursion	%sのアスペクト変数が自分自身を参照しています。
+.error.no_value_interface	有効な値インターフェースが見つかりません。
+.error.no_value_interface_value	有効な値インターフェースの値が見つかりません。
+.name	アスペクト
+.write.string.audio.sound	サウンド
+@ aspect.aspecttypes.integrateddynamics.
+.integer.interval	パルスの間隔
+.integer.length	パルスの長さ
+.integer.offset	パルスの時間オフセット
+.double.volume	音量
+.double.frequency	周波数
+.double.offset_x	Xオフセット
+.double.offset_y	Yオフセット
+.double.offset_z	Zオフセット
+.integer.particles	パーティクル数
+.double.spread_x	Xの広がり
+.double.spread_y	Yの広がり
+.double.spread_z	Zの広がり
+.boolean.strong_power	強い動力
+.boolean.strong_power.info	通常のレッドストーンダストではなく、レッドストーントーチを再現するか
+.integer.pulse_emit_value	パルスの値
+.integer.pulse_emit_value.info	出力するパルスの値。
+operator.integrateddynamics	演算子
+@ operator.integrateddynamics.
+.applied.operator_name	適用済み %s [%s]
+.applied.type	§A適用先: §r%s
+.tooltip.operator_name	§e演算子: §r%s (%s)
+.tooltip.operator_category	§eカテゴリ: §r%s
+.tooltip.variable_ids	§e変数ID: §r§o%s
+.tooltip.input_type_name	§e入力の型 %s: §r
+.tooltip.output_type_name	§e出力の型: §r%s
+.error.wrong_input_length	演算子%sは長さ%sの入力を受け取りましたが、長さ%sが必要です。
+.error.operator_param_wrong_input_length	演算子の入力長%sが必要ですが、%sの入力長は%sしかありません。
+.error.null_type	演算子%sは位置%sにnullの変数を含む入力を受け取りました。
+.error.wrong_type	演算子%sは型%sの入力を位置%sで受け取りましたが、型%sが期待されていました。
+.error.wrong_type_output	演算子%sの評価は、期待された%sではなく%sを返しました。
+.error.wrong_currying_type	演算子%sは型%sの入力を位置%sで受け取りましたが、カリー化には型%sが期待されていました。
+.error.currying_overflow	演算子%s(入力%s個)を入力%s個でカリー化する際、出力として演算子が期待されましたが、%sが得られました。
+.error.wrong_predicate	演算子%sは型%sを出力する入力演算子を受け取りましたが、型%sが期待されていました。
+.error.illegal_property	プロパティは%sを出力するはずですが、%sが見つかりました(演算子%s)。
+.error.variable_not_in_network	ID %sの変数が今のネットワーク内に見つかりません。
+.error.cyclic_reference	ID %sの変数が自分自身に依存しています。無限再帰です。
+.error.wrong_input_length_virtual	演算子%sは入力長%sの演算子%sを受け取りましたが、長さ%sが必要です。
+.error.operator_recursion_limit	%2$sで演算子の再帰上限%1$s回に達しました。ゲームをクラッシュさせようとしてる？
+.error.operator_nbt_path_expression	無効なNBTパス式「%s」が見つかりました: %s
+.error.cast.no_mapping	%sから%sへのキャストの対応がありません。
+.error.cast.illegal	値「%3$s」を%1$sから%2$sへキャストしようとしました。
+.error.cast.unexpected	型%sの値は、%sへのキャストに期待される型%sと一致しません。
+.error.divide_by_zero	ゼロで割ることはできません。
+.error.parse	値「%s」を%sに解析できませんでした。
+.error.no_derserializer	演算子の値「%s」をデシリアライズするシリアライザーが見つかりません。
+.error.regex.invalid	無効な正規表現: 「%s」
+.error.substring.to_greater_than_from	部分文字列の終了位置は開始位置より厳密に大きくなければなりません。
+.error.substring.index_negative	部分文字列の位置は負にできません。
+.error.substring.longer_than_string	部分文字列の位置は文字列の長さを超えられません。
+.error.group.index_negative	グループの番号は負にできません。
+.error.group.no_match	正規表現「%s」のグループは「%s」の中で一致しませんでした。
+.error.group.no_match_group	正規表現「%s」のグループ「%3$s」は「%2$s」の中で一致しませんでした。
+.error.regex_scan.index_negative	正規表現スキャンの番号は負にできません。
+.error.regex_scan.no_match_group	正規表現「%s」のスキャンで、グループ「%3$s」は「%2$s」の中で一致しませんでした。
+.error.replace_regex.invalid_group	置換文字列「%s」の正規表現置換に無効なグループがあります: %s
+.error.infinite_list.illegal	演算子%sは無限リストに適用できません。
+.error.index_out_of_bounds	範囲外の位置です。長さ%2$sのリストの要素%1$sを取得しようとしました。範囲外のときの既定値を指定するにはgetOrDefault演算子を使ってください。
+.error.slice.to_greater_than_from	スライスの終了位置は開始位置より厳密に大きくなければなりません。
+.error.slice.index_negative	スライスの位置は負にできません。
+.error.reduce.empty	reduce1演算子が空のリストの先頭を取得しようとしました。空のリストに対応するには、基準値を指定できるreduce演算子を使ってください。
+.error.operator_not_found	名前「%s」の演算子が見つかりません。
+.logical	論理
+.logical.basename	論理 %s
+.logical.and	AND
+.logical.or	OR
+.logical.not	NOT
+.logical.nand	NAND
+.logical.nor	NOR
+.arithmetic	算術
+.arithmetic.basename	算術 %s
+.arithmetic.addition	加算
+.arithmetic.subtraction	減算
+.arithmetic.multiplication	乗算
+.arithmetic.division	除算
+.arithmetic.maximum	最大
+.arithmetic.maximum.info	2つの値のうち大きい方を取る。
+.arithmetic.minimum	最小
+.arithmetic.minimum.info	2つの値のうち小さい方を取る。
+.arithmetic.modulus	剰余
+.arithmetic.increment	インクリメント
+.arithmetic.decrement	デクリメント
+.integer	整数
+.integer.basename	整数 %s
+.integer.modulus	剰余
+.integer.increment	インクリメント
+.integer.decrement	デクリメント
+.relational	関係
+.relational.basename	関係 %s
+.relational.equals	等しい
+.relational.equals.info	型1と型2は等しくなければならない。
+.relational.gt	より大きい
+.relational.lt	より小さい
+.relational.notequals	等しくない
+.relational.notequals.info	型1と型2は等しくなければならない。
+.relational.ge	以上
+.relational.le	以下
+.binary	ビット
+.binary.basename	ビット %s
+.binary.and	AND
+.binary.or	OR
+.binary.xor	XOR
+.binary.complement	補数
+.binary.rshift	右シフト
+.binary.rshift.info	1で埋める右シフト
+.binary.lshift	左シフト
+.binary.rzshift	ゼロ右シフト
+.binary.rzshift.info	0で埋める右シフト
+.string	文字列
+.string.basename	文字列 %s
+.string.length	長さ
+.string.length.info	与えた文字列の長さ
+.string.concat	連結
+.string.concat.info	与えた2つの文字列を1つに連結する
+.string.contains	文字列を含む
+.string.contains.info	与えた部分文字列が与えた文字列に含まれるか。
+.string.contains_regex	正規表現を含む
+.string.contains_regex.info	与えた正規表現が与えた文字列のいずれかの部分文字列に一致するか。
+.string.matches_regex	正規表現に一致
+.string.matches_regex.info	与えた正規表現が与えた文字列に一致するか。
+.string.index_of	位置を検索
+.string.index_of.info	与えた文字列の中で、検索語に一致する部分文字列が最初に現れる位置を取得する。
+.string.index_of_regex	正規表現で位置を検索
+.string.index_of_regex.info	与えた文字列の中で、パターンに一致する部分文字列が最初に現れる位置を取得する。
+.string.starts_with	で始まる
+.string.starts_with.info	与えた部分文字列が与えた文字列の先頭に一致するか。
+.string.ends_with	で終わる
+.string.ends_with.info	与えた文字列が与えた文字列の末尾に一致するか。
+.string.split_on	分割
+.string.split_on.info	与えた文字列を、与えた(リテラルの)区切り文字で分割した断片のリストを取得する。
+.string.split_on_regex	正規表現で分割
+.string.split_on_regex.info	与えた文字列を、与えた正規表現で分割した断片のリストを取得する。
+.string.substring	部分文字列
+.string.substring.info	与えた文字列の、指定した位置(含む)から指定した位置(含まない)までの部分文字列を取得する。
+.string.regex_group	正規表現グループ
+.string.regex_group.info	与えた文字列の中で与えた正規表現を検索し、その一致のうち指定した番号のグループを返す。
+.string.regex_groups	正規表現グループ一覧
+.string.regex_groups.info	与えた文字列の中で与えた正規表現を検索し、その一致のすべてのグループのリストを返す。
+.string.regex_scan	正規表現スキャン
+.string.regex_scan.info	与えた文字列の中で与えた正規表現に一致するものをすべて検索し、指定した番号のグループを返す。
+.string.replace	置換
+.string.replace.info	与えた文字列の中で検索語をすべて見つけ、与えた文字列に置き換える。
+.string.replace_regex	正規表現で置換
+.string.replace_regex.info	与えた文字列の中で検索パターンに一致するものをすべて見つけ、与えた文字列に置き換える。
+.string.join	結合
+.string.join.info	与えた区切り文字と文字列のリストから、結合した文字列を作る。
+.string.name	文字列に変換
+.string.name.info	名前を持つオブジェクトの文字列や名前を取得するか、文字列に変換する
+.string.unique_name	一意な名前
+.string.unique_name.info	オブジェクトの一意な名前を取得する
+.double	倍精度小数
+.double.basename	倍精度小数 %s
+.double.sqrt	平方根
+.double.pow	累乗
+.number	数値
+.number.basename	数値 %s
+.number.round	四捨五入
+.number.round.info	最も近い整数に丸める
+.number.ceil	切り上げ
+.number.ceil.info	最も近い整数に切り上げる
+.number.floor	切り捨て
+.number.floor.info	最も近い整数に切り捨てる
+.number.compact	短縮
+.number.compact.info	数値をより短く、精度の低い形で表示する
+.number.cast_double	数値を倍精度小数にキャスト
+.number.cast_double.info	任意の数値を倍精度小数にキャストする
+.number.cast_long	数値を長整数にキャスト
+.number.cast_long.info	任意の数値を長整数にキャストする
+.number.cast_integer	数値を整数にキャスト
+.number.cast_integer.info	任意の数値を整数にキャストする
+.list	リスト
+.list.basename	リスト %s
+.list.length	長さ
+.list.length.info	与えたリストの長さ
+.list.empty	空
+.list.empty.info	リストが空か
+.list.notempty	空でない
+.list.notempty.info	リストが空でないか
+.list.get	取得
+.list.get.info	指定した位置のリストの要素を取得する。位置が範囲外ならエラーを投げる。
+.list.get_or_default	取得(既定値あり)
+.list.get_or_default.info	指定した位置のリストの要素を安全に取得する。その要素がなければ、与えた既定値を返す。
+.list.contains	含む
+.list.contains.info	リストが与えた要素を含むか。
+.list.contains_p	述語で含む
+.list.contains_p.info	リストの要素のうち少なくとも1つが、与えた述語で真を返すか。
+.list.count	数える
+.list.count.info	リストの中に与えた要素が見つかる回数。
+.list.count_p	述語で数える
+.list.count_p.info	リストの要素に対して与えた述語が真を返す回数。
+.list.append	追加
+.list.append.info	与えたリストに与えたアイテムを追加する。
+.list.concat	連結
+.list.concat.info	2つのリストを互いに連結する。
+.list.lazybuilt	遅延リストビルダー
+.list.lazybuilt.info	開始値と、前の要素に適用して次の要素を得る演算子を使って、リストを遅延的に作る。
+.list.head	先頭
+.list.head.info	与えたリストの最初の要素を取得する。
+.list.tail	末尾
+.list.tail.info	リストから最初の要素を取り除く。
+.list.uniq_p	述語で重複除去
+.list.uniq_p.info	与えた比較の述語に基づいて、リストのすべての要素の重複を取り除く。
+.list.uniq	重複除去
+.list.uniq.info	リストのすべての要素の重複を取り除く。
+.list.slice	スライス
+.list.slice.info	与えたリストの、指定した位置(含む)から指定した位置(含まない)までの部分を取り出す。
+.list.intersection	共通部分
+.list.intersection.info	与えた両方のリストにあるアイテムのリストを返す
+.list.equals_set	リストが等しい(集合)
+.list.equals_set.info	集合の意味で2つのリストが等しいか調べる。
+.list.equals_multiset	リストが等しい(多重集合)
+.list.equals_multiset.info	多重集合の意味で2つのリストが等しいか調べる。
+.block	ブロック
+.block.basename	ブロック %s
+.block.opaque	不透明
+.block.opaque.info	与えたブロックが不透明(透けていない)か
+.block.itemstack	アイテム
+.block.itemstack.info	与えたブロックのアイテムとしての表現
+.block.mod	MOD
+.block.mod.info	与えたブロックを持つMODの名前
+.block.breaksound	ブロックの破壊音
+.block.breaksound.info	与えたブロックの破壊音
+.block.placesound	ブロックの設置音
+.block.placesound.info	与えたブロックの設置音
+.block.stepsound	ブロックの足音
+.block.stepsound.info	与えたブロックの足音
+.block.isshearable	ブロックを刈れる
+.block.isshearable.info	与えたブロックをハサミで刈れるか
+.block.isplantable	ブロックが植物
+.block.isplantable.info	与えたブロックが植物か
+.block.planttype	ブロックの植物の種類
+.block.planttype.info	与えたブロックの植物の種類
+.block.plant	ブロックの植物
+.block.plant.info	このブロックを植えたときにできるブロック
+.block.cansustainplantblock	ブロックがブロックの植物を支えられる
+.block.cansustainplantblock.info	与えたブロックが与えたブロックの植物を支えられるか
+.block.cansustainplantitem	ブロックがアイテムの植物を支えられる
+.block.cansustainplantitem.info	与えたブロックが与えたアイテムの植物を支えられるか
+.block.plantage	ブロックの植物の成長段階
+.block.plantage.info	与えた植物ブロックの成長段階
+.block.blockbyname	名前からブロック
+.block.blockbyname.info	与えた一意な名前に対応するブロックを取得する。
+.block.blockproperties	ブロックのプロパティ
+.block.blockproperties.info	ブロックのプロパティをNBT複合タグとして取得する。

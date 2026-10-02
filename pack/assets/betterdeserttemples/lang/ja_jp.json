@@ -1,0 +1,9 @@
+{
+  "Use /locate structure betterdeserttemples:desert_temple instead!": "代わりに /locate structure betterdeserttemples:desert_temple を使ってください!",
+  "text.autoconfig.betterdeserttemples-fabric-1_20.title": "YUNG's Better Desert Temples",
+  "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.disableVanillaPyramids": "バニラのピラミッドを無効化",
+  "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.disableVanillaPyramids.@Tooltip": "バニラの砂漠のピラミッドを無効にするかどうか。",
+  "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.applyMiningFatigue": "採掘速度低下を付与",
+  "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.applyMiningFatigue.@Tooltip[0]": "神殿がまだ攻略されていない場合、",
+  "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.applyMiningFatigue.@Tooltip[1]": "神殿内のプレイヤーに採掘速度低下を付与するかどうか。"
+}

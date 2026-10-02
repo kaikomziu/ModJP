@@ -1,0 +1,212 @@
+## ftbchunks
+ftbchunks	FTB Chunks
+wilderness	未開の地
+sidebar_button.ftbchunks.chunks	FTB Chunks: マップ
+sidebar_button.ftbchunks.claim_chunks	FTB Chunks: 保護の管理
+key.categories.ftbchunks	FTB Chunks
+key.ftbchunks.map	マップを開く
+key.ftbchunks.claim_manager	保護の管理を開く
+key.ftbchunks.minimap.zoomIn	ミニマップを拡大
+key.ftbchunks.minimap.zoomOut	ミニマップを縮小
+key.ftbchunks.add_waypoint	ウェイポイントを素早く追加
+key.ftbchunks.waypoint_manager	ウェイポイントの管理
+key.ftbchunks.toggle_minimap	ミニマップの切り替え
+tag.item.ftbchunks.right_click_blacklist	右クリックのブラックリスト
+tag.item.ftbchunks.right_click_whitelist	右クリックのホワイトリスト
+@ ftbchunks.
+.zoom_warning	メモリの制約により最大縮小が制限されている
+.appearance	外観
+.appearance.noise	ノイズ
+.appearance.shadows	影
+.appearance.chunk_grid	チャンクのグリッド
+.appearance.reduced_color_palette	減色パレット
+.appearance.saturation	彩度
+.appearance.claimed_chunks_on_map	保護したチャンクをマップに表示
+.appearance.own_claimed_chunks_on_map	自分が保護したチャンクをマップに表示
+.appearance.map_mode	マップモード
+.appearance.biome_blend	バイオームの色の混合
+.biome_blend.none	なし(最速)
+.biome_blend.blend_3x3	混合 3x3
+.biome_blend.blend_5x5	混合 5x5
+.biome_blend.blend_7x7	混合 7x7
+.biome_blend.blend_9x9	混合 9x9
+.biome_blend.blend_11x11	混合 11x11
+.biome_blend.blend_13x13	混合 13x13
+.biome_blend.blend_15x15	混合 15x15(最遅)
+.appearance.water_height_factor	水の高さの係数
+.appearance.only_surface_entities	地表のエンティティのみ
+.advanced	詳細設定
+.advanced.debug_info	デバッグ情報
+.waypoints	ウェイポイント
+.waypoints.in_world_waypoints	ワールド内にウェイポイントを表示
+.waypoints.death_waypoints	死亡時にウェイポイントを作成
+.waypoints.death_waypoint_autoremove_distance	死亡地点の自動削除距離
+.waypoints.death_waypoint_autoremove_distance.tooltip	0より大きい場合、最も近い死亡地点がこの距離より近づくと自動で削除される
+.waypoints.waypoint_fade_distance	ビーコンが薄れる最小距離
+.waypoints.waypoint_dot_fade_distance	点が薄れる最小距離
+.waypoints.waypoint_max_distance	ウェイポイントの最大描画距離
+.waypoints.waypoint_focus_distance	注目時のウェイポイントの距離
+.waypoints.waypoint_focus_distance.tooltip	ウェイポイントの名前を表示するには、プレイヤーのクロスヘアがどれだけ近い必要があるか
+.waypoints.waypoint_focus_scale	注目時のウェイポイントの拡大率
+.waypoints.waypoint_focus_scale.tooltip	注目したウェイポイントをどれだけ大きくするか
+.advanced.memory	メモリ使用量
+.advanced.memory.region_release_time	使われていない領域の解放までの時間
+.advanced.memory.region_release_time.tooltip	最近アクセスされていない512x512の領域のデータを解放するまでの秒数\n小さいほどメモリ使用量は減るが、解放した領域を再読み込みするためディスクアクセスが増える\n0で領域データの解放を無効化。
+.advanced.memory.autorelease_on_map_close	マップを閉じたときに領域を自動解放
+.advanced.memory.autorelease_on_map_close.tooltip	大きいマップを閉じたとき、領域データをこの数まで自動で解放する。\n小さいほどメモリ使用量は減るが、解放した領域を再読み込みするためディスクアクセスが増える\n0で領域データの解放を無効化。
+.advanced.memory.max_zoom_constraint	マップの縮小を制限
+.advanced.memory.max_zoom_constraint.tooltip	trueの場合、マップの最大縮小は探索済みの領域数と使えるメモリ量によって制限される。\n邪魔な場合はfalseにすること。
+.minimap	ミニマップ
+.minimap.enabled	有効
+.minimap.position	位置
+.minimap.position_offset_x	位置のXオフセット
+.minimap.position_offset_y	位置のYオフセット
+.minimap.position_offset_condition	位置のオフセットの条件
+.minimap.position.none	なし
+.minimap.position.bottom_left	左下
+.minimap.position.left	左
+.minimap.position.top_left	左上
+.minimap.position.top_right	右上
+.minimap.position.right	右
+.minimap.position.bottom_right	右下
+.minimap.scale	拡大率
+.minimap.locked_north	北を固定
+.minimap.show_player_when_unlocked	北を固定していないときにプレイヤーを表示
+.minimap.waypoints	ウェイポイント
+.minimap.entities	エンティティ
+.minimap.entity_heads	エンティティの頭
+.minimap.player_heads	プレイヤーの頭
+.minimap.large_entities	大きいエンティティ
+.minimap.zoom	ズーム
+.minimap.xyz	XYZ
+.minimap.biome	バイオーム
+.minimap.blur_mode	ぼかしモード
+.minimap.blur_mode.auto	自動
+.minimap.blur_mode.on	オン
+.minimap.blur_mode.off	オフ
+.minimap.compass	方位
+.minimap.visibility	表示
+.minimap.zone	ゾーン
+.minimap.square	四角いミニマップ
+.minimap.font_scale	文字の拡大率
+.minimap.font_scale.tooltip	0.5の倍数にしておくことを推奨
+.minimap.proportional	比例サイズ
+.minimap.proportional.tooltip	trueの場合、ミニマップのサイズは画面幅の10%%に比例する(拡大率の設定で変更可)\nfalseの場合、画面の解像度に関係なく固定サイズになる
+.minimap.show_game_time	ゲーム内時刻を表示
+.minimap.show_fps	FPSを表示
+.minimap.show_real_time	現実の時刻を表示
+.minimap.info_hidden	非表示のミニマップ情報
+.minimap.info_order	ミニマップ情報の順番
+.minimap.info_settings	情報の設定
+.no_server_mod	FTB Chunksはサーバーにも導入が必要！
+.already_claimed	このチャンクはすでに%sが保護している
+.waypoint_added	ウェイポイント「%s」を追加した
+.deathpoint_removed	ウェイポイント「%s」を自動で削除した
+.gui.claimed	保護済み
+.gui.force_loaded	常時読み込み
+.gui.force_load_expires	常時読み込みの期限
+.gui.allies	味方
+.gui.ally_whitelist	味方のホワイトリスト
+.gui.ally_blacklist	味方のブラックリスト
+.gui.large_map	大きいマップ
+.gui.claimed_chunks	保護したチャンク
+.gui.waypoints	ウェイポイントの管理
+.gui.add_waypoint	ウェイポイントを追加
+.gui.settings	設定
+.gui.settings.server	サーバー設定
+.gui.sync	マップを味方と共有
+.gui.clear_deathpoints	死亡地点のウェイポイントをすべて削除
+.gui.delete_waypoint	ウェイポイント「%s」を削除しますか？
+.gui.change_color	色を変更
+.gui.hold_alt_for_dates	Altを押し続ける: 絶対時刻で表示
+.gui.mouse_wheel_expiry	マウスホイール: 常時読み込みの期限を調整
+.gui.teleport	テレポート
+.gui.large_map_info	キー/マウスの操作一覧
+.gui.large_map_info.text	マウス\n左ボタン;クリック/ドラッグでマップの表示を移動\n右ボタン;コンテキストメニュー\nマウスホイール;回してズーム\n\nキー\nスペース;プレイヤーを中心に表示\nC;チャンク保護の画面を開く\nT;その地点にテレポート(OPが必要)\nS;設定画面を開く\nCtrl + S;サーバー設定画面を開く(OPが必要)\nF3+G;チャンクのグリッドを切り替え
+.gui.chunk_info	チャンク保護の操作一覧
+.gui.chunk_info.text	保護\n左ボタン;ドラッグで範囲を保護\n右ボタン;ドラッグで範囲の保護を解除\n\n常時読み込み\nShift + 左ボタン;ドラッグで範囲を常時読み込み\nShift + 右ボタン;ドラッグで範囲の常時読み込みを解除\nマウスホイール;常時読み込みのチャンクの上で回して自動期限を調整\n\nその他\nTab;押し続けてチャンクのグリッドを隠す\nAlt;押し続けて保護/常時読み込みの時刻を絶対時刻で表示
+.gui.delete	削除
+.gui.quick_delete	素早く削除
+.gui.move_up	上へ移動
+.gui.move_down	下へ移動
+.gui.toggle_visibility_off	表示の切り替え - オフ
+.gui.toggle_visibility_on	表示の切り替え - オン
+.gui.sort_minimap_info	ミニマップ情報の設定
+.claim_result	変更したチャンク: %d / %d
+.claim_result.other	不明な問題
+.claim_result.not_owner	チャンクの所有者ではない
+.claim_result.not_enough_power	チャンクの上限に達した
+.claim_result.already_claimed	チャンクはすでに保護されている
+.claim_result.dimension_forbidden	このディメンションでは保護が禁止されている
+.claim_result.not_claimed	チャンクは保護されていない
+.claim_result.already_loaded	チャンクはすでに読み込まれている
+.claim_result.not_loaded	チャンクは読み込まれていない
+.need_to_claim_chunk	ここのブロックを操作するには、このチャンクを保護する必要がある！
+.label.show	表示
+.label.hide	非表示
+.message.no_pvp	ここではPvPが無効になっている
+.game_time	ゲーム内時刻: %s
+.real_time	現実の時刻: %s
+.fps	FPS: %d
+.waypoint.shared	があなたとウェイポイント「%s」を共有しました！クリックで追加
+.waypoint.shared_by_you	ウェイポイント「%s」を共有しました！
+.waypoint.share	共有
+.waypoint.share.server	サーバー
+.waypoint.share.party	パーティー
+.waypoint.share.player	プレイヤー
+.waypoint_sharing	ウェイポイントの共有
+.waypoint_sharing.waypoint_sharing_party	パーティーとのウェイポイント共有を許可
+.waypoint_sharing.waypoint_sharing_server	サーバーとのウェイポイント共有を許可
+.waypoint_sharing.waypoint_sharing_players	プレイヤーとのウェイポイント共有を許可
+.team_prop_defaults	チームの設定のデフォルト
+.team_prop_defaults.def_fake_players	すべての偽プレイヤーを許可
+.team_prop_defaults.def_fake_player_ids	IDで偽プレイヤーを許可
+.team_prop_defaults.def_named_fake_players	名前付きの偽プレイヤー
+.team_prop_defaults.def_allow_explosions	爆発ダメージを許可
+.team_prop_defaults.def_pvp	PvPを許可
+.team_prop_defaults.def_mob_griefing	モブによる破壊行為を許可
+.team_prop_defaults.def_block_edit_interact	ブロックの編集/操作モード
+.team_prop_defaults.def_block_edit	ブロックの編集モード
+.team_prop_defaults.def_block_interact	ブロックの操作モード
+.team_prop_defaults.def_entity_interact	エンティティの操作モード
+.team_prop_defaults.def_entity_attack	生物でないエンティティの攻撃モード
+.team_prop_defaults.def_player_visibility	位置の表示
+.team_prop_defaults.def_claim_visibility	保護の表示
+.map_mode.none	なし
+.map_mode.night	夜
+.map_mode.topography	地形
+.map_mode.blocks	ブロック
+.map_mode.light_sources	光源
+.ally_mode.default	デフォルト
+.ally_mode.forced_all	全員強制
+.ally_mode.forced_none	誰も強制しない
+.pvp_mode.always	常に
+.pvp_mode.never	しない
+.pvp_mode.per_team	チームごと
+.party_limit_mode.largest	最大
+.party_limit_mode.owner	所有者
+.party_limit_mode.sum	合計
+.party_limit_mode.average	平均
+.force_load_mode.default	デフォルト
+.force_load_mode.never	しない
+.force_load_mode.always	常に
+.time_mode.twenty_four	24時間
+.time_mode.twelve	12時間
+.time_mode.clock	時計
+.show_wilderness.show_wilderness	未開の地を表示
+.show_wilderness.just_claimed	保護したチャンクのみ表示
+@ minimap.info.ftbchunks.
+.biome.title	バイオーム
+.biome.description	バイオームを表示
+.fps.title	FPS
+.fps.description	FPSを表示
+.game_time.title	ゲーム内時刻
+.game_time.description	ゲーム内時刻を表示
+.debug.title	デバッグ
+.debug.description	デバッグを表示
+.player_pos.title	プレイヤーの位置
+.player_pos.description	プレイヤーの位置を表示
+.real_time.title	現実の時刻
+.real_time.description	現実の時刻を表示
+.zone.title	ゾーン
+.zone.description	ゾーンを表示

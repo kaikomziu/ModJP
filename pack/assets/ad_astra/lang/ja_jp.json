@@ -1,0 +1,13 @@
+{
+  "config.ad_astra.deshTierEnergyCapacity": "デッシュ段階のエネルギー容量",
+  "config.ad_astra.deshTierFluidCapacity": "デッシュ段階の最大液体容量",
+  "config.ad_astra.deshTierMaxEnergyInOut": "デッシュ段階の最大エネルギー入出力",
+  "config.ad_astra.ironTierEnergyCapacity": "鉄段階のエネルギー容量",
+  "config.ad_astra.ironTierMaxEnergyInOut": "鉄段階の最大エネルギー入出力",
+  "config.ad_astra.ostrumTierEnergyCapacity": "オストラム段階のエネルギー容量",
+  "config.ad_astra.ostrumTierFluidCapacity": "オストラム段階の最大液体容量",
+  "config.ad_astra.ostrumTierMaxEnergyInOut": "オストラム段階の最大エネルギー入出力",
+  "config.ad_astra.steelTierEnergyCapacity": "鋼鉄段階のエネルギー容量",
+  "config.ad_astra.steelTierFluidCapacity": "鋼鉄段階の最大液体容量",
+  "config.ad_astra.steelTierMaxEnergyInOut": "鋼鉄段階の最大エネルギー入出力"
+}

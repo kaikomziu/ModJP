@@ -1,0 +1,187 @@
+## evilcraft
+general.evilcraft.description	Minecraftの邪悪なMOD。
+=Not used up in crafting.	クラフトで消費されない。
+=An infinite source of water.	無限の水源。
+@ block.evilcraft.
+.dark_ore_deepslate	深層闇鉱石
+.blood_stain	血痕
+.blood_stain.info	エンティティが落下死したときにできる血しぶき。
+.undead_log_stripped	樹皮を剥いだ不死の原木
+.undead_wood	不死の木
+.undead_wood_stripped	樹皮を剥いだ不死の木
+.undead_slab	不死のハーフブロック
+.undead_fence	不死のフェンス
+.undead_fence_gate	不死のフェンスゲート
+.undead_planks	不死の板材
+.sanguinary_pedestal_0.info	周囲の血痕から血を吸い取る。
+.sanguinary_pedestal_1	強化された血塗れのペデスタル
+.sanguinary_pedestal_1.info	周囲の血痕からより多くの血を吸い取る。
+.entangled_chalice.info.id	グループ: %s
+.eternal_water	永遠の水ブロック
+.reinforced_undead_planks	強化された不死の板材
+.undead_planks_stairs	不死の板材の階段
+.reinforced_undead_planks_stairs	強化された不死の板材の階段
+.dark_blood_brick_stairs	血塗れのダークレンガの階段
+.infested_nether_netherrack	寄生されたネザーラック
+.infested_nether_nether_bricks	寄生されたネザーレンガ
+.infested_nether_soul_sand	寄生されたソウルサンド
+multiblock.evilcraft.colossalbloodchest.error.prefix	EvilCraft
+multiblock.evilcraft.colossalbloodchest.error.prefix.info	巨大な血のチェストのマルチブロック構造のエラー
+multiblock.evilcraft.colossalbloodchest.error.unexpected	巨大な血のチェストの構造で予期しないエラー。
+@ item.evilcraft.
+.werewolf_bone	ウェアウルフの骨
+.flesh_werewolf	ウェアウルフの肉
+.flesh_rejuvenated.info	無限の食料源
+.lightning_grenade	雷のグレネード
+.redstone_grenade	レッドストーンのグレネード
+.bucket_poison	毒入りバケツ
+.blood_extractor	血液抽出器
+.dark_gem	闇の宝石
+.dark_stick	闇の棒
+.weather_container	天候の容器
+.broom.info	空を飛べる！
+.broom_part	ほうきの部品
+.hardened_blood_shard	凝固した血液の欠片
+.hardened_blood_shard.info	凝固した血液を火打石と打ち金で壊す。
+.dark_power_gem	闇の力の宝石
+.dark_power_gem.info	凝固していない血液ブロックが5つ以上ある池の真ん中に闇の宝石を投げ入れる。または闇の宝石に血液を注入する。
+.blood_container.bloodCell	血液セル
+.blood_container.bloodCan	血液缶
+.blood_container.bloodBasin	血液の水盤
+.blood_container.creativeBloodContainer	クリエイティブ血液容器
+.blood_container.info	廃止！クラフトグリッドに置くとダークタンクに変換される。
+.poison_sac	毒袋
+.werewolf_fur	ウェアウルフの毛皮
+.blook	ブルック
+.blook.info	浄化器に入れるとアイテムのエンチャントを吸収できる。
+.potentia_sphere.info	血液を注入するとエンダーパールになる。
+.inverted_potentia	反転ポテンシア
+.inverted_potentia.info	雷を当てると力を得る。
+.inverted_potentia_empowered	力を得た反転ポテンシア
+.inverted_potentia_empowered.info	雷に打たれた。
+.kineticator.info.attraction	引き寄せ: %s
+.kineticator.info.area	引き寄せの範囲: %s
+.kineticator_repelling	反発のキネティケイター
+.kineticator_repelling.info.attraction	反発: %s
+.kineticator_repelling.info.area	反発の範囲: %s
+.vengeance_ring	復讐の指輪
+.vengeance_focus	復讐のフォーカス
+.vengeance_focus.info	右クリックで復讐の亡霊を凍らせる光線を有効にする。
+.vengeance_pickaxe.info	復讐の亡霊を召喚することがある。
+.burning_gem_stone	燃える宝石
+.burning_gem_stone.info	復讐の亡霊のダメージを受動的に空腹に変える。
+.dark_gem_crushed	砕いた闇の宝石
+.creative_blood_drop	クリエイティブの血の雫
+.creative_blood_drop.info	血液を無限に抜き取り・満たせるクリエイティブモード専用アイテム。
+.exalted_crafter_wooden	木の高位作業台
+.exalted_crafter_empowered	力を得た高位作業台
+.exalted_crafter_wooden_empowered	力を得た木の高位作業台
+.necromancer_staff.info	ゾンビの群れを召喚する。
+.invigorating_pendant.info	悪いポーション効果を取り除く。
+.bound_blood_drop	束縛された血の雫
+.bound_blood_drop.info	右クリックでBlood Magicのソウルネットワークに紐付ける。
+.bound_blood_drop.info.current_owner	現在の所有者: %s
+.resurgence_egg	復活の卵
+.corrupted_tear	堕落した涙
+.promise.use_in	使用先:
+.promise_tier_1	不屈の約束 I
+.promise_tier_1.info	機械のティアアップグレード。下位ティアのレシピにも使える。タンク容量 x2。
+.promise_tier_2	不屈の約束 II
+.promise_tier_2.info	機械のティアアップグレード。下位ティアのレシピにも使える。タンク容量 x4。
+.promise_tier_3	不屈の約束 III
+.promise_tier_3.info	機械のティアアップグレード。下位ティアのレシピにも使える。タンク容量 x8。
+.promise_speed_0	速さの約束
+.promise_speed_0.info	機械の速度 x2
+.promise_efficiency_0	生産性の約束
+.promise_efficiency_0.info	機械の血液効率 x1.5
+.bowl_of_promises_empty	空っぽの約束の器
+.bowl_of_promises_dusted	粉をまぶした約束の器
+.bowl_of_promises_tier0	約束の器: ティア0
+.bowl_of_promises_tier1	約束の器: ティア1
+.bowl_of_promises_tier2	約束の器: ティア2
+.bowl_of_promises_tier3	約束の器: ティア3
+.dull_dust.info	とても退屈な粉…本当に？
+.blood_waxed_coal	血でワックスがけした石炭
+.blood_waxed_coal.info	石炭の燃焼効率が2倍になる。
+.ender_tear	エンダーの涙
+.ender_tear.info	エンダーマンからまれにドロップする。
+.blood_potash	血の炭酸カリウム
+.blood_potash.info	骨粉の効率が2倍になる。
+.bucket_eternal_water	永遠の水入りバケツ
+.promise_acceptor_iron	鉄の約束の受け皿
+.promise_acceptor_gold	金の約束の受け皿
+.promise_acceptor_diamond	ダイヤモンドの約束の受け皿
+.sceptre_of_thunder.info	使うと雷を呼ぶ。使い切り。
+.blood_orb	血のオーブ
+.blood_orb_empty	空のオーブ
+.blood_orb_filled	血のオーブ
+.origins_of_darkness.info	モブに闇のリンゴを食べさせ、生じた異常にすばやく本を投げると手に入る。
+.darkened_apple.info	自分では食べたくないな。動物に食べさせてみては。
+.veined_scribing_tools	血管の入った筆記用具
+.blood_wand_cap	血のキャップ
+.effortless_ring.info	より速く、より効率よく歩ける。
+.condensed_blood	濃縮した血液
+.condensed_blood.info	どの機械に入れても血液が追加される。
+.primed_pendant.info	選んだポーション効果を与える。
+.primed_pendant.potion	§7効果: %s (%s)
+.golden_string	金の糸
+.biome_extract.empty	バイオームエキスの瓶
+.biome_extract.info	対象の範囲を中のバイオームに変える。目的のバイオームで環境アキュムレーターを使ってクラフトする。
+.environmental_accumulation_core	環境蓄積コア
+.environmental_accumulation_core.info	通常の環境アキュムレーターを壊すと手に入る。
+.garmonbozia.info	「苦痛と悲しみ」
+.poison_bottle	毒の瓶
+.vengeance_essence	復讐のエッセンス
+.vengeance_essence.info	復讐の亡霊を倒すとドロップする
+.vengeance_essence_materialized	実体化した復讐のエッセンス
+.piercing_vengeance_focus	貫く復讐のフォーカス
+.piercing_vengeance_focus.info	右クリックで復讐の亡霊を倒す光線を有効にする。
+.spikey_claws.info	柔らかい素材に効く
+.spectral_glasses	霊視の眼鏡
+.spectral_glasses.info	霊の世界をのぞく
+.werewolf_spawn_egg	ウェアウルフのスポーンエッグ
+.netherfish_spawn_egg	ネザーフィッシュのスポーンエッグ
+.poisonous_libelle_spawn_egg	毒トンボのスポーンエッグ
+.vengeance_spirit_spawn_egg	復讐の亡霊のスポーンエッグ
+.controlled_zombie_spawn_egg	操られたゾンビのスポーンエッグ
+key.evilcraft.exaltedCrafting	高位作業台を開く
+entity.minecraft.villager.evilcraft.werewolf	ウェアウルフ村人
+enchantment.evilcraft.breaking.desc	ツールが早く壊れる
+enchantment.evilcraft.life_stealing.desc	攻撃したモブから体力を奪う
+enchantment.evilcraft.unusing.desc	耐久値が残り1になるとツールが使えなくなる
+enchantment.evilcraft.poison_tip.desc	ダメージを受けたモブが毒になる
+enchantment.evilcraft.vengeance.desc	ツールを使うと復讐の亡霊が湧く
+biome.evilcraft.degraded	荒廃
+effect.evilcraft.paling	蒼白
+effect.evilcraft.paling.postfix	蒼白のポーション
+@ advancement.evilcraft.
+.evil_source	悪の真の源
+.evil_source.desc	動物に闇のリンゴを食べさせて生じた異常に本を投げ込み、『暗黒の根源』を手に入れる。
+.fart	おならを覚える
+.fart.desc	ついにあの嫌なガスをすべて放つ。
+.first_age	第一の時代
+.first_age.desc	闇の宝石を採掘して、最初の悪の時代の起源を知る。
+.second_age	第二の時代
+.second_age.desc	血液抽出器をクラフトして、第二の悪の時代を始める。
+.master_distorter	歪みの達人
+.master_distorter.desc	歪みのメイスで一度に10体以上のモブを歪ませる。
+.spirit_cooker	モブシェフ
+.spirit_cooker.desc	亡霊のかまどを作る。
+.closure	永遠の封印
+.closure.desc	復讐のフォーカスを使って、復讐の亡霊を開かずの箱に閉じ込める。
+.player_distorter	プレイヤーを歪める者
+.player_distorter.desc	歪みのメイスでプレイヤーを歪ませる。
+.player_devastator	プレイヤーの破壊者
+.player_devastator.desc	ネクロマンサーの杖で召喚したゾンビでプレイヤーを攻撃する。
+.power_crafting	パワークラフト
+.power_crafting.desc	高位作業台をクラフトする。クラフトの中のクラフト！
+.cannibal	人食い
+.cannibal.desc	ヒューマノイドの肉を食べる。
+gui.exalted_crafting.clear	消去
+gui.exalted_crafting.balance	均等配分
+gui.exalted_crafting.toggle_return	戻し先の切り替え
+broom.parts.evilcraft.rod_bamboo	竹の柄
+broom.parts.evilcraft.brush_honey	ハチミツの穂
+broom.modifiers.evilcraft.type.sticky	粘着
+info_book.evilcraft.second_age.evolved_blood_machinery.purifier.text4	最後に、&1浄化器&0は&1血液注入器&0によって起きたモブの頭の堕落を元に戻せる。&4血液&0で完全に満たし、&1ウィザースケルトンの頭蓋骨&0、&1クリーパーの頭&0、&1ゾンビの頭&0を中に置くと、その頭は進行の一つ前の段階に戻る。
+info_book.evilcraft.second_age.tools.broom.modifiers.text.sticky	&l&n粘着&r&N他のエンティティがあなたにくっつくようになる。修飾値が高いほど多くのエンティティがくっつく。それらをすべて運べるだけの十分な頑丈さのレベルを確保すること！

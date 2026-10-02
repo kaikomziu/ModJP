@@ -1,0 +1,236 @@
+## structurize
+@ block.structurize.
+.blockbarreldeco_onside	横置きの樽
+.blockbarreldeco_standing	縦置きの樽
+.blockfluidsubstitution	液体プレースホルダー
+.blocksolidsubstitution	固体プレースホルダー
+.blocksubstitution	プレースホルダーブロック
+.blocktagsubstitution	タグアンカーブロック
+@ com.ldtteam.structurize.gui.
+.placeholder.addtag	タグを追加
+.placeholder.inputtag	下にタグ名を入力:
+.scan.replace.title	ブロック置換GUI
+.scan.replace.pct	置換する割合%:
+.scantool.from	置換元
+.scantool.name	スキャン名:
+.scantool.remove	削除
+.scantool.replace	置換
+.scantool.select	選択
+.scantool.showres	資源を表示
+.scantool.slot	スロット
+.scantool.to	置換先
+.scantool.outsideanchor	選択範囲外のアンカーをスキップした。設定したい場合は新しく選ぶこと
+.scantool.scanbadanchor	設計図%sにはアンカー位置の候補が複数ある。1つ選ぶこと
+.scantool.chests	(コンテナの中身は一覧に出ないことがある)
+.scantool.copy.ok	「%s」のスキャンコマンドをコピーした。
+.scantool.copy.notscan	コピーできるのはスキャンコマンドだけ。代わりにスニーククリックで現在のスキャンを貼り付けられる。
+.scantool.paste.badcommand	コマンドブロックにスキャンコマンド以外のものが入っている。貼り付けたい場合は先に消去すること。
+.scantool.paste.badname	スキャンのファイル名を入力する必要がある(空白なし)。
+.scantool.paste.different	本当に「%s」を「%s」用のスキャナーに貼り付けたい場合はCTRLを押し続けること。
+.scantool.paste.ok	現在のスキャン「%s」を貼り付けた。
+.scantool.teleport.dimension	建築物と同じディメンションにいる必要がある。
+.scantool.teleport.nocmd	テレポート先を設定するには、少なくとも1回コマンドブロックをコピーか貼り付けする必要がある。
+.scantool.teleport.noscan	テレポート先を設定するには、現在のスロットにスキャン範囲を設定する必要がある。
+.scantool.fillplacerholder.ystretch	Y伸縮
+.scantool.fillplacerholder.ystretch.tooltip	除外する中心の円の高さを増減する。乗算(例: 1.5)
+.scantool.fillplacerholder.radius	半径
+.scantool.fillplacerholder.radius.tooltip	除外する中心の円の大きさを増減する。乗算(例: 0.5)
+.scantool.fillplacerholder.heightoffset	高さオフセット
+.scantool.fillplacerholder.heightoffset.tooltip	プレースホルダーを生成するY上限のオフセットを設定する。加算(例: -1)
+.scantool.fillplacerholder.blockdist	ブロック距離
+.scantool.fillplacerholder.blockdist.tooltip	プレースホルダーが既存のブロックから離れる最小距離を設定する。加算(例: 2)
+.scantool.fillplacerholder.apply	埋める
+.scantool.fillplacerholder.tooltip	設計図の上部用のプレースホルダー充填機能。設計図を周囲の環境により自然になじませる
+.scantool.remove_filtered	絞り込んだものを削除
+.scantool.show_visible	チェックすると見えるブロックを一覧表示
+.scantool.show_hidden	チェックすると固体ブロックに完全に囲まれた隠れたブロックを一覧表示
+.scantool.item.tooltipclick	クリックでワールド内のこれらのブロックを強調表示
+.shapetool.hollow	中空
+.shapetool.ignore	ブロックを無視
+.shapetool.pickfillblock	充填ブロックを選ぶ
+.shapetool.pickmainblock	メインブロックを選ぶ
+.shapetool.replace	ブロックを置換
+.shapetool.solid	中身あり
+.structure.edit.title	構造物のパス:
+.tagtool.addtag	%2$sにタグ%1$sを追加した
+.tagtool.anchor.notvalid	これは有効なアンカーブロックではない。タグデータを保存できるのは一部のタイルエンティティ(タグアンカーブロックなど)だけ。
+.tagtool.anchorsaved	アンカーのタイルエンティティを保存し、既存のタグ一覧を読み込んだ。ブロックにタグを付けられるようになった！
+.tagtool.apply	タグを適用
+.tagtool.close	GUIを閉じる
+.tagtool.currenttag	適用するタグ:
+.tagtool.discard	変更を破棄
+.tagtool.discard.success	タグをアンカーのタグにリセットした
+.tagtool.invalidread	無効なアンカーのTEからtagPosデータを読み込もうとした
+.tagtool.invalidsave	無効なアンカーのタイルエンティティにtagPosデータを保存しようとした
+.tagtool.noanchor	まずShift + 右クリックで有効なアンカーブロックを選ぶこと。
+.tagtool.notag	まずブロックに適用する有効なタグを入力すること！
+.tagtool.removed	%2$sからタグ%1$sを削除した。
+.tagtool.save	アンカーにタグデータを適用した
+.selectres.count	数量
+.replaceblock.info	置換先のブロックを選ぶ
+.taglist.title	設計図内の既存のタグ:
+.tagoptions.title	登録済みのタグ:
+.switchpack.authors	作者: %s
+.switchpack.list.empty	構造物パックが見つからない。いくつか導入すること
+.switchpack.pack_disabled.hover_text	このパックはクライアントにしか存在しないため無効になっている。このパックを使うには、サーバーで設定項目「%s」を有効にする必要がある。
+com.ldtteam.structurize.network.messages.schematicsavemassage.toobig	設計図が大きすぎる。%sバイトより大きくはできない！
+@ com.ldtteam.structurize.
+.iterators.default	デフォルト
+.iterators.inwardcircle	内向きの円
+.iterators.inwardcircleheight1	内向きの円 高さ1
+.iterators.inwardcircleheight2	内向きの円 高さ2
+.iterators.inwardcircleheight3	内向きの円 高さ3
+.iterators.inwardcircleheight4	内向きの円 高さ4
+.iterators.hilbert	ヒルベルト
+.iterators.random	ランダム
+.iterators.default.tooltip	1列ずつブロックを設置
+.iterators.inwardcircle.tooltip	外側から円を描くように設置
+.iterators.inwardcircleheight1.tooltip	円を描くように設置し、外側の列を最大1段高く設置
+.iterators.inwardcircleheight2.tooltip	円を描くように設置し、外側の列を最大2段高く設置
+.iterators.inwardcircleheight3.tooltip	円を描くように設置し、外側の列を最大3段高く設置
+.iterators.inwardcircleheight4.tooltip	円を描くように設置し、外側の列を最大4段高く設置
+.iterators.hilbert.tooltip	数学的な近さに基づいてブロックを設置
+.iterators.random.tooltip	x/z平面でランダムな順番にブロックを設置
+.remove_block	ブロック%sを削除
+.remove_blocks	絞り込んだブロックを削除
+.replace_block	ブロック%sを%sに置換
+.remove_entity	エンティティ%sを削除
+.place_structure	構造物%sを設置
+.undo	%sを元に戻す
+.redo	%sをやり直す
+com.ldtteam.tag.tooltip.groundlevel	建築ツールが設計図を地面に合わせるのに使う
+com.ldtteam.tag.tooltip.invisible	一体型の建物や廃坑のように、建築ツールで設計図を隠す
+@ com.structurize.
+.command.playernotfound	スキャンを保存するプレイヤーが見つからなかった！
+.command.scan.no.perm	コマンドでスキャンする権限がない。代わりにスキャンツールを使うこと！
+.command.scan.success	スキャンを保存した
+.command.paste.no.perm	コマンドで貼り付ける権限がない。代わりに建築ツールを使うこと！
+.command.paste.no.pack	指定したパックは存在しない
+.command.paste.no.blueprint	指定した設計図は存在しない
+.command.paste.success	貼り付けを実行した
+.gui.buildtool.leave.tip	固体ブロックに建築ツールを右クリックすると、建物の位置を調整できる
+.gui.buildtool.tip	ESCでGUIを離れてプレビューを確認できる
+@ key.structurize.
+.categories.general	Structurize
+.teleport	スキャンツールのテレポート
+.move_forward	前へ移動
+.move_back	後ろへ移動
+.move_left	左へ移動
+.move_right	右へ移動
+.move_up	上へ移動
+.move_down	下へ移動
+.rotate_cw	時計回りに回転
+.rotate_ccw	反時計回りに回転
+.mirror	反転
+.place	構造物を設置
+item.caliper.message.0d	同じブロックだ！
+item.caliper.message.1d	%sブロックの直線
+item.caliper.message.2d	%s×%sブロックの四角形
+item.caliper.message.3d	%s×%s×%sブロックの立方体
+item.possetter.anchorpos	アンカー位置を x=%d y=%d z=%d に設定した
+item.possetter.firstpos	1つ目の位置を x=%d y=%d z=%d に設定した
+item.possetter.secondpos	2つ目の位置を x=%d y=%d z=%d に設定した
+item.possetter.missingpos1	1つ目の位置がない
+item.possetter.missingpos2	2つ目の位置がない
+@ item.sceptersteel.
+.badanchorpos	スキャンツールのアンカー位置がスキャン範囲の外にある！Shift + 右クリックで移動すること！
+.point	1点目を保存した: %d %d %d
+.point2	2点目を保存した: %d %d %d。
+.samepoint	同じ点だ！
+.scanfailure	スキャンの保存に失敗した
+.scanformat	SCAN_%s
+.scansuccess	スキャンを%sとして保存した
+.toobig	設計図が大きすぎる。最大体積は%dブロック
+@ item.structurize.
+.caliper	ノギス
+.sceptergold	建築ツール
+.sceptersteel	スキャンツール
+.sceptertag	タグツール
+.shapetool	形状ツール
+itemGroup.structurize	Structurize
+@ structurize.config.
+.allowplayerschematics	プレイヤーの設計図を許可
+.allowplayerschematics.comment	プレイヤーが作った設計図を許可するか？
+.blueprint.renderer	設計図のプレビュー描画
+.blueprint.renderer.comment	すべてのプレビューに影響する
+.default.boolean	[デフォルト: %s]
+.default.string	[デフォルト: %s]
+.default.enum	[デフォルト: %s、値: %s]
+.default.number	[デフォルト: %s、最小: %s、最大: %s]
+.gameplay	ゲームプレイ
+.gameplay.comment	コアのゲームプレイに関するすべての設定項目
+.ignoreschematicsfromjar	Jarの設計図を無視
+.ignoreschematicsfromjar.comment	(Jarに入っている)デフォルトの設計図を無視するか？
+.iteratortype	構造物の設置の順番
+.iteratortype.comment	現在は 'default'、'inwardcircle'、'hilbert'、'random'、'inwardcircleheight1'〜'inwardcircleheight4' に対応
+.light_level	プレビューの明るさ
+.light_level.comment	-1で現在のバニラのワールドと同じ、0〜15(最小〜最大)で固定の明るさ
+.maxblockschecked	確認する最大ブロック数
+.maxblockschecked.comment	作業者が確認する可能性のあるブロックの最大数。
+.maxcachedchanges	キャッシュする最大変更数
+.maxcachedchanges.comment	保存する元に戻す操作の最大数。大きいほどメモリが必要。
+.maxcachedschematics	キャッシュする最大設計図数
+.maxcachedschematics.comment	サーバーにキャッシュする設計図の最大数。
+.maxoperationspertick	ティックあたりの最大操作数
+.maxoperationspertick.comment	ティックあたりの最大ワールド操作数(設置、削除、置換する最大ブロック数)。
+.render_placeholders_nice	プレースホルダーを対象ブロックとして描画
+.render_placeholders_nice.comment	無効ならプレースホルダーを通常のブロックとして表示し、有効なら次のように描画する: 任意(明るい) -> 何もなし、液体(青) -> ディメンションのデフォルトの液体、固体(茶) -> ワールド生成のブロック、タグ(透明) -> 中身のブロック。液体と固体はシングルプレイ/LANの主催者でのみ正しく動き、それ以外は推測になる。現在は自動更新なし
+.scan_tool_scrolling	スキャンツールのスクロール
+.scan_tool_scrolling.comment	ホットバーでスニーク+スクロールすると、スキャンツールのスロットを切り替える
+.see_shared_previews	他人のプレビューを見る
+.see_shared_previews.comment	有効にすると、適度な距離にいる他のプレイヤーのプレビューが見える
+.share_previews	プレビューを他人と共有
+.share_previews.comment	有効にすると、自分の有効なプレビューのほとんどを近くのプレイヤーに送る
+.teleport	テレポート
+.teleport.comment	スキャンツールのテレポートに関する設定
+.teleportallowed	テレポートを許可
+.teleportallowed.comment	クリエイティブモードのプレイヤーがスキャンツールで建築物へ/からテレポートできるか。
+.teleportbuilddirection	建築物の方向
+.teleportbuilddirection.comment	建築物へテレポートするとき、その側に着地する。
+.teleportbuilddistance	建築物との距離
+.teleportbuilddistance.comment	建築物へテレポートするとき、その距離だけ離れて着地する。
+.teleportsafety	安全確認
+.teleportsafety.comment	着地点がふさがっている場合に少し離れた場所へのテレポートを許可する。無効にすると目標地点ぴったりにテレポートする。
+.transparency	不透明なものの透明度
+.transparency.comment	0(透明)〜1(不透明)。アルファ版の機能で、報告されたバグが修正されない場合がある。(負の値も無効の意味)
+.transparency.warning	透明な描画はほとんどの場合それなりに正しく見えるが、透明なプレビュー越しに見ると描画結果がおかしくなったり、間違ったり、他のものが透けて見えたりすることがある。本当に透明度の設定を変更しますか？
+@ structurize.gui.
+.buildtool.creative_only	Structurizeはサバイバルでの建築ツールの使用に対応していない。クリエイティブに切り替えるか、MineColoniesを導入してMineColoniesの建築家を使うこと。
+.tagtool.creative_only	このツールはクリエイティブモード専用
+.buildtool.unexpecteddatafixer	無効なデータフィクサーを検出した！副作用の可能性あり！詳しくはログを確認すること！
+.replaceblock.ambiguous_properties	元のブロックに次のプロパティがないため、%sから%sへの変換はあいまい: %s
+.replaceblock.null_placement	対象ブロック「%s」への置換は、条件によっては機能しない場合がある。
+.buildtool.paste	プレースホルダーブロックを残したまま、構造物をワールドに即座に設置する。
+.buildtool.pastenice	建築家が建てたように、構造物をワールドに即座に設置する。
+.undoredo	元に戻す/やり直すウィンドウを開く
+.undoredo.desc	最近の操作の一覧。左矢印をクリックで元に戻し、右矢印でやり直す
+.undoredo.undo.notfound	元に戻せなかった。操作が見つからない
+.undoredo.undo.inprogress	現在進行中の%sは元に戻せなかった
+.undoredo.undo.add	%sの元に戻す処理を追加中
+.undoredo.redo.notfound	やり直せなかった。操作が見つからない
+.undoredo.redo.inprogress	現在進行中の%sはやり直せなかった
+.undoredo.redo.add	%sのやり直し処理を追加中
+.undoredo.redoop	やり直す
+.undoredo.undoop	元に戻す
+.delete.title	構造物を削除
+.delete.body	%sを削除しますか？
+.replaceblock.badpct	不正な割合が選ばれたため、100とみなす。
+.buildtool.show	プレースホルダーブロックを表示。これらの位置のブロックは設置時に変更されない。
+.buildtool.switchpack	パックを切り替え
+.buildtool.complete	設計図の貼り付け
+.buildtool.pretty	建設済み
+.buildtool.specialized	特化
+.no.survival.handler	サバイバル用のハンドラーが登録されていない。クリエイティブモードを使うか、サバイバル用のハンドラーを提供するMODを導入すること
+.buildtool.cancel	キャンセル
+.switchpack.select	選択
+.settings.novaluespec	基になる設定の仕様がない！
+.missing.pos	まず固体ブロックにツールをクリックして開始位置を選ぶこと
+.manipulation.info	右の矢印ボタンか設定したキーでプレビューを動かせる。ESCで抜けて位置を変え、再度右クリックで戻れる。
+.content.blocks	ブロック
+.content.blocks_content	ブロックの中身
+.content.entities	エンティティ
+.content.entities_content	エンティティの中身
+structurize.pack.missing.blueprint	要求された設計図が、サーバー側の同じパックに存在しない。クライアントのパックが改変されているか、サーバーのパックが古い。
+structurize.pack.equaluser.error	サーバーにあなたのプレイヤー名のパックがあり、個人のスキャンの設置を妨げる可能性がある。避けたい場合はサーバー側のそのパックを削除するとよい。
+structurize.preview_renderer.exception	設計図のプレビューの描画中にエラーが発生した。よければlatest.logを不具合報告に送ってください。ありがとう！
+structurize.preview_renderer.cannot_render	設計図「%s」の描画中に回復できないエラーが発生した。よければlatest.logを不具合報告に送ってください。ありがとう！

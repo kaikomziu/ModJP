@@ -1,0 +1,116 @@
+## tempad
+gui.tempad.search_field	検索…
+gui.tempad.name_field	名前…
+gui.tempad.new_location	(+) 新しい地点
+gui.tempad.add_location	地点を追加
+gui.tempad.download	地点を書き出す
+gui.tempad.download_disabled	この地点は書き出せない
+gui.tempad.teleport	テレポート
+gui.tempad.teleport_disabled	この地点にはテレポートできない
+gui.tempad.delete	地点を削除
+gui.tempad.delete_disabled	この地点は削除できない
+gui.tempad.favorite	お気に入りに追加
+gui.tempad.unfavorite	お気に入りから外す
+gui.tempad.timedoor	タイムドア
+gui.tempad.dimension	ディメンション: %s
+gui.tempad.no_locations.first_line	[+]を押して
+gui.tempad.no_locations.second_line	地点を追加しよう
+gui.tempad.no_selection.first_line	地点を選択すると
+gui.tempad.no_selection.second_line	詳細を表示する
+gui.tempad.x	X: %s
+gui.tempad.y	Y: %s
+gui.tempad.z	Z: %s
+gui.tempad.ready	テレポート準備完了
+gui.tempad.not_ready	テレポートの準備ができていない
+gui.tempad.cancel	キャンセル
+gui.tempad.confirm	確定
+tooltip.tempad.durability_cost	残り使用回数: %s/%s
+tooltip.tempad.timeleft	充電中: %s
+tooltip.tempad.fullycharged	充電完了
+tooltip.tempad.timer_cost	クールダウン: %s
+tooltip.tempad.energy_info	エネルギー: %s/%s RF
+tooltip.tempad.energy_cost	使用ごとに%s RFを消費
+tooltip.tempad.item_option_info	使うには燃料アイテムが必要
+tooltip.tempad.experience_level_cost	タイムドアを開くには%sレベルが必要
+tooltip.tempad.experience_points_cost	タイムドアを開くには経験値%sポイントが必要
+item.tempad.tempad	§6テンパッド
+item.tempad.he_who_remains_tempad	§6テンパッド
+item.tempad.he_who_remains_tempad.tooltip	「在り続ける者」の所有物
+advancements.tempad.tempad	永遠に。いつまでも。
+advancements.tempad.tempad.description	テンパッドを手に入れる
+advancements.tempad.he_who_remains	時の終わりの城塞
+advancements.tempad.he_who_remains.description	「在り続ける者」のテンパッドを手に入れる
+subtitles.tempad.entity.timedoor.open	タイムドアが開く
+dimension.minecraft.overworld	オーバーワールド
+dimension.minecraft.the_nether	ネザー
+dimension.minecraft.the_end	ジ・エンド
+tempad_option.tempad.energy	エネルギー: %s/%s §b⚡§r
+tempad_option.tempad.energy_cost	コスト %s §b⚡§r
+tempad_option.tempad.fluid	%s: %s/%s §6🪣§r
+item.tempad.location_card	地点カード
+item.tempad.location_card.shift_toolip	[%s]を押し続けると詳細を表示
+item.tempad.location_card.added_location	地点を追加した: %s
+item.tempad.location_card.add_location	右クリックで地点を設定
+item.tempad.location_card.set_name	金床で名前を変えると地点名を設定できる
+item.tempad.location_card.set_location	設定した地点: %s
+category.tempad.keybinds	Tempad
+key.tempad.favorite	お気に入りの地点を開く
+key.tempad.shortcut	テンパッドの画面を開く
+## taa
+tooltip.tacz.attachment.reload_time.change	リロード時間の変化
+gui.tacz.gun_refit.property_diagrams.reload_time	リロード時間
+gui.tacz.gun_refit.property_diagrams.bullet_count	弾数
+gui.tacz.gun_refit.property_diagrams.melee_distance	近接距離
+gui.tacz.gun_refit.property_diagrams.melee_damage	近接基本ダメージ
+tooltip.tacz.attachment.bullet_count.change	弾数倍率
+tooltip.tacz.attachment.melee.distance	近接距離倍率
+tooltip.tacz.attachment.melee.damage	近接ダメージ倍率
+@ attribute.name.taa.
+.ads_time	エイム時間倍率
+.ammo_speed	弾速倍率
+.armor_ignore	防具貫通倍率
+.effective_range	有効射程倍率
+.explosion_radius	爆発半径倍率
+.explosion_damage	爆発ダメージ倍率
+.explosion_knockback	爆発ノックバック
+.explosion_destroy_blocknew	爆発によるブロック破壊
+.explosion_delay	爆発の遅延
+.move_speed	移動速度倍率
+.headshot_multiplier	ヘッドショット倍率
+.ignitefire	着火効果
+.inaccuracy	拡散倍率
+.inaccuracy_stand	拡散倍率(立ち)
+.inaccuracy_move	拡散倍率(移動)
+.inaccuracy_sneak	拡散倍率(しゃがみ)
+.inaccuracy_lie	拡散倍率(伏せ)
+.inaccuracy_aim	拡散倍率(エイム)
+.knockback	ノックバック効果
+.pierce	貫通力倍率
+.recoil	反動倍率
+.recoil_pitch	反動倍率(縦)
+.recoil_yaw	反動倍率(横)
+.rounds_per_minute	連射速度倍率
+.silencenew	消音効果
+.weight	重量
+.bullet_gundamage	銃ダメージ倍率
+.bullet_gundamage_pistol	ピストルのダメージ倍率
+.bullet_gundamage_rifle	ライフルのダメージ倍率
+.bullet_gundamage_shotgun	ショットガンのダメージ倍率
+.bullet_gundamage_sniper	スナイパーのダメージ倍率
+.bullet_gundamage_smg	SMGのダメージ倍率
+.bullet_gundamage_lmg	LMGのダメージ倍率
+.bullet_gundamage_launcher	重火器のダメージ倍率
+.bullet_count	弾数倍率
+.magazine_capacity	装弾数倍率
+.reload_time	リロード時間倍率
+.melee_damage	近接ダメージ倍率
+.melee_distance	近接距離倍率
+.explosion_enabled	爆発あり
+.heat_max	熱容量倍率
+.heat_cooling	冷却速度倍率
+.heat_cooling_delay	冷却遅延倍率
+.heat_overheat_time	ロック時間倍率
+gui.tacz.gun_refit.property_diagrams.heat_max	熱容量
+gui.tacz.gun_refit.property_diagrams.heat_cooling	冷却速度
+gui.tacz.gun_refit.property_diagrams.heat_cooling_delay	冷却遅延
+gui.tacz.gun_refit.property_diagrams.heat_overheat_time	ロック時間

@@ -1,0 +1,5 @@
+{
+  "hud.unlitcampfire.n_seconds": "燃焼時間: %d秒",
+  "hud.unlitcampfire.infinite": "永遠に燃える",
+  "config.jade.plugin_unlitcampfire.campfireinfo": "残りの燃焼時間を表示"
+}

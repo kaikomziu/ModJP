@@ -1,0 +1,333 @@
+## productivebees
+@ advancements.husbandry.
+.advanced_beehive.description	高度な養蜂箱をクラフトする
+.advanced_beehive.title	働け、ハチたち！
+.bee_cage.description	ハチかごをクラフトする
+.bee_cage.title	慎重にね。
+.breed_all_productive_bees.description	バニラ系の生産的なハチをすべて繁殖させる
+.breed_all_productive_bees.title	ハチ学者と呼んでくれ
+.breed_iron_bee.description	鉄のハチを繁殖させる
+.breed_iron_bee.title	いとしいしと！
+.bumblebee_rider.description	大事なのは目的地じゃない、旅路(ビー)だ！ マルハナバチに乗る。
+.bumblebee_rider.title	ブンブン進む
+.calm_bee.description	怒ったハチにハチミツのおやつを使って落ち着かせる。
+.calm_bee.title	頭を冷やして。
+.catch_any_bee.description	ハチかごでハチを捕まえる
+.catch_any_bee.title	キャッチー
+.catch_crystalline_bee.description	ネザーで結晶のハチを捕まえる
+.catch_crystalline_bee.title	大事な土台
+.consume_sugarbag_comb.description	シュガーバッグのハチの巣を食べる
+.consume_sugarbag_comb.title	ハニーハニー、うまうま！
+.convert_egg.description	ドラゴンブレスで不活性のドラゴンの卵を活性化する
+.convert_egg.title	孵化しなくてよかった
+.dragon_egg_hive.description	ドラゴンの卵の巣箱をクラフトする
+.dragon_egg_hive.title	特別なハチの特別な家
+.expansion_box.description	高度な養蜂箱用の拡張ボックスを手に入れる
+.expansion_box.title	大きいことはいいことだ。
+.feeding_slab.description	餌台をクラフトする。餌台には花のブロックを複数置けるので、ハチの花の拠点をまとめられる。
+.feeding_slab.title	あれもこれもそれも欲しい。
+.fishy_bees.description	魚バチを釣る？
+.fishy_bees.title	うさん臭いビジネス
+.hive_upgrades.description	アップグレードベースをクラフトする
+.hive_upgrades.title	1、2、4と数えよう。
+.honeylogged.description	餌台にハチミツの液体を置く。
+.honeylogged.title	ダブルパンチ！
+.nest_locator.description	巣探知機をクラフトする
+.nest_locator.title	羽音を探せ。
+.overworld_nest.description	単独性の巣を拾うかクラフトする。
+.overworld_nest.title	単独行動
+.professional_bee.description	牧場のハチ、農家のハチ、木こりのハチ、採石のハチのいずれかを繁殖させる。
+.professional_bee.title	ちょっと特別な小さなハチ
+.quartz_nest.description	ネザークォーツの巣をクラフトするか拾う。
+.quartz_nest.title	ワイルドなハチたち。
+.treat_on_nest.description	巣にハチミツのおやつを使う。
+.treat_on_nest.title	優しくしてね
+.treat_on_stick.description	おやつ付きの棒をクラフトして、新しいお気に入りの乗り物を操る。
+.treat_on_stick.title	方向を決めてブンブン
+@ block.productivebees.
+.acacia_wood_nest	アカシアの巣
+.bamboo_hive	竹の巣
+.birch_wood_nest	シラカバの巣
+.bottler	ボトラー
+.breeding_chamber	繁殖室
+.bumble_bee_nest	マルハナバチの巣
+.catcher	捕獲機
+.centrifuge	遠心分離機
+.coarse_dirt_nest	土の巣
+.comb_ghostly	幽霊のハチの巣ブロック
+.comb_milky	ミルクのハチの巣ブロック
+.comb_powdery	粉のハチの巣ブロック
+.configurable_comb	ハチの巣ブロック
+.comb_configurable	%sのハチの巣ブロック
+.cryo_stasis	冷凍保存装置
+.crimson_bee_nest	真紅のハチの巣
+.dark_oak_wood_nest	ダークオークの巣
+.dragon_egg_hive	ドラゴンの卵の巣箱
+.end_stone_nest	エンドストーンの巣
+.feeder	餌台
+.feeder_double	ダブル餌台
+.gene_indexer	遺伝子インデクサー
+.glowstone_nest	グロウストーンの巣
+.gravel_nest	砂利の巣
+.heated_centrifuge	加熱遠心分離機
+.honey_generator	ハチミツ発電機
+.inactive_dragon_egg	不活性のドラゴンの卵
+.incubator	ハチの子孵化器
+.jar_oak	ハチの瓶
+.jungle_wood_nest	ジャングルの巣
+.cherry_wood_nest	サクラの巣
+.mangrove_wood_nest	マングローブの巣
+.nether_brick_nest	ネザーレンガの巣
+.nether_gold_nest	ネザー金の巣
+.nether_quartz_nest	クォーツの巣
+.oak_wood_nest	オークの巣
+.obsidian_nest	黒曜石の巣
+.powered_centrifuge	動力式遠心分離機
+.purple_hopper	紫のホッパー
+.quartz_netherrack	ネザーラック入りのクォーツ
+.sand_nest	砂の巣
+.slimy_nest	スライムの巣
+.snow_nest	雪の巣
+.soul_sand_nest	ソウルサンドの巣
+.spruce_wood_nest	トウヒの巣
+.stone_nest	石の巣
+.sugar_cane_nest	アシの巣
+.sugarbag_nest	シュガーバッグの巣
+.wax_block	蝋ブロック
+.warped_bee_nest	歪んだハチの巣
+.petrified_honey	石化したハチミツ
+.amber	琥珀
+@ item.productivebees.
+.bee_bomb	ハチ爆弾
+.bee_bomb_angry	怒らせるハチ爆弾
+.bee_cage	ハチかご
+.draconic_chunk	竜の塊
+.draconic_dust	竜の粉
+.gene	遺伝子サンプル
+.gene_bottle	つぶしたハチの素材
+.honey_treat	ハチミツのおやつ
+.bee_nest_diamond_helmet	ハチの巣ヘルメット
+.honeycomb_alfsteel	エルフ鋼のハチの巣
+.honeycomb_allthemodium	オールザモジウムのハチの巣
+.honeycomb_amber	琥珀のハチの巣
+.honeycomb_apatite	燐灰石のハチの巣
+.honeycomb_basalz	バザルツのハチの巣
+.honeycomb_bauxite	ボーキサイトのハチの巣
+.honeycomb_bismuth	ビスマスのハチの巣
+.honeycomb_blazing	ブレイズのハチの巣
+.honeycomb_blitz	ブリッツのハチの巣
+.honeycomb_blizz	ブリズのハチの巣
+.honeycomb_bloody	血まみれのハチの巣
+.honeycomb_bone	骨のハチの巣
+.honeycomb_brazen	真鍮のハチの巣
+.honeycomb_bronze	青銅のハチの巣
+.honeycomb_chocolate	チョコのハチの巣
+.honeycomb_cinnabar	辰砂のハチの巣
+.honeycomb_cobalt	コバルトのハチの巣
+.honeycomb_common_salvage	一般鉱石のハチの巣
+.honeycomb_configurable	%sのハチの巣
+.honeycomb_ghostly	幽霊のハチの巣
+.honeycomb_milky	ミルクのハチの巣
+.honeycomb_powdery	粉のハチの巣
+.nest_locator	巣探知機
+.stone_chip	石のかけら
+.stone_chip.named	%sのかけら
+.sturdy_bee_cage	頑丈なハチかご
+.sugarbag_honeycomb	シュガーバッグのハチの巣
+.treat_on_a_stick	おやつ付きの棒
+.upgrade_anti_teleport	アップグレード: テレポート防止
+.upgrade_base	アップグレードベース
+.upgrade_bee_sampler	アップグレード: ちくちく遺伝子サンプラー
+.upgrade_biome	アップグレード: バイオーム
+.upgrade_breeding	アップグレード: ハチの子
+.upgrade_not_babee	アップグレード: ハチの子以外
+.upgrade_comb_block	アップグレード: ブロック
+.upgrade_filter	アップグレード: フィルター
+.upgrade_productivity	アップグレード: 生産性アルファ
+.upgrade_productivity_2	アップグレード: 生産性ベータ
+.upgrade_productivity_3	アップグレード: 生産性ガンマ
+.upgrade_productivity_4	アップグレード: 生産性オメガ
+.upgrade_range	アップグレード: 範囲
+.upgrade_time	アップグレード: 速度
+.upgrade_simulator	アップグレード: シミュレーター
+.wax	蝋
+.wither_skull_chip	ウィザースケルトンの頭蓋骨のかけら
+.wood_chip	木のかけら
+.wood_chip.named	%sのかけら
+itemGroup.productivebees	Productive Bees
+@ jei.productivebees.
+.advanced_beehive	高度な養蜂箱
+.bee_breeding	ハチの繁殖
+.bee_conversion	ハチの変換
+.bee_flowering	ハチの花
+.bee_fishing	ハチ釣り
+.bee_spawning	ハチの出現
+.block_conversion	ブロック変換
+.block_conversion.chance	確率: %s%%
+.item_conversion	アイテム変換
+.bottler	ボトラー
+.centrifuge	遠心分離機
+.heated_centrifuge	加熱遠心分離機
+.incubation	孵化
+@ productivebees.
+.centrifuge.tooltip.amount	量: %s
+.centrifuge.tooltip.chance	確率: %s
+.incubator.tooltip.treat_item	ここにハチミツのおやつを入れる
+.advanced_hive.tooltip.bee_cage	空のハチかごを入れるとハチを取り出し、ハチ入りのかごを入れるとハチを入れる
+.heated_centrifuge.tooltip	「ハチミツが台無しだ」- とあるヴィーガン
+.heated_centrifuge.tooltip2	蝋には熱すぎる
+.breeding_chamber.tooltip.cage	ここに空のハチかごを入れる
+.breeding_chamber.tooltip.progress	残り%s秒
+.breeding_chamber.tooltip.next_bee	出力を変えるにはかごを取り出して入れ直す。
+.hive.tooltip.bees	ハチ:
+.hive.tooltip.empty	空
+.hive.tooltip.honey_level	ハチミツの量: %s
+.hive.tooltip.nest_inactive	この巣はもうカッコウバチを引き寄せない。自分自身とクラフトするとカッコウのカウンターがリセットされる。
+.amber.name.contained_entity	琥珀に閉じ込められた%s
+.amber.tooltip.heating	琥珀ブロックを心地よい火で温めれば、閉じ込められたMobを少し楽にしてやれるかも。
+.amber.tooltip.contained_entity	閉じ込められたエンティティ: %s
+.indexer.tooltip.redstone	レッドストーンでオンになる
+.information.age.adult	大人
+.information.age.child	子ども
+.information.attribute.behavior	行動: %s
+.information.attribute.behavior.diurnal	昼行性
+.information.attribute.behavior.metaturnal	終日活動
+.information.attribute.behavior.nocturnal	夜行性
+.information.attribute.endurance	持久力: %s
+.information.attribute.endurance.medium	中
+.information.attribute.endurance.normal	普通
+.information.attribute.endurance.strong	強い
+.information.attribute.endurance.weak	弱い
+.information.attribute.health	体力: %s/%s
+.information.attribute.productivity	生産性: %s
+.information.attribute.productivity.high	高い
+.information.attribute.productivity.medium	中
+.information.attribute.productivity.normal	普通
+.information.attribute.productivity.very_high	とても高い
+.information.attribute.temper	気性: %s
+.information.attribute.temper.aggressive	攻撃的
+.information.attribute.temper.hostile	敵対的
+.information.attribute.temper.normal	普通
+.information.attribute.temper.passive	おとなしい
+.information.attribute.type	種類: %s
+.information.attribute.type.hive	社会性
+.information.attribute.type.solitary	単独性
+.information.attribute.weather_tolerance	天候耐性: %s
+.information.attribute.weather_tolerance.any	すべて
+.information.attribute.weather_tolerance.none	なし
+.information.attribute.weather_tolerance.rain	雨
+.information.cage_release	ハチを放すときにしゃがむと、巣の位置をリセットする
+.information.health.dying	瀕死
+.information.hold_shift	Shiftで詳しい情報
+.information.home_position	巣の位置: %s, %s, %s
+.information.breeding_item	繁殖アイテム: %s
+.information.breeding_item_default	任意の花
+.information.selfbreed_disabled	この種類のハチは同種同士で繁殖できない
+.information.jar.bee	ハチ: %s
+.information.jar.fill_tip	ホッパーかパイプで、表示したいハチの入ったハチかごを中に入れる。
+.information.nestlocator.configured	%sの巣を探す。右クリックで周辺を探索する。
+.information.nestlocator.unconfigured	未調整。探している巣と同じ種類のブロックをShift+右クリックする。
+.information.upgrade.unconfigured	未設定
+.information.upgrade.install_help	ブロックをしゃがみ右クリックで取り付け
+.information.upgrade.upgrade_anti_teleport	この巣箱に住むハチのテレポートを防ぐ。
+.information.upgrade.upgrade_bee_sampler	訪れたハチから少しずつ遺伝子を抽出する。その過程でハチを傷つけることは断じてない。\n複数取り付けると確率が上がる。
+.information.upgrade.upgrade_breeding	巣箱に取り付けると、ハチミツが届けられるたびに%s%%の確率で巣箱から子どものハチが生まれる。\nハチの種類は巣箱にいるハチで決まる。\n同種同士で繁殖できないハチには効かない。\n複数取り付けると確率が上がる。\n捕獲機に取り付けると、子どものハチだけを捕まえる。
+.information.upgrade.upgrade_not_babee	捕獲機に取り付けると、大人のハチだけを捕まえる。
+.information.upgrade.upgrade_comb_block	生産物をハチの巣ではなくハチの巣ブロックに変える。
+.information.upgrade.upgrade_filter	フィルターを消去するには、クラフトグリッドに入れる。
+.information.upgrade.upgrade_filter_empty	ハチを右クリックしてフィルターに追加する。
+.information.upgrade.upgrade_filter_entity	%s
+.information.upgrade.upgrade_productivity	この巣箱のハチの生産量を%s%%増やす。\n複数取り付けるとさらに増える。
+.information.upgrade.upgrade_productivity_2	この巣箱のハチの生産量を%s%%増やす。\n複数取り付けるとさらに増える。
+.information.upgrade.upgrade_productivity_3	この巣箱のハチの生産量を%s%%増やす。\n複数取り付けるとさらに増える。\nシミュレーターアップグレードとしても働く。
+.information.upgrade.upgrade_productivity_4	この巣箱のハチの生産量を%s%%増やす。\n複数取り付けるとさらに増える。\nシミュレーターアップグレードとブロックアップグレードとしても働く。
+.information.upgrade.upgrade_range	動作範囲を広げて、機械にもっとゆとりを与える。\n複数取り付けるとさらに範囲が広がる。
+.information.upgrade.upgrade_time	巣箱で過ごす時間を%s%%減らす。\n遠心分離機に取り付けると処理が速くなる。\n複数取り付けるとさらに時間が減る。
+.information.upgrade.upgrade_simulator	ハチは実際には巣箱から出なくなる。代わりに花のブロックへの往復がシミュレートされる。\n巣箱の前に、中のハチに必要な花のブロックか、必要な花のブロックを入れた餌台を必ず置くこと。
+.information.bee_helmet.info1	一蓮托生
+.information.bee_helmet.info2	怒ったハチに襲われない
+.information.bee_helmet.info3	攻撃されると%s%%の確率でカミカゼビーが出現する
+.information.canvas.style	スタイル: %s
+.ingredient.description.inactive_dragon_egg	かっこいいけど、何かが足りない。ドラゴンの何かを注いでみよう。
+.ingredient.description.bumble_bee_nest	この巣は平原バイオームでマルハナバチを引き寄せる。
+.ingredient.description.end_stone_nest	この巣はジ・エンド原産のハチを引き寄せる。ハチを引き寄せるにはジ・エンドに置く必要がある。
+.ingredient.description.glowstone_nest	ネザーで光るハチを引き寄せる。ハチを引き寄せるにはネザーに置く必要がある。
+.ingredient.description.gravel_nest	暖かい川や砂浜に住むハチがこの巣に引き寄せられる。ハチを引き寄せるには川か砂浜のバイオームに置く必要がある。
+.ingredient.description.nether_brick_nest	ネザーでマグマのハチを引き寄せる。ハチを引き寄せるにはネザーに置く必要がある。
+.ingredient.description.nether_quartz_nest	ネザーで結晶のハチを引き寄せる。ハチを引き寄せるにはネザーに置く必要がある。
+.ingredient.description.nether_gold_nest	ネザーで金のハチを引き寄せる。ハチを引き寄せるにはネザーに置く必要がある。
+.ingredient.description.obsidian_nest	ジ・エンド原産の一部のハチにしか向かない厳しい住環境。
+.ingredient.description.sand_nest	砂漠に住むハチがこの巣に引き寄せられる。
+.ingredient.description.slimy_nest	野生のスライムのハチを引き寄せる。沼地バイオームに置く必要がある。
+.ingredient.description.snow_nest	寒い地域に住むハチがこの巣に引き寄せられる。ハチを引き寄せるには寒冷なバイオームに置く必要がある。
+.ingredient.description.soul_sand_nest	ネザーで幽霊のハチを引き寄せる。ハチを引き寄せるにはネザーに置く必要がある。
+.ingredient.description.neon_cuckoo_bee	このずる賢いハチは、青帯のハチの巣に卵を産みつける。
+.ingredient.description.nomad_bee	このずる賢いハチは、灰色の採掘のハチの巣に卵を産みつける。
+.ingredient.description.reed_bee	オーバーワールド中のアシに巣を作っているのが見つかる。
+.ingredient.description.redstone_bee	脱出の名人。
+.ingredient.description.spirit_bee	このハチには魂の変換レシピがある。魂の台座の用途を確認しよう。
+.ingredient.description.bumble_bee	平原に自然にいる、乗れる大きなハチ。鞍を付け、おやつ付きの棒を持つと飛び回れる。右クリックで加速。
+.ingredient.description.collector_bee	地面にアイテムを置いておくと、このハチが集めて巣箱にしまってくれる。
+.ingredient.description.creeper_bee	怒ると爆発する！\n…食生活のせいかも。\n\nこの子は1匹にしておこう。
+.ingredient.description.cupid_bee	このハチが出すフェロモンで動物がその気になる。
+.ingredient.description.dye_bee	蜜だけでなく花のかけらも持ち帰る。
+.ingredient.description.dragon_egg_hive	竜のハチ用の特別な巣箱。普通は手に入りにくいドラゴンブレスを採取できる。
+.ingredient.description.draconic_bee	竜のハチはジ・エンドで活動しているときは空気中の竜のエッセンスを吸収するので、花は不要。他の場所で活動しているときは別の受粉元が必要。
+.ingredient.description.farmer_bee	作物を収穫して散らかす。農場をきれいに保つなら、貯め込みのハチを用意するといい。
+.ingredient.description.hoarder_bee	地面にアイテムを置いておくと、このハチが集めて巣箱にしまってくれる。下位の仲間の収集のハチより多く運べる。
+.ingredient.description.lumber_bee	原木に健全な執着を持っている。
+.ingredient.description.oily_bee	このハチは陸上のどこにもいない。この太った油まみれのハチが欲しければ、深い水域で釣りをしよう。
+.ingredient.description.pepto_bismol_bee	あなたの不調を治してくれる
+.ingredient.description.prismarine_bee	このハチは陸上のどこにもいない。深い水域で釣りをしていると、このハチが餌をかじっていったと漁師たちは語る。
+.ingredient.description.quarry_bee	石・砂・砂利に健全な執着を持っている。
+.ingredient.description.rancher_bee	ハチ学校でのあだ名はブービーだった。
+.ingredient.description.skeletal_bee	巣箱を明るくして、こいつが住みつかないようにしよう。
+.ingredient.description.sugarbag_bee	この小さく温かくしっとりしたハチは熱帯地域で見つかる。特別にとてもおいしいハチの巣を作る。本来の気候の外で育ったカカオ豆にも入り込める。
+.ingredient.description.spacial_bee	このハチの巣を遠心分離するとセルタスクォーツの種が得られる。さらなる加工が必要。
+.ingredient.description.sweat_bee	寒い地域に住む。
+.ingredient.description.wasted_radioactive_bee	放射性のハチが放射線で死ぬと、一定確率で廃放射性のハチになる。廃放射性のハチは花で受粉せず、代わりに周囲から放射線を吸収する。
+.ingredient.description.zombie_bee	巣箱を明るくして、こいつが住みつかないようにしよう。
+.ingredient.description.hematophagous_bee	動物から受粉するが、それをJEIで表示する方法がまだ見つかっていない。このハチを手に入れるには、スポーンエッグのクラフトレシピを調べよう。
+.ingredient.description.amber_bee	Mobを探し出して琥珀に閉じ込め、仮死状態の生涯を送らせる。
+.ingredient.description.wanna_bee	閉じ込められたMobに目がない。琥珀に閉じ込めたMobを与えると、安全にドロップを取り出せる。
+.ingredient.description.water_bee	このハチは川で釣りをしたときだけ見つかる。
+.ingredient.description.only_spawnegg	このハチを手に入れるには、スポーンエッグのクラフトレシピを調べよう。
+.ingredient.description.selfbreed	%s\n\nこの種類のハチは同種同士で繁殖できない。
+.nest_locator.found_hive	あっちの方向%sメートルに巣が見つかった！
+.nest_locator.not_found_hive	近くに%sの巣は見つからなかった。
+.nest_locator.tuned	巣探知機を%sに調整した
+.honey_treat.invalid_use	種類の遺伝子を含むおやつはハチに与えられない。
+.screen.empty	空
+.screen.energy_level	エネルギー: %s
+.screen.fluid_level	%s: %s
+.top.solitary.bee	住人: %s
+.top.solitary.can_repopulate_false	この場所にはこの巣に引っ越してくるハチがいない。
+.top.solitary.can_repopulate_true	この場所ではこの巣がハチを引き寄せられる。
+.top.solitary.egg_count	卵: %s
+.top.solitary.repopulation_countdown	再定住のクールダウン %s。追加のアイテムを使うと早まる
+.top.solitary.repopulation_countdown_inactive	巣は空。出現用のアイテムを使うとハチを引き寄せる。
+.top.jar.bee	%s
+config.jade.plugin_productivebees.productive_bee	Productive Bees
+config.jade.plugin_productivebees.solitary_nest	単独性の巣
+config.jade.plugin_productivebees.jar	ハチの瓶
+config.jade.plugin_productivebees.bee_attributes	特性
+config.jade.plugin_productivebees.canvas_beehive	キャンバスの養蜂箱
+config.jade.plugin_productivebees.canvas_expansion_box	キャンバスの拡張ボックス
+@ tag.item.productivebees.
+.advanced_beehives	高度な養蜂箱
+.expansion_boxes	拡張ボックス
+.canvas_beehives	キャンバスの高度な養蜂箱
+.canvas_expansion_boxes	キャンバスの拡張ボックス
+.flowers.amethyst	アメジストの花ブロック
+.flowers.diamond	ダイヤモンドの花ブロック
+.flowers.emerald	エメラルドの花ブロック
+.flowers.frozen	凍った花ブロック
+.flowers.lumber	木こりのハチの花ブロック
+.flowers.quarry	採石のハチの花ブロック
+.flowers.powdery	粉の花ブロック
+.flowers.rose_quartz	ローズクォーツの花ブロック
+.solitary_overworld_nests	オーバーワールドの巣
+tag.fluid.forge.honey	ハチミツの液体
+=This nest will attract bees in any overworld biome.	この巣はオーバーワールドのどのバイオームでもハチを引き寄せる。
+=This bee is solitary and can be found living alone in nests around the overworld. Look up recipe for this bee to see which nests it can spawn in.	このハチは単独性で、オーバーワールド各地の巣でひとりで暮らしているのが見つかる。どの巣に出現するかは、このハチのレシピを調べよう。
+=This bee is solitary and can be found living alone in forests around the overworld. Look up recipe for this bee to see which nests it can spawn in.	このハチは単独性で、オーバーワールド各地の森でひとりで暮らしているのが見つかる。どの巣に出現するかは、このハチのレシピを調べよう。

@@ -1,0 +1,498 @@
+## elementalcraft
+itemGroup.elementalcraft	Elemental Craft
+element.elementalcraft.fire	火
+element.elementalcraft.water	水
+element.elementalcraft.earth	土
+element.elementalcraft.air	風
+@ item.elementalcraft.
+.element_book	エレメントペディア
+.focus	フォーカス
+.staff	ウォースタッフ
+.spell_book	エレメンタリストの魔導書
+.pure_ore	純粋な鉱石
+.receptacle	ソースレセプタクル
+.receptacle.none	空のソースレセプタクル
+.receptacle.fire	火のソースレセプタクル
+.receptacle.water	水のソースレセプタクル
+.receptacle.earth	土のソースレセプタクル
+.receptacle.air	風のソースレセプタクル
+.source_stabilizer	ソーススタビライザー
+.source_analysis_glass	ソース分析グラス
+.element_holder	エレメントホルダー
+.element_holder_fire	火のエレメントホルダー
+.element_holder_water	水のエレメントホルダー
+.element_holder_earth	土のエレメントホルダー
+.element_holder_air	風のエレメントホルダー
+.pure_element_holder	純粋なエレメントホルダー
+.pure_element_holder_core	純粋なエレメントホルダーのコア
+.chisel	ルーン刻印ノミ
+.elemental_firefuel	エレメンタル火燃料
+.cover_frame	パイプカバーフレーム
+.puresword	純粋の剣
+.firesword	火の剣
+.watersword	水の剣
+.earthsword	土の剣
+.airsword	風の剣
+.inert_crystal	不活性クリスタル
+.contained_crystal	封じ込めたクリスタル
+.strongly_contained_crystal	強く封じ込めたクリスタル
+.purecrystal	純粋のクリスタル
+.watercrystal	水のクリスタル
+.earthcrystal	土のクリスタル
+.aircrystal	風のクリスタル
+.drenched_iron_ingot	浸潤鉄インゴット
+.drenched_iron_nugget	浸潤鉄塊
+.swift_alloy_ingot	迅速合金インゴット
+.swift_alloy_nugget	迅速合金塊
+.hardened_handle	硬化した柄
+.drenched_saw_blade	浸潤鉄のノコギリ刃
+.shrinebase	祠
+.fireite_ingot	ファイアライトインゴット
+.fireite_nugget	ファイアライト塊
+.air_silk	風の絹
+.shrine_upgrade_core	祠アップグレードのコア
+.springaline_shard	スプリンガラインの欠片
+.solar_prism	ソーラープリズム
+.fire_shard	火の原石の欠片
+.water_shard	水の原石の欠片
+.earth_shard	土の原石の欠片
+.air_shard	風の原石の欠片
+.powerful_fire_shard	強力な火の原石の欠片
+.powerful_water_shard	強力な水の原石の欠片
+.powerful_earth_shard	強力な土の原石の欠片
+.powerful_air_shard	強力な風の原石の欠片
+.crude_fire_gem	粗い火の宝石
+.crude_water_gem	粗い水の宝石
+.crude_earth_gem	粗い土の宝石
+.crude_air_gem	粗い風の宝石
+.fine_fire_gem	上質な火の宝石
+.fine_water_gem	上質な水の宝石
+.fine_earth_gem	上質な土の宝石
+.fine_air_gem	上質な風の宝石
+.pristine_fire_gem	完璧な火の宝石
+.pristine_water_gem	完璧な水の宝石
+.pristine_earth_gem	完璧な土の宝石
+.pristine_air_gem	完璧な風の宝石
+.fire_lens	火のレンズ
+.water_lens	水のレンズ
+.earth_lens	土のレンズ
+.air_lens	風のレンズ
+.minor_rune_slate	小さなルーン石板
+.rune_slate	ルーン石板
+.major_rune_slate	大きなルーン石板
+.unset_jewel	未装着のジュエル
+.artificial_fire_source_seed	人工の火のソースシード
+.artificial_water_source_seed	人工の水のソースシード
+.artificial_earth_source_seed	人工の土のソースシード
+.artificial_air_source_seed	人工の風のソースシード
+.natural_fire_source_seed	天然の火のソースシード
+.natural_water_source_seed	天然の水のソースシード
+.natural_earth_source_seed	天然の土のソースシード
+.natural_air_source_seed	天然の風のソースシード
+@ block.elementalcraft.
+.small_container	小型エレメントコンテナ
+.container	エレメントコンテナ
+.reservoir_fire	火のエレメントリザーバー
+.reservoir_water	水のエレメントリザーバー
+.reservoir_earth	土のエレメントリザーバー
+.reservoir_air	風のエレメントリザーバー
+.creative_container	クリエイティブエレメントコンテナ
+.extractor	エレメント抽出機
+.extractor_improved	改良型エレメント抽出機
+.evaporator	エレメント蒸発機
+.solar_synthesizer	ソーラーエレメント合成機
+.mana_synthesizer	マナエレメント合成機
+.diffuser	エレメント拡散機
+.infuser	エレメントインフューザー
+.binder	エレメントバインダー
+.binder_improved	改良型エレメントバインダー
+.crystallizer	宝石結晶化装置
+.water_mill_grindstone	水車式砥石
+.air_mill_grindstone	風車式砥石
+.water_mill_wood_saw	水車式木材ノコギリ
+.air_mill_wood_saw	風車式木材ノコギリ
+.inscriber	ルーン刻印機
+.pedestal_fire	火の台座
+.pedestal_water	水の台座
+.pedestal_earth	土の台座
+.pedestal_air	風の台座
+.pureinfuser	純粋インフューザー
+.firefurnace	火のかまど
+.fireblastfurnace	火の溶鉱炉
+.purifier	鉱石浄化機
+.source	エレメントソース
+.source.fire	火のソース
+.source.water	水のソース
+.source.earth	土のソース
+.source.air	風のソース
+.broken_source_displacement_plate	壊れたソース移動プレート
+.source_displacement_plate_fire	火のソース移動プレート
+.source_displacement_plate_water	水のソース移動プレート
+.source_displacement_plate_earth	土のソース移動プレート
+.source_displacement_plate_air	風のソース移動プレート
+.elementpipe_impaired	劣化エレメントパイプ
+.elementpipe	エレメントパイプ
+.elementpipe_improved	改良型エレメントパイプ
+.elementpipe_creative	クリエイティブエレメントパイプ
+.instrument_retriever	装置出力回収機
+.sorter	順序付きソーター
+.spell_desk	呪文机
+.source_breeder	エレメントソース繁殖機
+.source_breeder_pedestal	エレメントソース繁殖機の台座
+.translocation_anchor	転移アンカー
+.firepylon	炎のパイロン
+.vacuumshrine	吸引の祠
+.growthshrine	成長の祠
+.harvestshrine	収穫の祠
+.lumbershrine	伐採の祠
+.lavashrine	溶岩の祠
+.oreshrine	鉱石の祠
+.overloadshrine	過負荷の祠
+.sweetshrine	甘味の祠
+.enderlockshrine	エンダーロックの祠
+.breedingshrine	繁殖の祠
+.groveshrine	野生の森の祠
+.springshrine	泉の祠
+.buddingshrine	芽生えの祠
+.spawningshrine	召喚の祠
+.shrine_upgrade_acceleration	加速の祠アップグレード
+.shrine_upgrade_overclocked_acceleration	オーバークロック加速の祠アップグレード
+.shrine_upgrade_range	範囲の祠アップグレード
+.shrine_upgrade_capacity	容量の祠アップグレード
+.shrine_upgrade_efficiency	効率の祠アップグレード
+.shrine_upgrade_strength	強度の祠アップグレード
+.shrine_upgrade_optimization	最適化の祠アップグレード
+.shrine_upgrade_fortune	幸運の祠アップグレード
+.shrine_upgrade_silk_touch	シルクタッチの祠アップグレード
+.shrine_upgrade_planting	植え付けの祠アップグレード
+.shrine_upgrade_boneless_growth	骨粉不要成長の祠アップグレード
+.shrine_upgrade_pickup	回収の祠アップグレード
+.shrine_upgrade_vortex	渦の祠アップグレード
+.shrine_upgrade_nectar	蜜の祠アップグレード
+.shrine_upgrade_mystical_grove	神秘の森の祠アップグレード
+.shrine_upgrade_stem_pollination	茎受粉の祠アップグレード
+.shrine_upgrade_protection	保護の祠アップグレード
+.shrine_upgrade_filling	充填の祠アップグレード
+.shrine_upgrade_springaline	スプリンガラインの祠アップグレード
+.shrine_upgrade_crystal_harvest	結晶収穫の祠アップグレード
+.shrine_upgrade_crystal_growth	結晶成長の祠アップグレード
+.shrine_upgrade_translocation	転移の祠アップグレード
+.inert_crystal_ore	不活性クリスタル鉱石
+.deepslate_inert_crystal_ore	深層不活性クリスタル鉱石
+.whiterock	ホワイトロック
+.whiterock_slab	ホワイトロックのハーフブロック
+.whiterock_stairs	ホワイトロックの階段
+.whiterock_wall	ホワイトロックの塀
+.whiterock_fence	ホワイトロックのフェンス
+.whiterock_brick	ホワイトロックレンガ
+.whiterock_brick_slab	ホワイトロックレンガのハーフブロック
+.whiterock_brick_stairs	ホワイトロックレンガの階段
+.whiterock_brick_wall	ホワイトロックレンガの塀
+.whiterock_mossy	苔むしたホワイトロック
+.whiterock_mossy_slab	苔むしたホワイトロックのハーフブロック
+.whiterock_mossy_stairs	苔むしたホワイトロックの階段
+.whiterock_mossy_wall	苔むしたホワイトロックの塀
+.whiterock_burnt	焼けたホワイトロック
+.whiterock_burnt_slab	焼けたホワイトロックのハーフブロック
+.whiterock_burnt_stairs	焼けたホワイトロックの階段
+.whiterock_burnt_wall	焼けたホワイトロックの塀
+.purerock	ピュアロック
+.purerock_slab	ピュアロックのハーフブロック
+.purerock_stairs	ピュアロックの階段
+.purerock_wall	ピュアロックの塀
+.burnt_glass	焼けたガラス
+.burnt_glass_pane	焼けたガラス板
+.drenched_iron_block	浸潤鉄ブロック
+.swift_alloy_block	迅速合金ブロック
+.fireite_block	ファイアライトブロック
+.inertcrystal_block	不活性クリスタルブロック
+.firecrystal_block	火のクリスタルブロック
+.watercrystal_block	水のクリスタルブロック
+.earthcrystal_block	土のクリスタルブロック
+.aircrystal_block	風のクリスタルブロック
+.springaline_block	スプリンガラインブロック
+.small_springaline_bud	スプリンガラインの芽(小)
+.medium_springaline_bud	スプリンガラインの芽(中)
+.large_springaline_bud	スプリンガラインの芽(大)
+.springaline_cluster	スプリンガラインの塊
+.springaline_glass	スプリンガラインガラス
+.springaline_glass_pane	スプリンガラインガラス板
+.springaline_lantern	スプリンガラインのランタン
+@ spell.elementalcraft.
+.gravelfall	砂利落とし
+.stonewall	石壁
+.fireball	ファイアボール
+.item_pull	アイテム引き寄せ
+.ender_strike	エンダーストライク
+.animal_growth	動物成長
+.tree_fall	木倒し
+.purification	浄化
+.ripening	熟成
+.flame_cleave	炎の斬撃
+.inferno	インフェルノ
+.dash	ダッシュ
+.silk_vein	シルク鉱脈
+.translocation	転移
+.feather_spikes	羽根の棘
+.shockwave	衝撃波
+.air_shield	風の盾
+.repair	修繕
+.heal	治癒
+.speed	加速
+@ elementalcraft_rune.elementalcraft.
+.wii	Wiiのルーン
+.fus	Fusのルーン
+.zod	Zodのルーン
+.manx	Manxのルーン
+.jita	Jitaのルーン
+.tano	Tanoのルーン
+.soaryn	Soarynのルーン
+.kaworu	Kaworuのルーン
+.mewtwo	Mewtwoのルーン
+.claptrap	Claptrapのルーン
+.bombadil	Bombadilのルーン
+.tzeentch	Tzeentchのルーン
+.creative	クリエイティブのルーン
+@ elementalcraft.pipe_upgrade.elementalcraft.
+.pipe_priority_rings	パイプ優先リング
+.element_pump	エレメントポンプ
+.element_valve	エレメントバルブ
+.element_beam	エレメントビーム
+@ elementalcraft_jewel.elementalcraft.
+.salmon	サケのジュエル
+.dolphin	イルカのジュエル
+.leopard	ヒョウのジュエル
+.phoenix	不死鳥のジュエル
+.tortoise	陸亀のジュエル
+.demigod	半神のジュエル
+.mole	モグラのジュエル
+.tiger	虎のジュエル
+.bear	熊のジュエル
+.viper	マムシのジュエル
+.hawk	鷹のジュエル
+.kirin	麒麟のジュエル
+.arctic_hares	ホッキョクウサギのジュエル
+.strider	ストライダーのジュエル
+.water_strider	アメンボのジュエル
+.basilisk	バジリスクのジュエル
+.piglin	ピグリンのジュエル
+@ material.elementalcraft.
+.air_silk	風の絹
+.whiterock	ホワイトロック
+.rods.hardened	硬化した柄
+.drenched_iron	浸潤鉄
+.swift_alloy	迅速合金
+.fireite	ファイアライト
+shrine_upgrade_bonus.elementalcraft.none	§4エラー: %s
+shrine_upgrade_bonus.elementalcraft.speed	周期: %s
+shrine_upgrade_bonus.elementalcraft.element_consumption	エレメント消費: %s
+shrine_upgrade_bonus.elementalcraft.element_capacity	容量: %s
+shrine_upgrade_bonus.elementalcraft.range	範囲: %s
+shrine_upgrade_bonus.elementalcraft.strength	強度: %s
+rune_bonus.elementalcraft.none	§4エラー: %s
+rune_bonus.elementalcraft.speed	速度: %s
+rune_bonus.elementalcraft.element_preservation	エレメント節約: %s
+rune_bonus.elementalcraft.luck	幸運: %s
+trim_material.elementalcraft.drenched_iron	浸潤鉄の素材
+trim_material.elementalcraft.swift_alloy	迅速合金の素材
+trim_material.elementalcraft.fireite	ファイアライトの素材
+trim_material.elementalcraft.springaline	スプリンガラインの素材
+@ elementalcraft.jei.
+.extraction	エレメント抽出
+.extraction_improved	改良型エレメント抽出
+.evaporation	エレメント蒸発
+.solar_synthesis	ソーラーエレメント合成
+.infusion	エレメント注入
+.tool_infusion	エレメントツール注入
+.binding	エレメント結合
+.crystallization	宝石結晶化
+.inscription	ルーン刻印
+.pureinfusion	純粋注入
+.purification	鉱石浄化
+.grinding	粉砕
+.sawing	製材
+.spell_craft	呪文作成
+.displacement	ソース移動
+.buddingshrine	芽生えの祠
+.lavashrine	溶岩の祠
+.springshrine	泉の祠
+.crystal_throwing	クリスタル投げ
+.source_breeding	ソース繁殖
+@ tooltip.elementalcraft.
+.do_not_use	機能用アイテム。使用禁止！！！
+.infused.single	%s 注入済み(%s)
+.infused	%s 注入済み
+.enchantment_infused	%s +%d
+.autosmelt_infused	自動精錬 - 幸運の影響を受ける
+.fastdraw_infused	高速引き絞り
+.dodge_infused	回避
+.element_cost_reduction_infusion	%s コスト削減
+.count	%d %s
+.scroll_of	%sの巻物
+.on_spell_use	呪文詠唱中:
+.spell_effect_on_use	適用時:
+.consumes	%sを消費
+.cooldown	クールダウン: %d秒
+.contains	%sを含む
+.max_amount	最大%d個
+.incompatibilities	併用不可:
+.chance	確率: %s%%
+.optional	任意
+.staff.range	呪文の射程を少し伸ばす
+.pure_ore	純粋な%sの塊
+.pure_ore.id	鉱石: %s
+.pure_ore.colors	色: %s、%s、%s
+.pure_ore.forge.iron	鉄鉱石
+.pure_ore.forge.copper	銅鉱石
+.pure_ore.forge.gold	金鉱石
+.pure_ore.forge.coal	石炭鉱石
+.pure_ore.forge.redstone	レッドストーン鉱石
+.pure_ore.forge.lapis	ラピスラズリ鉱石
+.pure_ore.forge.quartz	ネザークォーツ鉱石
+.pure_ore.forge.diamond	ダイヤモンド鉱石
+.pure_ore.forge.emerald	エメラルド鉱石
+.pure_ore.forge.netherite_scrap	ネザライト鉱石
+.pure_ore.forge.aluminum	アルミニウム鉱石
+.pure_ore.forge.lead	鉛鉱石
+.pure_ore.forge.zinc	亜鉛鉱石
+.pure_ore.forge.nickel	ニッケル鉱石
+.pure_ore.forge.knightmetal	ナイトメタル鉱石
+.pure_ore.forge.osmium	オスミウム鉱石
+.pure_ore.forge.silver	銀鉱石
+.pure_ore.forge.uranium	ウラン鉱石
+.pure_ore.forge.ironwood	アイアンウッド鉱石
+.pure_ore.forge.fluorite	蛍石鉱石
+.pure_ore.forge.inert_crystal	不活性クリスタル鉱石
+.pure_ore.forge.tin	スズ鉱石
+.pure_ore.forge.iridium	イリジウム鉱石
+.pure_ore.forge.apatite	アパタイト鉱石
+.pure_ore.forge.inferium	インフェリウム鉱石
+.pure_ore.forge.crimson_iron	クリムゾンアイアン鉱石
+.pure_ore.forge.desh	デッシュ鉱石
+.pure_ore.forge.calorite	カロライト鉱石
+.pure_ore.forge.prosperity	プロスペリティ鉱石
+.pure_ore.forge.platinum	プラチナ鉱石
+.pure_ore.forge.ostrum	オストラム鉱石
+.pure_ore.forge.cheese	チーズ鉱石
+.pure_ore.forge.vibranium	ヴィブラニウム鉱石
+.pure_ore.forge.azur_silver	アズールシルバー鉱石
+.pure_ore.forge.horizonire	ホライゾナイト鉱石
+.pure_ore.forge.anthracite	無煙炭鉱石
+.pure_ore.forge.ametrine	アメトリン鉱石
+.pure_ore.forge.sulfur	硫黄鉱石
+.pure_ore.forge.soulium	ソウリウム鉱石
+.pure_ore.forge.iesnium	イエスニウム鉱石
+.pure_ore.forge.pendorite	ペンドライト鉱石
+.pure_ore.forge.unobtainium	アンオブタニウム鉱石
+.pure_ore.forge.ice_shard	氷の欠片鉱石
+.pure_ore.forge.niter	硝石鉱石
+.pure_ore.forge.cinnabar	辰砂鉱石
+.pure_ore.forge.allthemodium	オールザモジウム鉱石
+.pure_ore.forge.emeraldite	エメラルダイト鉱石
+.pure_ore.forge.falsite	ファルサイト鉱石
+.pure_ore.forge.moonstone	ムーンストーン鉱石
+.pure_ore.forge.pyrope	パイロープ鉱石
+.pure_ore.forge.charoite	チャロアイト鉱石
+.pure_ore.forge.diopside	透輝石鉱石
+.pure_ore.forge.aquite	アクアイト鉱石
+.pure_ore.forge.ventium	ヴェンティウム鉱石
+.pure_ore.elementalcraft.resonating	共鳴鉱石
+.pure_ore.elementalcraft.uraninite	閃ウラン鉱石
+.planting	収穫した作物や苗木を植え直す
+.boneless_growth	骨粉が効かない作物も成長させられる
+.pickup	範囲内のアイテムを即座にすべて回収する
+.vortex	アイテムの代わりに生物を引き寄せる
+.nectar	人に食料を与える代わりにハチに蜜を与える
+.mystical_grove	普通の花の代わりに神秘の花を植える
+.stem_pollination	茎の作物が実をつけるようになる
+.protection	敵対モブにのみ作用
+.filling	タンクを水で満たす
+.springaline_shrine_upgrade	アメジストの代わりにスプリンガラインを育てる
+.crystal_harvest	成長しきった結晶を収穫する
+.crystal_growth	結晶の成長速度を上げる
+.while_swimming	泳いでいる間:
+.while_sprinting	ダッシュ中:
+.while_fighting	戦闘中:
+.salmon	水中で呼吸できる
+.phoenix	燃えると回復する
+.tortoise	落下するブロックから身を守る
+.demigod	死亡時、インベントリ内の不死のトーテムを使う
+.mole	採掘速度が上がる
+.viper	攻撃が敵に毒を与える
+.hawk	飛び道具が追尾する
+.kirin	攻撃時に大ダメージ、アンデッドには2倍
+.arctic_hares	凍結効果を無効化し、粉雪の上を歩ける
+.basilisk	見ている敵を減速させる
+.strider.minecraft.lava	溶岩の上を歩ける
+.strider.minecraft.water	水の上を歩ける
+.piglin	ピグリンからは金の防具を着ているとみなされる
+tooltip.elemntalcraft.element_amount.0	ごく少量
+tooltip.elemntalcraft.element_amount.1	少量
+tooltip.elemntalcraft.element_amount.2	中量
+tooltip.elemntalcraft.element_amount.3	多量
+tooltip.elemntalcraft.element_amount.4	大量
+key.categories.elementalcraft	Elemental Craft
+key.elementalcraft.change_spell.1	呪文1
+key.elementalcraft.change_spell.2	呪文2
+key.elementalcraft.change_spell.3	呪文3
+key.elementalcraft.change_spell.4	呪文4
+key.elementalcraft.change_spell.5	呪文5
+key.elementalcraft.change_spell.6	呪文6
+key.elementalcraft.change_spell.7	呪文7
+key.elementalcraft.change_spell.8	呪文8
+key.elementalcraft.change_spell.9	呪文9
+key.elementalcraft.change_spell.0	呪文0
+death.attack.elementalcraft.jewel.kirin	%1$sは%2$sに天罰を下された
+death.attack.elementalcraft.jewel.kirin.item	%1$sは%3$sを使った%2$sに天罰を下された
+source_trait.elementalcraft.linear	%s: %d%%
+source_trait.elementalcraft.element_capacity	容量
+source_trait.elementalcraft.recover_rate	回復
+source_trait.elementalcraft.artificial	§c人工
+message.elementalcraft.pipe.none	切断
+message.elementalcraft.pipe.connect	接続
+message.elementalcraft.pipe.disconnect	切断
+message.elementalcraft.pipe.extract	搬出
+message.elementalcraft.pipe.insert	搬入
+message.elementalcraft.missing_springaline	インベントリにスプリンガラインの欠片がない
+message.elementalcraft.missing_analysis	まずソース分析グラスでこのソースを分析する必要がある
+curios.identifier.element_holder	エレメントホルダー
+source_trait.elementalcraft.nocturnal.1	§1夜行性 I
+source_trait.elementalcraft.nocturnal.2	§1夜行性 II
+source_trait.elementalcraft.nocturnal.3	§1夜行性 III
+source_trait.elementalcraft.nocturnal.4	§1夜行性 IV
+source_trait.elementalcraft.nocturnal.5	§1夜行性 V
+source_trait.elementalcraft.diurnal.1	§e昼行性 I
+source_trait.elementalcraft.diurnal.2	§e昼行性 II
+source_trait.elementalcraft.diurnal.3	§e昼行性 III
+source_trait.elementalcraft.diurnal.4	§e昼行性 IV
+source_trait.elementalcraft.diurnal.5	§e昼行性 V
+source_trait.elementalcraft.selfish.1	§c利己的 I
+source_trait.elementalcraft.selfish.2	§c利己的 II
+source_trait.elementalcraft.selfish.3	§c利己的 III
+source_trait.elementalcraft.selfish.4	§c利己的 IV
+source_trait.elementalcraft.selfish.5	§c利己的 V
+source_trait.elementalcraft.generous.1	§9寛大 I
+source_trait.elementalcraft.generous.2	§9寛大 II
+source_trait.elementalcraft.generous.3	§9寛大 III
+source_trait.elementalcraft.generous.4	§9寛大 IV
+source_trait.elementalcraft.generous.5	§9寛大 V
+source_trait.elementalcraft.wasteful.1	§c浪費 I
+source_trait.elementalcraft.wasteful.2	§c浪費 II
+source_trait.elementalcraft.wasteful.3	§c浪費 III
+source_trait.elementalcraft.wasteful.4	§c浪費 IV
+source_trait.elementalcraft.wasteful.5	§c浪費 V
+source_trait.elementalcraft.thrifty.1	§9倹約 I
+source_trait.elementalcraft.thrifty.2	§9倹約 II
+source_trait.elementalcraft.thrifty.3	§9倹約 III
+source_trait.elementalcraft.thrifty.4	§9倹約 IV
+source_trait.elementalcraft.thrifty.5	§9倹約 V
+source_trait.elementalcraft.barren.1	§c不毛 I
+source_trait.elementalcraft.barren.2	§c不毛 II
+source_trait.elementalcraft.barren.3	§c不毛 III
+source_trait.elementalcraft.barren.4	§c不毛 IV
+source_trait.elementalcraft.barren.5	§c不毛 V
+source_trait.elementalcraft.fertile.1	§9肥沃 I
+source_trait.elementalcraft.fertile.2	§9肥沃 II
+source_trait.elementalcraft.fertile.3	§9肥沃 III
+source_trait.elementalcraft.fertile.4	§9肥沃 IV
+source_trait.elementalcraft.fertile.5	§9肥沃 V

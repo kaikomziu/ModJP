@@ -1,0 +1,12 @@
+{
+  "key.invincible.key1": "メインアクション",
+  "key.invincible.key2": "サブアクション",
+  "key.invincible.key3": "特殊能力1",
+  "key.invincible.key4": "特殊能力2",
+  "key.invincible.key1.description": "主にメインの攻撃や主要な戦闘アクションを行います。",
+  "key.invincible.key2.description": "主にガード、照準、サブの戦闘アクションに使います。",
+  "key.invincible.key3.description": "使えるときに特殊能力や別のスキルを発動します。",
+  "key.invincible.key4.description": "割り当てられていれば、追加の特殊能力や補助能力を発動します。",
+  "key.invincible.category": "Invincible Lib のアクション",
+  "commands.invincible.reload": "[Invincible Lib]: スキルを再読み込みしました！"
+}

@@ -1,0 +1,23 @@
+{
+  "arseng.page.source_acceptor": "MEソース変換器はソースをAEエネルギーに変換する。MEネットワークに取り付けてリレーでソースを供給すれば、ソースだけでネットワークに電力を送れる。",
+  "arseng.page.source_acceptor_description": "ソース変換器にはブロック版とケーブルパーツ版がある。",
+  "arseng.page.source_cell_housing": "MEソースセルはMEソースセル筐体でクラフトできる。Applied Energistics 2のMEシステム内に、ソース瓶何個分ものソースを保存できる。",
+  "block.arseng.me_source_jar": "MEソース瓶",
+  "block.arseng.source_acceptor": "MEソース変換器",
+  "item.arseng.cable_source_acceptor": "MEソース受容器",
+  "item.arseng.creative_source_cell": "クリエイティブMEソースセル",
+  "item.arseng.portable_source_cell_16k": "16k ポータブルソースセル",
+  "item.arseng.portable_source_cell_1k": "1k ポータブルソースセル",
+  "item.arseng.portable_source_cell_256k": "256k ポータブルソースセル",
+  "item.arseng.portable_source_cell_4k": "4k ポータブルソースセル",
+  "item.arseng.portable_source_cell_64k": "64k ポータブルソースセル",
+  "item.arseng.source_cell_housing": "MEソースセル筐体",
+  "item.arseng.source_p2p_tunnel": "MEソースP2Pトンネル",
+  "item.arseng.source_storage_cell_16k": "16k MEソースストレージセル",
+  "item.arseng.source_storage_cell_1k": "1k MEソースストレージセル",
+  "item.arseng.source_storage_cell_256k": "256k MEソースストレージセル",
+  "item.arseng.source_storage_cell_4k": "4k MEソースストレージセル",
+  "item.arseng.source_storage_cell_64k": "64k MEソースストレージセル",
+  "item.arseng.spell_p2p_tunnel": "MEスペルP2Pトンネル",
+  "itemGroup.arseng": "Ars Énergistique"
+}

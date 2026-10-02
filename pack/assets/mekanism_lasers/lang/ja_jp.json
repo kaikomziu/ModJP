@@ -1,0 +1,21 @@
+{
+  "block.mekanism_lasers.laser_stopper": "レーザーストッパー",
+  "block.mekanism_lasers.basic_laser": "ベーシックレーザー",
+  "block.mekanism_lasers.basic_toggleable_laser": "ベーシック切替式レーザー",
+  "block.mekanism_lasers.advanced_laser": "アドバンスドレーザー",
+  "block.mekanism_lasers.advanced_toggleable_laser": "アドバンスド切替式レーザー",
+  "block.mekanism_lasers.elite_laser": "エリートレーザー",
+  "block.mekanism_lasers.elite_toggleable_laser": "エリート切替式レーザー",
+  "block.mekanism_lasers.ultimate_laser": "アルティメットレーザー",
+  "block.mekanism_lasers.ultimate_toggleable_laser": "アルティメット切替式レーザー",
+  "block.mekanism_lasers.creative_laser": "クリエイティブレーザー",
+  "block.mekanism_lasers.creative_toggleable_laser": "クリエイティブ切替式レーザー",
+  "block.mekanism_lasers.ore_generator": "鉱石生成機",
+  "item.mekanism_lasers.remote_control": "リモコン",
+  "container.mekanism_lasers.ore_generator": "鉱石生成機",
+  "description.mekanism.laser_stopper": "どんなブロックの見た目にもでき、レーザーを遮るブロック",
+  "description.mekanism.laser_toggleable": "高度に集束した光。オン/オフを切り替えられる :D",
+  "description.mekanism.ore_generator": "光を使ってエネルギーを鉱石に変える",
+  "item_group.mekanism_lasers": "Mekanism Lasers",
+  "gui.ore_generator.energy_per_ore": "鉱石1つあたりの消費エネルギー"
+}

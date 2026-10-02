@@ -1,0 +1,10 @@
+{
+  "mcwlights.lights.tikitorchinfo": "上にもう1つ置くと高くできる",
+  "mcwlights.lights.dyeableinfo": "染料で右クリックすると色を変える",
+  "mcwlights.lights.stackableinfo": "上にもう1つ置くと高くできる",
+  "block.mcwlights.thin_garden_light": "細い庭園灯",
+  "block.mcwlights.covered_garden_light": "覆い付き庭園灯",
+  "block.mcwlights.round_garden_light": "丸い庭園灯",
+  "block.mcwlights.tower_garden_light": "塔型の庭園灯",
+  "block.mcwlights.striped_garden_light": "縞模様の庭園灯"
+}

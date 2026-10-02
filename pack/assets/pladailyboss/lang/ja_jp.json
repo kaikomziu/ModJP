@@ -1,0 +1,13 @@
+{
+  "block.pladailyboss.spinning_block": "キーエンティティ用の回転ブロック",
+  "block.pladailyboss.unbreakable_stone": "壊れない石",
+  "block.pladailyboss.unbreakable_glowstone": "壊れないグロウストーン",
+  "block.pladailyboss.unbreakable_stone_brick_stairs": "壊れない石レンガの階段",
+  "block.pladailyboss.unbreakable_andesite": "壊れない安山岩",
+  "block.pladailyboss.unbreakable_polished_andesite": "壊れない磨かれた安山岩",
+  "block.pladailyboss.unbreakable_stone_brick_slab": "壊れない石レンガのハーフブロック",
+  "block.pladailyboss.unbreakable_stone_slab": "壊れない石のハーフブロック",
+  "gui.pladailyboss.boss_screen": "デイリーボス一覧",
+  "key.pladailyboss.open_entity_gui": "ボスメニューを開く",
+  "entity.pladailyboss.key_entity": "キーエンティティ"
+}

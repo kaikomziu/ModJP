@@ -1,0 +1,174 @@
+## obscuras_storage
+block.obscuras_storage.inventory_cable_connector_filtered	フィルター付きインベントリケーブルコネクター(旧式)
+block.obscuras_storage.basic_inventory_hopper	基本インベントリホッパー
+block.obscuras_storage.shulker_dock	シュルカードック
+item.obscuras_storage.condition_filter	条件フィルター
+narrator.obscuras_storage.terminal_tidy	ストレージを整理
+key.obscuras_storage.toggle_restock	[Obscura's Simple Storage] 補充の切り替え
+@ tooltip.obscuras_storage.
+.empty_whitelist_warning	警告: 空のホワイトリストはすべてのアイテムを遮断する！
+.filtered_legacy	旧式のブロック。設置または読み込み時に通常のインベントリケーブルコネクターになる。インベントリのフィルターにはインベントリ設定ツールを使うこと。
+.wireless_terminal.bound	%4$sの(%1$s, %2$s, %3$s)に紐付け済み
+.wireless_terminal.pick_block	持っていないブロックをブロック選択(中クリック)すると\紐付けたターミナルのストレージから1スタック取り出す。
+.locate_hint	Alt + クリック: 場所を探す
+.sorting_0	アイテム数で並べ替え
+.sorting_1	アイテム名で並べ替え
+.sorting_2	MODで並べ替え
+.sorting_3	レアリティで並べ替え
+.sorting_4	レジストリIDで並べ替え
+.sorting_5	耐久値で並べ替え
+.sorting_6	アイテムグループで並べ替え
+.ctrlMode_0	AE風の操作\1個取り出す: Shift+右クリック\1個転送する: Ctrl+Shift+右クリック
+.ctrlMode_1	Refined Storage風の操作\1個取り出す: 中クリック\1個転送する: Shift+中クリック
+.ctrlMode_2	バニラ風の操作\1個取り出す: 右クリック\1個転送する: Shift+右クリック
+.pull_0	クラフト時にプレイヤーのインベントリから取り出さない
+.pull_1	クラフト時に足りないアイテムをプレイヤーのインベントリから取り出す
+.inventory_hopper_modes	フィルターのスタック数で量を設定する。\インベントリ設定ツール: 右クリックでモード切り替え\(通常、パルス、在庫維持)、スニーク右クリックで\量を変更。
+.hopper_status	フィルター: %s · モード: %s · 量: %s
+.hopper_mode_amount	モード: %s · 量: %s
+.hopper_mode_amount_no_filter	モード: %s · 量: %s (フィルターが必要)
+.hopper_mode.normal	通常
+.hopper_mode.pulse	パルス
+.hopper_mode.keep_stock	在庫維持
+.lvlEm_lt_0	ストレージ内が指定より多いときに出力
+.lvlEm_lt_1	ストレージ内が指定より少ないときに出力
+.adv_wireless_terminal.restock	補充: %s
+.adv_wireless_terminal.restock_keybind	%sキーで補充を切り替え
+.adv_wireless_terminal.restock_info	補充: 有効な間、メインハンドに持ったブロックのスタックが\16個未満になるとストレージから補充される。
+.restock.on	オン
+.restock.off	オフ
+.shulker_dock	シュルカーボックスを1つ収め、その27スロットを\コネクター、ホッパー、コンパレーターに提供する。\シュルカーボックスを持って右クリック: ドックに入れる\(またはドック内の箱と入れ替える)。\素手で右クリック: 箱を取り出す。\ドックを壊すと箱が中身ごとドロップする。
+.condition_filter	損傷、エンチャント、食べ物などの特徴でアイテムをフィルターする\右クリックで条件を選ぶ。\必須の条件はすべて一致し、除外の条件は1つも一致してはならない。
+.condition_filter.none	条件が設定されていない
+.condition_filter.requires	必須: %s
+.condition_filter.excludes	除外: %s
+.condition_filter.requires_excludes	必須: %s · 除外: %s
+.condition_state	状態: %s
+.condition_state.ignore	無視
+.condition_state.required	必須
+.condition_state.excluded	除外
+.condition_click	クリックで切り替え: 無視、必須、除外
+.condition.damaged	損傷
+.condition.damaged.desc	耐久値が減った耐久アイテム
+.condition.enchanted	エンチャント済み
+.condition.enchanted.desc	エンチャントがある、またはエンチャントの本のようにエンチャントを保存している
+.condition.renamed	名前変更済み
+.condition.renamed.desc	独自の名前がある
+.condition.stackable	スタック可能
+.condition.stackable.desc	2個以上スタックできる
+.condition.food	食べ物
+.condition.food.desc	食べられる
+.condition.fuel	燃料
+.condition.fuel.desc	かまどの燃料として燃やせる
+.condition.smeltable	精錬可能
+.condition.smeltable.desc	かまどで精錬できる
+.condition.block	ブロック
+.condition.block.desc	ブロックとして置ける
+.condition.has_contents	中身あり
+.condition.has_contents.desc	空でないシュルカーボックス、バンドル、その他の容器
+.allowList_0	一致したものを拒否
+.allowList_1	一致したものを許可
+.matchNBT_0	NBTを照合しない
+.matchNBT_1	NBTを照合する
+.priority_0	優先度: 最低
+.priority_1	優先度: 低
+.priority_2	優先度: 通常
+.priority_3	優先度: 高
+.priority_4	優先度: 最高
+.keepLast_0	スロットに最後の1個を残さない
+.keepLast_1	スロットに最後の1個を残す
+.config_overlay.block	設定中のブロック: %s, %s, %s
+.config_overlay.block_alt	設定中のブロック: %s
+.config_overlay.mass_select	マルチブロック範囲の一括選択中
+.config_overlay.select	マルチブロック範囲の個別選択中
+.config_overlay.mass_select.finish	%sで範囲選択を完了
+.config_overlay.mass_select.abort	%s + %sで現在の選択を中止
+.config_overlay.select.single	%sで単一のインベントリを追加/削除
+.config_overlay.select.finish	空中で%sして選択を完了
+.config_overlay.select.start_mass	%sで範囲選択を開始
+.config_overlay.configure	%sでブロックを設定
+.config_overlay.show	%sで接続されたブロックを表示
+.config_overlay.too_far	設定中のブロックが遠すぎる
+.config_overlay.label	ラベル: %s
+.config_overlay.label.info	%sのみ受け入れ、優先的に満たす
+.config_overlay.label.not_connected	(未接続)
+.config_overlay.label.overridden	(フィルターで上書き)
+.config_overlay.label.more	%1$s 他%2$s件
+.terminal_stat.slots	全スロット: %s
+.terminal_stat.free	空きスロット: %s (%s%%)
+.terminal_stat.unique	アイテムの種類: %s
+.terminal_stat.alot	大量 (>32k)
+.ghostMode_0	SHIFTを押している間、並べ替えを有効にする
+.ghostMode_1	SHIFTを押している間、並べ替えを無効にする
+.tallMode_0	ターミナルのサイズ: デフォルト
+.tallMode_1	ターミナルのサイズ: 自動
+.tidy.title	ストレージを整理
+.tidy.desc	半端なスタックをまとめ、散らばったアイテムを本来の場所へ移す
+.tidy.estimate	約%s回の移動、%s秒
+.tidy.running	ストレージを整理中…
+.tidy.planning	移動を計画中…
+.tidy.progress	%s / %s回の移動
+.tidy.stop	クリックで停止
+.tidy.disabled.server	サーバーで無効化されている
+.tidy.disabled.nothing	整理するものがない
+.tidy.disabled.cooldown	クールダウン中(%s秒)
+.tidy.disabled.other	別の整理が実行中
+.tidy.disabled.no_network	ストレージネットワークがない
+.textfield	%s: %s
+.level_emitter.mode_digital	出力: オン/オフ\条件を満たしている間は信号15\クリックでアナログ出力
+.level_emitter.mode_analog_greater	出力: アナログ\保管量に応じて信号が上がる:\なしで0、%s以上で15\クリックでオン/オフ出力
+.level_emitter.mode_analog_less	出力: アナログ\保管量が増えるほど信号が下がる:\なしで15、%s以上で0\クリックでオン/オフ出力
+@ chat.obscuras_storage.
+.locate.found	%s: %s個のインベントリで見つかった
+.locate.found.one	%s: 1個のインベントリで見つかった
+.locate.other_dim	 (他のディメンションに%s個)
+.locate.unknown	 (場所不明が+%s個)
+.locate.capped	、最も近い%s個を表示
+.locate.not_found	%s: どのインベントリにも見つからない
+.locate.only_unknown	%s: 場所が不明なリモートまたはプロキシのストレージにのみ保管されている
+.frame_label.set	ラベルを設定: %s
+.frame_label.removed	ラベルを削除した
+.tidy.finished	整理完了: %s回の移動、%sスロットを空けた
+.tidy.stopped	整理を停止: %s回の移動、%sスロットを空けた
+.tidy.timeout	%s秒後に整理を停止: %s回の移動、%sスロットを空けた
+.tidy.no_room	(%s個のアイテムは置き場所がなかった)
+.tidy.nothing	整理するものがない
+.tidy.gone	整理を停止: ネットワークがなくなった
+.pick_block.no_terminal	範囲内にワイヤレスターミナルがない
+.pick_block.not_in_storage	%sはストレージにない
+.pick_block.inventory_full	インベントリがいっぱい
+.restock.on	補充を有効にした
+.restock.off	補充を無効にした
+.restock.no_terminal	インベントリに高度なワイヤレスターミナルがない
+.restock.disabled	このサーバーでは補充が無効になっている
+@ text.autoconfig.obscuras_storage.option.
+.multiblockInv	マルチブロックのインベントリ
+.basicHopperCooldown	基本インベントリホッパーの転送クールダウン(ティック)
+.blockedBlocks	インベントリコネクターが無視するブロックIDの一覧
+.blockedMods	インベントリコネクターがブロックを無視するMOD IDの一覧
+.buildersReachEnabled	ストレージからブロックを選択
+.buildersReachEnabled.@Tooltip	ブロック選択(中クリック)で、持ち歩いている範囲内のワイヤレスターミナルを通じて\nストレージから足りないブロックを取り出す
+.restockEnabled	高度なワイヤレスターミナルの補充
+.restockEnabled.@Tooltip	持っているブロックのスタックをストレージから補充し続ける\n補充の切り替えを許可する
+.itemLocatorEnabled	アイテムの場所探し
+.itemLocatorEnabled.@Tooltip	ターミナルでAlt + クリックすると、アイテムを保管しているインベントリを強調表示する
+.frameLabelsEnabled	額縁ラベル
+.frameLabelsEnabled.@Tooltip	ネットワークのインベントリにアイテムを入れた輝く額縁があると、\nネットワークはそこにそのアイテムだけを入れ、優先的に満たす。\n額縁に入れたフィルターアイテムもラベルとして働く。
+.doctorMaxInventories	ネットワークドクター: ネットワークあたりの最大インベントリ数
+.doctorMaxInventories.@Tooltip	ストレージネットワークあたりこの数までのインベントリを扱い、残りはスキップして\n/obscuras_storage doctor atで「上限超過」として表示する\n0で上限なし
+.doctorWarnMs	ネットワークドクター: 警告するティックあたりのミリ秒
+.doctorWarnMs.@Tooltip	ストレージネットワークが平均でティックあたりこのミリ秒以上かかったとき、\n警告をログに出す(ネットワークごとに10分に1回まで)\n0で警告を無効化
+.doctorWarnInventories	ネットワークドクター: 警告するインベントリ数
+.doctorWarnInventories.@Tooltip	ストレージネットワークのインベントリ数がこれを超えたとき、\n警告をログに出す(ネットワークごとに10分に1回まで)\n0で警告を無効化
+.tidyEnabled	整理ボタン
+.tidyEnabled.@Tooltip	半端なスタックをまとめ、散らばったアイテムを\n本来のインベントリへ移すターミナルのボタン
+.tidyMovesPerTick	整理: ティックあたりの移動数
+.tidyMovesPerTick.@Tooltip	ティックとネットワークあたりのスタック移動数(1〜64)
+.tidyMaxSeconds	整理: 1回の最大秒数
+.tidyMaxSeconds.@Tooltip	計画を含め、この秒数が経つと実行を停止する\nそれまでに行った移動はそのまま残る
+.tidyCooldownSeconds	整理: クールダウン秒数
+.tidyCooldownSeconds.@Tooltip	実行後、同じネットワークを再び整理できるまでの秒数
+.tidyOpsOnly	整理: OPのみ
+.tidyOpsOnly.@Tooltip	OP(権限レベル2)だけが整理ボタンを使える
+.tidyIncludeDocks	整理: シュルカードックを含める
+.tidyIncludeDocks.@Tooltip	シュルカードック内のシュルカーボックスの中身も並べ替える\nオフ: ドック内の箱は整理で一切触らない

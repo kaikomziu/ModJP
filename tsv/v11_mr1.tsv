@@ -1,0 +1,216 @@
+## modularrouters
+block.modularrouters.modular_router	モジュラールーター
+block.modularrouters.template_frame	テンプレートフレーム
+config.jade.plugin_modularrouters.router	モジュラールーター
+itemGroup.modularrouters	Modular Routers
+key.modularrouters.category	Modular Routers
+key.modularrouters.configure	取り付けたモジュールを設定(GUI)
+key.modularrouters.moduleInfo	追加のツールチップ情報(GUI)
+@ item.modularrouters.
+.activator_module	アクティベーターモジュール
+.augment_core	拡張コア
+.blank_module	空のモジュール
+.blank_upgrade	空のアップグレード
+.blast_upgrade	耐爆アップグレード
+.breaker_module	ブレイカーモジュール
+.bulk_item_filter	大量アイテムフィルター
+.camouflage_upgrade	迷彩アップグレード
+.creative_module	クリエイティブモジュール
+.detector_module	検出モジュール
+.distributor_module	分配モジュール
+.dropper_module	ドロッパーモジュール
+.energy_distributor_module	エネルギー分配モジュール
+.energy_output_module	エネルギー出力モジュール
+.extruder_module_1	押し出しモジュール Mk1
+.extruder_module_2	押し出しモジュール Mk2
+.fast_pickup_augment	高速回収拡張
+.filter_round_robin_augment	フィルター巡回拡張
+.flinger_module	投擲モジュール
+.fluid_module_2	液体モジュール Mk2
+.fluid_module	液体モジュール Mk1
+.fluid_upgrade	液体転送アップグレード
+.GuideBook	§l§nModular Routers
+.inspection_filter	検査フィルター
+.mimic_augment	模倣拡張
+.muffler_upgrade	消音アップグレード
+.override_card	セキュリティ解除カード
+.pickup_delay_augment	回収遅延拡張
+.placer_module	設置モジュール
+.player_module	プレイヤーモジュール
+.puller_module_1	引き込みモジュール Mk1
+.puller_module_2	引き込みモジュール Mk2
+.pushing_augment	押し出し拡張
+.range_down_augment	範囲縮小拡張
+.rangedown_upgrade	範囲縮小アップグレード
+.range_up_augment	範囲拡大拡張
+.redstone_augment	レッドストーン拡張
+.regex_filter	正規表現フィルター
+.regulator_augment	調整拡張
+.security_upgrade	セキュリティアップグレード
+.sender_module_1	送信モジュール Mk1
+.sender_module_2	送信モジュール Mk2
+.sender_module_3	送信モジュール Mk3
+.stack_augment	スタック拡張
+.sync_upgrade	同期アップグレード
+.vacuum_module	吸引モジュール
+.xp_vacuum_augment	経験値吸引拡張
+@ modularrouters.chatText.
+.misc.inventoryMerged	%d個のアイテムを%sに統合した
+.misc.targetAdded	対象を追加 (%d/%d):
+.misc.targetCleared	対象を解除した
+.misc.targetRemoved	対象を削除 (%d/%d):
+.misc.targetSet	対象を設定:
+.misc.target	対象: §b%s
+.misc.tooManyTargets	対象が多すぎる！(最大: %d)
+.security.accessDenied	§c--[アクセス拒否]--
+.security.ADDED	プレイヤー[%s]を追加した
+.security.ALREADY_ADDED	プレイヤー[%s]はすでにこのアップグレードに登録されている
+.security.ERROR	プレイヤー[%s]を追加できなかった(内部エラー)
+.security.FULL	セキュリティアップグレードの登録枠がいっぱい！
+.security.NOT_PRESENT	プレイヤー[%s]はこのアップグレードに登録されていない
+.security.REMOVED	プレイヤー[%s]を削除した
+.subtitle.error	エラー
+.subtitle.success	成功
+.subtitle.thud	*ドスン*
+.targetValidation.NOT_INVENTORY	§c✘ インベントリなし
+.targetValidation.NOT_LOADED	§c✘ 未読み込み
+.targetValidation.OK	§a✔ 対象OK
+.targetValidation.OUT_OF_RANGE	§c✘ 範囲外
+.targetValidation.BAD_DIMENSION	§c✘ ブラックリストのディメンション
+modularrouters._comment	JEIのテキスト
+@ modularrouters.gui.config.
+.alwaysShowModuleSettings	Shiftを押さなくてもモジュール設定のツールチップを表示
+.baseTickRate	ルーターの基本ティック間隔(スピードアップグレードなし)
+.breakerParticles	ブレイカーモジュールがブロックを壊したときにパーティクルを表示
+.ctgy.misc	その他
+.ctgy.misc.tooltip	その他の設定
+.ctgy.module	モジュール
+.ctgy.module.tooltip	ルーターモジュールの設定
+.ctgy.router	ルーター
+.ctgy.router.tooltip	モジュラールーターの設定
+.ecoTimeout	エコモードのルーターがこのサーバーティック数だけ待機すると、低電力モードに入る
+.extruder2BaseRange	押し出しモジュール Mk2の基本範囲(範囲アップグレードなし)
+.extruder2MaxRange	押し出しモジュール Mk2の絶対最大範囲(範囲アップグレードあり)
+.extruderBaseRange	押し出しモジュール Mk1の基本範囲(範囲アップグレードなし)
+.extruderMaxRange	押し出しモジュール Mk1の絶対最大範囲(範囲アップグレードあり)
+.extruderPushEntities	押し出しモジュール Mk1/2が伸びるときにエンティティを押せる
+.extruderSound	押し出しモジュールが伸び縮みするときに音を鳴らす
+.flingerEffects	投擲モジュールがアイテムを投げたときに音と煙の効果を出す
+.hardMinTicks	ルーターのティック間隔の絶対最小値(最速)
+.lowPowerTickRate	低電力モードのエコモードのルーターは、このサーバーティック数ごとにしか動かない
+.mainTitle	Modular Routersの設定
+.moduleGuiBackgroundTint	モジュールのGUIの背景をモジュールアイテムと同じ色に着色
+.placerParticles	設置モジュールがブロックを置いたときにパーティクルを表示
+.puller2BaseRange	引き込みモジュール Mk2の基本範囲(範囲アップグレードなし)
+.puller2MaxRange	引き込みモジュール Mk2の絶対最大範囲(範囲アップグレードあり)
+.pullerParticles	引き込みモジュールがアイテムを引き込んだときにパーティクルを表示
+.sender1BaseRange	送信モジュール Mk1の基本範囲(範囲アップグレードなし)
+.sender1MaxRange	送信モジュール Mk1の絶対最大範囲(範囲アップグレードあり)
+.sender2BaseRange	送信モジュール Mk2の基本範囲(範囲アップグレードなし)
+.sender2MaxRange	送信モジュール Mk2の絶対最大範囲(範囲アップグレードあり)
+.senderParticles	送信モジュールがアイテムを送ったときにパーティクルを表示
+.startWithGuide	新規プレイヤーはガイドブックを持った状態で始める
+.ticksPerUpgrade	スピードアップグレード1つあたりのティック間隔の短縮量(高速化)
+.vacuumBaseRange	吸引モジュールの基本範囲(範囲アップグレードなし)
+.vacuumMaxRange	吸引モジュールの絶対最大範囲(範囲アップグレードあり)
+.vacuumParticles	吸引モジュールがアイテムを吸い込んだときにパーティクルを表示
+@ modularrouters.guiText.label.
+.breakMatchType.BLOCK	ブロックで一致
+.breakMatchType.ITEM	ドロップアイテムで一致
+.buffer	バッファ
+.direction	§e方向
+.filters	フィルター
+.fluidForceEmpty	強制
+.inspectionOp.EQ	=
+.inspectionOp.GE	>=
+.inspectionOp.GT	>
+.inspectionOp.LE	<=
+.inspectionOp.LT	<
+.inspectionOp.NE	!=
+.inspectionSubject.DURABILITY	耐久値
+.inspectionSubject.ENCHANT	エンチャント
+.inspectionSubject.ENERGY	エネルギー量
+.inspectionSubject.FLUID	液体量
+.inspectionSubject.FOOD	食料値
+.installed	(取り付け済み)
+.matchAll.false	いずれかに一致
+.matchAll.true	すべてに一致
+.modules	モジュール
+.noTags	アイテムタグなし
+.playerOp.EXTRACT	プレイヤーからルーターへ
+.playerOp.INSERT	ルーターからプレイヤーへ
+.playerSect.ARMOR	防具スロット
+.playerSect.ENDER	エンダーインベントリ
+.playerSect.MAIN	メインインベントリ
+.playerSect.MAIN_NO_HOTBAR	メインインベントリ(ホットバー除く)
+.playerSect.OFFHAND	オフハンドスロット
+.regexError	無効な正規表現
+.selectTag	アイテムタグを選択
+.upgrades	アップグレード
+.xpVacuum.eject	排出
+.xpVacuum	経験値の種類
+@ modularrouters.guiText.tooltip.
+.activator.action	動作
+.activator.entityMode	エンティティ
+.activator.lookDirection	視線
+.activator.sneak	スニーク
+.allDirections	全方向
+.BACK	後
+.BLACKLIST.1	ホワイトリスト${br}フィルターに一致したときだけモジュールが動く。${br}空のホワイトリストでは決して動かない。
+.BLACKLIST.2	ブラックリスト${br}フィルターに一致するとモジュールは動かない。${br}空のブラックリストでは常に動く。
+.clearFilter	フィルターを消去
+.detectorTooltip	§bレッドストーン信号レベル
+.distributor.strategy	§e分配方式
+.DOWN	下
+.eco.false	エコモード §e無効 ${br}§7ルーターは常に通常の速度で動く。
+.eco.true	エコモード §a有効 ${br}§7ルーターが%f秒より長く待機すると低電力モードに入り、%f秒ごとにしか動かなくなる。アイテムを処理すると低電力モードを抜け、通常の速度に戻る。
+.energy.from_router	ルーターのバッファからアイテムへエネルギーを転送
+.energy.none	エネルギー転送なし
+.energy.rate	最大転送速度: %s FE/t
+.energy.to_router	アイテムからルーターのバッファへエネルギーを転送
+.extruder2.template	§bテンプレート${br}押し出しのテンプレートに使うブロックアイテムのコピーをここに置く。ブロック以外のアイテムで空気ブロックを表すこともできる${br}• §e左クリック:§7 個数を減らす${br}• §e右クリック:§7 個数を増やす${br}• §eShift + 左クリック:§7 消去
+.flinger.pitch	§bピッチ (%f → %f)
+.flinger.speed	§b速度 (%f → %f)
+.flinger.yaw	§bヨー (%f → %f)
+.fluidForceEmpty.false	§b強制排出 無効 ${br}ワールドに注ぐとき: 対象ブロックが完全に空でなければ液体を注がない。
+.fluidForceEmpty.true	§b強制排出 有効 ${br}ワールドに注ぐとき: 可能なら常にルーターから液体を注ぐ。警告: 既存の溶岩ブロックに溶岩を注ぐなど、液体が失われることがある。注意して使うこと。
+.fluidRegulatorTooltip	§b液体の調整 有効${br}ルーターから転送するとき: 転送先のタンクの量がこれより少ないときだけ注入する。${br}ルーターへ転送するとき: 転送元のタンクの量がこれより多いときだけ抽出する。
+.fluidTransferTooltip	§b最大液体転送量${br}1回の操作で試みる最大量(mB)。${br}これもルーター全体の転送速度(液体・スピードアップグレード)に制限される
+.FRONT	前
+.IGNORE_DAMAGE.1	損傷値で一致${br}同じ種類で損傷値が異なる耐久アイテムを区別する
+.IGNORE_DAMAGE.2	損傷値を無視${br}同じ種類で損傷値が異なる耐久アイテムを同じものとして扱う
+.IGNORE_NBT.1	NBTで一致${br}例: 一致判定でアイテムのエンチャントを考慮する
+.IGNORE_NBT.2	NBTを無視${br}例: 一致判定でアイテムのエンチャントを無視する
+.IGNORE_TAGS.1	タグ一致 有効${br}フィルター内のアイテムと同じタググループのアイテムも一致する(例: オークとシラカバの原木)
+.IGNORE_TAGS.2	タグ一致 無効
+.LEFT	左
+.loadFilter	フィルターを読み込み${br} 読み込み元 §e%s§r @ %s${br}§o既存のフィルターの内容は上書きされる！
+.matchAll.false	いずれかに一致${br}フィルター内のどれか1つのアイテムが一致すればフィルターに一致する。${br}ほとんどの場合はこちらを使う。
+.matchAll.true	すべてに一致${br}フィルター内のすべてのアイテムが一致したときだけフィルターに一致する。${br}エンチャントされた革の防具を判定したい場合など、特定の状況で使う。
+.maxFluidPerOp	§f転送速度: %dティックごとに%d mB (%d mB / ティック)
+.mergeFilter	フィルターを統合${br} 統合元 §e%s§r @ %s
+.mouseOverHelp.false	クリックでマウスオーバーヘルプを有効化
+.mouseOverHelp.true	マウスオーバーヘルプ 有効 ${br}§7クリックで無効化
+.NONE	なし
+.numberFieldTooltip	• §e§oカーソル上/下§7 またはマウスホイール: 調整${br}• §e§oShift§7を押しながら: 大きく調整${br}• §e§oCtrl§7を押しながら: 細かく調整${br}• §e§oPage Up/Down§7: 最大/最小に設定
+.redstone.ALWAYS	常時
+.redstone.HIGH	高
+.redstone.label	レッドストーンモード
+.redstone.LOW	低
+.redstone.NEVER	なし
+.redstone.PULSE	パルス
+.regulator.label	%d個
+.regulator.labelFluidmB	%d mB
+.regulator.labelFluidPct	%d%%
+.regulatorTooltip	§bアイテムの調整 有効${br}搬入時: インベントリ内のそのアイテムがこの数より少ないときだけ搬入する。${br}搬出時: インベントリ内のそのアイテムがこの数より多いときだけ搬出する。
+.removeFilterHint	§7§oスニーク + 左クリック: フィルターからアイテムを取り除く
+.RIGHT	右
+.terminate.NONE	このモジュールが何かしたかどうかにかかわらず、このティックで後続のモジュールを常に実行し続ける。
+.terminate.NONE.header	常に続行
+.terminate.NOT_RAN	このモジュールが何もしなかった場合、このティックで後続のモジュールを実行しない。
+.terminate.NOT_RAN.header	不一致で終了
+.terminate.RAN	このモジュールが何かした場合、このティックで後続のモジュールを実行しない。
+.terminate.RAN.header	一致で終了
+.tunedValue	§b同調値 (%d → %d)
+.UP	上
+.xpVacuum.ejectFluid	経験値の液体を排出

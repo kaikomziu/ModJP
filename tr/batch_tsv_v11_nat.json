@@ -1,0 +1,20 @@
+{
+ "naturalist": {
+  "item.naturalist.bushmeat": "獣肉",
+  "item.naturalist.cooked_bushmeat": "焼いた獣肉",
+  "naturalist.subtitles.entity.tortoise.hide": "リクガメが隠れる",
+  "naturalist.subtitles.entity.tortoise.thud": "リクガメがドスンと鳴る",
+  "naturalist.subtitles.entity.tortoise.hurt": "リクガメがダメージを受ける",
+  "naturalist.subtitles.entity.tortoise.shell_block": "リクガメの甲羅が防ぐ",
+  "naturalist.subtitles.entity.tortoise.death": "リクガメが死ぬ",
+  "naturalist.midnightconfig.category.client": "クライアント",
+  "naturalist.midnightconfig.category.server": "サーバー",
+  "naturalist.midnightconfig.category.mobConfig": "モブの設定",
+  "naturalist.midnightconfig.category.mobRemoval": "モブの無効化",
+  "naturalist.midnightconfig.disableFireflyParticles": "ホタルのパーティクルを無効化",
+  "naturalist.midnightconfig.disableFireflyParticles.tooltip": "§8§o[?]§7§o 「yes」にすると、ホタルがパーティクルを出さなくなる。",
+  "naturalist.midnightconfig.mobRemoval": "§c§l§n[!]§7§o これを「No」にすると、ワールド内のその種類のモブがすべて削除され、§c§l§n一切§7§oスポーンしなくなる。ピースフルモードで敵対モブが消えるのと同じように動作する。",
+  "naturalist.midnightconfig.biomeConfig": "§c§l§n[!]§7§o モブがいるバイオームを変えたい場合は§c§l§nデータパック§7§oで行う必要がある。ファイルは§9§o「naturalist:tags/worldgen/biome/has_<animal>.json」にある",
+  "naturalist.midnightconfig.blacklistConfig": "§7§o特定のバイオームでモブのスポーンを§c§l§n除外§7§oするには、§9§o「naturalist:tags/worldgen/biome/blacklist/<animal>_blacklist.json」にバイオームを追加する"
+ }
+}

@@ -1,0 +1,5 @@
+{
+  "key.apotheosis.world_tiers_arent_real": "ワールドティアのエラー通知",
+  "message.apotheosis.world_tiers_arent_real": "ワールドティアはMinecraft 1.21.1以降でのみ使えます。このバージョンのApotheosisは、代わりにディメンションに基づく進行システムを使います。",
+  "text.apotheosis.gems_returned": "クラフト時に宝石が戻ってきます"
+}

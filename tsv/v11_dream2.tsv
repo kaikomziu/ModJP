@@ -1,0 +1,99 @@
+## dreamshift
+@ command.dreamshift.
+.status	%s %sを読み込み済み。
+.summary	状態: 夢空間移動のバックエンドはオンライン。
+.help.debug	/dreamshift debug - プレイヤー、ディメンション、トリガー、段階の状態を表示。
+.help.phase_status	/dreamshift debug phase-status - 滑りのタイミング、Y、落下距離、すり抜けの同期。
+.help.slip	/dreamshift slip [world] - 制御されたすり抜けを開始。/dreamshift scheduleSlip [world] - 遅延したすり抜け。
+.help.return	/dreamshift return - 保存した帰還位置を使って夢空間を出る。
+.help.config	/dreamshift reloadconfig - config/dreamshift.jsonを再読み込み。
+.help.slippage	/dreamshift slippage list|create [world]|remove|force-state|validate|familiar|portal-status|render-status - 現実のずれの面をデバッグ。
+.help.familiar	/dreamshift familiar complex|legacy_chunk|random|region <id> [slip|slippage] - 見慣れたバックルームの記憶モードと侵入経路を選ぶ。
+.help.slippage_render_status	/dreamshift slippage render-status - クライアントのチャット: 裂け目のバックエンド(バニラかSodium)、オーバーレイのフラグ、継ぎ目のないIPか旧式の侵入か。
+.help.fracturedtool	/dreamshift fracturedtool <pos> <dreamspace> | nearest <dreamspace> - 砕けた道具イベントをデバッグ。
+.help.stilllife	/dreamshift stilllife spawn <skinPlayer> [x y z] [corruptionSeed] - スキンをコピーした静物をスポーン。
+.stilllife.success	%sをコピーした静物をスポーンした。
+.stilllife.failure.unloaded	静物の位置はワールドの境界内かつ読み込み済みのチャンク内である必要がある。
+.stilllife.failure.collision	その位置には静物が収まらない。
+.stilllife.failure.create	静物のエンティティを作成できなかった。
+.fracturedtool.success.header	砕けた道具イベントを作成した。
+.fracturedtool.success.workstation	作業台: %s %s %s
+.fracturedtool.success.dimension	ディメンション: %s
+.fracturedtool.success.dreamspace	夢空間: %s
+.fracturedtool.failure.no_workstation	有効な作業台が見つからない。
+.fracturedtool.failure.unsupported_block	対応していないブロックの種類。
+.fracturedtool.failure.unknown_dreamspace	夢空間が存在しない。
+.fracturedtool.failure.already_active	この作業台ではすでに砕けた道具イベントが起きている。
+.fracturedtool.failure.preload_failed	指定した夢空間を事前読み込みできなかった。
+.fracturedtool.failure.unknown	砕けた道具イベントを作成できなかった。
+.slippage.render_status.sent	ずれの描画状態をクライアントに送った(チャットを参照)。
+.debug.header	Dreamshiftのデバッグ情報:
+.debug.dimension	現在のディメンション: %s
+.debug.position	プレイヤーのブロック位置: %s, %s, %s
+.debug.dimension_allowed	滑りが許可されたディメンション: %s
+.debug.in_dreamspace	夢空間内: %s
+.debug.has_return_position	保存された帰還位置あり: %s
+.debug.reality_slips_enabled	現実滑り有効: %s
+.debug.slip_chance_multiplier	滑りの確率倍率: %s
+.debug.slip_cooldown_ticks	滑りのクールダウン残り: %sティック
+.debug.fall_slip_allowed	落下による滑りのトリガーが現在発動するか: %s
+.debug.random_slip_allowed	ランダムな滑りのトリガーが現在発動するか: %s
+.debug.is_shifting	現在移動/すり抜け中: %s
+.debug.phase_ticks_elapsed	段階の経過ティック: %s
+.debug.phase_start_y	段階開始時のY: %s
+.debug.phase_fall_distance	段階の落下距離: %s
+.debug.collision_bypass_active	衝突の無視が有効: %s
+.debug.slip_reason	現在の滑りの理由: %s
+.debug.phase_status.header	Dreamshiftの段階の状態(サーバー):
+.debug.phase_status.shifting	滑り/すり抜けが有効: %s
+.debug.phase_status.expects_client	S2Cのすり抜け同期が有効(滑り中): %s
+.debug.phase_status.block_collision_bypass	ブロックの衝突の無視(Level#getBlockCollisions): %s
+.debug.phase_status.transfer_ready	このティックで夢空間への転送条件を満たした: %s
+.debug.phase_status.ticks	段階の経過ティック: %s
+.debug.phase_status.current_y	現在のY: %s
+.debug.phase_status.start_y	段階開始時のY: %s
+.debug.phase_status.fall_distance	段階の落下距離: %s
+.debug.phase_status.transfer_thresholds	転送のしきい値 — 最低落下ブロック数: %s、最大段階ティック: %s
+.debug.phase_status.packet_id	すり抜け同期のパケットID: %s
+.debug.phase_status.slip_reason	現在の滑りの理由: %s
+.debug.disabled	Dreamshiftのデバッグコマンドは設定で無効になっている。
+.debug.players_only	このサブコマンドはプレイヤーしか使えない。
+.slip.disabled	夢空間への移動は設定で無効になっている。
+.slip.already_in_dreamspace	すでに夢空間にいる。
+.slip.dimension_blocked	ディメンション%sからは滑れない。
+.slip.missing_dimension	このサーバーでは夢空間を利用できない。
+.slip.unknown_world	不明な夢空間のワールド: %s
+.slip.already_shifting	現実滑りはすでに進行中。
+.slip.spectator	スペクテイターモードでは現実滑りを始められない。
+.slip.shifting	世界が滑り落ちていく…
+.slip.success	現実滑りが完了。%s経由で夢空間に入った。
+.slip.success_scene	現実滑りが完了。%s経由で夢空間のシーン%sに入った。
+.cancelshift.success	現在のDreamshiftの段階を中止した。
+.cancelshift.none	有効なDreamshiftの段階はない。
+.return.not_in_dreamspace	現在夢空間にいない。
+.return.success	夢空間から保存した位置に戻った。
+.return.fallback	保存された帰還データが使えなかったため、代わりにオーバーワールドのスポーン地点に戻った。
+.return.failure	安全な帰還先を一つも特定できなかった。
+.reload_config.success	%sからDreamshiftの設定を再読み込みした。
+.reload_config.failure	Dreamshiftの設定の再読み込みに失敗した。メモリ上のデフォルトを使用中。ログを確認すること。設定のパス: %s
+.dimensioncheck.header	夢空間のディメンション確認:
+.dimensioncheck.dimension_id	夢空間のディメンションID: %s
+.dimensioncheck.level_stem_key	夢空間のレベルステムがレジストリにある: %s
+.dimensioncheck.resolved	夢空間のサーバーレベルを解決: %s
+.dimensioncheck.resolved_id	解決したサーバーのディメンションキー: %s
+.scene.list.header	読み込まれた夢空間のシーン: %s
+.scene.list.entry	- %s 有効=%s 重み=%s
+.scene.info.header	夢空間のシーン: %s
+.scene.info.structure	構造物ID: %s
+.scene.info.spawn	スポーン位置: %s, %s, %s
+.scene.info.exit	出口の位置: %s, %s, %s
+.scene.info.ambience	環境音: %s
+.scene.info.fog	霧のプリセット: %s
+.scene.info.weight	重み: %s
+.scene.info.enabled	有効: %s
+.scene.info.missing	不明な夢空間のシーン: %s
+.scene.place.not_in_dreamspace	シーンの構造物を置くには夢空間にいる必要がある。
+.scene.place.success	夢空間のシーン%sを%s, %s, %sに置いた。
+.scene.place.already	夢空間のシーン%sはこのサーバーのセッションですでに置かれている。
+.scene.place.origin_occupied	別のシーンがすでに夢空間の固定原点を使っているため、夢空間のシーン%sを置けなかった。
+.scene.place.failure	夢空間のシーン%1$sを置けなかった。構造物のテンプレートがないか無効: %2$s。

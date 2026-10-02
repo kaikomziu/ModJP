@@ -1,0 +1,16 @@
+{
+  "advancements.voidtotem.adventure.totem_of_void_undying.description": "虚空の不死のトーテムを使って、虚空に落ちたときに死を免れる",
+  "advancements.voidtotem.adventure.totem_of_void_undying.title": "死を超えて2",
+  "item.voidtotem.totem_of_void_undying": "虚空の不死のトーテム",
+  "text.autoconfig.voidtotem.option.ADD_END_CITY_TREASURE": "エンドシティの宝に追加",
+  "text.autoconfig.voidtotem.option.BLACKLISTED_DIMENSIONS": "ブラックリストのディメンション",
+  "text.autoconfig.voidtotem.option.DISPLAY_TOTEM_ON_CHEST": "チェストにトーテムを表示",
+  "text.autoconfig.voidtotem.option.GIVE_TOTEM_EFFECTS": "トーテムの効果を与える",
+  "text.autoconfig.voidtotem.option.IS_INVERTED_BLACKLIST": "ブラックリストを反転",
+  "text.autoconfig.voidtotem.option.NEEDS_TOTEM": "トーテムが必要",
+  "text.autoconfig.voidtotem.option.SHOW_TOTEM_TOOLTIP": "トーテムのツールチップを表示",
+  "text.autoconfig.voidtotem.option.TELEPORT_HEIGHT_OFFSET": "テレポートの高さのオフセット",
+  "text.autoconfig.voidtotem.option.USE_TOTEM_FROM_INVENTORY": "インベントリのトーテムを使う",
+  "tooltip.voidtotem.totem_of_void_undying": "メインハンドかオフハンドに持つと、虚空に落ちても死なずに済む。",
+  "trinkets.slot.charm.charm": "お守り"
+}

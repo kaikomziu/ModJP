@@ -1,0 +1,5 @@
+{
+  "block.woodenhopper.wooden_hopper": "木のホッパー",
+  "block.woodenhopper.wooden_hopper.desc.cannotAbsorbItemsFromWorld": "上に落ちているアイテムを吸い込めない。",
+  "block.woodenhopper.wooden_hopper.desc.cannotAbsorbItemsFromInventories": "上のインベントリからアイテムを引き込めない。"
+}

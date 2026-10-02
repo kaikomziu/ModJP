@@ -1,0 +1,9 @@
+{
+  "gui.charmofundying.config.xOffset.name": "水平方向の描画オフセット",
+  "gui.charmofundying.config.xOffset.description": "プレイヤーにトーテムを描画するときの水平方向のオフセット。",
+  "gui.charmofundying.config.yOffset.name": "垂直方向の描画オフセット",
+  "gui.charmofundying.config.yOffset.description": "プレイヤーにトーテムを描画するときの垂直方向のオフセット。",
+  "gui.charmofundying.config.renderTotem.name": "装備したトーテムを描画",
+  "gui.charmofundying.config.renderTotem.description": "有効にすると、装備したトーテムをプレイヤーに描画する。",
+  "trinkets.slot.charm.charm": "お守り"
+}

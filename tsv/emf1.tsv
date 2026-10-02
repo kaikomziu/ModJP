@@ -1,0 +1,121 @@
+## entity_model_features
+entity_model_features.config.parrot_shoulder_animate	肩のオウムがプレイヤーのアニメーションに追従
+entity_model_features.config.parrot_shoulder_animate.tooltip	デフォルトで、肩に乗ったオウムの位置をアニメーションしたプレイヤーの位置に自動で追従させます。これは回転しない `parrot_left` や `parrot_right` のアタッチポイントとは同じではありません。
+entity_model_features.config.sulfur_cube_block	硫黄キューブのブロックの標準アニメーション
+entity_model_features.config.sulfur_cube_block.tooltip	デフォルトで硫黄キューブ内部のブロックを自動でアニメーションさせます。これはモデルの'cube'パーツにオフセット0,0,0の'sulfur_cube_block'アタッチメントがあるのと同じです。
+entity_model_features.config.logASM	コンパイル済み計算の状態をログに記録
+entity_model_features.config.asmmaths.logASM	ログが大量に出ます。開発者にこのログを求められない限り、おそらく不要です。
+entity_model_features.config.asmmaths	アニメーション計算のコンパイル
+entity_model_features.config.asmmaths.tooltip	ほぼ常にONにしておくべきです。\n無効にすると、アニメーションの仕組みはより計算負荷の高い式ツリーを使います。デバッグには便利な場合があります。
+entity_model_features.config.allowed_cem	許可するモデル
+entity_model_features.config.allowed_cem.tooltip	EMFがどのモデルを扱おうとするかを決めます。注意: これは完全ではありません。MODによってはバニラの名前空間IDをそのまま使うため、EMFにはほとんど手の打ちようがありません
+entity_model_features.config.allowed_cem.all	すべて
+entity_model_features.config.allowed_cem.known_only	既知のもののみ(主にバニラ/OptiFine)
+entity_model_features.config.allowed_cem.unknown_only	未知のもののみ(主にMOD)
+entity_model_features.config.armor_hack	防具がカスタムアニメーションをコピー
+entity_model_features.config.armor_hack.tooltip	1.21.9以降、防具は本体モデルのカスタムアニメーションを自然にはコピーしなくなりました。これはその古い挙動を再現します。
+entity_model_features.config.animate_once	エンティティごとに一度だけアニメーション
+entity_model_features.config.animate_once.tooltip	デフォルトでオン\nこの設定では、描画されるエンティティごとに一度だけモデルをアニメーションさせます\nゲーム内では完全に普通に見えますが、インベントリ画面に\n 表示されるモブが変にちらつくことがあります\n 特に、ワールド内で見えている実際のモブを表している場合
+entity_model_features.config.debug	デバッグ
+entity_model_features.config.export_rotations	回転を書き出す
+entity_model_features.config.export_rotations.tooltip	書き出したjemモデルは、バニラのパーツから回転値を継承するため、回転値を含めるべきではありません\n ただしモデルエディタによってはこれらの値があると便利な場合があります\n この設定を有効にすると、書き出すjemファイルに回転値を含めます
+entity_model_features.config.optifine_fallback_properties	代替の.propertiesを使う
+entity_model_features.config.optifine_fallback_properties.tooltip	有効にすると、通常の.propertiesファイルが見つからない場合に代替の.propertiesファイルを読み込もうとします\n例: pig_baby.propertiesがなければ、pig_baby.jemはpig.propertiesを代わりに使います。\nOptiFineはこの代替方式でしか動作せず、pig_baby.propertiesのようなモデルごとの指定は認めていません
+entity_model_features.config.show_reload_error_toast	再読み込みエラーのトースト通知を表示
+entity_model_features.config.show_reload_error_toast.tooltip	有効にすると、リソースの再読み込み中にエラーが起きたときにトースト通知を表示します\n再読み込み中に何か問題が起きたか知るのに役立ちます
+entity_model_features.config.load_warn.1	EMFで読み込みエラーが発生しました
+entity_model_features.config.load_warn.3	詳しくはログかEMFの設定を確認してください
+entity_model_features.config.load_warn.2	EMFは「モデル > デバッグ >」からこれらのエラーを再度ログに出せます
+entity_model_features.config.load_warn.title	すべての読み込みエラーを再度ログに出力
+entity_model_features.config.load_warn.title2	すべての読み込みエラーを再度ログに出力(スタックトレース付き)
+entity_model_features.config.load_warn.tooltip	前回のリソース再読み込みで発生したEMFの読み込みエラーをすべて、発生した順にもう一度ログに出力します\n前後のログの文脈がないため、役に立たないエラーもあります
+entity_model_features.config.optifine_floor	ボックスのUVを切り捨て
+entity_model_features.config.optifine_floor.tooltip	OptiFineはカスタムボックスUVのすべてのUV値を切り捨てます\nつまり、すべて整数にします。\nこの設定でEMFも同じようにします\nまた、UVが切り捨てられていないモデルを見つけるとEMFがログに記録します
+entity_model_features.config.optifine_syntax	CEMアニメーション構文の制限
+entity_model_features.config.optifine_syntax.tooltip	有効にすると、OptiFineのCEM構文の制限を適用します。例えば\nアニメーションのボーンIDは_や数字で始められない。\n数値は'.9'のように'.'で始められない\n'render'という名前のボーンはアニメーションから参照できない\n有効にすると、これらの規則に違反するアニメーションはエラーをログに記録して無効になります。
+entity_model_features.config.models.explain	ここに表示されているパーツがすべて書き出されるとは限らず、\n宣言されたパーツだけが書き出されます。\n書き出されなかったパーツの変形の詳細は、書き出し後のゲームログで確認できます。
+entity_model_features.config.optifine_subfolders	サブフォルダのモデルはバリエーション必須
+entity_model_features.config.optifine_subfolders.tooltip	OptiFineでは、モデルファイルのサブフォルダはそのモデルにバリエーションがある場合にのみ機能します。\n例: 'optifine/cem/skeleton/skeleton.jem' は\n'optifine/cem/skeleton/skeleton2.jem' や .propertiesファイルなどのバリエーションがある場合のみ読み込まれます\nこの設定でEMFも同じ制限を適用し、\nバリエーションのないモデルを見つけるとログに記録します
+entity_model_features.config.debug.tooltip	デバッグ用の設定。問題の原因を探るのに役立ちます
+entity_model_features.config.debug_right_click	エンティティを右クリックでEMFのデバッグ情報を表示
+entity_model_features.config.debug_right_click.tooltip	有効にすると、エンティティを右クリックしたときに\nEMFのデバッグ情報をログとチャットに出力します。
+entity_model_features.config.ebe_config_modify	Enhanced Block Entities(EBE)MODへのパッチ
+entity_model_features.config.ebe_config_modify.tooltip	有効にすると、EMFがEBE MODの設定を変更し、\nカスタムのEMFモデルが読み込まれている\nブロックエンティティについてEBEを無効にします。\nEMFは後からこれらの設定を自動で元に戻せないので、\n 必要なら手動で戻してください。
+entity_model_features.config.force_models	EMFのモデルが上書きされるのを防ぐ
+entity_model_features.config.force_models.tooltip	エンティティの描画にEMFが設定したモデルを使わせようとします\n 他のMODが変更したバニラのモデルを上書きできます\n すべてのMODで機能するわけではありません
+entity_model_features.config.function_explanation.abs	abs(x)\n数値の絶対値を返します。負の数は正の数になります
+entity_model_features.config.function_explanation.acos	acos(x)\nxのアークコサインを返します
+entity_model_features.config.function_explanation.asin	asin(x)\nxのアークサインを返します
+entity_model_features.config.function_explanation.atan	atan(x)\nxのアークタンジェントを返します
+entity_model_features.config.function_explanation.atan2	atan2(y, x)\nx軸の正の向きと点(x, y)のなす角を返します
+entity_model_features.config.function_explanation.catmullrom	catmullrom(k, x, y, z, w)\n制御点zとwを使い、Catmull-Romスプライン関数でxとyの間を補間します
+entity_model_features.config.function_explanation.ceil	ceil(x)\nxを切り上げて整数にします
+entity_model_features.config.function_explanation.clamp	clamp(x, min, max)\n数値をminとmaxの間に制限します
+entity_model_features.config.function_explanation.cos	cos(x)\nxのコサインを返します
+entity_model_features.config.function_explanation.nbt	nbt(x,y)\nエンティティがクエリyに一致するNBTタグxを持っていればtrueを返す真偽値関数。\nxはNBTランダムプロパティの'nbt.<n>.'の後に来る部分に相当します。\nyはNBTランダムプロパティの'='の後に来る部分に相当します。\n例: NBTプロパティの 'nbt.1.SleepingX=exists:true' は、アニメーション関数では 'nbt(SleepingX,exists:true)' になります。
+entity_model_features.config.function_explanation.cubicbezier	cubicbezier(k, x, y, z, w)\n制御点zとwを使い、3次ベジェスプライン関数でxとyの間を補間します
+entity_model_features.config.function_explanation.degdiff	degdiff(x, y)\n2つの角度(度)xとyの最短の角度差を返します
+entity_model_features.config.function_explanation.exp	exp(x)\ne(ネイピア数)のx乗を返します
+entity_model_features.config.function_explanation.floor	floor(x)\nxを切り捨てて整数にします
+entity_model_features.config.function_explanation.fmod	fmod(x, y)\n%演算子に似ていますが、返り値の符号は常に除数と同じです
+entity_model_features.config.function_explanation.frac	frac(x)\nxの小数部分を返します
+entity_model_features.config.function_explanation.hermite	hermite(k, x, y, z, w)\n制御点zとwを使い、エルミートスプライン関数でxとyの間を補間します
+entity_model_features.config.function_explanation.if	if(cond, val, [cond2, val2, ...], val_else)\n1つ以上の条件に応じて値を選びます
+entity_model_features.config.function_explanation.keyframe	keyframe(k, a, b, c,...)\n現在のフレーム'k'とキーフレームに応じて値をなめらかに補間します。'a'が'k=0'、'b'が'k=1'、'c'が'k=2'…に対応します。
+entity_model_features.config.function_explanation.keyframeloop	keyframeloop(k, a, b, c,...)\n現在のフレーム'k'とキーフレームに応じて値をなめらかに補間します。'a'が'k=0'、'b'が'k=1'、'c'が'k=2'…に対応しますが、'k'がキーフレームの数より大きくなるとフレーム'a'に戻ってループします
+entity_model_features.config.function_explanation.lerp	lerp(k, x, y)\nXとYの間を線形補間します
+entity_model_features.config.function_explanation.log	log(x)\nxの自然対数を返します
+entity_model_features.config.function_explanation.max	max(x, y, ...)\n数値のリストから最大の数を返します
+entity_model_features.config.function_explanation.min	min(x, y ,...)\n数値のリストから最小の数を返します
+entity_model_features.config.function_explanation.pow	pow(x, y)\nxのy乗を返します
+entity_model_features.config.function_explanation.print	print(id, n, x)\nNフレームごとに値"x"を出力します
+entity_model_features.config.function_explanation.printb	printb(id, n, x)\nNフレームごとに真偽値"x"を出力します
+entity_model_features.config.function_explanation.quadbezier	quadbezier(k, x, y, z)\n制御点zを使い、2次ベジェスプライン関数でxとyの間を補間します
+entity_model_features.config.function_explanation.raddiff	raddiff(x, y)\n2つの角度(ラジアン)xとyの最短の角度差を返します
+entity_model_features.config.function_explanation.random	random(seed)\n0～1の乱数。シードを指定すると常に同じ結果を返します。シードは省略可能です
+entity_model_features.config.function_explanation.round	round(x)\nxを四捨五入して整数にします
+entity_model_features.config.function_explanation.signum	signum(x)\nxの符号(正か負か)を返します
+entity_model_features.config.function_explanation.sin	sin(x)\nxのサインを返します
+entity_model_features.config.function_explanation.between	between(x, min, max)\n値がminとmaxの間にあるか判定します
+entity_model_features.config.function_explanation.equals	equals(x, y, epsilon)\n2つの浮動小数点値を誤差を許して比較します
+entity_model_features.config.function_explanation.in	in(x, val1, val2, ...)\n値が複数の値のいずれかと等しいか判定します
+entity_model_features.config.function_explanation.sqrt	sqrt(x)\nxの平方根を返します
+entity_model_features.config.function_explanation.tan	tan(x)\nxのタンジェントを返します
+entity_model_features.config.function_explanation.ifb	if(cond, val, [cond2, val2, ...], val_else)\n1つ以上の条件に応じて値を選びます\n真偽値のみを返します
+entity_model_features.config.function_explanation.randomb	random(seed)\nランダムな真偽値 true|false。シードを指定すると常に同じ結果を返します。シードは省略可能です
+entity_model_features.config.function_explanation.catch	catch(x,c,id)\nxを返しますが、xがNaNだったり他のアニメーションエラーを起こしたりした場合は代わりにcを返します。\nidは省略可能で、指定するとcが使われた理由をこのidでゲームログに出力します\n主にアニメーションのデバッグ用です。これが発動する可能性があるなら、本来はその原因を直すべきです。
+entity_model_features.config.function_explanation.todeg	todeg(rad)\nラジアンを度に変換します
+entity_model_features.config.function_explanation.torad	torad(deg)\n度をラジアンに変換します
+entity_model_features.config.function_explanation.wrapdeg	wrapdeg(x)\n角度(度)xを-180～180の範囲の対応する値に変換します
+entity_model_features.config.function_explanation.wraprad	wraprad(x)\n角度(ラジアン)xを-pi～piの範囲の対応する値に変換します
+entity_model_features.config.general	一般
+entity_model_features.config.general.tooltip	一般設定
+entity_model_features.config.large_mob_lod	大きなモブはLODを保つ
+entity_model_features.config.large_mob_lod.tooltip	有効にすると、上の設定による詳細度(LOD)の\n影響をモブの大きさに応じて減らします。\n大きなモブほど、小さなモブより\nフレーム飛ばしが目立たなくなります
+entity_model_features.config.lod	アニメーションのLOD距離
+entity_model_features.config.lod.tooltip	アニメーションがフレームを飛ばし始める距離を設定し、\n詳細度(LOD)を下げます。パフォーマンス向上に役立ちます\nなし = フレームを飛ばさない\n16 = プレイヤーから16ブロック離れるごとに1フレーム飛ばす\n数値が小さいほど飛ばすフレームが増え、パフォーマンスが上がりますが\nもちろんLOD距離を近く設定するほど、アニメーションの\nフレームレートの低さが目立つようになります
+entity_model_features.config.log_math	アニメーションの計算をログに記録
+entity_model_features.config.log_math.tooltip	アニメーション計算のデバッグデータをログに出力します\n警告: 非常に重くなります！
+entity_model_features.config.log_models	モデル構築の情報をログに記録
+entity_model_features.config.log_models.tooltip	モデル作成のデバッグデータをログに出力します
+entity_model_features.config.low_fps_lod	低FPS時はLODを保つ
+entity_model_features.config.low_fps_lod.tooltip	有効にすると、上の設定による詳細度(LOD)の\n影響をFPSに応じて減らします。\nFPSが低いほどフレーム飛ばしが目立つため、\n60FPS未満のときのみ適用されます
+entity_model_features.config.optimizations	最適化
+entity_model_features.config.optimizations.tooltip	アニメーションの最適化に関する設定
+entity_model_features.config.options	設定と修正
+entity_model_features.config.options.tooltip	基本機能の各種設定やMOD互換の修正
+entity_model_features.config.performance	パフォーマンス設定
+entity_model_features.config.print_mode	モデルの書き出し
+entity_model_features.config.print_mode.all_log	全モデル - ログのみ
+entity_model_features.config.print_mode.all_log_jem	全モデル - ログと.jem
+entity_model_features.config.print_mode.log	未知のモデル - ログのみ
+entity_model_features.config.print_mode.log_jem	未知のモデル - ログと.jem
+entity_model_features.config.print_mode.tooltip	EMFが扱えるすべてのモデルについて、再読み込みのたびに\nパーツの情報か完全な.jemファイルを出力します！！\n.jemファイルは再読み込み後に「MC_DIRECTORY/emf/export」にあります\n.jemファイルはBlockbenchでそのまま使え、\nピボット・ボックス・UVが正しく設定されています\n未知のモデルとは、OptiFineのCEMが対応していないモデルのことです
+entity_model_features.config.debug_hover	カーソルを合わせたときだけデバッグ描画
+entity_model_features.config.debug_hover.tooltip	上の描画設定を、クライアントがカーソルを合わせているエンティティにだけ適用します。\nつまり、あなたが直接見ているものです。
+entity_model_features.config.render	デバッグ描画モード
+entity_model_features.config.render.green	緑に点滅
+entity_model_features.config.render.lines	ワイヤーフレームのみ
+entity_model_features.config.render.lines_texture	テクスチャの上にワイヤーフレーム
+entity_model_features.config.render.lines_texture_flash	テクスチャの上にワイヤーフレームを点滅
+entity_model_features.config.render.none	無効

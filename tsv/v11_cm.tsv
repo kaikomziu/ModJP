@@ -1,0 +1,98 @@
+## compactmachines
+advancement.compactmachines.claimed_machine_giant	広さは足りてる？
+advancement.compactmachines.claimed_machine_giant.desc	巨大コンパクトマシンを確保する。
+advancement.compactmachines.claimed_machine_large	伸びしろ
+advancement.compactmachines.claimed_machine_large.desc	大型コンパクトマシンを確保する。
+advancement.compactmachines.claimed_machine_max	何でもできる広さ！
+advancement.compactmachines.claimed_machine_max.desc	最大コンパクトマシンを確保する。
+advancement.compactmachines.claimed_machine_normal	中は外より広い
+advancement.compactmachines.claimed_machine_normal.desc	通常コンパクトマシンを確保する。
+advancement.compactmachines.claimed_machine_small	息ができる
+advancement.compactmachines.claimed_machine_small.desc	小型コンパクトマシンを確保する。
+advancement.compactmachines.claimed_machine_tiny	小さな空間、大きな発想
+advancement.compactmachines.claimed_machine_tiny.desc	極小コンパクトマシンを確保する。
+advancement.compactmachines.foundations	基礎
+advancement.compactmachines.foundations.desc	壊せる壁ブロックを手に入れる。
+advancement.compactmachines.got_shrinking_device	個人用縮小装置
+advancement.compactmachines.got_shrinking_device.desc	個人用縮小装置を手に入れる
+advancement.compactmachines.how_did_you_get_here	どうやってここに来た？！
+advancement.compactmachines.how_did_you_get_here.desc	プレイヤーはどのマシンの中にいる？！
+advancement.compactmachines.recursion	再帰する部屋
+advancement.compactmachines.recursion.desc	再帰を理解するには、まず再帰を理解しなければならない。
+advancement.compactmachines.root	Compact Machines
+biome.compactmachines.machine	コンパクトマシン
+block.compactmachines.machine_giant	コンパクトマシン(巨大)
+block.compactmachines.machine_large	コンパクトマシン(大型)
+block.compactmachines.machine_maximum	コンパクトマシン(最大)
+block.compactmachines.machine_normal	コンパクトマシン(通常)
+block.compactmachines.machine_small	コンパクトマシン(小型)
+block.compactmachines.machine_tiny	コンパクトマシン(極小)
+block.compactmachines.solid_wall	頑丈なコンパクトマシンの壁
+block.compactmachines.tunnel_wall	頑丈なコンパクトマシンの壁(トンネル付き)
+block.compactmachines.wall	コンパクトマシンの壁
+command.compactmachines.cannot_give_machine_item	プレイヤーに新しいマシンを渡せなかった。
+command.compactmachines.failed_command_file_error	コマンドの実行に失敗した。ファイルエラーが発生した。ログを確認すること。
+command.compactmachines.level_not_found	コンパクトマシンのディメンションが見つからない。
+command.compactmachines.level_registered	コンパクトマシンのディメンションが見つかった。
+command.compactmachines.machine_given_successfully	新しいマシンアイテムを作成して%sに渡した。
+command.compactmachines.machine_not_bound	%sのマシンは部屋に結びついていない。
+command.compactmachines.not_in_compact_dim	そのコマンドはマシンの部屋の外では使えない。
+command.compactmachines.room_not_found	部屋[%s]が見つからない。
+command.compactmachines.room_reg_count	登録済みの部屋の数: %s
+command.compactmachines.spawn_changed_successfully	部屋[%s]のスポーン地点を変更した。
+command.compactmachines.summary.machines.dimension	[%s]: %s
+command.compactmachines.summary.machines.total	合計: %s
+compactmachines.connected_block	接続先: %s
+compactmachines.direction.down	下
+compactmachines.direction.east	東
+compactmachines.direction.north	北
+compactmachines.direction.side	面: %s
+compactmachines.direction.south	南
+compactmachines.direction.up	上
+compactmachines.direction.west	西
+compactmachines.psd.pages.machines	コンパクトマシンはこのMODの中心となる仕組み。外の世界とつながった広い部屋を1ブロック分の空間に作れる。サイズは3x3x3から13x13x13までいろいろある。\n\nトンネルを使うと、外側のブロックの面と内側の壁をつないで、アイテムや液体などを運べる。\n\nコンパクトマシンには個人用縮小装置で右クリックすると入れる。クラフトレシピはJEIで調べてほしい。
+compactmachines.psd.pages.machines.title	コンパクトマシン
+config.jade.plugin_compactmachines.machine	コンパクトマシンのブロック情報
+config.jade.plugin_compactmachines.machine_tunnels	コンパクトマシンのトンネルの有無
+config.jade.plugin_compactmachines.tunnel	トンネルの情報
+config.jade.plugin_compactmachines.tunnel_connection	トンネルの接続
+item.compactmachines.personal_shrinking_device	個人用縮小装置
+item.compactmachines.tunnels.energy	エネルギートンネル
+item.compactmachines.tunnels.fluid	液体トンネル
+item.compactmachines.tunnels.item	アイテムトンネル
+item.compactmachines.upgrades.chunkloader	チャンクローダーアップグレード
+item.compactmachines.upgrades.unnamed	名前のない部屋アップグレード
+itemGroup.compactmachines.main	Compact Machines
+jei.compactmachines.machines	マシンはポケットディメンションを作るのに使う。マシンをクラフトしてワールドに設置し、個人用縮小装置を使って中に入る。
+jei.compactmachines.shrinking_device	個人用縮小装置(PSD)をマシンに使うと、コンパクトな空間に入れる。オーバーワールドで右クリックすると詳しい情報も見られる。
+message.compactmachines.cannot_enter	縮小装置をいじってみたが、どうにもならない。動いてくれない。
+message.compactmachines.cannot_rename_not_owner	この部屋の名前を変えられるのは%sだけ。
+message.compactmachines.how_did_you_get_here	どうやってここに来た？！
+message.compactmachines.machine_room_info	%1$sのマシンは%3$sにある%2$sサイズの部屋に結びついている
+message.compactmachines.new_machine	新しいマシン
+message.compactmachines.no_available_sides	このトンネルの種類に使える面がない。
+message.compactmachines.no_machine_data	マシンのデータが読み込まれていない。報告してください。
+message.compactmachines.not_the_room_owner	あなたは部屋の所有者ではない。変更できるのは%sだけ。
+message.compactmachines.player_room_info	プレイヤー「%1$s」は%2$sにある%3$sの部屋の中にいる。
+message.compactmachines.spawnpoint_set	新しいスポーン地点を設定した。
+message.compactmachines.teleport_oob	この世ならざる力がテレポートを阻んでいる。
+message.compactmachines.unknown_room_chunk	%sに不明な部屋がある。存在するか確認してください。
+message.compactmachines.upgrade_add_failed	部屋へのアップグレードの適用に失敗した。
+message.compactmachines.upgrade_already_present	アップグレードはすでに部屋に適用されている。
+message.compactmachines.upgrade_applied	部屋にアップグレードを適用した。
+message.compactmachines.upgrade_not_present	アップグレードは部屋に適用されていない。
+message.compactmachines.upgrade_remove_failed	部屋からのアップグレードの取り外しに失敗した。
+message.compactmachines.upgrade_removed	部屋からアップグレードを取り外した。
+tooltip.compactmachines.details.psd	ゲーム内の説明書として使い、コンパクトマシンに入るのにも使う。
+tooltip.compactmachines.details.solid_wall	注意！クリエイティブ以外のプレイヤーには壊せない！
+tooltip.compactmachines.hint.hold_shift	Shiftを押し続けると詳細を表示。
+tooltip.compactmachines.machine.bound_to	結びつき先: %1$s
+tooltip.compactmachines.machine.id	マシン #%s
+tooltip.compactmachines.machine.owner	所有者: %s
+tooltip.compactmachines.machine.size	内部サイズ: %1$sx%1$sx%1$s
+tooltip.compactmachines.room_name	結びついた部屋: %s
+tooltip.compactmachines.room_upgrade_type	種類: %s
+tooltip.compactmachines.tunnel_type	種類ID: %1$s
+tooltip.compactmachines.tutorial_apply_room_upgrade	結びついたマシンブロックに使うとアップグレードを適用する。
+tooltip.compactmachines.unknown_player	不明なプレイヤー
+tooltip.compactmachines.unknown_tunnel_type	不明なトンネルの種類(%s)

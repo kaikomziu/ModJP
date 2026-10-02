@@ -1,0 +1,5 @@
+{
+  "command.flib.help.info": "これはコアMOD FutureLibraryのコマンド。このMODにはMODを支える多くのJava機能と、Modpackなどのプロジェクトを支えるサブコマンドがある",
+  "command.flib.help.perms": "他のサブコマンドを使うにはOP権限が必要",
+  "command.flib.help.config": "設定ファイルの場所:"
+}

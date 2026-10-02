@@ -1,0 +1,12 @@
+{
+  "key.toggleLiquids": "液体表示の切り替え",
+  "key.toggleVisible": "表示の切り替え",
+  "key.categories.theoneprobe": "The One Probe",
+  "item.theoneprobe.probe": "The One Probe",
+  "item.theoneprobe.probe_goggles": "The One Probe(装身具)",
+  "item.theoneprobe.diamond_helmet_probe": "プローブ付きダイヤモンドのヘルメット",
+  "item.theoneprobe.gold_helmet_probe": "プローブ付き金のヘルメット",
+  "item.theoneprobe.iron_helmet_probe": "プローブ付き鉄のヘルメット",
+  "item.theoneprobe.creativeprobe": "クリエイティブプローブ",
+  "item.theoneprobe.probenote": "The One Probe 説明書"
+}

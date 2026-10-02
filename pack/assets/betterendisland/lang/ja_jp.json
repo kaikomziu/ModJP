@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.betterendisland-fabric-1_20.title": "YUNG's Better End Island",
+  "text.autoconfig.betterendisland-fabric-1_20.option.general.resummonedDragonDropsEgg": "再召喚したドラゴンも卵を落とす",
+  "text.autoconfig.betterendisland-fabric-1_20.option.general.resummonedDragonDropsEgg.@Tooltip": "エンダードラゴンを倒すたびに卵をドロップするかどうか",
+  "text.autoconfig.betterendisland-fabric-1_20.option.general.useVanillaSpawnPlatform": "バニラの黒曜石の足場を生成",
+  "text.autoconfig.betterendisland-fabric-1_20.option.general.useVanillaSpawnPlatform.@Tooltip": "改修版の足場の代わりに、エンドにバニラの黒曜石の足場を生成するかどうか"
+}

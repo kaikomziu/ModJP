@@ -1,0 +1,12 @@
+{
+  "mekagenjei.jei.bio_fuel": "バイオ燃料発電機の燃料",
+  "mekagenjei.jei.fusion_fuels": "核融合炉の燃料",
+  "mekagenjei.jei.gas_burning": "ガス燃焼の燃料",
+  "mekagenjei.jei.pump_output": "ポンプの生産量",
+  "mekagenjei.jei.radioactive_gas": "放射性ガス",
+  "mekagenjei.jei.rate": "FE生産量",
+  "mekagenjei.jei.time": "持続時間",
+  "mekagenjei.jei.total": "FE総生産量",
+  "mekagenjei.jei.turbine_steam": "マルチブロックタービンの燃料",
+  "mekagenjei.waste.decay": "崩壊する"
+}

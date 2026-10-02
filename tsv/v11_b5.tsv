@@ -1,0 +1,258 @@
+## enchantablenametags
+@ enchantment.enchantablenametags.
+.invulnerable	無敵
+.invulnerable.desc	名前を付けた生き物が、クリエイティブのプレイヤーからのダメージ以外のあらゆるダメージを受けなくなる。
+.more_damage.desc	名前を付けた生き物の近接と遠距離のダメージを上げる。
+.more_speed	俊足
+.more_speed.desc	名前を付けた生き物の移動速度と泳ぐ速さを上げる。
+.faster_attack_speed	速撃
+.faster_attack_speed.desc	名前を付けた生き物の近接と遠距離の攻撃頻度を上げる。
+.more_health.desc	名前を付けた生き物の最大体力を上げる。
+.passive_regeneration	再生
+.passive_regeneration.desc	名前を付けた生き物の体力をハート半分ずつ繰り返し回復する。
+.tame	手なずけ
+.tame.desc	名前を付けた生き物を仲間にする。
+.guard.desc	名札を付けた場所を守り、戦闘後はそこに戻る。
+.dragon_breath.desc	対象が見えていて10ブロック以内にいる間、名前を付けた生き物が対象の方を向いて2.5秒ごとに火の玉を撃つ。
+.flight.desc	名前を付けた生き物が戦闘中に制御された飛行を行い、近くの攻撃者から飛んで逃げ、安全になったら着地する。翼は追加されない。
+.self_destruct	自爆
+.self_destruct.desc	名前を付けた生き物が対象の近くで爆発する。無敵の生き物は生き残り、5秒ごとに再び爆発できる。
+.shadow_clone	影分身
+.shadow_clone.desc	名前を付けた生き物に対象がいるとき、30秒に1回、分身を2体呼び出す。分身は12秒間持続する。
+.passive_nature	温厚な性格
+.passive_nature.desc	名前を付けた生き物に村人のような穏やかな性格を与える。
+.neutral_nature	中立の性格
+.neutral_nature.desc	名前を付けた生き物がオオカミのように、攻撃されると反撃して4ダメージを与えるようにする。
+.hostile_nature	敵対的な性格
+.hostile_nature.desc	名前を付けた生き物が35ブロック以内のプレイヤー、村人、行商人、アイアンゴーレム、子ガメを狩り、3ダメージを与えるようにする。
+.boss_nature	ボスの性格
+.boss_nature.desc	名前を付けた生き物が40ブロック以内のプレイヤーを積極的に狩り、8ダメージを与えるようにする。
+.ambush	待ち伏せ
+.ambush.desc	名前を付けた生き物が攻撃態勢の間、または攻撃を受けてから6秒間透明になる。
+.expanded_hostility	敵意の拡大
+.expanded_hostility.desc	名前を付けた生き物が32ブロック以内の最も近い敵対モブ(MODのモンスターを含む)を追うようにする。友好モブは狙わない。
+.provocation	挑発
+.provocation.desc	32ブロック以内の敵対的な生き物が、名前を付けた生き物を優先して狙うようにする。
+.water_breathing.desc	名前を付けた生き物が水中で永遠に呼吸できるようにする。
+## extrastorage
+advancements.extrastorage.advanced_exporter	高度なエクスポーター
+advancements.extrastorage.advanced_exporter.desc	ずっと大きなエクスポーター！
+advancements.extrastorage.advanced_importer	高度なインポーター
+advancements.extrastorage.advanced_importer.desc	フィルターがずっと増えた！
+advancements.extrastorage.iron_crafter	鉄のクラフター
+advancements.extrastorage.iron_crafter.desc	次世代のクラフター！
+block.extrastorage.advanced_exporter	高度なエクスポーター
+block.extrastorage.advanced_importer	高度なインポーター
+block.extrastorage.block_1024k	1024k ストレージブロック
+block.extrastorage.block_1048576k_fluid	1048576k 液体ストレージブロック
+block.extrastorage.block_16384k	16384k ストレージブロック
+block.extrastorage.block_16384k_fluid	16384k 液体ストレージブロック
+block.extrastorage.block_256k	256k ストレージブロック
+block.extrastorage.block_262144k_fluid	262144k 液体ストレージブロック
+block.extrastorage.block_4096k	4096k ストレージブロック
+block.extrastorage.block_65536k_fluid	65536k 液体ストレージブロック
+block.extrastorage.diamond_crafter	ダイヤモンドのクラフター
+block.extrastorage.gold_crafter	金のクラフター
+block.extrastorage.iron_crafter	鉄のクラフター
+block.extrastorage.netherite_crafter	ネザライトのクラフター
+config.jade.plugin_extrastorage.advanced_crafter	高度なクラフターの独自表示を有効化
+config.jade.plugin_extrastorage.crafter	クラフターの独自表示を有効化
+item.extrastorage.disk_1048576k_fluid	1048576k 液体ストレージディスク
+item.extrastorage.disk_262144k_fluid	262144k 液体ストレージディスク
+item.extrastorage.neural_processor	ニューラルプロセッサー
+item.extrastorage.raw_neural_processor	未加工のニューラルプロセッサー
+item.extrastorage.storagepart_1048576k_fluid	1048576k 液体ストレージパーツ
+item.extrastorage.storagepart_262144k_fluid	262144k 液体ストレージパーツ
+tooltip.extrastorage.baseSpeed	基本速度: %s倍
+tooltip.extrastorage.holdShift	Shiftを押し続けると詳細を表示
+tooltip.extrastorage.slotCrafting	パターン用スロット: %s
+top.extrastorage.currentSpeed	現在の速度: %s倍
+top.extrastorage.limitedSpeed	現在の速度(%sで制限): %s倍
+top.extrastorage.occupiedSpace	使用容量: %s/%s
+## observable
+screen.observable.profile	プロファイル
+screen.observable.results	結果
+key.observable.profile	プロファイラー画面を表示
+category.observable.keybinds	Observable
+text.observable.profile_tps	TPSを計測
+text.observable.profile_fps	FPSを計測
+text.observable.sampler	サンプラーで計測(負荷が増える)
+text.observable.unimplemented	未実装！
+text.observable.unavailable	サーバーにObservableが導入されていない
+text.observable.no_permissions	プロファイラーを開始する権限がない
+text.observable.error	操作の実行中にエラー: %s
+text.observable.report	github.com/tasgon/observable/issues に報告してください
+text.observable.entity_not_found	エンティティが見つからない。死んだか、何らかの理由で消えたのかも？
+text.observable.get_field	プロファイルのURL/ハッシュを入力…
+text.observable.get_btn	取得！
+text.observable.overlay	オーバーレイ
+text.observable.docs	Wiki
+text.observable.discord	Discord
+text.observable.donate	寄付
+text.observable.profile_started	Observableのプロファイルを%d秒間実行中…
+text.observable.profile_uploaded	プロファイルを%sにアップロードした
+text.observable.upload_failed	プロファイルをアップロードできなかった
+text.observable.profile_saved	プロファイルを%sにローカル保存した
+text.observable.after_save	このファイルを%sで開く
+text.observable.suggest	サーバーの動作が少し遅いようだ(%s tps)。%sでラグの原因を探そう。
+text.observable.suggest_action	Observableの利用を検討しよう
+text.observable.announce	このパックにはラグの原因を探すためのObservableが入っている。使い方は%sを参照。
+screen.observable.client_settings	設定
+text.observable.maxBlockDist	ブロックのラベルの最大距離(ブロック):
+text.observable.maxEntityDist	エンティティのラベルの最大距離(ブロック):
+text.observable.normalize	結果を正規化:
+text.observable.maxEntityCount	エンティティの最大数:
+text.observable.cmd	Observableは、サーバーのラグの原因を突き止めるのに役立つサーバー側のエンティティプロファイラー。詳しくは%sへ。
+## ars_elemental
+ars_elemental.perk.summon_power	召喚の力
+ars_elemental.perk.summon_power.desc	召喚した生き物のダメージを上げる。
+item.ars_elemental.summon_bangle	召喚士の腕輪
+item.ars_elemental.anima_bangle	アニマの腕輪
+item.ars_elemental.manipulation_caster_tome	操作の詠唱書
+entity.ars_elemental.summon_camel	召喚されたラクダ
+entity.ars_elemental.dripstone_spike	大地の棘
+effect.ars_elemental.venom	猛毒
+effect.ars_elemental.venom.description	対象は致命的な猛毒に冒され、毒の胞子から受けるダメージが増える。
+ars_elemental.page1.summon_bangle	この腕輪は召喚スペルのダメージを高める。召喚したものが腕の動きに従い、攻撃した相手を強化されたダメージで狙う。
+ars_elemental.page1.anima_bangle	この腕輪はアニマスペルのダメージを高める。腕に生と死の循環を感じ、攻撃した敵をランダムに回復またはウィザー状態にし、自分の体力も少し増える。
+ars_elemental.glyph_name.glyph_spark	スパーク
+ars_elemental.glyph_desc.glyph_spark	静電気の火花で対象にダメージを与えて感電させる。濡れたエンティティにはより大きなダメージを与える
+ars_elemental.glyph_name.glyph_spike	棘
+ars_elemental.glyph_desc.glyph_spike	触れたエンティティにダメージを与える鍾乳石の棘を作る。範囲拡大や貫通で幅や高さを、効果時間延長で持続時間を、増加でダメージを強化できる。
+ars_elemental.glyph_name.glyph_envenom	毒付与
+ars_elemental.glyph_desc.glyph_envenom	対象を毒にして継続ダメージを与える。対象がすでに毒状態なら、毒はより致命的な猛毒になる。猛毒状態の対象は毒の胞子から受けるダメージが増える。
+ars_elemental.glyph_name.glyph_arc_projectile	弧を描く投射
+ars_elemental.glyph_desc.glyph_arc_projectile	重力の影響を受ける投射体。貫通を1つ付けるごとに、地面に当たったとき1回跳ねる。
+death.attack.spark	%1$sはショートした
+death.attack.spark.item	%1$sは%3$sを使った%2$sに感電死させられた
+ars_elemental.focus.shift_info	%sを押し続けるとフォーカスの詳細を表示
+tooltip.ars_elemental.focus_element	特定の属性に同調したフォーカス。一部のグリフに新たな効果を与える。
+tooltip.ars_elemental.focus_boost	%s系統のグリフを増幅し、コストを軽減する。
+tooltip.ars_elemental.focus_malus	他の属性系統のグリフを弱める。
+tooltip.ars_elemental.focus_element_mana.air	装着者が空高くにいる間、マナ再生Iを与える。
+tooltip.ars_elemental.focus_element_mana.fire	装着者が燃えているか溶岩の中にいる間、スペルダメージIIを与える。
+tooltip.ars_elemental.focus_element_mana.water	装着者が濡れている間はマナ再生Iを、泳いでいる間はマナ再生IIとイルカの好意を与える。
+tooltip.ars_elemental.focus_element_mana.earth	装着者が地下深くにいる間、マナ再生Iを与える。
+tooltip.ars_elemental.focus_anima	召喚したエンティティは一度だけ、より強力な姿で死から蘇る。この亡霊は君の追尾スペルを真似し、敵を倒すと君を回復する。
+tooltip.ars_elemental.bags	ホットバーかCurioスロットにある間、%sで開ける。
+## unlocked_typing
+unlocked_typing.preformattedTextTitle	「§」付きの元のテキスト:
+unlocked_typing.button.copySymbol	記号をコピー
+unlocked_typing.button.copySymbol.description	クリックするとセクション記号をクリップボードにコピーする。
+unlocked_typing.button.rawText	元のテキスト: %s
+unlocked_typing.button.rawText.title	元のテキストを表示
+unlocked_typing.button.rawText.title.description	クリックすると、書式コードが見える状態のテキストを表示/非表示にする。
+unlocked_typing.button.formattingCodes	書式コードを見る
+unlocked_typing.button.formattingCodes.description	クリックすると書式コードの一覧を表示/非表示にする。
+unlocked_typing.formatting.black	黒
+unlocked_typing.formatting.dark_blue	濃い青
+unlocked_typing.formatting.dark_green	濃い緑
+unlocked_typing.formatting.dark_aqua	濃い水色
+unlocked_typing.formatting.dark_red	濃い赤
+unlocked_typing.formatting.dark_purple	濃い紫
+unlocked_typing.formatting.gold	金色
+unlocked_typing.formatting.gray	灰色
+unlocked_typing.formatting.dark_gray	濃い灰色
+unlocked_typing.formatting.blue	青
+unlocked_typing.formatting.green	緑
+unlocked_typing.formatting.aqua	水色
+unlocked_typing.formatting.red	赤
+unlocked_typing.formatting.light_purple	薄紫
+unlocked_typing.formatting.yellow	黄色
+unlocked_typing.formatting.white	白
+unlocked_typing.formatting.obfuscated	難読化
+unlocked_typing.formatting.bold	太字
+unlocked_typing.formatting.strikethrough	取り消し線
+unlocked_typing.formatting.underline	下線
+unlocked_typing.formatting.italic	斜体
+unlocked_typing.formatting.reset	リセット
+## corail_woodcutter_extension_byg
+@ block.corail_woodcutter.byg_
+.aspen_woodcutter	ヤマナラシの製材機
+.baobab_woodcutter	バオバブの製材機
+.blue_enchanted_woodcutter	青い魔法の木の製材機
+.bulbis_woodcutter	バルビスの製材機
+.cherry_woodcutter	サクラの製材機
+.cika_woodcutter	シカの製材機
+.cypress_woodcutter	イトスギの製材機
+.ebony_woodcutter	コクタンの製材機
+.embur_woodcutter	エンバーの製材機
+.ether_woodcutter	エーテルの製材機
+.fir_woodcutter	モミの製材機
+.green_enchanted_woodcutter	緑の魔法の木の製材機
+.holly_woodcutter	ヒイラギの製材機
+.imparius_woodcutter	インパリウスの製材機
+.jacaranda_woodcutter	ジャカランダの製材機
+.lament_woodcutter	ラメントの製材機
+.mahogany_woodcutter	マホガニーの製材機
+.mangrove_woodcutter	白いマングローブの製材機
+.maple_woodcutter	カエデの製材機
+.nightshade_woodcutter	ナイトシェードの製材機
+.palm_woodcutter	ヤシの製材機
+.pine_woodcutter	マツの製材機
+.rainbow_eucalyptus_woodcutter	レインボーユーカリの製材機
+.redwood_woodcutter	セコイアの製材機
+.skyris_woodcutter	スカイリスの製材機
+.sythian_woodcutter	シシアンの製材機
+.willow_woodcutter	ヤナギの製材機
+.witch_hazel_woodcutter	マンサクの製材機
+.zelkova_woodcutter	ケヤキの製材機
+## mmr
+modmenu.nameTranslation.mmr	Moog's Mineshafts Reimagined
+modmenu.summaryTranslation.mmr	バニラのブロックとエンティティで作り直された廃坑。あらゆるバイオームで、新しい戦利品、敵、驚きが詰まった生まれ変わった廃坑を探検しよう！
+modmenu.descriptionTranslation.mmr	Moog's Mineshafts Reimaginedは、Minecraftの廃坑を広大で変化に富んだ構造物に作り変える。バニラのブロックとエンティティで作られた各バイオームの廃坑はゲームに自然に溶け込み、刺激的な新しい戦利品、手ごわい敵、あちこちに潜む驚きを提供する。どんなModpackとも互換性があり、昔ながらのMinecraftらしさを保ちつつ世界を豊かにする。地下に広がる冒険と発見の世界へ飛び込もう！
+mmr.releases	GitHub Releases
+mmr.kofi	Ko-fi
+mmr.curseforge	CurseForge
+mmr.modrinth	Modrinth
+advancements.mmr.root.title	足元に注意
+advancements.mmr.root.description	Moogの廃坑のいずれかを発見する
+advancements.mmr.mineshaft.title	トロッコに気をつけて
+advancements.mmr.mineshaft.description	廃坑を発見する
+advancements.mmr.desert_mineshaft.title	やたらと砂っぽい
+advancements.mmr.desert_mineshaft.description	砂漠の廃坑を発見する
+advancements.mmr.snowy_mineshaft.title	見て！イグルーだ！
+advancements.mmr.snowy_mineshaft.description	雪原の廃坑を発見する
+advancements.mmr.jungle_mineshaft.title	木々とオウムのあいだで
+advancements.mmr.jungle_mineshaft.description	ジャングルの廃坑を発見する
+advancements.mmr.mesa_mineshaft.title	荒れ地の黄金
+advancements.mmr.mesa_mineshaft.description	荒野の廃坑を発見する
+advancements.mmr.dark_oak_mineshaft.title	経営者が変わりました
+advancements.mmr.dark_oak_mineshaft.description	今はイリジャーが運営するダークオークの廃坑を発見する
+advancements.mmr.mushroom_mineshaft.title	キノコの友情
+advancements.mmr.mushroom_mineshaft.description	キノコの廃坑を発見する
+advancements.mmr.deep_dark_mineshaft.title	そっと歩こう
+advancements.mmr.deep_dark_mineshaft.description	ディープダークの廃坑を発見する
+advancements.mmr.nether_mineshaft.title	灼熱の採掘
+advancements.mmr.nether_mineshaft.description	ネザーの廃坑を発見する
+advancements.mmr.all_mineshafts.title	一つ見ればすべてわかる
+advancements.mmr.all_mineshafts.description	Moogの廃坑をすべての種類発見する
+## elevatorid
+block.elevatorid.elevator_white	白色のエレベーター
+block.elevatorid.elevator_black	黒色のエレベーター
+block.elevatorid.elevator_blue	青色のエレベーター
+block.elevatorid.elevator_brown	茶色のエレベーター
+block.elevatorid.elevator_cyan	水色のエレベーター
+block.elevatorid.elevator_gray	灰色のエレベーター
+block.elevatorid.elevator_green	緑色のエレベーター
+block.elevatorid.elevator_light_blue	空色のエレベーター
+block.elevatorid.elevator_lime	黄緑色のエレベーター
+block.elevatorid.elevator_magenta	赤紫色のエレベーター
+block.elevatorid.elevator_orange	橙色のエレベーター
+block.elevatorid.elevator_pink	桃色のエレベーター
+block.elevatorid.elevator_purple	紫色のエレベーター
+block.elevatorid.elevator_red	赤色のエレベーター
+block.elevatorid.elevator_light_gray	薄灰色のエレベーター
+block.elevatorid.elevator_yellow	黄色のエレベーター
+elevatorid.subtitle.teleport	エレベーター: 使用
+elevatorid.subtitle.camouflage	エレベーター: 偽装
+screen.elevatorid.elevator	エレベーターの設定
+screen.elevatorid.elevator.directional	方向指定
+screen.elevatorid.elevator.directional_north	北
+screen.elevatorid.elevator.directional_east	東
+screen.elevatorid.elevator.directional_south	南
+screen.elevatorid.elevator.directional_west	西
+screen.elevatorid.elevator.hide_arrow	矢印を隠す
+screen.elevatorid.elevator.reset_camo	偽装を解除
+elevatorid.message.missing_xp	テレポートするのに経験値が足りない
+itemGroup.elevators_tab	Elevators

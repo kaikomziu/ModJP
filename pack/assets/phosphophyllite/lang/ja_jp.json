@@ -1,0 +1,20 @@
+{
+  "item_group.phosphophyllite": "Phosphophyllite",
+  "multiblock.error.phosphophyllite.invalid_block.frame": "%2$sの枠に無効なブロック(%1$s)がある",
+  "multiblock.error.phosphophyllite.invalid_block.exterior": "%2$sの外装に無効なブロック(%1$s)がある",
+  "multiblock.error.phosphophyllite.invalid_block.interior": "%2$sの内部に無効なブロック(%1$s)がある",
+  "multiblock.error.phosphophyllite.invalid_block.corner": "%2$sの角に無効なブロック(%1$s)がある",
+  "multiblock.error.phosphophyllite.invalid_block.generic": "%2$sに無効なブロック(%1$s)がある",
+  "multiblock.error.phosphophyllite.unknown": "不明なマルチブロックのエラーが発生した。MOD作者に報告してください",
+  "multiblock.error.phosphophyllite.null_controller": "マルチブロックシステムで不明な内部エラーが発生した。Phosphophylliteに報告してください",
+  "multiblock.error.phosphophyllite.dimensions": "この大きさは許可されていない \n実際: %d, %d, %d, \n最小: %d, %d, %d, \n最大: %d, %d, %d,",
+  "block.phosphophyllite.item_black_hole": "アイテムブラックホール",
+  "block.phosphophyllite.item_white_hole": "アイテムホワイトホール",
+  "block.phosphophyllite.fluid_black_hole": "液体ブラックホール",
+  "block.phosphophyllite.fluid_white_hole": "液体ホワイトホール",
+  "block.phosphophyllite.power_black_hole": "電力ブラックホール",
+  "block.phosphophyllite.power_white_hole": "電力ホワイトホール",
+  "block.phosphophyllite.phosphophyllite_ore": "フォスフォフィライト鉱石",
+  "item.phosphophyllite.debug_tool": "デバグ用ツール",
+  "random.bullshit.that.doesnt.actually.get.used.anywhere": "末尾のカンマを置けるようにするためのもの、いいね"
+}

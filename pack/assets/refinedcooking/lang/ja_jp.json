@@ -1,0 +1,17 @@
+{
+  "itemGroup.refinedcooking": "Refined Cooking",
+  "block.refinedcooking.kitchen_station": "キッチンステーション",
+  "block.refinedcooking.kitchen_access_point": "キッチンアクセスポイント",
+  "item.refinedcooking.kitchen_network_card": "キッチンネットワークカード",
+  "gui.refinedcooking.kitchen_access_point": "キッチンアクセスポイント",
+  "gui.refinedcooking.kitchen_access_point.distance": "%dブロック",
+  "gui.refinedcooking.kitchen_access_point.missing_card": "キッチンカードがない",
+  "misc.refinedcooking.kitchen_network_card.tooltip": "%4$sの%1$d, %2$d, %3$dにリンク済み。",
+  "tooltip.refinedcooking:kitchen_station.description": "Refined Storageのネットワークにつながるステーションのノード",
+  "config.jade.plugin_refinedcooking.kitchen_station": "キッチンステーション",
+  "config.jade.plugin_refinedcooking.kitchen_access_point": "キッチンアクセスポイント",
+  "jade.refinedcooking:kitchen_station": "%sのネットワークに接続済み",
+  "jade.refinedcooking:online_transmitting": "ネットワークに接続済み - 送信中",
+  "jade.refinedcooking:online_no_transmission": "ネットワークに接続済み - 送信していない",
+  "jade.refinedcooking:offline": "ネットワークに未接続"
+}

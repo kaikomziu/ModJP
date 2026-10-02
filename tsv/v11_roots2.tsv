@@ -1,0 +1,266 @@
+## rootsclassic
+@ rootsclassic.research.
+.disabled	設定で無効化されています！
+.nature	自然の術
+.nature.bark_harvesting	樹皮の採取
+.nature.bark_harvesting.page1title	簡単な素材
+.nature.bark_harvesting.page1info	木は自然魔法にとってとても重要です。木材と苗木を使えば、木の樹皮をやさしく剥ぎ取れるナイフを作れます。樹皮はレシピや儀式に使えます。原木ブロックを右クリックすると樹皮を採取できますが、原木が壊れることもあります。
+.nature.magical_materials	希少素材
+.nature.magical_materials.page1title	魔法の根源
+.nature.magical_materials.page1info	あなたの周りの世界には、自然魔法のさまざまな面で欠かせない、希少な植物や薬草がいくつも見つかります。
+.nature.magical_materials.page2title	古い根
+.nature.magical_materials.page2info	古い根は背の高い草を壊すと1/40の確率で見つかります。修飾なしの呪文に必要なため、序盤の魔法の多くで使います。食べるとほんの少し満腹度を回復できます。
+.nature.magical_materials.page3title	新緑の小枝
+.nature.magical_materials.page3info	新緑の小枝は、あらゆる種類の成長しきった作物を収穫すると1/30の確率でドロップします。収穫後も宿り続ける生命力を持つため、物に命を与える用途によく使われます。
+.nature.magical_materials.page4title	地獄の球根
+.nature.magical_materials.page4info	地獄の球根は成長したネザーウォートから1/20の確率でドロップします。故郷であるネザーの炎を宿しているため、大量のエネルギーが必要なときに役立ちます。かなり優秀なかまどの燃料にもなり、スケルトンに与えるとウィザー化させられます。
+.nature.magical_materials.page5title	竜の眼
+.nature.magical_materials.page5info	竜の眼はコーラスフラワーから1/10の確率でドロップします。エンダードラゴンそのものと同じ異界のエネルギーを宿しています。呪文での用途のほか、食べるとコーラスフルーツより強力な効果があり、精錬するとエンダーパールが1個得られます。
+.nature.growth_powder	成長の粉
+.nature.growth_powder.page1title	芝生の手入れ
+.nature.growth_powder.page1info	この簡単な混合物は土に草を生やせます。右クリックで4ブロック以内のブロックに粉を投げると、狭い範囲に草が生えます。
+.nature.mutating_powder	変異の粉
+.nature.mutating_powder.page1title	新たな植物
+.nature.mutating_powder.page1info	ネザースターの力を使い、新種の植物を生み出す変異の粉を作り出しました。この粉はごく限られた状況でのみ使い、その方法はこの石板の呪文の材料の章に記されています。
+.nature.berries	ベリー
+.nature.berries.page1title	採集
+.nature.berries.page1info	葉を素手で壊すと、ときどきランダムなベリーが見つかります。ベリーは5種類あり、それぞれ性質が異なります。後で呪文や儀式に使えるものもあるかも…
+.nature.stew	根っこシチュー
+.nature.stew.page1title	あなたにスープを
+.nature.stew.page1info	古い根はそのままでも食べられますが、あまりおいしくありません。ボウルで小麦と一緒に煮込めば、ずっと多く満腹度を回復できるおいしいシチューになります。
+.nature.poultice	治癒の湿布
+.nature.poultice.page1title	薬
+.nature.poultice.page1info	新緑の小枝は生命に関わる性質のためによく使われます。この湿布で新緑の小枝の果肉を傷に塗ると、体力を少し回復できます。
+.spells	呪文作成
+.spells.mortar	乳鉢
+.spells.mortar.page1title	乳鉢
+.spells.mortar.page1info	周りの世界の植物には、まだ使われていない膨大な力が眠っているようです。それを引き出すには、すりつぶしてしまうのが一番でしょう？
+.spells.mortar.page2title	乳棒
+.spells.mortar.page2info	もちろん、植物をすりつぶすには、すりつぶす道具が必要です。滑らかな白い石で作ったこの乳棒なら、うまくこなしてくれるはず。
+.spells.mortar.page3title	使い方
+.spells.mortar.page3info	乳鉢と乳棒の使い方はとても簡単です。この石板にはさまざまな呪文のレシピが載っています。それらの材料すべてと、特定の基本材料が必要です。最も基本的な呪文を作るには、呪文のレシピの材料と古い根を入れるだけ。これで修飾なしの呪文ができます。
+.spells.imbuer	杖への付与
+.spells.imbuer.page1title	付与台
+.spells.imbuer.page1info	乳鉢と乳棒からは呪文用の上質な呪文の粉ができますが、それだけでは使えません。この装置を使えば、粉の自然のエネルギーを木の枝に流し込めます。棒を入れて粉を入れ、杖が出てくるのを待ちましょう。
+.spells.imbuer.page2title	杖の仕組み
+.spells.imbuer.page2info	魔法の杖の使い方はとても簡単です。自然の力が込められているので、右クリック長押しで呪文をチャージし、約1秒後に離せば発動します。杖には使用回数の制限があり、使い切ると完全に壊れます。効率の修飾で使用回数を増やせます。
+.spells.modifiers	修飾
+.spells.modifiers.page1title	もっとお得に
+.spells.modifiers.page1info	呪文に修飾を混ぜると、ずっと強力にできます。効力の修飾(グロウストーンダスト)は呪文の効果の強さを高めます。効率の修飾(レッドストーンダスト)は詠唱コストと使用回数を改善します。範囲の修飾(火薬)は呪文の効果範囲を広げます。
+.spells.modifiers.page2title	基本材料
+.spells.modifiers.page2info	ただし、呪文に修飾を付けるには特定の基本材料が必要です。古い根では呪文は作れますが修飾は付けられません。新緑の小枝は修飾1枠、地獄の球根は2枠、竜の眼は3枠に対応します。これらの材料は、他の修飾より先に乳鉢へ入れる必要があります。
+.spells.mana	テラ
+.spells.mana.page1title	詠唱コスト
+.spells.mana.page1info	新しい杖を手に持つと、自分の中に目覚めた力と、画面上にちょうどよく現れたバーに気づきます。この葉は、テラと呼ばれる体の奥深くの生命力を表し、呪文の源となります。すべての呪文はこのエネルギーを一定量消費しますが、時間とともにかなり早く回復します。
+.spells.poppy	呪文の材料: 狂気
+.spells.poppy.page1title	裏切り
+.spells.poppy.page1info	ポピーには精神に作用する成分が自然に含まれていることがあるため、呪文での能力も精神に関わるものになります。上のレシピで、近くのモンスター同士を攻撃させ合う呪文を作れます。
+.spells.blue_orchid	呪文の材料: 大地の棘
+.spells.blue_orchid.page1title	最大の攻撃は…
+.spells.blue_orchid.page1info	ヒスイランは大地や地面に関係しているようです。上のレシピで、見ている近くのブロックに大地の棘を生やす呪文を作れます。棘はモブを空中に放り上げますが、とっさの防御壁にしたり、土・石・砂・砂利のような簡単な素材を複製したりするのにも使えます。
+.spells.allium	呪文の材料: 引き裂く一撃
+.spells.allium.page1title	装備破壊
+.spells.allium.page1info	アリウムにはわずかな破壊のエネルギーが宿っています。上のレシピで、対象に単純なダメージを与える呪文を作れます。さらに、対象がツールを持っていたり防具を着ていたりすると、その装備に大きなダメージを与えます。
+.spells.azure_bluet	呪文の材料: 粉砕
+.spells.azure_bluet.page1title	魔法で採掘
+.spells.azure_bluet.page1info	ヒナソウには石を砕く潜在的なエネルギーが宿っています。上のレシピで、狙った狭い範囲のブロックを壊す呪文を作れます。採掘レベルは鉄のツールと同等で、効力の修飾で上げられます。
+.spells.red_tulip	呪文の材料: 悪魔の花
+.spells.red_tulip.page1title	召喚
+.spells.red_tulip.page1info	赤いチューリップの魅力は、どうやら…不吉なものを引き寄せるようです。上のレシピで、近くのモブを攻撃する幻影のスケルトンを召喚できます。
+.spells.orange_tulip	呪文の材料: 防護
+.spells.orange_tulip.page1title	フォースフィールド
+.spells.orange_tulip.page1info	橙色のチューリップは守りと抵抗に結びついています。上のレシピで、呪文を右クリック長押ししている間、モブを押し返し飛び道具を止める呪文を作れます。
+.spells.white_tulip	呪文の材料: 凍てつく冷気
+.spells.white_tulip.page1title	カチコチ
+.spells.white_tulip.page1info	白いチューリップには冷気と氷の魔法の精髄が含まれています。上のレシピでこの冷気の力を解き放ち、当たった対象にダメージを与えつつ減速させる呪文を作れます。
+.spells.pink_tulip	呪文の材料: 生命吸収
+.spells.pink_tulip.page1title	吸血
+.spells.pink_tulip.page1info	ピンクのチューリップは生き物の生命力と密接に結びつくことがわかりました。上のレシピで、当たったエンティティにダメージを与えながら、その生命力の一部を奪って自分を回復する呪文を作れます。
+.spells.oxeye_daisy	呪文の材料: 加速
+.spells.oxeye_daisy.page1title	オーバークロック
+.spells.oxeye_daisy.page1info	フランスギクは時の流れそのものに同調しています。上のレシピで、呪文で狙ったかまどや醸造台などの装置のティック速度を上げる呪文を作れます。デフォルトでは、これらの装置の速度を3倍にします。
+.spells.dandelion	呪文の材料: タンポポの風
+.spells.dandelion.page1title	突風
+.spells.dandelion.page1info	タンポポに風に関わる力があることを発見しました。上のレシピで、前方のエンティティを吹き飛ばす呪文を作れます。
+.spells.sunflower	呪文の材料: 太陽の鉄槌
+.spells.sunflower.page1title	アンデッドの天敵
+.spells.sunflower.page1info	ヒマワリは一生をかけて太陽の光を吸収し続けます。上のレシピで、蓄えられた日光を少し引き出し、普通のモブにはいくらかのダメージを、アンデッドのモンスターには大量の追加ダメージを与えて燃やせます。
+.spells.lilac	呪文の材料: 成長
+.spells.lilac.page1title	魔法の肥料
+.spells.lilac.page1info	ライラックの奥深くに成長のエネルギーの火花が宿っていることを発見しました。上のレシピで、近くの植物を成長させる呪文を作れます。狙ったブロックの周りの成長可能な植物が対象になり、それぞれに一定確率で骨粉の効果を与えます。
+.spells.rose_bush	呪文の材料: バラの棘
+.spells.rose_bush.page1title	自然の防御
+.spells.rose_bush.page1info	バラの低木のとげとげしさを呪文に取り込む方法を発見しました。上のレシピで、対象に純粋なダメージを与える呪文を作れます。この呪文はノックバックを起こさないので注意してください。
+.spells.peony	呪文の材料: 再生
+.spells.peony.page1title	やさしい手当て
+.spells.peony.page1info	シャクヤクにはやさしい癒しの性質があることがわかりました。上のレシピで、自分を少しだけ回復する呪文を作れます。
+.spells.apple	呪文の材料: 自然の治療
+.spells.apple.page1title	治療
+.spells.apple.page1info	リンゴにはある程度の治癒作用があることを発見しました。上のレシピで、今かかっている悪い効果を、対応する良い効果があればそれに変える呪文を作れます。
+.spells.lily_pad	呪文の材料: 水流
+.spells.lily_pad.page1title	消火器
+.spells.lily_pad.page1info	水草であるスイレンの葉には、水に関わる何らかの力がありそうです。上のレシピで、前方4ブロックに一時的な水を噴き出す呪文を作れます。火を消したり、近くのモブを押し返したりするのにとても便利です。
+.spells.poisonous_potato	呪文の材料: 電撃
+.spells.poisonous_potato.page1title	落雷
+.spells.poisonous_potato.page1info	ジャガイモの持つ電荷と毒の有害さが組み合わさり、非常に破壊的な呪文が生まれます。上のレシピで、見ている近くのブロックに雷を落とす呪文を作れます。
+.spells.nether_wart	呪文の材料: インフェルノ
+.spells.nether_wart.page1title	火の玉
+.spells.nether_wart.page1info	ネザーウォートは炎に満ちた故郷ネザーから多くを吸収しています。上のレシピで、当たった対象にダメージを与えて燃やす呪文を作れます。
+.spells.chorus	呪文の材料: エンダーワープ
+.spells.chorus.page1title	テレポート
+.spells.chorus.page1info	コーラスフルーツは食べるだけでもランダムにテレポートできます。上のレシピで、この能力をより制御できる呪文を作れます。壁越しや落下中でも、前方にテレポートできます。
+.spells.radiant_daisy	呪文の材料: 光輝
+.spells.radiant_daisy.page1title	光の花
+.spells.radiant_daisy.page1info	オーバーワールドで変異の花を使うと、輝く白い花ができます。作り方: フランスギクを植えます。正午に、その横へグロウストーンブロック1個とプリズマリンクリスタル1個を投げ置き、暗視の効果を受けた状態で花に粉を使います。
+.spells.radiant_daisy.page2title	貫く光線
+.spells.radiant_daisy.page2info	作り出した新しい花には、オーバーワールドの輝く日光の精髄そのものが宿っています。上のレシピで、前方の大きな光線に当たった生物に非常に大きなダメージを与える呪文を作れます。
+.spells.flare_orchid	呪文の材料: 燃焼
+.spells.flare_orchid.page1title	燃える植物
+.spells.flare_orchid.page1info	ネザーで変異の粉を使うと、燃えるような赤い花ができます。作り方: ネザーにヒスイランを植えます。花の周りをネザーラックで囲みます。火炎耐性の効果を受けた状態で、ブレイズロッドと溶岩入りバケツを花の近くに投げ、花に粉を使います。
+.spells.flare_orchid.page2title	破壊
+.spells.flare_orchid.page2info	作り出した新しい花には、ネザーの混沌とした炎があふれています。上のレシピで、見ているブロックに大爆発を起こす呪文を作れます。
+.spells.midnight_bloom	呪文の材料: 時間停止
+.spells.midnight_bloom.page1title	エンダーの花
+.spells.midnight_bloom.page1info	エンドで変異の粉を使うと、夜のように黒い花ができます。作り方: エンドで黒曜石の2ブロック上にポピーを植えます。鈍化の効果を受けた状態で、花の横に石炭ブロックを投げ、花に粉を使います。
+.spells.midnight_bloom.page2title	時の魔術師
+.spells.midnight_bloom.page2info	作り出した新しい花には、制御しきれないほどの力があふれています。上のレシピで、周囲の範囲内の全エンティティの時間を止める呪文を作れます。呪文が終わるまで彼らは更新されず、その間あなたは動いたり、攻撃したり、勝ち誇ったりできます。
+.ritual	儀式
+.ritual.ritual	儀式の基本
+.ritual.ritual.page1title	祭壇
+.ritual.ritual.page1info	地中深くから素材を手に入れたことで、これまで以上に強力な魔法を使える新しい構造物を作り出しました。祭壇ではさまざまな儀式を行え、それぞれ異なる材料と条件が必要です。
+.ritual.ritual.page2title	香
+.ritual.ritual.page2info	ほとんどの儀式、あるいはすべての儀式には香が必要です。香炉は祭壇の周囲9×9の範囲内、かつ同じ高さにある場合にのみ数えられます。香炉にアイテムを入れ、火打石と打ち金で火をつけます。素手でスニーク右クリックすると香炉の火を消せます。
+.ritual.ritual.page3title	基本の詠唱
+.ritual.ritual.page3info	一般的な儀式は次の手順で行います。まず必要なアイテムを祭壇に置き、必要な香に火をつけます。祭壇に余計な材料がない、余計な香が焚かれていないことを確認してください。さもないと儀式は失敗します。その後、素手で祭壇をスニーク右クリックすると儀式が始まります。
+.ritual.living_tools	生きたツール
+.ritual.living_tools.page1title	自己修復
+.ritual.living_tools.page1info	儀式を使えば、命のない物に生命エネルギーを流し込めます。これを使えば、木のツールをより新しく強い形に育てられます。補強に少しの金と、育つ土台となる新緑の小枝を加えれば、鉄と同程度の強さで、時間とともにゆっくり自己修復するツールが得られます。
+.ritual.living_tools.page2title	儀式: 生きたツルハシ
+.ritual.living_tools.page3title	儀式: 生きた斧
+.ritual.living_tools.page4title	儀式: 生きたシャベル
+.ritual.living_tools.page5title	儀式: 生きた剣
+.ritual.living_tools.page6title	儀式: 生きたクワ
+.ritual.grow	成長の儀式
+.ritual.grow.page1title	命の火花
+.ritual.grow.page1info	祭壇の簡単な生命操作の力で、作物の成長を助ける儀式を考案しました。この儀式は35×35×9の範囲の作物を探し、そのうちいくつかにランダムで骨粉のような効果を与えます。
+.ritual.grow.page2title	儀式: 成長
+.ritual.standing_stones	立石
+.ritual.standing_stones.page1title	刻印の石
+.ritual.standing_stones.page1info	より強力な儀式を使うには、周りの世界から生命エネルギーを引き出すより良い方法が必要です。この石の構造物にルーンを刻むことで、周囲の世界から力を引き込み、魔法の欲求を満たす力を与えられます。
+.ritual.animal_summoning	動物の蘇生
+.ritual.animal_summoning.page1title	命を与える者
+.ritual.animal_summoning.page1info	立石による強化された力があれば、死んだ生き物の亡骸に十分な癒しのエネルギーを込めて蘇らせられると考えました。友好モブの肉と骨を捧げると、この儀式でそのモブが祭壇の上に蘇ります。
+.ritual.animal_summoning.page2title	儀式: ブタの召喚
+.ritual.animal_summoning.page3title	儀式: ウシの召喚
+.ritual.animal_summoning.page4title	儀式: ヒツジの召喚
+.ritual.animal_summoning.page5title	儀式: ニワトリの召喚
+.ritual.animal_summoning.page6title	儀式: ウサギの召喚
+.ritual.crystal_staff	クリスタルの杖
+.ritual.crystal_staff.page1title	再利用できる魔法
+.ritual.crystal_staff.page1info	長い間、普通の杖の使用回数の制限に縛られてきました。地中深くの希少なクリスタルを使い、呪文を無期限に保存する方法を生み出したと確信しています。それがクリスタルの杖です。この杖は呪文を無期限に保持できるだけでなく、同時に4つまで保存できます。
+.ritual.crystal_staff.page2title	儀式: クリスタルの鍛造
+.ritual.crystal_staff.page3title	呪文の追加
+.ritual.crystal_staff.page3info	杖に呪文を追加するには別の儀式が必要です。この儀式に表示された材料に加えて、香として呪文の粉を4つまで追加できます。それぞれが杖に追加され、必要なら以前の呪文を上書きします。スニークして右クリックすると杖の呪文を切り替えられます。
+.ritual.crystal_staff.page4title	儀式: クリスタルへの付与
+.ritual.crystal_staff.page5title	制限
+.ritual.crystal_staff.page5info	ただし、この新しい杖には大きな制限があります。土、草、葉、原木などの自然のブロックの上に立って使う必要があるのです。そうでないと、杖は使用者自身の生命力を使って呪文を唱えます。
+.ritual.rain_rituals	降雨の制御
+.ritual.rain_rituals.page1title	天候の魔法
+.ritual.rain_rituals.page1info	いくつかの簡単な自然の材料で、2つの儀式を発見しました。1つは世界に雨を呼び、もう1つは雨を払います。
+.ritual.rain_rituals.page2title	儀式: 雨乞い
+.ritual.rain_rituals.page3title	儀式: 雨払い
+.ritual.flare	炎の爆発
+.ritual.flare.page1title	攻撃の儀式
+.ritual.flare.page1info	儀式のすべてが、雨を切り替えたりペットのブタを蘇らせたりする楽しい目的のものではありません。フレアの儀式はネザーの燃える素材と不安定な燃料を使い、祭壇の周囲45×45×17の範囲のモブを燃やします。祭壇のすぐ近くのプレイヤーは除きます。
+.ritual.flare.page2title	儀式: フレア
+.ritual.standing_stones2	強化された立石
+.ritual.standing_stones2.page1title	次の段階
+.ritual.standing_stones2.page1info	またしても壁にぶつかりました。立石は強力ですが、まだ手の届かないもっと強力な魔法がたくさんあるはずです。しかしネザーへ旅したことで、よりエネルギーに満ちた素材を使えば、生命エネルギーをはるかに効率よく引き出せる石を作れることを発見しました。
+.ritual.monster_summoning	モンスターの蘇生
+.ritual.monster_summoning.page1title	不死
+.ritual.monster_summoning.page1info	より強力な祭壇があれば、以前の蘇生の儀式をもっと強く不吉な対象にも使えるかもしれません。骨と関連するドロップ品を捧げると、好きなモブを祭壇の上に召喚できます。
+.ritual.monster_summoning.page2title	儀式: ゾンビの召喚
+.ritual.monster_summoning.page3title	儀式: スケルトンの召喚
+.ritual.monster_summoning.page4title	儀式: クモの召喚
+.ritual.monster_summoning.page5title	儀式: クリーパーの召喚
+.ritual.monster_summoning.page6title	儀式: 洞窟グモの召喚
+.ritual.monster_summoning.page7title	儀式: スライムの召喚
+.ritual.monster_summoning.page8title	儀式: エンダーマンの召喚
+.ritual.sylvan_armor	森の防具
+.ritual.sylvan_armor.page1title	ドルイドのローブ
+.ritual.sylvan_armor.page1info	新しく強くなった祭壇に合わせて、装いも新しくしたくなるでしょう。革の防具を土台に、魔法と相性の良いローブを作り出しました。防御力は最高ではありませんが、自動で修復し、呪文の効率の修飾を2上げてくれます。
+.ritual.sylvan_armor.page2title	儀式: 森のフード
+.ritual.sylvan_armor.page3title	儀式: 森のローブ
+.ritual.sylvan_armor.page4title	儀式: 森のチュニック
+.ritual.sylvan_armor.page5title	儀式: 森のブーツ
+.ritual.wildwood_armor	野生樹の防具
+.ritual.wildwood_armor.page1title	木の防具
+.ritual.wildwood_armor.page1info	おしゃれなローブも良いですが、純粋な防御力が欲しいときもあります。鉄の防具を土台にした野生樹の防具は、その目的をしっかり満たします。鉄とダイヤモンドの防具の中間の防御力を持ち、自動で修復し、満腹度がなくても自然回復を高めます。
+.ritual.wildwood_armor.page2title	野生樹の仮面
+.ritual.wildwood_armor.page3title	野生樹の胸当て
+.ritual.wildwood_armor.page4title	野生樹のレギンス
+.ritual.wildwood_armor.page5title	野生樹のブーツ
+.ritual.powered_stones	活性化した石
+.ritual.powered_stones.page1title	シンプルだが効果的
+.ritual.powered_stones.page1info	これまで立石で生命エネルギーを引き出してきましたが、単独で使ったことはありませんでした。しかし地獄の球根の秘めた力と儀式の再生効果を使い、周囲の範囲で単純な役割を永久に、コストなしで果たす立石を作り出しました。
+.ritual.powered_stones.page2title	儀式: 加速の石
+.ritual.powered_stones.page3title	加速
+.ritual.powered_stones.page3info	加速の石は近くのすべての生物に移動速度上昇 IIの効果を与えます。
+.ritual.powered_stones.page4title	儀式: 絡みつきの石
+.ritual.powered_stones.page5title	絡みつき
+.ritual.powered_stones.page5info	絡みつきの石は近くのすべての生物に移動速度低下 IIの効果を与えます。
+.ritual.powered_stones.page6title	儀式: 成長の石
+.ritual.powered_stones.page7title	成長
+.ritual.powered_stones.page7info	成長の石は近くの作物の成長速度を少し上げます。
+.ritual.powered_stones.page8title	儀式: 治癒の石
+.ritual.powered_stones.page9title	治癒
+.ritual.powered_stones.page9info	治癒の石は近くのすべての生物に再生能力の効果を与えます。
+.ritual.powered_stones.page10title	儀式: 点火の石
+.ritual.powered_stones.page11title	点火
+.ritual.powered_stones.page11info	点火の石は近くの生物を数秒間燃やします。
+.ritual.powered_stones.page12title	儀式: 反発の石
+.ritual.powered_stones.page13title	反発
+.ritual.powered_stones.page13info	反発の石は近くに落ちているアイテムを押しのけます。
+.ritual.powered_stones.page14title	儀式: 吸引の石
+.ritual.powered_stones.page15title	吸引
+.ritual.powered_stones.page15info	吸引の石は近くに落ちているアイテムを引き寄せます。
+.ritual.powered_stones.page16title	儀式: 立石
+.ritual.powered_stones.page17title	立石
+.ritual.powered_stones.page17info	基本の立石。パーティクルはバラの赤、ラピスラズリ、サボテンの緑で色を変えられ、骨粉で元に戻せます。
+.ritual.mass_breeding	一斉繁殖
+.ritual.mass_breeding.page1title	動物農場
+.ritual.mass_breeding.page1info	繁殖用の一般的なアイテムを香として焚くことで、45×45×17の範囲内の繁殖可能なモブをすべて繁殖モードにする儀式を考案しました。
+.ritual.mass_breeding.page2title	儀式: 一斉繁殖
+.ritual.life_drain	生命吸収
+.ritual.life_drain.page1title	取り戻す
+.ritual.life_drain.page1info	敵対モブの持つ生命力は堕落し汚れています。この儀式で、その生命力をより有益な目的に使う方法を考案しました。この儀式は広範囲の敵対モブすべてにダメージを与え、与えたダメージを近くのプレイヤーへ回復として均等に分配します。
+.ritual.life_drain.page2title	儀式: 生命吸収
+.ritual.sacrifice	生贄
+.ritual.sacrifice.page1title	超自然の取引
+.ritual.sacrifice.page1info	呪文を完成させるために特定の植物を探して長い冒険に出るのは、もううんざりです。この儀式で、不吉な解決策を考案しました。この儀式がパーティクルの光のショーを終えると、近くに置いたモブを即座に倒します。その代わりに、祭壇からランダムな植物がドロップすることがあります。そのドロップの出所はあなたにもわかりません…
+.ritual.sacrifice.page2title	儀式: 生贄
+.ritual.runic_focus	ルーンのフォーカス
+.ritual.runic_focus.page1title	蓄えられた力
+.ritual.runic_focus.page1info	この石にルーンを刻み、中心に希少な宝石をはめ込むことで、生命エネルギーを蓄えるアイテムを作り出しました。祭壇の儀式で充填でき、放出したり、儀式などの工程で他のアイテムに組み込んだりできます。
+.ritual.runic_focus.page2title	儀式: ルーンのフォーカス
+.ritual.runic_focus.page3title	充填する
+.ritual.runic_focus.page3info	実際にフォーカスを充填するには、オーバーワールドのエネルギーに満ちた粉と、ネザーのエネルギーに満ちた粉が必要です。地獄の茎の燃えるエネルギーを使い、すべての儀式に伴う生命エネルギーとともに、粉のエネルギーをフォーカスに押し込めます。
+.ritual.runic_focus.page4title	儀式: ルーンのフォーカスの充填
+.ritual.engraved_blade	刻印の刃
+.ritual.engraved_blade.page1title	組み替え可能な武器
+.ritual.engraved_blade.page1info	ルーンのフォーカスの性質を使い、新しい武器を作り出しました。この武器のクラフト中、追加の香として最大4種類の樹皮を焚くと、剣にさまざまな強化を付けられます。強化は自由に組み合わせられ、同時に複数付けると重複します。
+.ritual.engraved_blade.page2title	儀式: 刻印の刃
+.ritual.engraved_blade.page3title	棘
+.ritual.engraved_blade.page3info	剣のクラフト中に香として焚くアカシアの樹皮1枚ごとに、剣に通常ダメージが追加されます。
+.ritual.engraved_blade.page4title	強撃
+.ritual.engraved_blade.page4info	剣のクラフト中に香として焚くトウヒの樹皮1枚ごとに、剣の攻撃のノックバックが増えます。
+.ritual.engraved_blade.page5title	神聖
+.ritual.engraved_blade.page5info	剣のクラフト中に香として焚くシラカバの樹皮1枚ごとに、アンデッドを攻撃したときにボーナスダメージが追加されます。
+.ritual.engraved_blade.page6title	水棲
+.ritual.engraved_blade.page6info	剣のクラフト中に香として焚くジャングルの樹皮1枚ごとに、剣のダメージに少量の溺水ダメージが加わります。
+.ritual.engraved_blade.page7title	影歩き
+.ritual.engraved_blade.page7info	剣のクラフト中に香として焚くダークオークの樹皮1枚ごとに、剣を持っているときに攻撃を回避する確率が上がります。
+.ritual.time_shift	時間移動
+.ritual.time_shift.page1title	時間のあれこれ
+.ritual.time_shift.page1info	何時間もかけて、一般的な時計を焚くと、香として焚いた時計の数に比例して時間を進められることを発見しました。
+.ritual.time_shift.page2title	儀式: 時間移動

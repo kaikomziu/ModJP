@@ -1,0 +1,13 @@
+{
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.jeisync": "JEI検索の同期",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.jeisync.info": "検索欄をJEIと同期する。",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.emisync": "EMI検索の同期",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.emisync.info": "検索欄をEMIと同期する。",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.reisync": "REI検索の同期",
+  "gui.integratedterminalscompat.terminal_storage.craftinggrid.reisync.info": "検索欄をREIと同期する。",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.craftable": "自動クラフトできるアイテム",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.craftable_partial": "一部自動クラフトできるアイテム",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.missing": "足りないアイテム",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.craft.info": "Ctrl+クリックで自動クラフトを開始",
+  "gui.integratedterminalscompat.terminal_storage.jei.transfer.craft.info_cmd": "Cmd+クリックで自動クラフトを開始"
+}

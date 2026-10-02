@@ -1,0 +1,5 @@
+{
+  "block.brickhopper.brick_hopper": "レンガのホッパー",
+  "block.brickhopper.brick_hopper.desc.cannotAbsorbItemsFromWorld": "上に落ちているアイテムを吸い込めない。",
+  "block.brickhopper.brick_hopper.desc.cannotAbsorbItemsFromInventories": "上のインベントリからアイテムを引き込めない。"
+}

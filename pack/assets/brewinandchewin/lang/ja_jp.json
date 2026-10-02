@@ -1,0 +1,17 @@
+{
+  "emi.category.brewinandchewin.fermenting": "発酵",
+  "emi.category.brewinandchewin.pouring": "注ぐ",
+  "emi.category.brewinandchewin.aging": "熟成",
+  "brewinandchewin.emi.cooking.time.minutes": "%s 分",
+  "brewinandchewin.emi.warmer_temperature": "より暖かい温度が必要",
+  "brewinandchewin.emi.cooler_temperature": "より涼しい温度が必要",
+  "brewinandchewin.emi.incorrect_fluid": "クラフトに使えない液体です",
+  "brewinandchewin.emi.cant_empty": "入っている液体を空にできません",
+  "tag.item.brewinandchewin.fermented_drinks": "発酵飲料",
+  "tag.item.brewinandchewin.horror_meats": "ホラーな肉",
+  "tag.item.brewinandchewin.raw_meats": "生肉",
+  "tag.item.brewinandchewin.pizza_toppings": "ピザのトッピング",
+  "tag.item.brewinandchewin.cheese_wedges": "くし形チーズ",
+  "tag.mob_effect.brewinandchewin.low_priority.milk_bottle": "牛乳瓶での解除優先度が低い効果",
+  "tag.mob_effect.brewinandchewin.low_priority.hot_cocoa": "ホットココアでの解除優先度が低い効果"
+}

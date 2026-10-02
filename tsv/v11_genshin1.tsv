@@ -1,0 +1,117 @@
+## genshin_moonoracle
+advancements.genshin_moonoracle.moon_oracle_box.description	月のアルカナケースを手に入れる
+advancements.genshin_moonoracle.moon_oracle_box.title	予測できぬ運命の贈り物
+genshin_moonoracle.card.title	%s · %s
+creativetab.genshin_moonoracle.cards	原神 · 月のアルカナ
+curios.identifier.moon_oracle	月のアルカナ
+gui.genshin_moonoracle.moon_box.tiers	セット効果
+gui.genshin_moonoracle.moon_box.title	月のアルカナケース
+@ item.genshin_moonoracle.
+.death	月のアルカナ: 死神
+.judgement	月のアルカナ: 審判
+.justice	月のアルカナ: 正義
+.moon_oracle_box	月のアルカナケース
+.strength	月のアルカナ: 力
+.temperance	月のアルカナ: 節制
+.the_chariot	月のアルカナ: 戦車
+.the_devil	月のアルカナ: 悪魔
+.the_emperor	月のアルカナ: 皇帝
+.the_empress	月のアルカナ: 女帝
+.the_fool	月のアルカナ: 愚者
+.the_hanged_man	月のアルカナ: 吊るされた男
+.the_hermit	月のアルカナ: 隠者
+.the_hierophant	月のアルカナ: 教皇
+.the_high_priestess	月のアルカナ: 女教皇
+.the_lovers	月のアルカナ: 恋人
+.the_magician	月のアルカナ: 魔術師
+.the_moon	月のアルカナ: 月
+.the_star	月のアルカナ: 星
+.the_sun	月のアルカナ: 太陽
+.the_tower	月のアルカナ: 塔
+.the_world	月のアルカナ: 世界
+.wheel_of_fortune	月のアルカナ: 運命の輪
+@ genshin_moonoracle.
+.msg.card.sealed	✦ 封印 ·
+.msg.card.unsealed	✦ 封印解除 ·
+.note.001	炎とそのダメージを無効化
+.note.002	毒とそのダメージを無効化
+.note.003	[技術用] 毒の状態異常無効、上の行と統合して表示
+.note.004	移動速度上昇を無効化し、移動速度上昇 Iを付与
+.note.005	[技術用] アイコン表示専用の移動速度上昇 I、上の行と統合して表示
+.note.006	移動速度低下を無効化
+.note.007	魔法耐性 +50%
+.note.008	スニーク中は透明になる
+.note.009	チャームスロット +3
+.note.010	16ブロック以内の子供のモブが早く育つ
+.note.011	移動速度 +30%
+.note.012	村の英雄 IIIを付与
+.note.013	再生能力 I
+.note.014	幸運 +5
+.note.015	再生能力 III
+.note.016	味方が近くにいる間、防御力 +15.0
+.note.017	防御力 +15.0が無条件になる
+.note.018	攻撃とブロック操作の距離 +50%
+.note.019	防御力 +5.0
+.note.020	なめらかな坂(段差でジャンプ不要)
+.note.021	攻撃力上昇 III
+.note.022	村人の価格 +50%
+.note.023	攻撃ダメージ +30%
+.note.024	自分と16ブロック以内のモブが発光する
+.note.025	幸運 +1(鉱石の追加ドロップ、期待値で近似)
+.note.026	すべてのモブへのダメージ +50%
+.note.027	村人へのダメージ -90%
+.note.028	獲得経験値 +150%
+.note.029	弱体化 I
+.note.030	最大体力 +100%
+.note.031	防御力 -10
+.note.032	クラフト時に経験値がドロップする(1結果あたりラピスラズリ鉱石1個分程度)
+.note.033	採掘時に金インゴットがドロップすることがある
+.note.034	採掘速度上昇 I
+.note.035	アンデッドのモブに見られても襲われない
+.note.036	アンデッド特効 V
+.note.037	虫特効 V
+.note.038	落下ダメージを無効化
+.note.039	ノックバックを無効化
+.note.040	夜間に暗視
+.note.041	夜間に攻撃ダメージ +3
+.note.042	幸運 +5
+.note.043	暗視が永続し、一日中有効になる
+.note.044	攻撃ダメージ +3が永続し、一日中有効になる
+.note.045	暗視
+.note.046	水中呼吸
+.note.047	攻撃ダメージ +3
+.note.048	暗闇を無効化
+.note.049	採掘した鉱石を自動で精錬する
+.note.050	近くの作物が早く育つ
+.note.051	昼間の回復量 +15%(天球の核が必要)
+.note.052	昼間、8ブロック以内の味方に再生能力 I
+.note.053	再生能力が永続し、一日中有効になる
+.note.054	味方への再生能力が永続し、一日中有効になる
+.note.055	15%の確率で2倍のダメージ
+.note.056	リスポーン地点から32ブロック以内でモブがスポーンしない
+.note.057	跳躍力上昇 II
+.note.058	水中で沈む
+.tier.1.effect.1	吊るされた男: 弱体化を解除
+.tier.1.effect.2	死神: 防御力 -10を解除
+.tier.1.effect.3	愚者: 沈む効果を解除
+.tier.1.name	真珠と黄金に勝るもの
+.tier.2.effect.1	恋人: 防御力 +15が永続化
+.tier.2.effect.2	力: 取引価格の上昇を解除、モブへのダメージ +30%
+.tier.2.effect.3	教皇: 再生能力 III
+.tier.2.effect.4	節制: 採掘速度上昇 I
+.tier.2.effect.5	正義: 村人へのダメージ減少を解除
+.tier.2.name	魔法の効用
+.tier.3.effect.1	星と太陽: 効果が永続し、一日中有効になる
+.tier.3.effect.2	審判: 15%の確率で2倍のダメージ
+.tier.3.name	星が輝くとき
+.tier.4.effect.1	クリエイティブ飛行
+.tier.4.name	巨匠の傑作
+.tooltip.box.open	右クリックで月のアルカナケースを開く
+.tooltip.box.seal_hint	カードは持った状態で右クリックすると封印/封印解除できる
+.tooltip.box.sealed_suffix	 (%s枚封印中)
+.tooltip.box.stored	収納 %s / %s枚
+.tooltip.card.sealed	✦ 封印中 · 効果とセット数は停止中、右クリックで封印解除
+.tooltip.card.todo	· 効果は未確定
+.tooltip.tier.active	◆ %s %s/%s
+.tooltip.tier.idle	◇ %s %s/%s
+.quote.021	不死の呪い

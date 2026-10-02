@@ -1,0 +1,5 @@
+{
+ "entity_texture_features": {
+  "config.entity_texture_features.property_explanation.name": "名前\nエンティティの名前と照合します。\n「!」で始まる値は否定一致(not)になります。\n例:\n - 文字列で一致: \"name=Pinky pinkyyy\"\n - 特殊な書式で一致: \"name=\\u00a74\\u00a7oPinky\"\n   (互換性のため、「§」ではなくエスケープシーケンス '\\u00a7' を使ってください)\n - 「?」と「*」のワイルドカード: \"name=pattern:Pinky*\"\n - ワイルドカード(大文字小文字を区別しない): \"name=ipattern:Pinky*\"\n - Javaの正規表現: \"name=regex:Pin(k)+y\"\n   (参照: http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html)\n - Javaの正規表現(大文字小文字を区別しない): \"name=iregex:Pin(k)+y\"\n照合する文字列中のバックスラッシュはすべて2つ重ねる必要があります。\n正規表現やワイルドカード内の文字としてのバックスラッシュは4つ重ねる必要があります。\n正しい例:\n  name=regex:\\\\d+\n  name=regex:\\\\\\\\\n  name=/\\\\/\\\\\n誤った例:\n  name=regex:\\d+\n  name=regex:\\\\\n  name=/\\/\\\n§anames.<n>=<name_list|regex|pattern>"
+ }
+}

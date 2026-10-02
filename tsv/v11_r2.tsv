@@ -1,0 +1,247 @@
+## refinedstorage
+commands.refinedstorage.network.autocrafting.get.error.not_found	タスクが見つからない。
+commands.refinedstorage.network.autocrafting.cancel.single	%d件のタスクをキャンセルした。
+commands.refinedstorage.network.autocrafting.cancel.multiple	%d件のタスクをキャンセルした。
+## ae2things
+item.ae2things.disk_drive_1k	1k ME DISKドライブ
+item.ae2things.disk_drive_4k	4k ME DISKドライブ
+item.ae2things.disk_drive_16k	16k ME DISKドライブ
+item.ae2things.disk_drive_64k	64k ME DISKドライブ
+item.ae2things.disk_drive_256k	256k ME DISKドライブ
+item.ae2things.disk_housing	ME DISK筐体
+text.ae2things.disk_drives	ME DISKドライブ
+command.ae2things.recover_success	%sがUUID [%s]のDISKドライブを復元した。
+command.ae2things.recover_fail	DISKドライブを復元できなかった: UUID [%s]は存在しない。
+command.ae2things.getuuid_success	指定したDISKのUUID: [%s]
+command.ae2things.getuuid_fail_nouuid	エラー: 指定したDISKは空か、UUIDが見つからない。
+command.ae2things.getuuid_fail_notdisk	エラー: 指定したアイテムはDISKではない。
+## atmospheric
+@ fieldguide.name.atmospheric.
+.aspen_sapling	ヤマナラシの木
+.aspen_sapling.aspen	黄金のヤマナラシの木
+.aspen_sapling.green_aspen	緑のヤマナラシの木
+.dry_laurel_sapling	乾いたゲッケイジュの木
+.green_aspen_sapling	緑のヤマナラシの木
+.grimwood_sapling	グリムウッドの木
+.laurel_sapling	ゲッケイジュの木
+.rosewood_sapling	ローズウッドの木
+.yucca_sapling	ユッカの木
+.kousa_sapling	ヤマボウシの木
+.morado_sapling	モラードの木
+.currant_seedling	スグリの木
+## environmental
+@ fieldguide.name.environmental.
+.willow_sapling	ヤナギの木
+.pine_sapling	マツの木
+.white_wisteria_sapling	白い藤の木
+.blue_wisteria_sapling	青い藤の木
+.purple_wisteria_sapling	紫の藤の木
+.pink_wisteria_sapling	桃色の藤の木
+=Plum Tree	プラムの木
+=Cheerful Plum Tree	陽気なプラムの木
+=Moody Plum Tree	気分屋のプラムの木
+## bwncr
+badwithernocookiereloaded.general.tooltip	消音できる全体の基本的な音とイベント
+badwithernocookiereloaded.xtra.tooltip	消音できる追加の局所的な音
+badwithernocookiereloaded.localized settings.silenceus	例: entity.sheep.step - 他の音は/listenで調べる
+text.autoconfig.bwncr.title	Bad Wither No Cookie - Reloaded
+text.autoconfig.bwncr.option.general	一般
+text.autoconfig.bwncr.option.general.silenceWither	ウィザーを消音
+text.autoconfig.bwncr.option.general.silenceTrader	行商人を消音
+text.autoconfig.bwncr.option.general.silenceDragon	ドラゴンを消音
+text.autoconfig.bwncr.option.general.silenceLightning	雷を消音
+text.autoconfig.bwncr.option.general.silenceUs	指定した音を消音
+text.autoconfig.bwncr.option.general.debugMode	デバッグモード
+## darkmodeeverywhere
+gui.darkmodeeverywhere.dark_mode	ダークモード
+gui.darkmodeeverywhere.light_mode	ライトモード
+gui.darkmodeeverywhere.perfect_dark	完全な暗黒
+gui.darkmodeeverywhere.less_perfect_dark	やや控えめな暗黒
+gui.darkmodeeverywhere.toasted_light	焼けたライトモード
+gui.tooltip.darkmodeeverywhere.shader_switch_tooltip	 * Shiftでライトモードまで飛ばす
+config.darkemodeeverywhere.button_position_x	GUIの左端からのx方向のピクセル数
+config.darkemodeeverywhere.button_position_y	GUIの下端からのy方向のピクセル数
+config.darkmodeeverywhere.enabled	有効
+## integratedterminalscompat
+@ gui.integratedterminalscompat.terminal_storage.
+.craftinggrid.jeisync	JEI検索の同期
+.craftinggrid.jeisync.info	検索欄をJEIと同期する。
+.craftinggrid.emisync	EMI検索の同期
+.craftinggrid.emisync.info	検索欄をEMIと同期する。
+.craftinggrid.reisync	REI検索の同期
+.craftinggrid.reisync.info	検索欄をREIと同期する。
+.jei.transfer.craftable	自動クラフトできるアイテム
+.jei.transfer.craftable_partial	一部自動クラフトできるアイテム
+.jei.transfer.missing	足りないアイテム
+.jei.transfer.craft.info	Ctrl+クリックで自動クラフトを開始
+.jei.transfer.craft.info_cmd	Cmd+クリックで自動クラフトを開始
+## skinlayers3d
+modmenu.descriptionTranslation.skinlayers3d	プレイヤーのスキンの外側レイヤーを3Dで描画する
+text.skinlayers.tab.player	プレイヤー
+text.skinlayers.tab.heads	プレイヤーの頭
+text.skinlayers.tab.other	その他の設定
+text.skinlayers.compatibilityMode.enable	互換モード
+text.skinlayers.compatibilityMode.enable.tooltip	レイヤーを別の方法で描画する。他のMODとの互換性の問題が直ることがある
+text.skinlayers.irisCompatibilityMode.enable	Iris互換モード
+text.skinlayers.irisCompatibilityMode.enable.tooltip	レイヤーを別の方法で描画し、Irisのシェーダー使用時の奇妙な影や色を直す。必要なときだけ有効にすること。角のつながりが崩れる。
+text.skinlayers.applySodiumWorkaround.enable	Sodium回避策
+text.skinlayers.applySodiumWorkaround.enable.tooltip	一部のバージョン(?)のSodiumで立方体の面が反転している問題の回避策。Sodiumを使っていて、スキンレイヤーの側面が欠ける表示の問題に気づいた場合のみ有効にすること。
+## theoneprobe
+key.toggleLiquids	液体表示の切り替え
+key.toggleVisible	表示の切り替え
+key.categories.theoneprobe	The One Probe
+item.theoneprobe.probe	The One Probe
+item.theoneprobe.probe_goggles	The One Probe(装身具)
+item.theoneprobe.diamond_helmet_probe	プローブ付きダイヤモンドのヘルメット
+item.theoneprobe.gold_helmet_probe	プローブ付き金のヘルメット
+item.theoneprobe.iron_helmet_probe	プローブ付き鉄のヘルメット
+item.theoneprobe.creativeprobe	クリエイティブプローブ
+item.theoneprobe.probenote	The One Probe 説明書
+## bloomingnature
+@ fieldguide.name.bloomingnature.
+.aspen_sapling	ヤマナラシの木
+.larch_sapling	カラマツの木
+.baobab_sapling	バオバブの木
+.swamp_oak_sapling	沼地のオークの木
+.swamp_cypress_sapling	沼地のイトスギの木
+.ebony_sapling	コクタンの木
+.chestnut_sapling	クリの木
+.fir_sapling	モミの木
+.fan_palm_sprout	ウチワヤシの木
+## commoncapabilities
+config.commoncapabilities	%sの設定
+recipecomponent.minecraft.itemstack	アイテム
+recipecomponent.minecraft.fluidstack	液体
+recipecomponent.minecraft.energy	エネルギー
+capability.commoncapabilities.inventoryState	インベントリの状態
+capability.commoncapabilities.temperature	温度
+capability.commoncapabilities.worker	作業者
+capability.commoncapabilities.worldNameable	名前を付けられるワールド
+capability.commoncapabilities.wrench	レンチ
+## nomansland
+@ fieldguide.name.nomansland.
+.pine_sapling	マツの木
+.maple_sapling	カエデの木
+.red_maple_sapling	赤いカエデの木
+.walnut_sapling	クルミの木
+.willow_sapling	ヤナギの木
+.autumnal_oak_sapling	秋色のオークの木
+.yellow_birch_sapling	黄色いシラカバの木
+.pale_cherry_sapling	淡いサクラの木
+.huge_field_mushroom	巨大なハラタケ
+## rangedpumps
+itemGroup.rangedpumps	Ranged Pumps
+block.rangedpumps.pump	ポンプ
+block.rangedpumps.pump.state	%2$s %1$d mB - %3$d / %4$d FE
+block.rangedpumps.pump.state_empty	空 - %d / %d FE
+block.rangedpumps.pump.state.energy	エネルギーが足りない。
+block.rangedpumps.pump.state.redstone	レッドストーン信号のため停止中。
+block.rangedpumps.pump.state.working	%d, %d, %dをスキャン中(範囲: %d / %d)。
+block.rangedpumps.pump.state.full	内部タンクが満杯。
+block.rangedpumps.pump.state.done	完了。
+## chilib
+attribute.chilib.arrow_damage	矢のダメージ
+attribute.chilib.arrow_velocity	矢の速度
+attribute.chilib.crit_chance	会心率
+attribute.chilib.crit_damage	会心ダメージ
+attribute.chilib.life_steal	生命吸収
+attribute.chilib.heal	回復
+attribute.chilib.jump	ジャンプ
+attribute.chilib.physic_resistance	物理耐性
+## mcwlights
+=Can be built taller, by placing another one on top of this one	上にもう1つ置くと高くできる
+mcwlights.lights.dyeableinfo	染料で右クリックすると色を変える
+block.mcwlights.thin_garden_light	細い庭園灯
+block.mcwlights.covered_garden_light	覆い付き庭園灯
+block.mcwlights.round_garden_light	丸い庭園灯
+block.mcwlights.tower_garden_light	塔型の庭園灯
+block.mcwlights.striped_garden_light	縞模様の庭園灯
+## universalgrid
+itemGroup.universalgrid	Universal Grid
+item.universalgrid.wireless_universal_grid	ワイヤレス万能グリッド
+item.universalgrid.creative_wireless_universal_grid	クリエイティブワイヤレス万能グリッド
+key.universalgrid.openWirelessUniversalGrid	ワイヤレス万能グリッドを開く
+gui.universalgrid.universal_grid	万能グリッド
+sidebutton.universalgrid.universal_grid.switch.0	クラフトグリッド
+sidebutton.universalgrid.universal_grid.switch.1	液体グリッド
+sidebutton.universalgrid.universal_grid.switch.2	グリッド
+## alchemylib
+alchemylib.container.close_recipe_select	レシピ選択を閉じる
+alchemylib.container.lock_recipe	レシピをロック
+alchemylib.container.open_recipe_select	レシピ選択を開く
+alchemylib.container.pause	一時停止
+alchemylib.container.resume	再開
+alchemylib.container.show_recipes	レシピを表示
+alchemylib.container.unlock_recipe	レシピのロックを解除
+## appliedcooking
+itemGroup.appliedcooking	Applied Cooking
+=ME Kitchen Station	MEキッチンステーション
+tooltip.appliedcooking:kitchen_station.description	Applied Energistics 2のグリッドにつながるステーションのノード
+jade.appliedcooking:kitchen_station	%2$sの%1$sに接続済み
+jade.appliedcooking:online	デバイス稼働中
+jade.appliedcooking:offline	デバイス停止中
+## charmofundying
+gui.charmofundying.config.xOffset.name	水平方向の描画オフセット
+gui.charmofundying.config.xOffset.description	プレイヤーにトーテムを描画するときの水平方向のオフセット。
+gui.charmofundying.config.yOffset.name	垂直方向の描画オフセット
+gui.charmofundying.config.yOffset.description	プレイヤーにトーテムを描画するときの垂直方向のオフセット。
+gui.charmofundying.config.renderTotem.name	装備したトーテムを描画
+gui.charmofundying.config.renderTotem.description	有効にすると、装備したトーテムをプレイヤーに描画する。
+trinkets.slot.charm.charm	お守り
+## ctm
+=CTM Configuration	CTMの設定
+configuration.ctm.disable	CTMを無効化
+configuration.ctm.disable.tooltip	連結テクスチャを完全に無効にする
+configuration.ctm.connect_inside	CTMの内側を連結
+configuration.ctm.connect_inside.tooltip	CTMブロックの内側の角を切り離すかどうかを選ぶ - https://imgur.com/eUywLZ4
+## fastbench
+info.fb.very_fast0	腹立たしいほど機敏
+info.fb.very_fast1	理不尽なほど素早い
+info.fb.very_fast2	電光石火
+info.fb.very_fast3	最高性能
+info.fb.very_fast4	西部一速い作業台
+info.fb.very_fast5	不気味なほど反応が良い
+info.fb.very_fast6	平均的な作業台より速い
+## measurements
+item.measurements.tape_measure	巻き尺
+text.autoconfig.measurements.option.client	クライアント
+text.autoconfig.measurements.option.client.lineColor	線の色
+text.autoconfig.measurements.option.client.textColor	文字の色
+text.autoconfig.measurements.option.client.textSize	文字の大きさ
+text.autoconfig.measurements.option.client.lineWidth	線の太さ
+text.autoconfig.measurements.option.client.lineWidthMax	線の最大の太さ
+## mes
+modmenu.nameTranslation.mes	MES - Moog's End Structures
+modmenu.summaryTranslation.mes	エンドのディメンションを生命で満たす、バニラ風の構造物がたくさん！
+modmenu.descriptionTranslation.mes	Moog's End Structuresは、既存の景観に完璧に溶け込むさまざまな新しい構造物を加え、エンドのディメンションに新たな命を吹き込む。どの構造物も、昔ながらのMinecraftらしさを保つためバニラのブロックとエンティティで丁寧に作られている。エンドを探検すると、独特の試練、手ごわい敵、価値ある戦利品に出会う。このMODはどんなModpackとも動き、Moog's Voyager Structures (MVS)と一緒に導入すればさらに豊かなゲーム体験になる。Moog's End Structuresでエンドに飛び込み、隠された宝を見つけよう！
+mes.releases	GitHub Releases
+mes.kofi	Ko-fi
+mes.curseforge	CurseForge
+mes.modrinth	Modrinth
+## mvs
+modmenu.nameTranslation.mvs	Moog's Voyager Structures
+modmenu.summaryTranslation.mvs	バニラのブロックとエンティティで作られた160以上の構造物が世界に命を吹き込む！道中で戦利品、敵、村人に出会おう！
+modmenu.descriptionTranslation.mvs	Moogs Voyager Structuresは、躍動感あふれる魅力的な新しい構造物でMinecraftの体験を一変させる。バニラのブロックとエンティティで作られたこれらの構造物はゲームに自然に溶け込み、刺激的な戦利品、手ごわい敵、友好的な村人を提供する。どんなModpackとも互換性があり、昔ながらのMinecraftらしさを保ちつつ世界を豊かにする。Moogs Voyager Structuresで冒険と発見の世界に飛び込もう！
+mvs.releases	GitHub Releases
+mvs.kofi	Ko-fi
+mvs.curseforge	CurseForge
+mvs.modrinth	Modrinth
+## rsrequestify
+itemGroup.rsrequestify	RS: Requestify
+block.rsrequestify.requester	リクエスター
+button.refinedstoragerequestify:requester.save	保存
+tooltip.refinedstoragerequestify:requester.missing	材料不足
+block.rsrequestify.crafting_emitter	クラフト信号発信機
+block.rsrequestify.crafting_emitter.tooltip	フィルターのアイテム/液体のどれかがクラフト中のときにレッドストーン信号を出す。
+block.rsrequestify.requester.tooltip	フィルターのアイテム/液体を指定した量の在庫に保つ。
+## simplebackups
+simplebackups.backup_started	バックアップを開始した…
+simplebackups.backup_finished	バックアップが%sで完了した(%s | %s)
+simplebackups.backups_paused	バックアップを一時停止中
+simplebackups.commands.only_modified	変更されたファイル以外もバックアップされている。設定ファイルを確認してください
+simplebackups.commands.is_merging	統合処理がすでに進行中
+simplebackups.commands.finished	バックアップの統合が完了した
+simplebackups.not_enough_space	バックアップを作成する空き容量がディスクに足りない。中止した！
+## adtetra
+tetra.material.glacian	グレイシアン
+tetra.material.glacian.prefix	グレイシアン

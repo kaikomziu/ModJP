@@ -1,0 +1,228 @@
+## rsgauges
+itemGroup.tabrsgauges	ゲージとスイッチ
+rsgauges.config.title	Gauges and Switchesの設定
+rsgauges.tooltip.hint.extended	§6[§9shift§r 詳細§6]§r
+rsgauges.tooltip.hint.help	§6[§9ctrl-shift§r ヘルプ§6]§r
+@ block.rsgauges.
+.arrow_target	矢の的
+.door_sensor_switch	ドアセンサー
+.elevator_button	エレベーターボタン
+.glass_button	ガラスのボタン
+.glass_contact_mat	ガラスの接触板
+.glass_day_timer	ガラスの時刻タイマー
+.glass_door_contact_mat	設定可能なガラスの接触板
+.glass_entity_detector	ガラスの赤外線エンティティ検出器
+.glass_interval_timer	ガラスの間隔信号タイマー
+.glass_linear_entity_detector	ガラスの直線レーザーエンティティ検出器
+.glass_rotary_switch	双安定ガラススイッチ
+.glass_small_button	小さなガラスのボタン
+.glass_touch_button	ガラスのタッチボタン
+.glass_touch_switch	双安定ガラスタッチスイッチ
+.glass_vertical_bar_gauge	ガラスのバー型レッドストーンゲージ
+.industrial_alarm_lamp	警報ランプ
+.industrial_alarm_siren	警報サイレン
+.industrial_analog_angular_gauge	アナログ電圧計レッドストーンゲージ
+.industrial_analog_horizontal_gauge	小型アナログ電圧計レッドストーンゲージ
+.industrial_block_detector	工業用ブロック分類検出器
+.industrial_button	機械のボタン
+.industrial_comparator_switch	工業用コンパレータースイッチ
+.industrial_contact_mat	工業用接触マット
+.industrial_day_timer	工業用時刻タイマー
+.industrial_dimmer	工業用調光器
+.industrial_door_contact_mat	工業用ドア接触マット
+.industrial_double_pole_button	工業用ボタン
+.industrial_entity_detector	工業用赤外線エンティティ検出器
+.industrial_estop_switch	非常停止ボタン
+.industrial_fallthrough_detector	工業用落下検出フレーム
+.industrial_fenced_button	囲い付き機械のボタン
+.industrial_foot_button	工業用フットボタン
+.industrial_green_blinking_led	緑の点滅LEDレッドストーン表示器
+.industrial_green_led	緑のLEDレッドストーン表示器
+.industrial_high_sensitive_trapdoor	工業用高感度衝撃作動トラップドア
+.industrial_hopper_switch	ホッパー遮断器
+.industrial_interval_timer	工業用間隔信号タイマー
+.industrial_knock_button	ノック検出パルススイッチ(工業用)
+.industrial_knock_switch	ノック検出双安定スイッチ(工業用)
+.industrial_lever	工業用レバー
+.industrial_light_sensor	工業用局所光センサー
+.industrial_lightning_sensor	工業用雷雨検出器
+.industrial_linear_entity_detector	工業用直線レーザーエンティティ検出器
+.industrial_machine_switch	2ボタン式機械スイッチ
+.industrial_pull_handle	工業用引き手ボタン
+.industrial_rain_sensor	工業用雨センサー
+.industrial_red_blinking_led	赤のLEDレッドストーン表示器
+.industrial_red_led	赤のLEDレッドストーン表示器
+.industrial_rotary_lever	工業用回転レバー
+.industrial_rotary_machine_switch	回転式機械スイッチ
+.industrial_shock_sensitive_contact_mat	工業用衝撃感知接触マット
+.industrial_shock_sensitive_trapdoor	工業用衝撃作動トラップドア
+.industrial_small_digital_gauge	小型デジタル表示レッドストーンゲージ
+.industrial_small_lever	工業用接点レバー
+.industrial_switchlink_cased_pulse_receiver	工業用ケース入りパルススイッチリンク受信機
+.industrial_switchlink_cased_receiver	工業用ケース入りスイッチリンク受信機
+.industrial_switchlink_pulse_receiver	工業用パルススイッチリンク受信機
+.industrial_switchlink_pulse_relay	工業用スイッチリンクパルス送信機
+.industrial_switchlink_receiver	工業用スイッチリンク受信機
+.industrial_switchlink_receiver_analog	工業用アナログスイッチリンク受信機
+.industrial_switchlink_relay	工業用スイッチリンク送信機
+.industrial_switchlink_relay_analog	工業用アナログスイッチリンク送信機
+.industrial_tube_gauge	ガラス管レッドストーンゲージ
+.industrial_vertical_bar_gauge	アナログバー型レッドストーンゲージ
+.industrial_white_blinking_led	白の点滅LEDレッドストーン表示器
+.industrial_white_led	白のLEDレッドストーン表示器
+.industrial_yellow_blinking_led	黄の点滅LEDレッドストーン表示器
+.industrial_yellow_led	黄のLEDレッドストーン表示器
+.light_switch	小さな照明スイッチ
+.oldfancy_bistableswitch1	古風なレバー
+.oldfancy_bistableswitch2	古風な回転レバー
+.oldfancy_button	古風なボタン
+.oldfancy_small_button	小さな古風なボタン
+.oldfancy_spring_reset_chain	古風なチェーンボタン
+.red_power_plant	赤い動力植物
+.rustic_angular_lever	素朴な回転レバー
+.rustic_button	素朴なボタン
+.rustic_contact_plate	素朴な感圧板
+.rustic_door_contact_plate	素朴なドア感圧板
+.rustic_fallthrough_detector	素朴な落下検出トラップドア
+.rustic_high_sensitive_trapdoor	素朴な高感度衝撃作動トラップドア
+.rustic_lever	素朴なレバー
+.rustic_nail_button	素朴な釘ボタン
+.rustic_nail_lever	素朴な釘レバー
+.rustic_semaphore	素朴なレッドストーン信号旗
+.rustic_shock_sensitive_plate	素朴な衝撃感知感圧板
+.rustic_shock_sensitive_trapdoor	素朴な衝撃作動トラップドア
+.rustic_small_button	素朴な小さなボタン
+.rustic_spring_reset_chain	素朴なチェーンボタン
+.rustic_two_hinge_lever	素朴な2連ヒンジレバー
+.sensitive_glass_block	レッドストーン感応ガラスブロック(発光)
+.stained_sensitiveglass	色付きレッドストーン感応ガラスブロック
+.valve_wheel_switch	バルブスイッチ
+.yellow_power_plant	黄色い動力植物
+item.rsgauges.switchlink_pearl	スイッチリンクパール
+rsgauges.gaugeconfig.options.comparator	コンパレーター入力
+rsgauges.gaugeconfig.options.inverted	反転
+rsgauges.gaugeconfig.options.notinverted	通常
+rsgauges.subtitle.industrial_alarm_siren	警報サイレン
+rsgauges.switch.feature.hoppermountable.help	ホッパーの上に置ける。
+rsgauges.switch.feature.projectilesense.help	飛び道具で作動させられる。
+@ rsgauges.switchconfig.
+.blocksensor	%1$s%2$s%3$s%4$s%5$s
+.blocksensor.debounce	チャタリング防止: %1$s
+.blocksensor.filter	フィルター: %1$s
+.blocksensor.filter.air	空気
+.blocksensor.filter.any	任意のブロック
+.blocksensor.filter.crop	作物
+.blocksensor.filter.crop_mature	育った作物
+.blocksensor.filter.fertile	肥沃な土
+.blocksensor.filter.liquid	液体
+.blocksensor.filter.material_clay	粘土/陶器
+.blocksensor.filter.material_glass	ガラス
+.blocksensor.filter.material_stone	石
+.blocksensor.filter.material_water	水/氷
+.blocksensor.filter.material_wood	木製
+.blocksensor.filter.ore	鉱石
+.blocksensor.filter.planks	板材
+.blocksensor.filter.plant	植物
+.blocksensor.filter.sapling	苗木
+.blocksensor.filter.slab	ハーフブロック
+.blocksensor.filter.soil	土
+.blocksensor.filter.solid	固体
+.blocksensor.filter.woodlog	原木
+.blocksensor.output_power	強さ: %1$s
+.blocksensor.range	範囲: %1$s
+.blocksensor.threshold	しきい値: %1$s
+.comparator_switch	%1$s%2$s%3$s%4$s
+.comparator_switch.mode0	コンパレーターモード
+.comparator_switch.mode1	使用中のインベントリスロット
+.comparator_switch.mode2	空きインベントリスロット
+.comparator_switch.mode3	レッドストーン信号の強さ
+.comparator_switch.output_power	強さ: %1$s
+.comparator_switch.threshold_off	オフ値: %1$s
+.comparator_switch.threshold_on	オン値: %1$s
+.daytimerclock	%1$s%2$s%3$s%4$s
+.daytimerclock.daytime_off	オフ: %1$s
+.daytimerclock.daytime_on	オン: %1$s
+.daytimerclock.output_power	強さ: %1$s
+.daytimerclock.random	ランダム: %1$s
+.detector.entity_filter	エンティティの種類: %1$s
+.detector.entity_filter.animals	動物
+.detector.entity_filter.creatures	生物
+.detector.entity_filter.everything	すべて
+.detector.entity_filter.mobs	モブ
+.detector.entity_filter.objects	物体
+.detector.entity_filter.players	プレイヤー
+.detector.entity_filter.villagers	村人
+.detector.entity_threshold	エンティティのしきい値: %1$s
+.detector.output_power	強さ: %1$s
+.detector.sensor_range	センサー範囲: %1$s
+.dimmerswitch.output_power	強さ: %1$s
+.intervaltimer	%1$s%2$s%3$s%4$s%5$s
+.intervaltimer.output_power	強さ: %1$s
+.intervaltimer.ramp	立ち上がり: %1$s
+.intervaltimer.standby	待機
+.intervaltimer.t_off	オフ: %1$s秒
+.intervaltimer.t_on	オン: %1$s秒
+.lightsensor	%1$s%2$s%3$s%4$s
+.lightsensor.debounce	チャタリング防止: %1$s %2$s
+.lightsensor.lightunit	ルクス
+.lightsensor.output_power	強さ: %1$s
+.lightsensor.threshold_off	オフ: %1$s%2$s
+.lightsensor.threshold_on	オン: %1$s%2$s
+.options	%1$s
+.options.no_output	出力なし
+.options.output_power	強さ: %1$s
+.options.pulsetime	パルス: %1$s秒 (%2$sティック)
+.options.strong	強
+.options.stronginverted	強・反転
+.options.weak	弱
+.options.weakinverted	弱・反転
+.rainsensor.output_power	強さ: %1$s
+.thundersensor.output_power	強さ: %1$s
+.tinting	%1$sに着色
+.tinting.black	黒色
+.tinting.blue	青色
+.tinting.brown	茶色
+.tinting.cyan	青緑色
+.tinting.gray	灰色
+.tinting.green	緑色
+.tinting.lightblue	空色
+.tinting.lime	黄緑色
+.tinting.magenta	赤紫色
+.tinting.orange	橙色
+.tinting.pink	桃色
+.tinting.purple	紫色
+.tinting.red	赤色
+.tinting.silver	薄灰色
+.tinting.white	白色
+.tinting.yellow	黄色
+.touchcontactmat.entity_filter	エンティティの種類: %1$s
+.touchcontactmat.entity_filter.animals	動物
+.touchcontactmat.entity_filter.creatures	生物
+.touchcontactmat.entity_filter.everything	すべて
+.touchcontactmat.entity_filter.mobs	モブ
+.touchcontactmat.entity_filter.objects	物体
+.touchcontactmat.entity_filter.players	プレイヤー
+.touchcontactmat.entity_filter.villagers	村人
+.touchcontactmat.entity_threshold	エンティティのしきい値: %1$s
+.touchcontactmat.output_power	強さ: %1$s
+.touchcontactmat.sensitivity	感度: %1$s
+.touchcontactmat.sensitivity.high	高
+.touchcontactmat.sensitivity.normal	通常
+@ rsgauges.switchlinking.
+.relayconfig.confval0	送信元の出力に合わせて作動。
+.relayconfig.confval1	送信元のオン時に作動。
+.relayconfig.confval2	送信元のオフ時に作動。
+.relayconfig.confval3	送信元の変化時に作動。
+.relayconfig.confval4	送信元の出力を反転して作動。
+.source_assign.error_alreadylinked	そのパールの対象とはすでにリンク済み
+.source_assign.error_failed	リンクパールはそのスイッチが気に入らないようだ
+.source_assign.error_nosource	このスイッチは対象スイッチにリンクできない
+.source_assign.error_toofaraway	対象がこのスイッチから遠すぎる
+.source_assign.ok	リンクパールを差し込んだ
+.switchlink_pearl.tooltip.linkedblock	%1$sにリンク。
+.switchlink_pearl.tooltip.linkeddistance	対象は%1$sブロック先。
+.switchlink_pearl.tooltip.toofaraway	(遠すぎる)
+.switchlink_pearl.use.targetgone	対象のスイッチが壊れたか移動した
+.switchlink_pearl.use.toofaraway	対象のスイッチが遠すぎる
+.target_assign.error_notarget	このスイッチはリンクの対象にできない
+.target_assign.ok	対象のスイッチを記憶した

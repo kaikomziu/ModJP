@@ -1,0 +1,188 @@
+## soldiersdelight
+=Fried Rice MRE	チャーハンの戦闘糧食
+=Soldier's Delight	Soldier's Delight
+=Shepard's Pie MRE	シェパーズパイの戦闘糧食
+=Affectionately known as "The Vomelette"	「ゲロムレツ」の愛称で親しまれている
+=Beef Stew MRE	ビーフシチューの戦闘糧食
+=Spaghetti MRE	スパゲッティの戦闘糧食
+=Empty MRE	空の戦闘糧食
+=Veggie Omelette MRE	野菜オムレツの戦闘糧食
+=Veggie Omelette	野菜オムレツ
+=Alloy Knife	合金の包丁
+=Mutton Chops MRE	マトンチョップの戦闘糧食
+## mekanism_lasers
+block.mekanism_lasers.laser_stopper	レーザーストッパー
+block.mekanism_lasers.basic_laser	ベーシックレーザー
+block.mekanism_lasers.basic_toggleable_laser	ベーシック切替式レーザー
+block.mekanism_lasers.advanced_laser	アドバンスドレーザー
+block.mekanism_lasers.advanced_toggleable_laser	アドバンスド切替式レーザー
+block.mekanism_lasers.elite_laser	エリートレーザー
+block.mekanism_lasers.elite_toggleable_laser	エリート切替式レーザー
+block.mekanism_lasers.ultimate_laser	アルティメットレーザー
+block.mekanism_lasers.ultimate_toggleable_laser	アルティメット切替式レーザー
+block.mekanism_lasers.creative_laser	クリエイティブレーザー
+block.mekanism_lasers.creative_toggleable_laser	クリエイティブ切替式レーザー
+block.mekanism_lasers.ore_generator	鉱石生成機
+item.mekanism_lasers.remote_control	リモコン
+container.mekanism_lasers.ore_generator	鉱石生成機
+description.mekanism.laser_stopper	どんなブロックの見た目にもでき、レーザーを遮るブロック
+description.mekanism.laser	高度に集束した光 :D
+description.mekanism.laser_toggleable	高度に集束した光。オン/オフを切り替えられる :D
+description.mekanism.ore_generator	光を使ってエネルギーを鉱石に変える
+item_group.mekanism_lasers	Mekanism Lasers
+gui.ore_generator.energy_per_ore	鉱石1つあたりの消費エネルギー
+## sodiumdynamiclights
+sodium.dynamiclights.options.page	動的照明
+sodium.dynamiclights.options.mode	品質モード
+sodium.dynamiclights.options.mode.desc	動的光源の更新頻度を設定します
+sodium.dynamiclights.options.self	手持ちの照明
+sodium.dynamiclights.options.self.desc	一人称の動的照明を有効にします。独自の動的照明を持つシェーダーを使う場合は無効にすることをおすすめします。
+sodium.dynamiclights.options.entities	エンティティの動的照明
+sodium.dynamiclights.options.entities.desc	有効にすると、エンティティ(モブやドロップしたアイテムなど)が動的に光ります。
+sodium.dynamiclights.options.blockentities	ブロックエンティティの動的照明
+sodium.dynamiclights.options.blockentities.desc	有効にすると、ブロックエンティティが動的に光ります。
+sodium.dynamiclights.options.underwater	水中では消える
+sodium.dynamiclights.options.underwater.desc	水に弱い光源のチェックを有効にします。一部のアイテムは水中では光らなくなります。
+sodium.dynamiclights.options.tnt	TNTの照明品質
+sodium.dynamiclights.options.tnt.desc	TNTの照明の更新頻度を設定します。
+sodium.dynamiclights.options.creeper	クリーパーの照明品質
+sodium.dynamiclights.options.creeper.desc	クリーパーの照明の更新頻度を設定します。
+## pladailyboss
+block.pladailyboss.spinning_block	キーエンティティ用の回転ブロック
+block.pladailyboss.unbreakable_stone	壊れない石
+block.pladailyboss.unbreakable_glowstone	壊れないグロウストーン
+block.pladailyboss.unbreakable_stone_brick_stairs	壊れない石レンガの階段
+block.pladailyboss.unbreakable_andesite	壊れない安山岩
+block.pladailyboss.unbreakable_polished_andesite	壊れない磨かれた安山岩
+block.pladailyboss.unbreakable_stone_brick_slab	壊れない石レンガのハーフブロック
+block.pladailyboss.unbreakable_stone_slab	壊れない石のハーフブロック
+gui.pladailyboss.boss_screen	デイリーボス一覧
+key.pladailyboss.open_entity_gui	ボスメニューを開く
+entity.pladailyboss.key_entity	キーエンティティ
+## invincible
+key.invincible.key1	メインアクション
+key.invincible.key2	サブアクション
+key.invincible.key3	特殊能力1
+key.invincible.key4	特殊能力2
+key.invincible.key1.description	主にメインの攻撃や主要な戦闘アクションを行います。
+key.invincible.key2.description	主にガード、照準、サブの戦闘アクションに使います。
+key.invincible.key3.description	使えるときに特殊能力や別のスキルを発動します。
+key.invincible.key4.description	割り当てられていれば、追加の特殊能力や補助能力を発動します。
+key.invincible.category	Invincible Lib のアクション
+commands.invincible.reload	[Invincible Lib]: スキルを再読み込みしました！
+## mekagenjei
+mekagenjei.jei.bio_fuel	バイオ燃料発電機の燃料
+mekagenjei.jei.fusion_fuels	核融合炉の燃料
+mekagenjei.jei.gas_burning	ガス燃焼の燃料
+mekagenjei.jei.pump_output	ポンプの生産量
+mekagenjei.jei.radioactive_gas	放射性ガス
+mekagenjei.jei.rate	FE生産量
+mekagenjei.jei.time	持続時間
+mekagenjei.jei.total	FE総生産量
+mekagenjei.jei.turbine_steam	マルチブロックタービンの燃料
+mekagenjei.waste.decay	崩壊する
+## mekanismcurios
+key.categories.mekanismcurios	Mekanism Curios
+key.mekanismcurios.protableqio	ポータブルQIOを開く
+key.mekanismcurios.portableteleporter	ポータブルテレポーターを開く
+key.mekanismcurios.quickteleport	クイックテレポート
+key.mekanismcurios.quickteleport.notconnected	ポータブルテレポーターがリンクされていません。
+key.mekanismcurios.quickteleport.empty	Curiosスロットにポータブルテレポーターがありません。
+key.mekanismcurios.quickteleport.noenergy	ポータブルテレポーターのエネルギーが切れています。
+key.mekanismcurios.quickteleport.notfound	この周波数のテレポーターが見つかりません。
+curios.identifier.qio	QIO
+curios.identifier.teleporter	テレポーター
+## patchouli
+patchouli.gui.lexicon.landing_info	(仮の表紙の文章です。本のjsonファイルで独自に定義してください！)
+patchouli.gui.lexicon.editor.info	Patchouliの本のエントリーのエディタです。開発や翻訳向けのもので、プレイヤーが使う必要はありません。$(br2)使える制御コードは$(l:https://github.com/Vazkii/Patchouli/wiki/Text-Formatting-101)Patchouli wiki$()を参照してください。
+patchouli.gui.lexicon.index.info	この本で読めるすべての章の索引です。$(br2)キーワードを入力するだけで、索引や他のカテゴリーを検索できます。入力すると検索バーが表示されます。
+patchouli.gui.lexicon.history.info	最近開いた章を記録しています。$(br2)本を読み進めると、章が自動で追加・削除されます。長く残しておきたい場合はブックマークしましょう。$(br2)$(o)ヒント: 章のボタンをShift+クリックしてみよう！$()
+## create_bs
+block.create_bs.copper_item_vault	銅のアイテム保管庫
+block.create_bs.crystal_item_vault	クリスタルのアイテム保管庫
+block.create_bs.diamond_item_vault	ダイヤモンドのアイテム保管庫
+block.create_bs.emerald_item_vault	エメラルドのアイテム保管庫
+block.create_bs.gold_item_vault	金のアイテム保管庫
+block.create_bs.iron_item_vault	鉄のアイテム保管庫
+block.create_bs.netherite_item_vault	ネザライトのアイテム保管庫
+block.create_bs.obsidian_item_vault	黒曜石のアイテム保管庫
+block.create_bs.wooden_item_vault	木のアイテム保管庫
+## fusion
+fusion.resource_packs.requires_newer_version	(新しいバージョンのFusion向け)
+fusion.resource_packs.warning_screen.title	Fusionのバージョン警告
+fusion.resource_packs.warning_screen.message	このリソースパックは新しいバージョンのFusion向けに作られており、現在導入されているFusionでは正しく動かない可能性があります。
+fusion.resource_packs.warning_screen.confirmation	それでもリソースパックを有効にしますか？
+fusion.resource_packs.warning_screen.current_version	導入済みのバージョン:
+fusion.resource_packs.warning_screen.required_version	必要なバージョン:
+fusion.resource_packs.warning_screen.cancel	いいえ
+fusion.resource_packs.warning_screen.confirm	はい
+## fancymenu
+fancymenu.actions.screens.finish.no_action_selected	§x先にアクションを選んでください！
+fancymenu.elements.browser.rinku_initializing.line_1	ブラウザを起動中...
+fancymenu.elements.browser.rinku_initializing.line_2	Rinkuの初期化を待っています。
+fancymenu.elements.browser.rinku_failed.line_1	ブラウザの初期化に失敗しました！
+fancymenu.elements.browser.rinku_failed.line_2	詳しくはゲームログを確認してください。
+## mekvamp
+module.mekvamp.sunscreen_unit	日光遮断ユニット
+module.mekvamp.auto_feeding_unit	輸血ユニット
+description.mekvamp.auto_feeding_unit	§cヴァンパイア専用§r - 複雑なセンサー網で吸血衝動を監視し、必要なときに血を消化器系へ直接注入します。インベントリに新鮮な血で満たした液体タンクが必要です。
+description.mekvamp.sunscreen_unit	§cヴァンパイア専用§r - メカスーツに実験的な装甲板を追加し、ヴァンパイアの遺伝子に有害な太陽放射の波長を動的に遮断します。スーツのエネルギーを消費します。
+## moremekanismprocessing
+materialType.moremekanismprocessing.boron	ホウ素
+materialType.moremekanismprocessing.magnesium	マグネシウム
+materialType.moremekanismprocessing.palladium	パラジウム
+materialType.moremekanismprocessing.thorium	トリウム
+## spell_actionbar
+key.categories.spell_actionbar	Spell Actionbar
+key.spell_actionbar.open_menu	スクロールアクションバーを開く
+screen.spell_actionbar.title	スクロールアクションバー
+message.spell_actionbar.scrolls_returned	アクションバーのスクロールをインベントリに戻しました
+## apotheosis
+key.apotheosis.world_tiers_arent_real	ワールドティアのエラー通知
+message.apotheosis.world_tiers_arent_real	ワールドティアはMinecraft 1.21.1以降でのみ使えます。このバージョンのApotheosisは、代わりにディメンションに基づく進行システムを使います。
+text.apotheosis.gems_returned	クラフト時に宝石が戻ってきます
+## bettercombat
+item.held.two_handed	両手持ち
+text.autoconfig.bettercombat.option.client.firstPersonAnimations	一人称のプレイヤーアニメーション
+text.autoconfig.bettercombat.option.client.firstPersonAnimations.@Tooltip	プレイヤーの攻撃アニメーションを表示します。カメラ系MODを使っている場合以外は変更をおすすめしません。
+## cgm
+pack.cgm.pbr.desc	CGMの銃用PBRテクスチャ
+pack.cgm.pbr.title	CGM PBRテクスチャ
+slot.cgm.attachment.incompatible	合わないようだ...
+## chat_heads
+text.autoconfig.chat_heads.option.threeDeeNess	立体感
+text.autoconfig.chat_heads.option.threeDeeNess.@Tooltip	帽子レイヤーを少し大きく描画して\nチャットの頭を平たく見えにくくします。\n描画の問題が起こることがあります。\nワールドに入るとプレビューできます！
+text.autoconfig.chat_heads.option.drawShadow	影を描画
+## journeymap
+jm.webmap.automap_dialog_start	自動マッピングを開始
+jm.webmap.topo_button_text	地形
+jm.webmap.topo_button_title	ワールドの地形図
+## mekanismcovers
+item.mekanismcovers.cover	カバー
+text.mekanismcovers.empty	空
+config.jade.plugin_mekanismcovers.cover_component	カバーの部品
+## cristellib
+cristellib.builtinPack	Cristel Lib提供の内蔵データパック
+cristellib.nameAndSource	%s (%s)
+## irons_lib
+attribute.name.irons_lib.projectile_damage	飛び道具のダメージ
+attribute.name.irons_lib.projectile_damage.desc	すべての飛び道具のダメージの増加率
+## polymorph
+commands.polymorph.conflicts.starting	レシピの競合を検索しています...
+commands.polymorph.conflicts.success	競合の可能性を%d件見つけました。詳しくは logs/conflicts.log を確認してください。
+## betteradvancements
+betteradvancements.remaining	残り%d
+## caelus
+caelus.fallFlying	滑空
+## combo
+effect.combo.studed	スタン
+## drippyloadingscreen
+drippyloadingscreen.overlay.customization_hint	ここをクリックしてカスタマイズ！
+## mekajadeupgrade
+config.jade.plugin_mekajadeupgrade.upgrades	MekaJadeUpgradesの情報
+## neat
+neat.keybind.toggle	体力バーを切り替え
+## playeranimatorapi
+warn.playeranimatorapi.cannotEmote	他のアニメーション再生中はエモートできません。
+## supermartijn642corelib
+supermartijn642corelib.widgets.scrollbar.narration	スクロールバー

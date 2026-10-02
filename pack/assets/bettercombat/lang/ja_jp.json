@@ -1,0 +1,5 @@
+{
+  "item.held.two_handed": "両手持ち",
+  "text.autoconfig.bettercombat.option.client.firstPersonAnimations": "一人称のプレイヤーアニメーション",
+  "text.autoconfig.bettercombat.option.client.firstPersonAnimations.@Tooltip": "プレイヤーの攻撃アニメーションを表示します。カメラ系MODを使っている場合以外は変更をおすすめしません。"
+}

@@ -1,0 +1,9 @@
+{
+  "simplebackups.backup_started": "バックアップを開始した…",
+  "simplebackups.backup_finished": "バックアップが%sで完了した(%s | %s)",
+  "simplebackups.backups_paused": "バックアップを一時停止中",
+  "simplebackups.commands.only_modified": "変更されたファイル以外もバックアップされている。設定ファイルを確認してください",
+  "simplebackups.commands.is_merging": "統合処理がすでに進行中",
+  "simplebackups.commands.finished": "バックアップの統合が完了した",
+  "simplebackups.not_enough_space": "バックアップを作成する空き容量がディスクに足りない。中止した！"
+}

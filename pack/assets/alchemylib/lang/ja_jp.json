@@ -1,0 +1,9 @@
+{
+  "alchemylib.container.close_recipe_select": "レシピ選択を閉じる",
+  "alchemylib.container.lock_recipe": "レシピをロック",
+  "alchemylib.container.open_recipe_select": "レシピ選択を開く",
+  "alchemylib.container.pause": "一時停止",
+  "alchemylib.container.resume": "再開",
+  "alchemylib.container.show_recipes": "レシピを表示",
+  "alchemylib.container.unlock_recipe": "レシピのロックを解除"
+}

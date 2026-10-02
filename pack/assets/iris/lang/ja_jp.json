@@ -1,0 +1,12 @@
+{
+  "iris.load.failure.shader": "シェーダーパックの読み込みに失敗しました! エラーをシェーダーの開発者に報告してください。 ",
+  "iris.load.failure.generic": "Oculus がシェーダーの読み込み中に問題を検出しました。Oculus の開発者に報告してください。 ",
+  "iris.shaders.ssbofailure": "シェーダーがお使いのGPUでサポートされていない機能(SSBO)を要求しました。正しく動作しない可能性があります。",
+  "iris.keybind.wireframe": "ワイヤーフレーム(シングルプレイのみ)",
+  "iris.nec.failure.title": "[%s] Not Enough Crashes が検出されました!",
+  "iris.nec.failure.description": "Not Enough Crashes はクラッシュを処理する際にゲームを深刻に壊すことがあり、正確な結果も得られません。\n代わりに MixinTrace がおすすめです。クラッシュの原因をより確実に特定でき、ゲームを不正な状態にしません。",
+  "iris.unsupported.pack.macos": "\nmacOS では多くのシェーダーパックで問題が起きることが知られています。",
+  "options.iris.shadowDistance.sodium_tooltip": "影の描画距離は、影のパスでどのくらい遠くの地形まで描画しうるかを決めます。距離を短くすると描画する地形が減り、フレームレートが向上します。影の描画距離を明示的に指定しているパックではこのオプションは変更できません。実際の影の描画距離は描画距離の設定で上限が決まります。",
+  "options.iris.colorSpace": "色空間",
+  "options.iris.colorSpace.sodium_tooltip": "画面を変換する色空間です。シェーダーパックの上から適用されます。よく分からない場合は SRGB を使ってください。"
+}

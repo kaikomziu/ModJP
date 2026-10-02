@@ -1,0 +1,11 @@
+{
+  "block.create_bs.copper_item_vault": "銅のアイテム保管庫",
+  "block.create_bs.crystal_item_vault": "クリスタルのアイテム保管庫",
+  "block.create_bs.diamond_item_vault": "ダイヤモンドのアイテム保管庫",
+  "block.create_bs.emerald_item_vault": "エメラルドのアイテム保管庫",
+  "block.create_bs.gold_item_vault": "金のアイテム保管庫",
+  "block.create_bs.iron_item_vault": "鉄のアイテム保管庫",
+  "block.create_bs.netherite_item_vault": "ネザライトのアイテム保管庫",
+  "block.create_bs.obsidian_item_vault": "黒曜石のアイテム保管庫",
+  "block.create_bs.wooden_item_vault": "木のアイテム保管庫"
+}

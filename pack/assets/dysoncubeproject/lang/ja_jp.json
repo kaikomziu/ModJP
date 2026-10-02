@@ -1,0 +1,23 @@
+{
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_5.description": "セイルの5%を射出した。太陽はほとんど気づいていない。たぶん。",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_5.title": "太陽に通知しました",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_15.description": "セイルの15%を射出した。地元の光子が苦情を申し立てた。",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_15.title": "やや気がかりな太陽包囲",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_25.description": "セイルの25%を射出した。宇宙規模のたわごとまで4分の1。",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_25.title": "4分の1の球、満ちる野望",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_50.description": "セイルの50%を射出した。球は半分、思い上がりは2倍。",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_50.title": "恒星の大家まであと半分",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_75.description": "セイルの75%を射出した。太陽は正式に逃げ道を検討している。",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_75.title": "太陽がそわそわしている",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_100.description": "セイルの100%を射出した。日光は今やサブスクリプションサービスだ。",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_100.title": "おめでとう！日光はあなたのもの",
+  "advancement.dysoncubeproject.root.description": "今日、我々は太陽を盗む！",
+  "advancement.dysoncubeproject.root.title": "Dyson Cube Project",
+  "gui.dysoncubeproject.unsubscribe": "すべての球の購読を解除(自分の球に戻る)",
+  "item.dysoncubeproject.compressed_beam_package": "圧縮ビームパッケージ",
+  "item.dysoncubeproject.living_compressed_beam_package": "生きた圧縮ビームパッケージ",
+  "item.dysoncubeproject.compressed_solar_sail_package": "圧縮ソーラーセイルパッケージ",
+  "item.dysoncubeproject.living_compressed_solar_sail_package": "生きた圧縮ソーラーセイルパッケージ",
+  "creative_tab.dyson_cube_project": "Dyson Cube Project",
+  "tooltip.dysoncubeproject.power_optional": "*電力は任意。電力があると射出するビーム/セイルの数を増やせる*"
+}

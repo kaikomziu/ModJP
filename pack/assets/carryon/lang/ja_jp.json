@@ -1,0 +1,14 @@
+{
+  "carryon.category.settings": "設定",
+  "carryon.category.blacklist": "ブラックリスト",
+  "carryon.category.modeloverrides": "モデルの上書き(上級者向け)",
+  "carryon.category.custompickupconditions": "持ち上げ条件のカスタム(上級者向け)",
+  "carryon.category.whitelist": "ホワイトリスト",
+  "carryon.general.modeloverrides.modeloverrides": "モデルの上書き",
+  "carryon.general.blacklist.forbiddenentities": "プレイヤーが持ち上げられないエンティティ",
+  "carryon.general.blacklist.forbiddentiles": "プレイヤーが持ち上げられないブロック",
+  "carryon.category.custompickupconditions.custompickupconditionsblocks": "ブロックの持ち上げ条件",
+  "carryon.category.custompickupconditions.custompickupconditionsentities": "エンティティの持ち上げ条件",
+  "key.carry.desc": "持ち上げる",
+  "key.carry.category": "Carry On"
+}

@@ -1,0 +1,9 @@
+{
+  "fluid.sliceanddice.fertilizer": "液体肥料",
+  "sliceanddice.ponder.sprinkler/intro.header": "上からスプリンクル",
+  "sliceanddice.ponder.sprinkler/intro.text_1": "パイプの下にスプリンクラーを設置します",
+  "sliceanddice.ponder.sprinkler/uses.header": "散布の種類",
+  "sliceanddice.ponder.sprinkler/uses.text_1": "液体によってエンティティへの効果も変わります",
+  "sliceanddice.recipe.assembly.slicer": "スライサーで切る",
+  "sliceanddice.recipe.slicer": "スライサー"
+}

@@ -1,0 +1,286 @@
+## byg
+@ biome.byg.
+.arisian_undergrowth	アリシアンの下草
+.atacama_desert	アタカマ砂漠
+.autumnal_forest	秋の森
+.autumnal_taiga	秋のタイガ
+.black_forest	黒い森
+.borealis_grove	オーロラの木立
+.canadian_shield	カナダ楯状地
+.cardinal_tundra	カーディナルツンドラ
+.coconino_meadow	ココニノ牧草地
+.dacite_ridges	デイサイトの尾根
+.dacite_shore	デイサイトの海岸
+.firecracker_shrubland	ハナチョウジの灌木地
+.forgotten_forest	忘れられた森
+.fragment_forest	断片の森
+.frosted_coniferous_forest	霜に覆われた針葉樹林
+.frosted_taiga	霜に覆われたタイガ
+.howling_peaks	遠吠えの頂
+.red_rock_valley	赤色岩の谷
+.redwood_thicket	セコイアの茂み
+.skyris_vale	スカイリスの谷
+.temperate_grove	温帯の木立
+.temperate_rainforest	温帯雨林
+.windswept_desert	吹きさらしの砂漠
+@ biomepedia.biome.byg.
+.allium_fields.desc	ピンクと紫のアリウムの茂みが咲き誇る豊かな花畑。大きなオークの木や村がよく見られます。
+.amaranth_fields.desc	赤・赤紫・青緑・橙・紫のアマランサスの花の茂みが見られる豊かな花畑。熱帯のジャカランダの木や茂みもあります。
+.araucaria_savanna.desc	乾燥していながら花の多いサバンナで、樹冠の広いナンヨウスギやアカシアの木があります。サバンナの村がよく見られます。
+.arisian_undergrowth.desc	今後の作り直しが予定されているため無効化されているネザーのバイオーム。
+.aspen_forest.desc	アスペンの森には、ピンクのアリウム、バラ、黄色のスイセン、橙色のデイジーなど豊かな植物が生えています。ヤマナラシの木が密集し、タイガの村も見られます。
+.atacama_desert.desc	タルサボテン、サボテン、金色のトゲのサボテン、ウチワサボテン、アロエベラ、アネモネ、セージが豊富な、色鮮やかで花の多い砂漠。現実のアタカマ砂漠は南米チリの太平洋沿岸にあります！
+.autumnal_forest.desc	永遠の秋に閉ざされたオークとシラカバの森。白いホコリタケやポドゾル、たくさんの花が見られます！ここでパンプキン・ウォーデンを見たという噂があり、そのカボチャ畑に迷い込んだプレイヤーもいるとか。
+.autumnal_taiga.desc	永遠の秋に閉ざされたトウヒとヤマナラシのタイガ。ここでパンプキン・ウォーデンを見たという噂があり、そのカボチャ畑に迷い込んだプレイヤーもいるとか。このバイオームではタイガの村も見つかっています。何か関係があるのでしょうか？
+.autumnal_valley.desc	茂った草ブロックと茂った土のある色鮮やかな谷。巨大なカボチャとたくさんのクローバーや花が見られます！ここでパンプキン・ウォーデンを見たという噂があり、そのカボチャ畑に迷い込んだプレイヤーもいるとか。
+.baobab_savanna.desc	どっしりしたバオバブの木とアカシアの木がある乾燥したサバンナ。バオバブの実は窮地で大きな満足感を与えてくれます。サバンナの村も見つかっています。
+.basalt_barrera.desc	玄武岩の柱があり、ときどき地表に深層岩が見られる独特な海岸バイオーム。
+.bayou.desc	ヤナギの木が生い茂る濁った沼地。ガマ、泥、粘土、たくさんの花が見つかります！ウィッチの小屋も目撃されています。
+.black_forest.desc	セイヨウマツ、ヤマナラシ、針葉樹が生い茂る不気味な森。黒いバラなどの花が見つかり、タイガの村も目撃されています。
+.borealis_grove.desc	今後作り直しが予定されている寒冷な木立！
+.brimstone_caverns.desc	硫黄の炎と無煙炭に満ちた有毒な洞窟。砦の遺跡やネザー要塞も見つかります。
+.bulbis_gardens.desc	絡み合ったバルビスの奇物がある異質で奇妙な庭園。エンドシティやバルビスの異形が見つかります。
+.canadian_shield.desc	美しいアジサイの花が咲く高地。ヤマナラシ、トウヒ、セイヨウマツ、針葉樹が見られます。トウヒの村や苔むした丸石がよく見られます。
+.cardinal_tundra.desc	荒涼としながらも色鮮やかなツンドラ。ウサギがたくさんいて、ときどき雪の村も見つかります。
+.cherry_blossom_forest.desc	さまざまな桜の木と、ときどきシラカバが生える花盛りの桜の森。たくさんの動物や花、装飾用ブロックが見つかり、美しい景観が広がります。
+.cika_woods.desc	古く神秘的な秋のタイガ。大きなカボチャやチカの木が見られ、ここでパンプキン・ウォーデンを見たという噂があり、そのカボチャ畑に迷い込んだプレイヤーもいるとか。
+.coconino_meadow.desc	低木、ヒマワリ、チューリップなど植物が多く、茂った草ブロック/茂った土のある、開けた色鮮やかな高地の牧草地。古代遺跡の村やトウヒの村が見つかります。現実のココニノ牧草地はアメリカ・アリゾナ州北部のグランドキャニオン近くにあります。
+.coniferous_forest.desc	そびえ立つ針葉樹と、ときどきトウヒが生える密なタイガ。苔むした大岩や寒冷地の豊かな植物が見られます。トウヒの村もよく見かけます。
+.crag_gardens.desc	世界の温暖な地域にある魔法のような熱帯の庭園。熱帯植物やレインボーユーカリの木が豊富です。
+.crimson_gardens.desc	ネザーの洞窟の奥深くにある至福の庭園。真紅のベリーの茂みや砦の遺跡、ネザー要塞も見つかります。
+.cryptic_wastes.desc	不可解な炎と不可解な石のある、荒涼とした焦土。バイオーム中に独特な不可解な噴気孔やゼリアムの鉱床が見つかります。
+.cypress_swamplands.desc	ヒノキの木が生える豊かな沼地。沼地の植物や、カエルのような独特なモブが見つかります。ウィッチの小屋も目撃されています。
+.dacite_ridges.desc	大きなヒイラギとトウヒの木がある高地の山岳バイオーム。独特なデイサイトの石とたくさんのタイガの植物が見つかります。
+.dacite_shore.desc	デイサイトの石がある独特な海岸線。
+.prairie.desc	プレーリーグラスと背の高いプレーリーグラスが生える、色鮮やかで起伏のある草原。ハナビシソウや大きなオークの木、村がよく見られます。
+biomepedia.biomeabout.biometags	バイオームタグ:
+biomepedia.biomeabout.climate	気候情報:
+biomepedia.biomeabout.climate.basetemperature	気温: %s
+biomepedia.biomeabout.climate.downfall	降水量: %s
+biomepedia.biomeabout.climate.precipitation	降水: %s
+biomepedia.biomeabout.climate.precipitation.none	なし
+biomepedia.biomeabout.climate.precipitation.rain	雨
+biomepedia.biomeabout.climate.precipitation.snow	雪
+biomepedia.biomeabout.color	色の設定:
+biomepedia.biomeabout.color.fog	霧の色: %s
+biomepedia.biomeabout.color.foliage	葉の色: %s
+biomepedia.biomeabout.color.grass	草の色: %s
+biomepedia.biomeabout.color.sky	空の色: %s
+biomepedia.biomeabout.color.water	水の色: %s
+biomepedia.biomeabout.color.waterfog	水中の霧の色: %s
+biomepedia.biomeabout.dimensions	ディメンション:
+biomepedia.biomeabout.dimensions.none	このバイオームはどのディメンションにも生成されない。
+biomepedia.biomeabout.mobspawns	モブのスポーン:
+biomepedia.biomeabout.mobspawns.none	このバイオームではモブがスポーンしない。
+biomepedia.biomelist.search	検索
+biomepedia.desc.block.byg.none	説明はありません。
+biomepedia.desc.block.byg.pendorite_block	これはペンドライトブロック。これを手に入れたなら、正直もう見せびらかしてるレベルだよ。\nどうやったの？なんでそんなにカッコいいの？すごーーい。\n\nとにかく、ここまで読んでくれたあなたはカッコいい :)
+biomepedia.intro	Oh The Biomes You'll Go(略して「BYG」)のバイオームペディアへようこそ！ここではバイオーム、ブロック、アイテム、ツールなどの情報を確認できます。右のページで知りたい項目を選んでください。\n\nBYGを遊んでくれてありがとう！ <3
+biomepedia.intro.options.biomes	バイオーム
+biomepedia.intro.options.biomes.hover	BYGのバイオームについて詳しく知ろう！
+biomepedia.intro.options.blocksanditems	ブロックとアイテム
+biomepedia.intro.options.blocksanditems.hover	BYGのブロックとアイテムについて詳しく知ろう！
+biomepedia.intro.options.disabled.hover	近日公開…
+biomepedia.intro.options.donate	寄付
+biomepedia.intro.options.donate.hover	BYGを楽しんでる？制作者を支援しよう！
+biomepedia.intro.options.download	最新版をダウンロード
+biomepedia.intro.options.download.hover	公式ダウンロードページから最新のBYGを入手！
+biomepedia.intro.options.issues	不具合報告
+biomepedia.intro.options.issues.hover	バグや問題を見つけた？報告してね！
+biomepedia.intro.options.ores	鉱石
+biomepedia.intro.options.ores.hover	BYGの鉱石について詳しく知ろう！
+biomepedia.intro.options.translate	翻訳
+biomepedia.intro.options.translate.hover	英語以外の言語がわかる？翻訳を手伝ってね！
+=Aloe Vera	アロエベラ
+=Blooming Aloe Vera	花咲くアロエベラ
+=Aloe Vera Juice	アロエベラジュース
+=Apple Fruit Block	リンゴの実ブロック
+=Green Apple Fruit Block	青リンゴの実ブロック
+=Joshua Fruit Block	ジョシュアツリーの実ブロック
+=Arisian Bloom Branch	アリシアンの花の枝
+=Blue Nether Gold Ore	青いネザー金鉱石
+=Blue Nether Quartz Ore	青いネザークォーツ鉱石
+=Brimstone Nether Gold Ore	硫黄のネザー金鉱石
+=Brimstone Nether Quartz Ore	硫黄のネザークォーツ鉱石
+=Blue Rose Bush	青いバラの低木
+=Boric Lantern	ホウ素のランタン
+=Budding Subzero Crystal	芽生えた氷点のクリスタル
+=Budding Therium Crystal	芽生えたゼリアムクリスタル
+=Carved Barrel Cactus	くり抜いたタルサボテン
+=Flowering Barrel Cactus	花咲くタルサボテン
+=Honey Barrel Cactus	ハチミツのタルサボテン
+=Water Barrel Cactus	水のタルサボテン
+=Cattail Sprout	ガマの芽
+=Cattail Thatch	ガマの茅葺き
+=Cattail Thatch Carpet	ガマの茅葺きカーペット
+=Cattail Thatch Slab	ガマの茅葺きのハーフブロック
+=Cattail Thatch Stairs	ガマの茅葺きの階段
+=Chiseled Fungal Imparius	模様入りの真菌性インパリウス
+=Chiseled Fungal Imparius Slab	模様入りの真菌性インパリウスのハーフブロック
+=Chiseled Fungal Imparius Stairs	模様入りの真菌性インパリウスの階段
+=Chiseled Fungal Imparius Wall	模様入りの真菌性インパリウスの塀
+=Chiseled Travertine	模様入りのトラバーチン
+=Chiseled Travertine Slab	模様入りのトラバーチンのハーフブロック
+=Chiseled Travertine Stairs	模様入りのトラバーチンの階段
+=Chiseled Travertine Wall	模様入りのトラバーチンの塀
+=Polished Travertine	磨かれたトラバーチン
+=Polished Travertine Slab	磨かれたトラバーチンのハーフブロック
+=Polished Travertine Stairs	磨かれたトラバーチンの階段
+=Polished Travertine Wall	磨かれたトラバーチンの塀
+=Travertine Slab	トラバーチンのハーフブロック
+=Travertine Stairs	トラバーチンの階段
+=Travertine Wall	トラバーチンの塀
+=Windswept Sand	吹きさらしの砂
+=Windswept Sandstone	吹きさらしの砂岩
+=Windswept Sandstone Pillar	吹きさらしの砂岩の柱
+=Windswept Sandstone Slab	吹きさらしの砂岩のハーフブロック
+=Windswept Sandstone Stairs	吹きさらしの砂岩の階段
+=Windswept Sandstone Wall	吹きさらしの砂岩の塀
+=Chiseled Windswept Sandstone	模様入りの吹きさらしの砂岩
+=Chiseled Windswept Sandstone Slab	模様入りの吹きさらしの砂岩のハーフブロック
+=Chiseled Windswept Sandstone Stairs	模様入りの吹きさらしの砂岩の階段
+=Chiseled Windswept Sandstone Wall	模様入りの吹きさらしの砂岩の塀
+=Cut Windswept Sandstone	研がれた吹きさらしの砂岩
+=Cut Windswept Sandstone Slab	研がれた吹きさらしの砂岩のハーフブロック
+=Cut Windswept Sandstone Stairs	研がれた吹きさらしの砂岩の階段
+=Cut Windswept Sandstone Wall	研がれた吹きさらしの砂岩の塀
+=Smooth Windswept Sandstone	滑らかな吹きさらしの砂岩
+=Smooth Windswept Sandstone Slab	滑らかな吹きさらしの砂岩のハーフブロック
+=Smooth Windswept Sandstone Stairs	滑らかな吹きさらしの砂岩の階段
+=Smooth Windswept Sandstone Wall	滑らかな吹きさらしの砂岩の塀
+=Cracked Red Sand	ひび割れた赤い砂
+=Cracked Scoria Stone Bricks	ひび割れたスコリアレンガ
+=Cryptic End Rod	不可解なエンドロッド
+=Cryptic Lantern	不可解なランタン
+=Dusted Polished Blackstone Bricks	粉をまぶした磨かれたブラックストーンレンガ
+=Embur Gel Branch	エンバージェルの枝
+=Embur Gel Vines Plant	エンバージェルのツタ
+=Emeraldite Ore	エメラルダイト鉱石
+=Emeraldite Shards	エメラルダイトの欠片
+=Firecracker Leaves	ハナチョウジの葉
+=Flowering Baobab Leaves	花咲くバオバブの葉
+=Ripe Baobab Leaves	熟したバオバブの葉
+=Flowering Joshua Leaves	花咲くジョシュアツリーの葉
+=Flowering Skyris Leaves	花咲くスカイリスの葉
+=Flowering Tiny Lily Pads	花咲く小さいスイレンの葉
+=Foragers Table	採集者の作業台
+=Hydrangea Bush	アジサイの低木
+=Hydrangea Hedge	アジサイの生け垣
+=Potted Hydrangea Bush	植えられたアジサイの低木
+=Hypogeal Imperium	地下のインペリウム
+=Imbued Blue Enchanted Log	魔力を帯びた青い魔法の原木
+=Imbued Green Enchanted Log	魔力を帯びた緑の魔法の原木
+=Large Subzero Crystal Bud	大きな氷点のクリスタルの芽
+=Medium Subzero Crystal Bud	中くらいの氷点のクリスタルの芽
+=Small Subzero Crystal Bud	小さな氷点のクリスタルの芽
+=Large Therium Crystal Bud	大きなゼリアムクリスタルの芽
+=Medium Therium Crystal Bud	中くらいのゼリアムクリスタルの芽
+=Small Therium Crystal Bud	小さなゼリアムクリスタルの芽
+=Subzero Crystal Block	氷点のクリスタルブロック
+=Subzero Crystal Cluster	氷点のクリスタルの塊
+=Subzero Crystal Shard	氷点のクリスタルの欠片
+=Therium Crystal Block	ゼリアムクリスタルブロック
+=Therium Crystal Cluster	ゼリアムクリスタルの塊
+=Therium Crystal Shard	ゼリアムクリスタルの欠片
+=Lush Dirt	茂った土
+=Lush Farmland	茂った耕地
+=Lush Grass Block	茂った草ブロック
+=Lush Grass Path	茂った土の道
+=Potted Shrub	植えられた低木
+=Shrub	低木
+=Potted White Puffball	植えられた白いホコリタケ
+=White Puffball	白いホコリタケ
+=White Puffball Cap	白いホコリタケのかさ
+=Cooked White Puffball Cap	焼いた白いホコリタケのかさ
+=White Puffball Spores	白いホコリタケの胞子
+=White Puffball Stew	白いホコリタケのシチュー
+=Raw Pendorite Block	ペンドライトの原石ブロック
+=Raw Pendorite	ペンドライトの原石
+=Pendorite Ingot	ペンドライトインゴット
+=Shelf Fungi	サルノコシカケ
+=Tall Beach Grass	背の高い浜辺の草
+=Wailing Bell Blossom	慟哭の鐘の花
+=Wailing Nylium	慟哭のナイリウム
+=Witch Hazel Blossom	マンサクの花
+=Witch Hazel Branch	マンサクの枝
+=Yellow Nether Brick Slab	黄色のネザーレンガのハーフブロック
+=Yellow Nether Brick Stairs	黄色のネザーレンガの階段
+=Yellow Nether Brick Wall	黄色のネザーレンガの塀
+=Biomepedia	バイオームペディア
+=Man O War	カツオノエボシ
+=Man O War Bucket	カツオノエボシ入りバケツ
+=Man O War Spawn Egg	カツオノエボシのスポーンエッグ
+=Pumpkin Warden	パンプキン・ウォーデン
+=Pumpkin Warden Spawn Egg	パンプキン・ウォーデンのスポーンエッグ
+=Oh The Biomes You'll Go	Oh The Biomes You'll Go
+=Oh the Biomes You'll Go	Oh the Biomes You'll Go
+@ byg.advancements.
+.biomepediagift.description	バイオームペディアを受け取る。
+.biomepediagift.title	バイオームの知識は力なり！
+.husbandry.berrily_alive.description	ブルーベリーを手に入れる
+.husbandry.berrily_alive.title	ベリーベリー元気
+.husbandry.forager.description	白いホコリタケのかさを手に入れる
+.husbandry.forager.title	採集者
+.husbandry.granny_smith.description	スカイリスの高地で青リンゴを手に入れる
+.husbandry.granny_smith.title	グラニースミス？
+.husbandry.hot_diggity_not_dog.description	焚き火でガマを焼く。離れたほうがいいかも…
+.husbandry.hot_diggity_not_dog.title	ホットドッグ…じゃない？
+.husbandry.just_like_grandmas.description	BYGの4種類のパイのどれかをクラフトする。
+.husbandry.just_like_grandmas.title	おばあちゃんの味
+.husbandry.root.title	農業
+@ byg.
+.clickevent.hovertext	クリックで開く。
+.clickme	ここ(クリック！)
+.command.config.error	「%s」は有効な設定タイプではない！
+.command.config.success	「%s」の設定を再読み込みした！
+.command.resetconfig.notifyrestart	設定をリセットした。すべての変更を確実に適用するにはゲームを再起動すること。
+.command.updateconfig.configsuptodate	設定はすでに最新！
+.command.updateconfig.contactserverowner	サーバー管理者に連絡して、BYGの設定が古いことを伝えてください！
+.command.updateconfig.dismiss	閉じる
+.command.updateconfig.notifyplayersservershutdown	BYG: サーバー管理者がBYGの設定を更新するためサーバーを停止することにしました。60秒後にサーバーが停止します….
+.command.updateconfig.notifyserverowner.dedicated	BYG: サーバーの設定が古くなっています。サーバー管理者に専用サーバーのコンソールから「%s」か「%s」を実行するよう伝えてください。
+.command.updateconfig.notifyserverowner.singleplayer	BYG: サーバーの設定が古くなっています。ホストに「%s」か「%s」を実行するよう伝えてください。
+.command.updateconfig.outdatedconfigs	BYG: 設定の更新が必要です。強調表示されたどちらかの選択肢をクリックして更新してください %s または %s
+.command.updateconfig.update	更新
+.command.updateconfig.update.hover	このコマンドを実行すると設定を更新してゲームを再起動します！BYGの設定のバックアップは%sに作成されます
+.command.updateconfig.warngameclose	BYG: 警告: すべての設定を確実に読み直すため、このコマンドはゲームを終了します。BYGの設定のバックアップは「.../config/byg/backups」に作成されます
+.command.updateconfig.warnplayers	BYG: 警告: サーバー管理者がBYGの全設定を更新しようとしています。接続中のユーザーは切断される可能性があります…
+.command.validateconfig.notifyrestart	設定を検証した。すべての変更を確実に適用するにはゲームを再起動すること。
+.command.validateconfig.success	設定の検証に成功した！
+.config.error	BYGの設定でエラーが発生したため、代わりにデフォルト設定を使用しました！詳細はlatest.logを確認してください。
+.config.error.commandvalidate	変更を加えたら「/byg configs validate」で設定の変更を検証してください。設定を直さずに検証が失敗した場合、このメッセージが繰り返されます。
+.config.error.latestlog	[ここをクリックしてlatest.logを開く！]
+.config.error.resetconfigs	設定を編集していないのに壊れた場合は、「/byg configs reset」を実行できます
+.config.error.restart	設定の変更をゲームに反映するには再起動が必要です。
+.end.not.used	警告: このワールドのエンドではBYGのエンドのバイオームソースが使われていないため、BYGのエンドの設定は無効になっています。設定では使うことになっています！意図的な場合(他のエンドMODを使っているなど)は、今後の新しいワールドでこの警告を出さないようにできます。「%s」にある設定を開き、「warnBYGEndBiomeSourceNotUsedInNewWorlds」を「false」にしてください！\n意図的でない場合は、%sの手順に従ってBYGのエンドを有効にしてください。
+.experimental.warning	現在、BYGの実験版または未完成版を使用しています。このワールドでBYGを更新すると、ワールドが壊れたりバグが出たりするおそれがあります！
+.nether.not.used	警告: このワールドのネザーではBYGのネザーのバイオームソースが使われていないため、BYGのネザーの設定は無効になっています。設定では使うことになっています！意図的な場合(他のネザーMODを使っているなど)は、今後の新しいワールドでこの警告を出さないようにできます。「%s」にある設定を開き、「warnBYGNetherBiomeSourceNotUsedInNewWorlds」を「false」にしてください！\n意図的でない場合は、%sの手順に従ってBYGのネザーを有効にしてください。
+.nether.not.used.terrablender	警告: このワールドのネザーではBYGのネザーのバイオームソースが使われていないため、BYGのネザーの設定は無効になっています。設定では使うことになっています！意図的な場合(他のネザーMODを使っているなど)は、今後の新しいワールドでこの警告を出さないようにできます。「%s」にあるBYGのネザーの設定を開き、「warnBYGNetherBiomeSourceNotUsedInNewWorlds」を「false」にしてください！\nこのワールドのバイオームソースはTerraBlenderが制御していることを検出しました。%sにあるTerraBlenderの設定で「replace_default_nether」を「false」にしてください。\n この変更は新しいワールドにのみ適用されます。既存のワールドの場合は、%sの手順に従ってください
+.saplingpattern.suggest.hold.shift	%sを押し続けると苗木の配置パターンを表示。
+.saplingpattern.tooltip	苗木の配置パターン:
+.saplingpattern.tooltip.empty	□ = 空き
+.saplingpattern.tooltip.sapling	x = 苗木
+.screen.configloadfail.openconfigdir	設定フォルダを開く
+.screen.configloadfail.openconfigdir.hover	設定ディレクトリを開く。
+.screen.configloadfail.recreateconfigs	設定を作り直す
+.screen.configloadfail.recreateconfigs.hover	設定をバックアップして作り直し、Minecraftを再起動する。
+.screen.configloadfail.title	BYGの設定の読み込みに失敗:
+.screen.configloadfail.validate	設定を検証
+.screen.configloadfail.validate.hover	設定を再読み込みする。問題なければそのままワールドの読み込みを続ける。
+.screen.configloadfail.validate.toast	BYGの設定を検証中…
+.serverkill.countdown	サーバー停止まで: %s秒
+.worldgenexport.exists	ワールド生成のエクスポートはすでに存在する！ここで確認: %s！
+.worldgenexport.failed	あれ、ワールド生成のエクスポートを作成できなかった。latest.logを確認してね！
+.worldgenexport.singleplayer	ワールド生成のエクスポートコマンドはシングルプレイで使う必要がある！
+.worldgenexport.starting	ワールド生成のエクスポートを開始。サーバーのラグとメモリ使用量の増加に注意…
+.worldgenexport.success	ワールド生成のエクスポートに成功！ファイルはここ: %s！
+container.hypogeal_imperium_container	地下のインペリウム
+death.attack.byg.cattail_campfire	%sは好奇心が強すぎた
+dimension.minecraft.overworld	オーバーワールド
+dimension.minecraft.the_end	ジ・エンド
+dimension.minecraft.the_nether	ネザー
+entity.byg.chest_boat	チェスト付きボート
+entity.minecraft.villager.forager	採集者
+filled_map.ancient_sequoia	古代セコイアの地図
+generator.byg.debug_biomes	デバッグ用バイオーム
+itemGroup.byg.byg	Oh The Biomes You'll Go

@@ -1,0 +1,144 @@
+## modularrouters
+@ modularrouters.guiText.popup.
+.activator.action	§a§n動作 ${br} ${br}§rアクティベーターモジュールは次の操作をシミュレートできる: ${br}- ルーターのバッファ内のアイテムでブロックを右クリック(例: クワを使う、レバーを切り替える); ${br}- 近くのエンティティを右クリック(例: ルーターのバッファ内のバケツでウシの乳を搾る)。
+.activator.entity	§a§nエンティティモード ${br} ${br}§rモジュールが動くたびに、近く(3ブロック以内)のどのエンティティを対象にするかを決める: ${br}- 最も近いエンティティ; ${br}- ランダムに選んだエンティティ; ${br}- 範囲内の全エンティティを順番に。
+.activator.look	§a§n視線の方向 ${br} ${br}§r右クリックするとき、ルーターは次のようにできる: ${br}- 水平を向き、モジュールの方向にある最大4ブロック先のブロックを直接狙う; ${br}- 上を向き、モジュールの方向にあるブロックの真上のブロックを狙う; ${br}- 下を向き、モジュールの方向にあるブロックの真下のブロックを狙う。
+.activator.sneak	§a§nスニーク ${br} ${br}§r右クリック操作中にルーターがスニークをシミュレートするかを切り替える。
+.augments	§a§n拡張 ${br} ${br}§rこの4つのスロットにはモジュール拡張を入れられる。拡張はクラフトできるアイテムで、モジュールに入れると機能を変更・強化する。 ${br} ${br}各拡張の効果の詳細は、拡張アイテムのツールチップを参照。 ${br} ${br}拡張の複製を防ぐため、拡張はモジュールアイテムを1個だけ持っているときにしか出し入れできない。
+.breaker.matchType	§a§n一致の種類 ${br} ${br}§r- ドロップアイテムで一致: ブロックを壊すとき、ドロップするアイテムでフィルターを判定する(シルクタッチはドロップに影響する)${br}- ブロックで一致: ブロックそのものでフィルターを判定する。例: フィルターに石を入れると、シルクタッチなしでも石ブロックに一致する(ドロップは丸石のまま)
+.detector.signalLevel	§a§nレッドストーン信号レベル ${br} ${br}§rここではレッドストーン信号レベル(0〜15の整数)を設定できる。フィルターがバッファのアイテムに一致すると、この強さの信号をモジュールの方向に出す。
+.detector.weakStrong	§a§nレッドストーン信号の強さ ${br} ${br}§r- §o弱い§rレッドストーン信号は隣接するブロックだけを動力化する; ${br}- §o強い§rレッドストーン信号は隣接するブロックと、さらにそれに隣接するブロックを動力化する(バニラのリピーターと同様)。
+.direction	§a§n方向の制御 ${br} ${br}§rGUIのこの部分で、モジュールが動作する方向を設定できる。この方向はルーターの正面を基準とする。デフォルトの方向はなし(NONE)で、ほとんどのモジュールはこの状態では動かないため、方向を設定する必要がある。
+.distributor.direction	§a§n転送方向 ${br} ${br}§rここでは、ルーターがアイテムを送り出すか、自分に引き込むかを制御できる。
+.distributor.strategy	§a§n分配方式 ${br} ${br}§rインベントリを試す順番を決める。方式は4つ: ${br} ${br}§e順番§r - 対象のインベントリを順番に試す。 ${br} ${br}§eランダム§r - ティックごとにランダムなインベントリを試す。 ${br} ${br}§e近い順§r - 搬入できる空きのある最も近いインベントリを使う。 ${br} ${br}§e遠い順§r - 搬入できる空きのある最も遠いインベントリを使う。
+.extruder2.template	§a§nテンプレート ${br} ${br}§rここでは押し出すブロックのテンプレートを設定できる。実際のブロックは置かれず、クラフトも回収もできない特殊なテンプレートブロックが置かれる。 ${br} ${br}押し出すものを決めるには、テンプレートにブロックのゴーストコピーを置く。ブロックは左から右、上から下の順に押し出される。望むなら各ブロックを複数押し出すこともできる(テンプレート内のブロックを左/右クリックで調整)。 ${br} ${br}テンプレートにはブロック以外のアイテム(例: 棒)も置ける。当然それは置けないが、パターン内に空気ブロックを1つ以上「置く」スペーサーとして使われる。
+.filter	§a§nフィルター ${br} ${br}§rここにアイテムのゴーストコピーを置いて、このモジュールが扱うものを絞り込む。ルーターのバッファ内のアイテムがここのフィルターアイテムに一致しなければ、モジュールは動かない。下のフィルター制御ボタンも参照。
+.filterControl	§a§nフィルター制御 ${br} ${br}§rこれらのボタンで、ルーターのバッファ内のアイテムへのフィルターの適用方法を制御する。詳細は各ボタンのツールチップを参照。
+.flinger.pitch	§a§n投擲のピッチ ${br} ${br}§r垂直方向のずれ(度): ${br} ${br}- モジュールが水平を向いているときは、その水平軸(XかZ)からの上下のずれ ${br}- モジュールが上か下を向いているときは、垂直軸(Y)からのずれ。
+.flinger.speed	§a§n投擲の速度 ${br} ${br}§rルーターからアイテムを投げるときに与える速度。 ${br} ${br}目安として、速度1.0・ピッチ30(モジュールは水平向き)なら、その方向に約20ブロック飛ぶ。
+.flinger.yaw	§a§n投擲のヨー ${br} ${br}§r水平方向のずれ(度): ${br} ${br}- モジュールが水平を向いているときは、その水平軸(XかZ)からの左右のずれ ${br}- モジュールが上か下を向いているときは、垂直軸(Y)からのずれ。これはピッチが0以外のときだけ意味がある。
+.fluid.direction	§a§n転送方向 ${br} ${br}§rここでは、ルーターが液体をワールドやタンクへ押し出すか、ワールドやタンクから引き込むかを制御できる。
+.fluid.forceEmpty	§a§n強制排出 ${br} ${br}§rMinecraftでは、液体の入ったバケツを同じ液体の溜まりに空けると、バケツの液体は永遠に失われる。これは必ずしも望ましくない。 ${br} ${br}液体モジュールはデフォルトでは、対象ブロックが完全に空(つまり空気)でない限り、ワールドに液体を注ごうとしない。「強制」ボタンを切り替えるとこの動作を変えられる。有効にすると、液体モジュールはためらわず既存の溜まりに液体を注ぐ。ただし、液体を失うことがあるので注意…
+.fluid.maxTransfer	§a§n最大転送量 ${br} ${br}§rルーターが1回の操作で転送を試みる液体の最大量。 ${br} ${br}転送速度はルーター内の液体転送アップグレードの数や、外部タンク(ある場合)の転送速度にも制限される。この数値は目標ではなく上限と考えること。
+.noDirection	§a§n方向の制御 ${br} ${br}§rGUIのこの部分で、モジュールが動作する方向を設定できる。この方向はルーターの向きを基準とする。 ${br} ${br}このモジュールには方向の概念がないため、この部分は空になっている。
+.player.control	§a§nプレイヤーモジュール ${br} ${br}§rここでは次を設定できる: ${br}- ルーターがプレイヤーからルーターへ、またはルーターからプレイヤーへアイテムを転送するか; ${br}- プレイヤーのインベントリのどの部分とやり取りするか。
+.xpVacuum	§a§n経験値の回収方法 ${br} ${br}§rここでは経験値オーブの回収方法を設定できる。選択肢は導入されている他のMODや使える経験値の液体によって変わるが、バニラのエンチャントの瓶は常に使える。 ${br} ${br}経験値を液体として回収する場合は、mB単位で液体を貯められるタンク(バニラのバケツは不可)をルーターのバッファに入れるか、ルーターの隣にタンクを置いて下の排出ボタンをチェックする必要がある。
+.xpVacuum.eject	§a§n経験値の液体の排出 ${br} ${br}§rチェックすると、ルーターは経験値の液体を隣接する適切なタンクに排出しようとする(確認する面の順: 下、上、北、南、西、東)。排出の対象は経験値の液体だけで、固体の経験値アイテムは対象外。 ${br} ${br}ルーターのバッファにアイテムとして入れて液体を満たせるタンクを追加するMODがない場合に便利。
+@ modularrouters.itemText.
+.activator.action.ITEM_OR_BLOCK	右クリック
+.activator.action.USE_ITEM_ON_ENTITY	エンティティを右クリック
+.activator.action.ATTACK_ENTITY	近くのエンティティを攻撃
+.activator.direction.ABOVE	上を見る
+.activator.direction.BELOW	下を見る
+.activator.direction.LEVEL	水平を見る
+.activator.entityMode.NEAREST	範囲内で最も近いエンティティ
+.activator.entityMode.RANDOM	範囲内のランダムなエンティティ
+.activator.entityMode.ROUND_ROBIN	範囲内のエンティティを順番に
+.augments	§e拡張:
+.augments.pickupDelay	%dティック (%f秒)
+.augments.stackInfo	%d個/ルーターティック
+.camouflage.held	迷彩の見た目:
+.distributor.strategy.FURTHEST_FIRST	遠い順
+.distributor.strategy.NEAREST_FIRST	近い順
+.distributor.strategy.RANDOM	ランダム
+.distributor.strategy.ROUND_ROBIN	順番
+.extruder2.template	§eテンプレートブロック:
+.extruder.mode.ALWAYS	§e伸長: §bレッドストーン信号 > 0のとき
+.extruder.mode.HIGH	§e伸長: §bレッドストーン信号 = 15のとき
+.extruder.mode.LOW	§e伸長: §bレッドストーン信号 = 0のとき
+.extruder.mode.NEVER	§e伸長: §bしない
+.extruder.mode.PULSE	§e伸長: §bしない
+.fluid.direction	§e液体の方向: §b%s
+.fluid.direction.IN	ルーターへ転送
+.fluid.direction.OUT	ルーターから転送
+.fluid.maxTransfer	§e液体の速度:§b 1回の操作で最大%d mB
+.misc.blacklist	§eブラックリスト
+.misc.breakerPick	§eツルハシ:
+.misc.bulkItemFilter.count	• フィルター内のアイテム: %d個
+.misc.configureHint	§7§o▶ §3§o[%s]§7§oか§3§o[中クリック]§7§oで設定
+.misc.ecoMode	§2エコモード
+.misc.energyUsage	§eエネルギー使用量: §b%d FE / 操作
+.misc.energyWarning	§6取り付けたモジュールの少なくとも1つは、動作にFEエネルギーが必要。${br}ルーターにもっとFEエネルギーが必要！
+.misc.energyWarning.noBuffer	§6取り付けたモジュールの少なくとも1つは、動作にFEエネルギーが必要。${br}エネルギーアップグレードを1つ以上追加しよう！
+.misc.filter.count	• フィルター内の項目: %d個
+.misc.flags	§eフラグ
+.misc.flingerDetails	§e速度: §b%f§f | §eピッチ: §b%f§f | §eヨー: §b%f
+.misc.holdKey	§7§o▶ §3§o[%s]§7§oを押し続けて詳細を表示
+.misc.holdShiftKey	§7§o▶ §3§o[Shift]§7§oで設定、§3§o[%s]§7§oで詳細を表示
+.misc.IGNORE_DAMAGE	損傷値
+.misc.IGNORE_NBT	NBT
+.misc.IGNORE_TAGS	タグ
+.misc.itemList	§eアイテム一覧
+.misc.matchAll	すべて
+.misc.matchAny	いずれか
+.misc.match	§e一致
+.misc.moduleCount	モジュール: %d
+.misc.noItems	空
+.misc.operation	操作
+.misc.rangeInfo	§e範囲: %s%d §3[基本 %d、最大 %d]
+.misc.redstoneLevel	§e信号レベル: §b%d (%s)
+.misc.regexFilter.count	• フィルター内の正規表現: %d個
+.misc.routerConfigured	このルーターは設定済み
+.misc.strongSignal.false	弱
+.misc.strongSignal.true	強
+.misc.TERMINATE	終了条件
+.misc.upgradeCount	▶ %d x %s
+.misc.upgrades	アップグレード
+.misc.whitelist	§eホワイトリスト
+.security.count	他のプレイヤー %d / %d人:
+.security.owner	§e所有者: §b%s
+.sync.tuning	§e同調値: §b%d
+.targetingHintMulti	• 未選択のインベントリをスニーク + 右クリックで選択、${br}• 選択済みのインベントリをスニーク + 右クリックで選択解除
+.targetingHint	• インベントリをスニーク + 右クリックで対象に設定、${br}• インベントリ以外のブロックをスニーク + 右クリックで対象を解除
+.usage.item.activator_module	ルーターのバッファ内のアイテムで、ブロックやエンティティの右クリックをシミュレートする。${br}ルーターが偽プレイヤーのように振る舞う。
+.usage.item.blast_upgrade	ルーターを爆発ダメージとボスによる破壊から守る。
+.usage.item.breaker_module	モジュールに設定した方向でルーターに隣接するブロックを壊し、アイテムとしてルーターのバッファに取り込む。
+.usage.item.bulk_item_filter	大量のアイテム向けの大容量・高性能フィルター。他のアイテムと同じようにルーターモジュールのフィルターに入れて使う。${br}• インベントリをスニーク + 右クリック: 中身をフィルターに統合。${br}• 右クリック: 表示/設定。
+.usage.item.camouflage_upgrade	ルーターの見た目を他のブロックにする。${br}• 固体ブロックをスニーク + 右クリックすると、その見た目をアップグレードにコピーする。
+.usage.item.creative_module	何もないところからアイテムを作り出し、ルーターのバッファに入れる。
+.usage.item.detector_module	ルーターのバッファ内のアイテムがモジュールのフィルターを通る場合、モジュールに設定した方向へルーターからレッドストーン信号を出す。
+.usage.item.distributor_module	ルーターのバッファのアイテムを複数のインベントリに分配する。順番、ランダム、近い順、遠い順から選べる。
+.usage.item.dropper_module	ルーターのバッファのアイテムを、モジュールに設定した方向にドロップする。
+.usage.item.energy_distributor_module	ルーターのエネルギーバッファ、またはアイテムバッファ内のエネルギーを持つアイテムから、近くのエネルギーを蓄えるブロックへFEエネルギーを無線で分配する
+.usage.item.energy_output_module	ルーターのエネルギーバッファ、またはアイテムバッファ内のエネルギーを持つアイテムからFEエネルギーを送り出す
+.usage.item.energy_upgrade	ルーターのエネルギーバッファ容量を%d FE、転送速度を%d FE/ルーターティック増やす
+.usage.item.energyUpgradeRouter	• このルーターのエネルギー容量: %d FE${br}• このルーターの転送速度: %d FE/ルーターティック
+.usage.item.extruder_module_1	ルーターのレッドストーン信号レベルに応じて、モジュールの方向に一直線にブロックを置いたり取り除いたりする。${br}デフォルトでは信号ありで設置、信号なしで除去。独自の動作にするにはモジュールにレッドストーン拡張を追加する。
+.usage.item.extruder_module_2	押し出しモジュール Mk1と同様に動くが、ルーターのバッファの実際のブロックではなく、内部のパターンバッファからテンプレートブロックを置く。
+.usage.item.fast_pickup_augment	吸引モジュールがドロップしたアイテムの通常の回収遅延を無視できるようにする。
+.usage.item.filter_round_robin_augment	デフォルトのいずれか/すべての動作の代わりに、実行ティックごとにフィルター内の1つのアイテムに対して判定する。判定するアイテムは昇順の順番で選ばれる。${br}一連のアイテムを特定の順番で扱うのに便利。
+.usage.item.flinger_module	ルーターのバッファのアイテムを、場合によってはかなり遠くまで投げる。速度、ピッチ、ヨーはモジュールのGUIで調整する。
+.usage.item.fluid_module_2	近くの任意のブロックとの間で、ルーターへ/から液体を転送する。${br}• ルーターのバッファに液体容器アイテムが必要。${br}• タンクやワールドとの間で転送できる。
+.usage.item.fluid_module	モジュールの方向にある隣接ブロックとの間で、ルーターへ/から液体を転送する。${br}• ルーターのバッファに液体容器アイテムが必要。${br}• タンクやワールドとの間で転送できる。
+.usage.item.fluid_upgrade	ルーターが(各方向に)転送できる液体の量を%d mB/ティック増やす。
+.usage.item.fluidUpgradeRouter	• このルーターの転送速度: %d mB/ティック
+.usage.item.inspection_filter	アイテムのさまざまな性質を検査してフィルターする。他のアイテムと同じようにルーターモジュールのフィルターに入れて使う。${br}• 右クリック: 表示/設定。
+.usage.item.mimic_augment	押し出しモジュール Mk2が置く偽ブロックが、見た目を真似ているブロックの明るさ、レッドストーン出力、硬さ、爆発耐性も真似るようにする。
+.usage.item.mod_filter	アイテムを追加したMODでフィルターする。他のアイテムと同じようにルーターモジュールのフィルターに入れて使う。${br}• 右クリック: 表示/設定。
+.usage.item.muffler_upgrade	ルーター/モジュールの音とパーティクルの効果を抑える:${br}• 1個で効果音を抑える${br}• 2個以上でパーティクルも抑える${br}• 3個以上でルーター稼働中のアニメーションも抑える。
+.usage.item.pickup_delay_augment	ドロップしたアイテムや投げたアイテムの回収遅延を、拡張1つにつき10ティック延ばす。
+.usage.item.placer_module	可能なら、ルーターのバッファのアイテムをモジュールに設定した方向にブロックとして置く。
+.usage.item.player_module	プレイヤーのメインまたは防具のインベントリとルーターのバッファとの間で、遠隔でアイテムを転送する。
+.usage.item.puller_module_1	モジュールに設定した方向にある隣接インベントリから、ルーターのバッファにアイテムを抜き出す。
+.usage.item.puller_module_2	近くの任意のインベントリから、ルーターのバッファにアイテムを抜き出す。
+.usage.item.pushing_augment	押し出しモジュール Mk1/2がブロックを押し出すときにエンティティを押しのける力を強める。重ねられる。
+.usage.item.range_down_augment	拡張1つにつきモジュールの範囲を1ブロック縮める。
+.usage.item.range_up_augment	拡張1つにつきモジュールの範囲を1ブロック広げる(絶対最大値まで - モジュールのツールチップを参照)
+.usage.item.redstone_augment	ルーターのレッドストーン動作を上書きし、モジュール独自のレッドストーン動作を設定できるようにする。
+.usage.item.regex_filter	アイテムのレジストリ名(F3+Hで確認可)を1つ以上の正規表現と照合してフィルターする。他のアイテムと同じようにルーターモジュールのフィルターに入れて使う。${br}• 右クリック: 表示/設定。
+.usage.item.regulator_augment	インベントリに置いておくアイテムの数を細かく制御できるようにする。
+.usage.item.security_upgrade	ルーターを保護する。登録したプレイヤーだけがルーターにアクセスできる。所有者をアクティベーターモジュールの攻撃からも守り、いくつかのモジュールを所有者として動作させる。チャンクが保護されているときにとても便利。${br}• プレイヤーを右クリックしてこのアップグレードに追加${br}• プレイヤーをスニーク + 右クリックして削除
+.usage.item.sender_module_1	ルーターのバッファのアイテムを、X/Y/Z軸に沿ってまっすぐ先にある任意のインベントリへ送る。${br}遮るもののない見通しが必要。不透明なブロックがあると送れない。
+.usage.item.sender_module_2	ルーターのバッファのアイテムを、近くの任意のインベントリへ送る。${br}見通しは不要。
+.usage.item.sender_module_3	ルーターのバッファのアイテムを、どのディメンションの任意のインベントリへも送る。
+.usage.item.speed_upgrade	ルーターのティック速度を上げる。${br}• このルーターは%.02f秒(%dティック)ごとに動く${br}• 効果のある最大アップグレード数: %d
+.usage.item.stack_augment	モジュールが1ティックに複数のアイテムを処理できるようにする。${br}ルーターに入れたスタックアップグレードより優先される。
+.usage.item.stack_upgrade	ルーターティックごとに処理するアイテム数を増やす。${br}• 1回の操作で処理する最大アイテム数: %d${br}• 効果のある最大アップグレード数: %d
+.usage.item.sync_upgrade	ルーターを同時に動作させる。${br}• 右クリック: 同調GUIを開く${br}• スニーク + 右クリック: ランダムな値に同調。${br}• 同じ値に同調した同期アップグレード(と同じ数のスピードアップグレード)を持つルーターはすべて同時に動く。
+.usage.item.vacuum_module	ワールドの近くにあるアイテムをルーターのバッファに吸い込む。デフォルトでは全方向に作用するが、一方向だけに設定することもできる。
+.usage.item.void_module	§c*** 注意 ***${br}バッファ内のアイテムを永久に消滅させる！
+.usage.item.xp_vacuum_augment	吸引モジュールがアイテムの代わりに経験値オーブを集められるようにする。${br}経験値は導入されている他のMODに応じてさまざまな固体・液体に変換できるが、バニラのエンチャントの瓶は常に使える。液体の経験値への変換には、mB単位で液体を貯められるタンクが必要。ルーターのバッファにアイテムとして入れるか、ルーターの隣にブロックとして置く(モジュールのGUIで排出モードを有効にする)。
+modularrouters.jei.recipe.module_reset.description	モジュールをクラフト直後の状態に完全にリセットする。注意: フィルター設定やエンチャントを含むすべてのデータが失われる(取り付けた拡張は返却される)
+modularrouters.jei.recipe.module_reset	モジュールのリセット
+modularrouters.patchouli.book.landing	このマニュアルは$(#228)Modular Routers/$の完全なリファレンスガイドです。
+modularrouters.patchouli.book.name	Modular Routers マニュアル

@@ -1,0 +1,262 @@
+## pneumaticcraft
+@ pneumaticcraft.gui.
+.pastebin.button.upload	Pastebinにアップロード
+.pastebin.clipboardSetToContents	クリップボードに内容をコピーしました。
+.pastebin.invalidFormattedPastebin	PastebinまたはJSONの形式が無効です。
+.pastebin.invalidLogin	ログインが無効です
+.pastebin.invalidPastebin	無効なPastebin
+.pastebin.loginOptional	Pastebinへのログインは任意です
+.pastebin.loggingIn	ログイン中…
+.pastebin.merge	統合？
+.pastebin.merge.tooltip	オンにすると、ウィジェットを既存のウィジェットと置き換えずに統合する。統合したウィジェットは既存のウィジェットの右に置かれる。開始ウィジェットはラベルとテキストのウィジェットに置き換えられる。
+.pastebin.password	パスワード:
+.pastebin.pastebinLink	Pastebinのリンク:
+.pastebin.pretty	整形？
+.pastebin.pretty.tooltip	オンにすると、アップロードするJSONを空白などで整形して出力する。アップロードする文書がかなり大きくなる。
+.pastebin.retrievedFromClipboard	クリップボードから取得しました
+.pastebin.retrievedFromPastebin	Pastebinから取得しました
+.pastebin.retrievingFromPastebin	Pastebinから取得中…
+.pastebin.uploadedToPastebin	Pastebinにアップロードしました
+.pastebin.uploadingToPastebin	Pastebinにアップロード中…
+.pastebin.username	ユーザー名:
+.pressureChamberInterface.export.any	すべて
+.pressureChamberInterface.export.any.tooltip	圧力チャンバーからすべてのアイテムを搬出する。\n§7間違えて入れたアイテムを取り出すのに使う。
+.pressureChamberInterface.exportLabel	搬出:
+.pressureChamberInterface.export.valid	完成品
+.pressureChamberInterface.export.valid.tooltip	圧力チャンバーでクラフトしたアイテムだけを搬出する。\n§7ほとんどの場合はこれを使う。
+.pressureChamberInterface.mode.export	アイテムを搬出中
+.pressureChamberInterface.mode.import	アイテムを搬入中
+.pressureChamberInterface.mode	インターフェースのモード
+.pressureChamberInterface.status	インターフェースの状態
+.pressureChamber	圧力チャンバー
+.pressureChamberTitle	%s 圧力チャンバー
+.programmer.button.clearAllButton.tooltip	すべて消去 [Shift + DEL]
+.programmer.button.convertToRelative.cantHaveVariables	⚠ 変換するとき、メインの座標演算子に変数は使えません。
+.programmer.button.convertToRelative.coordIsChangedWarning	⚠ 警告: 座標ピース%sは変更されます。
+.programmer.button.convertToRelative.coordIsNotChangedWarning	⚠ 警告: 座標ピース%sは位置ではなくオフセットと思われるため、変更されません。
+.programmer.button.convertToRelative.desc	プログラム全体で相対座標を使うように変換する。プログラムを共有したり別の場所で使ったりするのに便利。開始ピースの下に座標演算子のピースが作られる。
+.programmer.button.convertToRelative.noBaseCoordinate	⚠ 基準座標を決めるため、開始ピースの真下に座標演算子のピースが必要です。今後変更が必要な座標はこれだけになります。
+.programmer.button.convertToRelative.noStartPiece	⚠ 開始ピースが必要です！
+.programmer.button.convertToRelative.notEnoughRoom	⚠ 座標演算子のピースの下に空きが必要です。自分のウィジェットは後でつなぎ直せます。
+.programmer.button.convertToRelative.noVariableName	⚠ 座標演算子の変数名を空にはできません。
+.programmer.button.export	プログラムを書き出す
+.programmer.button.export.noProgrammableItem	プログラム可能なアイテムが入っていません
+.programmer.button.export.onItemInsert	アイテムを入れたとき
+.programmer.button.export.pressingButton	ボタンを押したとき
+.programmer.button.export.pressRToChange	▶ 「R」で変更
+.programmer.button.export.programmingWhen	プログラムするタイミング: %s
+.programmer.button.import	プログラムを読み込む\n§7§oShiftを押しながらでプログラムを統合
+.programmer.button.openPanel.tooltip	パネルを開く/閉じる [TAB]
+.programmer.button.redoButton.tooltip	やり直す [Y]
+.programmer.button.rotate90button.tooltip	オフセットとみられる座標ウィジェットを時計回りに90°回転する。\nプログラムの開始ウィジェットの直後に座標演算子ウィジェットがあり(「相対に変換」参照)、そのウィジェットに変数が設定されている必要がある。\nその変数を使った他の座標ウィジェットのオフセットとみられる座標ウィジェットが回転される。
+.programmer.button.showArea	範囲をプレビュー
+.programmer.button.showLatest	最新を表示
+.programmer.button.showLatest.tooltip	最後に追加したウィジェットへ移動 [END]
+.programmer.button.showStart	開始を表示
+.programmer.button.showStart.tooltip	開始ウィジェットへ移動 [HOME]
+.programmer.button.stopShowingArea	範囲のプレビューを終了
+.programmer.button.undoButton.tooltip	元に戻す [Z]
+.programmer.checkbox.showFlow	流れを表示
+.programmer.checkbox.showInfo	情報を表示
+.programmer.difficulty.advanced.tooltip	座標と変数を有効化
+.programmer.difficulty	難易度:
+.programmer.difficulty.easy.tooltip	基本のウィジェットだけを表示
+.programmer.difficulty.medium.tooltip	条件、ジャンプ、ラベルを有効化
+.programmer.errorCount	プログラムを書き出せません: エラーが%s件あります。
+.programmer.errors	エラー:
+.programmer.name	名前:
+.programmer.pressIForInfo	§2「I」で情報
+.programmer.pressIForInfoTrayOpen	§2「I」か中クリックで情報
+.programmer.rightClickForOptions	右クリック: ウィジェットの設定…
+.programmer.warningCount	プログラムに警告が%s件あります。
+.programmer.warnings	警告:
+.progWidget.area.error.areaTooBig	範囲が大きすぎます: > %dブロック。設定の「I:maxProgrammingArea」を参照。
+.progWidget.area.error.noArea	範囲が指定されていません。
+.progWidget.area.error.onlyAreaTypeBox	親ウィジェット%sは範囲の種類「箱」にしか対応していません。
+.progWidget.area.point1	地点1
+.progWidget.area.point2	地点2
+.progWidget.area.selectGPS1	GPSツールからP1を選択
+.progWidget.area.selectGPS2	GPSツールからP2を選択
+.progWidget.area.type	範囲の種類:
+.progWidget.area.type.axis.x	X
+.progWidget.area.type.axis.y	Y
+.progWidget.area.type.axis.z	Z
+.progWidget.area.type.box.boxType	箱の種類:
+.progWidget.area.type.box.boxType.filled	中身あり
+.progWidget.area.type.box.boxType.frame	骨組み
+.progWidget.area.type.box.boxType.hollow	中空
+.progWidget.area.type.box.name	箱
+.progWidget.area.type.cylinder.cylinderType	円柱の種類:
+.progWidget.area.type.cylinder.cylinderType.filled	中身あり
+.progWidget.area.type.cylinder.cylinderType.hollow	中空
+.progWidget.area.type.cylinder.cylinderType.tube	筒
+.progWidget.area.type.cylinder.name	円柱
+.progWidget.area.type.general.axis	軸:
+.progWidget.area.type.grid.interval	格子のブロック間隔:
+.progWidget.area.type.grid.name	格子
+.progWidget.area.type.line.name	線
+.progWidget.area.type.pyramid.name	ピラミッド
+.progWidget.area.type.pyramid.pyramidType.filled	中身あり
+.progWidget.area.type.pyramid.pyramidType.hollow	中空
+.progWidget.area.type.pyramid.pyramidType	ピラミッドの種類:
+.progWidget.area.type.random.blocksSelected	選ぶブロック数
+.progWidget.area.type.random.name	ランダム
+.progWidget.area.type.sphere.name	球
+.progWidget.area.type.sphere.sphereType.filled	中身あり
+.progWidget.area.type.sphere.sphereType.hollow	中空
+.progWidget.area.type.sphere.sphereType	球の種類:
+.progWidget.area.type.wall.name	壁
+.progWidget.area.type.torus.name	トーラス
+.progWidget.area.type.torus.torusType.filled	中身あり
+.progWidget.area.type.torus.torusType.hollow	中空
+.progWidget.area.type.torus.torusType	トーラスの種類:
+.progWidget.blockCondition.debug.allBlocksMatch	すべてのブロックが条件に一致します。
+.progWidget.blockCondition.debug.blockDoesNotMatch	条件に一致しないブロックが1つ以上あります。
+.progWidget.blockCondition.debug.blockMatches	条件に一致するブロックが1つ以上あります。
+.progWidget.blockCondition.debug.noBlocksMatch	条件に一致するブロックがありません。
+.progWidget.blockInteraction.debug.noBlocksValid	操作できるブロックがありません。
+.progWidget.blockOrder.closest	近い順
+.progWidget.blockOrder.highToLow	高い順
+.progWidget.blockOrder.lowToHigh	低い順
+.progWidget.blockRightClick.clickSide	クリックする面
+.progWidget.blockRightClick.operation	操作
+.progWidget.blockRightClick.sneaking	しゃがむ
+.progWidget.blockRightClick.sneaking.tooltip	オンにすると、ドローンがしゃがみ右クリックを再現する。
+.progWidget.blockRightClick.clickType.click_item	アイテムでクリック
+.progWidget.blockRightClick.clickType.click_block	ブロックをクリック
+.progWidget.blockRightClick.clickType.tooltip	§fアイテムでクリック\n§7持っているアイテムの右クリック処理を使う(例: ブロックに火打石と打ち金を使う)\n§fブロックをクリック\n§7クリックしたブロックの右クリック処理を使う(例: レバーを動かす)
+.progWidget.chargingStation.debug.cantNavigate	充電ステーションまで移動できません。
+.progWidget.chargingStation.debug.claimed	充電ステーションはすでに別のドローンが使っています。
+.progWidget.chargingStation.debug.noDispenserUpgrades	充電ステーションにディスペンサーアップグレードがありません。
+.progWidget.chargingStation.debug.notEnoughPressure	充電ステーションの圧力が足りません。
+.progWidget.chargingStation.debug.protected	充電ステーションはセキュリティステーションで保護されています。
+.progWidget.comment.tooltip.freeToUse	§aこのピースは無料で使える
+.progWidget.condition.measure	測定値:
+.progWidget.condition.measure.tooltip	ここに変数名を指定すると、条件を評価するたびに最後に測定した値がその変数のXに保存される。
+.progWidget.conditionBlock.checkForAir	空気を判定
+.progWidget.conditionBlock.checkForAir.tooltip	特別な条件。オンにすると、空気のブロックがフィルターを通過する。
+.progWidget.conditionBlock.checkForLiquids	液体を判定
+.progWidget.conditionBlock.checkForLiquids.tooltip	特別な条件。オンにすると、液体のブロックがフィルターを通過する。
+.progWidget.conditionCoordinate.error.noAxisSelected	判定する軸が選ばれていません。条件を機能させるには、少なくとも1つの値の条件をオンにする必要があります。
+.progWidget.condition.error.noFlowControl	出力ラベルが選ばれていません。条件の結果にかかわらず、流れは下へ続きます。
+.progWidget.condition.error.shouldConnectTextPieces	テキストピースでラベルのパズルピースを参照するテキストのパズルピースだけをつなぐべきです。
+.progWidget.condition.anyBlock	いずれかのブロック
+.progWidget.condition.allBlocks	すべてのブロック
+.progWidget.condition.evaluatedFalse	条件は偽と評価されました。
+.progWidget.condition.evaluatedTrue	条件は真と評価されました。
+.progWidget.conditionItem.error.noCheckingItem	判定するアイテムがありません。一番上のスロットにアイテムフィルターを少なくとも1つ追加してください。
+.progWidget.conditionItem.error.noFilter	アイテムフィルターがありません。上から2番目のスロットにアイテムフィルターを少なくとも1つ追加してください。
+.progWidget.coordinate.constant	定数
+.progWidget.coordinateOperator.divideByZero	ゼロで割ろうとしました！
+.progWidget.coordinateOperator.max_min.hint	変数には(X/Y/Zそれぞれ独立に)右側のピースの最大の座標と、左側のピースの最小の座標が設定される。
+.progWidget.coordinateOperator.max_min	最小/最大
+.progWidget.coordinateOperator.multiply_divide.hint	変数には、このピースの右側のすべての座標を掛け、左側のすべての座標で割った結果が設定される。
+.progWidget.coordinateOperator.multiply_divide	乗/除
+.progWidget.coordinateOperator.noParameter	パラメーターがありません！
+.progWidget.coordinateOperator.operator	演算子:
+.progWidget.coordinateOperator.axes	対象の軸:
+.progWidget.coordinateOperator.plus_minus	加/減
+.progWidget.coordinateOperator.plus_minus.hint	変数には、このピースの右側のすべての座標を足し、左側のすべての座標を引いた結果が設定される。
+.progWidget.coordinate.selectFromGPS	GPSから選択
+.progWidget.coordinate.variableName	変数名:
+.progWidget.coordinate.variable	変数
+.progWidget.coordinate.warning.noCoordinate	座標が指定されていません。変数を(0,0,0)にしたいなら、代わりに空の座標演算子ウィジェットを使えます。
+.progWidget.crafting.error.noCraftingRecipe	有効なクラフトレシピが設定されていません。
+.progWidget.debug.clickToShow	左クリックで位置表示を切り替え。
+.progWidget.debug.droneName	ドローン名: %s
+.progWidget.debug.followActive	実行中のウィジェットを追う
+.progWidget.debug.hasPositions	このデバッグ項目には位置が1つ以上含まれています。
+.progWidget.debug.lastMessage	最後のメッセージ: %s前
+.progWidget.debug.showActive	実行中のウィジェットを表示
+.progWidget.debug.showStart	開始ウィジェットを表示
+.progWidget.debug.pressToDebug	エンティティ追跡で追跡しているドローンに向けて「%s」を押すとデバッグできます
+.progWidget.debug.routine	ルーチン: %s
+.progWidget.difficulty.advanced	上級
+.progWidget.difficulty.easy	初級
+.progWidget.difficulty.medium	中級
+.progWidget.digAndPlace.order	順序
+.progWidget.digAndPlace.useMaxActions	操作回数を制限
+.progWidget.digAndPlace.useMaxActions.tooltip	オンにすると、指定した回数までブロックやエンティティを操作したら、プログラムの次のウィジェットに進む。
+.progWidget.dig.debug.cantDigBlock	ブロックを掘ることが許されていないか、壊せません。
+.progWidget.dig.debug.missingDiggingTool	耐久値のある採掘道具が見つかりません。
+.progWidget.dig.requiresDiggingTool	採掘道具が必要
+.progWidget.dig.requiresDiggingTool.tooltip	採掘道具(ツルハシ/シャベルなど)を装備したドローンはブロックを速く壊し、シルクタッチなど道具の特性を受け継ぐ。オンにすると、そのブロックに適した道具を装備している間だけ掘る。
+.progWidget.drop.dropMethod	落とし方
+.progWidget.drop.dropMethod.random	ランダム
+.progWidget.drop.dropMethod.straight	真下
+.progWidget.drop.hasPickupDelay	拾うまでの遅延あり(40 tick)
+.progWidget.drop.noPickupDelay	拾うまでの遅延なし
+.progWidget.entityAttack.checkSight	視線が必要
+.progWidget.entityAttack.checkSight.tooltip	ドローンから見えるMobだけを狙い、壁の向こうなどのMobは無視する。
+.progWidget.entityAttack.debug.noAmmo	ミニガンの弾薬がありません。
+.progWidget.entityAttack.debug.noEntityToAttack	範囲内に攻撃するエンティティがいません。
+.progWidget.entityAttack.debug.noMissile	マイクロミサイルがないか、使い切っています。
+.progWidget.externalProgram.shareVariables	変数を共有
+.progWidget.externalProgram.shareVariables.tooltip	オンにすると、呼び出し元のプログラムの変数が呼び出されたプログラムと共有される。
+.progWidget.general.affectingSides	対象の面:
+.progWidget.general.debug.cantNavigate	1つ以上のブロックまで移動できません。
+.progWidget.general.debug.stuckBlock	ドローンは経路を見つけましたが、引っかかりました。
+.progWidget.general.debug.unloadedChunk	読み込まれていないチャンクへの移動はサーバー設定で禁止されています
+.progWidget.general.error.emptyVariable	変数が空です。有効な変数を指定してください。
+.progWidget.general.error.multipleStartPieces	このプログラムには開始ピースが2つ以上あります。1つだけにしてください。
+.progWidget.general.error.noPieceConnected	(下に)ピースがつながっていません。
+.progWidget.general.error.noSideActive	対象の面がありません。少なくとも1つの面を選んでください。
+.progWidget.general.warning.variableNeverSet	変数「%s」はどこでも設定されていません。
+.progWidget.goto.debug.cantNavigate	1つ以上のブロックまで移動できません。
+.progWidget.goto.doneWhenArrived	到着したら完了
+.progWidget.goto.doneWhenArrived.tooltip	ドローンは到着するまで次のパズルピースを実行しない。
+.progWidget.goto.doneWhenDeparting	出発したら完了
+.progWidget.goto.doneWhenDeparting.tooltip	ドローンはすぐに次のパズルピースを実行する。
+.progWidget.harvest.debug.missingHoe	耐久値のあるクワが見つかりません。
+.progWidget.harvest.requiresHoe	クワが必要
+.progWidget.harvest.requiresHoe.tooltip	クワを装備したドローンは収穫した植物を自動で植え直す。オンにすると、クワを装備しているときだけ植物を収穫する。
+.progWidget.inventory.accessingSides	試す面:
+.progWidget.inventory.debug.noInventory	1つ以上の場所にインベントリがありません。
+.progWidget.inventoryExport.debug.filledToMax	インベントリにこれ以上アイテムが入りません。
+.progWidget.inventoryExport.debug.stackdoesntPassFilter	ドローン内のアイテムがアイテムフィルターを通過しません。
+.progWidget.inventoryImport.debug.filledToMax	ドローンのインベントリにこれ以上アイテムが入りません。
+.progWidget.inventoryImport.debug.stackdoesntPassFilter	アイテムがアイテムフィルターを通過しません。
+.progWidget.inventory.usingCount	使用数: %d
+.progWidget.itemAssign.settingVariable	設定する変数: 「%s」
+.progWidget.itemFilter.error.noFilter	フィルターにアイテムがありません。アイテムを選ぶか、有効な変数を選んでください。
+.progWidget.itemFilter.error.notBlock	フィルターのアイテムはブロックではありません！
+.progWidget.itemFilter.filterLabel	フィルター
+.progWidget.itemFilter.itemLabel	アイテム
+.progWidget.itemFilter.matchMod	▶ MODで照合 (%s)
+.progWidget.itemFilter.matchBlock	▶ ブロックで照合
+.progWidget.itemFilter.useDurability	▶ アイテムの耐久値を照合
+.progWidget.itemFilter.ignoreDurability	▶ アイテムの耐久値を無視
+.progWidget.itemFilter.useNBT	▶ アイテムのNBTを照合
+.progWidget.itemFilter.ignoreNBT	▶ アイテムのNBTを無視
+.progWidget.itemFilter.useItemCount.craftingTooltip	オンにすると、指定した数だけクラフトしたらプログラムの次のウィジェットに進む。
+.progWidget.itemFilter.useItemCount.tooltip	オンにすると、指定した数のアイテムや量(mB)の液体だけを移したらプログラムの次のウィジェットに進む。
+.progWidget.itemFilter.useItemCount	数を使う
+.progWidget.itemFilter.variableLabel	変数
+.progWidget.itemFilter.warning.ignoredItemAssign	このウィジェットは無視されます。アイテム割り当てウィジェットはアイテムフィルターウィジェットを1つしか受け付けません。
+.progWidget.itemPickup.debug.itemNotValid	アイテムがアイテムフィルターを通過しません。
+.progWidget.itemPickup.debug.noItems	範囲内に拾うアイテムがありません。
+.progWidget.jump.nowhereToJump	ジャンプ先がありません。開始に戻ります。
+.progWidget.label.error.noJumpLocation	ジャンプ先がありません。テキストのパズルピースをつないでください。
+.progWidget.label.error.noLabel	ラベルがありません。テキストのパズルピースをつないでください。
+.progWidget.liquidExport.debug.emptyDroneTank	ドローンのタンクに搬出する液体がありません。
+.progWidget.liquidExport.debug.filledToMax	タンクをできる限り満たしました。
+.progWidget.liquidExport.debug.noValidFluid	ドローンが運んでいる液体はフィルターを通過しません。
+.progWidget.liquidExport.placeFluidInWorld	ワールドに置く
+.progWidget.liquidFilter.error.noLiquid	フィルターで液体が選ばれていません。
+.progWidget.liquidFilter.noFluid	液体なし
+.progWidget.liquidImport.debug.emptiedToMax	タンクをできる限り空にしました。
+.progWidget.liquidImport.debug.fullDroneTank	ドローンのタンクはすでにいっぱいです。
+.progWidget.liquidImport.voidExcess	余った液体を消去
+.progWidget.liquidImport.voidExcess.tooltip	搬入した液体がドローンのタンクに入りきらない場合、代わりに消去する
+.progWidget.pickup.canSteal	アイテムの「横取り」を許可
+.progWidget.pickup.canSteal.tooltip	オンにすると、Immersive Engineeringのベルトコンベア上のアイテムなど、通常は拾えないよう保護されたアイテムをドローンが「横取り」できる。
+.progWidget.place.debug.cantPlaceBlock	ここにはブロックを置けません。
+.progWidget.place.debug.entityInWay	ブロックを置けません: エンティティが邪魔です。
+.progWidget.place.debug.noClearSides	ブロックを置ける空いた面がありません。
+.progWidget.standby.allowPickup	ドローンの乗せられを許可
+.progWidget.standby.allowPickup.tooltip	オンにすると、待機モード中に他のエンティティ(ボートやトロッコなど)がドローンを乗せられる
+.redstoneModule.addAdvancedPCB	モジュール拡張カードを使うと、さらに機能が使えるようになる。
+.redstoneModule.clickToToggle	クリックで切り替え
+.redstoneModule.constant	定数
+.redstoneModule.input	レッドストーンを受信
+.redstoneModule.comparatorInput	コンパレーター入力？

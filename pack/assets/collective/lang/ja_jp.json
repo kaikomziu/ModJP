@@ -1,0 +1,18 @@
+{
+  "collective.shared.message.adminusage": "%s 管理者向けの使い方:",
+  "collective.shared.message.commandsusage": "--- %s コマンドの使い方 ---",
+  "collective.shared.message.nopermission": "このコマンドを使う権限がありません。",
+  "collective.shared.message.playeronly": "このコマンドはプレイヤーしか実行できません。",
+  "collective.shared.message.reloadsconfigfile": "設定ファイルを再読み込みします。",
+  "collective.shared.message.showmessage": "このメッセージを表示します。",
+  "collective.shared.message.successfullygeneratedhead": "%1$s個の%2$sの頭を生成しました。",
+  "collective.shared.message.usage": "%s の使い方:",
+  "collective.shared.message.wanderingtraderspawnfailed": "行商人のスポーンに失敗しました。もう一度お試しください。",
+  "collective.shared.message.wanderingtraderspawnsuccesful": "行商人をスポーンさせました！",
+  "collective.collective.gui.reset": "リセット",
+  "collective.collective.message.headcachehelp": "Collectiveが保存しているプレイヤーの頭のキャッシュをリセットします(スキンの更新などに)。",
+  "collective.collective.message.headcachereset": "プレイヤーの頭のキャッシュをリセットしました。",
+  "item.healingsoup.cactus_soup": "サボテンのスープ",
+  "item.healingsoup.chocolate_milk": "チョコレートミルク",
+  "block.placeableblazerods.blaze_rod": "ブレイズロッド"
+}

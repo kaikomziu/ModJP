@@ -1,0 +1,6 @@
+{
+  "text.autoconfig.betterwitchhuts-fabric-1_20.title": "YUNG's Better Witch Huts",
+  "text.autoconfig.betterwitchhuts-fabric-1_20.option.general.disableVanillaWitchHuts": "バニラのウィッチの小屋を無効化",
+  "text.autoconfig.betterwitchhuts-fabric-1_20.option.general.disableVanillaWitchHuts.@Tooltip": "バニラのウィッチの小屋を無効にするかどうか。",
+  "Use /locate structure betterwitchhuts:witch_hut instead!": "代わりに /locate structure betterwitchhuts:witch_hut を使ってください!"
+}

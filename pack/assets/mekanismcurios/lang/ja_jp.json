@@ -1,0 +1,12 @@
+{
+  "key.categories.mekanismcurios": "Mekanism Curios",
+  "key.mekanismcurios.protableqio": "ポータブルQIOを開く",
+  "key.mekanismcurios.portableteleporter": "ポータブルテレポーターを開く",
+  "key.mekanismcurios.quickteleport": "クイックテレポート",
+  "key.mekanismcurios.quickteleport.notconnected": "ポータブルテレポーターがリンクされていません。",
+  "key.mekanismcurios.quickteleport.empty": "Curiosスロットにポータブルテレポーターがありません。",
+  "key.mekanismcurios.quickteleport.noenergy": "ポータブルテレポーターのエネルギーが切れています。",
+  "key.mekanismcurios.quickteleport.notfound": "この周波数のテレポーターが見つかりません。",
+  "curios.identifier.qio": "QIO",
+  "curios.identifier.teleporter": "テレポーター"
+}

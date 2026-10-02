@@ -1,0 +1,280 @@
+## craftingtweaks
+key.categories.craftingtweaks	Crafting Tweaks
+=Rotate Grid	クラフト欄を回転
+key.craftingtweaks.rotate_counter_clockwise	クラフト欄を回転(反時計回り)
+=Clear Grid	クラフト欄を空にする
+=Force Clear Grid	クラフト欄を強制的に空にする
+=Balance Grid	クラフト欄を均等化
+=Spread Grid	クラフト欄に分散
+key.craftingtweaks.compress_one	アイテムを圧縮
+key.craftingtweaks.compress_stack	スタックを圧縮
+key.craftingtweaks.compress_all	すべて圧縮
+key.craftingtweaks.decompress_one	アイテムを展開
+key.craftingtweaks.decompress_stack	スタックを展開
+key.craftingtweaks.decompress_all	すべて展開
+key.craftingtweaks.refill_last	前回の内容を補充
+key.craftingtweaks.refill_last_stack	前回の内容を補充(スタック)
+key.craftingtweaks.transfer_stack	クラフト欄に移す
+tooltip.craftingtweaks.forceClearInfo	必要ならアイテムをドロップする
+config.craftingtweaks.title	Crafting Tweaks
+config.craftingtweaks.common	共通
+config.craftingtweaks.common.compressRequiresCraftingGrid	圧縮にクラフト欄を必須にする
+config.craftingtweaks.common.compressRequiresCraftingGrid.tooltip	クラフトGUI以外でも圧縮/展開機能を使いたい場合はfalseにする(サーバーに導入済みで、プレイヤーのインベントリ内の場合のみ機能)
+config.craftingtweaks.common.compressDenylist	圧縮の禁止リスト
+config.craftingtweaks.common.compressDenylist.tooltip	圧縮キーでクラフトしないmodid:name形式の項目のリスト。
+config.craftingtweaks.client	クライアント
+config.craftingtweaks.client.rightClickCraftsStack	右クリックでスタック分クラフト
+config.craftingtweaks.client.rightClickCraftsStack.tooltip	trueにすると、作業台の完成品スロットを右クリックしたときにスタック分をクラフトする。
+config.craftingtweaks.client.hideVanillaCraftingGuide	バニラのレシピ本を隠す
+config.craftingtweaks.client.hideVanillaCraftingGuide.tooltip	JEIのほうがずっと便利なのはお互い知っての通り。このオプションでバニラのレシピ本ボタンを移動する代わりに隠す。
+config.craftingtweaks.client.mode	モード
+config.craftingtweaks.client.mode.tooltip	「DEFAULT」でボタンとホットキーの両方、「BUTTONS」でボタンのみ、「HOTKEYS」でホットキーのみを有効にする。「DISABLED」で完全に無効にする。
+config.craftingtweaks.client.disabledAddons	無効にするアドオン
+config.craftingtweaks.client.disabledAddons.tooltip	Crafting Tweaksの対応を無効にしたいMODのMOD IDをここに追加する。
+## littlecontraptions
+=Contraption Barge	からくりはしけ
+block.littlecontraptions.barge_assembler	はしけ組立機
+littlecontraptions.ponder.tag.tugs	Little Logisticsのタグボート
+littlecontraptions.ponder.tag.tugs.description	経路探索する水上列車！
+littlecontraptions.ponder.tag.trains	Little Logisticsの機関車
+littlecontraptions.ponder.tag.trains.description	小さくても賢い機関車！
+@ littlecontraptions.ponder.
+.basic_assembler.header	はしけ組立機で構造物を動かす
+.basic_assembler.text_1	動力を受けたはしけ組立機は、取り付けられた構造物を通過するからくりはしけに載せる
+.basic_assembler.text_2	レッドストーン信号がないと、通過するはしけのからくりをブロックに分解して戻す
+.basic_assembler.text_3	トロッコのからくりと同じく、シャーシや強力接着剤でより大きなからくりを取り付けられる
+.basic_tug.header	タグボートの基本
+.basic_tug.text_1	タグボートは水上ならどこにでも置ける
+.basic_tug.text_2	タグボートはタグボート航路のウェイポイントへ自然に経路探索する
+.basic_tug.text_3	タグボート航路のアイテムをタグボートに入れると航行を始める！
+.basic_tug.text_4	タグボートが角で引っかかることがある。角用ガイドレールで解決できる
+.basic_tug.text_5	角用ガイドレールの向きが逆なら、車掌のレンチで反転させる
+.tug_dock.header	タグボートの停泊
+.tug_dock.text_1	ドックを使うと、積み込み/荷下ろしの間タグボートを自動で止められる
+.tug_dock.text_2	どの停泊所にもタグボートドックのブロック1つと、一直線に並んだはしけドックのブロックが必要
+.tug_dock.text_3	はしけドックは車掌のレンチで青(荷下ろし待ち)と橙(積み込み待ち)を切り替えられる
+.tug_dock.text_4	船に積み込むには、ドックの上にホッパーを置く
+.tug_dock.text_5	船から荷下ろしするには、水ブロックの下にホッパーを置く
+.tug_dock.text_6	タグボートはすべての船の積み込み/荷下ろしが終わるまで自動で待つ
+.loco_dock.header	機関車の停車
+.loco_dock.text_1	ドックを使うと、積み込み/荷下ろしの間機関車を自動で止められる
+.loco_dock.text_2	どの停車場にも機関車ドックのレール1つと、一直線に並んだ車両ドックのレールが必要
+.loco_dock.text_3	車両ドックは車掌のレンチで青(荷下ろし待ち)と橙(積み込み待ち)を切り替えられる
+.loco_dock.text_4	列車に積み込むには、ドックの横にホッパーを置く
+.loco_dock.text_5	列車から荷下ろしするには、レールブロックの下にホッパーを置く
+.loco_dock.text_6	機関車は列車全体の積み込み/荷下ろしが終わるまで自動で待つ
+.loco_route.header	機関車の経路設定
+.loco_route.text_1	自動分岐レールを使うと、線路の一部を共有する列車の経路を作れる
+.loco_route.text_2	経路は機関車経路のアイテムで右クリックして指定するウェイポイントで決まる
+.loco_route.text_3	機関車はウェイポイントへ続く分岐を選んで自動でレールを切り替える
+.loco_route.text_4	ウェイポイントが2つある場合、機関車はまだ訪れていない最も近いウェイポイントへの分岐を選ぶ
+.loco_route.text_5	機関車がウェイポイントに着くと訪問済みになる。経路のすべてのウェイポイントに着くとリセットされる
+## sebastrnlib
+item.sebastrnlib.book	SebastrnのMOD！
+sebastrnlib.landing	こんにちは、$(playername)さん！$(br2)$(6)Cooking For Blockheads (CFB)$()のキッチンマルチブロックを、お気に入りのネットワークストレージMODとつなげよう。$(br2)$(4)Refined Cooking$()は$(6)CFB$()と$(1)Refined Storage$()をつなぐ。$(br2)$(2)Applied Cooking$()は$(6)CFB$()と$(5)Applied Energistics 2$()をつなぐ。
+category.refinedcooking.name	Refined Cooking
+category.refinedcooking.description	$(1)Refined Storage$()のネットワークインベントリのアイテムを、$(6)Cooking for Blockheads$()のキッチンマルチブロックで直接使えるようにするMOD！$(br2)Minecraftに新しいブロック2つとアイテム1つを追加する。$(br2)MODをダウンロード済みなら右に章/項目が表示される。まだなら$(l:https://www.curseforge.com/minecraft/mc-mods/refined-cooking)こちら$()からダウンロードできる
+category.appliedcooking.name	Applied Cooking
+category.appliedcooking.description	$(5)Applied Energistics 2$()のネットワークインベントリのアイテムを、$(6)Cooking for Blockheads$()のキッチンマルチブロックで直接使えるようにするMOD！$(br2)Minecraftに新しいブロックを1つ追加する。$(br2)MODをダウンロード済みなら右に章/項目が表示される。まだなら$(l:https://www.curseforge.com/minecraft/mc-mods/applied-cooking)こちら$()からダウンロードできる
+=MelonCube Promo	MelonCubeの宣伝
+category.meloncube.description	右の項目をクリックすると、Minecraftサーバーホスティングのお得な割引について詳しく見られる！
+entry.refinedcooking.kitchenstation.name	キッチンステーション
+entry.refinedcooking.kitchenstation.page0	キッチンステーションは$(6)CFB$()と$(1)Refined Storage$()をつなぐのに必要なブロックの1つ。$(1)RS$()のネットワーク受信機のようなものと考えよう。$(br2)手に入れたら$(6)CFB$()のキッチンマルチブロックの一部として設置し、キッチンネットワークカードで右クリックして、そのカードを$(1)RS$()ネットワークにつないだキッチンアクセスポイントに入れる。
+entry.refinedcooking.kitchenstation.page1	$(br2)次のページで、接続時(緑の画面)と未接続時(黒い画面)のキッチンステーションの見た目を確認できる。
+=Disconnected	未接続
+entry.refinedcooking.kitchenstation.page2	未接続のときは画面が黒くなる。
+=Connected	接続済み
+entry.refinedcooking.kitchenstation.page3	接続しているときは画面が緑になる。
+entry.refinedcooking.kitchenaccesspoint.name	キッチンアクセスポイント
+entry.refinedcooking.kitchenaccesspoint.page0	キッチンアクセスポイントは$(6)CFB$()と$(1)Refined Storage$()をつなぐのに必要なブロックの1つ。$(1)RS$()のネットワーク送信機のようなものと考えよう。$(br2)手に入れたら$(1)RS$()ネットワークの一部として設置する。このブロックにキッチンネットワークカードを入れるとキッチンステーションと接続し、$(1)RS$()ネットワークのインベントリを共有できる！
+entry.refinedcooking.kitchenaccesspoint.page1	$(br2)次のページで、接続時(緑のアンテナ)と未接続時(黒いアンテナ)のキッチンアクセスポイントの見た目を確認できる。
+entry.refinedcooking.kitchenaccesspoint.page2	未接続のときはアンテナが黒くなる。
+entry.refinedcooking.kitchenaccesspoint.page3	接続しているときはアンテナが緑になる。
+entry.refinedcooking.kitchennetworkcard.name	キッチンネットワークカード
+entry.refinedcooking.kitchennetworkcard.page0	キッチンネットワークカードは$(6)CFB$()と$(1)Refined Storage$()をつなぐのに必要なアイテムの1つ。$(br2)手に入れたら、これでキッチンステーションを右クリックして設定する。そのカードを$(1)RS$()ネットワーク上のキッチンアクセスポイントに入れる。これで$(1)RS$()ネットワークのインベントリを使ってアイテムをクラフトできる！
+entry.refinedcooking.kitchennetworkcard.page1	$(br2)$(1)Refined Storage$()で遊んだことがあれば、ネットワーク送信機、ネットワーク受信機、ネットワークカードとの共通点に気づくはず。
+entry.appliedcooking.kitchenstation.name	MEキッチンステーション
+entry.appliedcooking.kitchenstation.page0	$(6)CFB$()と$(5)Applied Energistics 2$()をつなぐのに必要なのはMEキッチンステーションだけ。$(br2)手に入れたら、ワイヤレス端末と同じように$(5)AE2$()のMEセキュリティ端末で設定する。あとは$(6)CFB$()のキッチンマルチブロックの一部として設置するだけ。$(5)AE2$()ネットワークのインベントリを使って料理台でアイテムをクラフトできる！
+entry.appliedcooking.kitchenstation.page1	$(br2)次のページで、接続時(紫の画面)と未接続時(黒い画面)のMEキッチンステーションの見た目を確認できる。
+entry.appliedcooking.kitchenstation.page2	未接続のときは画面が黒くなる。
+entry.appliedcooking.kitchenstation.page3	接続しているときは画面が紫になる。
+entry.meloncube.promo.page0	私、SebastrnはMelonCube Hostingのパートナーです。
+entry.meloncube.promo.page1	MelonCubeは、価格に見合った最高のサービスと製品を提供することを目指しています。$(br2)Minecraftのホスティングが必要なら、下のボタンをクリック$(bold)して$()、私の25%割引コードを使ってください:$(br2)$(bold)Sebastrn$()$(br2)よろしくお願いします！
+messages.sebastrnlib.thanks1	このメッセージが表示されたなら、Refined CookingかApplied Cookingを導入しているということ。詳しく知りたければ、次の名前の説明書/本をクラフトしよう:
+messages.sebastrnlib.thanks2	。JEIやREIで見つけられる！
+## inventoryessentials
+key.categories.inventoryessentials	Inventory Essentials
+key.inventoryessentials.single_transfer	1個移動
+key.inventoryessentials.single_transfer_modifier	1個移動(長押し)
+key.inventoryessentials.bulk_transfer	同じ種類をすべて移動
+=Transfer all of type (Hold)	同じ種類をすべて移動(長押し)
+key.inventoryessentials.bulk_transfer_all	すべて移動
+key.inventoryessentials.bulk_transfer_all_modifier	すべて移動(長押し)
+key.inventoryessentials.bulk_drop	まとめて捨てる
+=Bulk Drop (Hold)	まとめて捨てる(長押し)
+key.inventoryessentials.screen_bulk_drop	画面外へまとめて捨てる
+key.inventoryessentials.screen_bulk_drop_modifier	画面外へまとめて捨てる(長押し)
+key.inventoryessentials.drag_transfer	カーソルを合わせて移動(長押し)
+key.inventoryessentials.sort_inventory	インベントリを整理
+config.inventoryessentials.title	Inventory Essentials
+config.inventoryessentials.forceClientImplementation	クライアント実装を強制(開発用)
+config.inventoryessentials.forceClientImplementation.tooltip	MODを導入したサーバーでもクライアント実装を使う。開発目的でのみ役立つ。
+config.inventoryessentials.allowBulkTransferAllOnEmptySlot	空のスロットでもすべて移動を許可
+config.inventoryessentials.allowBulkTransferAllOnEmptySlot.tooltip	空のスロットをクリックしても「すべて移動」でアイテムをすべて移動するか？
+config.inventoryessentials.bulkTransferArmorSets	防具セットをまとめて移動
+config.inventoryessentials.bulkTransferArmorSets.tooltip	インベントリの防具をスペース+クリックしたとき、一致する防具すべてと入れ替えるか？
+config.inventoryessentials.enableSingleTransfer	1個移動を有効化
+config.inventoryessentials.enableSingleTransfer.tooltip	Ctrl+クリックでスタック全体ではなく1個ずつ移動するか？
+config.inventoryessentials.enableBulkTransfer	まとめて移動を有効化
+config.inventoryessentials.enableBulkTransfer.tooltip	Shift+Ctrl+クリックで同じ種類のアイテムをすべて一度に移動するか？
+config.inventoryessentials.enableBulkTransferSingle	まとめて移動(各1個)を有効化
+config.inventoryessentials.enableBulkTransferSingle.tooltip	Ctrl+スペース+クリックで、そのインベントリの各アイテムを1個ずつ一度に移動するか？
+config.inventoryessentials.enableBulkTransferAll	まとめて移動(すべて)を有効化
+config.inventoryessentials.enableBulkTransferAll.tooltip	スペース+クリックで、そのインベントリのアイテムをすべて一度に移動するか？
+config.inventoryessentials.enableBulkDrop	まとめて捨てるを有効化
+config.inventoryessentials.enableBulkDrop.tooltip	Shift+Ctrl+捨てるキーのクリックで、同じ種類のアイテムをすべて一度に捨てるか？
+config.inventoryessentials.enableShiftDrag	Shiftドラッグを有効化
+config.inventoryessentials.enableShiftDrag.tooltip	Shiftを押しながらアイテムの上でマウスを動かすと、1つずつクリックしなくても素早く移動するか？
+config.inventoryessentials.enableMiddleClickSort	中クリックで整理を有効化
+config.inventoryessentials.enableMiddleClickSort.tooltip	スロットを中クリックするとインベントリを整理するか？
+## bhc
+itemGroup.bhcTab	Baubley Heart Canisters
+item.bhc.red_heart	小さな赤いハート
+item.bhc.yellow_heart	小さな黄色いハート
+item.bhc.green_heart	小さな緑のハート
+item.bhc.blue_heart	小さな青いハート
+item.bhc.canister	キャニスター
+item.bhc.red_heart_canister	赤いハートキャニスター
+item.bhc.yellow_heart_canister	黄色いハートキャニスター
+item.bhc.green_heart_canister	緑のハートキャニスター
+item.bhc.blue_heart_canister	青いハートキャニスター
+item.bhc.soul_heart_canister	魂のハートキャニスター
+item.bhc.red_heart_melted	溶けた赤いハート
+item.bhc.yellow_heart_melted	溶けた黄色いハート
+item.bhc.green_heart_melted	溶けた緑のハート
+item.bhc.blue_heart_melted	溶けた青いハート
+item.bhc.red_heart_patch	赤い回復パッチ
+item.bhc.yellow_heart_patch	黄色い回復パッチ
+item.bhc.green_heart_patch	緑の回復パッチ
+item.bhc.blue_heart_patch	青い回復パッチ
+item.bhc.wither_bone	ウィザーの骨
+item.bhc.relic_apple	遺物のリンゴ
+=Heart Amulet	ハートのお守り
+item.bhc.soul_heart_crystal	魂のハートクリスタル
+=Vitality Blade	活力の剣
+=Soul Amulet	魂のお守り
+tooltip.bhc.heartamulet	右クリックで開く！
+tooltip.bhc.vitality_blade	Shift+右クリックで開く！
+tooltip.bhc.patch_amount	回復量: %s
+tooltip.bhc.patch_durability	残り使用回数: %s
+tooltip.bhc.heart_amount	キャニスター合計: %s
+soulheartused.bhc.message	魂のハートが消費された！
+## dimstorage
+advancements.dimstorage.dimensional_chest	次元チェスト
+advancements.dimstorage.dimensional_chest.desc	もっとつながったインベントリ
+advancements.dimstorage.dimensional_tablet	次元タンク
+advancements.dimstorage.dimensional_tablet.desc	多次元のタンク
+advancements.dimstorage.dimensional_tank	次元タブレット
+advancements.dimstorage.dimensional_tank.desc	遠隔のインベントリ
+advancements.dimstorage.root	次元コア
+advancements.dimstorage.root.desc	次元の力
+block.dimstorage.dimensional_chest	次元チェスト
+block.dimstorage.dimensional_tank	次元タンク
+config.jade.plugin_dimstorage.dim_block_base	次元チェストの独自表示を有効化
+config.jade.plugin_dimstorage.dim_tank	次元タンクの独自表示を有効化
+gui.dimstorage.amount	量: %s mb
+gui.dimstorage.change	変更
+gui.dimstorage.collecting	回収中
+gui.dimstorage.eject	自動排出
+gui.dimstorage.empty	空
+gui.dimstorage.frequency	周波数:
+gui.dimstorage.gas	気体:
+gui.dimstorage.idle	待機中
+gui.dimstorage.liquid	液体: %s
+gui.dimstorage.locked	ロック:
+gui.dimstorage.luminosity	明るさ: %s
+gui.dimstorage.no	いいえ
+gui.dimstorage.owner	所有者:
+gui.dimstorage.temperature	温度: °C
+gui.dimstorage.yes	はい
+item.dimstorage.dim_wall	次元の壁
+item.dimstorage.dimensional_tablet	次元タブレット
+item.dimstorage.solid_dim_core	固形次元コア
+message.dimstorage.bind_dimchest	右クリックで次元チェストを登録
+message.dimstorage.changeAutoCollect	次元チェスト以外のブロックを右クリックで自動回収を有効/無効にする
+message.dimstorage.for_details	で詳細を表示
+message.dimstorage.hold	長押し:
+message.dimstorage.press	押す:
+## sophisticateditemactions
+key.category.sophisticateditemactions.main	Sophisticated Item Actions
+key.sophisticateditemactions.item_highlight	アイテムのある収納を強調表示
+key.sophisticateditemactions.deposit_item	アイテムを収納に預ける
+key.sophisticateditemactions.restock_item	収納からアイテムを補充
+@ gui.sophisticateditemactions.status.
+.matching_stacks_found	同じアイテムが%sか所で見つかった。
+.matching_items_found	同じ種類のアイテムが%sか所で見つかった。
+.no_matching_items_found	同じアイテムも同じ種類のアイテムも見つからない
+.no_storage_in_range	範囲内に収納が見つからない
+.deposited_item	%sを収納に預けた
+.deposited_items	%s個のアイテムを収納に預けた
+.deposited_items_from_backpacks	バックパックから%s個のアイテムを収納に預けた
+.deposited_items_from_inventory_and_backpacks	インベントリから%s個、バックパックから%s個のアイテムを収納に預けた
+.cannot_deposit_item	%sをどの収納にも預けられなかった
+.cannot_deposit_items	収納にアイテムを預けられなかった
+.restocked_item	収納から%sを補充した
+.restocked_items	収納から%s個のアイテムを補充した
+.restocked_items_to_backpacks	収納からバックパックに%s個のアイテムを補充した
+.restocked_items_to_inventory_and_backpacks	収納からインベントリに%s個、バックパックに%s個のアイテムを補充した
+.cannot_restock_item	どの収納からも%sを補充できなかった
+.cannot_restock_items	収納からアイテムを補充できなかった
+.cannot_restock_full_stack	スタック%sはすでに満杯
+.cannot_restock_full_stacks	すべてのスタックがすでに満杯
+.restocked_recipe_items	収納から%s個のレシピの材料を補充した
+.recipe_restocked	レシピの材料はすでにそろっている
+.cannot_restock_recipe	収納からレシピの材料を補充できなかった
+.recipe_restock_disabled	レシピの補充はサーバーで無効になっている
+gui.sophisticateditemactions.recipe_restock	レシピの材料を補充
+gui.sophisticateditemactions.discovery.nudge.highlight.title	収納検索のヒント
+gui.sophisticateditemactions.discovery.nudge.highlight.description	%sを押すと近くの収納からアイテムを探せる
+gui.sophisticateditemactions.discovery.nudge.restock.title	補充のヒント
+gui.sophisticateditemactions.discovery.nudge.restock.description	%sを押すと近くの収納から補充できる
+gui.sophisticateditemactions.discovery.nudge.deposit.title	預け入れのヒント
+gui.sophisticateditemactions.discovery.nudge.deposit.description	%sを押すと近くの収納に預けられる
+sophisticateditemactions.configuration.server	サーバー
+sophisticateditemactions.configuration.recipeRestockEnabled	レシピの補充を有効化
+## vitalize
+item.vitalize.experience_cubed	§aXP³
+item.vitalize.experience_squared	§aXP²
+item.vitalize.experience	§aXP¹
+block.vitalize.soul_revitalizer	魂の再生機
+block.vitalize.pylon_base	支柱
+block.vitalize.pylon_speed	速度の支柱
+block.vitalize.pylon_recursive	再帰の支柱
+block.vitalize.pylon_looting	ドロップ増加の支柱
+block.vitalize.pylon_experience	経験値の支柱
+block.vitalize.pylon_flame	炎の支柱
+block.vitalize.pylon_efficiency	効率の支柱
+block.vitalize.pylon_beheading	斬首の支柱
+block.vitalize.more_info	§8[%s§8]§rを押し続けると詳細を表示
+block.vitalize.pylon_beheading.info	§6☠§r 斬首確率%s%%
+block.vitalize.pylon_experience.info_one	§6♺§r 支柱ごとに抽選+1回
+block.vitalize.pylon_experience.info_two	§6🧪§r 抽選ごとに%s%%の確率で付与: §aXP
+block.vitalize.pylon_experience.info_three	§6⁺¹§r 支柱ごとに§aXP⁺¹§rを与える
+block.vitalize.pylon_flame.info	§6🔥§r 燃焼を与える
+block.vitalize.pylon_looting.info	§6🗡§r 支柱ごとにドロップ増加+1
+block.vitalize.pylon_recursive.info_one	§6♺§r %s%%の確率で発動
+block.vitalize.pylon_recursive.info_two	§6☠§r 発動時に魂+1
+block.vitalize.pylon_speed.info	§6⌚§r ⌚時間 - %s%%
+block.vitalize.max_pylons	§6♦§r 支柱は最大%s個
+block.vitalize.pylon_energy_modifier	§6⚡§r ⚡消費 %s%s %%
+gui.vitalize.energy_tooltip	⚡: %s ⚡ / %s ⚡
+gui.vitalize.work_tooltip	⌚: %s t / %s t
+gui.vitalize.summoning	§6☠§r %s
+gui.vitalize.tier	§6♦§r ティア%s
+gui.vitalize.consuming	§6⚡§r %s ⚡/t
+gui.vitalize.spawn_count	§6🗡§r %s体
+gui.vitalize.work_time	§6⌚§r %s秒
+gui.vitalize.missing_pylons	§4⚠§r 支柱が足りない
+gui.vitalize.missing_inventory	§4⚠§r 収納がない
+gui.vitalize.missing_energy	§4⚠§r エネルギーが必要
+gui.vitalize.rarity	★ %s

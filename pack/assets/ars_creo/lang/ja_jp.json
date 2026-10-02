@@ -1,0 +1,16 @@
+{
+  "block.ars_creo.starbuncle_wheel": "スターバンクルの車輪",
+  "ars_creo.page.starbuncle_wheel": "Create用の回転力を生み出す。車輪の前に金ブロックを置くと回転数が上がる。",
+  "ars_creo.page.behaviors": "Ars Creoは、スペルタレットやソース瓶などArs Nouveauのブロックにからくり上での特別な動作を追加する。基本のスペルタレット - からくり上で接触するとスペルを放つ。タイマータレット - 一定間隔でスペルを放つ。エンチャントされたスペルタレット - 新しいブロックを通るたびにスペルを放つ。ソース瓶 - からくり上のタレットが消費できる。",
+  "itemGroup.ars_creo.general": "Ars Creo",
+  "ars_creo.display_source.turret.not_enough_space": "空間が足りない",
+  "ars_creo.display_source.turret.for_turret_status": "(タレットの状態)",
+  "ars_creo.display_source.turret.no_spell": "スペルが設定されていない。",
+  "ars_creo.display_source.turret.spell_name": "スペル: %s",
+  "ars_creo.display_source.turret.spell": "%s",
+  "ars_creo.display_source.turret_target": "スペルタレット",
+  "ars_creo.display_source.source_count": "ソース: %s",
+  "ars_creo.display_source.for_source_status": "(ソースの状態)",
+  "ars_creo.display_source.source_jar": "ソースの量",
+  "ars_creo.display_source.turret": "スペル"
+}

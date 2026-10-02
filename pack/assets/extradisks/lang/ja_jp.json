@@ -1,0 +1,20 @@
+{
+  "item.extradisks.raw_withering_processor": "未加工のウィザープロセッサー",
+  "item.extradisks.withering_processor": "ウィザープロセッサー",
+  "block.extradisks.advanced_machine_casing": "高度な機械の外殻",
+  "block.extradisks.256k_storage_block": "256k ストレージブロック",
+  "block.extradisks.1024k_storage_block": "1024k ストレージブロック",
+  "block.extradisks.4096k_storage_block": "4096k ストレージブロック",
+  "block.extradisks.16384k_storage_block": "16384k ストレージブロック",
+  "block.extradisks.65536k_storage_block": "65536k ストレージブロック",
+  "block.extradisks.262144k_storage_block": "262m ストレージブロック",
+  "block.extradisks.1048576k_storage_block": "1048m ストレージブロック",
+  "block.extradisks.infinite_storage_block": "無限ストレージブロック",
+  "block.extradisks.16384k_fluid_storage_block": "16384k 液体ストレージブロック",
+  "block.extradisks.65536k_fluid_storage_block": "65536k 液体ストレージブロック",
+  "block.extradisks.262144k_fluid_storage_block": "262m 液体ストレージブロック",
+  "block.extradisks.1048576k_fluid_storage_block": "1048m 液体ストレージブロック",
+  "block.extradisks.infinite_fluid_storage_block": "無限液体ストレージブロック",
+  "advancements.extradisks.infinite_storage.title": "無限のストレージ",
+  "advancements.extradisks.infinite_storage.description": "無限のストレージは無限に便利"
+}

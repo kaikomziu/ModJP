@@ -1,0 +1,9 @@
+{
+  "embeddium.conflicting_mod": "Embeddium は描画の不具合やクラッシュの原因となることが知られているMODを検出しました。アンインストールをおすすめします。下の一覧を確認してください。",
+  "embeddium.conflicting_mod_list": "[{2}]",
+  "embeddium.search_bar_empty": "オプションを検索...",
+  "embeddium.options.added_by_mod_string": "追加したMOD: %s",
+  "embeddium.options.fullscreen.resolution.tooltip": "フルスクリーンモードでのゲームの解像度を設定します。",
+  "embeddium.options.use_quad_normals_for_lighting.name": "正確な面シェーディングを使用",
+  "embeddium.options.use_quad_normals_for_lighting.tooltip": "有効にすると、バニラ以外のブロック面の陰影を、軸に沿った向きではなく実際に面が向いている方向に基づいて付けます。Forgeの実験的ライトパイプラインが無効な場合(最高のパフォーマンスのためにはこちらを推奨)、ライティングの品質が向上することがあります。\n\n実験的ライトパイプラインが有効な場合は効果がありません。"
+}

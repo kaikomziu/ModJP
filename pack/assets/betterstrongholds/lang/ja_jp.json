@@ -1,0 +1,20 @@
+{
+  "betterstrongholds.commands.locate.stronghold": "代わりに /locate structure betterstrongholds:stronghold を使ってください!",
+  "Use /locate structure betterstrongholds:stronghold instead!": "代わりに /locate structure betterstrongholds:stronghold を使ってください!",
+  "text.autoconfig.betterstrongholds-fabric-1_20.title": "YUNG's Better Strongholds",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds": "YUNG's Better Strongholds",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general": "一般設定",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.@Tooltip": "一般設定。",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceNormal": "クモの巣の出現率(通常)",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceNormal.@Tooltip[0]": "要塞のさまざまな場所にクモの巣が生成される割合。",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceNormal.@Tooltip[1]": "既定値: 0.1",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceSpawner": "クモの巣の出現率(スポナー)",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceSpawner.@Tooltip[0]": "図書室のクモのスポナーの周りにクモの巣が生成される割合。",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceSpawner.@Tooltip[1]": "既定値: 0.3",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.torchSpawnRate": "松明の出現率",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.torchSpawnRate.@Tooltip[0]": "要塞全体に松明が生成される割合。",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.torchSpawnRate.@Tooltip[1]": "既定値: 0.1",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.lanternSpawnRate": "ランタンの出現率",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.lanternSpawnRate.@Tooltip[0]": "要塞全体にランタンが生成される割合。",
+  "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.lanternSpawnRate.@Tooltip[1]": "既定値: 0.2"
+}

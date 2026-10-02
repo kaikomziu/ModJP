@@ -1,0 +1,16 @@
+{
+  "moogs_structures.config.title": "Moog's Structures",
+  "moogs_structures.config.reload_notice": "変更はワールドを再読み込み(タイトルに戻って入り直すか/reloadを実行)した後に反映され、新しく生成されたチャンクにのみ影響する。",
+  "moogs_structures.config.category.replace_vanilla": "バニラの構造物を置き換え",
+  "moogs_structures.config.category.structures": "構造物",
+  "moogs_structures.config.universal_frequency": "全体の頻度",
+  "moogs_structures.config.universal_frequency.tooltip": "すべてのMoogの構造物の出現頻度。2倍ならおよそ2倍、0.5倍ならおよそ半分。",
+  "moogs_structures.config.all_of_mod": "すべての%s",
+  "moogs_structures.config.mod_frequency.tooltip": "すべての%sの構造物の出現頻度。2倍ならおよそ2倍、0.5倍ならおよそ半分。",
+  "moogs_structures.config.preview": "プレビュー",
+  "moogs_structures.config.preview.unavailable": "プレビューなし: このMODはプレビューのリンク(mod_slug)を設定していない。",
+  "moogs_structures.config.enabled": "有効",
+  "moogs_structures.config.disabled": "無効",
+  "moogs_structures.cloth_required.title": "Moog's Structure Lib",
+  "moogs_structures.cloth_required.message": "Moog's Structure Libの設定画面にはCloth Config APIが必要。ゲーム内で設定するには導入すること。"
+}

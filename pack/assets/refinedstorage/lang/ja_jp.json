@@ -1,0 +1,16 @@
+{
+  "misc.refinedstorage.fluidmode": "液体",
+  "sidebutton.refinedstorage.grid.search_box_mode.4": "JEIと同期(双方向)",
+  "sidebutton.refinedstorage.grid.search_box_mode.5": "JEIと同期(双方向、自動選択)",
+  "item.refinedstorage.cover": "カバー",
+  "item.refinedstorage.hollow_cover": "中空のカバー",
+  "commands.refinedstorage.network.list.pos": "X: %d, Y: %d, Z: %dのネットワーク",
+  "commands.refinedstorage.network.list.tick_times": "平均tick時間: %s ms。平均TPS: %s",
+  "commands.refinedstorage.network.list.autocrafting_tasks": "%s件のタスク",
+  "commands.refinedstorage.network.list.nodes": "%s個のノード",
+  "commands.refinedstorage.network.list.energy_usage": "エネルギー消費: %s",
+  "commands.refinedstorage.network.get.error.not_found": "ネットワークが見つからない。",
+  "commands.refinedstorage.network.autocrafting.get.error.not_found": "タスクが見つからない。",
+  "commands.refinedstorage.network.autocrafting.cancel.single": "%d件のタスクをキャンセルした。",
+  "commands.refinedstorage.network.autocrafting.cancel.multiple": "%d件のタスクをキャンセルした。"
+}

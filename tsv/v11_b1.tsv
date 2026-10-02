@@ -1,0 +1,235 @@
+## morered
+itemGroup.morered	More Red
+gui.morered.category.soldering	はんだ付け
+block.morered.diode	ダイオード
+block.morered.not_gate	NOTゲート
+block.morered.nor_gate	NORゲート
+block.morered.nand_gate	NANDゲート
+block.morered.or_gate	ORゲート
+block.morered.and_gate	ANDゲート
+block.morered.and_2_gate	2入力ANDゲート
+block.morered.nand_2_gate	2入力NANDゲート
+block.morered.xor_gate	XORゲート
+block.morered.xnor_gate	XNORゲート
+block.morered.multiplexer	マルチプレクサー
+block.morered.pulse_gate	パルスゲート
+block.morered.stone_plate	石の板
+block.morered.soldering_table	はんだ付け台
+block.morered.redwire_post	レッドワイヤーの支柱
+block.morered.redwire_post_plate	レッドワイヤーの支柱プレート
+block.morered.redwire_post_relay_plate	レッドワイヤーの中継プレート
+block.morered.bundled_cable_post	束ねケーブルの支柱
+block.morered.bundled_cable_relay_plate	束ねケーブルの中継プレート
+block.morered.hexidecrubrometer	16進レッドストーン計
+block.morered.red_alloy_wire	赤色合金ワイヤー
+block.morered.white_network_cable	白色のネットワークケーブル
+block.morered.orange_network_cable	橙色のネットワークケーブル
+block.morered.magenta_network_cable	赤紫色のネットワークケーブル
+block.morered.light_blue_network_cable	空色のネットワークケーブル
+block.morered.yellow_network_cable	黄色のネットワークケーブル
+block.morered.lime_network_cable	黄緑色のネットワークケーブル
+block.morered.pink_network_cable	桃色のネットワークケーブル
+block.morered.gray_network_cable	灰色のネットワークケーブル
+block.morered.light_gray_network_cable	薄灰色のネットワークケーブル
+block.morered.cyan_network_cable	水色のネットワークケーブル
+block.morered.purple_network_cable	紫色のネットワークケーブル
+block.morered.blue_network_cable	青色のネットワークケーブル
+block.morered.brown_network_cable	茶色のネットワークケーブル
+block.morered.green_network_cable	緑色のネットワークケーブル
+block.morered.red_network_cable	赤色のネットワークケーブル
+block.morered.black_network_cable	黒色のネットワークケーブル
+block.morered.bundled_network_cable	束ねネットワークケーブル
+block.morered.bitwise_diode	ビット単位ダイオード
+block.morered.bitwise_not_gate	ビット単位NOTゲート
+block.morered.bitwise_or_gate	ビット単位ORゲート
+block.morered.bitwise_and_gate	ビット単位ANDゲート
+block.morered.bitwise_xor_gate	ビット単位XORゲート
+block.morered.bitwise_xnor_gate	ビット単位XNORゲート
+item.morered.redwire_spool	レッドワイヤーの糸巻き
+item.morered.bundled_cable_spool	束ねケーブルの糸巻き
+item.morered.red_alloy_ingot	赤色合金インゴット
+## redstone_arsenal
+itemGroup.redstone_arsenal	Redstone Arsenal
+info.redstone_arsenal.mode.0	抑制
+info.redstone_arsenal.mode.1	強化
+death.attack.redstone_arsenal.flux	%1$sは%2$sのフラックスに翻弄された！
+death.attack.redstone_arsenal.flux.item	%2$sは%3$sを使って%1$sをフラックスで翻弄した！
+item.redstone_arsenal.flux_coin	フラックス注入コイン
+item.redstone_arsenal.flux_dust	フラックス注入ダスト
+item.redstone_arsenal.flux_gear	フラックス注入ギア
+item.redstone_arsenal.flux_gem	フラックス注入ジェム
+item.redstone_arsenal.flux_ingot	フラックス注入インゴット
+item.redstone_arsenal.flux_nugget	フラックス注入ナゲット
+item.redstone_arsenal.flux_plate	フラックス注入プレート
+item.redstone_arsenal.flux_plating	フラックス注入装甲板
+item.redstone_arsenal.flux_obsidian_rod	フラックス注入黒曜石ロッド
+block.redstone_arsenal.flux_metal_block	フラックス注入金属ブロック
+block.redstone_arsenal.flux_gem_block	フラックス注入ジェムブロック
+item.redstone_arsenal.flux_sword	フラックス注入の剣
+item.redstone_arsenal.flux_shield	フラックス注入の盾
+=Flux-Infused Trident	フラックス注入のトライデント
+item.redstone_arsenal.flux_bow	フラックス注入の弓
+item.redstone_arsenal.flux_crossbow	フラックス注入のクロスボウ
+item.redstone_arsenal.flux_quiver	フラックス注入の矢筒
+item.redstone_arsenal.flux_pickaxe	フラックス注入のツルハシ
+item.redstone_arsenal.flux_shovel	フラックス注入のシャベル
+item.redstone_arsenal.flux_axe	フラックス注入の斧
+item.redstone_arsenal.flux_hoe	フラックス注入のクワ
+item.redstone_arsenal.flux_sickle	フラックス注入の鎌
+item.redstone_arsenal.flux_hammer	フラックス注入のハンマー
+item.redstone_arsenal.flux_excavator	フラックス注入の掘削機
+=Flux-Infused Battle Wrench	フラックス注入の戦闘用レンチ
+item.redstone_arsenal.flux_fishing_rod	フラックス注入の釣り竿
+item.redstone_arsenal.flux_helmet	フラックス注入のヘルメット
+item.redstone_arsenal.flux_chestplate	フラックス注入のチェストプレート
+item.redstone_arsenal.flux_leggings	フラックス注入のレギンス
+item.redstone_arsenal.flux_boots	フラックス注入のブーツ
+item.redstone_arsenal.flux_elytra	フラックス注入のエリトラ
+item.redstone_arsenal.flux_controller	フラックス注入のエリトラコントローラー
+block.redstone_arsenal.flux_glow_air	フラックス注入の空気
+block.redstone_arsenal.flux_path	フラックス注入の道
+entity.redstone_arsenal.flux_slash	フラックスの斬撃
+entity.redstone_arsenal.flux_arrow	フラックスの矢
+subtitles.redstone_arsenal.empower.on	フラックス道具: 起動
+subtitles.redstone_arsenal.empower.off	フラックス道具: 停止
+subtitles.redstone_arsenal.shielding.break	フラックスシールド: ひび割れ
+subtitles.redstone_arsenal.shielding.recharge	フラックスシールド: 再充電
+item.redstone_arsenal.flux_elytra.keyword	防具 チェストプレート armor chestplate
+## pylons
+block.pylons.expulsion_pylon	追放の支柱
+block.pylons.harvester_pylon	収穫の支柱
+block.pylons.infusion_pylon	注入の支柱
+block.pylons.interdiction_pylon	阻止の支柱
+chat.pylons.expelled	%sのチャンクから追放された！
+gui.pylons.blockedMobs	スポーンを防ぐモブを追加:
+gui.pylons.effects	有効なポーション効果:
+gui.pylons.insideWorldSpawn	ワールドのスポーン地点に近すぎる。
+gui.pylons.inventoryFull	インベントリが満杯。
+gui.pylons.inventoryMissing	支柱の上にインベントリを置くこと。
+gui.pylons.noOwner	所有者が見つからない。支柱は無効。
+gui.pylons.owner	所有者: %s
+gui.pylons.toggleWork	稼働状態
+gui.pylons.toolMissing	動作にはクワが必要。
+gui.pylons.whitelist	ホワイトリストにプレイヤーを追加:
+gui.pylons.workArea	作業範囲(チャンク単位)
+gui.pylons.workAreaBlocks	作業範囲(ブロック単位)
+gui.pylons.working	支柱は稼働中。
+gui.pylons.wrongDimension	このディメンションでは無効。
+item.pylons.mob_filter	モブフィルター
+item.pylons.player_filter	プレイヤーフィルター
+item.pylons.potion_filter	ポーションフィルター
+itemGroup.pylons	Pylons
+tooltip.pylons.activated	有効化済み
+tooltip.pylons.effect_denied	この効果は設定で無効になっている。
+tooltip.pylons.expulsion1	支柱の周囲の設定した
+tooltip.pylons.expulsion2	チャンク範囲から
+tooltip.pylons.expulsion3	他のプレイヤーを追放する。
+tooltip.pylons.harvester1	支柱の周囲の設定した半径にある
+tooltip.pylons.harvester2	作物を収穫する。水ブロックの中か
+tooltip.pylons.harvester3	上に置くだけでよい。
+tooltip.pylons.increase1	同じ効果を受けた状態で右クリックすると
+tooltip.pylons.increase2	進行度が増える。
+tooltip.pylons.infusion1	有効化したポーションフィルターの
+tooltip.pylons.infusion2	ポーション効果を
+tooltip.pylons.infusion3	距離に関係なく与える。
+tooltip.pylons.insert1	このフィルターを支柱に
+tooltip.pylons.insert2	入れて使おう！
+tooltip.pylons.interdiction1	支柱の周囲の半径内で
+tooltip.pylons.interdiction2	設定したモブのスポーンを防ぐ。
+tooltip.pylons.minimum_duration	最小効果時間: %s秒
+tooltip.pylons.no_effect1	効果を受けた状態で右クリックすると
+tooltip.pylons.no_effect2	カードにその効果を記録する。
+tooltip.pylons.no_mob	モブを右クリックして選択する。
+tooltip.pylons.no_player	プレイヤーを右クリックして選択する。
+tooltip.pylons.player	プレイヤー: %s
+tooltip.pylons.progress	進行度: %d/%d秒
+## ae2wtlib
+gui.ae2wtlib.creativetab	AE2 Wireless Terminals (AE2WTLib)
+gui.ae2wtlib.trash	ゴミ箱
+item.ae2wtlib.quantum_bridge_card	量子ブリッジカード
+item.ae2wtlib.quantum_bridge_card.desc	ワイヤレス端末を量子ブリッジに接続できるようにし、範囲を無制限にする
+item.ae2wtlib.magnet_card	マグネットカード
+item.ae2wtlib.magnet_card.desc	ワイヤレスクラフト端末用のマグネットアップグレード
+gui.ae2wtlib.magnetcard	マグネットカード
+gui.ae2wtlib.magnetcard.desc.off	オフ
+gui.ae2wtlib.magnetcard.desc.inv	インベントリに回収
+gui.ae2wtlib.magnetcard.desc.me	MEに回収
+gui.ae2wtlib.magnetcard.desc.me_no_magnet	マグネットはオフ、MEに回収
+gui.ae2wtlib.cycle_terminal.desc	次の端末を開く
+gui.ae2wtlib.magnetcard.hotkey	マグネットカード:
+gui.ae2wtlib.restock	補充:
+gui.ae2wtlib.off	オフ
+gui.ae2wtlib.on	オン
+gui.ae2wtlib.slot.magnetcard.desc	マグネットカード
+gui.ae2wtlib.wireless_terminal_settings_title	ワイヤレス端末の設定
+gui.ae2wtlib.magnet_settings_title	マグネットの設定
+gui.ae2wtlib.pick_block.text	ブロック選択を有効化
+gui.ae2wtlib.craft_if_missing.text	不足時にクラフト
+gui.ae2wtlib.restock.text	補充
+gui.ae2wtlib.magnet.text	マグネット
+gui.ae2wtlib.pickup_to_me.text	MEシステムに回収
+gui.ae2wtlib.Magnet	マグネットフィルター
+gui.ae2wtlib.whitelist	ホワイトリスト
+gui.ae2wtlib.blacklist	ブラックリスト
+gui.ae2wtlib.pickup_filter	回収フィルター:
+gui.ae2wtlib.insert_filter	搬入フィルター:
+gui.ae2wtlib.copy_pickup	回収にコピー
+gui.ae2wtlib.copy_insert	搬入にコピー
+gui.ae2wtlib.switch	フィルターを切り替え
+item.ae2wtlib.wireless_pattern_encoding_terminal	ワイヤレスパターンエンコード端末
+item.ae2wtlib.wireless_pattern_access_terminal	ワイヤレスパターンアクセス端末
+item.ae2wtlib.wireless_universal_terminal	ワイヤレス万能端末
+item.ae2wtlib.wireless_universal_terminal.desc	取り付け済みの端末:
+key.ae2.wireless_pattern_access_terminal	ワイヤレスパターンアクセス端末を開く
+key.ae2.wireless_pattern_encoding_terminal	ワイヤレスパターンエンコード端末を開く
+key.ae2.ae2wtlib_restock	補充の切り替え
+key.ae2.ae2wtlib_magnet	マグネットカードの切り替え
+key.ae2.ae2wtlib_stow	手に持ったスタックをMEシステムにしまう
+chat.ae2wtlib.NetworkNotPowered	ネットワークに電力がない
+text.autoconfig.de/mari_023/ae2wtlib.title	AE2 Wireless Terminals
+text.autoconfig.de/mari_023/ae2wtlib.option.magnetCardRange	マグネットカードの範囲
+## corail_woodcutter
+block.corail_woodcutter.acacia_woodcutter	アカシアの製材機
+block.corail_woodcutter.birch_woodcutter	シラカバの製材機
+block.corail_woodcutter.cherry_woodcutter	サクラの製材機
+block.corail_woodcutter.crimson_woodcutter	真紅の製材機
+block.corail_woodcutter.dark_oak_woodcutter	ダークオークの製材機
+block.corail_woodcutter.jungle_woodcutter	ジャングルの製材機
+block.corail_woodcutter.mangrove_woodcutter	マングローブの製材機
+block.corail_woodcutter.oak_woodcutter	オークの製材機
+block.corail_woodcutter.spruce_woodcutter	トウヒの製材機
+block.corail_woodcutter.warped_woodcutter	歪んだ製材機
+block.corail_woodcutter.bamboo_woodcutter	竹の製材機
+block.corail_woodcutter.bamboo_mosaic_woodcutter	竹細工の製材機
+block.corail_woodcutter.bop_dead_woodcutter	枯れ木の製材機
+block.corail_woodcutter.bop_fir_woodcutter	モミの製材機
+block.corail_woodcutter.bop_hellbark_woodcutter	ヘルバークの製材機
+block.corail_woodcutter.bop_jacaranda_woodcutter	ジャカランダの製材機
+block.corail_woodcutter.bop_magic_woodcutter	魔法の木の製材機
+block.corail_woodcutter.bop_mahogany_woodcutter	マホガニーの製材機
+block.corail_woodcutter.bop_palm_woodcutter	ヤシの製材機
+block.corail_woodcutter.bop_redwood_woodcutter	セコイアの製材機
+block.corail_woodcutter.bop_umbran_woodcutter	アンブランの製材機
+block.corail_woodcutter.bop_willow_woodcutter	ヤナギの製材機
+container.corail_woodcutter.woodcutter	製材機
+item.corail_woodcutter.woodcutter.desc	石切台に似た木工用のブロック
+item.corail_woodcutter.woodcutter.inventory	スニークして右クリックするとインベントリで開く
+corail_woodcutter.config.general.open_woodcutter_in_inventory	スニーク中に右クリックすると製材機をインベントリで開けるようにする
+stat.corail_woodcutter.interact_with_sawmill	製材機を使った回数
+corail_woodcutter.command.usage	MODの木材クラフトレシピをCorail Woodcutter形式でconfigフォルダに生成する\n /woodcutter info\n /woodcutter datapack [generate|apply|remove] <modid>\napplyとremoveはシングルプレイで使え、適用する前にデータパックを生成しておく必要がある
+corail_woodcutter.message.datapack.generate.success	configフォルダにデータパックを生成した(%d件のレシピ)
+corail_woodcutter.message.datapack.generate.fail	データパックを生成できなかった: %s
+corail_woodcutter.message.file.delete.fail	ファイルを削除できない: %s
+corail_woodcutter.message.file.write.fail	ファイルを書き込めない: %s
+corail_woodcutter.message.file.copy.fail	ファイルをコピーできない: %s
+corail_woodcutter.message.folder.create.fail	フォルダを作成できない: %s
+corail_woodcutter.message.zip.create.fail	Zipの作成に失敗した
+corail_woodcutter.message.mcmeta.create.fail	pack.mcmetaファイルを書き込めなかった
+corail_woodcutter.message.no_valid_recipe_for_modid	modid「%s」の有効なレシピが見つからなかった
+corail_woodcutter.message.invalid_modid	無効なmodid
+corail_woodcutter.message.datapack.not_generated	modid「%s」の生成済みデータパックがない
+corail_woodcutter.message.datapack.apply.success	データパックを追加した
+corail_woodcutter.message.datapack.apply.fail	データパックを適用できなかった: %s
+corail_woodcutter.message.datapack.remove.success	データパックを削除した
+corail_woodcutter.message.datapack.remove.absent	データパックはなかった
+corail_woodcutter.message.datapack.remove.fail	データパックを削除できなかった: %s

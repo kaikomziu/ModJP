@@ -1,0 +1,11 @@
+{
+  "itemGroup.rangedpumps": "Ranged Pumps",
+  "block.rangedpumps.pump": "ポンプ",
+  "block.rangedpumps.pump.state": "%2$s %1$d mB - %3$d / %4$d FE",
+  "block.rangedpumps.pump.state_empty": "空 - %d / %d FE",
+  "block.rangedpumps.pump.state.energy": "エネルギーが足りない。",
+  "block.rangedpumps.pump.state.redstone": "レッドストーン信号のため停止中。",
+  "block.rangedpumps.pump.state.working": "%d, %d, %dをスキャン中(範囲: %d / %d)。",
+  "block.rangedpumps.pump.state.full": "内部タンクが満杯。",
+  "block.rangedpumps.pump.state.done": "完了。"
+}

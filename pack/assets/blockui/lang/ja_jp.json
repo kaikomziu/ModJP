@@ -1,0 +1,6 @@
+{
+  "blockui.container_gui.client_side_only": "コンテナの中身は統合サーバー(シングルプレイ、LANなし)で遊んでいるときのみ表示される。",
+  "blockui.container_gui.empty": "このコンテナは空。",
+  "blockui.tooltip.item_additional_info": "%sを押し続けると追加情報を表示",
+  "blockui.tooltip.properties": "ブロックステートのプロパティ:"
+}

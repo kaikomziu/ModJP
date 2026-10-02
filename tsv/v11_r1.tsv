@@ -1,0 +1,258 @@
+## biomesoplenty
+@ fieldguide.name.biomesoplenty.
+.toadstool_block	巨大な毒キノコ
+.glowshroom_block	巨大な光るキノコ
+.origin_sapling	起源の木
+.flowering_oak_sapling	花咲くオークの木
+.snowblossom_sapling	雪花の木
+.rainbow_birch_sapling	虹色のシラカバの木
+.yellow_autumn_sapling	黄色い紅葉の木
+.orange_autumn_sapling	橙色の紅葉の木
+.maple_sapling	カエデの木
+.fir_sapling	モミの木
+.redwood_sapling	セコイアの木
+.mahogany_sapling	マホガニーの木
+.jacaranda_sapling	ジャカランダの木
+.palm_sapling	ヤシの木
+.willow_sapling	ヤナギの木
+.spanish_moss	サルオガセモドキ
+.dead_sapling	枯れ木
+.magic_sapling	魔法の木
+.umbran_sapling	アンブランの木
+.hellbark_sapling	ヘルバークの木
+.huge_clover_petal	巨大なクローバー
+.huge_lily_pad	巨大なスイレンの葉
+## arseng
+arseng.page.source_acceptor	MEソース変換器はソースをAEエネルギーに変換する。MEネットワークに取り付けてリレーでソースを供給すれば、ソースだけでネットワークに電力を送れる。
+arseng.page.source_acceptor_description	ソース変換器にはブロック版とケーブルパーツ版がある。
+arseng.page.source_cell_housing	MEソースセルはMEソースセル筐体でクラフトできる。Applied Energistics 2のMEシステム内に、ソース瓶何個分ものソースを保存できる。
+block.arseng.me_source_jar	MEソース瓶
+block.arseng.source_acceptor	MEソース変換器
+item.arseng.cable_source_acceptor	MEソース受容器
+item.arseng.creative_source_cell	クリエイティブMEソースセル
+item.arseng.portable_source_cell_16k	16k ポータブルソースセル
+item.arseng.portable_source_cell_1k	1k ポータブルソースセル
+item.arseng.portable_source_cell_256k	256k ポータブルソースセル
+item.arseng.portable_source_cell_4k	4k ポータブルソースセル
+item.arseng.portable_source_cell_64k	64k ポータブルソースセル
+item.arseng.source_cell_housing	MEソースセル筐体
+item.arseng.source_p2p_tunnel	MEソースP2Pトンネル
+item.arseng.source_storage_cell_16k	16k MEソースストレージセル
+item.arseng.source_storage_cell_1k	1k MEソースストレージセル
+item.arseng.source_storage_cell_256k	256k MEソースストレージセル
+item.arseng.source_storage_cell_4k	4k MEソースストレージセル
+item.arseng.source_storage_cell_64k	64k MEソースストレージセル
+item.arseng.spell_p2p_tunnel	MEスペルP2Pトンネル
+itemGroup.arseng	Ars Énergistique
+## dysoncubeproject
+@ advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_
+.5.description	セイルの5%を射出した。太陽はほとんど気づいていない。たぶん。
+.5.title	太陽に通知しました
+.15.description	セイルの15%を射出した。地元の光子が苦情を申し立てた。
+.15.title	やや気がかりな太陽包囲
+.25.description	セイルの25%を射出した。宇宙規模のたわごとまで4分の1。
+.25.title	4分の1の球、満ちる野望
+.50.description	セイルの50%を射出した。球は半分、思い上がりは2倍。
+.50.title	恒星の大家まであと半分
+.75.description	セイルの75%を射出した。太陽は正式に逃げ道を検討している。
+.75.title	太陽がそわそわしている
+.100.description	セイルの100%を射出した。日光は今やサブスクリプションサービスだ。
+.100.title	おめでとう！日光はあなたのもの
+advancement.dysoncubeproject.root.description	今日、我々は太陽を盗む！
+advancement.dysoncubeproject.root.title	Dyson Cube Project
+gui.dysoncubeproject.unsubscribe	すべての球の購読を解除(自分の球に戻る)
+item.dysoncubeproject.compressed_beam_package	圧縮ビームパッケージ
+item.dysoncubeproject.living_compressed_beam_package	生きた圧縮ビームパッケージ
+item.dysoncubeproject.compressed_solar_sail_package	圧縮ソーラーセイルパッケージ
+item.dysoncubeproject.living_compressed_solar_sail_package	生きた圧縮ソーラーセイルパッケージ
+creative_tab.dyson_cube_project	Dyson Cube Project
+tooltip.dysoncubeproject.power_optional	*電力は任意。電力があると射出するビーム/セイルの数を増やせる*
+## extradisks
+item.extradisks.raw_withering_processor	未加工のウィザープロセッサー
+item.extradisks.withering_processor	ウィザープロセッサー
+block.extradisks.advanced_machine_casing	高度な機械の外殻
+block.extradisks.256k_storage_block	256k ストレージブロック
+block.extradisks.1024k_storage_block	1024k ストレージブロック
+block.extradisks.4096k_storage_block	4096k ストレージブロック
+block.extradisks.16384k_storage_block	16384k ストレージブロック
+block.extradisks.65536k_storage_block	65536k ストレージブロック
+block.extradisks.262144k_storage_block	262m ストレージブロック
+block.extradisks.1048576k_storage_block	1048m ストレージブロック
+block.extradisks.infinite_storage_block	無限ストレージブロック
+block.extradisks.16384k_fluid_storage_block	16384k 液体ストレージブロック
+block.extradisks.65536k_fluid_storage_block	65536k 液体ストレージブロック
+block.extradisks.262144k_fluid_storage_block	262m 液体ストレージブロック
+block.extradisks.1048576k_fluid_storage_block	1048m 液体ストレージブロック
+block.extradisks.infinite_fluid_storage_block	無限液体ストレージブロック
+advancements.extradisks.infinite_storage.title	無限のストレージ
+advancements.extradisks.infinite_storage.description	無限のストレージは無限に便利
+## phosphophyllite
+item_group.phosphophyllite	Phosphophyllite
+multiblock.error.phosphophyllite.invalid_block.frame	%2$sの枠に無効なブロック(%1$s)がある
+multiblock.error.phosphophyllite.invalid_block.exterior	%2$sの外装に無効なブロック(%1$s)がある
+multiblock.error.phosphophyllite.invalid_block.interior	%2$sの内部に無効なブロック(%1$s)がある
+multiblock.error.phosphophyllite.invalid_block.corner	%2$sの角に無効なブロック(%1$s)がある
+multiblock.error.phosphophyllite.invalid_block.generic	%2$sに無効なブロック(%1$s)がある
+multiblock.error.phosphophyllite.unknown	不明なマルチブロックのエラーが発生した。MOD作者に報告してください
+multiblock.error.phosphophyllite.null_controller	マルチブロックシステムで不明な内部エラーが発生した。Phosphophylliteに報告してください
+multiblock.error.phosphophyllite.dimensions	この大きさは許可されていない \n実際: %d, %d, %d, \n最小: %d, %d, %d, \n最大: %d, %d, %d,
+block.phosphophyllite.item_black_hole	アイテムブラックホール
+block.phosphophyllite.item_white_hole	アイテムホワイトホール
+block.phosphophyllite.fluid_black_hole	液体ブラックホール
+block.phosphophyllite.fluid_white_hole	液体ホワイトホール
+block.phosphophyllite.power_black_hole	電力ブラックホール
+block.phosphophyllite.power_white_hole	電力ホワイトホール
+block.phosphophyllite.phosphophyllite_ore	フォスフォフィライト鉱石
+item.phosphophyllite.debug_tool	デバグ用ツール
+random.bullshit.that.doesnt.actually.get.used.anywhere	末尾のカンマを置けるようにするためのもの、いいね
+## travelanchors
+itemGroup.travelanchors	Travel Anchors
+item.travelanchors.travel_staff	トラベルスタッフ
+enchantment.travelanchors.range.desc	ティアごとにテレポートの範囲を広げる
+enchantment.travelanchors.teleportation.desc	トラベルスタッフ以外の道具にテレポート能力を付ける
+block.travelanchors.travel_anchor	トラベルアンカー
+screen.travelanchors.travel_anchor	トラベルアンカー
+screen.travelanchors.search	検索
+screen.travelanchors.nameless	使うには名前を入力すること
+tooltip.travelanchors.travel_anchor_block	トラベルスタッフかテレポートのエンチャントでこれを見るとテレポートする。
+tooltip.travelanchors.travel_staff	スニーク+右クリックで短距離テレポート。トラベルアンカーを見るとワープする。
+travelanchors.tp.success	%sにテレポートした。
+travelanchors.tp.fail	トラベルアンカーが見つからない。
+travelanchors.hop.fail	行き先がふさがっている。
+travelanchors.lock.button	ロック
+travelanchors.lock.locked	このアンカーをロックした。
+travelanchors.lock.unlocked	このアンカーのロックを解除した。
+travelanchors.lock.interact	このアンカーはロックされている。棒で右クリックすると解除できる。
+## nochatreports
+key.nochatreports.ctrl	Ctrl
+key.nochatreports.cmd	Cmd
+gui.nochatreports.safety_status.insecure_signing	チャット署名を有効にしている。これにより、あなたのメッセージはすべてチャット通報で不利な証拠として使われる可能性がある。
+gui.nochatreports.signing_required.contents	このサーバーはすべてのチャットメッセージへの署名を要求している。つまりメッセージがMojangに通報される可能性があり、すべてのマルチプレイサーバーからBANされるおそれがある。これはおそらく、サーバーの所有者がserver.propertiesで"enforce-secure-profile"を有効のままにしているため(1.19.1以降の初期設定)。\n\n"署名を許可"をクリックすると、このセッションでメッセージ署名を有効にする。チャット画面の安全状態ボタンでも、このサーバーの署名モードを選べる。
+chat.nochatreports.disabled.signing_requested	サーバーが署名なしメッセージの配信を拒否した。署名モードを変更するか、確認画面からチャット署名を有効にできる。
+configuration.NoChatReports.category.client	クライアント
+option.NoChatReports.defaultSigningMode	初期の署名モード
+option.NoChatReports.defaultSigningMode.tooltip	チャット署名を強制または許可するサーバーでの署名モードの初期値を設定する。
+option.NoChatReports.showEncryptionIndicators	暗号化の表示を出す
+option.NoChatReports.showEncryptionIndicators.tooltip	暗号化されたメッセージの表示(チャットメッセージの左の紫の帯と、カーソルを合わせたときの右の§5§l(§r§5ȯ§5§l)§r)を切り替える。
+option.NoChatReports.hideInsecureMessageIndicators	未検証メッセージの表示を隠す
+option.NoChatReports.hideSigningRequestMessage	署名要求のメッセージを隠す
+option.NoChatReports.hideSigningRequestMessage.tooltip	サーバーがクライアントにメッセージ署名を要求したときに表示されるチャットメッセージを隠す。
+configuration.NoChatReports.category.lan	LAN
+option.NoChatReports.demandOnClientMessage	クライアントへのキックメッセージで要求
+option.NoChatReports.demandOnClientMessage.tooltip	No Chat Reportsを導入していないクライアントがサーバーに参加しようとしたときに表示するメッセージ。
+## rebornstorage
+curios.identifier.grid	グリッド
+key.rebornstorage.openWirelessCraftingGrid	スーパーワイヤレスグリッドを開く
+key.rebornstorage.switchModeWirelessCraftingGrid	スーパーワイヤレスグリッドのモード切り替え
+itemGroup.rebornstorage	Reborn Storage
+block.rebornstorage.multiblock_cpu	クラフトCPU
+block.rebornstorage.multiblock_heat	熱伝導体
+block.rebornstorage.multiblock_frame	クラフトフレーム
+block.rebornstorage.multiblock_storage	クラフトストレージ
+=Advanced Wireless Transmitter	高度なワイヤレス送信機
+item.rebornstorage.super_wireless_crafting_grid	スーパーワイヤレスグリッド
+item.rebornstorage.creative_super_wireless_crafting_grid	クリエイティブスーパーワイヤレスグリッド
+item.rebornstorage.raw_super_advanced_processor	未加工の超高度プロセッサー
+item.rebornstorage.super_advanced_processor	超高度プロセッサー
+item.rebornstorage.rs_book	Reborn Storageの本
+info.rebornstorage.book.landing	Reborn Storageへようこそ。知っておくべきことがここにある
+## itemcollectors
+itemcollectors.block.basic_collector	基本アイテム収集機
+itemcollectors.basic_collector.info	周囲の範囲のアイテムを回収できる
+itemcollectors.basic_collector.info.range	範囲: %sブロック
+itemcollectors.block.advanced_collector	高度なアイテム収集機
+itemcollectors.advanced_collector.info	周囲の範囲のアイテムを回収できる。アイテムは絞り込める
+gui.itemcollectors.basic_collector.range	範囲(%1$dx%2$dx%3$d)
+gui.itemcollectors.basic_collector.range.increase	範囲を広げる
+gui.itemcollectors.basic_collector.range.decrease	範囲を狭める
+gui.itemcollectors.advanced_collector.whitelist.on	ホワイトリスト
+gui.itemcollectors.advanced_collector.whitelist.off	ブラックリスト
+gui.itemcollectors.advanced_collector.durability.on	NBTを照合
+gui.itemcollectors.advanced_collector.durability.off	NBTを無視
+gui.itemcollectors.advanced_collector.filter	フィルター
+gui.itemcollectors.advanced_collector.show_area.on	範囲を表示中
+gui.itemcollectors.advanced_collector.show_area.off	範囲を非表示
+## refinedcooking
+itemGroup.refinedcooking	Refined Cooking
+=Kitchen Station	キッチンステーション
+=Kitchen Access Point	キッチンアクセスポイント
+item.refinedcooking.kitchen_network_card	キッチンネットワークカード
+gui.refinedcooking.kitchen_access_point.distance	%dブロック
+gui.refinedcooking.kitchen_access_point.missing_card	キッチンカードがない
+misc.refinedcooking.kitchen_network_card.tooltip	%4$sの%1$d, %2$d, %3$dにリンク済み。
+tooltip.refinedcooking:kitchen_station.description	Refined Storageのネットワークにつながるステーションのノード
+jade.refinedcooking:kitchen_station	%sのネットワークに接続済み
+jade.refinedcooking:online_transmitting	ネットワークに接続済み - 送信中
+jade.refinedcooking:online_no_transmission	ネットワークに接続済み - 送信していない
+jade.refinedcooking:offline	ネットワークに未接続
+## ars_creo
+block.ars_creo.starbuncle_wheel	スターバンクルの車輪
+ars_creo.page.starbuncle_wheel	Create用の回転力を生み出す。車輪の前に金ブロックを置くと回転数が上がる。
+ars_creo.page.behaviors	Ars Creoは、スペルタレットやソース瓶などArs Nouveauのブロックにからくり上での特別な動作を追加する。基本のスペルタレット - からくり上で接触するとスペルを放つ。タイマータレット - 一定間隔でスペルを放つ。エンチャントされたスペルタレット - 新しいブロックを通るたびにスペルを放つ。ソース瓶 - からくり上のタレットが消費できる。
+itemGroup.ars_creo.general	Ars Creo
+ars_creo.display_source.turret.not_enough_space	空間が足りない
+=for turret status	(タレットの状態)
+ars_creo.display_source.turret.no_spell	スペルが設定されていない。
+ars_creo.display_source.turret.spell_name	スペル: %s
+ars_creo.display_source.turret.spell	%s
+ars_creo.display_source.turret_target	スペルタレット
+ars_creo.display_source.source_count	ソース: %s
+ars_creo.display_source.for_source_status	(ソースの状態)
+ars_creo.display_source.source_jar	ソースの量
+ars_creo.display_source.turret	スペル
+## bambooeverything
+itemGroup.bambooeverything.creative_tab	Bamboo Everything
+block.bambooeverything.bamboo_bundle	竹の束
+block.bambooeverything.bamboo_torch	竹のたいまつ
+item.bambooeverything.dry_bamboo	乾いた竹
+block.bambooeverything.dry_bamboo_ladder	乾いた竹のはしご
+block.bambooeverything.dry_bamboo_fence	乾いた竹のフェンス
+block.bambooeverything.dry_bamboo_fence_gate	乾いた竹のフェンスゲート
+block.bambooeverything.dry_bamboo_door	乾いた竹のドア
+block.bambooeverything.dry_bamboo_trapdoor	乾いた竹のトラップドア
+block.bambooeverything.dry_bamboo_bundle	乾いた竹の束
+block.bambooeverything.dry_bamboo_stairs	乾いた竹の階段
+block.bambooeverything.dry_bamboo_slab	乾いた竹のハーフブロック
+block.bambooeverything.dry_bamboo_torch	乾いた竹のたいまつ
+item.bambooeverything.dry_bamboo_raft	乾いた竹のいかだ
+## moogs_structures
+moogs_structures.config.title	Moog's Structures
+moogs_structures.config.reload_notice	変更はワールドを再読み込み(タイトルに戻って入り直すか/reloadを実行)した後に反映され、新しく生成されたチャンクにのみ影響する。
+moogs_structures.config.category.replace_vanilla	バニラの構造物を置き換え
+moogs_structures.config.category.structures	構造物
+moogs_structures.config.universal_frequency	全体の頻度
+moogs_structures.config.universal_frequency.tooltip	すべてのMoogの構造物の出現頻度。2倍ならおよそ2倍、0.5倍ならおよそ半分。
+moogs_structures.config.all_of_mod	すべての%s
+moogs_structures.config.mod_frequency.tooltip	すべての%sの構造物の出現頻度。2倍ならおよそ2倍、0.5倍ならおよそ半分。
+moogs_structures.config.preview	プレビュー
+moogs_structures.config.preview.unavailable	プレビューなし: このMODはプレビューのリンク(mod_slug)を設定していない。
+moogs_structures.config.enabled	有効
+moogs_structures.config.disabled	無効
+moogs_structures.cloth_required.title	Moog's Structure Lib
+moogs_structures.cloth_required.message	Moog's Structure Libの設定画面にはCloth Config APIが必要。ゲーム内で設定するには導入すること。
+## voidtotem
+advancements.voidtotem.adventure.totem_of_void_undying.description	虚空の不死のトーテムを使って、虚空に落ちたときに死を免れる
+advancements.voidtotem.adventure.totem_of_void_undying.title	死を超えて2
+item.voidtotem.totem_of_void_undying	虚空の不死のトーテム
+text.autoconfig.voidtotem.option.ADD_END_CITY_TREASURE	エンドシティの宝に追加
+text.autoconfig.voidtotem.option.BLACKLISTED_DIMENSIONS	ブラックリストのディメンション
+text.autoconfig.voidtotem.option.DISPLAY_TOTEM_ON_CHEST	チェストにトーテムを表示
+text.autoconfig.voidtotem.option.GIVE_TOTEM_EFFECTS	トーテムの効果を与える
+text.autoconfig.voidtotem.option.IS_INVERTED_BLACKLIST	ブラックリストを反転
+text.autoconfig.voidtotem.option.NEEDS_TOTEM	トーテムが必要
+text.autoconfig.voidtotem.option.SHOW_TOTEM_TOOLTIP	トーテムのツールチップを表示
+text.autoconfig.voidtotem.option.TELEPORT_HEIGHT_OFFSET	テレポートの高さのオフセット
+text.autoconfig.voidtotem.option.USE_TOTEM_FROM_INVENTORY	インベントリのトーテムを使う
+tooltip.voidtotem.totem_of_void_undying	メインハンドかオフハンドに持つと、虚空に落ちても死なずに済む。
+trinkets.slot.charm.charm	お守り
+## refinedstorage
+misc.refinedstorage.fluidmode	液体
+sidebutton.refinedstorage.grid.search_box_mode.4	JEIと同期(双方向)
+sidebutton.refinedstorage.grid.search_box_mode.5	JEIと同期(双方向、自動選択)
+item.refinedstorage.hollow_cover	中空のカバー
+commands.refinedstorage.network.list.pos	X: %d, Y: %d, Z: %dのネットワーク
+commands.refinedstorage.network.list.tick_times	平均tick時間: %s ms。平均TPS: %s
+commands.refinedstorage.network.list.autocrafting_tasks	%s件のタスク
+commands.refinedstorage.network.list.nodes	%s個のノード
+commands.refinedstorage.network.list.energy_usage	エネルギー消費: %s
+commands.refinedstorage.network.get.error.not_found	ネットワークが見つからない。

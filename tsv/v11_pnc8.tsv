@@ -1,0 +1,246 @@
+## pneumaticcraft
+@ pneumaticcraft.gui.
+.tooltip.maxPressure	最大圧力: %s bar
+.tooltip.maxProduction	最大生産量: %d mL/t
+.tooltip.maxUsage	最大消費量: %d mL/t
+.tooltip.memory_stick.xp_stored	保存量: %d XP(%dレベル)
+.tooltip.omnidirectional_hopper.roundRobin.off	§fラウンドロビン搬出: オフ\n§7搬出スロットは常に条件に合う一番左のスロット
+.tooltip.omnidirectional_hopper.roundRobin.on	§fラウンドロビン搬出: オン\n§7搬出に成功するたびに搬出スロットが順番に変わる
+.tooltip.pressure	圧力: %s bar
+.tooltip.pressureMax	圧力: %s/%s bar
+.tooltip.producingAir	生成: %s mL/t
+.tooltip.programmable.availablePieces	使えるパズルピース: %d
+.tooltip.programmable.invalidPieces	赤で表示されたピースはここでは無効です。
+.tooltip.programmable.notEnoughPieces	パズルピースが足りません！
+.tooltip.programmable.requiredPieces	必要なパズルピース: %d
+.tooltip.programmable.returnedPieces	返却されるパズルピース: %d
+.tooltip.smartChest.filter	§2フィルター付きアイテム: %d
+.tooltip.smartChest.mode.none	何もしない
+.tooltip.smartChest.mode.pull	アイテムを引き込む
+.tooltip.smartChest.mode.push	アイテムを押し出す
+.tooltip.smartChest.slotsClosed	§2閉じたスロット: %d
+.tooltip.sneakForInfo	Shiftで情報を表示
+.tooltip.suction	吸引: %d mL/t
+.tooltip.tag_filter.header	設定したタグ:
+.tooltip.tag_workbench.write_button	タグフィルターを作る
+.tooltip.terrainSafe	§e地形破壊は無効。
+.tooltip.terrainWarning	§6警告: 地形破壊が有効。
+.tooltip.upgrades.empty	充電ステーションに入れるとアップグレードを取り付けられる
+.tooltip.upgrades.not_empty	取り付けたアップグレード:
+.tooltip.broken	§c壊れている
+.transfer_gadget.io_mode.input	移送: 入力
+.transfer_gadget.io_mode.output	移送: 出力
+.tubeModule.advancedConfig	高度な設定
+.tubeModule.advancedConfig.tooltip	オンにすると、より高度な方法で動作を決められる。
+.tubeModule.channel	このチャンネル
+.tubeModule.otherChannel	他のチャンネル
+.tubeModule.simpleConfig.higherThan	より高い
+.tubeModule.simpleConfig.lowerThan	より低い
+.tubeModule.simpleConfig.threshold	しきい値:
+.tubeModule.simpleConfig.temperature	温度:
+.tubeModule.celsius	°C
+.tubeModule.simpleConfig.turn	出力する条件
+.universalSensor.desc.block_comparator	このセンサー設定は、GPS(エリア)ツールで指定した位置にレッドストーンコンパレーターがあるかのように振る舞い、その位置のインベントリの中身に比例したレッドストーン信号を出す。コンパレーターの出力が面によって変わる場合は、最も高い信号を出す。\n位置が複数ある場合は、どの位置でも最も高いコンパレーターの値を出す。
+.universalSensor.desc.block_heat	GPS(エリア)ツールで指定したブロックの位置の熱を監視する。監視するブロックの温度がテキスト欄の温度(°C)より高いと強度15のレッドストーン信号を出し、そうでなければ0を出す。\nテキスト欄が空なら、出力は温度に比例し、0°C(レッドストーン=0)から400°C(レッドストーン=15)の範囲になる。\n位置が複数ある場合は、最も温度の高い位置を使う。
+.universalSensor.desc.block_light_level	GPS(エリア)ツールに保存したブロックの位置の明るさと同じ強さのアナログなレッドストーン信号を出す。位置が複数ある場合は、最も明るい位置を使う。
+.universalSensor.desc.block_presence	GPS(エリア)ツールで指定した位置にブロック(空気以外)があると強度15のレッドストーン信号を出す。\n位置が複数ある場合は、どれかの位置にブロックがあればレッドストーン信号を出す。
+.universalSensor.desc.block_redstone	GPS(エリア)ツールで指定した位置にあるのと同じ強度のレッドストーン信号を出すので、ワイヤレスのレッドストーン装置として使える。\n位置が複数ある場合は、レッドストーンの値が最も高い位置を使う。
+.universalSensor.desc.constant	この疑似センサーは一定のレッドストーン値を出す。出す値はテキスト欄に入れた数値。\nこのセンサーの動作に空気はかからない。
+.universalSensor.desc.player_player_attack	センサーの範囲内でプレイヤーがエンティティを攻撃すると、レッドストーンのパルスを出す。
+.universalSensor.desc.player_player_health	プレイヤーの体力に比例したアナログなレッドストーン信号を出す: 体力0 = レッドストーン0、満タン = レッドストーン15。\n監視するプレイヤーの名前をテキスト欄に入力する必要がある。
+.universalSensor.desc.player_item_pickup	センサーの範囲内でプレイヤーがアイテムを拾うと、5 tickのレッドストーンのパルスを出す。
+.universalSensor.desc.player_right_click_block	センサーの範囲内で、GPS(エリア)ツールで選んだ位置のブロックをプレイヤーが右クリックすると、5 tickのレッドストーンのパルスを出す。
+.universalSensor.desc.world_daylight	バニラの日照センサーとまったく同じように動く。
+.universalSensor.desc.within_range	範囲内のエンティティ1体ごとにレッドストーンの強度を出す。テキスト欄に名前を入れると特定のエンティティを選べる。\nエンティティフィルターの書き方の詳しいヘルプはF1長押しで表示。
+.universalSensor.desc.world_global_analog_var	つながったグローバル変数のXの値(0〜15に制限)の強さのレッドストーン信号を出す
+.universalSensor.desc.world_global_variable	つながったグローバル変数のXの値が0以外のとき、強度15のレッドストーン信号を出す
+.universalSensor.desc.world_is_raining	このワールドで雨が降っているとレッドストーン信号を出す。
+.universalSensor.desc.world_players_in_server	サーバーにログインしているプレイヤー1人ごとにレッドストーンの強度を出す。\nテキスト欄に特定のプレイヤー名を入れると、そのプレイヤーがオンラインなら15、そうでなければ0のレッドストーン信号を出す。
+.universalSensor.desc.world_tick_time	このユニバーサルセンサーがあるワールドの更新にサーバーがかけた時間に応じたレッドストーンの強度を出す。この時間はForgeの/tpsコマンドと同じ方法で計算する。テキスト欄で次のように分解能を選べる:\n強度 = Tick時間(ms) * テキスト欄の値\n例: Tick時間 = 20ms、テキスト欄 = '0.5'\n強度 = 20 * 0.5 = 10
+.universalSensor.desc.world_time	ワールドの時刻(0〜23999)に比例した強さのレッドストーン信号を出す:\n強度 = 時刻 / 1500\n例: 時刻が6000(正午)なら、レッドストーンの強度は4。
+.universalSensor.desc.world_twitch	テキスト欄の配信者が今配信中ならレッドストーン信号を出す。
+.universalSensor.desc.world_weather_forecast	雨が降るまでの時間に応じたレッドストーン信号を出す。\n強度 = 15 - 雨までの時間(分)\n例: 10分後に雨が降るなら、強度 = 5。
+.universalSensor.text.thresholdTemp	しきい値の温度
+.universalSensor.outOfRange	§fブロックの位置が範囲外です！\n§0ブロックの位置%d個がセンサーの範囲外です。範囲アップグレードを追加してください。
+.universalSensor.sensorException	§fセンサーの例外を検出！\n%s
+.universalSensor.status.missing_gps	§fGPSツールがない\n§0選んだセンサーには、設定済みのGPSかエリアGPSツールをGPSスロットに入れる必要があります。
+.universalSensor.status.missing_upgrade	§fアップグレードがない\n§0今のセンサーに必要なアップグレードが取り外されたようです。入れ直してください。
+.universalSensor.status.no_sensor	§fセンサーが選ばれていない\n§0必要なアップグレードを入れて、目的のセンサーを選んでください。
+.universalSensor.upgradeHeader	§7ユニバーサルセンサーの動作には次のアップグレードの組み合わせが必要:
+.uv_light_box.threshold	しきい値:
+@ pneumaticcraft.
+.helmet.debugging.drone	空気圧ヘルメットのドローンデバッグ
+.helmet.hack	空気圧ヘルメットのハッキング
+.hud.msg.active	有効
+.hud.msg.inactive	無効
+.hud.msg.state	状態
+.igwmod.pressureChamber.requiredPressure	必要な圧力
+.igwtab.entry.assembly_machines	組立機械
+.igwtab.entry.base_concepts	基本概念
+.igwtab.entry.bc_integration	Buildcraft連携
+.igwtab.entry.cc_integration	Computercraft/Open Computers連携
+.igwtab.entry.cofh_integration	CoFH連携
+.igwtab.entry.elevator	エレベーター
+.igwtab.entry.generating_pressure	圧力の生成
+.igwtab.entry.heat	熱
+.igwtab.entry.ic2integration	IC2連携
+.igwtab.entry.machine_upgrades	機械のアップグレード
+.igwtab.entry.oil	石油
+.igwtab.entry.pneumatic_armor	空気圧アーマー
+.igwtab.entry.pneumatic_door	空気圧ドア
+.igwtab.entry.pressure_chamber	圧力チャンバー
+.igwtab.entry.pressure_tubes	チューブとモジュール
+.igwtab.entry.printed_circuit_boards	プリント基板
+.igwtab.entry.worldgen	ワールド生成
+.message.amadron.amadronRestocked	§e[アマドロン]§b 出品§6%s§bを補充しました - 在庫は§6%d§b件の取引です。
+.message.amadron.duplicateOffer	§e[アマドロン]§c 取引を追加できません: 取引が無効か、すでに追加されています！
+.message.amadron.duplicateReversedOffer	§e[アマドロン]§c 取引を追加できません: すでに逆向きの取引があります！
+.message.amadron.offersUpdated	§e[アマドロン] §b新しい日替わりの出品が並びました！
+.message.amadron.playerAddedTrade	§e[アマドロン] §6%s§bが§6%s§bを§6%s§bで販売中。
+.message.amadron.playerBought	§e[アマドロン] §6%s§bがあなたから§6%d§b回分の§6%s§bを§6%s§bで購入しました。
+.message.amadron.playerRemovedTrade	§e[アマドロン] §6%s§cは§6%s§cの§6%s§cでの販売をやめました。
+.message.camo.invalidBlock	§4無効なカモフラージュブロック: §c%s！
+.message.camo.notEnoughBlocks	§4不足:
+.message.date.ironman	今日はアイアンマンの映画が公開された日！
+.message.dispenser.clickToSet	§e§oブロックを右クリックして排出方向を設定
+.message.dispenser.direction	§e排出先: %s
+.message.gps_tool.targetSet	[GPSツール] 座標を%d,%d,%dに設定
+.message.gps_tool.culledRenderArea	巨大な描画(%dブロック)はFPS保護のため省略しました！
+.message.jackhammer.mode	掘削モード:
+.message.jackhammer.mode.1x1	1 x 1
+.message.jackhammer.mode.1x2	1 x 2
+.message.jackhammer.mode.1x3	1 x 3
+.message.jackhammer.mode.3x3_cross	3 x 3(十字)
+.message.jackhammer.mode.3x3_full	3 x 3(全体)
+.message.jackhammer.mode.vein	鉱脈掘り(鉱石/原木)
+.message.jackhammer.mode.vein_plus	鉱脈掘り(全体)
+.message.memory_stick.absorb.false	経験値オーブの自動吸収: §6オフ
+.message.memory_stick.absorb.true	経験値オーブの自動吸収: §aオン
+.message.minigun.outOfAmmo	§6弾切れ！ しゃがみ+右クリックで装填
+.message.misc.outOfAir	%sの空気が切れました！
+.message.misc.countedItem	%d %s
+.message.misc.fluidB	%d B
+.message.misc.fluidmB	%d mB
+.message.misc.order	順序: %s
+.message.misc.range	範囲: %dブロック
+.message.securityStation.accessPrevented	セキュリティステーションによりアクセスが阻止されました！
+.message.securityStation.alreadyHacked	このセキュリティステーションはすでにハッキング済みです！
+.message.securityStation.hackDisabled	このワールドではセキュリティステーションのハッキングは無効です
+.message.securityStation.hackInProgress	すでにハッキング中です！
+.message.securityStation.cantHack	このセキュリティステーションをハッキングするにはセキュリティレベルが足りません。空気圧ヘルメットにセキュリティアップグレードを追加してください。
+.message.securityStation.outOfOrder	このセキュリティステーションは故障中です！
+.message.securityStation.stationPlacementPrevented	1つ以上のセキュリティステーションにより設置が阻止されました
+.message.securityStation.hackSucceeded.1	ハッキング成功！
+.message.securityStation.hackSucceeded.2	セキュリティステーションは再起動まで無効
+.message.securityStation.hackFailed.1	ハッキング失敗！
+.message.securityStation.hackFailed.2	対抗措置が作動
+.message.seismicSensor.foundOilDetails	§a[地震センサー] %sを%s§am下で発見: 少なくとも%s§aバケツ分。
+.message.seismicSensor.noOilFound	§6[地震センサー] 下に液体は見つかりませんでした。
+.message.vacuum_pump.manometer	入力の圧力: %s bar。真空側の圧力: %s bar。
+.message.vacuum_trap.coreInstalled	スポナーコアを取り付けました
+.message.vortex_cannon.playerBoostRate	ボルテックスキャノンによるプレイヤー加速の上限に達しました。少しペースを落として！
+.patchouli.book.landing	このマニュアルは$(#228)PneumaticCraft: Repressurized/$の完全なリファレンスガイドです。
+.patchouli.book.name	PNC:Rマニュアル
+.patchouli.processor.pressureChamber.desc	$(item)圧力チャンバー/$で、少なくとも$(thing)%s bar/$の圧力をかける。
+.patchouli.processor.assembly.desc	$(item)%s/$の生産には、$(item)%s/$を入れた$(l:manufacturing/assembly_system)組立コントローラー/$が必要。
+.patchouli.processor.thermoPlant.desc	$(item)熱空気圧処理プラント/$で、少なくとも$(thing)%s bar/$の圧力と$(thing)%s/$の温度を与える。
+.playerFilter.biomes	バイオームの種類:
+.playerFilter.blacklist	次のときは利用不可:
+.playerFilter.dimensions	ディメンション:
+.playerFilter.gamestages	ゲームステージ:
+.playerFilter.whitelist	次のときのみ利用可:
+.playerFilter.unavailable	現在は利用できません！
+.waila.camo	[カモフラージュ: %s]
+.waila.airGrateModule.attracting	状態: 引き寄せ中
+.waila.airGrateModule.idle	状態: 待機中
+.waila.airGrateModule.repelling	状態: 押し返し中
+.waila.flowModule.level	流量: §e%d mL/tick
+.waila.heatFrame.cooking	調理: §f%d%%
+.waila.heatFrame.cooling	冷却: §f%d%%
+.waila.interface.mode.export	アイテムを搬出中
+.waila.interface.mode.import	アイテムを搬入中
+.waila.logisticsModule.channel	チャンネル:
+.waila.logisticsModule.noPower	§cオフライン(3 bar以上かける)
+.waila.logisticsModule.notEnoughAir	§6その距離をアイテム/液体を運ぶには圧力が足りません。
+.waila.logisticsModule.powered	§2オンライン
+.waila.logisticsModule.transporting	§9輸送中
+.waila.redstoneModule.emitting	レッドストーン出力: §e%d
+.waila.redstoneModule.inverted	§c出力反転
+.waila.redstoneModule.op	演算: §e%s
+.waila.redstoneModule.receiving	レッドストーン受信: §e%d
+.waila.thermostatModule.level	レッドストーン強度: §e%d
+.waila.thermostatModule.temperature	温度: §e%d °C
+.waila.tank	タンク#%d: %s
+.waila.temperature.down	下面の温度:
+.waila.temperature.east	東面の温度:
+.waila.temperature.north	北面の温度:
+.waila.temperature.south	南面の温度:
+.waila.temperature	温度:
+.waila.temperature.up	上面の温度:
+.waila.temperature.west	西面の温度:
+.waila.temperatureGain	§7熱の吸収: §f%d%%
+.waila.temperatureLoss	§7熱の抽出: §f%d%%
+.waila.tubeModule.threshold	しきい値: §e%d bar
+.waila.tubeModule.threshold_temp	しきい値: §e%d °C
+.waila.tubeModule.threshold_temp_bounds	しきい値の範囲: §e%d - §e%d °C
+@ programmingPuzzle.pneumaticcraft.
+.area.name	範囲
+.block_right_click.name	右クリック
+.comment.name	コメント
+.computer_control.name	コンピューター制御
+.condition_block.name	条件: ブロック
+.condition_coordinate.name	条件: 座標
+.condition_entity.name	条件: エンティティ
+.condition_item_inventory.name	条件: アイテム
+.condition_item.name	条件: アイテムフィルター
+.condition_light.name	条件: 明るさ
+.condition_liquid_inventory.name	条件: 液体
+.condition_pressure.name	条件: 圧力
+.condition_redstone.name	条件: レッドストーン
+.condition_rf.name	条件: RF
+.coordinate.name	座標
+.coordinate_operator.name	座標演算子
+.crafting.name	クラフト
+.dig.name	範囲を掘る
+.drone_condition_entity.name	ドローン条件: エンティティ
+.drone_condition_item.name	ドローン条件: アイテム
+.drone_condition_liquid.name	ドローン条件: 液体
+.drone_condition_pressure.name	ドローン条件: 圧力
+.drone_condition_rf.name	ドローン条件: RF
+.drone_condition_upgrades.name	ドローン条件: アップグレード
+.drop_item.name	アイテムを落とす
+.edit_sign.name	看板を編集
+.emit_redstone.name	レッドストーンを出す
+.entity_attack.name	エンティティ攻撃
+.entity_export.name	エンティティを搬出
+.entity_import.name	エンティティを搬入
+.entity_right_click.name	エンティティを右クリック
+.external_program.name	外部プログラム
+.for_each_coordinate.name	各座標について
+.for_each_item.name	各アイテムについて
+.goto.name	場所へ移動
+.harvest.name	収穫
+.inventory_export.name	インベントリへ搬出
+.inventory_import.name	インベントリから搬入
+.item_assign.name	アイテム割り当て
+.item_filter.name	アイテムフィルター
+.jump.name	ジャンプ
+.jump_sub.name	サブルーチンへジャンプ
+.label.name	ラベル
+.liquid_export.name	液体を搬出
+.liquid_filter.name	液体フィルター
+.liquid_import.name	液体を搬入
+.logistics.name	物流
+.pickup_item.name	アイテムを拾う
+.place.name	設置
+.rename.name	ドローンの名前を変更
+.rf_export.name	RFを搬出
+.rf_import.name	RFを搬入
+.standby.name	待機
+.start.name	開始
+.suicide.name	自爆
+.teleport.name	場所へテレポート
+.text.name	テキスト
+.void_item.name	アイテムを消去
+.void_liquid.name	液体を消去
+.wait.name	待つ

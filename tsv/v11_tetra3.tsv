@@ -1,0 +1,341 @@
+## tetra
+tetra.improvement.coerced.name	強制済み
+tetra.improvement.coerced.description	全体の耐久値が下がるが、モジュールはもう停止状態ではない
+tetra.material.gold	金
+tetra.material.gold.prefix	金
+tetra.material.string	糸
+tetra.material.string.prefix	糸
+tetra.material.turtle_scute	カメのウロコ
+tetra.material.turtle_scute.prefix	カメのウロコ
+tetra.material.end_rod	エンドロッド
+tetra.material.end_rod.prefix	エンドロッド
+tetra.material.oak	木材
+tetra.material.oak.prefix	木の
+tetra.material.warped	歪んだ木
+tetra.material.warped.prefix	歪んだ
+tetra.material.wool	羊毛
+tetra.material.wool.prefix	羊毛
+tetra.material.wool_black	黒色の羊毛
+tetra.material.wool_black.prefix	羊毛
+tetra.material.wool_blue	青色の羊毛
+tetra.material.wool_blue.prefix	羊毛
+tetra.material.wool_brown	茶色の羊毛
+tetra.material.wool_brown.prefix	羊毛
+tetra.material.wool_cyan	青緑色の羊毛
+tetra.material.wool_cyan.prefix	羊毛
+tetra.material.wool_gray	灰色の羊毛
+tetra.material.wool_gray.prefix	羊毛
+tetra.material.wool_green	緑色の羊毛
+tetra.material.wool_green.prefix	羊毛
+tetra.material.wool_light_blue	空色の羊毛
+tetra.material.wool_light_blue.prefix	羊毛
+tetra.material.wool_light_gray	薄灰色の羊毛
+tetra.material.wool_light_gray.prefix	羊毛
+tetra.material.wool_lime	黄緑色の羊毛
+tetra.material.wool_lime.prefix	羊毛
+tetra.material.wool_magenta	赤紫色の羊毛
+tetra.material.wool_magenta.prefix	羊毛
+tetra.material.wool_orange	橙色の羊毛
+tetra.material.wool_orange.prefix	羊毛
+tetra.material.wool_pink	桃色の羊毛
+tetra.material.wool_pink.prefix	羊毛
+tetra.material.wool_purple	紫色の羊毛
+tetra.material.wool_purple.prefix	羊毛
+tetra.material.wool_red	赤色の羊毛
+tetra.material.wool_red.prefix	羊毛
+tetra.material.wool_yellow	黄色の羊毛
+tetra.material.wool_yellow.prefix	羊毛
+tetra.material.blackstone	ブラックストーン
+tetra.material.blackstone.prefix	ブラックストーン
+tetra.material.feature.gilded	金ぴか
+tetra.material.feature.gilded.tooltip	金ぴかのブラックストーンで作った主要モジュールは§e安定化§rの効果を与え、アイテムのすべての主要モジュールの魔力容量を増やす
+tetra.material.netherite	ネザライト
+tetra.material.netherite.prefix	ネザライト
+tetra.material.dark_oak	ダークオーク
+tetra.material.dark_oak.prefix	ダークオーク
+tetra.material.emerald	エメラルド
+tetra.material.emerald.prefix	エメラルド
+tetra.material.hide	獣皮
+tetra.material.hide.prefix	獣皮
+tetra.material.twisting_vine	ねじれツタ
+tetra.material.twisting_vine.prefix	ねじれツタ
+tetra.material.forged_beam	再利用した梁
+tetra.material.forged_beam.prefix	再利用梁
+tetra.material.vine	ツタ
+tetra.material.vine.prefix	ツタ
+tetra.material.spruce	トウヒ
+tetra.material.spruce.prefix	トウヒ
+tetra.material.socket_diamond	ダイヤモンドのソケット
+tetra.material.socket_diamond.prefix	§bダイヤモンド§r
+tetra.material.socket_emerald	エメラルドのソケット
+tetra.material.socket_emerald.prefix	§aエメラルド§r
+tetra.material.socket_lapis	ラピスラズリのソケット
+tetra.material.socket_lapis.prefix	§9ラピスラズリ§r
+tetra.material.socket_pristine_diamond	ダイヤモンドのソケット
+tetra.material.socket_pristine_diamond.prefix	§bダイヤモンド+§r
+tetra.material.socket_pristine_emerald	エメラルドのソケット
+tetra.material.socket_pristine_emerald.prefix	§aエメラルド+§r
+tetra.material.socket_pristine_lapis	ラピスラズリのソケット
+tetra.material.socket_pristine_lapis.prefix	§9ラピスラズリ+§r
+tetra.material.socket_amethyst	アメジストのソケット
+tetra.material.socket_amethyst.prefix	§dアメジスト§r
+tetra.material.socket_pristine_amethyst	アメジストのソケット
+tetra.material.socket_pristine_amethyst.prefix	§dアメジスト+§r
+tetra.material.socket_ender_pearl	エンダーパール
+tetra.material.socket_ender_pearl.prefix	§3エンダーパール§r
+tetra.material.crimson	真紅の木
+tetra.material.crimson.prefix	真紅の
+item.tetra.modular.broken	壊れた
+item.tetra.modular.empty_slot	空
+item.tetra.modular.magic_capacity.label	魔力容量
+item.tetra.modular.magic_capacity.description	このモジュールが保持できる魔力の量と、そのうちの使用量\n \n§7魔力容量: §e%s\n§7容量の使用量: §e%s\n \n§7修理の経験値コスト: §e%s\n§7不安定化のリスク: §e%s%%
+item.tetra.modular.magic_capacity.description_extended	§7容量は超えてもよいが、モジュールの修理に経験値がかかるようになり、アイテムを改造すると魔力的な改良が不安定化して悪影響が出ることがある
+item.tetra.modular.repair_material.label	修理:
+item.tetra.modular.repair_material.tooltip	このモジュールの修理に必要な素材を表示する
+item.tetra.modular.repair_material.empty	修理不要
+item.tetra.modular.repair_material.empty_tooltip	このモジュールは修理の必要がない
+block.tetra.basic_workbench	作業台
+block.tetra.basic_workbench.description	ハンマーで作業台を右クリックするとTetraの作業台になる
+block.tetra.rack	ラック
+block.tetra.rack.description	ラックにはアイテムを掛けられ、右クリックでアイテムを掛けたり外したりできる。\n作業台の近くのラックに掛けた道具は、プレイヤーのインベントリにあるのと同じようにクラフトに使える。ラックは3x3x3の範囲内(作業台の1ブロック上を中心)にある必要がある。
+block.tetra.block_geode	晶洞ブロック
+item.tetra.geode	晶洞
+item.tetra.geode.tooltip	光に当てると内側からきらめきが見える\n \n§8作業台で割ると貴重な鉱物が手に入るかもしれない。ドロップは幸運のエンチャントの影響を受ける
+tetra.break_geode_action.label	割る
+item.tetra.pristine_diamond	無垢のダイヤモンド
+tetra.shatter_diamond_action.label	砕く
+item.tetra.pristine_emerald	無垢のエメラルド
+tetra.shatter_emerald_action.label	砕く
+item.tetra.pristine_lapis	無垢のラピスラズリ
+tetra.shatter_lapis_action.label	砕く
+item.tetra.pristine_amethyst	無垢のアメジスト
+tetra.shatter_amethyst_action.label	砕く
+item.tetra.pristine_gem.description	アイテムの改良に使うとボーナスが増える。作業台で砕くと、通常品質のかけらがいくつか手に入るかもしれない\n \n§8ドロップは幸運のエンチャントの影響を受ける
+item.tetra.dragon_sinew	ドラゴンの腱
+item.tetra.dragon_sinew.description	エンダードラゴンが倒れた場所の空中によく浮いている
+item.tetra.scroll.gem_expertise.prefix	論文
+item.tetra.scroll.gem_expertise.name	宝石の専門知識
+item.tetra.scroll.gem_expertise.description	宝石に分類される素材で作った主要モジュールのダメージと効率が上がる
+item.tetra.scroll.metal_expertise.prefix	論文
+item.tetra.scroll.metal_expertise.name	金属の専門知識
+item.tetra.scroll.metal_expertise.description	金属に分類される素材で作った主要モジュールのダメージと効率が上がる
+item.tetra.scroll.wood_expertise.prefix	論文
+item.tetra.scroll.wood_expertise.name	木材の専門知識
+item.tetra.scroll.wood_expertise.description	木材に分類される素材で作った主要モジュールのダメージと効率が上がる
+item.tetra.scroll.stone_expertise.prefix	論文
+item.tetra.scroll.stone_expertise.name	石の専門知識
+item.tetra.scroll.stone_expertise.description	石に分類される素材で作った主要モジュールのダメージと効率が上がる
+item.tetra.scroll.fibre_expertise.prefix	論文
+item.tetra.scroll.fibre_expertise.name	繊維の専門知識
+item.tetra.scroll.fibre_expertise.description	繊維に分類される素材で作った主要モジュールのダメージと効率が上がる
+item.tetra.scroll.skin_expertise.prefix	論文
+item.tetra.scroll.skin_expertise.name	皮の専門知識
+item.tetra.scroll.skin_expertise.description	皮に分類される素材で作った主要モジュールのダメージと効率が上がる
+item.tetra.scroll.bone_expertise.prefix	論文
+item.tetra.scroll.bone_expertise.name	骨の専門知識
+item.tetra.scroll.bone_expertise.description	骨に分類される素材で作った主要モジュールのダメージと効率が上がる
+item.tetra.scroll.fabric_expertise.prefix	論文
+item.tetra.scroll.fabric_expertise.name	布の専門知識
+item.tetra.scroll.fabric_expertise.description	布に分類される素材で作った主要モジュールのダメージと効率が上がる
+item.tetra.scroll.scale_expertise.prefix	論文
+item.tetra.scroll.scale_expertise.name	うろこの専門知識
+item.tetra.scroll.scale_expertise.description	うろこに分類される素材で作った主要モジュールのダメージと効率が上がる
+item.tetra.scroll.hammer_efficiency.prefix	論文
+item.tetra.scroll.hammer_efficiency.name	ハンマーの効率化
+item.tetra.scroll.hammer_efficiency.description	ハンマーを使ったモジュールのクラフトや修理で、素材の消費が減ることがある
+item.tetra.scroll.hammer_efficiency.description_extended	使う素材1つごとに、25%%の確率でその素材を消費しない。成功するたびに、効果が起こる確率は半分になる。
+item.tetra.scroll.axe_efficiency.prefix	論文
+item.tetra.scroll.axe_efficiency.name	斧の効率化
+item.tetra.scroll.axe_efficiency.description	斧を使ったモジュールのクラフトや修理で、素材の消費が減ることがある
+item.tetra.scroll.axe_efficiency.description_extended	使う素材1つごとに、25%%の確率でその素材を消費しない。成功するたびに、効果が起こる確率は半分になる。
+item.tetra.scroll.cut_efficiency.prefix	論文
+item.tetra.scroll.cut_efficiency.name	切断の効率化
+item.tetra.scroll.cut_efficiency.description	切断道具を使ったモジュールのクラフトや修理で、素材の消費が減ることがある
+item.tetra.scroll.cut_efficiency.description_extended	使う素材1つごとに、25%%の確率でその素材を消費しない。成功するたびに、効果が起こる確率は半分になる。
+item.tetra.scroll.sword/sturdy_guard.prefix	設計図
+item.tetra.scroll.sword/sturdy_guard.name	頑丈な鍔
+item.tetra.scroll.sword/sturdy_guard.description	かつては一般的だったが、すっかり忘れられた剣の鍔の作り方の一種。タイミングよく使えば、飛んでくる攻撃や飛び道具を防げる。
+item.tetra.scroll.sword/throwing_knife.prefix	設計図
+item.tetra.scroll.sword/throwing_knife.name	投げナイフ
+item.tetra.scroll.sword/throwing_knife.description	投げられる軽くてバランスのよい刃の作り方が書かれている
+tetra.unlock.tetra.sword/throwing_knife.description	近くに§l設計図: 投げナイフ§rを置く必要がある
+item.tetra.scroll.sword/howling.prefix	設計図
+item.tetra.scroll.sword/howling.name	吹きすさぶ刃
+item.tetra.scroll.sword/howling.description	奇妙な図と文章で、剣の樋を改造する方法が書かれている。改造した剣を振ると、使い手の周りに飛び道具を弾ける乱流が生まれる
+tetra.unlock.tetra.sword/howling.description	近くに§l設計図: 吹きすさぶ刃§rを置く必要がある
+item.tetra.scroll.single/points_end.prefix	設計図
+item.tetra.scroll.single/points_end.name	ポインツエンド
+item.tetra.scroll.single/points_end.description	いくつかの種類の球体から力を引き出せる槍の穂先の設計図
+item.tetra.scroll.hone/gild_1.prefix	研磨
+item.tetra.scroll.hone/gild_1.name	金箔 I
+item.tetra.scroll.hone/gild_1.description	モジュールの魔力容量を研磨できるようになる、魔法のかかった巻物
+item.tetra.scroll.hone/gild_1.description_extended	この巻物の魔法はいくらか薄れており、モジュールをレベルIまで金箔張りできる。作業台で金箔Iの巻物を2つ組み合わせると金箔IIの巻物になる。
+item.tetra.scroll.hone/gild_2.prefix	研磨
+item.tetra.scroll.hone/gild_2.name	金箔 II
+item.tetra.scroll.hone/gild_2.description	モジュールの魔力容量を研磨できるようになる、魔法のかかった巻物
+item.tetra.scroll.hone/gild_2.description_extended	この巻物の魔法は一部回復しており、モジュールをレベルIIまで金箔張りできる。作業台で金箔IIの巻物を2つ組み合わせると金箔IIIの巻物になる
+item.tetra.scroll.hone/gild_3.prefix	研磨
+item.tetra.scroll.hone/gild_3.name	金箔 III
+item.tetra.scroll.hone/gild_3.description	モジュールの魔力容量を研磨できるようになる、魔法のかかった巻物
+item.tetra.scroll.hone/gild_3.description_extended	この巻物の魔法は一部回復しており、モジュールをレベルIIIまで金箔張りできる。作業台で金箔IIIの巻物を2つ組み合わせると金箔IVの巻物になる
+item.tetra.scroll.hone/gild_4.prefix	研磨
+item.tetra.scroll.hone/gild_4.name	金箔 IV
+item.tetra.scroll.hone/gild_4.description	モジュールの魔力容量を研磨できるようになる、魔法のかかった巻物
+item.tetra.scroll.hone/gild_4.description_extended	この巻物の魔法は一部回復しており、モジュールをレベルIVまで金箔張りできる。作業台で金箔IVの巻物を2つ組み合わせると金箔Vの巻物になる
+item.tetra.scroll.hone/gild_5.prefix	研磨
+item.tetra.scroll.hone/gild_5.name	金箔 V
+item.tetra.scroll.hone/gild_5.description	モジュールの魔力容量を研磨できるようになる、魔法のかかった巻物
+item.tetra.scroll.hone/gild_5.description_extended	この巻物の魔法は完全に回復しており、モジュールをレベルVまで金箔張りできる
+item.tetra.scroll.warforge/axe.prefix	戦いの道具 第1章
+item.tetra.scroll.warforge/axe.name	戦斧
+item.tetra.scroll.warforge/axe.description	斧を戦闘で役立つようにするさまざまな構想が書かれており、作業台で斧を改良できるようになる
+item.tetra.scroll.warforge/axe.description_extended	§7[§8shift + 右クリック§7]§8 続きを読む
+item.tetra.scroll.warforge/hammer.prefix	戦いの道具 第2章
+item.tetra.scroll.warforge/hammer.name	ウォーハンマー
+item.tetra.scroll.warforge/hammer.description	ハンマーを戦闘で役立つようにするさまざまな構想が書かれており、作業台でハンマーを改良できるようになる
+item.tetra.scroll.warforge/hammer.description_extended	§7[§8shift + 右クリック§7]§8 続きを読む
+item.tetra.scroll.warforge/pickaxe.prefix	戦いの道具 第3章
+item.tetra.scroll.warforge/pickaxe.name	ウォーピック
+item.tetra.scroll.warforge/pickaxe.description	ツルハシを戦闘で役立つようにするさまざまな構想が書かれており、作業台でツルハシを改良できるようになる
+item.tetra.scroll.warforge/pickaxe.description_extended	§7[§8shift + 右クリック§7]§8 続きを読む
+item.tetra.scroll.warforge/butt.prefix	戦いの道具 第4章
+item.tetra.scroll.warforge/butt.name	鈍い末端
+item.tetra.scroll.warforge/butt.description	道具の柄頭を活かして戦闘で役立つようにするさまざまな構想が書かれており、作業台で道具の柄頭を改良できるようになる
+item.tetra.scroll.warforge/butt.description_extended	§7[§8shift + 右クリック§7]§8 続きを読む
+item.tetra.scroll.warforge/claw.prefix	戦いの道具 第5章
+item.tetra.scroll.warforge/claw.name	釘抜き
+item.tetra.scroll.warforge/claw.description	釘抜きを戦闘で役立つようにするさまざまな構想が書かれており、作業台で釘抜きを改良できるようになる
+item.tetra.scroll.warforge/claw.description_extended	§7[§8shift + 右クリック§7]§8 続きを読む
+item.tetra.scroll.warforge/hoe.prefix	戦いの道具 第6章
+item.tetra.scroll.warforge/hoe.name	ギザルム
+item.tetra.scroll.warforge/hoe.description	クワを戦闘で役立つようにするさまざまな構想が書かれており、作業台でクワを改良できるようになる
+item.tetra.scroll.warforge/hoe.description_extended	§7[§8shift + 右クリック§7]§8 続きを読む
+item.tetra.scroll.warforge/sickle.prefix	戦いの道具 第7章
+item.tetra.scroll.warforge/sickle.name	戦鎌
+item.tetra.scroll.warforge/sickle.description	鎌を戦闘で役立つようにするさまざまな構想が書かれており、作業台で鎌を改良できるようになる
+item.tetra.scroll.warforge/sickle.description_extended	§7[§8shift + 右クリック§7]§8 続きを読む
+item.tetra.scroll.warforge/adze.prefix	戦いの道具 第8章
+item.tetra.scroll.warforge/adze.name	戦闘用手斧
+item.tetra.scroll.warforge/adze.description	手斧を戦闘でより役立つようにするさまざまな構想が書かれており、作業台で手斧を改良できるようになる
+item.tetra.scroll.warforge/adze.description_extended	§7[§8shift + 右クリック§7]§8 続きを読む
+item.tetra.scroll.warforge.details	§l§n戦闘用鍛造§r\n\n両頭の道具を戦闘用に鍛造すると戦闘でずっと役立つようになり、次のものを得る:\n\n + 戦闘用に鍛造した頭部に応じた§lパッシブ§rのステータスや効果\n\n + 左の頭部に応じた右クリックの§l能力§r\n\n + 右の頭部に応じた能力の§l補正§r\r§l§n戦斧§r\n\n§lパッシブ:§r 切断\n攻撃は一定確率で相手の最大体力を下げる\n\n§l能力:§r 処刑\n減った体力と有害な効果に応じて追加ダメージを与える\n\n§l補正:§r オーバーチャージ\n能力をさらにチャージしてダメージを増やし効果を高められる\r§l§nウォーハンマー§r\n\n§lパッシブ:§r 粉砕\n攻撃が防御力と衝撃吸収の効果を一部無視する\n\n§l能力:§r 叩きつけ\n強いノックバックで単体を攻撃するか、広範囲の複数の敵を打つ\n\n§l補正:§r 勢い\n能力で相手をスタンさせたり、より遠くへ吹き飛ばしたりする\r§l§nウォーピック§r\n\n§lパッシブ:§r 串刺し\n防具を着ていない相手に追加ダメージを与える\n\n§l能力:§r 刺突\n相手の防御力を下げるか出血させる\n\n§l補正:§r コンボ\n通常攻撃でコンボポイントを得て能力を強化する\r§l§n道具の柄頭§r\n\n§lパッシブ:§r 軽量\n速度を大きく上げるが、道具のティアを下げる\n\n§l能力:§r なし\n\n§l補正:§r 軽量\n能力のチャージ時間とクールダウンを短くする\r§l§n釘抜き§r\n\n§lパッシブ:§r 防御貫通\n攻撃が防御力を一部無視する\n\n§l能力:§r こじ開け\n重なる防御力低下の効果を相手に与える\n\n§l補正:§r 復讐\n使い手が不利なときに能力を強化する\r§l§nギザルム(クワ)§r\n\n§lパッシブ:§r ダメージボーナス\n武器のダメージ全体を上げる\n\n§l能力:§r 圧倒\n大ダメージを与えるが、相手と使い手の両方を疲弊させる\n\n§l補正:§r 無理押し\n能力が強くなるが、追加で満腹度を消費する\r§l§n戦鎌§r\n\n§lパッシブ:§r 範囲攻撃\n範囲攻撃のダメージと範囲が上がる\n\n§l能力:§r 刈り取り\n範囲内の相手を打ち、倒すと使い手が強化される\n\n§l補正:§r 高揚\n能力の使用に成功すると能力が強化される\r§l§n戦闘用手斧§r\n\n§lパッシブ:§r ダメージボーナス\n手斧の頭部のダメージを大きく上げる\n\n§l能力:§r 突進\n前へ突進し、最初に当たった相手にダメージを与える\n\n§l補正:§r 防御\nオフハンドで使うと能力が防御のボーナスを与える
+item.tetra.scroll.unknown.name	巻物
+item.tetra.scroll.effects	クラフト効果
+item.tetra.scroll.effects.description	近くの作業台で道具の部品をクラフトや改造するときに何らかの効果を与える
+item.tetra.scroll.schematics	設計図
+item.tetra.scroll.schematics.description	近くの作業台で追加のクラフト設計図を解放する
+item.tetra.scroll.intricate	精巧
+item.tetra.scroll.intricate.description	機能させるには作業台の真上に置く必要がある
+item.tetra.scroll.range.description	機能させるには巻物を5x5x5の範囲内(作業台の2ブロック上を中心)に置く必要がある
+item.tetra.thermal_cell	熱電池
+item.tetra.thermal_cell.charge	充電: %s
+item.tetra.thermal_cell.charge_full	§a満タン
+item.tetra.thermal_cell.charge_good	§a十分
+item.tetra.thermal_cell.charge_low	§e少ない
+item.tetra.thermal_cell.charge_empty	§c空
+block.tetra.forged_pillar	鍛造の柱
+block.tetra.forged_platform	鍛造の床
+block.tetra.forged_platform_slab	鍛造の床
+block.tetra.forged_wall	鍛造の壁
+block.tetra.forged_vent	鍛造の通気口
+block.tetra.forged_crate	鍛造の木箱
+block.tetra.forged_container	鍛造のコンテナ
+tetra.forged_container.compartment_0	一段目
+tetra.forged_container.compartment_1	二段目
+tetra.forged_container.compartment_2	三段目
+block.tetra.hammer_base	鍛造ハンマー
+block.tetra.hammer_head	ハンマーヘッド
+block.tetra.forged_workbench	鍛造の作業台
+block.tetra.transfer_unit	転送ユニット
+block.tetra.core_extractor	コア抽出機
+block.tetra.extractor_piston	抽出ピストン
+block.tetra.extractor_pipe	抽出パイプ
+block.tetra.seeping_bedrock	にじみ出る岩盤
+block.multiblock_hint.1x2x1	§8[§71x2x1のマルチブロック§8]
+block.tetra.fractured_bedrock	割れた岩盤
+block.tetra.depleted_bedrock	割れた岩盤(枯渇)
+block.tetra.chthonic_extractor	地底の抽出機
+block.tetra.chthonic_extractor.description	岩盤に打ち込んで、その下から鉱物を取り出す
+block.tetra.chthonic_extractor.description_extended	 * 同じ割れ目に続けて抽出機を打ち込むと収量が増える\n * 寒冷・砂漠・沼地など、ハスク・ストレイ・ウィッチがいるバイオームでは収量が少し増える
+block.tetra.multi_schematic.piece	部品 §8[§7%s§8, §7%s§8]
+block.tetra.multi_schematic.ruined	破損
+block.tetra.multi_schematic.description	マルチブロックの設計図の部品。同じ設計図の(壊れていない)他の部品と一緒にワールドに置くと、近くの作業台で新しい設計図が解放される。
+block.tetra.multi_schematic.stonecutter.name	古代の設計図: ストーンカッター
+block.tetra.multi_schematic.stonecutter.description	ストーンカッターの剣の刃をクラフト・改良できるようになる。
+tetra.unlock.tetra.stonecutter.description	近くに修復した古代の設計図§lストーンカッター§rが必要
+block.tetra.multi_schematic.earthpiercer.name	古代の設計図: アースピアサー
+block.tetra.multi_schematic.earthpiercer.description	アースピアサー(片頭)の道具の頭部をクラフト・改良できるようになる。
+tetra.unlock.tetra.earthpiercer.description	近くに修復した古代の設計図§lアースピアサー§rが必要
+block.tetra.multi_schematic.extractor.name	古代の設計図: エクストラクター
+block.tetra.multi_schematic.extractor.description	エクストラクター(両頭)の道具の柄頭をクラフト・改良できるようになる。
+tetra.unlock.tetra.extractor.description	近くに修復した古代の設計図§lアースピアサー§rが必要
+tetra.unlock.tetra.forged_workbench.description	近くに§l鍛造の作業台§rが必要
+item.tetra.forged_bolt	ボルト
+tetra.salvage_bolt_action.label	回収
+item.tetra.forged_beam	構造梁
+tetra.salvage_beam_action.label	回収
+item.tetra.forged_mesh	フレックスメッシュ
+tetra.salvage_mesh_action.label	回収
+item.tetra.quick_latch	クイックラッチ
+tetra.salvage_quick_latch_action_hammer.label	回収
+tetra.salvage_quick_latch_action_pry.label	回収
+item.tetra.metal_scrap	金属くず
+item.tetra.metal_scrap.description	用途を終えた、あるいは用途が知られることのない金属の形。新たな目的を待っている
+tetra.salvage_metal_scrap_action.label	回収
+item.tetra.vent_plate	断熱板
+item.tetra.vent_plate.description	鍛造ハンマーか転送ユニットに取り付けると効率が上がる
+tetra.salvage_vent_plate_action.label	回収
+item.tetra.combustion_chamber	燃焼室
+item.tetra.combustion_chamber.description	鍛造ハンマーに取り付けるとハンマーのティアが1上がるが、ハンマーを使うと近くのブロックに火がつくことがある
+tetra.salvage_combustion_chamber_action.label	回収
+item.tetra.planar_stabilizer	平面安定装置
+item.tetra.planar_stabilizer.description	鍛造ハンマーに取り付けると、そのハンマーでクラフトした主要モジュールがアイテムのステータスを少し上げる
+tetra.salvage_planar_stabilizer_action.label	回収
+item.tetra.lubricant_dispenser	潤滑剤供給装置
+item.tetra.lubricant_dispenser.description	鍛造ハンマーに取り付けると、ハンマーが詰まる確率が50%%下がる
+tetra.salvage_lubricant_dispenser_action.label	回収
+item.tetra.stonecutter	ストーンカッター
+item.tetra.stonecutter.description	作業台で棒と組み合わせるか、Tetraの作業台で剣の刃として使うと、強力な採掘道具を作れる
+tetra.salvage_stonecutter_action.label	回収
+item.tetra.earthpiercer	アースピアサー
+item.tetra.earthpiercer.description	作業台で棒2本と組み合わせるか、Tetraの作業台で片頭の道具の頭部として使うと、強力な採掘道具を作れる
+tetra.salvage_earthpiercer_action.label	回収
+item.tetra.forged_unsettling	この遺物は激しく唸っている
+item.tetra.forged_description	寒冷なバイオームや山岳バイオームの地下深くの構造物で見つかる
+item.tetra.tooltip_reveal	インベントリにあると、関連する強化の設計図が表示される
+item.tetra.tooltip_expand	§7[§8shift§7] §8+
+item.tetra.tooltip_expanded	§8[§fshift§8] §f+
+item.tetra.tooltip_expand_both	§7[§8shift§7][§8ctrl§7] §8+
+item.tetra.tooltip_expanded_shift	§8[§fshift§8]§7[§8ctrl§7] §f+
+item.tetra.tooltip_expanded_ctrl	§7[§8shift§7]§8[§fctrl§8] §f+
+item.tetra.tooltip_expanded_both	§8[§fshift§8][§fctrl§8] §f+
+tetra.slot.sword/blade	刃
+tetra.slot.sword/hilt	柄
+tetra.slot.sword/guard	鍔
+tetra.slot.sword/pommel	柄頭
+tetra.slot.sword/fuller	樋
+tetra.slot.double/head_left	頭部 §7(左)
+tetra.slot.double/head_right	頭部 §7(右)
+tetra.slot.double/handle	持ち手
+tetra.slot.double/binding	結束
+tetra.slot.double/accessory	付属品
+item.tetra.modular.settle_progress.label	定着の進捗
+item.tetra.modular.settle_progress_gain.description	アイテムを使うにつれてこのモジュールが少しずつなじみ、定着すると追加の完全性を提供する。\n \n§7進捗: §e%s§7/§e%s\n \n§7基本の必要量: §e%s\n§7耐久値のペナルティ: §e%s
+item.tetra.modular.settle_progress_cost.description	アイテムを使うにつれてこのモジュールが少しずつなじみ、定着すると完全性のコストが下がる。\n \n§7進捗: §e%s§7/§e%s\n \n§7基本の必要量: §e%s\n§7耐久値のペナルティ: §e%s
+item.tetra.modular.settle_full.label	完全に定着！
+item.tetra.modular.settle_full_gain.description	このモジュールは完全に定着し、追加の完全性を提供している
+item.tetra.modular.settle_full_cost.description	このモジュールは完全に定着し、完全性のコストが下がっている
+item.tetra.modular.settle_full_null.label	完全に定着
+item.tetra.modular.settle_full_null.description	このモジュールは単純なので簡単になじみ、これ以上定着する必要はない
+item.tetra.modular.hone_progress.label	研磨
+item.tetra.modular.hone_progress.description	このアイテムの研磨までの進捗\n \n§7進捗: §e%s§7/§e%s §7(§e%s§7)\n \n§7基本の必要量: §e%s\n§7完全性の使用量: §e+%s
+item.tetra.modular.hone_progress.description_workable	\n§7加工しやすい: §e%s
+item.tetra.modular.hone_progress.description_extended	アイテムを使うと進捗が増え、完了するとアイテムの主要モジュールの1つを研磨してステータスを1つ少し上げられる。基本の必要量と完全性のペナルティは、アイテムの種類(剣・弓・両頭の道具など)によって少し異なる。研磨の進捗を始めるには、作業台でアイテムを改造か修理する必要がある(研磨の進捗バーが表示されていれば機能している)。
+tetra.improvement.settled.name	定着
+tetra.improvement.settled.description	長く使い込んだことでこのモジュールはなじみ、追加の完全性を提供している
+tetra.settled.toast	モジュールが定着した！
+tetra.improvement.arrested.name	停止
+tetra.improvement.arrested.description	このモジュールは時間がたっても定着しない素材で作られている
+tetra.improvement.workable.name	加工しやすい
+tetra.improvement.workable.description	このモジュールは加工しやすい素材で作られており、研磨にかかる時間が短い
+tetra.improvement.hollow.name	中空

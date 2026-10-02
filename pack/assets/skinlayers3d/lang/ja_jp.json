@@ -1,0 +1,12 @@
+{
+  "modmenu.descriptionTranslation.skinlayers3d": "プレイヤーのスキンの外側レイヤーを3Dで描画する",
+  "text.skinlayers.tab.player": "プレイヤー",
+  "text.skinlayers.tab.heads": "プレイヤーの頭",
+  "text.skinlayers.tab.other": "その他の設定",
+  "text.skinlayers.compatibilityMode.enable": "互換モード",
+  "text.skinlayers.compatibilityMode.enable.tooltip": "レイヤーを別の方法で描画する。他のMODとの互換性の問題が直ることがある",
+  "text.skinlayers.irisCompatibilityMode.enable": "Iris互換モード",
+  "text.skinlayers.irisCompatibilityMode.enable.tooltip": "レイヤーを別の方法で描画し、Irisのシェーダー使用時の奇妙な影や色を直す。必要なときだけ有効にすること。角のつながりが崩れる。",
+  "text.skinlayers.applySodiumWorkaround.enable": "Sodium回避策",
+  "text.skinlayers.applySodiumWorkaround.enable.tooltip": "一部のバージョン(?)のSodiumで立方体の面が反転している問題の回避策。Sodiumを使っていて、スキンレイヤーの側面が欠ける表示の問題に気づいた場合のみ有効にすること。"
+}

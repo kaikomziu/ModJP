@@ -1,0 +1,21 @@
+{
+  "itemGroup.travelanchors": "Travel Anchors",
+  "item.travelanchors.travel_staff": "トラベルスタッフ",
+  "enchantment.travelanchors.range": "範囲",
+  "enchantment.travelanchors.range.desc": "ティアごとにテレポートの範囲を広げる",
+  "enchantment.travelanchors.teleportation": "テレポート",
+  "enchantment.travelanchors.teleportation.desc": "トラベルスタッフ以外の道具にテレポート能力を付ける",
+  "block.travelanchors.travel_anchor": "トラベルアンカー",
+  "screen.travelanchors.travel_anchor": "トラベルアンカー",
+  "screen.travelanchors.search": "検索",
+  "screen.travelanchors.nameless": "使うには名前を入力すること",
+  "tooltip.travelanchors.travel_anchor_block": "トラベルスタッフかテレポートのエンチャントでこれを見るとテレポートする。",
+  "tooltip.travelanchors.travel_staff": "スニーク+右クリックで短距離テレポート。トラベルアンカーを見るとワープする。",
+  "travelanchors.tp.success": "%sにテレポートした。",
+  "travelanchors.tp.fail": "トラベルアンカーが見つからない。",
+  "travelanchors.hop.fail": "行き先がふさがっている。",
+  "travelanchors.lock.button": "ロック",
+  "travelanchors.lock.locked": "このアンカーをロックした。",
+  "travelanchors.lock.unlocked": "このアンカーのロックを解除した。",
+  "travelanchors.lock.interact": "このアンカーはロックされている。棒で右クリックすると解除できる。"
+}

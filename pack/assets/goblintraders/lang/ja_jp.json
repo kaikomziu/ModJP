@@ -1,0 +1,8 @@
+{
+  "mob_spawner.type.zombie": "ゾンビ",
+  "mob_spawner.type.skeleton": "スケルトン",
+  "mob_spawner.type.creeper": "クリーパー",
+  "item.minecraft.potion.effect.dolphins_grace": "イルカの好意のポーション",
+  "item.minecraft.splash_potion.effect.dolphins_grace": "スプラッシュイルカの好意のポーション",
+  "item.minecraft.lingering_potion.effect.dolphins_grace": "残留するイルカの好意のポーション"
+}

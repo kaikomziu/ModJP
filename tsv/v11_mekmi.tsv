@@ -1,0 +1,198 @@
+## mekmi
+block.mekmi.basic_crusher.description	基本ティアの破砕機
+block.mekmi.advanced_crusher.description	高度ティアの破砕機
+block.mekmi.elite_crusher.description	エリートティアの破砕機
+block.mekmi.ultimate_crusher.description	究極ティアの破砕機
+itemGroup.mekmi	Mekanism Industrialization
+@ item.mekmi.
+.guidebook	Mekmi工業ガイドブック
+.guidebook.subtitle	右クリックでMekmiの機械ガイドを開く
+.universal_template	万能テンプレート
+.universal_factory_frame	万能工場フレーム
+.universal_factory_core	万能工場制御コア
+.universal_factory_matrix	万能処理マトリクス
+.compression_core	圧縮コア
+.compression_metal_mixture_alpha	圧縮金属混合物アルファ
+.compression_metal_mixture_beta	圧縮金属混合物ベータ
+.compression_metal_mixture_gamma	圧縮金属混合物ガンマ
+.compression_metal_mixture_delta	圧縮金属混合物デルタ
+.compression_metal_mixture_epsilon	圧縮金属混合物イプシロン
+.ultimate_compression_alloy	究極圧縮合金
+.compression_mixture_alpha_bucket	圧縮混合液アルファ入りバケツ
+.compression_mixture_beta_bucket	圧縮混合液ベータ入りバケツ
+.compression_mixture_gamma_bucket	圧縮混合液ガンマ入りバケツ
+.compression_mixture_delta_bucket	圧縮混合液デルタ入りバケツ
+.compression_mixture_epsilon_bucket	圧縮混合液イプシロン入りバケツ
+.ultimate_compression_fluid_bucket	究極圧縮液入りバケツ
+@ block.mekmi.
+.compression_mixture_alpha	圧縮混合液アルファ
+.compression_mixture_beta	圧縮混合液ベータ
+.compression_mixture_gamma	圧縮混合液ガンマ
+.compression_mixture_delta	圧縮混合液デルタ
+.compression_mixture_epsilon	圧縮混合液イプシロン
+.ultimate_compression_fluid	究極圧縮液
+jei.category.mekmi.compact_diesel_fuel	コンパクトディーゼル発電機の燃料
+@ gui.mekmi.
+.compact_upgrade	アップグレード
+.compression.tier	圧縮 x%s: -> %s
+.compression.progress	圧縮工場アップグレードキット(消費/必要): %s / %s
+.compression.max	圧縮: x%s(最大)
+.compression.current	圧縮: x%s
+.compact_upgrade.available	MIの電圧アップグレード
+.compact_upgrade.description	アップグレードモジュールを入れる
+.compact_upgrade.speed	速度: %s / 8
+.compact_upgrade.energy	エネルギー: %s / 8
+.compact_config	設定
+.compact_config.inputs	アイテム入力
+.compact_config.output	アイテム出力
+.compact_config.fluids	液体ポート
+.compact_config.coil	コイルスロット
+.compact_config.eject	自動排出: %s
+.compact_config.enabled	オン
+.compact_config.disabled	オフ
+.compact_config.slots	スロット
+.compact_config.clear_fluid_input	入力の液体を消去
+.compact_config.title	面の設定
+.compact_config.side	面: %s
+.compact_config.mode	モード: %s
+.compact_config.auto_eject	液体の自動排出
+.compact_config.clear_items	アイテムの面設定を消去
+.compact_config.clear_fluids	液体の面設定を消去
+.compact_config.clear_energy	エネルギーの面設定を消去
+.compact_transport	搬送設定
+.compact_transport.status	自動排出
+.compact_transport.items	アイテム出力を切り替え
+.compact_transport.fluids	液体出力を切り替え
+.compact_transport.input	入力
+.compact_transport.output	出力
+.compact_security.denied	この機械は非公開で、持ち主しか使えません
+.compact_auxiliary_tab	テンプレート/道具の保管
+.compact_auxiliary_window	テンプレートと道具の保管
+.compact_auxiliary.templates	テンプレートの保管
+.compact_auxiliary.tools	道具の保管
+.compact_coil_slot	電気溶鉱炉のコイル保管
+.compact_coil_slot.description	クリックで4 x 4のコイルインベントリを開く
+.compact_coil_window	コイル保管
+.compact_ebf.status	状態
+.compact_ebf.ready	準備完了
+.compact_ebf.io	入力 / 出力
+.compact_ebf.coil	コイル
+.compact_distillation_tower.batch	バッチ: x%1$s
+.compact_distillation_tower.upgrade_info	塔のティアは、対応する圧縮工場アップグレードキットのレシピで上げる。
+.compact_distillation_tower.security_info	この機械は公開されている。セキュリティ連携はコンパクト機械のアクセス規則に従う。
+.compact_distillation_tower.redstone_info	このコンパクトな塔は、現在MIのレシピとエネルギーの条件が満たされているときは常に動く。
+.compact_vacuum_freezer.batch	冷凍バッチ: x%1$s
+.compact_vacuum_freezer.upgrade_info	冷凍機のティアは、対応する圧縮工場アップグレードキットのレシピで上げる。
+.compact_vacuum_freezer.security_info	この機械は公開されている。セキュリティ連携はコンパクト機械のアクセス規則に従う。
+.compact_vacuum_freezer.redstone_info	このコンパクト真空冷凍機は、MIのレシピとエネルギーの条件が満たされているときは常に動く。
+.compact_implosion_compressor.batch	爆縮バッチ: x%1$s
+.compact_heat_exchanger.batch	熱交換バッチ: x%1$s
+.compact_heat_exchanger.upgrade_info	熱交換器のティアは、対応する圧縮工場アップグレードキットのレシピで上げる。
+.compact_heat_exchanger.security_info	この機械は公開されている。セキュリティ連携はコンパクト機械のアクセス規則に従う。
+.compact_heat_exchanger.redstone_info	このコンパクト熱交換器は、MIのレシピとエネルギーの条件が満たされているときは常に動く。
+.compact_steam.boiler.batch	蒸気ボイラーのバッチ: x%1$s
+.compact_steam.turbine.batch	蒸気タービンのバッチ: x%1$s
+.compact_diesel_generator.batch	ディーゼル発電機のバッチ: x%1$s
+.compact_diesel_generator.fuel_burn_rate	ディーゼルの燃焼速度: %1$s mB/t
+.compact_steam.stored_steam	蒸気: %1$s/%2$s mB
+.compact_steam.stored_fuel	燃料: %1$s/%2$s mB
+.compact_steam.stored_fuel_short	ディーゼル: %1$s
+.compact_steam.stored_plasma	プラズマ: %1$s/%2$s mB
+.compact_steam.stored_coolant	冷却材: %1$s/%2$s mB
+.compact_nuclear_reactor.batch	原子炉のバッチ: x%1$s
+.compact_nuclear_reactor.startup_energy	起動エネルギー: %1$s
+.compact_nuclear_reactor.output_cache	出力キャッシュ: %1$s
+.compact_coke_oven.batch	コークス炉のバッチ: x%1$s
+.compact_pressurizer.batch	加圧機のバッチ: x%1$s
+.compact_oil_drilling_rig.batch	掘削バッチ: x%1$s
+.compact_fusion_reactor.batch	核融合バッチ: x%1$s
+.compact_plasma_turbine.batch	プラズマタービンのバッチ: x%1$s
+.compact_electric_quarry.batch	電気採石機のバッチ: x%1$s
+.compact_boiler.batch	ボイラーのバッチ: x%1$s
+.compact_water_pump.batch	給水ポンプのバッチ: x%1$s
+.compact_replicator.batch	複製バッチ: x%1$s
+.compact_forge_hammer.batch	鍛造ハンマーのバッチ: x%1$s
+.compact_universal_factory.batch	万能処理バッチ: x%1$s
+text.mekmi.chemical_hatch.capacity	化学物質の容量: %s
+@ tooltip.mekmi.
+.compact_ebf.machine_family	Mekanism: %1$s
+.compact_ebf.machine_family_value	コンパクト機械
+.compact_ebf.owner	%1$s
+.compact_ebf.no_owner	持ち主なし
+.compact_ebf.security	セキュリティ: %1$s
+.compact_ebf.public	公開
+.compact_ebf.recipe_type	レシピの種類: %1$s
+.compact_ebf.recipe_type_value	電気溶鉱炉
+.compact_ebf.energy_capacity	エネルギー容量: %1$s
+.compression_ratio	圧縮率: %1$s
+.compact_ebf.inventory	インベントリ: %1$s
+.compact_ebf.inventory_empty	なし
+.compact_ebf.description	電気溶鉱炉のレシピを1ブロックで実行する。コイルインベントリにレシピの電圧を満たすコイルを入れる。
+.compact_distillation_tower.description	液体入力1つと最大8つの独立した液体出力で、MIの蒸留塔のレシピを処理するMekanism風の単体機械。
+.compact_distillation_tower.batch	並列蒸留バッチ: %1$s
+.compact_vacuum_freezer.description	アイテムの入出力、液体入力2つ、液体出力1つで、MIの真空冷凍機のレシピを処理するMekanism風の単体機械。
+.compact_vacuum_freezer.batch	並列冷凍バッチ: %1$s
+.compact_implosion_compressor.description	アイテム入力4つとアイテム出力1つで、MIの爆縮圧縮機のレシピを処理するMekanism風のコンパクト機械。
+.compact_implosion_compressor.inputs	アイテム入力スロット: %1$s
+.compact_heat_exchanger.description	液体入力2つと液体出力2つで、MIの熱交換器のレシピを直接処理するMekanism風のコンパクト機械。
+.compact_heat_exchanger.batch	並列熱交換バッチ: %1$s
+.compact_large_steam_boiler.description	燃料、水、重水を使うMIのコンパクト大型蒸気ボイラー。
+.compact_advanced_large_steam_boiler.description	燃料、水、重水を使うMIのコンパクト高度大型蒸気ボイラー。
+.compact_high_pressure_large_steam_boiler.description	燃料と高圧水を使うMIのコンパクト高圧大型蒸気ボイラー。
+.compact_high_pressure_advanced_large_steam_boiler.description	燃料と高圧水を使うMIのコンパクト高圧高度大型蒸気ボイラー。
+.compact_large_steam_turbine.description	蒸気からFEを生み出すMIのコンパクト大型蒸気タービン。
+.compact_large_diesel_generator.description	ディーゼル燃料でFEを生み出すMIのコンパクト大型ディーゼル発電機。
+.compact_steam.batch	並列蒸気バッチ: %1$s
+.compact_steam.output	最大出力: %1$s
+.compact_nuclear_reactor.description	核燃料を消費して蒸気を作り、FEを出力するMIのコンパクト原子炉。
+.compact_nuclear_reactor.batch	並列原子炉バッチ: %1$s
+.compact_coke_oven.description	アイテム入力、アイテム出力、クレオソート出力で、MIのコークス炉のレシピを処理するMekanism風の単体機械。
+.compact_coke_oven.batch	並列コークス炉バッチ: %1$s
+.compact_pressurizer.description	アイテム入力、液体入力、液体出力で、MIの加圧機のレシピを処理するMekanism風の単体機械。
+.compact_pressurizer.batch	並列加圧機バッチ: %1$s
+.compact_oil_drilling_rig.description	ドリル入力と液体出力で、MIの石油掘削レシピを実行するMekanism風の単体機械。
+.compact_oil_drilling_rig.batch	並列掘削バッチ: %1$s
+.compact_fusion_reactor.description	液体入力2つと最大3つの液体出力で、MIの核融合レシピを実行するMekanism風の単体機械。
+.compact_fusion_reactor.batch	並列核融合バッチ: %1$s
+.compact_plasma_turbine.description	ヘリウムプラズマを1mBあたり100,000 EUでFEに変える、MIのコンパクトプラズマタービン。
+.compact_plasma_turbine.batch	並列プラズマタービンバッチ: %1$s
+.compact_electric_quarry.description	最大16の独立した出力スロットを持つ、FEで動くMIのコンパクト採石機。
+.compact_mi_processing.batch	並列処理バッチ: %1$s
+.compact_mi_processing.energy_capacity	エネルギーバッファ: %1$s
+.compact_assembler.description	MIの組立機に代わる、独立したMekanism風の機械。
+.compact_centrifuge.description	MIの遠心分離機に代わる、独立したMekanism風の機械。
+.compact_chemical_reactor.description	MIの化学反応器に代わる、独立したMekanism風の機械。
+.compact_compressor.description	MIの圧縮機に代わる、独立したMekanism風の機械。
+.compact_cutting_machine.description	MIの切断機に代わる、独立したMekanism風の機械。
+.compact_distillery.description	MIの蒸留器に代わる、独立したMekanism風の機械。
+.compact_electrolyzer.description	MIの電解槽に代わる、独立したMekanism風の機械。
+.compact_furnace.description	MIの電気炉に代わる、独立したMekanism風の機械。
+.compact_macerator.description	MIの粉砕機に代わる、独立したMekanism風の機械。
+.compact_mixer.description	MIのミキサーに代わる、独立したMekanism風の機械。
+.compact_packer.description	MIの梱包機に代わる、独立したMekanism風の機械。
+.compact_polarizer.description	MIの偏極器に代わる、独立したMekanism風の機械。
+.compact_unpacker.description	MIの開梱機に代わる、独立したMekanism風の機械。
+.compact_wiremill.description	MIの伸線機に代わる、独立したMekanism風の機械。
+.compact_forge_hammer.description	MIの鍛造ハンマーに代わる、独立したMekanism風の機械。
+.compact_replicator.description	MIの複製機に代わる、独立したMekanism風の機械。
+.compact_boiler.description	MIのボイラーに代わる、独立したMekanism風の機械。
+.compact_water_pump.description	MIの給水ポンプに代わる、独立したMekanism風の機械。
+.compact_diesel_generator.description	MIのディーゼル発電機に代わる、独立したMekanism風の機械。
+.compact_universal_factory.description	MIの4段階の生産チェーンで組み立てる。万能テンプレートが必要で、発電機以外のレシピの触媒・確率・処理条件を保持する。
+@ jei.mekmi.
+.diesel.machine	機械: %1$s
+.diesel.fuel_energy	燃料のエネルギー: %1$s EU/mB
+.diesel.output	出力: %1$s EU/t
+.diesel.parallel	基本並列数: x%1$s(ティア/圧縮は並列数を増やすだけ)
+.nuclear.continuous	燃料を連続変換
+.nuclear.coolant	水 / 重水 / 高圧水 / 高圧重水
+.nuclear.output	出力: %1$s EU/t
+.nuclear.parallel	基本並列数: x%1$s(ティア/圧縮は並列数を増やすだけ)
+.turbine.input	入力: %1$s mB/t
+.turbine.output	出力: %1$s EU/t
+.turbine.parallel	基本並列数: x%1$s(ティア/圧縮は並列数を増やすだけ)
+.turbine.conversion	変換: %1$s EU/mB
+jei.category.mekmi.compact_nuclear_reactor	コンパクト原子炉
+jei.category.mekmi.compact_steam_turbine	コンパクト大型蒸気タービン
+jei.category.mekmi.compact_plasma_turbine	コンパクトプラズマタービン
+rei_categories.mekmi.universal_factory	万能工場

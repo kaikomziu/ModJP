@@ -1,0 +1,89 @@
+## integratednbt
+itemGroup.integratednbt	Integrated NBT
+block.integratednbt.nbt_extractor	NBT抽出機
+block.integratednbt.nbt_extractor.info	NBT型の変数から深く入れ子になった値を抽出できる。
+item.integratednbt.nbt_extractor_remote	NBT抽出機リモコン
+@ integratednbt:nbt_extractor.
+.welcome	ようこそ
+.welcome.description	これはNBT抽出機。まずは左のスロットにNBT型の変数を入れよう。
+.loading	読み込み中
+.loading.description	この変数カードの内容をダウンロード中…
+.error	エラー
+.error.eval	指定された変数を評価できなかった。
+.error.type	左のスロットの変数はNBT型でなければならない。
+.error.unexpected	予期しないエラーが発生した。IntegratedDynamicsかIntegratedNBTのエラーが原因の可能性が高い。
+.empty	<空>
+.root	§e§l<ルート>
+.arrow	 §7➡§r
+.index	§7#§r%s
+.tooltip.nbt_type	§eNBTの型: §r%s
+.tooltip.converted_type	§e変換後の型: §r%s
+.tooltip.default_value	§e初期値: §r%s
+.tooltip.left_click	§8§o- 左クリックでこの値を抽出
+.tooltip.right_click_expand	§8§o- 右クリックで展開
+.tooltip.right_click_collapse	§8§o- 右クリックで折りたたむ
+.tooltip.selecting	§cサーバーが選択を確認するのを待っている…
+.tooltip.selected	§aパスを選択した！右のスロットに変数を置くとその値を受け取る。
+.output_mode	出力モード: %s
+.output_mode.reference.name	参照モード
+.output_mode.reference.description	- %sでは、元のNBT変数への参照を持った出力値が作られる。
+.output_mode.operator.name	演算子モード
+.output_mode.operator.description	- %sでは、抽出処理がNBTを受け取って抽出した値を返す演算子にエンコードされる。
+.output_mode.value.name	値モード
+.output_mode.value.description	- %sでは、現在の値が定数として出力変数に書き込まれる。
+.output_mode.nbt_path.name	NBTパスモード
+.output_mode.nbt_path.description	- %sでは、抽出処理がCyclopsCoreのNBTパス文字列にエンコードされる。
+.output_mode.description.begin	出力モードは出力値の作られ方を制御する。
+.output_mode.description.end	よくわからなければ%sのままにしておくこと。
+.auto_refresh	自動更新: %s
+.auto_refresh.on	§aオン
+.auto_refresh.off	§cオフ
+.auto_refresh.description	§7自動更新は、元のNBT変数が更新されたときにこのNBT抽出機がNBTツリーを自動で更新するかどうかを制御する。このオプションを§cオフ§7にすると、表示中のNBTの値を固定できる。
+@ integratednbt:
+.nbt_extracted_variable.tooltip.source_nbt_id	§e抽出元: §r%s
+.nbt_extracted_variable.tooltip.path	§e抽出パス: §r%s
+.nbt_extracted_variable.tooltip.default_value	§e初期値: §r%s
+.nbt_extracted_variable.error.source_unavailable	元のNBT変数が利用できない
+.nbt_extraction_operator	抽出
+.nbt_extraction_operator.category_name	NBT
+.nbt_extraction_operator.full_name	NBT抽出
+.nbt_extractor_remote.bind_successful	(%s, %s, %s)のNBT抽出機にリモコンを登録した。
+.nbt_extractor_remote.need_bind	先にNBT抽出機ブロックを右クリックしてこのリモコンを登録してください。
+.nbt_extractor_remote.require_load_client	以前登録したNBT抽出機がクライアント側で読み込まれていない。登録したNBT抽出機にもっと近づく必要がある。チャンク読み込みでは機能しない。
+.nbt_extractor_remote.require_load_server	以前登録したNBT抽出機がサーバーで読み込まれていない。
+.nbt_extractor_remote.require_dim	以前登録したNBT抽出機が同じディメンションにない。
+.nbt_extractor_remote.invalid_bind	以前登録したNBT抽出機はもう存在しない。別のNBT抽出機ブロックを右クリックして登録し直してください。
+.nbt_extractor_remote.tooltip	§7NBT抽出機に遠隔でアクセスできる。
+.nbt_extractor_remote.tooltip.not_bound	§eNBT抽出機を右クリックして登録する。
+.nbt_extractor_remote.tooltip.bound	ディメンション%4$sの(%1$s, %2$s, %3$s)にあるNBT抽出機に登録済み。
+@ advancement.integratednbt.
+.entity_nbt_variable	エンティティのNBTツリーをたどる
+.entity_nbt_variable.desc	NBT抽出機の参照モードを使って、エンティティのNBT変数から値を抽出する。
+.display_entity_position	こっそりエンティティ追跡
+.display_entity_position.desc	NBTから抽出した変数を表示パネルに入れて、エンティティのX座標を表示する。
+@ info_book.integratednbt.
+.section.main	NBT
+.introduction	はじめに
+.introduction.text1	&lIntegrated NBT&rは、&lNBT&r(名前付きバイナリタグ)データを扱う道具を追加する&lIntegrated Dynamics&rの拡張。&lIntegrated Dynamics&rのネットワーク上にある&3NBT&0型の変数を視覚的にたどり、調べ、深く入れ子になった値を抽出できる。
+.introduction.text2	複雑なアイテムタグから整数を1つ取り出したい場合も、入れ子の複合タグに埋もれた文字列を抽出したい場合も、演算子で使う再利用可能な抽出パスをエンコードしたい場合も、&lIntegrated NBT&rなら追加の配線なしで簡単にできる。
+.nbt_extractor	NBT抽出機
+.nbt_extractor.text1	&lNBT抽出機&rはこのアドオンの中心となるブロック。&3NBT&0型の変数をグラフィカルなツリーで閲覧できる。ブロックを設置し、&3NBT&0の&l変数カード&rを左のスロットに入れると、その変数のNBTツリー全体が読み込まれて調べられる。必要な値を見つけたら、左クリック1回でそのパスを選択して出力カードに書き込める。
+.nbt_extractor_remote	NBT抽出機リモコン
+.nbt_extractor_remote.text1	&lNBT抽出機リモコン&rは&lNBT抽出機&rブロックの相棒となるアイテム。設置した&lNBT抽出機&rを右クリックするとリモコンを登録できる。以後、ブロックのそばにいなくても、同じディメンション内ならどこからでも同じNBT閲覧画面を開ける。リモコンには対象のチャンクが読み込まれている必要がある。
+.usage	使い方
+.usage.text1	まず、&3NBT&0型の&l変数カード&rを&lNBT抽出機&rの&o左のスロット&rに入れる。ブロックが変数を読み取り、その内容を折りたためるツリーとして表示する。
+.usage.text2	ツリー内の複合タグやリストの項目を&o右クリック&rすると展開/折りたたみができる。抽出したい値にたどり着くまで掘り下げていこう。
+.usage.text3	対象の項目を&o左クリック&rするとそのパスを選択する。パスを選択したら、対応する&l変数カード&rを&o右のスロット&rに入れる。抽出機は現在の&l出力モード&rに従って、抽出した値をそのカードに書き込む。
+.usage.text4	&l出力モード&rは出力値の作られ方を制御する。&o参照モード&rでは、出力変数は抽出した値への生きた参照を持ち、元のNBT変数が変わるたびに更新される。&o演算子モード&rでは、抽出パスが任意のNBT入力を受け取って部分の値を返す再利用可能な&l演算子&rとしてエンコードされる。&o値モード&rでは、現在の値が固定の定数としてカードに書き込まれる。&oNBTパスモード&rでは、パスそのものが&lCyclopsCoreのNBTパス&r文字列として保存される。
+.usage.text5	ほとんどの用途では&o参照モード&rが正解。変化しないスナップショットが欲しい場合は&o値モード&r、同じ抽出を多くの異なるNBT値に適用したい場合は&o演算子モード&rを検討しよう。
+.usage.text6	GUIの&l自動更新&rの切り替えは、元の変数が更新されたときに表示中のNBTツリーを自動で更新するかどうかを制御する。オフにすると表示が現在の状態で固定され、目まぐるしく変わるデータを調べるときに便利。
+.section.tutorials	NBTのチュートリアル
+.tutorials.introduction	はじめに
+.tutorials.introduction.text1	このセクションには、&lIntegrated NBT&rの使い方を順を追って学べるチュートリアルがある。目標は、エンティティのNBTデータ内の特定の値をリアルタイムで表示する仕組みを作り、&lIntegrated Dynamics&rのネットワークを使って画面に表示すること。
+.tutorials.entity_nbt_variable	エンティティのNBTツリーをたどる
+.tutorials.entity_nbt_variable.text1	まず、&lエンティティリーダー&rを&l論理ケーブル&rに取り付け、対象のエンティティが立つ場所に向ける。&l論理プログラマー&rを開き、&oエンティティ&rのアスペクトを&l変数カード&rに書き込む。このカードはその場所にいるエンティティへの生きた参照を持つ。
+.tutorials.entity_nbt_variable.text2	次に、&l論理プログラマー&rで&lエンティティのNBT&r演算子を使い、エンティティの値をNBTの複合タグに変換する。&oエンティティ&rのカードに&lエンティティのNBT&rを適用する&o演算子&r変数を作る。できあがったカードは、エンティティのNBTデータ全体を&3NBT&0型の変数として持つ。
+.tutorials.entity_nbt_variable.text3	&3NBT&0の&l変数カード&rを&lNBT抽出機&rの左のスロットに入れる。ブロックがエンティティのNBTツリー全体を読み込んで表示する。&o参照モード&rが有効になっていることを確認し、空の&l変数カード&rを右のスロットに入れ、ツリーをたどって値を左クリックすると、その抽出パスが選択されて抽出した参照が書き込まれる。
+.tutorials.display_entity_position	こっそりエンティティ追跡
+.tutorials.display_entity_position.text1	前の手順で作ったエンティティのNBT参照変数を使い、もう一度&lNBT抽出機&rを開いて空の&l変数カード&rを右のスロットに入れる。エンティティのX、Y、Z座標を倍精度小数で保存している&oPos&rリストを展開する。項目&o#0&rを左クリックしてX座標を選択し、抽出した値を書き込む。
+.tutorials.display_entity_position.text2	同じネットワークの&l論理ケーブル&rに&l表示パネル&rを設置し、抽出したX座標の&l変数カード&rを入れる。パネルにエンティティの現在のX座標がリアルタイムで表示される。&lNBT抽出機&rで&o自動更新&rが有効になっている限り、エンティティが動くたびに値が更新される。

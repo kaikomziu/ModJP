@@ -1,0 +1,264 @@
+{
+ "adtetra": {
+  "tetra.material.strophar": "ストロファー",
+  "tetra.material.strophar.prefix": "ストロファー",
+  "tetra.material.aeronos": "エアロノス",
+  "tetra.material.aeronos.prefix": "エアロノス"
+ },
+ "almostunified": {
+  "almostunified.description": "Almost Unifiedで変更済み！",
+  "almostunified.warning": "レシピの問題を元の作者に報告しないこと。",
+  "almostunified.unified": "統一済み",
+  "almostunified.duplicate": "重複あり",
+  "almostunified.yes": "はい",
+  "almostunified.no": "いいえ"
+ },
+ "extremesoundmuffler": {
+  "log.warn.loadAnchorList": "ESM: アンカーリストが見つからない。空のアンカーリストを作成中",
+  "log.warn.loadMuffledList": "ESM: 消音リストが見つからない。空の消音リストを作成中"
+ },
+ "goblintraders": {
+  "mob_spawner.type.zombie": "ゾンビ",
+  "mob_spawner.type.skeleton": "スケルトン",
+  "mob_spawner.type.creeper": "クリーパー",
+  "item.minecraft.potion.effect.dolphins_grace": "イルカの好意のポーション",
+  "item.minecraft.splash_potion.effect.dolphins_grace": "スプラッシュイルカの好意のポーション",
+  "item.minecraft.lingering_potion.effect.dolphins_grace": "残留するイルカの好意のポーション"
+ },
+ "matc": {
+  "item.matc.inferium_crystal": "§eインフェリウムの注入クリスタル",
+  "item.matc.prudentium_crystal": "§2プルデンティウムの注入クリスタル",
+  "item.matc.tertium_crystal": "§6テルティウムの注入クリスタル",
+  "item.matc.imperium_crystal": "§9インペリウムの注入クリスタル",
+  "item.matc.supremium_crystal": "§cスプレミウムの注入クリスタル",
+  "itemGroup.matc": "Mystical Agriculture Tiered Crystals"
+ },
+ "shrink": {
+  "item.mob_bottle.tooltip_empty": "縮んだエンティティをガラス瓶で右クリックすると捕まえる",
+  "item.shrink.shrinking_device": "個人用縮小装置",
+  "itemGroup.shrink": "Shrink",
+  "key.shrink.category": "Shrink",
+  "key.shrink.shrink": "縮小の切り替え",
+  "shrink.deny_shrink": "拒否タグのため、エンティティの縮小をブロックした"
+ },
+ "sophisticatedinventoryinteractions": {
+  "key.category.sophisticatedinventoryinteractions.main": "Sophisticated Inventory Interactions",
+  "gui.sophisticatedinventoryinteractions.search_hint": "検索",
+  "gui.sophisticatedinventoryinteractions.sort_container": "コンテナのインベントリを整理",
+  "gui.sophisticatedinventoryinteractions.sort_player": "プレイヤーのインベントリを整理",
+  "gui.sophisticatedinventoryinteractions.transfer_to_container": "コンテナのインベントリへ移動",
+  "gui.sophisticatedinventoryinteractions.transfer_to_player": "プレイヤーのインベントリへ移動"
+ },
+ "thermal_integration": {
+  "item.thermal.rose_gold_coin": "ローズゴールドのコイン",
+  "item.thermal.rose_gold_dust": "ローズゴールドの混合粉",
+  "item.thermal.rose_gold_gear": "ローズゴールドのギア",
+  "item.thermal.rose_gold_plate": "ローズゴールドの板",
+  "item.thermal.steel_coin": "鋼鉄のコイン",
+  "item.thermal.steel_dust": "鋼鉄の混合粉"
+ },
+ "autumnity": {
+  "fieldguide.name.autumnity.orange_maple_sapling": "橙色のカエデの木",
+  "fieldguide.name.autumnity.yellow_maple_sapling": "黄色いカエデの木",
+  "fieldguide.name.autumnity.red_maple_sapling": "赤いカエデの木",
+  "fieldguide.name.autumnity.maple_sapling": "カエデの木",
+  "fieldguide.name.autumnity.large_pumpkin_slice": "大きなカボチャ"
+ },
+ "packmenu": {
+  "packmenu.realms": "Realmsは無効",
+  "packmenu.supporters": "ご支援ありがとう！",
+  "packmenu.support.modpack": "パックを支援しよう！",
+  "packmenu.support": "支援",
+  "packmenu.support1": "PackMenu！"
+ },
+ "windswept": {
+  "fieldguide.name.windswept.holly_sapling": "ヒイラギの木",
+  "fieldguide.name.windswept.chestnut_sapling": "クリの木",
+  "fieldguide.name.windswept.pine_sapling": "マツの木",
+  "fieldguide.name.windswept.mimosa_sapling": "ネムノキ",
+  "fieldguide.name.windswept.flowering_acacia_sapling": "花咲くアカシアの木"
+ },
+ "xycraft_core": {
+  "gui.xycraft_core.slot.strict": "厳密モード",
+  "gui.xycraft_core.slot.strict.set": "%1$sで厳密モードを切り替え",
+  "key.category.xycraft_core.key_binds": "XyCraft",
+  "key.xycraft_core.modifier_key": "修飾キー",
+  "xycraft.core.system.finished_reloading": "再読み込みが完了した！"
+ },
+ "blockui": {
+  "blockui.container_gui.client_side_only": "コンテナの中身は統合サーバー(シングルプレイ、LANなし)で遊んでいるときのみ表示される。",
+  "blockui.container_gui.empty": "このコンテナは空。",
+  "blockui.tooltip.item_additional_info": "%sを押し続けると追加情報を表示",
+  "blockui.tooltip.properties": "ブロックステートのプロパティ:"
+ },
+ "charginggadgets": {
+  "itemGroup.charginggadgets": "Charging Gadgets",
+  "screen.charginggadgets.burn_time": "残り燃焼時間: %s秒",
+  "screen.charginggadgets.energy": "エネルギー: %s/%s FE",
+  "screen.charginggadgets.no_fuel": "燃料がない"
+ },
+ "crashutilities": {
+  "crashutils.keycategory": "Crash Utilities",
+  "crashutils.openscreen": "Crash Utilitiesの画面を開く",
+  "crashutils.copycontainer": "コンテナのクラスをコピー",
+  "crashutils.slottooltips": "スロット番号のツールチップを表示"
+ },
+ "createaddition": {
+  "attack.death.createaddition.barbed_wire": "%1$sは有刺鉄線を越えようとした",
+  "attack.death.createaddition.barbed_wire.player": "%1$sは%2$sと戦いながら有刺鉄線を越えようとした",
+  "attack.death.createaddition.tesla_coil": "%1$sは致死的な電撃を受けた",
+  "attack.death.createaddition.tesla_coil.player": "%1$sは%2$sと戦いながら致死的な電撃を受けた"
+ },
+ "findme": {
+  "key.findme.search": "近くのインベントリからアイテムを探す",
+  "key.findme.pull_one": "近くのインベントリからアイテムを1個取り出す",
+  "key.findme.pull_stack": "近くのインベントリからアイテムを1スタック取り出す",
+  "key.findme.category": "Find Me"
+ },
+ "jmi": {
+  "jmi.infoslot.ftbchunks": "FTBChunksの情報",
+  "jmi.toggleable_overlay.ftbchunks": "FTBChunksのオーバーレイ",
+  "jmi.toggleable_overlay.waystones": "ウェイストーンのオーバーレイ",
+  "jmi.toggleable_overlay.ftbchunks.claiming_mode": "FTBChunksの領地取得"
+ },
+ "justenoughthreads": {
+  "gui.justenoughthreads.loading": "JEIをバックグラウンドで読み込み中…",
+  "gui.justenoughthreads.loading.indexing": "JEIの索引を構築中 %s / %s",
+  "gui.justenoughthreads.loading.preparing": "JEIの索引を準備中…",
+  "gui.justenoughthreads.loading.publishing": "JEIのサイドバーを公開中…"
+ },
+ "nomowanderer": {
+  "block.nomowanderer.no_soliciting_sign": "訪問販売お断りの看板",
+  "block.nomowanderer.trader_rug": "行商人の敷物",
+  "item.nomowanderer.no_mo_wanderer_totem": "押し売り除けのお守り",
+  "item.nomowanderer.trader_cloth_piece": "行商人の布切れ"
+ },
+ "silentlib": {
+  "command.silentlib.nbt.noItemInHand": "メインハンドにアイテムがない",
+  "command.silentlib.nbt.noItemTag": "%sにはNBTがない",
+  "command.silentlib.nbt.notBlockEntity": "%sはブロックエンティティではない",
+  "item.silentlib.lootContainer.itemReceived": "受け取った: %2$s x%1$d"
+ },
+ "brickhopper": {
+  "block.brickhopper.brick_hopper": "レンガのホッパー",
+  "block.brickhopper.brick_hopper.desc.cannotAbsorbItemsFromWorld": "上に落ちているアイテムを吸い込めない。",
+  "block.brickhopper.brick_hopper.desc.cannotAbsorbItemsFromInventories": "上のインベントリからアイテムを引き込めない。"
+ },
+ "ceramicshears": {
+  "item.ceramicshears.ceramic_shears": "陶器のハサミ",
+  "item.ceramicshears.ceramic_shears_part": "陶器のハサミの部品",
+  "item.ceramicshears.clay_shears_part": "粘土のハサミの部品"
+ },
+ "eccentrictome": {
+  "eccentrictome.convert": "Shift+右クリック",
+  "eccentrictome.name": "風変わりな書物(%s)",
+  "item.eccentrictome.tome": "風変わりな書物"
+ },
+ "flib": {
+  "command.flib.help.info": "これはコアMOD FutureLibraryのコマンド。このMODにはMODを支える多くのJava機能と、Modpackなどのプロジェクトを支えるサブコマンドがある",
+  "command.flib.help.perms": "他のサブコマンドを使うにはOP権限が必要",
+  "command.flib.help.config": "設定ファイルの場所:"
+ },
+ "gravitationalmodulatingunittweaks": {
+  "constants.gravitationalmodulatingunittweaks.key_category": "Mekanism - Gravitational Modulating Additional Unit",
+  "constants.gravitationalmodulatingunittweaks.mod_name": "Gravitational Modulating Additional Unit",
+  "module.gravitationalmodulatingunittweaks.mute_modulating_sound": "重力制御の音を消す"
+ },
+ "morphtool": {
+  "morphtool.sudo_name": "変形ツール(%s)",
+  "item.morphtool.tool": "変形ツール",
+  "morphtool.misc.shift_for_info": "§7§bSHIFT§7を押し続けると詳細を表示"
+ },
+ "myrtrees": {
+  "itemGroup.myrtrees.myrtrees_tab": "Myrtrees",
+  "block.myrtrees.wooden_bucket": "木のバケツ",
+  "block.myrtrees.tree_tap": "樹液採取口"
+ },
+ "unlitcampfire": {
+  "hud.unlitcampfire.n_seconds": "燃焼時間: %d秒",
+  "hud.unlitcampfire.infinite": "永遠に燃える",
+  "config.jade.plugin_unlitcampfire.campfireinfo": "残りの燃焼時間を表示"
+ },
+ "woodenhopper": {
+  "block.woodenhopper.wooden_hopper": "木のホッパー",
+  "block.woodenhopper.wooden_hopper.desc.cannotAbsorbItemsFromWorld": "上に落ちているアイテムを吸い込めない。",
+  "block.woodenhopper.wooden_hopper.desc.cannotAbsorbItemsFromInventories": "上のインベントリからアイテムを引き込めない。"
+ },
+ "autoreglib": {
+  "arl.misc.shift_for_info": "&bSHIFT&7を押し続けると詳細を表示",
+  "arl.misc.right_click_add": "右クリックで追加"
+ },
+ "enderchests": {
+  "key.enderchests.open.bag": "持っているエンダーバッグを開く",
+  "key.enderchests.open.pouch": "持っているエンダーポーチを開く"
+ },
+ "immersiveengineering": {
+  "desc.immersiveengineering.jei.category.fertilizer": "ガーデンクロッシュの肥料",
+  "desc.immersiveengineering.jei.cloche_modifier": "成長補正: %1$s"
+ },
+ "mcjtylib": {
+  "key.categories.mcjtylib": "McJtyLib",
+  "key.openManual": "説明書を開く"
+ },
+ "modnametooltip": {
+  "config.modnametooltip.formatting.modNameFormat": "MOD名の書式",
+  "config.modnametooltip.formatting.modNameFormat.comment": "ツールチップでのMOD名の書式。空欄にすると無効。"
+ },
+ "multipiston": {
+  "block.multipiston.multipistonblock": "マルチピストン",
+  "com.ldtteam.multipiston.equalpos": "入力と出力の方向を同じにはできない！"
+ },
+ "quartz": {
+  "item_group.quartz": "Quartz Rendering Lib",
+  "block.quartz.quartz_test_block": "Quartz描画テストブロック"
+ },
+ "tiab": {
+  "item.tiab.time_in_a_bottle.tooltip.stored_time": "蓄えた時間 %s:%s:%s",
+  "item.tiab.time_in_a_bottle.tooltip.total_accumulated_time": "累計の時間 %s:%s:%s"
+ },
+ "toastcontrol": {
+  "key.toastcontrol.clear": "表示中のトーストを消す",
+  "key.toastcontrol.category": "Toast Control"
+ },
+ "torchmaster": {
+  "torchmaster.torch_volume.on_show": "Torchmasterの範囲表示を有効にした - 素手でShift+右クリックすると無効",
+  "torchmaster.torch_volume.on_hide": "Torchmasterの範囲表示を無効にした"
+ },
+ "trashcans": {
+  "trashcans.gui.item_trash_can.deleted_items.show": "削除したアイテムを表示",
+  "trashcans.gui.item_trash_can.deleted_items.hide": "削除したアイテムを隠す"
+ },
+ "zeta": {
+  "zeta.misc.mod_disabled": "無効。有効にするには%sを導入すること。"
+ },
+ "allthemodium": {
+  "block.allthemodium.vortex_block": "渦のブロック"
+ },
+ "alltheores": {
+  "itemGroup.alltheores_mek": "AllTheOres Mek連携"
+ },
+ "cucumber": {
+  "tooltip.cucumber.fluid_tags": "液体タグ:"
+ },
+ "ensorcellation": {
+  "enchantment.ensorcellation.xp_boost.desc": "アイテムを使ったときに得る経験値を増やす。"
+ },
+ "ftbessentials": {
+  "sidebar_button.ftbessentials.trash_can": "ゴミ箱"
+ },
+ "justenoughprofessions": {
+  "justenoughprofessions.professions.title": "職業"
+ },
+ "netherportalfix": {
+  "netherportalfix:portal_destroyed": "§c帰りのポータルが壊された。"
+ },
+ "relics": {
+  "key.relics.research_relic": "カーソル下の遺物を研究"
+ },
+ "rsinfinitybooster": {
+  "item_group.rsinfinitybooster.tab": "RS Infinity Booster"
+ },
+ "woodenshears": {
+  "item.woodenshears.wooden_shears": "木のハサミ"
+ }
+}

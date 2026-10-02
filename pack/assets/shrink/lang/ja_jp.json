@@ -1,0 +1,9 @@
+{
+  "item.mob_bottle.tooltip_empty": "縮んだエンティティをガラス瓶で右クリックすると捕まえる",
+  "item.shrink.mob_bottle": "ガラス瓶",
+  "item.shrink.shrinking_device": "個人用縮小装置",
+  "itemGroup.shrink": "Shrink",
+  "key.shrink.category": "Shrink",
+  "key.shrink.shrink": "縮小の切り替え",
+  "shrink.deny_shrink": "拒否タグのため、エンティティの縮小をブロックした"
+}

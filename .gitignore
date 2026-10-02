@@ -1,0 +1,18 @@
+# MOD本体から抽出した原文(各MODの著作物)は公開しない
+extracted/
+extracted_v1.0/
+vanilla/
+extract_summary.json
+prev_tm.json
+# 配布物はReleasesに置く
+dist/
+# 作業用の一時ファイル
+cur*.txt
+cl.txt
+cu.txt
+tt.txt
+tu.txt
+err.txt
+rest.txt
+ns_rest.txt
+__pycache__/
