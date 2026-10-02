@@ -10,7 +10,7 @@
 | Description | `description.md` の中身を貼る(エディタを Markdown に切り替えてから) |
 | Logo | `logo_400.png`(400×400) |
 | Main Category | Miscellaneous または Utility 系 ※画面にある選択肢から一番近いもの |
-| License | 下の「ライセンス」を参照 |
+| License | MIT |
 | Source(任意) | https://github.com/kaikomziu/ModJP |
 | Issues(任意) | https://github.com/kaikomziu/ModJP/issues |
 
