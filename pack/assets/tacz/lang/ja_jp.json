@@ -1,4 +1,0 @@
-{
-  "config.tacz.client.sound.first_person_animation_sound_tracking": "一人称アニメーション音のトラッキング",
-  "config.tacz.client.sound.first_person_animation_sound_tracking.desc": "一人称アニメーションのキーフレーム音に、プレイヤー基準ではなくエンティティ追従型のワールド音源を使います。物理サウンド系MODとの互換性が上がることがありますが、移動中に左右の定位がわずかにずれることがあります。"
-}

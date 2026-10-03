@@ -25,7 +25,7 @@
 | aether_ii-26.1.2-alpha.4.1-neoforge.jar | aether_ii | 1688 | 0 | 1688 | 1660 | 28 |  |
 | agritechevolved-2.2.0.4+neoforge-mc26.1.2.jar | agritechevolved | 158 | 129 | 29 | 29 | 0 |  |
 | aiotbotania-1.20.1-4.0.8.jar | aiotbotania | 52 | 52 | 0 | 0 | 0 |  |
-| akashic_Library-forge-1.20.1-1.1.7-all.jar | akashic_library | 70 | 0 | 70 | 70 | 0 |  |
+| akashic_Library-forge-1.20.1-1.1.10-all.jar | akashic_library | 70 | 0 | 70 | 70 | 0 |  |
 | alchemistry-1.20.1-2.3.4.jar | alchemistry | 65 | 0 | 65 | 65 | 0 |  |
 | alchemylib-1.20.1-1.0.30.jar | alchemylib | 7 | 0 | 7 | 7 | 0 |  |
 | alexsmobs-1.22.9.jar | alexsmobs | 1076 | 996 | 80 | 80 | 0 |  |
@@ -120,7 +120,7 @@
 | CodeChickenLib-1.20.1-4.4.0.528-universal.jar | codechickenlib | 18 | 0 | 18 | 18 | 0 |  |
 | BattleCraft-1.3.0.jar | codmod | 531 | 0 | 531 | 531 | 0 |  |
 | cofh_core-1.20.1-11.0.2.56.jar | cofh_core | 215 | 215 | 0 | 0 | 0 |  |
-| collective-1.20.1-8.40.jar | collective | 561 | 54 | 507 | 16 | 491 |  |
+| collective-1.20.1-8.41.jar | collective | 561 | 54 | 507 | 16 | 491 |  |
 | combatroll-forge-1.3.3+1.20.1.jar | combatroll | 27 | 25 | 2 | 2 | 0 |  |
 | combomod.jar | combo | 1 | 0 | 1 | 1 | 0 |  |
 | comforts-forge-6.4.0+1.20.1.jar | comforts | 77 | 42 | 35 | 35 | 0 |  |
@@ -254,7 +254,7 @@
 | hexal-forge-1.20.1-0.3.1.jar | hexal | 358 | 1 | 357 | 357 | 0 |  |
 | hexcasting-forge-1.20.1-0.11.4.jar | hexcasting | 1386 | 1386 | 0 | 0 | 0 |  |
 | hexerei-0.4.2.3.jar | hexerei | 1053 | 5 | 1048 | 1048 | 0 |  |
-| otherworld-0.9.2.3.jar | horrorjarred | 666 | 151 | 515 | 515 | 0 |  |
+| otherworld-0.9.2.5.jar | horrorjarred | 673 | 153 | 520 | 520 | 0 |  |
 | HostileNeuralNetworks-1.20.1-5.3.3.jar | hostilenetworks | 160 | 3 | 157 | 157 | 0 |  |
 | IceAndFireCE-1.2.9-1.20.1-forge.jar | iceandfire | 1407 | 1196 | 211 | 211 | 0 |  |
 | iChunUtil-1.20.1-Forge-1.0.3.jar | ichunutil | 38 | 0 | 38 | 38 | 0 |  |
@@ -305,7 +305,7 @@
 | justzoom_forge_2.1.1_MC_1.20.1.jar | justzoom | 29 | 0 | 29 | 29 | 0 |  |
 | keybindbundles-1.20.1-1.1.0.jar | keybindbundles | 23 | 0 | 23 | 23 | 0 |  |
 | KeybindsPurger-1.4.0-forge-1.20.1.jar | keybindspurger | 4 | 0 | 4 | 4 | 0 |  |
-| laserbridges-1.20.1-forge-6.jar | laserbridges | 9 | 0 | 9 | 9 | 0 |  |
+| laserbridges-1.20.1-forge-6.1.jar | laserbridges | 9 | 0 | 9 | 9 | 0 |  |
 | laserio-1.6.8.jar | laserio | 90 | 0 | 90 | 90 | 0 |  |
 | lendersdelight-1.20.1-1.0.10b.jar | lendersdelight | 86 | 0 | 86 | 86 | 0 |  |
 | libIPN-forge-1.20-4.0.2.jar | libipn | 28 | 0 | 28 | 28 | 0 |  |
@@ -356,7 +356,7 @@
 | mffs-5.1.29-all.jar | mffs | 181 | 0 | 181 | 179 | 2 |  |
 | migueleconomy-1.1.4.jar | migueleconomy | 20 | 0 | 20 | 20 | 0 |  |
 | minecolonies-1.20.1-1.1.1301-snapshot.jar | minecolonies | 3778 | 3778 | 0 | 0 | 0 |  |
-| otherworld-0.9.2.3.jar | minecraft | 6222 | 6127 | 95 | 95 | 0 |  |
+| otherworld-0.9.2.5.jar | minecraft | 6222 | 6127 | 95 | 95 | 0 |  |
 | mininggadgets-1.15.6.jar | mininggadgets | 85 | 0 | 85 | 85 | 0 |  |
 | MoogsMineshaftsReimagined-universal-1.20-1.1.0.jar | mmr | 29 | 0 | 29 | 29 | 0 |  |
 | mob_grinding_utils-1.20.1-1.1.0.jar | mob_grinding_utils | 146 | 1 | 145 | 145 | 0 |  |
@@ -365,7 +365,7 @@
 | modonomicon-1.20.1-forge-1.79.3.jar | modonomicon | 195 | 0 | 195 | 68 | 127 |  |
 | modular-routers-12.1.1+mc1.20.1.jar | modularrouters | 360 | 2 | 358 | 358 | 0 |  |
 | modulation-forge-1.20.1-1.6.1.jar | modulation | 43 | 0 | 43 | 43 | 0 |  |
-| MoogsStructureLib-forge-1.20-3.4.0.jar | moogs_structures | 14 | 0 | 14 | 14 | 0 |  |
+| MoogsStructureLib-forge-1.20-3.4.1.jar | moogs_structures | 14 | 0 | 14 | 14 | 0 |  |
 | moonlight-1.20-2.16.35-forge.jar | moonlight | 10 | 9 | 1 | 1 | 0 |  |
 | moreiotas-forge-1.20.1-0.1.2.jar | moreiotas | 157 | 0 | 157 | 157 | 0 |  |
 | MoreMekanismProcessing-1.20.1-4.5.jar | moremekanismprocessing | 64 | 60 | 4 | 4 | 0 |  |
@@ -468,7 +468,7 @@
 | shetiphiancore-forge-1.20.1-1.5.jar | shetiphiancore | 102 | 1 | 101 | 101 | 0 |  |
 | ShoulderSurfing-Forge-1.20.1-5.2.0.jar | shouldersurfing | 360 | 0 | 360 | 360 | 0 |  |
 | Shrink-1.20.1-1.4.5.jar | shrink | 7 | 0 | 7 | 7 | 0 |  |
-| shulespotions-0.4.jar | shulespotions | 330 | 20 | 310 | 310 | 0 |  |
+| shulespotions-0.4.1.jar | shulespotions | 330 | 20 | 310 | 310 | 0 |  |
 | silent-gear-1.20.1-3.6.7.jar | silentgear | 963 | 963 | 0 | 0 | 0 |  |
 | silents-gems-1.20.1-4.7.0.jar | silentgems | 85 | 0 | 85 | 85 | 0 |  |
 | silent-lib-1.20.1-8.0.0.jar | silentlib | 5 | 0 | 5 | 5 | 0 |  |
@@ -477,7 +477,7 @@
 | simplylight-1.20.1-1.4.6-build.50.jar | simplylight | 125 | 0 | 125 | 125 | 0 |  |
 | simplyswords-forge-neoforge-1.70.2-1.20.1.jar | simplyswords | 2267 | 637 | 1630 | 1630 | 0 |  |
 | SimplyTooltips-forge-0.1.5-1.20.1.jar | simplytooltips | 31 | 0 | 31 | 31 | 0 |  |
-| skarrier_mobs-1.0.8-forge-1.20.1.jar | skarrier_mobs | 457 | 11 | 446 | 446 | 0 |  |
+| skarrier_mobs-1.0.9-forge-1.20.1.jar | skarrier_mobs | 460 | 11 | 449 | 449 | 0 |  |
 | skinlayers3d-forge-1.11.3-mc1.20.1.jar | skinlayers3d | 44 | 34 | 10 | 10 | 0 |  |
 | sliceanddice-forge-3.6.0.jar | sliceanddice | 17 | 10 | 7 | 7 | 0 |  |
 | sodium-extra-neoforge-0.9.4+mc26.1.2.jar | sodium-extra | 420 | 380 | 40 | 40 | 0 |  |
@@ -486,7 +486,7 @@
 | solcarrot-1.20.1-1.15.1.jar | solcarrot | 59 | 0 | 59 | 59 | 0 |  |
 | soldiersdelight-1.2-forge-1.20.1.jar | soldiersdelight | 22 | 0 | 22 | 22 | 0 |  |
 | sophisticatedbackpacks-1.20.1-3.26.6.2176.jar | sophisticatedbackpacks | 299 | 223 | 76 | 76 | 0 |  |
-| sophisticatedcore-1.20.1-1.5.2.2346.jar | sophisticatedcore | 304 | 215 | 89 | 89 | 0 |  |
+| sophisticatedcore-1.20.1-1.5.4.2362.jar | sophisticatedcore | 304 | 215 | 89 | 89 | 0 |  |
 | sophisticatedinventoryinteractions-1.20.1-0.1.13.210.jar | sophisticatedinventoryinteractions | 6 | 0 | 6 | 6 | 0 |  |
 | sophisticateditemactions-1.20.1-0.4.18.414.jar | sophisticateditemactions | 35 | 0 | 35 | 35 | 0 |  |
 | sophisticatedstorage-1.20.1-1.5.0.2137.jar | sophisticatedstorage | 314 | 230 | 84 | 84 | 0 |  |
@@ -506,7 +506,7 @@
 | supplementaries-1.20-3.1.43-forge.jar | supplementaries | 607 | 532 | 75 | 75 | 0 |  |
 | systeams-1.20.1-1.9.2.jar | systeams | 76 | 0 | 76 | 76 | 0 |  |
 | taa-1.4.3+1.20.1.jar | taa | 56 | 0 | 56 | 56 | 0 |  |
-| tacz-1.20.1-1.1.8-hotfix.jar | tacz | 295 | 293 | 2 | 2 | 0 |  |
+| tacz-1.20.1-1.1.8-hotfix2.jar | tacz | 295 | 295 | 0 | 0 | 0 |  |
 | tcc-1.4.4.jar | tcc | 658 | 14 | 644 | 644 | 0 |  |
 | TConstruct-1.20.1-3.11.2.166.jar | tconstruct | 3291 | 2743 | 548 | 548 | 0 |  |
 | tectonic-3.0.17-forge-1.20.1.jar | tectonic | 96 | 0 | 96 | 96 | 0 |  |
@@ -572,7 +572,7 @@
 | ycurrenci-2.1.0-forge-1.20.1.jar | ycurrenci | 30 | 1 | 29 | 29 | 0 |  |
 | YungsCaveBiomes-1.20.1-Forge-2.0.5.jar | yungscavebiomes | 126 | 70 | 56 | 56 | 0 |  |
 | Zeta-1.0-31.jar | zeta | 2 | 0 | 2 | 1 | 1 |  |
-| **合計** | | 176990 | 81968 | 95022 | 93798 | 1224 | |
+| **合計** | | 177000 | 81972 | 95028 | 93804 | 1224 | |
 
 ## 英語のまま残したキー
 

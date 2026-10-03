@@ -1,0 +1,17 @@
+{
+ "horrorjarred": {
+  "item.horrorjarred.cursed_cross.description_1": "§7使うと強制的にイベントが起こり、世界の怒りが高まる",
+  "item.horrorjarred.cursed_cross.description_3": "§7呪われたチェストは、ティア2以上の十字架で元に戻せる",
+  "item.horrorjarred.cursed_cross.description_5": "§4§l世界の怒り:§r§4 時間がたつにつれて上がる見えない数値。",
+  "item.horrorjarred.cursed_cross.description_6": "§4MODを進めても(段階ごとに)上がる。怒りが高いほど",
+  "item.horrorjarred.cursed_cross.description_7": "§4イベントがよく起こるようになる。",
+  "item.horrorjarred.otherwordly_garland_helmet.description_3": "§4§l世界の怒り:§r§4 時間がたつにつれて上がる見えない数値。",
+  "item.horrorjarred.otherwordly_garland_helmet.description_4": "§4MODを進めても(段階ごとに)上がる。怒りが高いほど",
+  "item.horrorjarred.otherwordly_garland_helmet.description_5": "§4イベントがよく起こるようになる。"
+ },
+ "skarrier_mobs": {
+  "item.skarrier_mobs.forlorn_barrier": "§4見捨てられた障壁",
+  "item.skarrier_mobs.forlorn_barrier.description_0": "§4防御時: 防具を砕く貫通の牙を扇状に放ち、盾は少しの間使えなくなる",
+  "item.skarrier_mobs.wretched_claymore": "§4惨めなクレイモア"
+ }
+}

@@ -1,7 +1,7 @@
 # ModJP - Japanese Translation Pack for Mods
 
 **A resource pack that translates English-only mod text into Japanese.**
-For Minecraft 1.20.1 / Forge. Adds Japanese translations for **476 mods (about 94,000 strings)**.
+For Minecraft 1.20.1 / Forge. Adds Japanese translations for **475 mods (about 94,000 strings)**.
 
 ---
 
@@ -12,7 +12,7 @@ For Minecraft 1.20.1 / Forge. Adds Japanese translations for **476 mods (about 9
 - **Never overrides official Japanese translations**
   Japanese translations already bundled with a mod are kept as they are. This pack only fills in the missing entries.
 - **Mods you don't have are simply ignored**
-  You don't need all 476 mods installed. Only the mods you actually have are translated.
+  You don't need all 475 mods installed. Only the mods you actually have are translated.
 - **Checked for display issues**
   Formatting codes such as `%s`, color codes (§) and line breaks are verified to match the original text exactly.
 
@@ -26,7 +26,7 @@ For Minecraft 1.20.1 / Forge. Adds Japanese translations for **476 mods (about 9
 
 ## Main supported mods
 
-A partial list, ordered by the number of added translations. The full list of all 476 mods is in `説明書.txt` (manual) inside the zip.
+A partial list, ordered by the number of added translations. The full list of all 475 mods is in `説明書.txt` (manual) inside the zip.
 
 | Mod | Added translations |
 |---|---|
@@ -74,7 +74,7 @@ GitHub: https://github.com/kaikomziu/ModJP
 # MOD日本語化パック (ModJP)
 
 **英語のまま表示されているMODの文字を、日本語にするリソースパックです。**
-Minecraft 1.20.1 / Forge 向け。**476 MOD・約9.4万項目**に日本語訳を追加します。
+Minecraft 1.20.1 / Forge 向け。**475 MOD・約9.4万項目**に日本語訳を追加します。
 
 ## 特徴
 
@@ -83,7 +83,7 @@ Minecraft 1.20.1 / Forge 向け。**476 MOD・約9.4万項目**に日本語訳�
 - **公式の日本語訳は上書きしません**
   MODにもともと入っている日本語訳はそのまま使い、足りない部分だけを補います。
 - **入っていないMODの分は自動で無視されます**
-  476 MOD全部を入れていなくても、入っているMODの分だけ日本語になります。
+  475 MOD全部を入れていなくても、入っているMODの分だけ日本語になります。
 - **表示崩れのチェック済み**
   `%s` や色コード(§)、改行の数など、ゲーム内の表示に関わる記号はすべて原文と一致するよう検査しています。
 
@@ -97,7 +97,7 @@ Minecraft 1.20.1 / Forge 向け。**476 MOD・約9.4万項目**に日本語訳�
 
 ## 主な対応MOD
 
-上の英語欄の表と同じです。全476 MODの一覧は zip 同梱の `説明書.txt` を見てください。
+上の英語欄の表と同じです。全475 MODの一覧は zip 同梱の `説明書.txt` を見てください。
 ATM8・ATM11 系の MOD(Easy NPC、Forbidden & Arcanus、AE2 アドオン、Mekanism アドオン、RFTools、Botania アドオン、Ars Nouveau アドオン、Hex Casting アドオンなど)を多数カバーしています。
 
 ## よくある質問
