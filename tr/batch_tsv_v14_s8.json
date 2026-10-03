@@ -55,7 +55,6 @@
   "commands.apothic_enchanting.dump.failure": "enchantment_infoの出力に失敗した: %s"
  },
  "keybindbundles": {
-  "key.category.keybindbundles.keybindbundles": "KeyBind Bundles",
   "key.keybindbundles.open_screen": "キー割り当て画面を開く",
   "key.keybindbundles.open_radial_menu": "バンドルの円形メニューを開く",
   "key.keybindbundles.bundle": "キーバンドル §6%s§r",
@@ -77,15 +76,11 @@
   "tooltip.keybindbundles.bundle.edit_entry": "左クリックで項目を編集",
   "tooltip.keybindbundles.bundle.delete_entry": "Shift+左クリックで項目を削除",
   "tooltip.keybindbundles.bundle.move_clockwise": "右クリックで項目を時計回りに移動",
-  "tooltip.keybindbundles.bundle.move_counterclockwise": "Shift+右クリックで項目を反時計回りに移動",
-  "keybindbundles.configuration.ignoreInvalidKeyChecks": "#isKeyDownでの無効なキーの確認を無視",
-  "keybindbundles.configuration.clipMouseToMenu": "マウスを円形メニューの範囲内に制限",
-  "keybindbundles.configuration.triggerKeymappingOnRelease": "バンドルを離したときにカーソルのキー割り当てを発動"
+  "tooltip.keybindbundles.bundle.move_counterclockwise": "Shift+右クリックで項目を反時計回りに移動"
  },
  "transmog": {
   "block.transmog.transmogrification_table": "トランスモグの作業台",
   "item.transmog.void_fragment": "虚空のかけら",
-  "tag.item.transmog.transmog_fuels": "トランスモグの燃料",
   "transmog.config.disable_during_pvp_duration": "PvP中は無効にする",
   "transmog.config.disable_during_pvp_duration.label": "%d秒",
   "transmog.config.disable_during_pvp_duration.tooltip": "他のプレイヤーを攻撃したり攻撃されたりしたとき、一定時間トランスモグの描画を無効にする。0でPvPを無視する。",
@@ -122,25 +117,5 @@
   "productivefarming.tooltip.double_crop": "育つのに2ブロック分の空間が必要。",
   "productivefarming.tooltip.mushroom_crop": "これを堆肥にすると、確率でコンポスターの側面に新しいキノコが生える。"
  },
- "luminax": {
-  "block.luminax.luminax_block": "ルミナックスブロック",
-  "block.luminax.luminax_button": "ルミナックスのボタン",
-  "block.luminax.luminax_pressure_plate": "ルミナックスの感圧板",
-  "block.luminax.luminax_slab": "ルミナックスのハーフブロック",
-  "block.luminax.luminax_stair": "ルミナックスの階段",
-  "block.luminax.luminax_wall": "ルミナックスの壁",
-  "creative_tab.luminax.default": "Luminax",
-  "item.luminax.luminax_wand": "ルミナックスの杖",
-  "key.category.luminax.default": "Luminax",
-  "key.luminax.open_color_picker": "色の選択を開く",
-  "key.luminax.toggle_glowing": "発光を切り替え",
-  "property.luminax.color": "色",
-  "property.luminax.color.tooltip": "ブロックの色を変える",
-  "property.luminax.glowing": "発光",
-  "tooltip.luminax.glowing.off": "ブロックを光らせる",
-  "tooltip.luminax.glowing.on": "ブロックを光らせる",
-  "tooltip.luminax.lmb": "%sか%sで次へ切り替え",
-  "tooltip.luminax.mmb": "%sで色の選択を開く",
-  "tooltip.luminax.rmb": "%sか%sで前へ切り替え"
- }
+ "luminax": {}
 }

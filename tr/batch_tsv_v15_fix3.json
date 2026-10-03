@@ -1,0 +1,50 @@
+{
+ "ftbfiltersystem": {
+  "ftbfiltersystem.gui.fuzzy_match": "NBTをあいまい一致？",
+  "filter.ftbfiltersystem.item.tooltip": "特定のアイテムと照合する。\nNBTはここでは確認しない(NBTフィルターを参照)\nアイテムはクリエイティブやインベントリのアイテム一覧から選べる。\nテキスト欄でアイテムIDを絞り込んで表示するアイテムを減らせる。"
+ },
+ "logisticsnetworks": {
+  "item.logisticsnetworks.small_filter": "小さなフィルター",
+  "gui.logisticsnetworks.node.tip.status": "このチャンネルを有効/無効にする",
+  "gui.logisticsnetworks.node.tip.mode": "このチャンネルが送るか受け取るか",
+  "gui.logisticsnetworks.node.tip.type": "このチャンネルが運ぶ資源の種類",
+  "gui.logisticsnetworks.node.tip.side": "送受信を行うブロックの面",
+  "gui.logisticsnetworks.node.tip.redstone": "転送するレッドストーン信号の条件",
+  "gui.logisticsnetworks.node.tip.distribution": "受け取り側へのアイテムの配り方",
+  "gui.logisticsnetworks.node.tip.priority": "優先度の高いチャンネルから先に転送する",
+  "gui.logisticsnetworks.node.tip.batch": "1回の動作で転送する量",
+  "gui.logisticsnetworks.node.tip.delay": "転送の間隔(tick)",
+  "gui.logisticsnetworks.node.tip.mode.import": "接続したブロックから資源を引き出す",
+  "gui.logisticsnetworks.node.tip.mode.export": "接続したブロックに資源を送り込む",
+  "gui.logisticsnetworks.node.tip.redstone.always_on": "レッドストーンに関係なく転送する",
+  "gui.logisticsnetworks.node.tip.redstone.high": "レッドストーン信号があるときだけ転送する",
+  "gui.logisticsnetworks.node.tip.redstone.low": "レッドストーン信号がないときだけ転送する",
+  "gui.logisticsnetworks.node.tip.distribution.priority": "優先度の高いものから送る",
+  "gui.logisticsnetworks.node.tip.distribution.nearest_first": "一番近い受け取り側から送る",
+  "gui.logisticsnetworks.node.tip.distribution.farthest_first": "一番遠い受け取り側から送る",
+  "gui.logisticsnetworks.node.tip.distribution.round_robin": "受け取り側に順番に均等に送る",
+  "tooltip.logisticsnetworks.filter.name.desc": "名前/ツールチップを正規表現で絞り込む",
+  "gui.logisticsnetworks.filter.name.input_hint": "正規表現を入力(例: .*stone.*)",
+  "tooltip.logisticsnetworks.mekanism_chemical_upgrade": "化学物質チャンネルの転送を解放する",
+  "tooltip.logisticsnetworks.ars_source_upgrade": "ソースチャンネルの転送を解放する",
+  "tooltip.logisticsnetworks.filter.deprecated": "旧式: 代わりに基本フィルターを使ってください(スロットをCtrl+左クリック)",
+  "gui.logisticsnetworks.filter.name.invalid_regex": "正規表現が無効！",
+  "gui.logisticsnetworks.filter.detail.title": "項目 #%s",
+  "gui.logisticsnetworks.filter.detail.batch": "一度に運ぶ量:",
+  "gui.logisticsnetworks.filter.detail.stock": "在庫:",
+  "gui.logisticsnetworks.filter.detail.nbt": "NBT:",
+  "gui.logisticsnetworks.filter.detail.nbt.configure": "設定…",
+  "gui.logisticsnetworks.filter.detail.durability": "耐久値:",
+  "gui.logisticsnetworks.filter.detail.slots": "スロット:"
+ },
+ "pipe_connector": {
+  "item.pipe_connector.gui.button.tooltip.disabledResetPipePos": "まだ位置を1つも選んでいない",
+  "item.pipe_connector.gui.button.tooltip.disabledPlacePipes": "先に2つの位置を選んで",
+  "item.pipe_connector.gui.tooltip.Pathfinding": "2つの位置の間の最短経路を探す",
+  "item.pipe_connector.gui.button.tooltip.utilizeExistingPipesInfoPartTwo": "2つの位置をつなごうとする",
+  "item.pipe_connector.tooltip.usageExplanation": "ブロックをShift+右クリックで位置を設定",
+  "item.pipe_connector.tooltip.CancelSelectionExplanation": "空中をShift+右クリックで選択を取り消す",
+  "item.pipe_connector.tooltip.changeDepthExplanation": "Shift+スクロールでパイプの深さを変える",
+  "item.pipe_connector.tooltip.openGui": "空気ブロックをShift+右クリックすると、パイプの設置や位置のリセットができるGUIが開く"
+ }
+}

@@ -11,7 +11,7 @@ from pathlib import Path
 WORK = Path(__file__).parent
 PACK = WORK / "pack"
 BUNDLE_BROKEN_OFFICIAL = False
-DESC = "§6MOD日本語化パック §7v1.4 (1.20.1)"
+DESC = "§6MOD日本語化パック §7v1.5 (1.20.1)"
 TR = WORK / "tr"
 KEEP = TR / "_keep_english.json"   # {ns: {key: 理由}} 意味が判断できず英語のまま残すキー
 

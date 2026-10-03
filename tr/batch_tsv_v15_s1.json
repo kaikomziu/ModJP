@@ -1,0 +1,133 @@
+{
+ "migueleconomy": {
+  "item.migueleconomy.money": "お金",
+  "item.migueleconomy.money.tooltip.value": "価値: $%d",
+  "item.migueleconomy.money.tooltip.redeem": "右クリックで換金",
+  "creativetab.migueleconomy.economy": "Miguel Economy",
+  "message.migueleconomy.auction.listed_personal": "✓ $%sで出品した",
+  "message.migueleconomy.auction.listed_broadcast": "%s x%sがオークションに出品された",
+  "message.migueleconomy.auction.buy_success": "✓ %sを$%sで購入した",
+  "message.migueleconomy.auction.item_sold": "✓ %sが$%sで%sに売れた",
+  "message.migueleconomy.auction.sold_broadcast": "%sが%s x%sを$%sで購入した",
+  "message.migueleconomy.auction.cannot_buy_own": "自分のアイテムは購入できない！",
+  "message.migueleconomy.auction.insufficient_funds": "$%s必要だが、所持金は$%sしかない",
+  "message.migueleconomy.auction.seller_offline": "出品者はもうオンラインではない",
+  "message.migueleconomy.auction.already_sold": "このアイテムはすでに売れた",
+  "message.migueleconomy.daily.claimed": "デイリー報酬の$%sを受け取った！",
+  "message.migueleconomy.daily.claimed_auto": "自動デイリー報酬の$%sを受け取った！",
+  "message.migueleconomy.daily.disabled": "デイリー報酬は現在無効になっている。",
+  "message.migueleconomy.daily.already_claimed": "今日の報酬はもう受け取った。%s後にまた来てね。",
+  "message.migueleconomy.daily.auto_status": "自動デイリー報酬が有効。次の報酬まであと%s。",
+  "message.migueleconomy.daily.auto_waiting": "自動デイリー報酬が有効。再参加すると今日の報酬を受け取れる。",
+  "message.migueleconomy.daily.player_only": "このコマンドはプレイヤーしか実行できない。"
+ },
+ "easy_npc_epic_fight": {
+  "text.easy_npc_epic_fight.item.spawn_egg.tooltip": "Epic Fight連携付きのEasyNPCスポーンエッグ",
+  "text.easy_npc_epic_fight.item.spawn_egg.tooltip_note": "注意: EasyNPCの設定は一部しか使えない！"
+ },
+ "easy_npc_example": {
+  "text.easy_npc_example.hello.text": "こんにちは、@initiator。私は@npc、よろしくね！\n\n私のこと、もっと知りたい？",
+  "text.easy_npc_example.hello.yes_button": "うん、もちろん。",
+  "text.easy_npc_example.hello.no_button": "いや、大丈夫。",
+  "text.easy_npc_example.hello.yes_answer": "私は通訳。この世界の言葉がわかるように手伝えるよ。",
+  "text.easy_npc_example.hello.no_answer": "わかった、よい一日を！",
+  "text.easy_npc_example.hello.name": "通訳"
+ },
+ "keybindbundles": {
+  "category.keybindbundles": "KeyBind Bundles"
+ },
+ "mffs": {
+  "info.mffs.field_permission.warp": "ワープ",
+  "info.mffs.field_permission.warp.tooltip": "フォースフィールドを通り抜けられるようにする。"
+ },
+ "ftbfiltersystem": {
+  "filter.ftbfiltersystem.nbt.name": "NBT",
+  "filter.ftbfiltersystem.nbt.tooltip": "アイテムのNBTを完全一致かあいまい一致で照合する。\n完全一致: NBTが完全に一致する必要がある。\nあいまい一致: ここで指定したNBTの項目だけを照合する。\n管理者権限があれば、インベントリ内のNBT付きアイテムをクリックして現在のNBTタグをテキストエディタにコピーできる。"
+ },
+ "energizedpower": {
+  "entity.minecraft.villager.energizedpower.electrician": "電気技師",
+  "key.category.energizedpower": "Energized Power"
+ },
+ "easy_piglins": {
+  "block.easy_piglins.barterer": "物々交換機",
+  "itemGroup.easy_piglins": "Easy Piglins",
+  "gui.easy_piglins.input_items": "投入アイテム",
+  "gui.easy_piglins.output_items": "排出アイテム",
+  "message.easy_piglins.cant_pick_up": "敵対中や作業中のピグリンは拾えない"
+ },
+ "creativewirelesstransmitter": {
+  "itemGroup.creativewirelesstransmitter": "Creative Wireless Transmitter",
+  "block.creativewirelesstransmitter.creative_wireless_transmitter": "クリエイティブ無線送信機",
+  "gui.creativewirelesstransmitter.creative_wireless_transmitter.distance": "無限",
+  "advancements.creativewirelesstransmitter.creative_wireless": "なんでズルしてるんだよ？",
+  "advancements.creativewirelesstransmitter.creative_wireless.description": "クリエイティブ無線送信機で、ネットワーク信号を無限の範囲でディメンションを越えて送る"
+ },
+ "ae2insertexportcard": {
+  "itemGroup.ae2insertexportcard": "AE2 Insert Export Card",
+  "item.ae2insertexportcard.insert_card": "搬入カード",
+  "item.ae2insertexportcard.export_card": "搬出カード",
+  "gui.ae2insertexportcard.whitelist": "ホワイトリスト",
+  "gui.ae2insertexportcard.blacklist": "ブラックリスト"
+ },
+ "defaultoptions": {
+  "config.defaultoptions.title": "Default Options",
+  "config.defaultoptions.defaultDifficulty": "初期の難易度",
+  "config.defaultoptions.defaultDifficulty.tooltip": "新しく作るワールドで最初に選ばれている難易度。",
+  "config.defaultoptions.lockDifficulty": "難易度を固定",
+  "config.defaultoptions.lockDifficulty.tooltip": "trueにすると、新しいワールドの難易度を指定の初期値で固定する。外部ツールなしではプレイヤーが解除できない！たぶん悪い考え。おすすめしない。なんでこの設定を足してるんだろう？",
+  "config.defaultoptions.defaultResourcePacks": "初期のリソースパック",
+  "config.defaultoptions.defaultResourcePacks.tooltip": "初回起動時に最初から有効にするリソースパックのID。"
+ },
+ "utilitarian": {
+  "block.utilitarian.no_soliciting_wall_banner": "勧誘お断りの旗",
+  "block.utilitarian.redstone_clock.description": "素手でレッドストーンクロックを右クリックするとパルスの間隔を変えられる。スニークすると速く増やせる。",
+  "death.attack.utilitarian.drit": "%1$sはつちに殺された",
+  "death.attack.utilitarian.drit.player": "%1$sは%2$sと遊んでいる間につちに殺された",
+  "death.attack.utilitarian.grrass": "%1$sは怒った草に殺された",
+  "death.attack.utilitarian.grrass.player": "%1$sは%2$sと遊んでいる間に怒った草に殺された",
+  "item.utilitarian.tps_meter_description": "ディメンションのTPSに応じたレッドストーン信号を出す",
+  "item.utilitarian.restraining_order": "接近禁止命令",
+  "utilitarian.soliciting_carpet.tooltip": "やって来た商人は、目の前ではなくこのブロックの上に現れる。",
+  "utilitarian.soliciting_carpet.tooltip_trapped": "このカーペットには罠が仕掛けてあり、商人を殺してしまう…この人でなし :D",
+  "utilitarian.restraining_order.status.inactive": "下書き。スニークして右クリックで有効化。",
+  "utilitarian.restraining_order.status.active": "押印済みで執行中。スニークして右クリックで無効化。"
+ },
+ "enderio": {
+  "block.enderio.aversion_obelisk": "忌避のオベリスク",
+  "gui.enderio.conduit.priority": "優先度",
+  "gui.enderio.conduit_probe.message.copied": "データをコピーした: %s",
+  "gui.enderio.conduit_probe.message.pasted": "データを貼り付けた: %s",
+  "gui.enderio.conduit_probe.mode.switched": "コンジットプローブのモードを%sに切り替えた",
+  "item.enderio.conduit.chemical.multi": "同じ線で複数の種類の化学物質を運べる",
+  "item.enderio.conduit_probe": "コンジットプローブ",
+  "item.enderio.entity_filter": "魂のフィルター",
+  "keybinding.enderio.category": "EnderIO",
+  "keybinding.enderio.probe_mode": "プローブのモードを変更",
+  "tooltip.enderio.conduit.fluid.multi": "同じ線で複数の液体を運べる",
+  "tooltip.enderio.conduit.fluid.rate": "転送速度 %s mB/t",
+  "tooltip.enderio.conduit_probe.mode": "モード: %s",
+  "tooltip.enderio.conduit_probe.mode.contains_copied": "コピーしたコンジットのデータ:",
+  "tooltip.enderio.conduit_probe.mode.copy_paste": "コピー/貼り付け",
+  "tooltip.enderio.conduit_probe.mode.probe": "調査"
+ },
+ "core": {
+  "block.core.colored_block": "色付きブロック",
+  "color.core.white": "白色",
+  "color.core.black": "黒色",
+  "color.core.red": "赤色",
+  "color.core.green": "緑色",
+  "color.core.blue": "青色",
+  "color.core.yellow": "黄色",
+  "color.core.purple": "紫色",
+  "color.core.orange": "橙色",
+  "color.core.cyan": "青緑色",
+  "color.core.gray": "灰色",
+  "color.core.brown": "茶色",
+  "color.core.pink": "桃色",
+  "color.core.lime": "黄緑色",
+  "color.core.light_blue": "空色",
+  "color.core.magenta": "赤紫色",
+  "color.core.light_gray": "薄灰色",
+  "color.core.lit": "点灯"
+ }
+}

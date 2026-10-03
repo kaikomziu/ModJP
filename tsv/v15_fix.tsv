@@ -1,0 +1,40 @@
+## bcc
+bcc.gui.tooltip.compatible_server	§3サーバー: {0}\n§2クライアント(あなた): {1}
+bcc.gui.tooltip.incompatible_server	§6サーバーと同じバージョンのMODパックを使っていない :(\n \n§4サーバー: {0}\n§4クライアント(あなた): {1}
+## logisticsnetworks
+gui.logisticsnetworks.mass_placement.hint	右クリックでブロックを1つ切り替える。Ctrl+右クリックでつながったブロックをまとめて切り替える。
+gui.logisticsnetworks.node.channel_name.set_tooltip	ダブルクリックでチャンネルに名前を付ける
+message.logisticsnetworks.mass_placement.selection_limit	選択範囲の上限に達した
+tooltip.logisticsnetworks.filter.open_hint	右クリックで設定
+## pipe_connector
+item.pipe_connector.gui.label.depth	深さ: %s
+item.pipe_connector.jei.description	パイプコネクターでは、Shift+右クリックで2つの位置を選べる。両方の位置を選ぶと経路のプレビューが表示される。\n Shift+スクロールでパイプの深さを変えられる。\n 経路に満足したら、Shift+右クリックでGUIを開き、「パイプを設置」をクリックしてパイプを設置する。\n 最初の位置に不満があれば「位置をリセット」でリセットできる。\n 設置できる対応パイプの一覧はJEIで確認できる。
+## tectonic
+config.tectonic.option.snow_start_offset	雪の始まる高さのずらし: %s
+config.tectonic.option.vertical_scale	縦の倍率: %s
+config.tectonic.option.vertical_scale.tooltip	海面より上の地形を縦に引き伸ばす。この値を2倍にすると、ある地点の海面からの地表の高さが2倍になる。\n§c1.20ではゲームの再起動が必要！
+config.tectonic.option.elevation_boost	標高の強調: %s
+config.tectonic.option.min_y	最小Y: %s
+config.tectonic.option.max_y	最大Y: %s
+config.tectonic.option.ultrasmooth.tooltip	Tectonic v2のように地形を大幅になめらかにし、階段状の不自然さを取り除く。代わりに深海や吹きさらしのバイオームで奇妙な・壊れた生成になる。\n§c1.20ではゲームの再起動が必要！
+config.tectonic.option.ocean_offset	海のずらし: %s
+config.tectonic.option.continents_scale	大陸の規模: %s
+config.tectonic.option.erosion_scale	侵食の規模: %s
+config.tectonic.option.ridge_scale	尾根の規模: %s
+config.tectonic.option.flat_terrain_skew	平坦な地形の偏り: %s
+config.tectonic.option.noise_scale	ノイズの規模: %s
+config.tectonic.option.noise_multiplier	ノイズの倍率: %s
+config.tectonic.option.noise_offset	ノイズのずらし: %s
+config.tectonic.option.ocean_depth	海の深さ: %s
+config.tectonic.option.deep_ocean_depth	深海の深さ: %s
+config.tectonic.option.monument_offset	海底神殿のずらし: %s
+config.tectonic.option.temperature_multiplier.tooltip	気温のノイズを倍にし、極端に寒い/暑いバイオーム(雪のバイオーム、砂漠)が出やすくなる。
+config.tectonic.option.temperature_scale.tooltip	気温のノイズを横方向に拡大縮小する。値が小さいほど、気温の違うバイオーム同士の距離が広がる。
+config.tectonic.option.temperature_offset.tooltip	気温のノイズの平均値をずらす。値が大きいほど砂漠や暖かいバイオームが、小さいほど雪や寒いバイオームが増える。
+config.tectonic.option.vegetation_multiplier.tooltip	植生のノイズを倍にし、極端に乾いた/湿ったバイオーム(ヒマワリ平原、暗い森)が出やすくなる。
+config.tectonic.option.vegetation_scale.tooltip	植生のノイズを横方向に拡大縮小する。値が小さいほど、湿度の違うバイオーム同士(サバンナとジャングルなど)の距離が広がる。
+config.tectonic.option.vegetation_offset.tooltip	植生のノイズの平均値をずらす。値が大きいほど植物の多いバイオームが、小さいほど植物の少ないバイオームが増える。
+config.tectonic.option.depth_cutoff_start	深さの打ち切りの開始: %s
+config.tectonic.option.depth_cutoff_size	深さの打ち切りの幅: %s
+config.tectonic.option.cheese_additive	チーズ洞窟の加算値: %s
+config.tectonic.option.noodle_additive	ヌードル洞窟の加算値: %s

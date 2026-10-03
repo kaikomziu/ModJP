@@ -1,0 +1,202 @@
+## iceandfire
+biome.iceandfire.dread_forest	恐怖の森
+biome.iceandfire.dread_plain	恐怖の平原
+config.iceandfire.armors.dragonFireAbility	火の能力
+config.iceandfire.armors.dragonIceAbility	氷の能力
+config.iceandfire.armors.dragonLightningAbility	雷の能力
+config.iceandfire.armors.dragonLightningDamageReduction	雷ダメージの軽減
+config.iceandfire.armors.dragonLightningMaxSearchCount	雷の最大探索数
+config.iceandfire.armors.dragonLightningSearchRange	雷の探索範囲
+config.iceandfire.armors.dragonSteelBaseArmorToughness	基本の防具強度
+config.iceandfire.armors.dragonSteelBaseDurabilityEquipment	装備の基本耐久値
+config.iceandfire.dragon.generate.denChance	巣穴の生成確率
+config.iceandfire.dragon.generate.roostChance	ねぐらの生成確率
+config.iceandfire.gorgon.generateTemple	神殿を生成
+iceandfire.book.landing	これは表紙のテキストです。
+iceandfire.book.name	動物寓話集
+modmenu.descriptionTranslation.iceandfire	Ice And Fire の非公式Fabric版。\nマインクラフトにドラゴンなどの神話の生き物を追加する。
+modmenu.nameTranslation.iceandfire	Ice And Fire
+modmenu.summaryTranslation.iceandfire	Ice And Fire の非公式Fabric版。
+warning.iceandfire.dreadland.not_complete	恐怖の地はまだ未完成。中身が消えるバグは報告しないでください！
+## tectonic
+config.tectonic.category.general	一般
+config.tectonic.category.global_terrain	全体の地形
+config.tectonic.category.continents	大陸
+config.tectonic.category.islands	島
+config.tectonic.option.enabled	有効
+config.tectonic.option.enabled.tooltip	バニラの山岳地形の島が海に点在する。\n§6Terralithを入れていると火山が生成される！
+config.tectonic.category.oceans	海
+config.tectonic.category.biomes	バイオーム
+config.tectonic.option.temperature_multiplier	気温の倍率: %s
+config.tectonic.option.temperature_scale	気温の規模: %s
+config.tectonic.option.temperature_offset	気温のずらし: %s
+config.tectonic.option.vegetation_multiplier	植生の倍率: %s
+config.tectonic.option.vegetation_scale	植生の規模: %s
+config.tectonic.option.vegetation_offset	植生のずらし: %s
+config.tectonic.category.caves	洞窟
+pack_name.tectonic.tectonic/overlay.mod	Tectonic のMOD依存データ
+pack_name.tectonic.tectonic/overlay.terratonic	Terralith-Tectonic 連携データ
+pack_name.tectonic.tectonic/overlay.increased_height	Tectonic 建築上限640
+pack_name.tectonic.tectonic/overlay.increased_height_terratonic	Tectonic 建築上限640
+## jearchaeology
+jearchaeology.recipe.brush	ブラシがけ
+jearchaeology.recipe.sniff	スニッファーの嗅ぎ出し
+jearchaeology.brush.structure.desert_well	砂漠の井戸
+jearchaeology.brush.structure.desert_pyramid	砂漠のピラミッド
+jearchaeology.brush.structure.trail_ruins	旅路の遺跡
+jearchaeology.brush.structure.warm_ocean_ruin	暖かい海底遺跡
+jearchaeology.brush.structure.cold_ocean_ruin	冷たい海底遺跡
+jearchaeology.brush.structure.bastion	砦の遺跡 [ATM]
+jearchaeology.brush.structure.ancient_city	古代都市 [ATM]
+jearchaeology.brush.structure.buried_ruins_or_obelist	埋もれた遺跡と砂漠のオベリスク [BA]
+jearchaeology.brush.structure.archeologist_camp_sand	考古学者のキャンプ [BA]
+jearchaeology.brush.structure.archeologist_camp_redsand	考古学者のキャンプ [BA]
+jearchaeology.brush.structure.archeologist_camp_grassy	考古学者のキャンプ [BA]
+jearchaeology.brush.structure.underwater	水中 [BA]
+jearchaeology.brush.structure.plains_gravel	ストーンヘンジ [BA]
+jearchaeology.brush.structure.fossil_chicken	ニワトリの化石 [BA]
+jearchaeology.brush.structure.fossil_creeper	クリーパーの化石 [BA]
+jearchaeology.brush.structure.fossil_jungle	ヤマネコの化石 [BA]
+jearchaeology.brush.structure.fossil_sheep	ヒツジの化石 [BA]
+jearchaeology.brush.structure.fossil_villager	村人の化石 [BA]
+## ae2netanalyser
+itemGroup.ae2netanalyser	AE2 Network Analyzer
+item.ae2netanalyser.network_analyser	MEネットワークアナライザー
+gui.ae2netanalyser.network_analyser.mode	モード
+gui.ae2netanalyser.network_analyser.node_size	大きさ
+gui.ae2netanalyser.network_analyser.reset	色をリセット
+gui.ae2netanalyser.network_analyser.mode.FULL	すべて
+gui.ae2netanalyser.network_analyser.mode.NODES	ノード
+gui.ae2netanalyser.network_analyser.mode.CHANNELS	リンク
+gui.ae2netanalyser.network_analyser.mode.NONUM	数字なし
+gui.ae2netanalyser.network_analyser.mode.P2P	P2P
+gui.ae2netanalyser.network_analyser.LINK.NORMAL	通常のリンク
+gui.ae2netanalyser.network_analyser.LINK.DENSE	高密度のリンク
+gui.ae2netanalyser.network_analyser.LINK.COMPRESSED	P2Pのリンク
+gui.ae2netanalyser.network_analyser.NODE.NORMAL	通常のノード
+gui.ae2netanalyser.network_analyser.NODE.DENSE	高密度のノード
+gui.ae2netanalyser.network_analyser.NODE.MISSING	オフラインのノード
+gui.ae2netanalyser.network_analyser.channel.INFINITE	チャンネルモード: 無限チャンネル
+gui.ae2netanalyser.network_analyser.channel.DEFAULT	チャンネルモード: 初期設定
+gui.ae2netanalyser.network_analyser.channel.X2	チャンネルモード: 2倍のチャンネル
+gui.ae2netanalyser.network_analyser.channel.X3	チャンネルモード: 3倍のチャンネル
+gui.ae2netanalyser.network_analyser.channel.X4	チャンネルモード: 4倍のチャンネル
+gui.ae2netanalyser.network_analyser.state.normal_nodes	通常のノード: %s
+gui.ae2netanalyser.network_analyser.state.dense_nodes	高密度のノード: %s
+gui.ae2netanalyser.network_analyser.state.missing_nodes	オフラインのノード: %s
+## logisticsnetworks
+gui.logisticsnetworks.node.tip.redstone.always_off	転送しない
+gui.logisticsnetworks.filter.hint.ctrl_click	Ctrl+クリックで詳細設定
+gui.logisticsnetworks.filter.slot.title	スロットフィルター
+gui.logisticsnetworks.filter.slot.mode_label	モード
+gui.logisticsnetworks.filter.slot.mode	モード: %s
+gui.logisticsnetworks.filter.slot.input_hint	スロット: 0, 1, 2 や 4-9
+gui.logisticsnetworks.filter.slot.none	なし
+gui.logisticsnetworks.filter.slot.active	有効なスロット: %s
+gui.logisticsnetworks.filter.slot.hint	指定できる範囲: %s～%s(両端を含む)
+gui.logisticsnetworks.filter.slot.info.export.title	スロットフィルター: 搬出側
+gui.logisticsnetworks.filter.slot.info.export.p1	許可した搬出元スロットのアイテムだけを取り出せる。
+gui.logisticsnetworks.filter.slot.info.export.p2	ホワイトリスト: 指定したスロットだけを使う。ブラックリスト: 指定したスロット以外をすべて使う。
+gui.logisticsnetworks.filter.slot.info.import.title	スロットフィルター: 搬入側
+gui.logisticsnetworks.filter.slot.info.import.p1	許可した搬入先スロットにだけアイテムを入れられる。
+gui.logisticsnetworks.filter.slot.info.import.p2	ホワイトリスト: 指定したスロットにだけ入れる。ブラックリスト: 指定したスロット以外すべてに入れる。
+tooltip.logisticsnetworks.filter.deprecated.tag	タグでの絞り込みはフィルターの詳細ページに移った
+tooltip.logisticsnetworks.filter.deprecated.nbt	NBTでの絞り込みはフィルターの詳細ページに移った
+tooltip.logisticsnetworks.filter.deprecated.amount	数量での絞り込みはフィルターの詳細ページに移った
+gui.logisticsnetworks.filter.name.scope.tooltip	ツールチップ
+gui.logisticsnetworks.filter.name.scope.both	両方
+gui.logisticsnetworks.filter.detail.nbt.path	パスの選択
+gui.logisticsnetworks.filter.detail.nbt.none	パスなし
+tooltip.logisticsnetworks.filter.deprecated.durability	代わりにフィルタースロットをCtrl+左クリック
+tooltip.logisticsnetworks.filter.deprecated.slot	代わりにフィルタースロットをCtrl+左クリック
+## productivetrees
+block.productivetrees.advanced_osange_orange_beehive	オセージオレンジの高度な養蜂箱
+block.productivetrees.expansion_box_osange_orange	オセージオレンジの拡張箱
+block.productivetrees.osange_orange_bookshelf	オセージオレンジの本棚
+block.productivetrees.osange_orange_button	オセージオレンジのボタン
+block.productivetrees.osange_orange_crate	オセージオレンジの木箱
+block.productivetrees.osange_orange_door	オセージオレンジのドア
+block.productivetrees.osange_orange_fence	オセージオレンジのフェンス
+block.productivetrees.osange_orange_fence_gate	オセージオレンジのフェンスゲート
+block.productivetrees.osange_orange_fruit	オセージオレンジの実のなる葉
+block.productivetrees.osange_orange_hanging_sign	オセージオレンジの吊り看板
+block.productivetrees.osange_orange_leaves	オセージオレンジの葉
+block.productivetrees.osange_orange_log	オセージオレンジの原木
+block.productivetrees.osange_orange_planks	オセージオレンジの板材
+block.productivetrees.osange_orange_potted_sapling	オセージオレンジの苗木の鉢植え
+block.productivetrees.osange_orange_pressure_plate	オセージオレンジの感圧板
+block.productivetrees.osange_orange_sapling	オセージオレンジの苗木
+block.productivetrees.osange_orange_sign	オセージオレンジの看板
+block.productivetrees.osange_orange_slab	オセージオレンジのハーフブロック
+block.productivetrees.osange_orange_stairs	オセージオレンジの階段
+block.productivetrees.osange_orange_stripped_log	オセージオレンジの樹皮を剥いだ原木
+block.productivetrees.osange_orange_stripped_wood	オセージオレンジの樹皮を剥いだ木
+block.productivetrees.osange_orange_trapdoor	オセージオレンジのトラップドア
+block.productivetrees.osange_orange_wood	オセージオレンジの木
+item.productivetrees.osange_orange	オセージオレンジ
+item.productivetrees.upgrade_pollen_sieve	アップグレード: 花粉ふるい
+productivetrees.information.upgrade.upgrade_pollen_sieve	このアップグレードを巣箱に取り付けると、ハチが集めた花粉の一部がふるいにかけられて巣箱に入る。
+## justzoom
+justzoom.keybinds.category	Just Zoom
+justzoom.keybinds.keybind.zoom	ズーム
+justzoom.options	Just Zoom の設定
+justzoom.options.base_zoom_modifier	基本のズーム倍率:
+justzoom.options.base_zoom_modifier.desc	ズームを始めたときの視野の倍率。\n0.0～1.0の小数で指定する。\n小さいほど大きくズームする。
+justzoom.options.zoom_in_change_modifier_per_scroll	スクロールごとのズームイン変化量:
+justzoom.options.zoom_in_change_modifier_per_scroll.desc	スクロールしたときに視野の倍率がどれだけ変わるか。\n大きいほどズームがなめらかでなくなる。
+justzoom.options.zoom_out_change_modifier_per_scroll	スクロールごとのズームアウト変化量:
+justzoom.options.zoom_out_change_modifier_per_scroll.desc	スクロールしたときに視野の倍率がどれだけ変わるか。\n大きいほどズームがなめらかでなくなる。
+justzoom.options.smooth_zoom_in_out	なめらかなズーム: %s
+justzoom.options.smooth_zoom_in_out.desc	ズームイン/アウトのときに視野をなめらかに変えるか。
+justzoom.options.smooth_camera_movement_on_zoom	なめらかなカメラ移動: %s
+justzoom.options.smooth_camera_movement_on_zoom.desc	ズーム中にカメラをなめらかに(映画風に)動かすか。
+justzoom.options.normalize_mouse_sensitivity_on_zoom	マウス感度を調整: %s
+justzoom.options.normalize_mouse_sensitivity_on_zoom.desc	ズームした視界に合わせてマウス感度を自動で調整し、\nズーム中にマウスを動かしても速すぎず普段どおりに感じられるようにするか。
+justzoom.options.allow_zoom_in_mirrored_view	反転視点でのズームを許可: %s
+justzoom.options.allow_zoom_in_mirrored_view.desc	有効にすると、反転視点(自分の姿が見える視点)でもズームできる。
+justzoom.options.hide_arms_when_zooming	腕を隠す: %s
+justzoom.options.hide_arms_when_zooming.desc	有効にすると、ズーム中はプレイヤーの腕が見えなくなる。
+justzoom.options.reset_zoom_factor_when_stop_zooming	ズーム倍率をリセット: %s
+justzoom.options.reset_zoom_factor_when_stop_zooming.desc	有効にすると、ズームを始めるときに前回のズーム倍率から続けず、\n基本の値に戻す。
+justzoom.options.toggle.enabled	有効
+justzoom.options.toggle.disabled	無効
+justzoom.options.options_button_corner	設定ボタンの位置: %s
+justzoom.options.options_button_corner.desc	ポーズ画面のどの角にJust Zoomの設定ボタンを表示するか。\n\nボタンはJust Zoomのconfig.txtで完全に隠せる。
+justzoom.options.corner.bottom_left	左下
+justzoom.options.corner.bottom_right	右下
+justzoom.options.corner.top_left	左上
+justzoom.options.corner.top_right	右上
+## expatternprovider
+block.expatternprovider.wireless_hub	ME無線ハブ
+block.expatternprovider.assembler_matrix_glass	組立マトリックスガラス
+item.expatternprovider.wireless_advanced_tool	ME高度無線設定キット
+item.expatternprovider.ex_crafting_terminal	ME拡張型クラフトターミナル
+item.expatternprovider.wireless_ex_ct	無線拡張型クラフトターミナル
+wireless_advanced.mode	現在のモード: %s
+wireless_advanced.port_list	保存した接続 (%s/%s):
+wireless_advanced.mode.add	§b追加
+wireless_advanced.mode.use	§d使用
+wireless_advanced.mode.swapped	モードを切り替えた: %s
+gui.expatternprovider.precise_export_bus.exact	正確な量
+gui.expatternprovider.precise_export_bus.batch	まとめて出力
+gui.expatternprovider.precise_storage_bus.default	初期設定
+gui.expatternprovider.precise_storage_bus.greater_equal	以上を表示
+gui.expatternprovider.precise_storage_bus.greater	より多いものを表示
+gui.expatternprovider.precise_storage_bus.equal	等しいものを表示
+gui.expatternprovider.precise_storage_bus.less	より少ないものを表示
+gui.expatternprovider.precise_storage_bus.less_equal	以下を表示
+gui.expatternprovider.wireless_hub	ME無線ハブ
+gui.expatternprovider.ex_crafting_terminal	拡張型クラフトターミナル
+gui.expatternprovider.mode.crafting	クラフト
+gui.expatternprovider.mode.stonecutter	石切台
+gui.expatternprovider.mode.smithing	鍛冶
+gui.expatternprovider.mode.anvil	金床
+gui.expatternprovider.anvil.not_enough_xp	経験値が足りない
+gui.wireless_hub.disconnect.tooltip	切断
+gui.wireless_hub.empty_port.tooltip	空きポート
+chat.wireless_connect.out_of_port	無線ハブに空きポートがない
+chat.wireless_added	リストに追加した X: %s, Y: %s, Z: %s
+chat.wireless_advanced_queue_limit	キューには%s件より多く追加できない
+chat.wireless_advanced_duplicate	§4同じ接続器は追加できない
+jade.wireless_connector.used	使用中のチャンネル: %s
+key.ae2.wireless_ex_crafting_terminal	無線拡張型クラフトターミナルを開く

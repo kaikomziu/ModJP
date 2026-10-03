@@ -1,0 +1,7 @@
+{
+  "block.easy_piglins.barterer": "物々交換機",
+  "itemGroup.easy_piglins": "Easy Piglins",
+  "gui.easy_piglins.input_items": "投入アイテム",
+  "gui.easy_piglins.output_items": "排出アイテム",
+  "message.easy_piglins.cant_pick_up": "敵対中や作業中のピグリンは拾えない"
+}

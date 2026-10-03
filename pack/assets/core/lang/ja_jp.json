@@ -1,0 +1,20 @@
+{
+  "block.core.colored_block": "色付きブロック",
+  "color.core.white": "白色",
+  "color.core.black": "黒色",
+  "color.core.red": "赤色",
+  "color.core.green": "緑色",
+  "color.core.blue": "青色",
+  "color.core.yellow": "黄色",
+  "color.core.purple": "紫色",
+  "color.core.orange": "橙色",
+  "color.core.cyan": "青緑色",
+  "color.core.gray": "灰色",
+  "color.core.brown": "茶色",
+  "color.core.pink": "桃色",
+  "color.core.lime": "黄緑色",
+  "color.core.light_blue": "空色",
+  "color.core.magenta": "赤紫色",
+  "color.core.light_gray": "薄灰色",
+  "color.core.lit": "点灯"
+}

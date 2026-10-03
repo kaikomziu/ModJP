@@ -1,9 +1,0 @@
-{
-  "attribute.name.block_break_speed.desc": "通常と比べてどれだけ速くブロックを掘れるか。",
-  "attribute.name.burning_time.desc": "通常と比べてどれだけ長く燃えるか。",
-  "attribute.name.fall_damage_multiplier.desc": "落下ダメージがどれだけ増えるか。",
-  "attribute.name.jump_strength.desc": "どれだけうまくジャンプできるか。",
-  "attribute.name.max_absorption.desc": "衝撃吸収のハートが自然に何個まで回復するか。",
-  "apothic_attributes:cooldown_reduction": "クールダウン短縮",
-  "apothic_attributes:cooldown_reduction.desc": "発動する能力や効果のクールダウンを短くする。クールダウンには⌛の記号が使われる。"
-}

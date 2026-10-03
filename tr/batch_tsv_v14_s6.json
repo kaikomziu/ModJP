@@ -140,9 +140,6 @@
   "weather.inworldrecipes.snow": "雪"
  },
  "railcraft": {
-  "entity.railcraft.villager.cartman": "トロッコ職人",
-  "entity.railcraft.villager.trackman": "線路工",
-  "key.category.railcraft.default": "Railcraft Reborn",
   "tips.railcraft.distant_signal": "連結したコントローラーの信号の表示を映す",
   "tips.railcraft.manipulator.redstone_mode.complete.desc": "作業が完了するまで処理する。",
   "tips.railcraft.manipulator.redstone_mode.immediate": "即時",

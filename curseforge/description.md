@@ -1,7 +1,7 @@
 # ModJP - Japanese Translation Pack for Mods
 
 **A resource pack that translates English-only mod text into Japanese.**
-For Minecraft 1.20.1 / Forge. Adds Japanese translations for **478 mods (about 93,000 strings)**.
+For Minecraft 1.20.1 / Forge. Adds Japanese translations for **476 mods (about 94,000 strings)**.
 
 ---
 
@@ -12,7 +12,7 @@ For Minecraft 1.20.1 / Forge. Adds Japanese translations for **478 mods (about 9
 - **Never overrides official Japanese translations**
   Japanese translations already bundled with a mod are kept as they are. This pack only fills in the missing entries.
 - **Mods you don't have are simply ignored**
-  You don't need all 478 mods installed. Only the mods you actually have are translated.
+  You don't need all 476 mods installed. Only the mods you actually have are translated.
 - **Checked for display issues**
   Formatting codes such as `%s`, color codes (§) and line breaks are verified to match the original text exactly.
 
@@ -26,18 +26,20 @@ For Minecraft 1.20.1 / Forge. Adds Japanese translations for **478 mods (about 9
 
 ## Main supported mods
 
-A partial list, ordered by the number of added translations. The full list of all 478 mods is in `説明書.txt` (manual) inside the zip.
+A partial list, ordered by the number of added translations. The full list of all 476 mods is in `説明書.txt` (manual) inside the zip.
 
 | Mod | Added translations |
 |---|---|
+| Chisel | 10,277 |
 | Chipped | 7,258 |
+| Productive Trees | 3,698 |
 | Rechiseled | 3,656 |
-| Neo Vitae | 3,055 |
+| Neo Vitae | 3,052 |
 | Tetra | 2,613 |
 | Theurgy | 2,376 |
 | PneumaticCraft: Repressurized | 2,029 |
 | Integrated Dynamics | 1,753 |
-| The Aether II | 1,687 |
+| The Aether II | 1,660 |
 | Simply Swords | 1,630 |
 | Steam 'n' Rails | 1,614 |
 | Item Descriptions | 1,545 |
@@ -48,10 +50,8 @@ A partial list, ordered by the number of added translations. The full list of al
 | Productive Bees | 1,036 |
 | ChemLib | 1,022 |
 | All The Compressed | 983 |
-| Ice and Fire | 683 |
-| Logistics Networks | 676 |
 
-It also covers many mods from the ATM8 and ATM11 packs, including AE2 addons, Mekanism addons, RFTools, Botania addons, Ars Nouveau addons and Hex Casting addons.
+It also covers many mods from the ATM8 and ATM11 packs, including Easy NPC, Forbidden & Arcanus, AE2 addons, Mekanism addons, RFTools, Botania addons, Ars Nouveau addons and Hex Casting addons.
 
 ## FAQ
 
@@ -74,7 +74,7 @@ GitHub: https://github.com/kaikomziu/ModJP
 # MOD日本語化パック (ModJP)
 
 **英語のまま表示されているMODの文字を、日本語にするリソースパックです。**
-Minecraft 1.20.1 / Forge 向け。**478 MOD・約9.3万項目**に日本語訳を追加します。
+Minecraft 1.20.1 / Forge 向け。**476 MOD・約9.4万項目**に日本語訳を追加します。
 
 ## 特徴
 
@@ -83,7 +83,7 @@ Minecraft 1.20.1 / Forge 向け。**478 MOD・約9.3万項目**に日本語訳�
 - **公式の日本語訳は上書きしません**
   MODにもともと入っている日本語訳はそのまま使い、足りない部分だけを補います。
 - **入っていないMODの分は自動で無視されます**
-  478 MOD全部を入れていなくても、入っているMODの分だけ日本語になります。
+  476 MOD全部を入れていなくても、入っているMODの分だけ日本語になります。
 - **表示崩れのチェック済み**
   `%s` や色コード(§)、改行の数など、ゲーム内の表示に関わる記号はすべて原文と一致するよう検査しています。
 
@@ -97,8 +97,8 @@ Minecraft 1.20.1 / Forge 向け。**478 MOD・約9.3万項目**に日本語訳�
 
 ## 主な対応MOD
 
-上の英語欄の表と同じです。全478 MODの一覧は zip 同梱の `説明書.txt` を見てください。
-ATM8・ATM11 系の MOD(AE2 アドオン、Mekanism アドオン、RFTools、Botania アドオン、Ars Nouveau アドオン、Hex Casting アドオンなど)を多数カバーしています。
+上の英語欄の表と同じです。全476 MODの一覧は zip 同梱の `説明書.txt` を見てください。
+ATM8・ATM11 系の MOD(Easy NPC、Forbidden & Arcanus、AE2 アドオン、Mekanism アドオン、RFTools、Botania アドオン、Ars Nouveau アドオン、Hex Casting アドオンなど)を多数カバーしています。
 
 ## よくある質問
 

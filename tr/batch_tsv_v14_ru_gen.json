@@ -1,36 +1,3 @@
 {
- "regions_unexplored": {
-  "entity.regions_unexplored.baobab_boat": "バオバブのボート",
-  "entity.regions_unexplored.baobab_chest_boat": "チェスト付きのバオバブのボート",
-  "entity.regions_unexplored.blackwood_boat": "黒い木のボート",
-  "entity.regions_unexplored.blackwood_chest_boat": "チェスト付きの黒い木のボート",
-  "entity.regions_unexplored.cypress_boat": "ヒノキのボート",
-  "entity.regions_unexplored.cypress_chest_boat": "チェスト付きのヒノキのボート",
-  "entity.regions_unexplored.dead_boat": "枯れた木のボート",
-  "entity.regions_unexplored.dead_chest_boat": "チェスト付きの枯れた木のボート",
-  "entity.regions_unexplored.eucalyptus_boat": "ユーカリのボート",
-  "entity.regions_unexplored.eucalyptus_chest_boat": "チェスト付きのユーカリのボート",
-  "entity.regions_unexplored.joshua_boat": "ジョシュアのボート",
-  "entity.regions_unexplored.joshua_chest_boat": "チェスト付きのジョシュアのボート",
-  "entity.regions_unexplored.kapok_boat": "カポックのボート",
-  "entity.regions_unexplored.kapok_chest_boat": "チェスト付きのカポックのボート",
-  "entity.regions_unexplored.larch_boat": "カラマツのボート",
-  "entity.regions_unexplored.larch_chest_boat": "チェスト付きのカラマツのボート",
-  "entity.regions_unexplored.magnolia_boat": "モクレンのボート",
-  "entity.regions_unexplored.magnolia_chest_boat": "チェスト付きのモクレンのボート",
-  "entity.regions_unexplored.maple_boat": "カエデのボート",
-  "entity.regions_unexplored.maple_chest_boat": "チェスト付きのカエデのボート",
-  "entity.regions_unexplored.palm_boat": "ヤシのボート",
-  "entity.regions_unexplored.palm_chest_boat": "チェスト付きのヤシのボート",
-  "entity.regions_unexplored.pine_boat": "マツのボート",
-  "entity.regions_unexplored.pine_chest_boat": "チェスト付きのマツのボート",
-  "entity.regions_unexplored.redwood_boat": "セコイアのボート",
-  "entity.regions_unexplored.redwood_chest_boat": "チェスト付きのセコイアのボート",
-  "entity.regions_unexplored.socotra_boat": "リュウケツジュのボート",
-  "entity.regions_unexplored.socotra_chest_boat": "チェスト付きのリュウケツジュのボート",
-  "entity.regions_unexplored.willow_boat": "ヤナギのボート",
-  "entity.regions_unexplored.willow_chest_boat": "チェスト付きのヤナギのボート",
-  "entity.regions_unexplored.wisteria_boat": "フジのボート",
-  "entity.regions_unexplored.wisteria_chest_boat": "チェスト付きのフジのボート"
- }
+ "regions_unexplored": {}
 }

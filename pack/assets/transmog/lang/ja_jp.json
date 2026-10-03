@@ -1,7 +1,6 @@
 {
   "block.transmog.transmogrification_table": "トランスモグの作業台",
   "item.transmog.void_fragment": "虚空のかけら",
-  "tag.item.transmog.transmog_fuels": "トランスモグの燃料",
   "transmog.config.disable_during_pvp_duration": "PvP中は無効にする",
   "transmog.config.disable_during_pvp_duration.label": "%d秒",
   "transmog.config.disable_during_pvp_duration.tooltip": "他のプレイヤーを攻撃したり攻撃されたりしたとき、一定時間トランスモグの描画を無効にする。0でPvPを無視する。",

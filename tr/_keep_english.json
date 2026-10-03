@@ -754,20 +754,17 @@
   "action.irons_jewelry.apply_effect.description_instantaneous": "記号・アイコン・型番のみ"
  },
  "logisticsnetworks": {
+  "gui.logisticsnetworks.node.page_info": "記号・アイコン・型番のみ",
+  "gui.logisticsnetworks.filter.info.icon": "記号・アイコン・型番のみ",
   "gui.logisticsnetworks.computer.nodes_unknown": "記号・アイコン・型番のみ",
   "gui.logisticsnetworks.computer.telemetry.unit.items": "記号・アイコン・型番のみ",
-  "gui.logisticsnetworks.computer.position": "記号・アイコン・型番のみ",
-  "gui.logisticsnetworks.node.sort.az": "記号・アイコン・型番のみ",
-  "gui.logisticsnetworks.node.sort.za": "記号・アイコン・型番のみ",
-  "gui.logisticsnetworks.node.page_info": "記号・アイコン・型番のみ",
-  "gui.logisticsnetworks.filter.info.icon": "記号・アイコン・型番のみ"
+  "gui.logisticsnetworks.computer.position": "記号・アイコン・型番のみ"
  },
  "mekalights": {
   "mekalights.gui.decrease": "記号・アイコン・型番のみ",
   "mekalights.gui.increase": "記号・アイコン・型番のみ"
  },
  "mffs": {
-  "info.mffs.entity_identity": "記号・アイコン・型番のみ",
   "screen.mffs.fortron.value": "記号・アイコン・型番のみ",
   "screen.mffs.fortron_cost": "記号・アイコン・型番のみ"
  },
@@ -1054,10 +1051,7 @@
  "pipe_connector": {
   "item.pipe_connector.gui.button.infoSign": "記号・アイコン・型番のみ",
   "item.pipe_connector.gui.button.on": "記号・アイコン・型番のみ",
-  "item.pipe_connector.gui.button.off": "記号・アイコン・型番のみ",
-  "item.pipe_connector.gui.button.increaseDepth": "記号・アイコン・型番のみ",
-  "item.pipe_connector.gui.button.decreaseDepth": "記号・アイコン・型番のみ",
-  "item.pipe_connector.gui.button.confirmDepth": "記号・アイコン・型番のみ"
+  "item.pipe_connector.gui.button.off": "記号・アイコン・型番のみ"
  },
  "productivefarming": {
   "tooltip.productivefarming.black_truffle.latin": "樹木の学名(ラテン語)",
@@ -1083,7 +1077,6 @@
   "block.productivetrees.balsa.latin": "樹木の学名(ラテン語)",
   "block.productivetrees.balsam_fir.latin": "樹木の学名(ラテン語)",
   "block.productivetrees.banana.latin": "樹木の学名(ラテン語)",
-  "block.productivetrees.bay_leaf.latin": "樹木の学名(ラテン語)",
   "block.productivetrees.beech.latin": "樹木の学名(ラテン語)",
   "block.productivetrees.beliy_naliv_apple.latin": "樹木の学名(ラテン語)",
   "block.productivetrees.black_cherry.latin": "樹木の学名(ラテン語)",
@@ -1165,7 +1158,7 @@
   "block.productivetrees.old_fustic.latin": "樹木の学名(ラテン語)",
   "block.productivetrees.olive.latin": "樹木の学名(ラテン語)",
   "block.productivetrees.orange.latin": "樹木の学名(ラテン語)",
-  "block.productivetrees.osage_orange.latin": "樹木の学名(ラテン語)",
+  "block.productivetrees.osange_orange.latin": "樹木の学名(ラテン語)",
   "block.productivetrees.padauk.latin": "樹木の学名(ラテン語)",
   "block.productivetrees.pandanus.latin": "樹木の学名(ラテン語)",
   "block.productivetrees.papaya.latin": "樹木の学名(ラテン語)",
@@ -1237,9 +1230,6 @@
  "tetra": {
   "enchantment.level.50": "記号・アイコン・型番のみ",
   "enchantment.level.100": "記号・アイコン・型番のみ"
- },
- "trophymanager": {
-  "gui.trophy.rotation": "記号・アイコン・型番のみ"
  },
  "vampirismguide": {
   "guide.vampirism.overview.trouble.text": "GuideAPI-VP未導入のため表示されないガイド本文",

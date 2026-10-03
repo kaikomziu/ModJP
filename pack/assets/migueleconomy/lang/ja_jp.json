@@ -1,0 +1,22 @@
+{
+  "item.migueleconomy.money": "お金",
+  "item.migueleconomy.money.tooltip.value": "価値: $%d",
+  "item.migueleconomy.money.tooltip.redeem": "右クリックで換金",
+  "creativetab.migueleconomy.economy": "Miguel Economy",
+  "message.migueleconomy.auction.listed_personal": "✓ $%sで出品した",
+  "message.migueleconomy.auction.listed_broadcast": "%s x%sがオークションに出品された",
+  "message.migueleconomy.auction.buy_success": "✓ %sを$%sで購入した",
+  "message.migueleconomy.auction.item_sold": "✓ %sが$%sで%sに売れた",
+  "message.migueleconomy.auction.sold_broadcast": "%sが%s x%sを$%sで購入した",
+  "message.migueleconomy.auction.cannot_buy_own": "自分のアイテムは購入できない！",
+  "message.migueleconomy.auction.insufficient_funds": "$%s必要だが、所持金は$%sしかない",
+  "message.migueleconomy.auction.seller_offline": "出品者はもうオンラインではない",
+  "message.migueleconomy.auction.already_sold": "このアイテムはすでに売れた",
+  "message.migueleconomy.daily.claimed": "デイリー報酬の$%sを受け取った！",
+  "message.migueleconomy.daily.claimed_auto": "自動デイリー報酬の$%sを受け取った！",
+  "message.migueleconomy.daily.disabled": "デイリー報酬は現在無効になっている。",
+  "message.migueleconomy.daily.already_claimed": "今日の報酬はもう受け取った。%s後にまた来てね。",
+  "message.migueleconomy.daily.auto_status": "自動デイリー報酬が有効。次の報酬まであと%s。",
+  "message.migueleconomy.daily.auto_waiting": "自動デイリー報酬が有効。再参加すると今日の報酬を受け取れる。",
+  "message.migueleconomy.daily.player_only": "このコマンドはプレイヤーしか実行できない。"
+}

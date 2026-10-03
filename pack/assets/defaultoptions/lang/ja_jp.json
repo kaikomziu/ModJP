@@ -1,9 +1,9 @@
 {
-  "defaultoptions.configuration.title": "Default Options",
-  "defaultoptions.configuration.defaultDifficulty": "初期の難易度",
-  "defaultoptions.configuration.defaultDifficulty.tooltip": "新しく作るワールドで選ばれる初期の難易度。",
-  "defaultoptions.configuration.lockDifficulty": "難易度を固定",
-  "defaultoptions.configuration.lockDifficulty.tooltip": "新しいワールドの難易度を指定した初期値に固定するならtrueにする。外部のツールなしではプレイヤーが固定を解除できない！たぶん悪い考え。おすすめしない。なぜこの設定を追加しているんだろう？",
-  "defaultoptions.configuration.defaultResourcePacks": "初期のリソースパック",
-  "defaultoptions.configuration.defaultResourcePacks.tooltip": "初回起動時に有効にしておくリソースパックのID。"
+  "config.defaultoptions.title": "Default Options",
+  "config.defaultoptions.defaultDifficulty": "初期の難易度",
+  "config.defaultoptions.defaultDifficulty.tooltip": "新しく作るワールドで最初に選ばれている難易度。",
+  "config.defaultoptions.lockDifficulty": "難易度を固定",
+  "config.defaultoptions.lockDifficulty.tooltip": "trueにすると、新しいワールドの難易度を指定の初期値で固定する。外部ツールなしではプレイヤーが解除できない！たぶん悪い考え。おすすめしない。なんでこの設定を足してるんだろう？",
+  "config.defaultoptions.defaultResourcePacks": "初期のリソースパック",
+  "config.defaultoptions.defaultResourcePacks.tooltip": "初回起動時に最初から有効にするリソースパックのID。"
 }

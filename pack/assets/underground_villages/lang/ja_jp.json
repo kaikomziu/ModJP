@@ -1,9 +1,0 @@
-{
-  "text.autoconfig.underground_villages.option.generation": "生成",
-  "text.autoconfig.underground_villages.option.generation.yLevel": "Y座標",
-  "text.autoconfig.underground_villages.title": "Underground Villages",
-  "underground_villages.configuration.Generation": "生成",
-  "underground_villages.configuration.Generation.tooltip": "生成の設定",
-  "underground_villages.configuration.yLevel": "Y座標",
-  "underground_villages.configuration.yLevel.tooltip": "村を生成しようとするY座標"
-}

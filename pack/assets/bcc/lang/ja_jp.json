@@ -1,4 +1,4 @@
 {
-  "bcc.gui.tooltip.compatible_server": "§3サーバー: %s\n§2クライアント(あなた): %s",
-  "bcc.gui.tooltip.incompatible_server": "§6サーバーと同じバージョンの\n§6MODパックを使っていない :(\n \n§4サーバー: %s\n§4クライアント(あなた): %s"
+  "bcc.gui.tooltip.compatible_server": "§3サーバー: {0}\n§2クライアント(あなた): {1}",
+  "bcc.gui.tooltip.incompatible_server": "§6サーバーと同じバージョンのMODパックを使っていない :(\n \n§4サーバー: {0}\n§4クライアント(あなた): {1}"
 }
