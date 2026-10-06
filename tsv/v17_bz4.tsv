@@ -1,0 +1,121 @@
+## the_bumblezone
+system.the_bumblezone.denied_jetpack	反技術魔法が発動 - ジェットパックは無効化された
+system.the_bumblezone.denied_jet_boots	反技術魔法が発動 - ジェットブーツは無効化された
+system.the_bumblezone.denied_mek_jetpack_module	反技術魔法が発動 - ジェットパックモジュール
+system.the_bumblezone.denied_mek_grav_module	反技術魔法が発動 - 重力モジュール
+system.the_bumblezone.royal_jelly_bottle.cannot_take_from_source_block	液体を無駄にしないで！代わりにバケツを使って！
+essence.the_bumblezone.missing_essence_effect	先にハチの精髄を使う必要がある…
+essence.the_bumblezone.red_essence_event	§c激怒の精髄§f - あと%sで§c失敗§f
+essence.the_bumblezone.purple_essence_event	§d知恵の精髄§f - あと%sで§6勝利§f
+essence.the_bumblezone.blue_essence_event	§b平穏の精髄§f - あと%sで§c失敗§f
+essence.the_bumblezone.green_essence_event	§a生命の精髄§f - あと%sで§c失敗§f
+essence.the_bumblezone.yellow_essence_event	§e光輝の精髄§f - あと%sで§c失敗§f
+essence.the_bumblezone.white_essence_event	継続の精髄 - あと%sで§c失敗§f
+container.the_bumblezone.crystalline_flower	消費してエンチャント
+container.the_bumblezone.crystalline_flower.level	レベル: %s
+container.the_bumblezone.crystalline_flower.level_star	★
+container.the_bumblezone.crystalline_flower.tier_cost	ティアのコスト: %s
+container.the_bumblezone.crystalline_flower.tier_cost_arrow	↓%s
+container.the_bumblezone.crystalline_flower.too_many_enchants	エンチャントの上限\n(3つ)に達した！
+container.the_bumblezone.crystalline_flower.too_many_enchants_marker	！
+container.the_bumblezone.crystalline_flower.search	検索…
+container.the_bumblezone.crystalline_flower.sort_alphabetically	表示名で並べ替え
+container.the_bumblezone.crystalline_flower.sort_namespace	名前空間(MOD ID)で並べ替え
+container.the_bumblezone.crystalline_flower.sort_treasure_curse	宝/呪いで並べ替え
+container.the_bumblezone.crystalline_flower.sort_level	レベルで並べ替え
+buzzing_briefcase.the_bumblezone.bee_typing.normal	通常
+buzzing_briefcase.the_bumblezone.bee_typing.unknown	不明
+buzzing_briefcase.the_bumblezone.bee_typing.redtail_bee	赤い尾のハチ
+buzzing_briefcase.the_bumblezone.bee_typing.green_bee	緑のハチ
+buzzing_briefcase.the_bumblezone.bee_typing.blue_bee	青いハチ
+buzzing_briefcase.the_bumblezone.bee_typing.white_bee	白いハチ
+buzzing_briefcase.the_bumblezone.bee_typing.ukraine_bee	ウクライナのハチ
+buzzing_briefcase.the_bumblezone.bee_typing.trans_bee	トランスのハチ
+buzzing_briefcase.the_bumblezone.bee_typing.asexual_bee	アセクシュアルのハチ
+buzzing_briefcase.the_bumblezone.bee_typing.agender_bee	アジェンダーのハチ
+buzzing_briefcase.the_bumblezone.bee_typing.aroace_bee	アロエースのハチ
+buzzing_briefcase.the_bumblezone.bee_typing.aromantic_bee	アロマンティックのハチ
+buzzing_briefcase.the_bumblezone.bee_typing.bisexual_bee	バイセクシュアルのハチ
+buzzing_briefcase.the_bumblezone.bee_typing.pan_bee	パンセクシュアルのハチ
+buzzing_briefcase.the_bumblezone.bee_typing.enby_bee	ノンバイナリーのハチ
+buzzing_briefcase.the_bumblezone.bee_typing.reverse_bee	反転したハチ
+buzzing_briefcase.the_bumblezone.bee_typing.neapolitan_bee	ナポリタンアイスのハチ
+buzzing_briefcase.the_bumblezone.bee_typing.rainbow_bee	虹色のハチ
+command.the_bumblezone.invalid_data_arg	data引数が無効。候補から選んでください。
+command.the_bumblezone.invalid_entity_arg	このデータの要求にはentity引数が必要。候補からエンティティを選んでください。
+command.the_bumblezone.data_change_success	対象プレイヤーのデータを変更した！
+command.the_bumblezone.have_bee_essence	%sにはハチの精髄が宿っている！
+command.the_bumblezone.does_not_have_bee_essence	%sにはハチの精髄が宿っていない…
+command.the_bumblezone.queens_desired_not_active	このコマンドを使うには、%sが先に「女王の望み」の進捗を始める必要がある…
+command.the_bumblezone.queens_desired_crafted_beehive	%sは「女王の望み」の進捗のために養蜂箱を%s個作った
+command.the_bumblezone.queens_desired_bees_bred	%sは「女王の望み」の進捗のためにミツバチを%s匹繁殖させた
+command.the_bumblezone.queens_desired_flowers_spawned	%sは「女王の望み」の進捗のために、投げた花粉球から花を%s本咲かせた
+command.the_bumblezone.queens_desired_honey_bottle_drank	%sは「女王の望み」の進捗のためにハチミツ入り瓶を%s本飲んだ
+command.the_bumblezone.queens_desired_bee_stingers_fired	%sは「女王の望み」の進捗のために、弓/クロスボウでミツバチの針を%s本撃った
+command.the_bumblezone.queens_desired_bee_saved	%sは「女王の望み」の進捗のために、針を戻してミツバチを%s匹救った
+command.the_bumblezone.queens_desired_pollen_puff_hits	%sは「女王の望み」の進捗のために、投げた花粉球をモブに%s回当てた
+command.the_bumblezone.queens_desired_honey_slime_bred	%sは「女王の望み」の進捗のために新しいハニースライムを%s匹繁殖させた
+command.the_bumblezone.queens_desired_bees_fed	%sは「女王の望み」の進捗のために、ハチミツ系のアイテムをミツバチに%s回与えた
+command.the_bumblezone.queens_desired_queen_bee_trade	%sは「女王の望み」の進捗のために女王バチと%s回取引した
+command.the_bumblezone.queens_desired_killed_entity_counter	%1$sは「女王の望み」の進捗のために%2$s体の%3$sを倒した
+command.the_bumblezone.queens_desired_killed_entity_counter_ender_dragon	%1$sは「女王の望み」の進捗のために、ハチの防具を4つ着て%2$s体の%3$sを倒した
+command.the_bumblezone.queens_desired_killed_entity_counter_wither	%1$sは「女王の望み」の進捗のために、ミツバチの針の槍で%2$s体の%3$sを倒した
+advancements.the_bumblezone.wiki.title	バンブルゾーンWikiのURL
+advancements.the_bumblezone.wiki.description	www.github.com/TelepathicGrunt/Bumblezone/wiki
+advancements.the_bumblezone.is_near_beehive.title	ハチのディメンションが待っている！
+advancements.the_bumblezone.is_near_beehive.description	養蜂箱かハチの巣に大胆に近づく
+advancements.the_bumblezone.pollen_puff_mooshroom.title	キノコも花も同じようなもの
+advancements.the_bumblezone.pollen_puff_mooshroom.description	ムーシュルームに受粉させてキノコを生やす！
+advancements.the_bumblezone.sleep_in_bed.title	甘い夢を！
+advancements.the_bumblezone.sleep_in_bed.description	バンブルゾーンのディメンションでベッドで寝る。ベッドでリスポーン地点が設定され、爆発もしない！
+advancements.the_bumblezone.getting_protection.title	好意を勝ち取る
+advancements.the_bumblezone.getting_protection.description	幼虫入りの巣房ハニカムブロックかミツバチに餌をあげて、ハチの巣の守人の効果を得る！
+advancements.the_bumblezone.honey_permission.title	もう怒りはない！友情だけ！
+advancements.the_bumblezone.honey_permission.description	ハチの巣の守人の効果があるうちに、満たされた多孔質ハニカムブロックからハチミツを取るか、ハチミツブロックを掘る。
+advancements.the_bumblezone.obtain_glistering_honey_crystal_block.title	光あれ！
+advancements.the_bumblezone.obtain_glistering_honey_crystal_block.description	きらめくハニークリスタルを壊さずにアイテムとして手に入れる。やさしく触れる必要があるかも…
+advancements.the_bumblezone.brew_glistering_honey_crystal_block.title	確率のズル！
+advancements.the_bumblezone.brew_glistering_honey_crystal_block.description	幸運のポーションを醸造する！きらめくハニークリスタルが役に立つかも…
+advancements.the_bumblezone.craft_string_curtain_recipe.title	60年代後半の逆襲！
+advancements.the_bumblezone.craft_string_curtain_recipe.description	どれかの糸のカーテンを作る！
+advancements.the_bumblezone.obtain_all_string_curtains.title	虹色のカーテン！！！
+advancements.the_bumblezone.obtain_all_string_curtains.description	レシピに染料を使って、糸のカーテンを全色集める
+advancements.the_bumblezone.extend_string_curtains.title	ハチよけの壁
+advancements.the_bumblezone.extend_string_curtains.description	糸を持って右クリックしてカーテンを下に伸ばす！ハチもさえぎる！
+advancements.the_bumblezone.variant_bee_name.title	色違い発見！
+advancements.the_bumblezone.variant_bee_name.description	名札でバンブルゾーンの変種のミツバチに名前を付ける！ミツバチだけど見た目が違う！
+advancements.the_bumblezone.variant_bee_briefcase_capture.title	ハチコレクター
+advancements.the_bumblezone.variant_bee_briefcase_capture.description	変種のミツバチを14匹ブンブンかばんに集める！違う変種である必要はない。
+advancements.the_bumblezone.enter_sempiternal_sanctum.title	古代の起源
+advancements.the_bumblezone.enter_sempiternal_sanctum.description	ハチの精髄を使った後、どれかの永遠の聖域を見つけて入る
+advancements.the_bumblezone.enter_throne_pillar.title	王の御前
+advancements.the_bumblezone.enter_throne_pillar.description	玉座の柱を見つけて入る！(ほかの構造物にある玉座を指すコンパスを使おう)
+advancements.the_bumblezone.fish_rare_loot.title	ハチ強い釣り
+advancements.the_bumblezone.fish_rare_loot.description	バンブルゾーンのディメンションでレアなお宝を釣り上げる！
+advancements.the_bumblezone.consume_bee_soup.title	チクッとする珍味
+advancements.the_bumblezone.consume_bee_soup.description	ハチのスープをすすって、とんでもない効果を受ける！
+advancements.the_bumblezone.dirt_pellet_return_to_sender.title	土の返品
+advancements.the_bumblezone.dirt_pellet_return_to_sender.description	土の弾をルートミンに打ち返す
+advancements.the_bumblezone.dirt_pellet_kill_phantom.title	空中撃墜
+advancements.the_bumblezone.dirt_pellet_kill_phantom.description	投げた土の弾でファントムを倒す
+advancements.the_bumblezone.rootmin_flower_swap.title	花のおすそ分け
+advancements.the_bumblezone.rootmin_flower_swap.description	ハチの防具を着て、小さな花か背の高い花を持ってルートミンを右クリックする
+advancements.the_bumblezone.rootmin_rainbow_name.title	これはどういう意味だ？！
+advancements.the_bumblezone.rootmin_rainbow_name.description	名札でルートミンに「jeb_」と名前を付ける
+advancements.the_bumblezone.buzzing_briefcase_full.title	これは何？…
+advancements.the_bumblezone.buzzing_briefcase_full.description	ブンブンかばんでミツバチを右クリックして満杯にする
+advancements.the_bumblezone.buzzing_briefcase_heal.title	お医者さんはいますよ！
+advancements.the_bumblezone.buzzing_briefcase_heal.description	ブンブンかばんの中のミツバチを回復する！(Shift+右クリックで画面を開く)
+advancements.the_bumblezone.buzzing_briefcase_release.title	巣のスーパーヒーロー！
+advancements.the_bumblezone.buzzing_briefcase_release.description	ブロックかエンティティを左クリックして、ブンブンかばんからミツバチを放す。(Shift+左クリックですべて放す)
+advancements.the_bumblezone.brush_pollen_pollen_suspicious.title	奇妙な遺物…
+advancements.the_bumblezone.brush_pollen_pollen_suspicious.description	怪しげな積もった花粉をブラシで払う
+advancements.the_bumblezone.obtain_windy_air.title	置けるジェット気流！
+advancements.the_bumblezone.obtain_windy_air.description	ブロックとして置ける風の吹く空気のアイテムを女王バチからもらう！
+advancements.the_bumblezone.craft_flower_headwear.title	花になれ！
+advancements.the_bumblezone.craft_flower_headwear.description	花の髪飾りを作るか手に入れる！身につけるとミツバチが寄ってくる！
+advancements.the_bumblezone.dye_flower_headwear.title	これは主張だ！
+advancements.the_bumblezone.dye_flower_headwear.description	花の髪飾りを別の色に染めて、大胆なファッションセンスを見せつけよう！
+advancements.the_bumblezone.flower_headwear_wrath_structure.title	ハチ好奇心
+advancements.the_bumblezone.flower_headwear_wrath_structure.description	花の髪飾りを身につけて巣房の迷宮に入る。中でもう怒りの効果を受けなくなる！
+advancements.the_bumblezone.carpenter_bee_boots_mined_blocks.title	パワフルな太もも！

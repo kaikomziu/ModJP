@@ -1,0 +1,10 @@
+{
+  "subtitles.entity.guard.ambient": "衛兵がつぶやく",
+  "subtitles.entity.guard.hurt": "衛兵がダメージを受ける",
+  "subtitles.entity.guard.death": "衛兵が死ぬ",
+  "stat.guardvillagers.guards_made": "衛兵にした数",
+  "guardvillagers.advancements.adventure.recruit_guard.description": "無職の村人に剣を渡して、村を守ってもらう",
+  "guardvillagers.advancements.adventure.recruit_guard.title": "新兵募集中！",
+  "subtitles.entity.guard.yes": "衛兵が同意する",
+  "subtitles.entity.guard.no": "衛兵が反対する"
+}

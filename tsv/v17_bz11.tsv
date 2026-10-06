@@ -1,0 +1,72 @@
+## the_bumblezone
+@ the_bumblezone.midnightconfig.
+.title	§o§6    ザ・バンブルゾーンの設定
+.beeAggressionComment	§o§6    ミツバチの攻撃性
+.beehemothTriggersWrath	ビーヒーモスで怒りが起きる
+.allowWrathOfTheHiveOutsideBumblezone	バンブルゾーンの外でもハチの巣の怒りを許可
+.showWrathOfTheHiveParticles	ハチの巣の怒りのパーティクルを表示
+.aggressiveBees	攻撃的なミツバチ
+.aggressionTriggerRadius	攻撃性が発動する半径
+.howLongWrathOfTheHiveLasts	ハチの巣の怒りの持続時間
+.howLongProtectionOfTheHiveLasts	ハチの巣の守人の持続時間
+.speedBoostLevel	移動速度上昇のレベル
+.absorptionBoostLevel	衝撃吸収のレベル
+.strengthBoostLevel	攻撃力上昇のレベル
+.blockMechanicsComment	§o§6    ブロックの仕組み
+.dispensersDropGlassBottles	ディスペンサーがガラス瓶を落とす
+.broodBlocksBeeSpawnCapacity	巣房ブロックのミツバチのスポーン上限
+.pileOfPollenHyperFireSpread	積もった花粉の超延焼
+.superCandlesBurnsMobs	スーパー/ポーションキャンドルがモブを燃やす
+.enchantmentsComment	§o§6    エンチャント
+.neurotoxinMaxLevel	神経毒の最大レベル
+.paralyzedMaxTickDuration	麻痺の最大ティック数
+.dimensionComment	§o§6    ディメンション
+.enableInitialWelcomeMessage	Bzの歓迎メッセージを表示
+.fogBrightnessPercentage	霧の明るさ(%)
+.enableDimensionFog	ディメンションの霧を有効にする
+.onlyOverworldHivesTeleports	オーバーワールドの巣だけでテレポート
+.forceExitToOverworld	出口を必ずオーバーワールドにする
+.warnPlayersOfWrongBlockUnderHive	巣の下のブロックが違うとプレイヤーに警告
+.enableExitTeleportation	出るテレポートを有効にする
+.enableEntranceTeleportation	入るテレポートを有効にする
+.forceBumblezoneOriginMobToOverworldCenter	バンブルゾーン生まれのモブを必ずオーバーワールドの中心に送る
+.dungeonsComment	§o§6    ダンジョン
+.beeDungeonRarity	ハチのダンジョンの珍しさ
+.treeDungeonRarity	木のダンジョンの珍しさ
+.spiderInfestedBeeDungeonRarity	クモに侵されたハチのダンジョンの珍しさ
+.spawnerRateSpiderBeeDungeon	クモのハチのダンジョンのスポナーの割合
+.brewingRecipeComment	§o§6    醸造レシピ
+.glisteringHoneyBrewingRecipe	きらめくハニークリスタルをポーションの材料にする
+.beeStingerBrewingRecipe	ミツバチの針をポーションの材料にする
+.beeSoupBrewingRecipe	ハチのスープをポーションの材料にする
+.generalComment	§o§6    一般
+.variantBeeAfterWorlgenSpawnRate	変種のミツバチのスポーン率
+.variantBeeTypes	変種のミツバチの種類
+.beehemothSpeed	ビーヒーモスの速度
+.beehemothFriendlyFire	ビーヒーモスへの同士討ち
+.beeQueenSpecialDayTrades	特別な日の秘密の取引
+.beeQueenRespawning	女王バチのリスポーン
+.beeQueenGroundPickup	女王バチが地面のアイテムを拾う
+.specialBeeSpawning	特別なミツバチのスポーン
+.beeLootInjection	ミツバチの戦利品の追加
+.moddedBeeLootInjection	MODのミツバチの戦利品の追加
+.nearbyBeesPerPlayerInBz	Bzでプレイヤーごとの近くのミツバチの数
+.musicDiscComment	§o§6    音楽ディスク
+.allowWanderingTraderMusicDiscsTrades	行商人の音楽ディスクの取引を許可
+.musicDiscTimeLengthFlightOfTheBumblebee	音楽ディスクの長さ: Flight Of The Bumblebee
+.musicDiscTimeLengthHoneyBee	音楽ディスクの長さ: Honey Bee
+.musicDiscTimeLengthRiversOfHoney	音楽ディスクの長さ: Rivers of Honey
+.musicDiscTimeLengthLaBeeDaLoca	音楽ディスクの長さ: La Bee-da Loca
+.musicDiscTimeLengthBeeLaxingWithTheHomBees	音楽ディスクの長さ: Bee-laxing with the Hom-bees
+.musicDiscTimeLengthBeeWareOfTheTemple	音楽ディスクの長さ: Bee-ware of the Temple
+.musicDiscTimeLengthKnowing	音楽ディスクの長さ: Knowing
+.musicDiscTimeLengthRadiance	音楽ディスクの長さ: Radiance
+.musicDiscTimeLengthLife	音楽ディスクの長さ: Life
+.musicDiscTimeLengthDrowningInDespair	音楽ディスクの長さ: Drowning In Despair
+.musicDiscTimeAFirstALast	音楽ディスクの長さ: A Last First Last
+.musicDiscBeennaBox	音楽ディスクの長さ: Beenna Box
+.modCompatComment	§o§6    MOD連携
+.alternativeFluidToReplaceHoneyFluid	ハチミツの代わりに使う液体
+.allowFriendsAndFoesBeekeeperTradesCompat	Friends And Foes の養蜂家の取引との連携を許可
+.allowGoodallBottledBeesRevivingEmptyBroodBlock	Goodall の瓶詰めミツバチで巣房ブロックを復活させる連携を許可
+.allowLootrCompat	戦利品の繭とLootrの連携を許可

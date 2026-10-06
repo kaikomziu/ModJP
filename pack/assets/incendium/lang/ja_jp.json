@@ -1,0 +1,13 @@
+{
+  "incendium.advancement.quartz_flats.failed_mission.title": "失敗した任務",
+  "incendium.advancement.quartz_flats.failed_mission.desc": "古のガストリングたちが獄中で息絶えたクォーツの塔に入る",
+  "incendium.advancement.quartz_flats.sanctum.vault_hunter.title": "宝物庫ハンター",
+  "incendium.advancement.quartz_flats.sanctum.vault_hunter.desc": "聖域の宝物庫に潜入し、見張りを黙らせて採掘速度低下を解く",
+  "incendium.item.eternal_glowing.name": "永遠の発光のスプラッシュポーション",
+  "incendium.item.eternal_glowing.desc": "発光 (∞)",
+  "incendium.item.bad_omen_pot.name": "不吉な予感のポーション",
+  "incendium.item.banner_blade.name": "刃の旗",
+  "incendium.item.banner_ominous.name": "不吉な旗",
+  "incendium.item.banner_poppy.name": "ポピーの誓い",
+  "incendium.item.banner_sanctum.name": "聖域の誓い"
+}

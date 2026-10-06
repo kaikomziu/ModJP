@@ -1,0 +1,132 @@
+## the_bumblezone
+enchantment.the_bumblezone.hive_lifeline	巣の命綱
+enchantment.the_bumblezone.hive_lifeline.desc	プレイヤーへの攻撃ダメージを、代わりに近くのミツバチが受ける！ダメージを肩代わりさせると、エンチャントした防具は少しの間クールダウンになる。
+enchantment_lore.the_bumblezone:hive_lifeline.description	プレイヤーへの攻撃ダメージを、代わりに近くのミツバチが受ける！ダメージを肩代わりさせると、エンチャントした防具は少しの間クールダウンになる。
+enchantment_lore_forge.the_bumblezone:hive_lifeline.description	プレイヤーへの攻撃ダメージを、代わりに近くのミツバチが受ける！ダメージを肩代わりさせると、エンチャントした防具は少しの間クールダウンになる。
+biome.the_bumblezone.crystal_canyon	水晶の峡谷
+biome.the_bumblezone.floral_meadow	花の草原
+biome.the_bumblezone.howling_constructs	うなる建造物
+biome.the_bumblezone.bumbling_beepartments	ブンブンハチアパート
+structure.the_bumblezone.ancient_hoops	古代の輪
+structure.the_bumblezone.ancient_shrine	古代の祠
+structure.the_bumblezone.battle_cubes	戦いの立方体
+structure.the_bumblezone.bee_house	ハチの家
+structure.the_bumblezone.bumbling_beepartments	ブンブンハチアパート
+structure.the_bumblezone.candle_parkour	キャンドルのアスレチック
+structure.the_bumblezone.cannon_range	大砲の射撃場
+structure.the_bumblezone.cell_maze	巣房の迷宮
+structure.the_bumblezone.cherry_veteran_tree	サクラの老木
+structure.the_bumblezone.dance_floor	ダンスフロア
+structure.the_bumblezone.gazebuzz_cluster	ガゼブンの群れ
+structure.the_bumblezone.goliath_honey_fountain	巨大なハチミツの噴水
+structure.the_bumblezone.hanging_garden	空中庭園
+structure.the_bumblezone.hive_temple	巣の神殿
+structure.the_bumblezone.honey_cave_room	ハチミツの洞窟
+structure.the_bumblezone.honey_fountain	ハチミツの噴水
+structure.the_bumblezone.honey_slime_rance	ハニースライム牧場
+structure.the_bumblezone.honitel	ハニテル
+structure.the_bumblezone.ice_monolith	氷の石柱
+structure.the_bumblezone.mite_fortress	ダニの要塞
+structure.the_bumblezone.overgrown_flower	伸びすぎた花
+structure.the_bumblezone.phantasm_aviary	幻影の鳥小屋
+structure.the_bumblezone.pirate_ship	海賊船
+structure.the_bumblezone.pollinated_stream	花粉の滝
+structure.the_bumblezone.sempiternal_sanctum_red	赤の永遠の聖域
+structure.the_bumblezone.sempiternal_sanctum_purple	紫の永遠の聖域
+structure.the_bumblezone.sempiternal_sanctum_blue	青の永遠の聖域
+structure.the_bumblezone.sempiternal_sanctum_green	緑の永遠の聖域
+structure.the_bumblezone.sempiternal_sanctum_yellow	黄の永遠の聖域
+structure.the_bumblezone.sempiternal_sanctum_white	白の永遠の聖域
+structure.the_bumblezone.stinger_spear_shrine	ミツバチの針の槍の祠
+structure.the_bumblezone.subway	地下鉄
+structure.the_bumblezone.throne_pillar	玉座の柱
+effect.the_bumblezone.wrath_of_the_hive.description	バンブルゾーンにいる近くのミツバチすべてが強くなり、あなたに怒る！\n\n近くの幼虫入りの巣房ハニカムブロックの成長も速まり、ミツバチがより早く生まれるようになる。\nこの効果は、ミツバチや女王バチを傷つけたとき、満たされた多孔質ハニカムブロックからハチミツを取ったとき、幼虫入りの巣房ハニカムブロックを壊したとき、ハチミツブロックを掘ったとき、ハチの巣の守人の効果なしで巣房の迷宮に入ったときに受ける。\n\nハチの精髄を使った後は、ミツバチや女王バチを傷つけたときか、幼虫入りの巣房ハニカムブロックを壊したときにしか受けない。ピースフルモードのプレイヤーはこの効果を受けない。
+effect.the_bumblezone.protection_of_the_hive.description	この効果を持つ者に怒っていた近くのミツバチをすべて落ち着かせる。\n\nこの効果を持つエンティティが攻撃されると、近くのミツバチが攻撃した相手に怒る！\n\nまた、この効果を失う代わりに、どんな原因からもハチの巣の怒りを受けなくなる。\nミツバチ、ビーヒーモス、幼虫入りの巣房ハニカムブロックにハチミツ系の食べ物を与えると、ときどきこの効果を得られる。
+effect.the_bumblezone.beenergized.description	ほとんどの飛行モブの飛行速度を上げる。マルハナバチのチェストプレートを着たプレイヤーは、より遠く長く飛べる。\n\nこの効果は主に、ハチのパン、ハチのスープ、ローヤルゼリー入り瓶を口にすると得られる。\n\nハチの精髄を使った後は、光っている発光する蝋の上やローヤルゼリーの中にいると短いハチエネルギーの効果を得る。
+effect.the_bumblezone.hidden.description	敵対モブに最初に見つかる距離を縮める。怒ったミツバチの群れにあなたを見失わせるのにも役立つ。\nこの効果は積もった花粉の中に隠れると得られる。
+effect.the_bumblezone.paralyzed.description	モブを動けなくし、たいていはAIと動きを止める。\n\n一部のモブはまだ効果に抵抗して、ウィッチがポーションを飲むなどの行動をすることがある。\n\nこの効果は、神経毒のエンチャントが付いた武器で攻撃されたとき、ミツバチの針の弾をたくさん受けたとき、まれにハチのスープを飲んだときに受ける。
+subtitles.entity.the_bumblezone.sentry_watcher.crash	番兵ウォッチャーが衝突する
+subtitles.entity.the_bumblezone.sentry_watcher.activating	番兵ウォッチャーが起動する
+subtitles.entity.the_bumblezone.sentry_watcher.moving	番兵ウォッチャーが突進する
+subtitles.entity.the_bumblezone.bee_queen.hurt	女王バチがダメージを受ける
+subtitles.entity.the_bumblezone.bee_queen.dies	女王バチが死ぬ
+subtitles.entity.the_bumblezone.bee_queen.loop	女王バチが羽ばたく
+subtitles.entity.the_bumblezone.bee_queen.happy	女王バチが喜ぶ
+subtitles.entity.the_bumblezone.honey_slime.attack	ハニースライムが攻撃する
+=Honey Slime hurts	ハニースライムがダメージを受ける
+=Honey Slime dies	ハニースライムが死ぬ
+=Honey Slime squishes	ハニースライムがぴちゃっと鳴る
+subtitles.entity.the_bumblezone.honey_slime.jump	ハニースライムが跳ねる
+subtitles.entity.the_bumblezone.honey_slime.jump_small	ハニースライムが攻撃する
+subtitles.entity.the_bumblezone.rootmin.cursing	ルートミンが悪態をつく
+subtitles.entity.the_bumblezone.rootmin.shock	ルートミンが驚く
+subtitles.entity.the_bumblezone.rootmin.shoot	ルートミンが撃つ
+subtitles.entity.the_bumblezone.pollen_puff.throw	花粉球が飛ぶ
+subtitles.entity.the_bumblezone.dirt_pellet.throw	土の弾が飛ぶ
+subtitles.entity.the_bumblezone.dirt_pellet.hit	土の弾が当たる
+subtitles.entity.the_bumblezone.cosmic_crystal_entity.laser	宇宙の水晶が撃つ
+subtitles.entity.the_bumblezone.cosmic_crystal_entity.laser_charge	宇宙の水晶がためる
+subtitles.entity.the_bumblezone.cosmic_crystal_entity.crash_charge	宇宙の水晶が狙う
+subtitles.entity.the_bumblezone.cosmic_crystal_entity.crashes	宇宙の水晶が衝突する
+subtitles.entity.the_bumblezone.cosmic_crystal_entity.spin	宇宙の水晶が回転する
+subtitles.entity.the_bumblezone.cosmic_crystal_entity.spawn_explosion	宇宙の水晶が現れる
+subtitles.entity.the_bumblezone.stinger_spear.hit	ミツバチの針の槍が刺さる
+subtitles.entity.the_bumblezone.stinger_spear.hit_ground	ミツバチの針の槍が揺れる
+subtitles.entity.the_bumblezone.stinger_spear.return	ミツバチの針の槍が戻ってくる
+subtitles.entity.the_bumblezone.stinger_spear.throw	ミツバチの針の槍が飛ぶ
+subtitles.entity.the_bumblezone.bee_stinger.hit	ミツバチの針が当たる
+subtitles.entity.the_bumblezone.honey_crystal_shard.hit	ハニークリスタルの欠片が当たる
+subtitles.entity.the_bumblezone.honey_crystal_shard.shatter	ハニークリスタルの欠片が砕ける
+subtitles.item.the_bumblezone.bumble_bee_chestplate.fly	プレイヤーが羽ばたく
+subtitles.item.the_bumblezone.honey_compass.block_lock	ハチミツのコンパスがブロックを捉える
+subtitles.item.the_bumblezone.honey_compass.structure_lock	ハチミツのコンパスが構造物を捉える
+subtitles.item.the_bumblezone.bee_cannon.fire	ミツバチ砲が発射される
+subtitles.item.the_bumblezone.buzzing_briefcase.releases	ブンブンかばんが放つ
+subtitles.item.the_bumblezone.crystal_cannon.fire	クリスタル砲が発射される
+=Gulping	ゴクゴク
+subtitles.item.the_bumblezone.essence_of_the_bees.consumed	ハチの精髄が力を与える
+subtitles.item.the_bumblezone.essence_of_the_bees.consuming	ハチの精髄が共鳴する
+subtitles.block.the_bumblezone.washing_honey_residues	ハチミツの残りかすが洗い流される
+subtitles.block.the_bumblezone.royal_jelly_block.slide	ローヤルゼリーブロックを滑り落ちる
+subtitles.block.the_bumblezone.crystalline_flower.use	水晶の花がエンチャントする
+subtitles.block.the_bumblezone.honey_crystal_block.chime	ハニークリスタルが鳴る
+subtitles.block.the_bumblezone.windy_air.blows	風が吹く
+key.categories.the_bumblezone	ザ・バンブルゾーン
+key.the_bumblezone.beehemoth_down	ビーヒーモスで降下
+key.the_bumblezone.beehemoth_up	ビーヒーモスで上昇
+stat.the_bumblezone.carpenter_bee_boots_mined_blocks	Bz: クマバチのブーツで掘ったブロック数
+stat.the_bumblezone.carpenter_bee_boots_wall_hang_time	Bz: クマバチのブーツで壁につかまった時間
+stat.the_bumblezone.stingless_bee_helmet_bee_rider	Bz: ハリナシミツバチのヘルメットでハチに乗った時間
+stat.the_bumblezone.bumble_bee_chestplate_fly_time	Bz: マルハナバチのチェストプレートで飛んだ時間
+stat.the_bumblezone.honey_bee_leggings_flower_pollen	Bz: ミツバチのレギンスで集めた花粉
+stat.the_bumblezone.interact_with_crystalline_flower	Bz: 水晶の花の画面を開いた回数
+stat.the_bumblezone.interact_with_buzzing_briefcase	Bz: ブンブンかばんの画面を開いた回数
+stat.the_bumblezone.buzzing_briefcase_bee_capture	Bz: ブンブンかばんで捕まえたハチ
+stat.the_bumblezone.windy_air_time	Bz: 風の吹く空気の中にいた時間
+stat.the_bumblezone.raging_event_defeated	Bz: 激怒の精髄イベントを倒した回数
+stat.the_bumblezone.radiance_event_defeated	Bz: 光輝の精髄イベントを倒した回数
+stat.the_bumblezone.life_event_defeated	Bz: 生命の精髄イベントを倒した回数
+stat.the_bumblezone.calming_event_defeated	Bz: 平穏の精髄イベントを倒した回数
+stat.the_bumblezone.knowing_event_defeated	Bz: 知恵の精髄イベントを倒した回数
+stat.the_bumblezone.continuity_event_defeated	Bz: 継続の精髄イベントを倒した回数
+system.the_bumblezone.teleporting_into_bz	バンブルゾーンへテレポート中…
+system.the_bumblezone.teleporting_out_of_bz	バンブルゾーンからテレポート中…
+system.the_bumblezone.missing_dimension	サーバーを再起動してください。バンブルゾーンのディメンションが作られていない。このバグが原因かもしれない: %s
+system.the_bumblezone.failed_teleporting	エンティティをテレポートできなかった。テレポートを中止する。もう一度試してください。
+system.the_bumblezone.require_hive_blocks_failed	バンブルゾーンへのテレポートに失敗した。巣の下に必要なブロックがない。
+system.the_bumblezone.no_protection	ハチの巣の守人の効果がなかった…
+system.the_bumblezone.lost_bee_essence	リスポーンでハチの精髄を失った…
+system.the_bumblezone.entering_dimension	ブンブンとバンブルゾーンへ！
+system.the_bumblezone.occupied_crystalline_flower	花はほかのプレイヤーが使っている…
+system.the_bumblezone.sentry_watcher_egg_removal_hint	ダブル右クリックでエンティティを取り除く
+system.the_bumblezone.sentry_watcher_egg_spawner_hint	スポナーの設定はクリエイティブモード専用
+system.the_bumblezone.no_essence	ハチの精髄の効果がなかった…
+system.the_bumblezone.advancement_hint	🐝 MODのすべて、ディメンションの出入りのしかた、進め方、遊び方は、§6ザ・バンブルゾーン§rの§a進捗タブ§rを見てね！ 🐝
+system.the_bumblezone.sempiternal_sanctum_red	情熱と怒りが内からわき上がる…
+system.the_bumblezone.sempiternal_sanctum_yellow	しびれるような感覚が体を駆け抜ける…
+system.the_bumblezone.sempiternal_sanctum_green	古傷が癒え始める…
+system.the_bumblezone.sempiternal_sanctum_blue	心の乱れが消えていく…
+system.the_bumblezone.sempiternal_sanctum_purple	知識のささやきが誘い込む…
+system.the_bumblezone.sempiternal_sanctum_white	強い既視感に悩まされる…
+system.the_bumblezone.denied_spell	対抗魔法が発動 - 呪文は無効化された
+system.the_bumblezone.denied_magic	対抗魔法が発動 - 魔法は防がれた

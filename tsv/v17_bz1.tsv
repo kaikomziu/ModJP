@@ -1,0 +1,107 @@
+## the_bumblezone
+the_bumblezone.the_bumblezone	ザ・バンブルゾーン
+dimension.the_bumblezone.the_bumblezone	ザ・バンブルゾーン
+itemGroup.the_bumblezone.main_tab	ザ・バンブルゾーン
+death.attack.the_bumblezone.crystalline_flower	%1$sは水晶の花に突き刺されて死んだ
+death.attack.the_bumblezone.crystalline_flower.player	%1$sは%2$sから逃げようとして水晶の花に突き刺されて死んだ
+death.attack.the_bumblezone.architects	%1$sは精髄イベントから逃げようとして殺された
+death.attack.the_bumblezone.architects.player	%1$sは精髄イベントから逃げようとして殺された
+death.attack.the_bumblezone.spikes	%1$sは知恵の精髄イベント中に串刺しにされた
+death.attack.the_bumblezone.spikes.player	%1$sは知恵の精髄イベント中に串刺しにされた
+death.attack.the_bumblezone.sentry_watcher_crushing	%1$sは番兵ウォッチャーに押しつぶされて死んだ
+death.attack.the_bumblezone.sentry_watcher_crushing.player	%1$sは番兵ウォッチャーに押しつぶされて死んだ
+death.attack.the_bumblezone.cosmic_crystal	%1$sは宇宙の水晶の力で消し飛ばされた
+death.attack.the_bumblezone.cosmic_crystal.player	%1$sは宇宙の水晶の力で消し飛ばされた
+death.attack.the_bumblezone.dirt_pellet	%1$sは%2$sに打ちのめされた
+death.attack.the_bumblezone.dirt_pellet.item	%1$sは%3$sを使った%2$sに打ちのめされた
+death.attack.the_bumblezone.event_dirt_pellet	%1$sは%2$sに打ちのめされた
+death.attack.the_bumblezone.event_dirt_pellet.item	%1$sは%3$sを使った%2$sに打ちのめされた
+block.the_bumblezone.pile_of_pollen_suspicious	怪しげな積もった花粉
+block.the_bumblezone.royal_jelly_block	ローヤルゼリーブロック
+block.the_bumblezone.royal_jelly_fluid_block	ローヤルゼリー
+block.the_bumblezone.glistering_honey_crystal	きらめくハニークリスタル
+block.the_bumblezone.super_candle_base	スーパーキャンドルの台
+block.the_bumblezone.super_candle_wick	スーパーキャンドルの芯
+block.the_bumblezone.super_candle_wick_soul	スーパーキャンドルの魂の芯
+block.the_bumblezone.potion_candle_base	ポーションキャンドルの台
+block.the_bumblezone.carvable_wax	彫れる蝋
+block.the_bumblezone.crystalline_flower	水晶の花
+block.the_bumblezone.string_curtain.extending_clarification	糸を使うと糸のカーテンを伸ばせる！
+block.the_bumblezone.ancient_wax_bricks	古代の蝋レンガ
+block.the_bumblezone.ancient_wax_diamond	古代の蝋のひし形模様
+block.the_bumblezone.ancient_wax_compound_eyes	古代の蝋の複眼模様
+block.the_bumblezone.ancient_wax_bricks_stairs	古代の蝋レンガの階段
+block.the_bumblezone.ancient_wax_diamond_stairs	古代の蝋のひし形模様の階段
+block.the_bumblezone.ancient_wax_compound_eyes_stairs	古代の蝋の複眼模様の階段
+block.the_bumblezone.ancient_wax_bricks_slab	古代の蝋レンガのハーフブロック
+block.the_bumblezone.ancient_wax_diamond_slab	古代の蝋のひし形模様のハーフブロック
+block.the_bumblezone.ancient_wax_compound_eyes_slab	古代の蝋の複眼模様のハーフブロック
+block.the_bumblezone.heavy_air	重い空気
+block.the_bumblezone.windy_air	風の吹く空気
+block.the_bumblezone.infinity_barrier	無限の障壁
+block.the_bumblezone.sugar_water_bubble_column_block	砂糖水の気泡柱
+block.the_bumblezone.dense_bubble_block	濃い泡のブロック
+fluid.the_bumblezone.royal_jelly_fluid_flowing	ローヤルゼリー
+fluid_type.the_bumblezone.sugar_water	砂糖水
+fluid_type.the_bumblezone.honey	ハチミツ
+fluid_type.the_bumblezone.royal_jelly	ローヤルゼリー
+item.the_bumblezone.royal_jelly_bucket	ローヤルゼリー入りバケツ
+item.the_bumblezone.royal_jelly_bottle	ローヤルゼリー入り瓶
+item.the_bumblezone.variant_bee_spawn_egg	変種のミツバチのスポーンエッグ
+item.the_bumblezone.bee_queen_spawn_egg	女王バチのスポーンエッグ
+item.the_bumblezone.rootmin_spawn_egg	ルートミンのスポーンエッグ
+item.the_bumblezone.sentry_watcher_spawn_egg	番兵ウォッチャーのスポーンエッグ
+=Banner Pattern	旗の模様
+item.the_bumblezone.banner_pattern_bee.desc	ハチ
+item.the_bumblezone.banner_pattern_honeycombs.desc	ハニカム
+item.the_bumblezone.banner_pattern_swords.desc	剣
+item.the_bumblezone.banner_pattern_sun.desc	太陽
+item.the_bumblezone.banner_pattern_pluses.desc	十字
+item.the_bumblezone.banner_pattern_peace.desc	ピースマーク
+item.the_bumblezone.banner_pattern_eyes.desc	目
+item.the_bumblezone.banner_pattern_arrows.desc	矢
+=Music Disc	音楽ディスク
+item.the_bumblezone.dirt_pellet	土の弾
+item.the_bumblezone.bee_soup	ハチのスープ
+item.the_bumblezone.buzzing_briefcase	ブンブンかばん
+item.the_bumblezone.buzzing_briefcase_bee_name	名前: %s
+item.the_bumblezone.buzzing_briefcase_bee_type	種類: %s
+item.the_bumblezone.buzzing_briefcase_bee_registry_name	登録名: %s
+item.the_bumblezone.buzzing_briefcase_release	%sを放す
+item.the_bumblezone.buzzing_briefcase_health_1	消費: §6ハチミツ入り瓶
+item.the_bumblezone.buzzing_briefcase_health_2	体力を2回復する
+item.the_bumblezone.buzzing_briefcase_health_missing_item	インベントリに§6ハチミツ入り瓶§fがない
+item.the_bumblezone.buzzing_briefcase_stinger_1	消費: §6ミツバチの針
+item.the_bumblezone.buzzing_briefcase_stinger_2	針を元に戻す
+item.the_bumblezone.buzzing_briefcase_stinger_missing_item	インベントリに§6ミツバチの針§fがない
+item.the_bumblezone.buzzing_briefcase_grow_up_1	消費: §6ハチミツ入り瓶
+item.the_bumblezone.buzzing_briefcase_grow_up_2	子供を大人に成長させる
+item.the_bumblezone.buzzing_briefcase_grow_up_missing_item	インベントリに§6ハチミツ入り瓶§fがない
+item.the_bumblezone.buzzing_briefcase_pollen_1	消費: §6花粉球
+item.the_bumblezone.buzzing_briefcase_pollen_2	ミツバチに受粉させる
+item.the_bumblezone.buzzing_briefcase_pollen_missing_item	インベントリに§6花粉球§fがない
+item.the_bumblezone.bee_stinger	ミツバチの針
+item.the_bumblezone.honey_compass	ハチミツのコンパス
+item.the_bumblezone.honey_compass_structure	ハチミツのコンパス - 巣房の迷宮
+item.the_bumblezone.honey_compass_structure_loading	ハチミツのコンパス - 構造物を探索中…
+item.the_bumblezone.honey_compass_structure_failed	ハチミツのコンパス - 構造物が見つからなかった…
+item.the_bumblezone.honey_compass_structure_creative	ハチミツのコンパス - 新しいコンパスが出現した
+item.the_bumblezone.honey_compass_structure_wrong_dimension	ハチミツのコンパス - 構造物を探すディメンションが違う…
+item.the_bumblezone.honey_compass_structure_failed_description	右クリックでもう一度探す。
+item.the_bumblezone.honey_compass_block	ハチミツのコンパス - %s
+item.the_bumblezone.honey_compass_throne_structure	ハチミツのコンパス - 玉座の柱！
+item.the_bumblezone.honey_compass_unknown_block	不明なブロック
+item.the_bumblezone.honey_compass_description1	バンブルゾーンで空中を右クリックすると
+item.the_bumblezone.honey_compass_description2	巣房の迷宮を探す！
+item.the_bumblezone.honey_compass_description3	または養蜂箱/ハチの巣を右クリックすると
+item.the_bumblezone.honey_compass_description4	その位置にコンパスを固定する！
+item.the_bumblezone.honey_compass_distance	目標までの距離: %s
+item.the_bumblezone.honey_compass_structure_description1	養蜂箱/ハチの巣を右クリックすると
+item.the_bumblezone.honey_compass_structure_description2	ブロック位置モードに切り替わる！
+item.the_bumblezone.honey_compass_structure_description3	コンパスはブロックの位置を指す。
+item.the_bumblezone.honey_compass_block_description1	バンブルゾーンで空中を右クリックすると
+item.the_bumblezone.honey_compass_block_description2	巣房の迷宮を探すモードに切り替わる！
+item.the_bumblezone.honey_compass_block_description3	または養蜂箱/ハチの巣を右クリックすると
+item.the_bumblezone.honey_compass_block_description4	その位置に固定する！
+item.the_bumblezone.honey_compass_throne_description	§o§6このコンパスについて行け！女王が待っている！
+item.the_bumblezone.honey_compass_mystery_structure	ハチミツのコンパス - 謎の構造物

@@ -1,0 +1,67 @@
+## the_bumblezone
+@ the_bumblezone.midnightconfig.
+.allowCreateLimestoneForHoneyLavaCompat	ハチミツと溶岩が触れるとCreateの石灰岩を生成するのを許可
+.clientComment	§o§6    クライアント
+.useBackupModelForVariantBee	変種のミツバチに予備のモデルを使う
+.playWrathOfHiveEffectMusic	ハチの巣の怒りの音楽を流す
+.showBeeQueenSpeechBubble	女王バチの吹き出しを表示
+.playSempiternalSanctumMusic	永遠の聖域の音楽を流す
+.fogThickness	霧の濃さ
+.disableEssenceBlockShaders	精髄ブロックのシェーダーを無効にする
+.crystallineFlowerComment	§o§6    水晶の花
+.crystallineFlowerConsumeItemEntities	アイテムエンティティを食べる
+.crystallineFlowerConsumeExperienceOrbEntities	経験値オーブを食べる
+.crystallineFlowerConsumeItemUI	画面でアイテムを食べる
+.crystallineFlowerConsumeExperienceUI	画面で経験値を食べる
+.crystallineFlowerEnchantingPowerAllowedPerTier	ティアごとのエンチャントの力
+.crystallineFlowerExtraTierCost	ティアのコストの合計の増減
+.crystallineFlowerExtraXpNeededForTiers	ティアごとに必要な追加の経験値
+.defaultDimension	Bzから出るときの予備のディメンション
+.knowingEssenceComment	§o§6    知恵の精髄のクライアント設定
+.knowingEssenceHighlightBosses	ボスを光らせる
+.knowingEssenceHighlightMonsters	モンスターを光らせる
+.knowingEssenceHighlightTamed	自分が飼いならしたモブを光らせる
+.knowingEssenceHighlightLivingEntities	ほかのモブを光らせる
+.knowingEssenceHighlightCommonItems	一般的なアイテムを光らせる
+.knowingEssenceHighlightUncommonItems	ややレアなアイテムを光らせる
+.knowingEssenceHighlightRareItems	レアなアイテムを光らせる
+.knowingEssenceHighlightEpicItems	エピックなアイテムを光らせる
+.knowingEssenceStructureNameClient	構造物の名前を表示(クライアント)
+.knowingEssenceStructureNameServer	構造物の名前を表示(サーバー)
+.knowingEssenceStructureNameXCoord	名前のX座標
+.knowingEssenceStructureNameYCoord	名前のY座標
+.radianceEssenceComment	§o§6    光輝の精髄のクライアント設定
+.radianceEssenceArmorDurability	防具の耐久値を表示
+.radianceEssenceArmorDurabilityXCoord	耐久値のX座標
+.radianceEssenceArmorDurabilityYCoord	耐久値のY座標
+.essenceItemsClientComment	§o§6    精髄アイテムのクライアント設定
+.essenceItemHUDVisualEffectLayers	HUDの視覚効果の層の数
+.essenceItemHUDVisualEffectSpeed	HUDの視覚効果の回転速度
+.sillyClientComment	§o§6    おふざけ設定
+.showBeesOnGuiAllYearRound	一年中GUIにミツバチを出す
+.showBeesOnGuiOnAprilFools	エイプリルフールにGUIにミツバチを出す
+.restrictBeesOnGuiToBzDimension	GUIのミツバチをBzのディメンションだけにする
+.maximumBeesOnGui	GUIのミツバチの最大数
+.essenceComment	§o§6    精髄の設定
+.keepEssenceOfTheBeesOnRespawning	リスポーンしてもハチの精髄を保持
+.repeatableEssenceEvents	勝った後も精髄イベントを繰り返せる
+.blueArenaBubblesMechanic	青の闘技場の泡の仕組み
+.blueArenaTimeFrameInTicks	青の闘技場の制限時間(ティック)
+.greenArenaTimeFrameInTicks	緑の闘技場の制限時間(ティック)
+.purpleArenaTimeFrameInTicks	紫の闘技場の制限時間(ティック)
+.redArenaTimeFrameInTicks	赤の闘技場の制限時間(ティック)
+.yellowArenaTimeFrameInTicks	黄の闘技場の制限時間(ティック)
+.whiteArenaTimeFrameInTicks	白の闘技場の制限時間(ティック)
+.cosmicCrystalHealth	宇宙の水晶の最大体力
+.ragingEssenceAbilityUse	激怒の精髄の能力の消費(毎秒)
+.ragingEssenceCooldown	激怒の精髄のクールダウン
+.ragingEssenceStrengthLevels	激怒の精髄の攻撃力上昇のレベル
+.knowingEssenceAbilityUse	知恵の精髄の能力の消費
+.knowingEssenceCooldown	知恵の精髄のクールダウン
+.calmingEssenceAbilityUse	平穏の精髄の能力の消費(毎秒)
+.calmingEssenceCooldown	平穏の精髄のクールダウン
+.lifeEssenceAbilityUse	生命の精髄の能力の消費
+.lifeEssenceCooldown	生命の精髄のクールダウン
+.radianceEssenceAbilityUse	光輝の精髄の能力の消費(25ティックごと)
+.radianceEssenceCooldown	光輝の精髄のクールダウン
+.continuityEssenceCooldown	継続の精髄のクールダウン

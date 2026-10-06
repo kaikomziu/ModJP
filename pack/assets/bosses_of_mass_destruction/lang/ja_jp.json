@@ -1,0 +1,5 @@
+{
+  "text.autoconfig.bosses_of_mass_destruction.option.lichConfig.experienceDrop": "落とす経験値",
+  "text.autoconfig.bosses_of_mass_destruction.option.obsidilithConfig.anvilAttackExplosionStrength": "金床攻撃の爆発の強さ",
+  "text.autoconfig.bosses_of_mass_destruction.option.voidBlossomConfig.idleHealingPerTick": "待機中の1ティックあたりの回復量"
+}

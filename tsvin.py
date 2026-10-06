@@ -6,7 +6,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from build import BUNDLE_BROKEN_OFFICIAL
 WORK = Path(__file__).parent
 bad = 0
-STRICT = "v16"  # 今回の版のTSVだけ厳密にチェック(古いTSVはMOD差し替えで消えたキー・名前空間を黙って飛ばす)
+STRICT = "v17"  # 今回の版のTSVだけ厳密にチェック(古いTSVはMOD差し替えで消えたキー・名前空間を黙って飛ばす)
 stale = 0
 for f in sorted((WORK / "tsv").glob("*.tsv")):
     out, ns, miss, pre = {}, None, {}, ""

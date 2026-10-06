@@ -30,8 +30,11 @@ for f in sorted(Path("extracted").glob("*.json")):
             why = "樹木の学名(ラテン語)"
         elif ns == "zeta" and k == "zeta.jei.hint_preamble":
             why = "MOD名の接頭辞のみ"
-        elif k.startswith("jukebox_song.") or k.startswith("aether_ii.music.") or k.startswith("subtitle.apothic_enchanting.music_disc."):
+        elif k.startswith("jukebox_song.") or k.startswith("aether_ii.music.") or k.startswith("subtitle.apothic_enchanting.music_disc.") \
+                or (ns in ("idas", "the_bumblezone") and ".music_disc_" in k and k.endswith(".desc")):
             why = "楽曲名(作曲者 - 曲名)"
+        elif re.fullmatch(r"https?://\S+", v):
+            why = "URLのみ"
         elif ns == "aether_ii" and v.startswith("Lorem ipsum"):
             why = "未完成の図鑑項目のダミー文"
         elif re.fullmatch(r"(%\d+\$[sd])+", v):

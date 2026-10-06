@@ -1,0 +1,16 @@
+{
+  "text.autoconfig.smoothboot.title": "Smooth Boot",
+  "text.autoconfig.smoothboot.option.threadCount": "スレッド数",
+  "text.autoconfig.smoothboot.option.threadCount.bootstrap": "起動処理ワーカーのスレッド数",
+  "text.autoconfig.smoothboot.option.threadCount.bootstrap.@Tooltip[0]": "注意: 増やすと性能が下がることがわかっている。",
+  "text.autoconfig.smoothboot.option.threadCount.bootstrap.@Tooltip[1]": "1のままがおすすめ。",
+  "text.autoconfig.smoothboot.option.threadCount.main": "メインワーカーのスレッド数",
+  "text.autoconfig.smoothboot.option.threadCount.main.@Tooltip[0]": "この値は読み込み時間に大きく影響する。",
+  "text.autoconfig.smoothboot.option.threadCount.main.@Tooltip[1]": "ゲーム中の性能にも影響することがある。",
+  "text.autoconfig.smoothboot.option.threadPriority": "スレッドの優先度",
+  "text.autoconfig.smoothboot.option.threadPriority.game": "ゲームスレッドの優先度",
+  "text.autoconfig.smoothboot.option.threadPriority.bootstrap": "起動処理ワーカーの優先度",
+  "text.autoconfig.smoothboot.option.threadPriority.main": "メインワーカーの優先度",
+  "text.autoconfig.smoothboot.option.threadPriority.io": "IOワーカーの優先度",
+  "text.autoconfig.smoothboot.option.threadPriority.integratedServer": "内蔵サーバースレッドの優先度"
+}

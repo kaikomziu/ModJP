@@ -1,0 +1,168 @@
+## trade_cycling
+tooltip.trade_cycling.cycle_trades	取引を入れ替え
+key.trade_cycling.cycle_trades	取引を入れ替え
+## bosses_of_mass_destruction
+text.autoconfig.bosses_of_mass_destruction.option.lichConfig.experienceDrop	落とす経験値
+text.autoconfig.bosses_of_mass_destruction.option.obsidilithConfig.anvilAttackExplosionStrength	金床攻撃の爆発の強さ
+text.autoconfig.bosses_of_mass_destruction.option.voidBlossomConfig.idleHealingPerTick	待機中の1ティックあたりの回復量
+## idas
+item.idas.music_disc_slither	レコード
+item.idas.music_disc_calidum	レコード
+item.idas.disc_fragment_slither	レコードの破片 Slither
+creativetab.idas_tab	IDAS
+## guardvillagers
+subtitles.entity.guard.ambient	衛兵がつぶやく
+subtitles.entity.guard.hurt	衛兵がダメージを受ける
+subtitles.entity.guard.death	衛兵が死ぬ
+stat.guardvillagers.guards_made	衛兵にした数
+guardvillagers.advancements.adventure.recruit_guard.description	無職の村人に剣を渡して、村を守ってもらう
+guardvillagers.advancements.adventure.recruit_guard.title	新兵募集中！
+subtitles.entity.guard.yes	衛兵が同意する
+subtitles.entity.guard.no	衛兵が反対する
+## incendium
+incendium.advancement.quartz_flats.failed_mission.title	失敗した任務
+incendium.advancement.quartz_flats.failed_mission.desc	古のガストリングたちが獄中で息絶えたクォーツの塔に入る
+incendium.advancement.quartz_flats.sanctum.vault_hunter.title	宝物庫ハンター
+incendium.advancement.quartz_flats.sanctum.vault_hunter.desc	聖域の宝物庫に潜入し、見張りを黙らせて採掘速度低下を解く
+incendium.item.eternal_glowing.name	永遠の発光のスプラッシュポーション
+incendium.item.eternal_glowing.desc	発光 (∞)
+incendium.item.bad_omen_pot.name	不吉な予感のポーション
+incendium.item.banner_blade.name	刃の旗
+incendium.item.banner_ominous.name	不吉な旗
+incendium.item.banner_poppy.name	ポピーの誓い
+incendium.item.banner_sanctum.name	聖域の誓い
+## decorative_blocks
+block.decorative_blocks.bamboo_palisade	竹の囲い
+block.decorative_blocks.bamboo_seat	竹の座席
+block.decorative_blocks.bamboo_support	竹の支え
+block.decorative_blocks.cherry_beam	サクラの梁
+block.decorative_blocks.cherry_palisade	サクラの囲い
+block.decorative_blocks.cherry_seat	サクラの座席
+block.decorative_blocks.cherry_support	サクラの支え
+block.decorative_blocks.mangrove_beam	マングローブの梁
+block.decorative_blocks.mangrove_palisade	マングローブの囲い
+block.decorative_blocks.mangrove_seat	マングローブの座席
+block.decorative_blocks.mangrove_support	マングローブの支え
+key.decorative_blocks.switch_item_state	アイテムの状態を切り替え
+## smoothboot
+text.autoconfig.smoothboot.title	Smooth Boot
+text.autoconfig.smoothboot.option.threadCount	スレッド数
+text.autoconfig.smoothboot.option.threadCount.bootstrap	起動処理ワーカーのスレッド数
+text.autoconfig.smoothboot.option.threadCount.bootstrap.@Tooltip[0]	注意: 増やすと性能が下がることがわかっている。
+text.autoconfig.smoothboot.option.threadCount.bootstrap.@Tooltip[1]	1のままがおすすめ。
+text.autoconfig.smoothboot.option.threadCount.main	メインワーカーのスレッド数
+text.autoconfig.smoothboot.option.threadCount.main.@Tooltip[0]	この値は読み込み時間に大きく影響する。
+text.autoconfig.smoothboot.option.threadCount.main.@Tooltip[1]	ゲーム中の性能にも影響することがある。
+text.autoconfig.smoothboot.option.threadPriority	スレッドの優先度
+text.autoconfig.smoothboot.option.threadPriority.game	ゲームスレッドの優先度
+text.autoconfig.smoothboot.option.threadPriority.bootstrap	起動処理ワーカーの優先度
+text.autoconfig.smoothboot.option.threadPriority.main	メインワーカーの優先度
+text.autoconfig.smoothboot.option.threadPriority.io	IOワーカーの優先度
+text.autoconfig.smoothboot.option.threadPriority.integratedServer	内蔵サーバースレッドの優先度
+## friendsandfoes
+block.friendsandfoes.crab_egg	カニの卵
+entity.friendsandfoes.crab	カニ
+entity.friendsandfoes.player_illusion	プレイヤーの幻影
+effect.friendsandfoes.reach	リーチ
+effect.friendsandfoes.reach.description	ブロックを操作できる範囲が広がる。
+item_group.friendsandfoes.main_tab	Friends & Foes
+item.friendsandfoes.crab_spawn_egg	カニのスポーンエッグ
+item.friendsandfoes.crab_claw	カニのハサミ
+item.minecraft.potion.effect.reaching	リーチのポーション
+item.minecraft.splash_potion.effect.reaching	リーチのスプラッシュポーション
+item.minecraft.lingering_potion.effect.reaching	リーチの残留ポーション
+item.minecraft.tipped_arrow.effect.reaching	リーチの矢
+subtitle.entity.friendsandfoes.glare.shake	グレアがグロウベリーを振り落とす
+subtitle.entity.friendsandfoes.crab.death	カニが死ぬ
+subtitle.entity.friendsandfoes.crab.hurt	カニがダメージを受ける
+friendsandfoes.totem_trigger_tooltip	ダメージを受けて体力が最大体力の半分を下回ると発動する。
+trinkets.slot.charm.charm	お守り
+text.betterf3.line.glares	グレア
+text.betterf3.line.rascals	ラスカル
+## make_bubbles_pop
+make_bubbles_pop.midnightconfig.title	Make Bubbles Pop の設定
+make_bubbles_pop.midnightconfig.additional_features	追加機能
+make_bubbles_pop.midnightconfig.POP_PARTICLE_ENABLED	泡がはじけるパーティクルを有効にする
+make_bubbles_pop.midnightconfig.POP_PARTICLE_ENABLED.tooltip	初期設定: §aはい§f
+make_bubbles_pop.midnightconfig.BUBBLE_POP_VOLUME	 └ 泡がはじける音の音量
+make_bubbles_pop.midnightconfig.BUBBLE_POP_VOLUME.tooltip	初期設定: §b10%§f
+make_bubbles_pop.midnightconfig.POPPED_BUBBLES_MAINTAIN_VELOCITY	 └ はじけるパーティクルに泡の速度を引き継ぐ
+make_bubbles_pop.midnightconfig.POPPED_BUBBLES_MAINTAIN_VELOCITY.tooltip	初期設定: §cいいえ§f
+make_bubbles_pop.midnightconfig.BUBBLE_PHYSICS_ENABLED	泡の物理演算を有効にする
+make_bubbles_pop.midnightconfig.BUBBLE_PHYSICS_ENABLED.tooltip	ブロックやエンティティにぶつかったときの泡の物理演算を作り直したものにする。\n初期設定: §aはい§f \n§dℹ 注意:§f 今のところソウルサンドやマグマブロックから出る泡には効かない。
+make_bubbles_pop.midnightconfig.BUBBLE_LIFETIME_MULTIPLIER	 └ 泡のパーティクルの平均寿命
+make_bubbles_pop.midnightconfig.BUBBLE_LIFETIME_MULTIPLIER.tooltip	水中で泡がはじけるまでの時間。\n初期設定では、泡が水面まで届くようにバニラより長くしてある。\n初期設定: §b32.0§f §7(バニラ: 8.0)§f
+make_bubbles_pop.midnightconfig.BIOME_COLORS_ENABLED	バイオームに応じた泡の色を有効にする
+make_bubbles_pop.midnightconfig.BIOME_COLORS_ENABLED.tooltip	水の色に応じて、すべての種類の泡に色を付ける。\n初期設定: §aはい§f
+make_bubbles_pop.midnightconfig.BIOME_COLOR_INTENSITY	 └ 泡のバイオーム色の濃さ
+make_bubbles_pop.midnightconfig.BIOME_COLOR_INTENSITY.tooltip	初期設定: §b65%§f
+make_bubbles_pop.midnightconfig.CHEST_BUBBLES_ENABLED	チェストの泡を有効にする
+make_bubbles_pop.midnightconfig.CHEST_BUBBLES_ENABLED.tooltip	初期設定: §aはい§f
+make_bubbles_pop.midnightconfig.BARREL_BUBBLES_ENABLED	樽の泡を有効にする
+make_bubbles_pop.midnightconfig.BARREL_BUBBLES_ENABLED.tooltip	初期設定: §aはい§f
+make_bubbles_pop.midnightconfig.CONTAINER_SOUND_ENABLED	 └ 水中でチェストや樽を開けたときの音を有効にする
+make_bubbles_pop.midnightconfig.CONTAINER_SOUND_ENABLED.tooltip	初期設定: §aはい§f
+make_bubbles_pop.midnightconfig.EXPLOSION_BUBBLES_ENABLED	爆発の泡を有効にする
+make_bubbles_pop.midnightconfig.EXPLOSION_BUBBLES_ENABLED.tooltip	初期設定: §aはい§f
+## sereneseasons
+commands.sereneseasons.usage	/season <get/set> [引数]
+commands.sereneseasons.getseason.success	現在の季節は%s、%s/%s日目、%s/%sティック
+commands.sereneseasons.setseason.success	季節を%sにした
+commands.sereneseasons.setseason.fail	無効な季節 %s
+commands.sereneseasons.setseason.disabled	季節は現在無効になっている！
+gamerule.doSeasonCycle	季節を進める
+itemGroup.tabSereneSeasons	Serene Seasons
+block.sereneseasons.season_sensor	季節センサー
+item.sereneseasons.ss_icon	SSアイコン
+item.sereneseasons.calendar	カレンダー
+desc.sereneseasons.fertile_seasons	実りの季節
+desc.sereneseasons.year_round	一年中
+desc.sereneseasons.day_counter	%s/%s日目
+desc.sereneseasons.tropical_day_counter	 (%s/%s)
+desc.sereneseasons.spring	春
+desc.sereneseasons.early_spring	初春
+desc.sereneseasons.mid_spring	仲春
+desc.sereneseasons.late_spring	晩春
+desc.sereneseasons.summer	夏
+desc.sereneseasons.early_summer	初夏
+desc.sereneseasons.mid_summer	盛夏
+desc.sereneseasons.late_summer	晩夏
+desc.sereneseasons.autumn	秋
+desc.sereneseasons.early_autumn	初秋
+desc.sereneseasons.mid_autumn	仲秋
+desc.sereneseasons.late_autumn	晩秋
+desc.sereneseasons.winter	冬
+desc.sereneseasons.early_winter	初冬
+desc.sereneseasons.mid_winter	真冬
+desc.sereneseasons.late_winter	晩冬
+desc.sereneseasons.early_wet	雨季の初め
+desc.sereneseasons.mid_wet	雨季の盛り
+desc.sereneseasons.late_wet	雨季の終わり
+desc.sereneseasons.early_dry	乾季の初め
+desc.sereneseasons.mid_dry	乾季の盛り
+desc.sereneseasons.late_dry	乾季の終わり
+## alexscaves
+item.alexscaves.licowitch_radiant_essence	虹のエッセンス
+item.alexscaves.licowitch_radiant_essence.desc	よく見ると、この虹のエッセンスはTemuで注文したもののようだ
+item.minecraft.potion.effect.strong_hunger	空腹のポーション
+item.minecraft.splash_potion.effect.strong_hunger	空腹のスプラッシュポーション
+item.minecraft.lingering_potion.effect.strong_hunger	空腹の残留ポーション
+=Footsteps	足音
+=Block placed	ブロックが設置される
+=Block broken	ブロックが壊される
+=Block breaking	ブロックが壊されている
+alexscaves.sound.subtitle.purple_soda_idle	ソーダが泡立つ
+alexscaves.sound.subtitle.purple_soda_submerge	ソーダに包まれる
+alexscaves.sound.subtitle.purple_soda_unsubmerge	ソーダから出る
+alexscaves.sound.subtitle.purple_soda_swim	ソーダの中を泳ぐ
+alexscaves.sound.subtitle.gumbeeper_death	ガミーパーが砕ける
+alexscaves.sound.subtitle.gumbeeper_explode	ガミーパーが爆発する
+alexscaves.sound.subtitle.gumbeeper_hurt	ガミーパーがシューッと鳴る
+alexscaves.sound.subtitle.candicorn_step	キャンディコーンが駆ける
+alexscaves.sound.subtitle.licowitch_idle	リコウィッチが高笑いする
+alexscaves.sound.subtitle.licowitch_hurt	リコウィッチがうめく
+alexscaves.sound.subtitle.licowitch_death	リコウィッチが叫ぶ
+alexscaves.sound.subtitle.licowitch_cast_hex	リコウィッチが呪いをかける
+alexscaves.sound.subtitle.licowitch_cast_peppermint	リコウィッチがペパーミントを放つ
+alexscaves.sound.subtitle.licowitch_cast_summon	リコウィッチがモンスターを召喚する
+alexscaves.sound.subtitle.licowitch_celebrate	リコウィッチが喜ぶ

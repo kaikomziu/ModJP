@@ -749,6 +749,10 @@
  "hostilenetworks": {
   "enchantment.level.0": "記号・アイコン・型番のみ"
  },
+ "idas": {
+  "item.idas.music_disc_slither.desc": "楽曲名(作曲者 - 曲名)",
+  "item.idas.music_disc_calidum.desc": "楽曲名(作曲者 - 曲名)"
+ },
  "irons_jewelry": {
   "action.irons_jewelry.apply_effect.description": "記号・アイコン・型番のみ",
   "action.irons_jewelry.apply_effect.description_instantaneous": "記号・アイコン・型番のみ"
@@ -1230,6 +1234,27 @@
  "tetra": {
   "enchantment.level.50": "記号・アイコン・型番のみ",
   "enchantment.level.100": "記号・アイコン・型番のみ"
+ },
+ "the_bumblezone": {
+  "item.the_bumblezone.music_disc_honey_bee_rat_faced_boy.download": "URLのみ",
+  "item.the_bumblezone.music_disc_rivers_of_honey_moserao.desc": "楽曲名(作曲者 - 曲名)",
+  "item.the_bumblezone.music_disc_rivers_of_honey_moserao.download": "URLのみ",
+  "item.the_bumblezone.music_disc_la_bee_da_loca.desc": "楽曲名(作曲者 - 曲名)",
+  "item.the_bumblezone.music_disc_la_bee_da_loca.download": "URLのみ",
+  "item.the_bumblezone.music_disc_bee_laxing_with_the_hom_bees.desc": "楽曲名(作曲者 - 曲名)",
+  "item.the_bumblezone.music_disc_bee_laxing_with_the_hom_bees.download": "URLのみ",
+  "item.the_bumblezone.music_disc_bee_ware_of_the_temple.desc": "楽曲名(作曲者 - 曲名)",
+  "item.the_bumblezone.music_disc_bee_ware_of_the_temple.download": "URLのみ",
+  "item.the_bumblezone.music_disc_knowing_renren.desc": "楽曲名(作曲者 - 曲名)",
+  "item.the_bumblezone.music_disc_radiance_renren.desc": "楽曲名(作曲者 - 曲名)",
+  "item.the_bumblezone.music_disc_life_renren.desc": "楽曲名(作曲者 - 曲名)",
+  "item.the_bumblezone.music_disc_a_last_first_last.desc": "楽曲名(作曲者 - 曲名)",
+  "item.the_bumblezone.music_disc_a_last_first_last.download": "URLのみ",
+  "item.the_bumblezone.music_disc_drowning_in_despair.desc": "楽曲名(作曲者 - 曲名)",
+  "item.the_bumblezone.music_disc_drowning_in_despair.download": "URLのみ",
+  "item.the_bumblezone.music_disc_beenna_box.desc": "楽曲名(作曲者 - 曲名)",
+  "item.the_bumblezone.music_disc_beenna_box.download": "URLのみ",
+  "system.the_bumblezone.missing_dimension_link": "URLのみ"
  },
  "vampirismguide": {
   "guide.vampirism.overview.trouble.text": "GuideAPI-VP未導入のため表示されないガイド本文",

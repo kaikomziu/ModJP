@@ -1,0 +1,105 @@
+## the_bumblezone
+item.the_bumblezone.honey_compass_mystery_structure_description	これはどこへ続いているのだろう？
+item.the_bumblezone.honey_compass_lesser_mystery_structure	ハチミツのコンパス - 小さな謎の構造物
+item.the_bumblezone.honey_compass_lesser_mystery_structure_description	これはどこへ続いているのだろう？
+item.the_bumblezone.honey_compass_sanctum_structure	ハチミツのコンパス - 永遠の聖域
+item.the_bumblezone.honey_compass_red_sanctum_structure_description	うなるような声がついて来いと命じる…
+item.the_bumblezone.honey_compass_purple_sanctum_structure_description	賢い声がついて来るよう助言する…
+item.the_bumblezone.honey_compass_blue_sanctum_structure_description	なだめるような声がついて来るよう誘う…
+item.the_bumblezone.honey_compass_green_sanctum_structure_description	ささやく声がついて来てと頼む…
+item.the_bumblezone.honey_compass_yellow_sanctum_structure_description	しびれるような声がついて来いと手招きする…
+item.the_bumblezone.honey_compass_white_sanctum_structure_description	聞き覚えのある声がついて来てと懇願する…
+item.the_bumblezone.bee_cannon	ミツバチ砲
+item.the_bumblezone.crystal_cannon	クリスタル砲
+item.the_bumblezone.flower_headwear	花の髪飾り
+item.the_bumblezone.carpenter_bee_boots_1	クマバチのブーツ
+item.the_bumblezone.carpenter_bee_boots_2	クマバチのブーツ
+item.the_bumblezone.essence_of_the_bees	ハチの精髄
+item.the_bumblezone.essence_of_the_bees.already_essenced	すでにハチの精髄が宿っている
+item.the_bumblezone.super_candle	スーパーキャンドル
+item.the_bumblezone.potion_candle	ポーションキャンドル
+item.the_bumblezone.potion_candle.status_effect	効果: %s
+item.the_bumblezone.potion_candle.amplifier	レベル: %s
+item.the_bumblezone.potion_candle.max_duration	燃焼時間: %s
+item.the_bumblezone.potion_candle.infinite	無限
+item.the_bumblezone.potion_candle.apply_interval	効果を与える間隔: %s
+item.the_bumblezone.potion_candle.range	範囲: %s
+item.the_bumblezone.potion_candle.lingering_time	残留時間: %s
+item.the_bumblezone.crystalline_flower_info_1	ティア: %s
+item.the_bumblezone.crystalline_flower_info_2	経験値: %s
+item.the_bumblezone.crystalline_flower_cannot_place	花を置く場所が足りない！
+item.the_bumblezone.essence_raging	激怒の精髄
+item.the_bumblezone.essence_raging_description_1	光っているモブを倒すと攻撃力が上がっていく！
+item.the_bumblezone.essence_raging_description_2	攻撃力が最大のときに倒すと攻撃力がリセットされる。
+item.the_bumblezone.essence_knowing	知恵の精髄
+item.the_bumblezone.essence_knowing_description_1	知識とはすべてを知ること…
+item.the_bumblezone.essence_knowing_description_2	モブと一部のブロックエンティティを光らせる
+item.the_bumblezone.essence_calming	平穏の精髄
+item.the_bumblezone.essence_calming_description_1	怒りと争いを捨て、落ち着いていよう
+item.the_bumblezone.essence_calming_description_2	攻撃したりされたりすると平穏が解ける
+item.the_bumblezone.essence_calming_description_3	走ると力が速く減る…
+item.the_bumblezone.essence_life	生命の精髄
+item.the_bumblezone.essence_life_description_1	すべての命を栄えさせよ
+item.the_bumblezone.essence_life_description_2	仲間やペットを回復し、近くの作物を育てる
+item.the_bumblezone.essence_radiance	光輝の精髄
+item.the_bumblezone.essence_radiance_description_1	太陽を讃えよ！！！
+item.the_bumblezone.essence_radiance_description_2	日光で防具が修復され、有利な効果を得る
+item.the_bumblezone.essence_continuity	継続の精髄
+item.the_bumblezone.essence_continuity_description_1	死は終わりではない…
+item.the_bumblezone.essence_continuity_description_2	死ぬはずだったときにリスポーン地点へテレポートする
+item.the_bumblezone.essence_continuity_written_book_body	§4§l死にかけた日時:§r\n%s\n\n§4§l事故の場所:§r\n%s, %s, %s\n%s\n\n§4§l原因:§r\n%s\n\n§4§l防いだ死:§r\n%s
+item.the_bumblezone.essence_continuity_written_book_body_no_causer	§4§l死にかけた日時:§r\n%s\n\n§4§l事故の場所:§r\n%s, %s, %s\n%s\n\n§4§l防いだ死:§r\n%s
+item.the_bumblezone.essence_active	発動中
+item.the_bumblezone.essence_ready	準備完了
+item.the_bumblezone.essence_depleted	消耗
+item.the_bumblezone.essence_locked	ロック中(使えない)
+item.the_bumblezone.essence_locked_description_1	先にバンブルゾーンの「女王の望み」の進捗をすべて
+item.the_bumblezone.essence_locked_description_2	達成して、ハチの精髄を使う必要がある
+item.the_bumblezone.essence_usage	力 %s/%s
+item.the_bumblezone.essence_cooldown	クールダウンの残り時間: %s秒
+item.the_bumblezone.essence_knowing_separator	%s、%s
+item.the_bumblezone.essence_knowing_within_text	構造物の中:
+item.the_bumblezone.essence_knowing_within_text_plural	構造物の中:
+item.the_bumblezone.essence_radiance_durability_text	  %s/%s
+item.the_bumblezone.essence_radiance_durability_low_text	⚠%s/%s⚠
+item.the_bumblezone.essence_radiance_advanced_text	 耐久値
+item.the_bumblezone.essence_radiance_helmet_text	  %s%s
+item.the_bumblezone.essence_radiance_chestplate_text	  %s%s
+item.the_bumblezone.essence_radiance_leggings_text	  %s%s
+item.the_bumblezone.essence_radiance_boots_text	  %s%s
+item.minecraft.potion.effect.neurotoxin	神経毒のポーション
+item.minecraft.potion.effect.long_neurotoxin	神経毒のポーション
+item.minecraft.splash_potion.effect.neurotoxin	神経毒のスプラッシュポーション
+item.minecraft.splash_potion.effect.long_neurotoxin	神経毒のスプラッシュポーション
+item.minecraft.lingering_potion.effect.neurotoxin	神経毒の残留ポーション
+item.minecraft.lingering_potion.effect.long_neurotoxin	神経毒の残留ポーション
+item.minecraft.tipped_arrow.effect.neurotoxin	神経毒の矢
+item.minecraft.tipped_arrow.effect.long_neurotoxin	神経毒の矢
+entity.the_bumblezone.rootmin	ルートミン
+entity.the_bumblezone.variant_bee	変種のミツバチ
+entity.the_bumblezone.beehemoth_friendship_progress	友好度: %s/1000
+entity.the_bumblezone.bee_queen	女王バチ
+entity.the_bumblezone.dirt_pellet	土の弾
+entity.the_bumblezone.bee_stinger	ミツバチの針
+entity.the_bumblezone.honey_crystal_shard	ハニークリスタルの欠片
+entity.the_bumblezone.sentry_watcher	番兵ウォッチャー
+entity.the_bumblezone.electric_ring_entity	電気の輪のエンティティ
+entity.the_bumblezone.purple_spike_entity	紫のトゲのエンティティ
+entity.the_bumblezone.cosmic_crystal_entity	宇宙の水晶のエンティティ
+entity.the_bumblezone.bee_queen.advancements_warning	「女王の望み」の進捗をリセットするには、もう一度素手で右クリック
+entity.the_bumblezone.bee_queen.reset_advancements	「女王の望み」の進捗をリセットした！
+entity.the_bumblezone.bee_queen.mention_reset	達成おめでとう！「女王の望み」のクエストをやり直すには、素手で女王バチを右クリックして進捗をリセットしよう
+entity.the_bumblezone.bee_queen.mention_special_day_trade	ブーン！(女王は%sを欲しがっている！)
+entity.the_bumblezone.bee_queen.mention_regular_trade_held	ブン？(女王は持っているアイテムに興味がある)
+entity.the_bumblezone.bee_queen.halloween_trade_performed	トリック・オア・トリート！
+entity.the_bumblezone.bee_queen.christmas_trade_performed	メリークリスマス！
+entity.the_bumblezone.bee_queen.forth_of_july_trade_performed	独立記念日おめでとう！
+entity.the_bumblezone.bee_queen.thanksgiving_trade_performed	ハッピーサンクスギビング！
+entity.the_bumblezone.bee_queen.easter_trade_performed	ハッピーイースター！
+entity.the_bumblezone.bee_queen.new_year_trade_performed	あけましておめでとう！
+enchantment_lore.the_bumblezone:comb_cutter.description	ハニカム、ハチの巣、養蜂箱、蜜蝋のブロックを速く掘れる。ハチの巣や養蜂箱のドロップが2倍になる。
+enchantment_lore_forge.the_bumblezone:comb_cutter.description	ハニカム、ハチの巣、養蜂箱、蜜蝋のブロックを速く掘れる。ハチの巣や養蜂箱のドロップが2倍になる。
+enchantment_lore.the_bumblezone:potent_poison.description	アンデッド以外のモブに当てると毒を与える。レベルが高いほど効果時間と毒のレベルが上がる。
+enchantment_lore_forge.the_bumblezone:potent_poison.description	アンデッド以外のモブに当てると毒を与える。レベルが高いほど効果時間と毒のレベルが上がる。
+enchantment_lore.the_bumblezone:neurotoxins.description	アンデッド以外のモブと、アイアン/スノーゴーレム以外に確率で麻痺を与える。体力の高いモブほど麻痺しにくい。
+enchantment_lore_forge.the_bumblezone:neurotoxins.description	アンデッド以外のモブと、アイアン/スノーゴーレム以外に確率で麻痺を与える。体力の高いモブほど麻痺しにくい。

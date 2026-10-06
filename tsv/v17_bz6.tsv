@@ -1,0 +1,32 @@
+## the_bumblezone
+@ the_bumblezone.
+.royal_jelly_block.description	 ローヤルゼリーを固めて保存できる形にしたもの！バニラのハチミツブロックと似た性質だが、ピストンで「引く」ことしかできず、押せない！よく考えて、これでどんなすごい動くレッドストーン装置が作れるか試してみよう！\n\n 瓶のものは「女王の望み」の進捗のどれかを達成すると手に入る。進捗をすべて達成すると、女王バチが進捗をリセットしてくれて、さらに瓶をもらえる。
+.pile_of_pollen.description	 大きな花粉の山！花粉球がブロックに当たるとできる。幸運で掘ると花粉球のドロップが増える！ただし、最大まで積もった花粉をシルクタッチで掘ると、山ごとアイテムとして落とす。\n\n 積もった花粉は中にいるモブを遅くし、花粉のパーティクルを大量に出す。積もった花粉に飛び込んだ受粉していないミツバチは受粉し、パンダはくしゃみをする。\n\n 厚く積もった花粉に完全に埋まると、怒ったミツバチから隠れられる！レッドストーンコンパレーターで量を測ることもできる。\n\n 最後に、このブロックは振動をさえぎり、スカルクセンサーに感知されなくなる。
+.pile_of_pollen_suspicious.description	 どこか様子のおかしい大きな花粉の山…積もった花粉とほぼ同じ性質だが、何かがある…ブラシで払って、何が出てくるか見てみよう！
+.dirt_pellet.description	 粗い土と根付いた土を固めた塊で、投げつけられると痛い！多くの飛行モブに追加ダメージを与える。ルートミンが好んで敵に撃つ、ノックバックの大きい弾。
+.bee_soup.description	 足の指が丸まるような変な味のスープ。\n\n飲むと長いレベル2のハチエネルギーの効果を得て、確率で浮遊、落下速度低下、毒、麻痺、幸運の効果を受ける。
+.banner_pattern_bee.description	 バンブルゾーンのディメンションの一部の構造物や怪しげな積もった花粉で見つかる、ややレアなハチの旗の模様
+.banner_pattern_honeycombs.description	 バンブルゾーンのディメンションの一部の構造物や怪しげな積もった花粉で見つかる、ややレアなハニカムの旗の模様
+.banner_pattern_swords.description	 バンブルゾーンのディメンションの一部の構造物や怪しげな積もった花粉で見つかる、ややレアな剣の旗の模様
+.banner_pattern_sun.description	 バンブルゾーンのディメンションの一部の構造物や怪しげな積もった花粉で見つかる、ややレアな太陽の旗の模様
+.banner_pattern_pluses.description	 バンブルゾーンのディメンションの一部の構造物や怪しげな積もった花粉で見つかる、ややレアな十字の旗の模様
+.banner_pattern_eyes.description	 バンブルゾーンのディメンションの一部の構造物や怪しげな積もった花粉で見つかる、ややレアな目の旗の模様
+.banner_pattern_peace.description	 バンブルゾーンのディメンションの一部の構造物や怪しげな積もった花粉で見つかる、ややレアなピースマークの旗の模様
+.banner_pattern_arrows.description	 バンブルゾーンのディメンションの一部の構造物や怪しげな積もった花粉で見つかる、ややレアな矢の旗の模様
+.music_disc_flight_of_the_bumblebee_rimsky_korsakov.description	 耳を澄ませば、怒ったミツバチの群れの羽音がまだ聞こえる…このレアな音楽ディスクは、行商人かバンブルゾーンの一部の構造物で手に入る！曲はリムスキー＝コルサコフの「熊蜂の飛行」のMIDI版。
+.music_disc_honey_bee_rat_faced_boy.description	 ミツバチと一緒にノリノリの名曲を楽しもう！このレアな音楽ディスクは、行商人かバンブルゾーンの一部の構造物で手に入る！曲はRat Faced Boyの「Honey Bee」で、ここで購入できる: https://acidburp.bandcamp.com/track/honey-bee 好きな曲のミュージシャンを応援しよう！
+.music_disc_la_bee_da_loca.description	 すばらしいバンブルゾーンを探検しながら聴く心地よい曲！このレアな音楽ディスクは、行商人かバンブルゾーンの一部の構造物で手に入る！曲はLudoCryptの「La Bee-da Loca」で、ここで購入できる: https://ludocrypt.bandcamp.com/track/la-bee-da-loca 好きな曲のミュージシャンを応援しよう！
+.music_disc_bee_laxing_with_the_hom_bees.description	 すべてのミツバチが大好きな落ち着く曲でくつろごう！このレアな音楽ディスクは、行商人かバンブルゾーンの一部の構造物で手に入る！曲はLudoCryptの「Bee-laxing with the Hom-bees」で、ここで購入できる: https://ludocrypt.bandcamp.com/track/bee-laxing-with-the-hom-bees 好きな曲のミュージシャンを応援しよう！
+.music_disc_bee_ware_of_the_temple.description	 不気味な構造物のための不気味な曲…このレアな音楽ディスクは、行商人かバンブルゾーンの一部の構造物で手に入る！曲はLudoCryptの「Bee-ware of the Temple」で、ここで購入できる: https://ludocrypt.bandcamp.com/track/bee-ware-of-the-temple 好きな曲のミュージシャンを応援しよう！
+.music_disc_knowing_renren.description	 この曲で盛り上がろう！このレアな音楽ディスクは、行商人かバンブルゾーンの一部の構造物で手に入る！曲はRenRenの「Knowing」。
+.music_disc_radiance_renren.description	 聴きながらエネルギーを感じよう！このレアな音楽ディスクは、行商人かバンブルゾーンの一部の構造物で手に入る！曲はRenRenの「Radiance」。
+.music_disc_life_renren.description	 ルートミンの間の定番曲！このレアな音楽ディスクは、行商人かバンブルゾーンの一部の構造物で手に入る！曲はRenRenの「Life」。
+.music_disc_drowning_in_despair.description	 閉じ込められた気分になる曲！このレアな音楽ディスクは、行商人かバンブルゾーンの一部の構造物で手に入る！曲はPunpudleの「Drowning in Despair」で、ここで購入できる: https://punpudle.bandcamp.com/track/drowning-in-despair-blue-sempiternal-sanctum 好きな曲のミュージシャンを応援しよう！
+.music_disc_a_last_first_last.description	 最終決戦の曲！このレアな音楽ディスクは、行商人かバンブルゾーンの一部の構造物で手に入る！曲はPunpudleの「A Last First Last」で、ここで購入できる: https://punpudle.bandcamp.com/track/a-last-first-last-white-sempiternal-sanctum 好きな曲のミュージシャンを応援しよう！
+.music_disc_beenna_box.description	 モンスターを叩きのめすための曲！このレアな音楽ディスクは、行商人かバンブルゾーンの一部の構造物で手に入る！曲はPunpudleの「Beenna Box」で、ここで購入できる: https://punpudle.bandcamp.com/track/beenna-box-red-sempiternal-sanctum 好きな曲のミュージシャンを応援しよう！
+.bee_stinger.description	 女王バチからのよくある贈り物！弓やクロスボウの低ダメージの弾として使え、アンデッド以外のモブに確率で毒、弱体化、移動速度低下、麻痺の効果を与える。\n\n 醸造台で奇妙なポーションと合わせると、長い毒のポーションを作れる！\n\n 針のないミツバチを右クリックすると、針を元に戻せる。
+.honey_compass.description	 ハチミツの染み込んだコンパス。養蜂箱/ハチの巣を右クリックすると、そのブロックの位置を追い続ける！バンブルゾーンのディメンションで空中を右クリックすると、何かの構造物を指すようだ…
+.buzzing_briefcase.description	 ミツバチを最大14匹捕まえられるレアな道具！ミツバチを右クリックで捕まえる。\n\nShift+右クリックで画面を開くと、子供のミツバチを回復したり、針を戻したり、受粉させたり、成長させたりできる！\n\nブロックを左クリックでミツバチを1匹放す。Shift+左クリックですべて放す。エンティティを左クリックすると、ミツバチを放ってそのエンティティを怒らせて襲わせる！
+.bee_cannon.description	 ミツバチを撃ち出す、頑丈さに難のある大砲！ミツバチを3匹まで入れられる。使用ボタンを押し続けて離すとミツバチを撃つ！撃ったときに見ていたハチ以外のエンティティを、ミツバチが少しの間攻撃する。\n\n 糖の染み込んだ石か糖の染み込んだ丸石で修理できる。
+.crystal_cannon.description	 ハニークリスタルの欠片を撃ち出す、頑丈さに難のある強力で危険な大砲！欠片を3つまで入れられる。使用ボタンを押し続けて離すと、高いダメージとノックバックのある欠片を撃つ！\n\n ハニークリスタルの欠片、糖の染み込んだ石、糖の染み込んだ丸石で修理できる。
+.flower_headwear.description	 革のヘルメットと花から作る、染められる大きな特製の花びら。身につけると、ミツバチがあなたを巨大な花だと思って寄ってくる！ハチの巣の怒りのタイマーが2倍速く減り、一部の構造物に入ってもハチの巣の怒りを受けなくなる。革の防具と同じように染められる！ハチ系の装備を4つ以上(これを含む)身につけていると、ハチの巣の怒りのタイマーがさらに速く減る。

@@ -28,6 +28,7 @@
 | akashic_Library-forge-1.20.1-1.1.10-all.jar | akashic_library | 70 | 0 | 70 | 70 | 0 |  |
 | alchemistry-1.20.1-2.3.4.jar | alchemistry | 65 | 0 | 65 | 65 | 0 |  |
 | alchemylib-1.20.1-1.0.30.jar | alchemylib | 7 | 0 | 7 | 7 | 0 |  |
+| alexscaves-2.0.2.jar | alexscaves | 1712 | 1676 | 36 | 36 | 0 |  |
 | alexsmobs-1.22.9.jar | alexsmobs | 1076 | 996 | 80 | 80 | 0 |  |
 | allthecompressed-1.20.1-3.0.2.jar | allthecompressed | 983 | 0 | 983 | 983 | 0 |  |
 | allthemodium-1.20.1-47.1.25-2.5.8.jar | allthemodium | 283 | 282 | 1 | 1 | 0 |  |
@@ -90,6 +91,7 @@
 | fieldguide-1.20.1+1.20.1-forge.jar | bloomingnature | 9 | 0 | 9 | 9 | 0 |  |
 | blue_skies-1.20.1-1.3.31.jar | blue_skies | 1255 | 1198 | 57 | 57 | 0 |  |
 | Bookshelf-Forge-1.20.1-20.2.15.jar | bookshelf | 32 | 32 | 0 | 0 | 0 |  |
+| BOMD-Forge-1.20.1-1.1.2.jar | bosses_of_mass_destruction | 151 | 148 | 3 | 3 | 0 |  |
 | Botania-1.20.1-456-FORGE.jar | botania | 3492 | 3305 | 187 | 187 | 0 |  |
 | BotanyPots-Forge-1.20.1-13.0.43.jar | botanypots | 126 | 0 | 126 | 126 | 0 |  |
 | BrandonsCore-1.20.1-3.2.1.302-universal.jar | brandonscore | 102 | 0 | 102 | 102 | 0 |  |
@@ -164,6 +166,7 @@
 | dankstorage-forge-1.20.1-16.jar | dankstorage | 76 | 0 | 76 | 76 | 0 |  |
 | DarkModeEverywhere-1.20.1-1.2.4.jar | darkmodeeverywhere | 11 | 0 | 11 | 11 | 0 |  |
 | DarkUtilities-Forge-1.20.1-17.0.6.jar | darkutils | 125 | 7 | 118 | 113 | 5 |  |
+| decorative_blocks-forge-1.20.1-4.1.3.jar | decorative_blocks | 69 | 57 | 12 | 12 | 0 |  |
 | deeperdarker-forge-1.20.1-1.3.3.jar | deeperdarker | 295 | 209 | 86 | 86 | 0 |  |
 | deepnull-reforged-4.2.1-beta.jar | deepnullreforged | 252 | 0 | 252 | 252 | 0 |  |
 | deepresonance-1.20-5.0.6.jar | deepresonance | 57 | 0 | 57 | 57 | 0 |  |
@@ -186,6 +189,7 @@
 | easy-piglins-forge-1.20.1-1.0.13.jar | easy_piglins | 5 | 0 | 5 | 5 | 0 |  |
 | easy-villagers-forge-1.20.1-1.1.23.jar | easy_villagers | 28 | 28 | 0 | 0 | 0 |  |
 | eccentrictome-1.20.1-1.10.4.jar | eccentrictome | 3 | 0 | 3 | 3 | 0 |  |
+| effortlessbuilding-1.20.1-3.11.jar | effortlessbuilding | 108 | 13 | 95 | 95 | 0 |  |
 | elementalcraft-1.20.1-6.0.1.jar | elementalcraft | 671 | 1 | 670 | 670 | 0 |  |
 | elevatorid-1.20.1-1.9.1-forge.jar | elevatorid | 28 | 0 | 28 | 28 | 0 |  |
 | embeddium-0.3.31+mc1.20.1.jar | embeddium | 7 | 0 | 7 | 7 | 0 |  |
@@ -228,6 +232,7 @@
 | forbidden_arcanus-1.20.1-2.2.6.jar | forbidden_arcanus | 393 | 3 | 390 | 390 | 0 |  |
 | FramedBlocks-9.4.3.jar | framedblocks | 346 | 0 | 346 | 346 | 0 |  |
 | framework-forge-1.20.1-0.8.0.jar | framework | 1 | 0 | 1 | 1 | 0 |  |
+| friendsandfoes-forge-mc1.20.1-3.0.9.jar | friendsandfoes | 145 | 126 | 19 | 19 | 0 |  |
 | ftb-chunks-forge-2001.3.8.jar | ftbchunks | 282 | 0 | 282 | 282 | 0 |  |
 | ftb-essentials-forge-2001.2.4.jar | ftbessentials | 1 | 0 | 1 | 1 | 0 |  |
 | ftb-filter-system-forge-20.0.1.jar | ftbfiltersystem | 60 | 0 | 60 | 60 | 0 |  |
@@ -248,6 +253,7 @@
 | glassential-forge-1.20.1-2.0.0.jar | glassential | 41 | 0 | 41 | 41 | 0 |  |
 | goblintraders-forge-1.20.1-1.11.5.jar | goblintraders | 19 | 6 | 13 | 13 | 0 | 同梱ja_jpが壊れていて読み込まれないため公式訳ごと同梱 |
 | GravitationalModulatingAdditionalUnit-1.20.1-3.5.jar | gravitationalmodulatingunittweaks | 10 | 7 | 3 | 3 | 0 |  |
+| guardvillagers-1.20.1-1.6.19.jar | guardvillagers | 15 | 7 | 8 | 8 | 0 |  |
 | guideme-20.1.15.jar | guideme | 36 | 0 | 36 | 36 | 0 |  |
 | handcrafted-forge-1.20.1-3.0.6.jar | handcrafted | 392 | 216 | 176 | 176 | 0 |  |
 | HealthOverlay-1.19.2-7.2.1.jar | healthoverlay | 23 | 0 | 23 | 23 | 0 |  |
@@ -258,10 +264,13 @@
 | HostileNeuralNetworks-1.20.1-5.3.3.jar | hostilenetworks | 160 | 3 | 157 | 157 | 0 |  |
 | IceAndFireCE-1.2.9-1.20.1-forge.jar | iceandfire | 1407 | 1196 | 211 | 211 | 0 |  |
 | iChunUtil-1.20.1-Forge-1.0.3.jar | ichunutil | 38 | 0 | 38 | 38 | 0 |  |
+| idas_forge-1.13.0+1.20.1.jar | idas | 6 | 0 | 6 | 4 | 2 |  |
 | IMBlocker-5.6.2.1-forge+1.17-1.20.4.jar | imblocker | 46 | 0 | 46 | 46 | 0 |  |
+| immersive_armors-1.7.2+1.20.1-forge.jar | immersive_armors | 70 | 70 | 0 | 0 | 0 |  |
 | ImmersiveEngineering-1.20.1-10.2.0-183.jar | immersiveengineering | 1405 | 1403 | 2 | 2 | 0 |  |
 | immersiveoverlays-1.8.5+1.20.1-forge.jar | immersiveoverlays | 225 | 0 | 225 | 225 | 0 |  |
 | ImmersivePetroleum-1.20.1-4.3.1-36b.jar | immersivepetroleum | 222 | 190 | 32 | 32 | 0 |  |
+| Incendium_1.20.x_v5.3.5.jar | incendium | 344 | 333 | 11 | 11 | 0 |  |
 | industrial-foregoing-1.20.1-3.5.22.jar | industrialforegoing | 601 | 588 | 13 | 13 | 0 |  |
 | inline-forge-1.20.1-1.2.2.jar | inline | 26 | 0 | 26 | 26 | 0 |  |
 | IntegratedCrafting-1.20.1-1.4.8.jar | integratedcrafting | 110 | 1 | 109 | 109 | 0 |  |
@@ -318,6 +327,7 @@
 | lootr-forge-1.20-0.7.35.94.jar | lootr | 51 | 51 | 0 | 0 | 0 |  |
 | luminax-1.3.0_forge_1.20.1.jar | luminax | 193 | 0 | 193 | 193 | 0 |  |
 | mahoutsukai-1.20.1-v1.34.81.jar | mahoutsukai | 1865 | 1865 | 0 | 0 | 0 |  |
+| make_bubbles_pop-0.3.0-forge-mc1.19.4-1.20.4.jar | make_bubbles_pop | 25 | 1 | 24 | 24 | 0 |  |
 | Mantle-1.20.1-1.11.104.jar | mantle | 73 | 0 | 73 | 73 | 0 |  |
 | matc-1.6.0.jar | matc | 6 | 0 | 6 | 6 | 0 |  |
 | mcjtylib-1.20-8.0.8.jar | mcjtylib | 3 | 1 | 2 | 2 | 0 |  |
@@ -353,6 +363,7 @@
 | mekvamp-1.20.1-1.0.jar | mekvamp | 4 | 0 | 4 | 4 | 0 |  |
 | merequester-forge-1.20.1-1.2.1.jar | merequester | 23 | 0 | 23 | 23 | 0 |  |
 | MoogsEndStructures-universal-1.20-2.1.0.jar | mes | 7 | 0 | 7 | 7 | 0 |  |
+| mezz_config-1.20.1-forge-0.6.8.jar | mezz_config | 18 | 18 | 0 | 0 | 0 |  |
 | mffs-5.1.29-all.jar | mffs | 181 | 0 | 181 | 179 | 2 |  |
 | migueleconomy-1.1.4.jar | migueleconomy | 20 | 0 | 20 | 20 | 0 |  |
 | minecolonies-1.20.1-1.1.1301-snapshot.jar | minecolonies | 3778 | 3778 | 0 | 0 | 0 |  |
@@ -388,6 +399,7 @@
 | Neat-1.20.1-41-FORGE.jar | neat | 1 | 0 | 1 | 1 | 0 |  |
 | neovitae-26.1.2-1.1.26.jar | neovitae | 3288 | 231 | 3057 | 3052 | 5 |  |
 | netherportalfix-forge-1.20-13.0.1.jar | netherportalfix | 1 | 0 | 1 | 1 | 0 |  |
+| nethersdelight-1.20.1-4.0.jar | nethersdelight | 47 | 0 | 47 | 47 | 0 |  |
 | cfm+nfm-forge-2026.09.19-1.20.1.jar | nfm | 539 | 0 | 539 | 539 | 0 |  |
 | NoChatReports-FORGE-1.20.1-v2.2.3.jar | nochatreports | 129 | 113 | 16 | 16 | 0 |  |
 | fieldguide-1.20.1+1.20.1-forge.jar | nomansland | 9 | 0 | 9 | 9 | 0 |  |
@@ -463,6 +475,7 @@
 | Searchables-forge-1.20.1-1.0.3.jar | searchables | 1 | 1 | 0 | 0 | 0 |  |
 | sebastrnlib-4.0.0.jar | sebastrnlib | 37 | 0 | 37 | 37 | 0 |  |
 | [1.20.1] SecurityCraft v1.10.2.1.jar | securitycraft | 1442 | 1441 | 1 | 1 | 0 |  |
+| SereneSeasons-forge-1.20.1-9.1.0.3.jar | sereneseasons | 36 | 0 | 36 | 36 | 0 |  |
 | Super Factory Manager (SFM)-MC1.20.1-4.34.0.jar | sfm | 281 | 0 | 281 | 281 | 0 |  |
 | sgearmetalworks-26.1.2-1.6.0.jar | sgearmetalworks | 139 | 129 | 10 | 10 | 0 |  |
 | shetiphiancore-forge-1.20.1-1.5.jar | shetiphiancore | 102 | 1 | 101 | 101 | 0 |  |
@@ -480,6 +493,7 @@
 | skarrier_mobs-1.0.9-forge-1.20.1.jar | skarrier_mobs | 460 | 11 | 449 | 449 | 0 |  |
 | skinlayers3d-forge-1.11.3-mc1.20.1.jar | skinlayers3d | 44 | 34 | 10 | 10 | 0 |  |
 | sliceanddice-forge-3.6.0.jar | sliceanddice | 17 | 10 | 7 | 7 | 0 |  |
+| smoothboot(reloaded)-mc1.20.1-0.0.4.jar | smoothboot | 14 | 0 | 14 | 14 | 0 |  |
 | sodium-extra-neoforge-0.9.4+mc26.1.2.jar | sodium-extra | 420 | 380 | 40 | 40 | 0 |  |
 | embeddium-0.3.31+mc1.20.1.jar | sodium | 65 | 0 | 65 | 65 | 0 |  |
 | sodiumdynamiclights-forge-1.0.10-1.20.1.jar | sodiumdynamiclights | 34 | 19 | 15 | 15 | 0 |  |
@@ -497,6 +511,7 @@
 | SpiderOverhaul-0.0.6-Forge-v1.20.jar | spider_overhaul | 83 | 0 | 83 | 83 | 0 |  |
 | spirit-forge-1.19.2-2.2.6.jar | spirit | 103 | 0 | 103 | 103 | 0 |  |
 | stepcrafter-neoforge-26.1.2-1.0.3.jar | stepcrafter | 80 | 0 | 80 | 80 | 0 |  |
+| StorageDrawers-forge-1.20.1-12.15.1.jar | storagedrawers | 168 | 168 | 0 | 0 | 0 |  |
 | strainers-1.20.1-1.7.4.jar | strainers | 91 | 0 | 91 | 91 | 0 |  |
 | Structory_1.20.x_v1.3.5.jar | structory | 15 | 15 | 0 | 0 | 0 |  |
 | structure_gel-1.20.1-2.16.2.jar | structure_gel | 257 | 0 | 257 | 257 | 0 |  |
@@ -515,6 +530,7 @@
 | tesseract-1.0.38-forge-mc1.20.1.jar | tesseract | 50 | 0 | 50 | 50 | 0 |  |
 | tetra-1.20.1-6.17.0.jar | tetra | 2648 | 35 | 2613 | 2613 | 0 |  |
 | tetranomicon-1.6.1-1.20.1.jar | tetranomicon | 1045 | 0 | 1045 | 1045 | 0 |  |
+| the_bumblezone-7.14.0+1.20.1-forge.jar | the_bumblezone | 1380 | 206 | 1174 | 1155 | 19 |  |
 | TheTrialMonolith-1.20.1-Forge-1.4.9.jar | the_trial_monolith | 72 | 72 | 0 | 0 | 0 |  |
 | theoneprobe-1.20.1-10.0.4.jar | theoneprobe | 10 | 0 | 10 | 10 | 0 |  |
 | thermal_dynamics-1.20.1-11.0.1.23.jar | thermal_dynamics | 43 | 1 | 42 | 42 | 0 |  |
@@ -528,6 +544,7 @@
 | tombstone-1.20.1-9.1.4.jar | tombstone | 1189 | 1 | 1188 | 1188 | 0 |  |
 | ToolBelt-1.20.1-1.20.03.jar | toolbelt | 13 | 13 | 0 | 0 | 0 |  |
 | torchmaster-20.1.9.jar | torchmaster | 14 | 12 | 2 | 2 | 0 |  |
+| trade-cycling-forge-1.20.1-1.0.18.jar | trade_cycling | 2 | 0 | 2 | 2 | 0 |  |
 | trainingdummy-1.5.jar | trainingdummy | 53 | 0 | 53 | 53 | 0 |  |
 | transmog-forge-1.3.0+1.20.jar | transmog | 24 | 0 | 24 | 24 | 0 |  |
 | trashcans-1.1.1a-forge-mc1.20.4.jar | trashcans | 34 | 32 | 2 | 2 | 0 |  |
@@ -572,7 +589,7 @@
 | ycurrenci-2.1.0-forge-1.20.1.jar | ycurrenci | 30 | 1 | 29 | 29 | 0 |  |
 | YungsCaveBiomes-1.20.1-Forge-2.0.5.jar | yungscavebiomes | 126 | 70 | 56 | 56 | 0 |  |
 | Zeta-1.0-31.jar | zeta | 2 | 0 | 2 | 1 | 1 |  |
-| **合計** | | 177000 | 81972 | 95028 | 93804 | 1224 | |
+| **合計** | | 181310 | 84795 | 96515 | 95270 | 1245 | |
 
 ## 英語のまま残したキー
 
@@ -1295,6 +1312,8 @@
 | epicfight | `eof` | eof | 記号・アイコン・型番のみ |
 | epitaphs | `screen.epitaphs.preview.value.position` | %s %s %s | 記号・アイコン・型番のみ |
 | generatorgalore | `generatorgalore.screen.fluid_level` | %s: %s | 記号・アイコン・型番のみ |
+| idas | `item.idas.music_disc_slither.desc` | Cama - Slither | 楽曲名(作曲者 - 曲名) |
+| idas | `item.idas.music_disc_calidum.desc` | Cama - calidum | 楽曲名(作曲者 - 曲名) |
 | irons_jewelry | `action.irons_jewelry.apply_effect.description` | (%s %s, %s) | 記号・アイコン・型番のみ |
 | irons_jewelry | `action.irons_jewelry.apply_effect.description_instantaneous` | (%s %s) | 記号・アイコン・型番のみ |
 | logisticsnetworks | `gui.logisticsnetworks.node.page_info` | %s-%s / %s | 記号・アイコン・型番のみ |
@@ -1661,6 +1680,25 @@
 | productivetrees | `block.productivetrees.yellow_meranti.latin` | Shorea faguetiana | 樹木の学名(ラテン語) |
 | productivetrees | `block.productivetrees.yew.latin` | Taxus baccata | 樹木の学名(ラテン語) |
 | productivetrees | `block.productivetrees.zebrano.latin` | Microberlinia brazzavillensis | 樹木の学名(ラテン語) |
+| the_bumblezone | `item.the_bumblezone.music_disc_honey_bee_rat_faced_boy.download` | https://acidburp.bandcamp.com/track/honey-bee | URLのみ |
+| the_bumblezone | `item.the_bumblezone.music_disc_rivers_of_honey_moserao.desc` | Moserao - Rivers of Honey | 楽曲名(作曲者 - 曲名) |
+| the_bumblezone | `item.the_bumblezone.music_disc_rivers_of_honey_moserao.download` | https://moserao.bandcamp.com/track/rivers-of-honey-2 | URLのみ |
+| the_bumblezone | `item.the_bumblezone.music_disc_la_bee_da_loca.desc` | LudoCrypt - La Bee-da Loca | 楽曲名(作曲者 - 曲名) |
+| the_bumblezone | `item.the_bumblezone.music_disc_la_bee_da_loca.download` | https://ludocrypt.bandcamp.com/track/la-bee-da-loca | URLのみ |
+| the_bumblezone | `item.the_bumblezone.music_disc_bee_laxing_with_the_hom_bees.desc` | LudoCrypt - Bee-laxing with the Hom-bees | 楽曲名(作曲者 - 曲名) |
+| the_bumblezone | `item.the_bumblezone.music_disc_bee_laxing_with_the_hom_bees.download` | https://ludocrypt.bandcamp.com/track/bee-laxing-with-the-hom-bees | URLのみ |
+| the_bumblezone | `item.the_bumblezone.music_disc_bee_ware_of_the_temple.desc` | LudoCrypt - Bee-ware of the Temple | 楽曲名(作曲者 - 曲名) |
+| the_bumblezone | `item.the_bumblezone.music_disc_bee_ware_of_the_temple.download` | https://ludocrypt.bandcamp.com/track/bee-ware-of-the-temple | URLのみ |
+| the_bumblezone | `item.the_bumblezone.music_disc_knowing_renren.desc` | RenRen - Knowing | 楽曲名(作曲者 - 曲名) |
+| the_bumblezone | `item.the_bumblezone.music_disc_radiance_renren.desc` | RenRen - Radiance | 楽曲名(作曲者 - 曲名) |
+| the_bumblezone | `item.the_bumblezone.music_disc_life_renren.desc` | RenRen - Life | 楽曲名(作曲者 - 曲名) |
+| the_bumblezone | `item.the_bumblezone.music_disc_a_last_first_last.desc` | Punpudle - A Last First Last | 楽曲名(作曲者 - 曲名) |
+| the_bumblezone | `item.the_bumblezone.music_disc_a_last_first_last.download` | https://punpudle.bandcamp.com/track/a-last-first-last-white-sempiternal-sanctum | URLのみ |
+| the_bumblezone | `item.the_bumblezone.music_disc_drowning_in_despair.desc` | Punpudle - Drowning in Despair | 楽曲名(作曲者 - 曲名) |
+| the_bumblezone | `item.the_bumblezone.music_disc_drowning_in_despair.download` | https://punpudle.bandcamp.com/track/drowning-in-despair-blue-sempiternal-sanctum | URLのみ |
+| the_bumblezone | `item.the_bumblezone.music_disc_beenna_box.desc` | Punpudle - Beenna Box | 楽曲名(作曲者 - 曲名) |
+| the_bumblezone | `item.the_bumblezone.music_disc_beenna_box.download` | https://punpudle.bandcamp.com/track/beenna-box-red-sempiternal-sanctum | URLのみ |
+| the_bumblezone | `system.the_bumblezone.missing_dimension_link` | https://bugs.mojang.com/browse/MC-195468 | URLのみ |
 | vampirismguide | `guide.vampirism.overview.trouble.text` | §c§lIf your game crashes or does not start, we do NEED a crashreport§r\nWithout a log file or at at least a extensive description of your problem, we can do absolutely nothing to help you.\nSo please follow the following steps (If you have questions about the steps themselves, feel free to ask).\n1. Find the Minecraft log file If you use the standard Minecraft launcher, the interesting logfile is .minecraft/logs/fml-client-latest.txt. (How to find the .minecraft folder). In case you have a server, the interesting log file should be logs/fml-server-latest.txt. If you use another launcher, it might have a function to easily upload or locate log files.\n2. Make a post on Curseforge, describe the problem and include the log either within a spoiler or as a Pastebin of it. If you know what you are doing, you can also create an issue on Github. | GuideAPI-VP未導入のため表示されないガイド本文 |
 | vampirismguide | `guide.vampirism.overview.dev.text` | This mod is currently developed by Maxanier and Cheaterpaul and translate by many helpful users. If you have some good Java knowledge and want to help please contact him. If not you still can help by translating, giving feedback or creating textures. For more information checkout the link on the side. | GuideAPI-VP未導入のため表示されないガイド本文 |
 | vampirismguide | `guide.vampirism.overview.support.text` | Developing this mod takes a lot of time and even I like it most of the time, there are a few things that are absolutely boring and sometimes I wonder if it is worth the trouble.\n\nIf you want to support the development and help me motivate myself please consider donating.\nIt is possible to make one time donations on the CurseForge page.\nIf you cannot or don’t want to donate money, you can still checkout the 'Development' section on how to help. | GuideAPI-VP未導入のため表示されないガイド本文 |

@@ -1,0 +1,21 @@
+{
+  "block.friendsandfoes.crab_egg": "カニの卵",
+  "entity.friendsandfoes.crab": "カニ",
+  "entity.friendsandfoes.player_illusion": "プレイヤーの幻影",
+  "effect.friendsandfoes.reach": "リーチ",
+  "effect.friendsandfoes.reach.description": "ブロックを操作できる範囲が広がる。",
+  "item_group.friendsandfoes.main_tab": "Friends & Foes",
+  "item.friendsandfoes.crab_spawn_egg": "カニのスポーンエッグ",
+  "item.friendsandfoes.crab_claw": "カニのハサミ",
+  "item.minecraft.potion.effect.reaching": "リーチのポーション",
+  "item.minecraft.splash_potion.effect.reaching": "リーチのスプラッシュポーション",
+  "item.minecraft.lingering_potion.effect.reaching": "リーチの残留ポーション",
+  "item.minecraft.tipped_arrow.effect.reaching": "リーチの矢",
+  "subtitle.entity.friendsandfoes.glare.shake": "グレアがグロウベリーを振り落とす",
+  "subtitle.entity.friendsandfoes.crab.death": "カニが死ぬ",
+  "subtitle.entity.friendsandfoes.crab.hurt": "カニがダメージを受ける",
+  "friendsandfoes.totem_trigger_tooltip": "ダメージを受けて体力が最大体力の半分を下回ると発動する。",
+  "trinkets.slot.charm.charm": "お守り",
+  "text.betterf3.line.glares": "グレア",
+  "text.betterf3.line.rascals": "ラスカル"
+}
