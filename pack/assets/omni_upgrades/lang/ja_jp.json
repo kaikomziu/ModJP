@@ -1,0 +1,11 @@
+{
+  "key.categories.omni_upgrades": "Omni Upgrades",
+  "key.omni_upgrades.toggle_sequential_fill": "順番に満たすモードを切り替え",
+  "key.omni_upgrades.toggle_diagonal_detection": "斜めの検出モードを切り替え",
+  "message.omni_upgrades.batch_install.success": "§a[一括取り付け] §f%1$s台の機械に%2$s§fを取り付け、合計%3$s個消費した。",
+  "message.omni_upgrades.batch_install.fail": "§c[中止] §7範囲内にこのアイテムを受け付ける機械がないか、すべての機械がすでに上限に達している。",
+  "message.omni_upgrades.sequential_fill.enabled": "§a[順番に満たす] §f有効 §7- 1台を満杯にしてから次の機械に移る。",
+  "message.omni_upgrades.sequential_fill.disabled": "§c[順番に満たす] §f無効 §7- すべての機械にアップグレードを均等に配る。",
+  "message.omni_upgrades.diagonal_detection.enabled": "§a[斜めの検出] §f有効 §7- 一括検出で斜めの機械も調べる。",
+  "message.omni_upgrades.diagonal_detection.disabled": "§c[斜めの検出] §f無効 §7- 一括検出ではすぐ隣の機械だけを調べる。"
+}

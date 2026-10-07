@@ -1,0 +1,171 @@
+## mekanismdieselgenerators
+@ gui.mekanismdieselgenerators.
+.start	始動
+.stop	停止
+.load	負荷
+.speed	回転数: %s rpm
+.output	出力: %s kW
+.consumption	燃料: %s mB/t (%s L/h)
+.water	水: %s °C
+.exhaust	排気: %s %% %s
+.fumes	排気ガス
+.clean	OK
+.redstone	RS: %s (%s)
+.signal_on	レッドストーン信号: あり
+.signal_off	レッドストーン信号: なし
+.redstone.ignored	無視
+.redstone.high	信号ありで
+.redstone.low	信号なしで
+.redstone_mode	レッドストーン制御: %s
+.energy	%s / %s FE
+.empty	空
+.amount	%s: %s / %s mB
+.tank.fuel	燃料
+.tank.cold	冷水の入力
+.tank.hot	温水の出力
+.dial_rpm	エンジンの回転数(アイドリング %s rpm、全開 %s rpm)
+.dial_power	電力(定格 %s kW = %s FE/t)
+.dial_temp	冷却水の温度(最適 75-90 °C、110 °Cで遮断)
+.tower.load	冷却負荷
+.tower.not_formed	未完成
+.tower.formed	完成
+.tower.size	%s段、内部%sブロック
+.tower.base	底面%sブロック、吸気口%s個
+.tower.fill	充填材%sブロック、バルブ%s個
+.tower.flow	冷却: %s / %s mB/t
+.tower.hourly	1時間に%s Lの水を冷やす
+.tower.tank.hot	温水
+.tower.tank.cold	冷えた水
+.output_fe	出力: %s FE/t
+.auto	自動
+.manual	手動
+.throttle	手動スロットル
+.throttle_help	自動: エンジンは負荷に合わせる。手動: ドラッグでエンジンの設定を固定する。出力は需要を超えない。
+.process.motor.running	稼働中
+.process.motor.idle	準備完了(負荷なし)
+.process.motor.speed	シャフト: %s rpm (駆動 %s Hz)
+.process.motor.sound	音: A ↔ B
+.process.motor.tripped	遮断(過熱)
+.process.motor.stalled	停止: 過負荷
+.process.motor.winding	巻線: %s °C
+.process.motor.protection_on	保護 オン
+.process.motor.protection_off	保護 オフ
+.process.motor.reset	リセット
+.process.motor.power	入力: %s kW (%s FE/t)
+.process.motor.current	線電流: %s A (%s)
+.process.motor.stress	応力: %s / %s SU
+.process.motor.load	負荷
+.process.motor.status	モーター: %s FE/t、%s rpm、応力 %s / %s SU、蓄積 %s FE
+.motor.set_speed	シャフトの回転数(可変周波数駆動)
+.process.running	消化中
+.process.waiting	原料待ち
+.process.no_power	エネルギーなし
+.process.fan	ファン稼働中
+.process.natural	自然通風(エネルギーなし)
+.process.idle	待機中
+.process.digester.matter	有機物: %s mB
+.process.digester.rate	メタン: %s mB/t
+.process.digester.hour	1時間に%s L
+.process.digester.load	消化中の有機物
+.process.digester.feed	有機原料(堆肥にできるアイテム)
+.process.cooltower.flow	流量: %s mB/t
+.process.cooltower.hour	1時間に%s L
+.process.cooltower.load	冷却流量
+.process.tank.water	水
+.process.tank.methane	メタン
+.process.tank.hot	温水の入力
+.process.tank.cold	冷えた水の出力
+.process.digester.status	消化槽: アイテム%s個、水 %s mB、有機物 %s mB、メタン %s mB、%s FE
+.process.cooltower.status	小型冷却塔: 温水 %s mB、冷水 %s mB、流量 %s mB/t、%s FE
+.egt	排気ガス: %s °C
+.dial_egt	排気ガスの温度(アイドリングで約380 °C、全開で700 °C)
+.oil	オイル: %s %%
+.oil_low	オイル不足
+.service_ok	エンジン正常
+.broken	故障
+.broken_line	故障: %s
+.oil_tip	エンジンオイル: 動いている間に減り、負荷が高いと速く減る
+.oil_help	オイル缶をShift+クリックで入れるか、オイル缶を持ってエンジンを右クリックするか、潤滑ポートに潤滑油を配管で送る
+.broken_tip	壊れた部品: %s
+.repair_help	インベントリから新しい部品をShift+クリックするか、それを持ってエンジンを右クリックする
+.service_tip	整備: オイル缶と交換部品
+.tdi.set_speed	出力軸の回転数(ギア比)
+.starter	スターターの電池: %s %%
+.starter_air	始動用空気: %s %%
+@ mekanismdieselgenerators.ponder.
+.shared.build	建設用のブロックで1層ずつ構造物を作る
+.shared.port_fuel	燃料ポート: どんなパイプからでも燃料を入れられる(Mekanismのパイプも)。ここに潤滑油を入れるとオイルが補充される
+.shared.port_fe	エネルギーポート: FEを出力し、ケーブルに送り出す
+.shared.port_cold	冷水の入力: サーモスタットは72 °Cで開く
+.shared.port_hot	温水の出力。冷却塔か熱交換器へ
+.shared.wrench	建設用のブロックをレンチ(またはCreateのレンチ)で右クリックする
+.shared.formed	ブロックがエンジンになる。どれか1つ壊すとまたばらばらになる
+.shared.exhaust	排気口から屋外の排気筒まで排気を導く。そうしないと排気ガスが中にこもる
+.shared.start	レッドストーン信号か制御パネルのクリックで始動する
+.shared.tower_build	閉じた水槽の床の上に、外殻のブロックで閉じた輪を作る。形は何でもいい
+.shared.tower_top	上は開けておく: 蒸気はここから出る
+.shared.tower_controller	制御装置は1段目の壁に、画面を外向きにして置く
+.shared.tower_valve_in	赤いバルブ: 温水と、蒸発分を補う水を受け取る
+.shared.tower_valve_out	青いバルブ: 冷えた水を出す。レンチでバルブを切り替える
+.shared.tower_louver	底の周りに吸気口を置くと自然通風が最大になる
+.shared.tower_fill	中に充填材を置くと冷却流量が増える
+.genset6.header	直列6気筒ディーゼル発電機の建設
+.genset8.header	V8ディーゼル発電機の建設
+.genset12.header	V12ディーゼル発電機の建設
+.genset.header	V16ディーゼル発電機の建設
+.cooling_tower.header	冷却塔の建設
+.tag.diesel_generators	Diesel Generators
+.tag.diesel_generators.description	ディーゼル発電機と冷却塔
+.shared.layer	%2$s層中%1$s層目: %3$s
+.shared.tower_run	温水を入れると冷えた水が出る: 蒸気は上から出ていく
+.shared.about_genset6	直列6気筒4ストローク: 全負荷で8 192 FE/t。ラジエーターのファンで自力で冷え、水の循環を使うと72-75 °Cに保たれ温水も出る
+.shared.about_genset8	V8 4ストローク: 16 384 FE/t。ラジエーターのファンか、温水を取り出す水の循環で冷やす
+.shared.about_genset12	V12 2ストローク: 32 768 FE/t。機関車のように6段階のスロットルノッチがある
+.shared.about_genset	V16 2ストローク: 65 536 FE/t、ターボ付き。全負荷でディーゼルを24 mB/t消費する
+.shared.about_petrol8	ガソリンV8: ガソリン、エタノール、LPG、ナフサで8 192 FE/t
+.shared.about_heli	ターボシャフト: 灯油、メタン、LPGで16 384 FE/t。始動時のイグナイターの音を聞いてみよう
+.shared.about_turbine	ガスタービン: 131 072 FE/t。冷水ポートに入れた水がボイラーで蒸気になって戻ってくる
+.shared.about_marine6	船舶用2ストローク: 262 144 FE/t。ディーゼルで始動し、その後は重油を燃やす。ラジエーターがないので水の循環が必要
+.shared.about_digester	堆肥にできるアイテムと水を入れ、40 FE/tで、ゆっくり消化した後にガスポートからメタンが出る
+.shared.about_cooltower	温水を入れると冷水が出る: ファンを使えば最大2 000 mB/t、電力がなければその4分の1
+.shared.about_motor	WEG W22クラスの誘導モーター: 端子箱にFEを入れ、駆動端からCreateのシャフトを出す。前面でクリエイティブモーターのように回転数を設定する。シャフトのネットワークが必要とする分だけ、最大370 kWまで使う
+.motor.header	三相モーターの建設
+.shared.about_motor_m	WEG W22 250S/Mクラスの誘導モーター: 上の端子箱にFEを入れ、駆動端からCreateのシャフトを出す。操作は大型モーターと同じで、最大75 kW
+.motor_m.header	中型三相モーターの建設
+.shared.port_cold_marine	冷水の入力: 必須。船舶用エンジンにはラジエーターがない
+.shared.port_hot_marine	温水の出力。冷却塔へ
+.shared.port_cold_tower	冷水の出力。エンジンへ戻す
+.shared.port_hot_tower	温水の入力。エンジンから
+.shared.port_steam	蒸気の出力。排熱回収ボイラーから
+.shared.port_item	アイテムポート: 堆肥にできるアイテムを入れる
+.shared.port_fluid	液体ポート: 水を入れる
+.shared.port_fein	エネルギーの入力: ケーブルからFE
+.shared.port_gasout	ガスポート: メタンを出す
+.shared.oil	エンジンはオイルを使い、負荷が高いと速く減る。オイル缶を持って右クリックするか、パネルで缶をShift+クリックで入れる
+.shared.repair	オイルがないか100 °Cを超えると部品が壊れてエンジンが止まる: パネルが求める新しい部品を与えよう
+.shared.heater_1	ブロックヒーター: 背面からエネルギー、片側から水を入れ、反対側から温水が出る
+.shared.heater_2	止まっているエンジンの水を温かく保つ
+.shared.exchanger_1	熱交換器: エンジンの水をMekanismの熱ネットワークにつなぐ(上面と底面)
+.shared.exchanger_2	エンジンの熱をMekanismに捨てたり、Mekanismのヒーターで水を予熱したりする
+.shared.loadbank_1	負荷試験装置: エネルギーポートに当てて、負荷をかけたエンジンをテストする
+.shared.loadbank_2	右クリックで負荷の段階を変える。エネルギーは熱になる
+.shared.portable_1	携帯型ガソリン発電機: ベッドのように置き、片側から燃料を入れ、反対側からエネルギーを出す
+.shared.portable_2	スニーク+右クリックで始動・停止する。拾っても燃料はそのまま
+.petrol8.header	ガソリンV8発電機の建設
+.heli.header	ターボシャフト発電機の建設
+.turbine.header	ガスタービン発電機の建設
+.marine6.header	船舶用2ストローク発電機の建設
+.digester.header	嫌気性消化槽の建設
+.cooltower.header	小型冷却塔の建設
+.block_heater.header	ブロックヒーター
+.heat_exchanger.header	熱交換器
+.load_bank.header	負荷試験装置でエンジンをテストする
+.portable_genset.header	携帯型ガソリン発電機
+.shared.port_oil	潤滑ポート: パイプから潤滑油を入れるとエンジンオイルが補充される
+.shared.about_tdi	1.9 TDI PD 130動力ユニット: 96 kW、音は実物のASZエンジンから録ったもの。エネルギーポートはなく、Createのシャフトを回す
+.shared.shaft_out	駆動端はCreateのシャフトの出力。エンジンがアイドリングするとクラッチがつながる
+.shared.shaft_speed	駆動端でスクロールしてシャフトの回転数を設定する。スロットルはネットワークの応力に合わせる
+.shared.shaft_stall	トルク以上を求めると止まってしまう: 負荷を軽くしてから再始動する
+.shared.starter	クランキングにはスターターの電池のエネルギーを使う。動いている間か、エネルギーポートに送ったFEで再充電される
+.shared.starter_air	クランキングには始動用空気を使う。ボンベは動いている間か、エネルギーポートに送ったFEで補充される
+.tdi.header	1.9 TDI動力ユニットの建設

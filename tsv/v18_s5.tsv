@@ -1,0 +1,226 @@
+## createoreexcavation
+block.createoreexcavation.sample_drill	サンプルドリル
+chat.coe.sampleDrill.addedToAtlas	鉱脈の詳細を鉱脈アトラスに追加した
+chat.coe.sampleDrill.lowAir	銅のバックタンクの空気が少ない
+chat.coe.sampleDrill.noAir	上に銅のバックタンクがない
+chat.coe.sampleDrill.noAtlas	鉱脈アトラスが見つからない
+chat.coe.sampleDrill.notDone	サンプルを回収する前に、ドリルが採掘を1回終える必要がある。
+chat.coe.sampleDrill.running	サンプルドリルはすでに動いている
+chat.coe.sampleDrill.start	サンプルドリルを動かした
+chat.coe.veinFinder.distance	%s (約%sブロック先)
+chat.coe.veinFinder.pos	位置: %d, %d
+command.coe.locate.failed	妥当な距離の中に「%s」が見つからなかった
+command.coe.locate.success	一番近い%sは%s (%sブロック先)
+command.coe.setvein.success	鉱脈を設定した: %s
+config.coe.veinFinderCd	鉱脈ファインダーの使用クールダウン(ティック)
+config.coe.veinFinderFar	「…の痕跡を見つけた」の鉱脈ファインダーの精度
+config.coe.veinFinderNear	「近くで見つけた」の鉱脈ファインダーの範囲(チャンク)
+createoreexcavation.ponder.drilling.header	採掘を始める
+createoreexcavation.ponder.sample_drill.header	既存の鉱脈を見つける
+createoreexcavation.ponder.sample_drill.text_2	サンプルドリルを置く
+createoreexcavation.ponder.sample_drill.text_3	上に銅のバックタンクを置く
+createoreexcavation.ponder.sample_drill.text_4	ドリルを動かす
+createoreexcavation.ponder.sample_drill.text_5	採掘が終わるのを待つ
+createoreexcavation.ponder.sample_drill.text_6	終わったら、アトラスを持ってもう一度クリックする
+createoreexcavation.ponder.sample_drill.text_7	これで鉱脈アトラスに鉱脈の詳細がすべて入り、この鉱脈で絞り込めるようになる
+createoreexcavation.ponder.sample_drill.text_8	または、すでに動いている採掘機をクリックしてサンプルを回収する
+info.coe.atlas.dimension	ディメンション: %s
+info.coe.atlas.location	場所:
+info.coe.atlas.vein_size	鉱脈の大きさ: %s
+info.coe.atlas.vein_size.infinite	再生可能 (∞)
+info.coe.atlas.vein_types	鉱脈の種類
+info.coe.drill.err_no_recipe	この鉱脈に使えるレシピが見つからなかった
+info.coe.drill.fluidInfo	掘削液:
+info.coe.drill.noGround	機械は固い地面の上に置く必要がある
+info.coe.extractor.output	抽出機の出力:
+info.coe.sample_drill.air	空気
+info.coe.sample_drill.click_to_start	クリックで採掘を始める
+info.coe.sample_drill.done	完了。クリックで結果をアトラスに追加
+info.coe.sample_drill.low_air	銅のバックタンクの空気が少ない
+info.coe.sample_drill.no_air	上に銅のバックタンクがない
+item.createoreexcavation.vein_atlas	鉱脈アトラス
+jei.coe.recipe.veins	鉱脈
+jm.coe.veinsOverlayToggle	Create: Ore Excavation の鉱脈オーバーレイ
+tag.item.createoreexcavation.drills	すべてのドリル
+tooltip.coe.atlas.exclude	除外した鉱脈
+tooltip.coe.atlas.hide_vein	鉱脈を隠す
+tooltip.coe.atlas.include	クリックで除外
+tooltip.coe.atlas.set_target	目標に設定
+tooltip.coe.atlas.show_hide	隠した鉱脈を表示
+tooltip.coe.atlas.switch_target	目標を切り替え
+tooltip.coe.atlas.target	目標の鉱脈
+tooltip.coe.vein_finder.filtered	アトラスで絞り込んだ鉱脈ファインダー
+upgrade.createoreexcavation.vein_finder.adjective	鉱脈探査の
+## chemek
+block.chemek.combiner_factory_basic	基本結合ファクトリー
+block.chemek.combiner_factory_advanced	発展結合ファクトリー
+block.chemek.combiner_factory_elite	精鋭結合ファクトリー
+block.chemek.combiner_factory_ultimate	究極結合ファクトリー
+block.chemek.dissolver_factory_basic	基本溶解ファクトリー
+block.chemek.dissolver_factory_advanced	発展溶解ファクトリー
+block.chemek.dissolver_factory_elite	精鋭溶解ファクトリー
+block.chemek.dissolver_factory_ultimate	究極溶解ファクトリー
+block.chemek.compactor_factory_basic	基本圧縮ファクトリー
+block.chemek.compactor_factory_advanced	発展圧縮ファクトリー
+block.chemek.compactor_factory_elite	精鋭圧縮ファクトリー
+block.chemek.compactor_factory_ultimate	究極圧縮ファクトリー
+itemGroup.chemek	General Chemistry
+chemek.gui.empty	空
+chemek.gui.progress	進行: %s%%
+chemek.gui.shared_output	共有出力
+chemek.gui.side_config	面の設定
+chemek.gui.transporter_config	トランスポーターの設定
+chemek.gui.upgrades	アップグレード
+chemek.gui.sides	面
+chemek.gui.input	入力
+chemek.gui.output	出力
+chemek.gui.transmission.item	アイテム
+chemek.gui.transmission.fluid	液体
+chemek.gui.transmission.energy	エネルギー
+chemek.gui.energy.stored	蓄積: %s / %s FE
+chemek.gui.energy.using	消費: %s FE/t
+chemek.gui.energy.unit	1ユニットあたり: %s FE/t
+chemek.gui.energy.needed	必要: %s FE
+chemek.gui.security	セキュリティ: %s
+chemek.gui.owner	所有者: %s
+chemek.gui.security.public	公開
+chemek.gui.security.trusted	信頼
+chemek.gui.security.private	非公開
+chemek.gui.redstone	レッドストーン制御: %s
+chemek.gui.redstone.disabled	無効
+chemek.gui.redstone.high	高
+chemek.gui.redstone.low	低
+chemek.gui.redstone.pulse	パルス
+chemek.gui.redstone.powered	現在信号あり
+chemek.gui.redstone.unpowered	現在信号なし
+chemek.gui.upgrade.speed	スピード
+chemek.gui.upgrade.energy	エネルギー
+chemek.gui.upgrade.speed_info	取り付けたスピードアップグレード: %s/8
+chemek.gui.upgrade.energy_info	取り付けたエネルギーアップグレード: %s/8
+chemek.gui.upgrade.remove	1つ外す
+chemek.gui.color.none	色なし
+block_type.chemek.factory	化学ファクトリー(Mekanism標準の設定)
+chemek.gui.recipe_lock	レシピを固定(すべてのユニットがこのレシピだけを処理)
+chemek.gui.recipe_select	レシピ
+chemek.gui.recipe_search	レシピを検索
+chemek.gui.product_preview	生成物のプレビュー(現在のレシピの出力)
+chemek.gui.jei_recipe	レシピ(クリックでJEI)
+## kontraption
+item.kontraption.alloy_lightweight	軽量合金
+item.kontraption.toolgun	ツールガン
+item.kontraption.estrogen	エストロゲン
+block.kontraption.ship_control_interface	船の操縦インターフェース
+block.kontraption.gyro	ジャイロスコープ
+block.kontraption.rubber_block	ゴムブロック
+block.kontraption.liquid_fuel_thruster_casing	液体燃料スラスターのケーシング
+block.kontraption.liquid_fuel_thruster_valve	液体燃料スラスターのバルブ
+block.kontraption.liquid_fuel_thruster_exhaust	液体燃料スラスターの排気口
+block.kontraption.oil_drill_casing	石油ドリルのケーシング
+block.kontraption.oil_drill_port	石油ドリルのポート
+block.kontraption.key	レッドストーンインターフェース
+block.kontraption.otter_plushie	ZeOtteryのぬいぐるみ
+block.kontraption.cosmic_plushie	Cosmosのぬいぐるみ
+block.kontraption.illuc_plushie	Illucのぬいぐるみ
+block.kontraption.large_ion_thruster_casing	大型イオンスラスターのケーシング
+block.kontraption.large_ion_thruster_coil	大型イオンスラスターのコイル
+block.kontraption.large_ion_thruster_valve	大型イオンスラスターのバルブ
+block.kontraption.large_ion_thruster_controller	大型イオンスラスターの制御装置
+toolgun.kontraption.mode_change	ツールガンのモードを変更した: %1$s
+toolgun.kontraption.assemble	組み立て
+toolgun.kontraption.move	移動
+toolgun.kontraption.lock	固定
+toolgun.kontraption.push	押す
+toolgun.kontraption.rotate	回転
+toolgun.kontraption.weld	溶接
+toolgun.kontraption.selection_reset	選択をリセットした
+toolgun.kontraption.first_pos_selected	1つ目の位置を選んだ
+toolgun.kontraption.second_pos_selected	2つ目の位置を選んだ
+toolgun.kontraption.pos_on_ship	選んだ位置は船の上にある！
+toolgun.kontraption.assembly_successful	組み立てた！
+toolgun.kontraption.assembly_failed	組み立て失敗！エネルギーが足りない。
+toolgun.kontraption.energy_req	 必要だが、あったのは
+toolgun.kontraption.selected_ship	船を選んだ！
+toolgun.kontraption.ship_not_found	船を指してもう一度試してください
+toolgun.kontraption.moving_successful	移動した！
+toolgun.kontraption.move_failed	移動失敗！エネルギーが足りない。
+toolgun.kontraption.cant_move_on_ship	ツールガンを船以外のものに向けてください！
+category.kontraption.ship_controls	Kontraption 船の操縦
+key.kontraption.down	下降
+key.kontraption.up	上昇
+key.kontraption.pitch_down	機首下げ
+key.kontraption.pitch_up	機首上げ
+key.kontraption.roll_down	反時計回りに回転
+key.kontraption.roll_up	時計回りに回転
+key.kontraption.yaw_down	左に旋回
+key.kontraption.yaw_up	右に旋回
+chat.kontraption.testing_build	これはKontraptionのテスト版で、\n通常のプレイ向けではない。\nゲームを壊すバグ、足りない機能、\n仮の素材があるはず！\n見つけたバグは課題管理で\n報告してください！\nhttps://github.com/illucc/Kontraption/issues
+chat.kontraption.titleborder	===========[Kontraption]===========
+chat.kontraption.work_in_progress	制作中 :P
+itemGroup.kontraption	Kontraption
+container.kontraption.TerminalGUI	船のターミナルの設定
+block.kontraption.tooltip.ottplush1	にゃ
+block.kontraption.tooltip.cosplush1	Cosmosss
+block.kontraption.tooltip.illplush1	CORRU
+## convenient_storage
+advancements.convenient_storage.accompany_with_beacon.description	ストレージタブレットをビーコンでアップグレードする
+advancements.convenient_storage.accompany_with_beacon.title	ビーコンと共に
+advancements.convenient_storage.attack_entity_in_tablet.description	ストレージタブレットの中のエンティティを攻撃する
+advancements.convenient_storage.attack_entity_in_tablet.title	ゴブリンの檻
+advancements.convenient_storage.capture_boss.description	ボスをストレージタブレットに捕まえる
+advancements.convenient_storage.capture_boss.title	マスターボール
+advancements.convenient_storage.capture_entity.description	エンティティをストレージタブレットに捕まえる
+advancements.convenient_storage.capture_entity.title	モンスターボール
+advancements.convenient_storage.get_boss_spawn_egg.description	エンティティストレージからボスのスポーンエッグを取り出す
+advancements.convenient_storage.get_boss_spawn_egg.title	待って！何を取ったの？
+advancements.convenient_storage.get_spawn_egg.description	エンティティストレージからスポーンエッグを取り出す
+advancements.convenient_storage.get_spawn_egg.title	卵に戻れ
+advancements.convenient_storage.get_tablet.description	ストレージタブレットを手に入れる
+advancements.convenient_storage.get_tablet.title	ストレージはひとつで十分
+advancements.convenient_storage.kill_boss_in_tablet.description	ストレージタブレットの中のボスを倒す
+advancements.convenient_storage.kill_boss_in_tablet.title	檻の中の獣
+advancements.convenient_storage.milk_entity_with_tablet.description	エンティティから無限の牛乳を手に入れる
+advancements.convenient_storage.milk_entity_with_tablet.title	搾り尽くした
+advancements.convenient_storage.overclocking_smeltery.description	ストレージタブレットの精錬速度を200より大きくする
+advancements.convenient_storage.overclocking_smeltery.title	オーバークロック精錬所
+advancements.convenient_storage.plasma_smeltery.description	ストレージタブレットの精錬速度を2000より大きくする
+advancements.convenient_storage.plasma_smeltery.title	プラズマ精錬所
+advancements.convenient_storage.root.description	異次元空間？
+advancements.convenient_storage.root.title	Convenient Storage
+advancements.convenient_storage.scavenger.description	ストレージタブレットでチェストの中身を取る
+advancements.convenient_storage.scavenger.title	あさり屋
+advancements.convenient_storage.upgrade_tablet.description	ストレージタブレットをアップグレードする
+config.convenient_storage.auto_charge_boots	ブーツの自動充電
+config.convenient_storage.auto_charge_boots.description	ブーツを自動で充電する
+config.convenient_storage.auto_charge_chestplate	チェストプレートの自動充電
+config.convenient_storage.auto_charge_chestplate.description	チェストプレートを自動で充電する
+config.convenient_storage.auto_charge_helmet	ヘルメットの自動充電
+config.convenient_storage.auto_charge_helmet.description	ヘルメットを自動で充電する
+config.convenient_storage.auto_charge_leggings	レギンスの自動充電
+config.convenient_storage.auto_charge_leggings.description	レギンスを自動で充電する
+config.convenient_storage.auto_charge_main_hand	利き手のアイテムの自動充電
+config.convenient_storage.auto_charge_main_hand.description	利き手のアイテムを自動で充電する
+config.convenient_storage.auto_charge_off_hand	オフハンドのアイテムの自動充電
+config.convenient_storage.auto_charge_off_hand.description	オフハンドのアイテムを自動で充電する
+config.convenient_storage.force_unicode_font	Unicodeフォントを強制
+config.convenient_storage.force_unicode_font.description	言語設定の「Unicodeフォントを強制」がオフなら、タブレットの画面ではオンにする
+config.convenient_storage.pickup_present_item	ストレージにあるアイテムだけ拾う
+config.convenient_storage.pickup_present_item.description	ストレージにすでにあるアイテムだけを自動で拾う
+config.convenient_storage.show_tips	ヒントを表示
+config.convenient_storage.show_tips.description	ツールチップに「§a*§r」で始まるヒントを表示する。
+config.convenient_storage.text_scale	文字の大きさ
+config.convenient_storage.text_scale.description	数量の文字の大きさ
+gamerule.maxBeaconEffectLevel	ストレージタブレットのビーコン機能が与える効果の最大レベル
+tooltip.convenient_storage.beacon.level	レベル: %s/%s (スクロール)
+tooltip.convenient_storage.drop	%sで取り外す
+tooltip.convenient_storage.enchantment.tip	数字かローマ数字でエンチャントのレベルを検索・選択できる
+tooltip.convenient_storage.energy	蓄えたエネルギー: %sFE
+tooltip.convenient_storage.jei_plugin.consume	消費！
+tooltip.convenient_storage.level	レベル: %s
+tooltip.convenient_storage.recipe.any_crafting	どのクラフトでも
+tooltip.convenient_storage.recipe.crafting_typed	種類別のクラフトレシピ: %s×%s
+tooltip.convenient_storage.sequence.tip	ホイールクリックで一番上に固定/固定解除
+tooltip.convenient_storage.sort.modified_time	更新日時で並べ替え(スクロール)
+tooltip.convenient_storage.sort.tip	左クリックで昇順、右クリックで降順
+tooltip.convenient_storage.utility.clear.tip0	左クリックで中身をインベントリに出す
+tooltip.convenient_storage.utility.clear.tip1	右クリックで中身をストレージに出す
+utility.minecraft.beacon	ビーコン

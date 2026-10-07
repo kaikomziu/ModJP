@@ -1,0 +1,7 @@
+{
+  "title.mek_absolute_finite_energy_cube": "Mekanism: Absolute Finite Energy Cube",
+  "config.jade.plugin_mek_absolute_finite_energy_cube.absolute_finite_energy_cube": "絶対有限エネルギーキューブ",
+  "block.mek_absolute_finite_energy_cube.absolute_finite_energy_cube": "絶対有限エネルギーキューブ",
+  "gui.mek_absolute_finite_energy_cube.extract": "搬出",
+  "gui.mek_absolute_finite_energy_cube.insert": "搬入"
+}

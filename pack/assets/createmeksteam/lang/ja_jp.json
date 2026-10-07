@@ -1,0 +1,13 @@
+{
+  "block.createmeksteam.steam_converter": "蒸気変換機",
+  "itemGroup.createmeksteam": "CreateMek Steam",
+  "tooltip.createmeksteam.goggles.title": "    蒸気変換機",
+  "tooltip.createmeksteam.goggles.boiler_title": "    蒸気ボイラー",
+  "tooltip.createmeksteam.goggles.boiler_max_output": "    最大蒸気出力",
+  "tooltip.createmeksteam.goggles.conversion_rate": "    変換率",
+  "tooltip.createmeksteam.goggles.max_output": "    現在の出力",
+  "tooltip.createmeksteam.goggles.shared_converter_count": "    共有している変換機",
+  "tooltip.createmeksteam.goggles.conversion_rate_value": "熱1あたり%s mB/t",
+  "tooltip.createmeksteam.goggles.steam_rate": "%s mB/t",
+  "tooltip.createmeksteam.goggles.shared_converter_count_value": "%s"
+}

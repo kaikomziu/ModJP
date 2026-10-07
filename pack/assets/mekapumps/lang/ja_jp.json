@@ -1,0 +1,6 @@
+{
+  "itemGroup.mekapumps": "Mekanism: Pumps",
+  "gui.mekapumps.energy": "エネルギー: %s / %s FE",
+  "gui.mekapumps.water": "水: %s / %s mB",
+  "gui.mekapumps.heavy_water": "重水: %s / %s mB"
+}

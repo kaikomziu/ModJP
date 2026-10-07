@@ -1,3 +1,15 @@
 {
-  "constants.mekanism.recipe_warning": "Mekanism のレシピで壊れたタグが検出されました。詳細はサーバーログを確認してください。一部のレシピが失われ、機械が本来受け付けるはずの入力を受け付けない可能性があります。"
+  "gas.mekanism.enriched_nuclear_waste": "濃縮核廃棄物",
+  "constants.mekanism.recipe_warning": "Mekanism のレシピで壊れたタグが検出されました。詳細はサーバーログを確認してください。一部のレシピが失われ、機械が本来受け付けるはずの入力を受け付けない可能性があります。",
+  "configuration.mekanism.client.last_window_positions.inserter": "インサーターのウィンドウの位置",
+  "configuration.mekanism.client.last_window_positions.inserter.button": "インサーターの位置を編集",
+  "configuration.mekanism.client.last_window_positions.inserter.tooltip": "インサーターのウィンドウを閉じたときの最後の位置。",
+  "trim_material.mekanism.bronze": "青銅素材",
+  "trim_material.mekanism.refined_obsidian": "精製黒曜石素材",
+  "trim_material.mekanism.refined_glowstone": "精製グロウストーン素材",
+  "trim_material.mekanism.steel": "鋼鉄素材",
+  "trim_material.mekanism.osmium": "オスミウム素材",
+  "trim_material.mekanism.tin": "スズ素材",
+  "trim_material.mekanism.lead": "鉛素材",
+  "trim_material.mekanism.uranium": "ウラン素材"
 }

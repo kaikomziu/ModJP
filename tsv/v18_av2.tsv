@@ -1,0 +1,288 @@
+## avaritia
+@ gui.avaritia.
+.renameChannel.tip2	変更後: 「%d」
+.rule.any_fluid	どの液体でも
+.rule.any_item	どのアイテムでも
+.rule.fe	エネルギー (FE)
+.rule.fluid	液体: %d
+.rule.item	アイテム: %d
+.rule.item_tag	タグ: %d
+.rule.mod_fluid	MOD(液体): %d
+.rule.mod_item	MOD(アイテム): %d
+.rule.tip	マウスホイールで選ぶ
+.save	保存
+.search.tip1	接頭辞なしでIDと名前を検索
+.search.tip2	接頭辞「§a*§r」でIDだけを検索
+.search.tip3	接頭辞「§a$§r」でタグを検索
+.sort.ascending	昇順
+.sort.count	並べ替え : §a数量
+.sort.descending	降順
+.sort.id	並べ替え : §aID
+.sort.mirror_id	並べ替え : §a逆順のID
+.sort.nid	並べ替え : §aMOD、次にID
+.sort.tip1	§a左クリック§r : 並べ替えの種類を切り替え
+.sort.tip2	§d左SHIFT§r + §a左クリック§r : 昇順を切り替え
+.view.all	§aすべて
+.view.fluid	§a液体
+.view.item	§aアイテム
+.neutron_ring.select	選択
+.neutron_ring.preview_size	%s×%s×%s  ·  %sブロック
+.infinity_ring.access.help	非公開: 自分だけ。フレンド: リストのプレイヤー。公開: 追放した人以外の誰でも。役割: 訪問者は入れる、メンバーは信頼される、管理者はワールドの設定を変えられる。
+.infinity_ring.access.private.info	所有者だけが入れる。
+.infinity_ring.access.friends.info	所有者と、リストの訪問者、メンバー、管理者。
+.infinity_ring.access.public.info	追放したプレイヤー以外は誰でも入れる。
+.infinity_ring.terrain.void.info	小さな足場のある何もない虚空。
+.infinity_ring.terrain.sky_island.info	木が1本ある草の島。
+.infinity_ring.terrain.flat.info	無限に続く超平坦の層。
+.infinity_ring.time.follow.info	オーバーワールドの時刻に合わせる。
+.infinity_ring.time.day.info	いつも正午。
+.infinity_ring.time.night.info	いつも真夜中。
+.infinity_ring.time.cycle.info	ここだけで昼と夜が巡る。
+.infinity_ring.weather.follow.info	オーバーワールドの天気に合わせる。
+.infinity_ring.weather.clear.info	いつも晴れ。
+.infinity_ring.weather.rain.info	いつも雨。
+.infinity_ring.weather.thunder.info	いつも雷雨。
+.infinity_ring.role	役割
+.infinity_ring.role.visitor	訪問者
+.infinity_ring.role.member	メンバー
+.infinity_ring.role.admin	管理者
+.infinity_ring.ban	追放
+.infinity_ring.unban	追放を解除
+message.avaritia.neutron_ring.place_failed	その空間を解放できなかった。
+info.avaritia.channel.add_success	チャンネルを追加した: %s %s %s
+info.avaritia.channel.load_error	チャンネルの読み込みエラー！
+info.avaritia.channel.load_finish	チャンネルの読み込みが終わった！
+info.avaritia.channel.load_success	チャンネルを読み込んだ: %s %s %s
+info.avaritia.channel.save_success	チャンネルを保存した: %s %s %s
+info.avaritia.infinity_chest.add_success	インフィニティチェストを追加した: %s %s %s
+info.avaritia.infinity_chest.load_error	インフィニティチェストの読み込みエラー！
+info.avaritia.infinity_chest.load_finish	インフィニティチェストの読み込みが終わった！
+info.avaritia.infinity_chest.load_success	インフィニティチェストを読み込んだ: %s %s %s
+info.avaritia.infinity_chest.save_success	インフィニティチェストを保存した: %s %s %s
+@ item.avaritia.
+.blaze_axe	ブレイズの茂みの斧
+.blaze_bow	ブレイズの輝く弓
+.blaze_cube	ブレイズキューブ
+.blaze_hoe	ブレイズの魂のクワ
+.blaze_pickaxe	ブレイズの溶岩のツルハシ
+.blaze_shovel	ブレイズの炎のシャベル
+.blaze_sword	ブレイズの頭蓋の剣
+.cosmic_meatballs	宇宙のミートボール
+.crystal_axe	クリスタルの斧
+.crystal_hoe	クリスタルのクワ
+.crystal_matrix_ingot	クリスタルマトリックスインゴット
+.crystal_pickaxe	クリスタルのツルハシ
+.crystal_shovel	クリスタルのシャベル
+.crystal_sword	クリスタルの剣
+.diamond_lattice	ダイヤモンドの格子
+.endest_pearl	終点のパール
+.enhancement_core	強化コア
+.eternal_singularity	永遠のシンギュラリティ
+.full_matter_cluster	満杯の物質の塊
+.infinity_axe	自然の破滅
+.infinity_boots	インフィニティのブーツ
+.infinity_bow	天空の長弓
+.infinity_catalyst	インフィニティ触媒
+.infinity_chestplate	インフィニティのチェストプレート
+.infinity_clock	インフィニティの時計
+.infinity_crossbow	業火のクロスボウ
+.infinity_elytra	インフィニティのエリトラ
+.infinity_helmet	インフィニティのヘルメット
+.infinity_hoe	永遠の豊穣
+.infinity_ingot	インフィニティインゴット
+.infinity_nugget	インフィニティの塊
+.infinity_pants	インフィニティのズボン
+.infinity_pickaxe	世界の破壊者
+.infinity_shield	地核の盾
+.infinity_shovel	惑星を食らう者
+.infinity_sword	宇宙の剣
+.infinity_totem	インフィニティのトーテム
+.infinity_trident	深海のトライデント
+.infinity_umbrella	インフィニティの傘
+.infinity_upgrade	インフィニティアップグレード
+.matter_cluster	物質の塊
+.neutron_gear	ニュートロニウムの歯車
+.neutron_horse_armor	ニュートロニウムの馬鎧
+.neutron_ingot	ニュートロニウムインゴット
+.neutron_nugget	ニュートロニウムの塊
+.neutron_pile	ニュートロンの山
+.neutron_ring	ニュートロニウムの指輪
+.record_fragment	レコードの破片
+.refined_coal	精製石炭
+.side_config_card	面の設定カード
+.singularity	%sのシンギュラリティ
+.star_fuel	恒星燃料
+.ultimate_stew	究極のシチュー
+.upgrade_smithing_template	アップグレードの鍛冶型
+itemGroup.tab.Infinity	Re:Avaritia
+itemGroup.tab.Singularity	Avaritia:Singularity
+jei.category.avaritia.compressor	ニュートロニウム圧縮機
+jei.category.avaritia.end_crafting_table	エンドクラフト
+jei.category.avaritia.extreme_crafting_table	エクストリームクラフト
+jei.category.avaritia.extreme_smithing_table	エクストリーム鍛冶
+jei.category.avaritia.nether_crafting_table	ネザークラフト
+jei.category.avaritia.sculk_crafting_table	スカルククラフト
+jei.tooltip.avaritia.bedrock	クリスタルのツルハシか世界の破壊者(インフィニティのツルハシ)で手に入る
+jei.tooltip.avaritia.crystal_pickaxe	この道具は岩盤を掘れる
+jei.tooltip.avaritia.end_portal_frame	クリスタルのツルハシか世界の破壊者(インフィニティのツルハシ)で手に入る
+jei.tooltip.avaritia.full_matter_cluster	アイテムが4096個入った物質の塊を使ってクラフトする
+jei.tooltip.avaritia.neutron_collector	ニュートロンの山を集める
+jei.tooltip.avaritia.neutron_pile	ニュートロン収集機で、しばらくするとニュートロンの山が手に入る
+jei.tooltip.avaritia.refined_coal	ブレイズの茂みの斧で原木を切ると手に入る
+key.avaritia.categories	Avaritiaのキー割り当て
+key.avaritia.config	Avaritiaの設定を開く
+key.avaritia.filter	フィルター画面を開く
+key.avaritia.neutron_ring	ニュートロンの指輪を開く
+rarity.cosmic.name	宇宙級
+rarity.legend.name	伝説
+screen.avaritia.side_config.title	入出力の設定
+@ singularity.avaritia.
+.aluminum	アルミニウム
+.amethyst_shard	アメジストの欠片
+.blue_ice	青氷
+.bronze	青銅
+.coal	石炭
+.copper	銅
+.diamond	ダイヤモンド
+.electrum	エレクトラム
+.emerald	エメラルド
+.glowstone	グロウストーン
+.gold	金
+.invar	インバー
+.iron	鉄
+.lapis_lazuli	ラピスラズリ
+.lead	鉛
+.netherite	ネザライト
+.nickel	ニッケル
+.obsidian	黒曜石
+.osmium	オスミウム
+.platinum	プラチナ
+.quartz	クォーツ
+.redstone	レッドストーン
+.refined_obsidian	精製黒曜石
+.silver	銀
+.steel	鋼鉄
+.tin	スズ
+.titanium	チタン
+.uranium	ウラン
+.zinc	亜鉛
+title.avaritia.config.title	Re：Avaritia
+title.avaritia.resourcepack	Avaritiaの旧リソースパック
+tooltip.armor.desc	防御力
+tooltip.armor_toughness.desc	防具強度
+@ tooltip.avaritia.
+.active	%sモードが有効！
+.added_by	追加元: %s
+.blaze_axe.desc	森を焼き、木を木炭に変える。
+.blaze_cube.desc	ブレイズの嵐。
+.blaze_hoe.desc	魂の力で、万物が育つ。
+.blaze_pickaxe.desc	溶けた山で熱く精錬する。
+.blaze_shovel.desc	ネザーから生まれた呪文。
+.blaze_sword.desc	スケルトンの首をはね、黒焦げにする。
+.changed	%sモードにした
+.compress	圧縮: %s x %s
+.crystal_axe.desc	岩を砕き、盾を打ち破る。
+.crystal_hoe.desc	一振りで命が花開き、もう一振りで時が流れる。
+.crystal_matrix_ingot.desc	これはまだ最終形態ではない。
+.crystal_pickaxe.desc	幸運は宝をもたらし、精密さは宝石を見つける。
+.crystal_shovel.desc	風のように昇り、ゆるやかに落ちる。
+.crystal_sword.desc	刃は切り裂き、影は敵を打ち倒す。
+.diamond_lattice.desc	密度の高い素材…
+.durability	耐久値 %s
+.eject	排出
+.ejecting	排出中…
+.empty	空
+.endless_cake.desc	暴食？
+.enhancement_core.desc	完成への道！
+.inactive	%sモードが無効！
+.infinity_catalyst.desc	一は全、全は一。
+.infinity_clock.desc	時間を思いのままに…
+.infinity_ingot.desc	宇宙の怒りをその手に。
+.infinity_nugget.desc	天使の涙…
+.infinity_totem.desc	永遠の守護者…
+.infinity_umbrella.desc	一瞬の永遠…
+.infinity_upgrade.desc	加速アップグレード！
+.init_enchant	常に%s以上
+.items_required	必要なアイテム:
+.limited_input	入力制限あり
+.matter_cluster.counter	%s / %s 個
+.matter_cluster.desc	使うと分解する。
+.matter_cluster.desc2	SHIFTを押すと中身を表示。
+.mode	モード: %s
+.more	ほか%s個…
+.neutron_gear.desc	技術の復興の秘密…
+.neutron_horse_armor.desc	全力…
+.neutron_ingot.desc	星の高密度の核を、便利なインゴットの形にしたもの。
+.neutron_nugget.desc	約3560万トン。
+.neutron_pile.desc	深く考えないで。
+.num_items	%s個のアイテムが必要
+.progress	進行: %s
+.record_fragment.desc	音楽の自由を信じたい～
+.refined_coal.desc	熱の爆発！
+.seconds	%s秒
+.selected	選択中
+.side.click_to_cycle	クリックで切り替え
+.side.mode.active_input	能動入力
+.side.mode.active_mixin	能動混合
+.side.mode.active_output	能動出力
+.side.mode.off	オフ
+.side.mode.passive_input	受動入力
+.side.mode.passive_mixin	受動混合
+.side.mode.passive_output	受動出力
+.side_config_card.already_empty	設定はすでに空
+.side_config_card.apply_success	設定を機械に適用した
+.side_config_card.cleared	設定を消去した
+.side_config_card.has_config	§7設定を保存済み
+.side_config_card.instruction_right_click	§7機械を右クリックで適用
+.side_config_card.instruction_shift_air	§7ほかのブロックか空中をShift+右クリックで消去
+.side_config_card.instruction_shift_right_click	§7機械をShift+右クリックで保存
+.side_config_card.no_config	§7空の設定
+.side_config_card.no_config_to_apply	適用する設定がない
+.side_config_card.read_success	設定をカードに保存した
+.singularity_id	シンギュラリティのID: %s
+.smithing	鍛冶: %s x %s
+.star_fuel.desc	星のための燃料。
+.switch	%sに切り替え
+.sword_kill_mode.active	見えるものをすべて倒す。
+.ticks	%sティック
+.tier	ティア: %s
+.time_consume	所要時間: %s
+.tool.fire_ball	火の玉
+.tool.blade_slash	刃の斬撃
+.tool.blaze_bow_burning	範囲炎上
+.tool.blaze_shovel_trans	素材変換
+.tool.crystal_pickaxe.enchant_1	幸運IIIにした
+.tool.crystal_pickaxe.enchant_2	シルクタッチにした
+.tool.infinity_axe_range	範囲破壊
+.tool.infinity_bow_tracer	追跡攻撃
+.tool.infinity_clock.overclock_disabled	加速モードにした
+.tool.infinity_clock.overclock_enabled	時間経過モードにした
+.tool.infinity_clock_up	加速
+.tool.infinity_crossbow_multi	拡散射撃
+.tool.infinity_hoe_sow	範囲
+.tool.infinity_pickaxe_hammer	範囲採掘
+.tool.infinity_shovel_destroyer	範囲/終点のパール攻撃
+.tool.infinity_sword_kill	殲滅
+.tool.infinity_trident_loyalty	忠誠
+.tool.infinity_trident_normal	通常
+.tool.infinity_trident_riptide	激流
+.tool.infinity_umbrella_normal	基本
+.tool.infinity_umbrella_rain	雨
+.tool.infinity_umbrella_storm	嵐
+.tool.infinity_umbrella_sun	晴れ
+.tool.smelt	精錬
+.totem_break	終わりなきトーテムを使い切った
+.type	種類: %s
+.unlimited_input	入力制限なし
+.compressor_eject.message_1	§c[ニュートロン圧縮機] §u先にレシピの固定を解除して
+.compressor_eject.message_2	§a[ニュートロン圧縮機] §f素材を取り出し、物質の塊にまとめた。
+.compressor_eject.message_3	§c[ニュートロン圧縮機] §f取り出せる素材がない
+.compressor_lock.message_1	§a[ニュートロン圧縮機] §fレシピを固定した
+.compressor_lock.message_2	§e[ニュートロン圧縮機] §fレシピの固定を解除した
+.compressor_lock.message_3	§c[ニュートロン圧縮機] §f先にレシピの材料を入れてください
+tooltip.crystal_pickaxe.enchant_1	幸運IIIにした
+tooltip.crystal_pickaxe.enchant_2	シルクタッチにした
+tooltip.infinity_pickaxe.enchant_1	幸運Xにした
+tooltip.infinity_pickaxe.enchant_2	シルクタッチにした
+tooltip.infinity	インフィニティ
+tooltip.infinity.desc	攻撃力

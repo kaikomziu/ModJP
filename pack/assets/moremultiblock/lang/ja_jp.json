@@ -1,0 +1,9 @@
+{
+  "block.moremultiblock.radioactive_waste_vault": "放射性廃棄物保管庫",
+  "block.moremultiblock.radioactive_waste_valve": "放射性廃棄物バルブ",
+  "gui.moremultiblock.radioactive_waste_vault": "放射性廃棄物保管庫",
+  "description.moremultiblock.radioactive_waste_vault": "放射性廃棄物保管庫のマルチブロックに使う外装。放射性廃棄物を安全に保管できる構造物。警告: 保管庫を壊すと中身が大気中に放出される。",
+  "description.moremultiblock.radioactive_waste_valve": "放射性廃棄物保管庫のマルチブロックに付けられるバルブ。外部の配管で放射性廃棄物を出し入れできる。",
+  "text.moremultiblock.result.radioactive_waste_vault.decay_rate": "崩壊速度",
+  "text.moremultiblock.result.radioactive_waste_vault.decay_rate.actual": "実際の崩壊速度"
+}

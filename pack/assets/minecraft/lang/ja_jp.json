@@ -3,6 +3,7 @@
   "text.autoconfig.dreamshift.option.enableMainMenuTheme.@Tooltip": "メインメニューにDreamshift独自のロゴとパノラマを使う。",
   "text.autoconfig.dreamshift.option.legacyMode": "レガシーモード",
   "text.autoconfig.dreamshift.option.legacyMode.@Tooltip": "Immersive Portalsのワールド描画を無効にする。古いハードウェアやmacOSでのシェーダーの不具合が直る。",
+  "subtitles.block.end_gateway.spawn": "エンドゲートウェイが開く",
   "addServer.hideAddress": "アドレスを隠す",
   "advMode.allEntities": "「@e」ですべてのエンティティを対象にする",
   "advMode.allPlayers": "「@a」ですべてのプレイヤーを対象にする",

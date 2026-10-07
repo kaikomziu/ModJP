@@ -1,0 +1,13 @@
+{
+  "block.densemekanism.dense_deepslate_fluorite_ore": "高密度の深層蛍石鉱石",
+  "block.densemekanism.dense_deepslate_lead_ore": "高密度の深層鉛鉱石",
+  "block.densemekanism.dense_deepslate_osmium_ore": "高密度の深層オスミウム鉱石",
+  "block.densemekanism.dense_deepslate_tin_ore": "高密度の深層スズ鉱石",
+  "block.densemekanism.dense_deepslate_uranium_ore": "高密度の深層ウラン鉱石",
+  "block.densemekanism.dense_fluorite_ore": "高密度の蛍石鉱石",
+  "block.densemekanism.dense_lead_ore": "高密度の鉛鉱石",
+  "block.densemekanism.dense_osmium_ore": "高密度のオスミウム鉱石",
+  "block.densemekanism.dense_tin_ore": "高密度のスズ鉱石",
+  "block.densemekanism.dense_uranium_ore": "高密度のウラン鉱石",
+  "itemGroup.densemekanism": "Dense Mekanism"
+}

@@ -1,0 +1,152 @@
+## spatialtoolscmp
+block.spatialtoolscmp.crafting_buffer	クラフトバッファ
+@ gui.spatialtoolscmp.
+.available_count	在庫: %s
+.build_blocks_preview	建設: %sブロック
+.build_cost_preview	建設: %s FE
+.capture_failed	構造物を取り込めなかった: 互換性のないブロックがエラーを出した。
+.clone_cost_preview	複製: %s FE
+.config.category_settings	設定
+.config.desc_base_power_capacity	アイテムの内部のエネルギー容量。エネルギーアップグレード1つごとにこの量が加わる。
+.config.desc_blacklist_indestructible	岩盤など壊せないブロックは常に飛ばすので、登録は不要。
+.config.desc_blacklist_operators	使えるもの: グロブ(gtceu:*_casing)、演算子 ! & | ^ と括弧。どれかの項目に一致したブロックはブラックリストに入る。
+.config.desc_blacklist_syntax	置き換え機が置き換えを拒むブロック。各項目はブロックID(minecraft:bedrock)とブロックタグ(#forge:ores)の論理式。
+.config.desc_cost	1ブロックあたりのAEコストの基本係数。最終的なコストは 基本コスト × ブロックの距離 × エネルギーコスト倍率。
+.config.desc_energy_cost_multiplier	距離に基づくコストにかける倍率。0にするとこのガジェットのエネルギーコストを無効にする。
+.config.desc_energy_upgrade_items	アイテムの登録名。例えば ae2:energy_card。クラフトのアップグレードスロットには影響しない。
+.config.desc_max_structure_size	取り込む構造物の最大ブロック数。
+.config.desc_multitool_power_capacity_cap	4つのガジェットの最大容量が上限なので、選んだモードには左右されない。
+.config.desc_piper_max_blocks	配管ツールが1つの経路で作れるブロック数の上限。
+.config.desc_replacer_max_blocks	置き換え機が1回の操作で置き換えられるブロック数の上限。
+.config.desc_selection_range	配管ツールが経路の点を置ける距離(ブロック)。
+.config.desc_unlimited_minus_one	-1で無制限。
+.config.desc_use_power	オフにすると、すべての空間ツールがそれぞれのコスト設定を無視して無料で動く。
+.config.entry_base_power_capacity	基本の電力容量
+.config.entry_blacklist	ブラックリスト
+.config.entry_cost	コスト
+.config.entry_energy_cost_multiplier	エネルギーコスト倍率
+.config.entry_energy_upgrade_items	受け付けるアイテム
+.config.entry_max_blocks	最大ブロック数
+.config.entry_max_structure_size	構造物の最大の大きさ
+.config.entry_selection_range	選択範囲
+.config.entry_use_power	電力を使う
+.config.section_energy_upgrades	エネルギーアップグレード
+.config.section_energy_upgrades_desc	すべての空間ツールのエネルギーアップグレードスロットに入れられるアイテム。
+.config.title	Spatial Tools Compatible
+.context.cut_copy_first	先に何かを切り取りかコピーしてください
+.context.green_corner	緑
+.context.modify_selection	選択を変更
+.context.red_corner	赤
+.context.select_something_first	先に何かを選んでください
+.context_menu.anchor	アンカー
+.context_menu.anchor_disabled	アンカー無効
+.context_menu.anchor_enabled	アンカー有効
+.context_menu.anchor_group	アンカー
+.context_menu.cancel_selection	選択を取り消す
+.context_menu.clear_axis	選んだ軸を消去
+.context_menu.cloner_group	複製機
+.context_menu.hold_shift_origin	Shiftを押す: 原点の周りで
+.context_menu.mode_move	移動モード
+.context_menu.mode_rotate	回転モード
+.context_menu.nested_items	入れ子のアイテム
+.context_menu.offset_group	ずらし
+.context_menu.options_group	オプション
+.context_menu.pick_axis	回転の軸を選ぶ
+.context_menu.replacer_group	置き換え機
+.context_menu.rotate_axis_x	X軸の周りに回転
+.context_menu.rotate_axis_y	Y軸の周りに回転
+.context_menu.rotate_axis_z	Z軸の周りに回転
+.context_menu.rotate_blocks_kept_orientation	%sブロックは向きを保った
+.context_menu.rotate_group	回転
+.context_menu.rotate_left	その場で左に回転
+.context_menu.rotate_left_around_origin	原点の周りで左に回転
+.context_menu.rotate_right	その場で右に回転
+.context_menu.rotate_right_around_origin	原点の周りで右に回転
+.context_menu.selection_mode	選択モード
+.context_menu.selection_mode_block_in_front	目の前のブロック: 前方3ブロック先のブロックを選ぶ
+.context_menu.selection_mode_default	初期設定: クリックしたブロックを選ぶ
+.context_menu.structure_required	保存した構造物がない
+.context_menu.title	コンテキストメニュー
+.context_menu.transform_group	変形
+.corner_0_selected	ブロックをShift+右クリックで選ぶ。
+.corner_a_selected	右クリックでもう1つ選ぶ。
+.corner_b_selected	空中を右クリックで切り取り、ブロックをShift+クリックで取り消す。
+.craft_all	すべてクラフト
+.craft_all_all_busy	すべてのクラフトバッファが使用中。
+.craft_all_needs_buffer_hint	使うには、つないだMEネットワークにクラフトバッファを置く。
+.craft_all_needs_buffer_title	すべてクラフトは使えない
+.craft_all_nothing_to_craft	クラフトするものがない。
+.craft_all_scheduled	クラフトを予約した！
+.craft_all_too_many_items	1回の依頼にはアイテムの種類が多すぎる。
+.craft_all_tooltip	足りない素材をすべてクラフトバッファで依頼する。
+.craft_progress_awaiting	確認待ち
+.craft_progress_crafting	素材を集めている
+.craft_progress_items	%s / %s 個
+.craft_progress_ready	素材の準備完了
+.craft_request_missing	足りない分をクラフトする。
+.crafting_upgrade_slot_hint	クラフトカードを入れると自動クラフトが使える。
+.cut_cost_preview	切り取り: %s FE
+.failed_to_load_structure	構造物を読み込めなかった。
+.failed_to_paste_structure	構造物を貼り付けられなかった。
+.failed_to_save_structure	構造物を保存できなかった。
+.flip_east_west	東西に反転
+.flip_east_west_around_origin	原点の周りで東西に反転
+.flip_north_south	南北に反転
+.flip_north_south_around_origin	原点の周りで南北に反転
+.flip_vertical	その場で上下に反転
+.flip_vertical_around_origin	原点の周りで上下に反転。
+.guide.button	ガイド
+.guide.missing	このアイテムのガイドはまだない。
+.have_fe	所持: %s FE
+.hotkey_tooltip	ワールドのコンテキストメニュー:
+.missing_blocks	ブロックが足りない！
+.mod_name	Spatial Tools Compatible
+.multitool.no_mode	ツールが選ばれていない
+.need_fe	必要: %s FE
+.no_block_in_range	範囲内にブロックがない。
+.not_enough_power	電力が足りない
+.offset_down_tooltip	下に移動 (-Y)
+.offset_up_tooltip	上に移動 (+Y)
+.offset_x_tooltip	Xのずらし
+.offset_y_tooltip	Yのずらし
+.offset_z_tooltip	Zのずらし
+.paste_collision	構造物を貼り付けられない: 衝突を検出した。
+.paste_cost_preview	貼り付け: %s FE
+.piper.confirm_hint	Shift+右クリックで建設
+.piper.fill_mode	塗りつぶしモード
+.piper.fill_mode_fill	塗りつぶし: 2点で線、3点で平面、4点で箱
+.piper.fill_mode_path	経路: すべての点を通る線を作る
+.piper.fill_too_many_points	塗りつぶしモードで使う点は%s個まで。
+.piper.nothing_to_build	建設するものがない。
+.piper.pipe_direction	パイプの向きを設定
+.piper.pipe_direction_against	経路と逆: 経路を戻る方向を向いた面をふさぐ
+.piper.pipe_direction_along	経路に沿う: 経路が進む方向を向いた面をふさぐ
+.piper.pipe_direction_off	オフ: 面をふさがずにパイプを置く
+.piper.pipe_direction_unsupported	向きを設定できるのはGregTechのアイテムパイプと液体パイプだけ
+.piper.route_label	経路の点: %s
+.piper.route_other_dimension	保存した経路は別のディメンションにある: %s
+.piper.route_point_added	経路の点: %s、ブロック: %s
+.piper.route_point_removed	最後の経路の点を消した。
+.piper.route_point_same	その点はすでに経路の終点。
+.piper.route_started	経路を始めた。
+.piper.route_too_long	経路が長すぎる。最大%sブロック。
+.piper.target_label	使うブロック:
+.piper.unplaceable_target	このアイテムはブロックとして置けない。
+.replace_blocks_preview	置き換え: %sブロック
+.replace_cost_preview	置き換え: %s FE
+.replacer.blacklisted	このブロックは置き換えられない。
+.replacer.blockstate_off	ブロックのみ
+.replacer.blockstate_off_desc	状態のプロパティに関係なく、同じ種類のブロックすべてに一致する
+.replacer.blockstate_on	ブロックの状態
+.replacer.blockstate_on_desc	まったく同じブロックの状態(向き、水没など)のブロックにだけ一致する
+.replacer.blockstate_toggle_tooltip	ブロックの状態を厳密に一致させる
+.replacer.cap_info	最大: %sブロック
+.replacer.connectivity_diagonal	斜め
+.replacer.connectivity_diagonal_desc	26方向すべての隣接(面、辺、角)で塗りつぶす
+.replacer.connectivity_direct	直接
+.replacer.connectivity_direct_desc	6方向の面の隣接だけで塗りつぶす
+.replacer.connectivity_toggle_tooltip	斜めの塗りつぶし
+.replacer.no_space_for_source	置き換えたブロックを受け取るインベントリの空きが足りない。
+.replacer.no_target	対象のブロックが選ばれていない。
+.replacer.non_empty_storage	置き換えられない: ブロックにアイテムか液体が入っている。
+.replacer.not_enough_items	アイテムが足りない。

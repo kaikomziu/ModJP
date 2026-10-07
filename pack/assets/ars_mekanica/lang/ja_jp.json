@@ -1,0 +1,18 @@
+{
+  "itemGroup.ars_mekanica": "Ars Mekanica",
+  "block.ars_mekanica.source_dynamo": "ソースダイナモ",
+  "ars_mekanica.tooltip.source_dynamo": "近くの瓶のソースをForge Energyに変える。",
+  "ars_mekanica.tooltip.source_dynamo.rate": "ソース1あたり%1$s FE、最大%2$s ソース/t",
+  "ars_mekanica.tooltip.source_dynamo.buffer": "バッファ: %1$s FE、出力: %2$s FE/t",
+  "ars_mekanica.tooltip.source_dynamo.range": "吸い取る範囲: %1$sブロック",
+  "ars_mekanica.page.archwood_sawing": "アークウッドの製材",
+  "ars_mekanica.page1.archwood_sawing": "精密製材機はあらゆる種類のアークウッドを受け付ける。原木、木、樹皮を剥いだものからはアークウッドの板材が6枚でき、確率でおがくずも出る。ドア、トラップドア、チェスト、ボート、看板などクラフトした部品は、製材して板材や棒に戻せる。",
+  "ars_mekanica.page.source_dynamo": "ソースダイナモ",
+  "ars_mekanica.page1.source_dynamo": "ソースダイナモは近くのソースジャーからソースを吸い取り、隣の機械やケーブルにForge Energyを送る。動いている間は前面が光り、コンパレーターで内部のバッファを読み取れる。",
+  "ars_mekanica.page.archwood.title": "アークウッドの製材",
+  "ars_mekanica.page.archwood.text": "精密製材機はあらゆる種類のアークウッドを受け付ける。原木、木、樹皮を剥いだものからはアークウッドの板材が6枚でき、確率でおがくずも出る。",
+  "ars_mekanica.page.archwood.spotlight": "ドア、トラップドア、チェスト、ボート、看板などクラフトした部品は、製材して板材や棒に戻せる。",
+  "ars_mekanica.page.dynamo.title": "ソースダイナモ",
+  "ars_mekanica.page.dynamo.text": "ソースダイナモは近くのソースジャーからソースを吸い取り、隣の機械やケーブルにForge Energyを送る。",
+  "ars_mekanica.page.dynamo.spotlight": "動いている間は前面が光り、コンパレーターで内部のバッファを読み取れる。"
+}

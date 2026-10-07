@@ -1,0 +1,17 @@
+{
+  "item.awg.water_filter": "水フィルター",
+  "item_group.awg.awg": "大気水生成機",
+  "item.atmosphericwatergenerator.air_filter": "空気フィルター",
+  "gui.atmosphericwatergenerator.remote_desk_gui.button_unlink": "リンク解除",
+  "gui.atmosphericwatergenerator.remote_desk_gui.label_red_stone_signal": "レッドストーン信号を反転",
+  "gui.atmosphericwatergenerator.remote_desk_gui.tooltip_registrar_o_nome": "ラベルを保存",
+  "block.awg.atmospheric_water_generator": "大気水生成機",
+  "gui.atmosphericwatergenerator.remote_desk_gui.tooltip_check_to_invert_redstone_signal": "チェックするとレッドストーン信号を反転する",
+  "item.awg.air_filter": "空気フィルター",
+  "block.atmosphericwatergenerator.atmospheric_water_generator": "大気水生成機",
+  "gui.atmosphericwatergenerator.remote_desk_gui.RemoteDeskGuiTextField": "リモートデスク",
+  "item.atmosphericwatergenerator.water_filter": "水フィルター",
+  "gui.atmosphericwatergenerator.remote_desk_gui.button_link": "リンク",
+  "item_group.atmosphericwatergenerator.awg_tab": "大気水生成機 AWG",
+  "item.atmosphericwatergenerator.atmospheric_water_generator": "大気水生成機"
+}

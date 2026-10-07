@@ -1,0 +1,299 @@
+{
+ "mekanism": {
+  "gas.mekanism.enriched_nuclear_waste": "濃縮核廃棄物",
+  "configuration.mekanism.client.last_window_positions.inserter": "インサーターのウィンドウの位置",
+  "configuration.mekanism.client.last_window_positions.inserter.button": "インサーターの位置を編集",
+  "configuration.mekanism.client.last_window_positions.inserter.tooltip": "インサーターのウィンドウを閉じたときの最後の位置。",
+  "trim_material.mekanism.bronze": "青銅素材",
+  "trim_material.mekanism.refined_obsidian": "精製黒曜石素材",
+  "trim_material.mekanism.refined_glowstone": "精製グロウストーン素材",
+  "trim_material.mekanism.steel": "鋼鉄素材",
+  "trim_material.mekanism.osmium": "オスミウム素材",
+  "trim_material.mekanism.tin": "スズ素材",
+  "trim_material.mekanism.lead": "鉛素材",
+  "trim_material.mekanism.uranium": "ウラン素材"
+ },
+ "quicklink": {
+  "block.quicklink.item_plug": "アイテムプラグ",
+  "block.quicklink.fluid_plug": "液体プラグ",
+  "block.quicklink.energy_plug": "エネルギープラグ",
+  "block.quicklink.chemical_plug": "化学物質プラグ",
+  "item.quicklink.quicklink_upgrade": "QuickLinkアップグレード",
+  "tooltip.block.quicklink.item_plug.1": "インベントリ間でアイテムを運ぶ。PLUG側 = 送り元、POINT側 = 送り先。",
+  "tooltip.block.quicklink.fluid_plug.1": "タンク間で液体を運ぶ。PLUG側 = 送り元、POINT側 = 送り先。",
+  "tooltip.block.quicklink.energy_plug.1": "機械間でFEエネルギーを運ぶ。PLUG側 = 送り元、POINT側 = 送り先。",
+  "tooltip.block.quicklink.chemical_plug.1": "容器間で化学物質を運ぶ。PLUG側 = 送り元、POINT側 = 送り先。",
+  "tooltip.quicklink.plug.use": "同じ色 = 接続。右クリック: 役割を切り替え | Shift+右クリック: 切り替え/アップグレードを外す | 染料: 色",
+  "tooltip.item.quicklink.quicklink_upgrade.1": "プラグの転送速度を上げる: ティア1=×2、2=×4、3=×8、4=×16。",
+  "tooltip.item.quicklink.quicklink_upgrade.2": "プラグに右クリック: 取り付け | 素手でプラグにShift+右クリック: 外す"
+ },
+ "createmeksteam": {
+  "block.createmeksteam.steam_converter": "蒸気変換機",
+  "itemGroup.createmeksteam": "CreateMek Steam",
+  "tooltip.createmeksteam.goggles.title": "    蒸気変換機",
+  "tooltip.createmeksteam.goggles.boiler_title": "    蒸気ボイラー",
+  "tooltip.createmeksteam.goggles.boiler_max_output": "    最大蒸気出力",
+  "tooltip.createmeksteam.goggles.conversion_rate": "    変換率",
+  "tooltip.createmeksteam.goggles.max_output": "    現在の出力",
+  "tooltip.createmeksteam.goggles.shared_converter_count": "    共有している変換機",
+  "tooltip.createmeksteam.goggles.conversion_rate_value": "熱1あたり%s mB/t",
+  "tooltip.createmeksteam.goggles.steam_rate": "%s mB/t",
+  "tooltip.createmeksteam.goggles.shared_converter_count_value": "%s"
+ },
+ "densemekanism": {
+  "block.densemekanism.dense_deepslate_fluorite_ore": "高密度の深層蛍石鉱石",
+  "block.densemekanism.dense_deepslate_lead_ore": "高密度の深層鉛鉱石",
+  "block.densemekanism.dense_deepslate_osmium_ore": "高密度の深層オスミウム鉱石",
+  "block.densemekanism.dense_deepslate_tin_ore": "高密度の深層スズ鉱石",
+  "block.densemekanism.dense_deepslate_uranium_ore": "高密度の深層ウラン鉱石",
+  "block.densemekanism.dense_fluorite_ore": "高密度の蛍石鉱石",
+  "block.densemekanism.dense_lead_ore": "高密度の鉛鉱石",
+  "block.densemekanism.dense_osmium_ore": "高密度のオスミウム鉱石",
+  "block.densemekanism.dense_tin_ore": "高密度のスズ鉱石",
+  "block.densemekanism.dense_uranium_ore": "高密度のウラン鉱石",
+  "itemGroup.densemekanism": "Dense Mekanism"
+ },
+ "fieldguide": {
+  "fieldguide.quark.blue_blossom_sapling.description": "イペの木は5色あり、それぞれ違う種類のバイオームに自生している。大きなオークのように高く育って枝を広げ、葉はゆっくりと木の下に舞い落ちる。",
+  "fieldguide.quark.blue_blossom_sapling.blue_blossom.description": "霜イペは寒いバイオームに生え、淡い青色の葉が雪の中でほとんど凍っているように見える。イペの中でもとくに珍しく、出会えたらとても幸運。",
+  "fieldguide.quark.blue_blossom_sapling.lavender_blossom.description": "穏イペは沼地に生え、濁った水にラベンダー色を添える。同じ場所に生える、つるの垂れた暗いオークの中で、その柔らかな色が目立つ。",
+  "fieldguide.quark.blue_blossom_sapling.orange_blossom.description": "暖イペはサバンナに生え、橙色の葉が乾いた草になじむ。周りのアカシアよりも高くそびえ、夕暮れには燃えさしのように輝く。",
+  "fieldguide.quark.blue_blossom_sapling.yellow_blossom.description": "陽イペは平原に生え、明るい黄色の葉は遠くからでも見つけられる。草原にまばらにしか生えていないので、見つけるまでしばらく歩き回るかもしれない。",
+  "fieldguide.quark.blue_blossom_sapling.red_blossom.description": "燃イペは荒野に生え、赤い葉が周りのテラコッタとよく合う。イペの中でもっともよく見られ、あの過酷な土地で数少ない日陰になる。",
+  "fieldguide.quark.lavender_blossom_sapling.description": "穏イペは沼地に生え、濁った水にラベンダー色を添える。同じ場所に生える、つるの垂れた暗いオークの中で、その柔らかな色が目立つ。",
+  "fieldguide.quark.orange_blossom_sapling.description": "暖イペはサバンナに生え、橙色の葉が乾いた草になじむ。周りのアカシアよりも高くそびえ、夕暮れには燃えさしのように輝く。",
+  "fieldguide.quark.yellow_blossom_sapling.description": "陽イペは平原に生え、明るい黄色の葉は遠くからでも見つけられる。草原にまばらにしか生えていないので、見つけるまでしばらく歩き回るかもしれない。",
+  "fieldguide.quark.red_blossom_sapling.description": "燃イペは荒野に生え、赤い葉が周りのテラコッタとよく合う。イペの中でもっともよく見られ、あの過酷な土地で数少ない日陰になる。",
+  "fieldguide.quark.ancient_sapling.description": "もう自然には育たない過去の遺物。苗木はスニッファーが掘り出したときにしか手に入らない。切り倒すとエンチャントフルーツが落ち、食べるとわずかな経験値を得られる。"
+ },
+ "mekanismoresfornetherandend": {
+  "block.mekanismoresfornetherandend.endtin": "エンドのスズ鉱石",
+  "block.mekanismoresfornetherandend.netherlead": "ネザーの鉛鉱石",
+  "block.mekanismoresfornetherandend.netherfluorite": "ネザーの蛍石鉱石",
+  "block.mekanismoresfornetherandend.endlead": "エンドの鉛鉱石",
+  "block.mekanismoresfornetherandend.nethertin": "ネザーのスズ鉱石",
+  "block.mekanismoresfornetherandend.endosmium": "エンドのオスミウム鉱石",
+  "block.mekanismoresfornetherandend.netherosmium": "ネザーのオスミウム鉱石",
+  "block.mekanismoresfornetherandend.endfluorite": "エンドの蛍石鉱石",
+  "block.mekanismoresfornetherandend.enduranium": "エンドのウラン鉱石",
+  "block.mekanismoresfornetherandend.netheruranium": "ネザーのウラン鉱石",
+  "item_group.mekanismoresfornetherandend.mekanismnetherores": "ネザーとエンドのMekanism鉱石"
+ },
+ "quark": {
+  "fieldguide.name.quark.blue_blossom_sapling": "イペの木",
+  "fieldguide.name.quark.blue_blossom_sapling.blue_blossom": "霜イペの木",
+  "fieldguide.name.quark.blue_blossom_sapling.lavender_blossom": "穏イペの木",
+  "fieldguide.name.quark.blue_blossom_sapling.orange_blossom": "暖イペの木",
+  "fieldguide.name.quark.blue_blossom_sapling.yellow_blossom": "陽イペの木",
+  "fieldguide.name.quark.blue_blossom_sapling.red_blossom": "燃イペの木",
+  "fieldguide.name.quark.lavender_blossom_sapling": "穏イペの木",
+  "fieldguide.name.quark.orange_blossom_sapling": "暖イペの木",
+  "fieldguide.name.quark.yellow_blossom_sapling": "陽イペの木",
+  "fieldguide.name.quark.red_blossom_sapling": "燃イペの木",
+  "fieldguide.name.quark.ancient_sapling": "トネリコの木"
+ },
+ "functionalchemical": {
+  "itemGroup.functionalchemical": "Functional Chemical",
+  "block.functionalchemical.chem_1": "化学物質ドロワー (1x1)",
+  "block.functionalchemical.chem_2": "化学物質ドロワー (1x2)",
+  "block.functionalchemical.chem_4": "化学物質ドロワー (2x2)",
+  "block.functionalchemical.radioactive_drawer": "放射性ドロワー",
+  "item.functionalchemical.decay_upgrade": "崩壊アップグレード",
+  "item.functionalchemical.adv_decay_upgrade": "高度な崩壊アップグレード",
+  "tooltip.functionalchemical.decay_upgrade": "崩壊する化学物質をドロワーの中で崩壊させる。",
+  "tooltip.functionalchemical.adv_decay_upgrade": "10倍速い。",
+  "gui.functionalchemical.chemical": "化学物質:"
+ },
+ "jei_plus_plus": {
+  "jei_plus_plus.ae2.server_required": "サーバーにJEI++が入っていないため、AE2のパターン一括作成は使えない",
+  "jei_plus_plus.ae2.no_tree": "先にレシピツリーを選んでください",
+  "jei_plus_plus.ae2.no_patterns": "ツリーにエンコードできるレシピがない",
+  "jei_plus_plus.ae2.no_network": "パターンターミナルが稼働中のAE2ネットワークにつながっていない",
+  "jei_plus_plus.ae2.failed": "パターンの一括作成に失敗した。サーバーログを確認してください",
+  "jei_plus_plus.ae2.result": "%s個のパターンを作成、導入済みの%s個を省略、無効%s個",
+  "jei_plus_plus.group.cheat_hint": "チートモードではRかUで展開/折りたたみ",
+  "jei_plus_plus.ae2.shift_hint": "Shift+クリック: 選んだレシピツリーから足りないパターンを一括エンコード",
+  "jei_plus_plus.ae2.ctrl_hint": "Ctrl+クリック: 導入済みでもパターンを一括エンコード"
+ },
+ "omni_upgrades": {
+  "key.categories.omni_upgrades": "Omni Upgrades",
+  "key.omni_upgrades.toggle_sequential_fill": "順番に満たすモードを切り替え",
+  "key.omni_upgrades.toggle_diagonal_detection": "斜めの検出モードを切り替え",
+  "message.omni_upgrades.batch_install.success": "§a[一括取り付け] §f%1$s台の機械に%2$s§fを取り付け、合計%3$s個消費した。",
+  "message.omni_upgrades.batch_install.fail": "§c[中止] §7範囲内にこのアイテムを受け付ける機械がないか、すべての機械がすでに上限に達している。",
+  "message.omni_upgrades.sequential_fill.enabled": "§a[順番に満たす] §f有効 §7- 1台を満杯にしてから次の機械に移る。",
+  "message.omni_upgrades.sequential_fill.disabled": "§c[順番に満たす] §f無効 §7- すべての機械にアップグレードを均等に配る。",
+  "message.omni_upgrades.diagonal_detection.enabled": "§a[斜めの検出] §f有効 §7- 一括検出で斜めの機械も調べる。",
+  "message.omni_upgrades.diagonal_detection.disabled": "§c[斜めの検出] §f無効 §7- 一括検出ではすぐ隣の機械だけを調べる。"
+ },
+ "convenient_mekanism": {
+  "advancements.convenient_mekanism.quantum_smeltery.description": "ストレージタブレットの精錬速度を20000より大きくする",
+  "advancements.convenient_mekanism.quantum_smeltery.title": "量子精錬所",
+  "block.convenient_mekanism.multiple_gas_interface": "複数ガスインターフェース",
+  "block.convenient_mekanism.single_gas_interface": "単一ガスインターフェース",
+  "storage.mekanism.gas": "ガス",
+  "tooltip.convenient_mekanism.gas.amount": "量: %smB",
+  "tooltip.mekanism.recipe.rotary": "回転式のレシピ: %s×%s"
+ },
+ "moremultiblock": {
+  "block.moremultiblock.radioactive_waste_vault": "放射性廃棄物保管庫",
+  "block.moremultiblock.radioactive_waste_valve": "放射性廃棄物バルブ",
+  "gui.moremultiblock.radioactive_waste_vault": "放射性廃棄物保管庫",
+  "description.moremultiblock.radioactive_waste_vault": "放射性廃棄物保管庫のマルチブロックに使う外装。放射性廃棄物を安全に保管できる構造物。警告: 保管庫を壊すと中身が大気中に放出される。",
+  "description.moremultiblock.radioactive_waste_valve": "放射性廃棄物保管庫のマルチブロックに付けられるバルブ。外部の配管で放射性廃棄物を出し入れできる。",
+  "text.moremultiblock.result.radioactive_waste_vault.decay_rate": "崩壊速度",
+  "text.moremultiblock.result.radioactive_waste_vault.decay_rate.actual": "実際の崩壊速度"
+ },
+ "creative_recipe": {
+  "gas.mekanism.creative_gas": "クリエイティブガス",
+  "gas.mekanism.nuclear_creative_gas": "核クリエイティブガス",
+  "gas.mekanism.creative_gas_waste": "クリエイティブガスの廃棄物",
+  "gas.mekanism.polonium_concentrate": "ポロニウム濃縮物",
+  "item.mekanism.radiated_lead": "放射線を浴びた鉛",
+  "itemGroup.creative_recipe": "Creative Recipe"
+ },
+ "creative_recipe_extras": {
+  "gas.mekanism.creative_gas": "クリエイティブガス",
+  "gas.mekanism.nuclear_creative_gas": "核クリエイティブガス",
+  "gas.mekanism.creative_gas_waste": "クリエイティブガスの廃棄物",
+  "gas.mekanism.polonium_concentrate": "ポロニウム濃縮物",
+  "item.mekanism.radiated_lead": "放射線を浴びた鉛",
+  "itemGroup.creative_recipe_extras": "Creative Recipe Extras"
+ },
+ "saeurefassmod": {
+  "block.saeurefassmod.saeurefass": "酸の樽",
+  "block.saeurefassmod.zuenderblock": "点火ブロック",
+  "subtitle.saeurefassmod.bubble": "酸が泡立つ",
+  "subtitle.saeurefassmod.frizzle": "酸がジュージューいう",
+  "subtitle.saeurefassmod.explosion": "酸が爆発する",
+  "creativemodetab.saeurefass_tab": "Acid Barrel Mod"
+ },
+ "factoryfps": {
+  "factoryfps.loaded": "FactoryFPSが有効。/factoryfps status でリアルタイムの計測値を確認できる。",
+  "factoryfps.reloaded": "FactoryFPSの設定を再読み込みした。",
+  "factoryfps.metrics_reset": "FactoryFPSの計測値をリセットした。",
+  "factoryfps.profile": "FactoryFPSのプロファイル: %s",
+  "factoryfps.status": "FactoryFPS — プロファイル %s、負荷 %s、平滑化FPS %s、検査 %s、削減 %s (%.1f%%)。"
+ },
+ "mekanismelements": {
+  "container.mekanismelements.adsorption_type_seawater_metal_extractor": "吸着式海水金属抽出機",
+  "description.mekanismelements.chemical_demolition_machine": "化学物質を使って素材を分解する機械。",
+  "gas.mekanismelements.methanol": "メタノール",
+  "gas.mekanismelements.methylamine": "メチルアミン",
+  "gas.mekanismelements.methylammonium_lead_iodide": "ヨウ化鉛メチルアンモニウム"
+ },
+ "mek_absolute_finite_energy_cube": {
+  "title.mek_absolute_finite_energy_cube": "Mekanism: Absolute Finite Energy Cube",
+  "config.jade.plugin_mek_absolute_finite_energy_cube.absolute_finite_energy_cube": "絶対有限エネルギーキューブ",
+  "block.mek_absolute_finite_energy_cube.absolute_finite_energy_cube": "絶対有限エネルギーキューブ",
+  "gui.mek_absolute_finite_energy_cube.extract": "搬出",
+  "gui.mek_absolute_finite_energy_cube.insert": "搬入"
+ },
+ "strongermekasuit": {
+  "item.strongermekasuit.advanced_mekasuit_helmet": "高度なMekaSuitヘルメット",
+  "item.strongermekasuit.advanced_mekasuit_bodyarmor": "高度なMekaSuitボディアーマー",
+  "item.strongermekasuit.advanced_mekasuit_pants": "高度なMekaSuitパンツ",
+  "item.strongermekasuit.advanced_mekasuit_boots": "高度なMekaSuitブーツ",
+  "modmenu.descriptionTranslation.strongermekasuit": "性能を強化したMekaSuitの上位版を追加する。Mekanismのモジュールに対応し、公式と同じ方式のダメージ処理に対応している。"
+ },
+ "umbra_poor_ores_mekanism": {
+  "block.umbra_poor_ores_mekanism.poor_mekanism_generator_tier_1": "乏しいMekanism鉱石の生成機 ティア1",
+  "block.umbra_poor_ores_mekanism.poor_mekanism_generator_tier_2": "乏しいMekanism鉱石の生成機 ティア2",
+  "item_group.umbra_poor_ores_mekanism.umbra_poor_ores_mekanism": "Umbra Poor Ores Mekanism",
+  "item.umbra_poor_ores_mekanism.creative_tab_logo": "クリエイティブタブのロゴ",
+  "itemGroup.tabumbra_poor_ores_mekanism": "Umbra Poor Ores Mekanism"
+ },
+ "mekanismsophisticatedbackpacks": {
+  "item.mekanismsophisticatedbackpacks.chemical_tank_upgrade": "化学タンクアップグレード",
+  "item.mekanismsophisticatedbackpacks.chemical_tank_upgrade.tooltip": "Sophisticated BackpackにMekanismのガスを保管する",
+  "item.mekanismsophisticatedbackpacks.chemical_tank_upgrade.tooltip.1": "入力/出力スロットにガスの容器を入れられる",
+  "item.mekanismsophisticatedbackpacks.chemical_tank_upgrade.tooltip.2": "PneumaticCraftの圧力チューブに対応"
+ },
+ "mekapumps": {
+  "itemGroup.mekapumps": "Mekanism: Pumps",
+  "gui.mekapumps.energy": "エネルギー: %s / %s FE",
+  "gui.mekapumps.water": "水: %s / %s mB",
+  "gui.mekapumps.heavy_water": "重水: %s / %s mB"
+ },
+ "twilightdelight": {
+  "block.twilightdelight.fiddlehead_clump": "ゼンマイの茂み",
+  "block.twilightdelight.fiddlehead_clump_upper": "ゼンマイの茂みの上部",
+  "block.twilightdelight.twilight_rich_soil": "黄昏の肥沃な土",
+  "block.twilightdelight.twilight_rich_soil_farmland": "黄昏の肥沃な土の耕地"
+ },
+ "xaeroworldmap": {
+  "gui.xaero_pac_add_claiming_anchor": "領有アンカーを追加",
+  "gui.xaero_pac_remove_claiming_anchor": "領有アンカーを削除",
+  "gui.xaero_pac_remove_claiming_anchor_confirm_line1": "次の領有アンカーと、その範囲内だけにある領有地をすべて削除する？",
+  "gui.xaero_pac_remove_claiming_anchor_confirm_line2": "この操作は元に戻せない！アンカーのチャンク: %1$s"
+ },
+ "ae2addonlib": {
+  "gui.ae2addonlib.SetAmount": "数量を設定",
+  "gui.tooltips.ae2addonlib.Disabled": "無効",
+  "gui.tooltips.ae2addonlib.Enabled": "有効"
+ },
+ "mekanismcardboardtooltip": {
+  "cardboard_box.mekanism.block_entity.spawn_type": "スポーン: %1$s",
+  "config.jade.plugin_mekanismcardboardtooltip.cardboard_box": "ダンボール箱",
+  "jade.mekanismcardboardtooltip.cardboard_box.type": "種類: %1$s"
+ },
+ "mwgr_ae": {
+  "description.mwgr_ae.water_generator": "無限の水",
+  "description.mwgr_ae.lava_generator": "無限の溶岩",
+  "description.mwgr_ae.heavywater_generator": "無限の重水"
+ },
+ "untranslateditems": {
+  "config.jade.plugin_uti": "未翻訳のアイテム",
+  "config.jade.plugin_uti.block_name": "ブロックのサブ言語",
+  "config.jade.plugin_uti.entity_name": "エンティティのサブ言語"
+ },
+ "apothmekcompat": {
+  "death.attack.mekapierce": "%1$sはMekaSuitでも助からなかった",
+  "death.attack.mekapierce.player": "%1$sは%2$sの攻撃からMekaSuitでも助からなかった"
+ },
+ "lava_generator": {
+  "item_group.lava_generator.lava_generator_tab": "溶岩発電機",
+  "block.lava_generator.lava_generator": "溶岩発電機"
+ },
+ "mekanism_bin_installer": {
+  "creativetabs.mekanism_bin_installer": "Mekanism: Bin Installer",
+  "jei.mekanism_bin_installer.bin_installers.description": "§lビン§rのアップグレードに使う§a§lMekanism§rのアイテム。\n§r\n§r基本的な使い方は§a§lMekanismのティアインストーラー§rと同じ: \n§r持っているインストーラーより1つ下のティアの§lビン§rを\n§r§6§lShift+右クリック§rするとアップグレードできる。\n§rただし§a§l基本ビンインストーラー§rだけは違い、\n§rビンではなく§l石§rに§6§l右クリック§rする必要がある。\n§r石の種類は§lタグで指定§rされているので、§c§l花崗岩§rや§7§l安山岩§rなど\n§rいろいろな種類が使える。\n§r注意: §4§l丸石とネザーの石の種類は使えない。§r\n§r\n§r§8(AIによる翻訳を元にしたもの。正確さは保証しない)§r"
+ },
+ "mek_everything_generator": {
+  "title.mek_everything_generator": "Mekanism: Everything Generator",
+  "block.mek_everything_generator.everything_generator": "万物発電機"
+ },
+ "mek_simple_engines": {
+  "creativetab.mek_simple_engines.main": "Mekanism: Simple Engines",
+  "block.mek_simple_engines.wooden_engine.fe_per_tick": "%sFE/t"
+ },
+ "overloadgenerators": {
+  "gui.overloadgenerators.generic_milliseconds": "%1$s ms",
+  "gui.overloadgenerators.generic_nanoseconds": "%1$s ns"
+ },
+ "skarrier_mobs": {
+  "item.skarrier_mobs.wretched_fang.description_0": "§4武器に塗ると: 暗闇にいるとき、攻撃が25%の確率で2倍のダメージを与え、使用者を回復する",
+  "item.skarrier_mobs.wretched_fang.description_1": "§4塗った効果は500回攻撃すると消える"
+ },
+ "akashic_library": {
+  "block.akashic_library.equipment_vending": "金の装備の自動販売機"
+ },
+ "chickenllurgic_infuser": {
+  "title.chickenllurgic_infuser": "Mekanism: Chickenllurgic Infuser"
+ },
+ "mekanismtieredoutlines": {
+  "modmenu.nameTranslation.mekanismtieredoutlines": "MekanismTieredOutlines"
+ },
+ "mekuniverse": {
+  "tab.mekuniverse.main": "Mekanism:Universe"
+ },
+ "minecraft": {
+  "subtitles.block.end_gateway.spawn": "エンドゲートウェイが開く"
+ },
+ "northstar": {
+  "block.northstar.extinguished_fire": "消えた火"
+ },
+ "validatescanner": {
+  "item.validatescanner.validate_scanner": "検証スキャナー"
+ }
+}

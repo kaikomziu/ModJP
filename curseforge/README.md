@@ -6,7 +6,7 @@
 |---|---|
 | プロジェクトの種類 | Resource Packs |
 | Name | `ModJP - MOD日本語化パック` |
-| Summary(短い説明) | `Japanese translation resource pack for 489 mods (1.20.1 Forge). Never touches mod jars or official translations. / 489 MODの英語表示を日本語にするリソースパック` |
+| Summary(短い説明) | `Japanese translation resource pack for 587 mods (1.20.1 Forge). Never touches mod jars or official translations. / 587 MODの英語表示を日本語にするリソースパック` |
 | Description | `description.md` の中身を貼る(エディタを Markdown に切り替えてから) |
 | Logo | `logo_400.png`(400×400) |
 | Main Category | Miscellaneous または Utility 系 ※画面にある選択肢から一番近いもの |

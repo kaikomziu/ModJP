@@ -1,0 +1,19 @@
+{
+  "module.mek_x_star.module_space_suit": "宇宙服ユニット",
+  "module.mek_x_star.module_oxygen_tank": "酸素タンクユニット",
+  "module.mek_x_star.module_space_suit_insulation": "宇宙服断熱ユニット",
+  "module.mek_x_star.module_heat_resistive": "耐熱ユニット",
+  "module.mek_x_star.module_oxygen_tank_expansion": "酸素タンク拡張ユニット",
+  "description.mek_x_star.module_space_suit": "MekaSuitを宇宙服にする",
+  "description.mek_x_star.module_oxygen_tank": "ボディアーマーに呼吸用の酸素タンクを付ける",
+  "description.mek_x_star.module_space_suit_insulation": "MekaSuitに断熱材を加えて凍えないようにする",
+  "description.mek_x_star.module_heat_resistive": "MekaSuitを暑い惑星の熱に耐えられるようにする",
+  "description.mek_x_star.module_oxygen_tank_expansion": "酸素タンクの容量を増やす",
+  "creativetab.mek_x_star.name": "Mekanism x Create: Northstar Items",
+  "item.mek_x_star.insulation": "ラバーシース",
+  "item.mek_x_star.heat_insulation": "断熱材",
+  "item.mek_x_star.crushed_wool": "砕いた羊毛",
+  "item.mek_x_star.durasteel": "デュラスチール",
+  "item.mek_x_star.pressurized_durasteel": "加圧デュラスチール",
+  "item.mek_x_star.incomplete_oxygen_tank_expansion": "未完成の酸素タンク拡張ユニット"
+}

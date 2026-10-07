@@ -1,0 +1,156 @@
+## tfmg
+=Glows relative to the amount of power its receiving	受け取る電力の量に応じて光る
+=Changes color to the color of the light when glowing	光っているとき、その光の色に変わる
+=When provided with power	電力を供給したとき
+=When interacted with a dye	染料で使ったとき
+=Glows	光る
+=Created a connection between the 2 insulators transferring power between them	2つの絶縁体をつなぎ、その間で電力を送る
+=When 2 cable insulators are right clicked with a copper/aluminum/constantan spool	2つのケーブル絶縁体を銅/アルミニウム/コンスタンタンのスプールで右クリックしたとき
+=Transfers power	電力を送る
+=Shows resistance, voltage, current and power in ohms, volts, amperes and kilowatts respectively along with the components group	抵抗・電圧・電流・電力をそれぞれオーム・ボルト・アンペア・キロワットで、部品のグループとともに表示する
+=Additionally to the previously mentioned stats the multimeter shows the networks total power generation and consumption	上の値に加えて、ネットワーク全体の発電量と消費電力を表示する
+=When looking at an electric component NOTE: It does not work while wearing Engineers Goggles	電気部品を見ているとき 注意: エンジニアのゴーグルを着けていると動かない
+=When looking at an electric component while crouching	スニークしながら電気部品を見ているとき
+=Shows data about an electrical block and its network	電気ブロックとそのネットワークの情報を表示する
+=To function it requires air and fuel to be pumped in (Diesel, Kerosene, Naphta, Furnace Gas) and co2 to be pumped out (needs an exhaust) to generate rotation (a shaft needs to be attached similiar to a steam engine)	動かすには空気と燃料(ディーゼル、灯油、ナフサ、高炉ガス)を送り込み、二酸化炭素を排出する(排気が必要)。回転を生み出すには、蒸気エンジンと同じようにシャフトを取り付ける
+=_No_ _Durability_ will be used. Instead, _Air_ _pressure_ is drained from the Tank	_耐久値_ は _減らない_。代わりにタンクの _空気_ _圧力_ を消費する
+OwO	UwU
+block.tfmg.accumulator.tooltip.summary	下から入れた大量のエネルギーを蓄え、上からゆっくり出力する
+block.tfmg.asphalt_slab	アスファルトのハーフブロック
+block.tfmg.asphalt_stairs	アスファルトの階段
+block.tfmg.asphalt_wall	アスファルトの塀
+block.tfmg.blast_furnace_hatch	高炉のハッチ
+block.tfmg.blast_furnace_output	高炉の出力口
+block.tfmg.blast_furnace_reinforcement	高炉の補強材
+block.tfmg.blast_furnace_reinforcement_wall	高炉の補強材の塀
+block.tfmg.blast_stove	熱風炉
+block.tfmg.blast_stove.tooltip.behaviour1	熱風炉を3つ縦に積む(または3x2の形にする)と最小の熱風炉ができる。上にさらに積むと内部容量が増え、一般にはそれがおすすめ。熱風炉には2つのものを送り込む必要がある。一番下のブロックの側面から空気、下からクレオソートか高炉ガス。二酸化炭素は一番下のブロックの側面から排出し、熱くなった空気は最上部から取り出す。
+block.tfmg.blast_stove.tooltip.summary	空気を加熱する
+block.tfmg.brick_smokestack	レンガの煙突
+block.tfmg.cable_tube	ケーブル管
+block.tfmg.cast_iron_block	鋳鉄ブロック
+block.tfmg.casting_basin.tooltip.behaviour1	鋼鉄インゴットを作る。鉢の内部容量は限られているので、十分に搬出すること
+block.tfmg.casting_basin.tooltip.condition1	溶融した鋼鉄を供給したとき
+block.tfmg.casting_basin.tooltip.summary	インゴットを鋳造する
+block.tfmg.cement	セメント
+block.tfmg.cinderflour_block	灰粉ブロック
+block.tfmg.circular_light	円形ランプ
+block.tfmg.cocrete_hose.tooltip.summary	ホースプーリーのように鉄筋ブロックへコンクリートを流し込む。固まったコンクリートは鉄筋コンクリートになる
+block.tfmg.concrete_encased_cable_tube	コンクリートで覆われたケーブル管
+block.tfmg.concrete_encased_electric_post	コンクリートで覆われた電柱
+block.tfmg.concrete_encased_industrial_pipe	コンクリートで覆われた工業用パイプ
+block.tfmg.concrete_hose	コンクリートホース
+block.tfmg.concrete_smokestack	コンクリートの煙突
+block.tfmg.concrete_wall	コンクリートの塀
+block.tfmg.converter	変換器
+block.tfmg.converter.tooltip.behaviour1	TFMG入力(銅)とFE入力(レッドストーン)を持つ。初期状態ではTFMGエネルギーをFEに変換し、レンチを使うとFEをTFMGエネルギーに変換するようにできる。TFMG出力の電圧は、変換器の側面のメニューで調整できる
+block.tfmg.converter.tooltip.summary	FEとTFMGエネルギーを相互に変換する
+block.tfmg.cooling_fluid	冷却液
+block.tfmg.copycat_cable_base	コピーキャットケーブルベース
+block.tfmg.copycat_cable_block	コピーキャットケーブルブロック
+block.tfmg.deepslate_lithium_ore	深層リチウム鉱石
+block.tfmg.diagonal_cable_block	斜めケーブルブロック
+block.tfmg.diode.tooltip.behaviour1	明るい側から電力を出力し、電力の一方通行路になる(明るい側から入ってくる電力は暗い側には出力されない)
+block.tfmg.diode.tooltip.condition1	暗い側から電力を供給したとき
+block.tfmg.diode.tooltip.summary	電力を一方向にだけ流す
+block.tfmg.electric_post	電柱
+block.tfmg.electrical_switch	電気スイッチ
+block.tfmg.electrical_switch.tooltip.summary	レッドストーン信号を受けると電力を通す
+block.tfmg.electrode_holder	電極ホルダー
+block.tfmg.encased_diode	ケース入りダイオード
+block.tfmg.encased_potentiometer	ケース入り電位差計
+block.tfmg.engine_controller	エンジン制御装置
+block.tfmg.engine_controller.tooltip.behaviour1	トランスミッションで制御装置を右クリックし、次にエンジンも同じように右クリックする。
+block.tfmg.engine_controller.tooltip.behaviour2	Minecraftの設定の操作設定にある「Create: The Factory Must Grow」の項目を見てください
+block.tfmg.engine_controller.tooltip.condition1	エンジンとのリンク方法
+block.tfmg.engine_controller.tooltip.condition2	エンジンの操作方法
+block.tfmg.engine_controller.tooltip.summary	さまざまなエンジンが生み出す回転の速さと向きを制御する
+block.tfmg.factory_floor	工場の床
+block.tfmg.factory_floor_slab	工場の床のハーフブロック
+block.tfmg.factory_floor_stairs	工場の床の階段
+block.tfmg.factory_floor_wall	工場の床の塀
+block.tfmg.firebox	火室
+block.tfmg.firebox.tooltip.behaviour1	ブレイズバーナーのように上の機械を加熱する
+block.tfmg.firebox.tooltip.condition1	LPG・ブタン・ディーゼル・プロパン・ナフサ・灯油を入れ、二酸化炭素を排出しているとき
+block.tfmg.firebox.tooltip.summary	燃料を送り込むと機械を加熱する
+block.tfmg.fireclay	耐火粘土
+block.tfmg.fireclay.tooltip.summary	オーバーワールドの地下に鉱脈として生成される
+block.tfmg.fireproof_brick_reinforcement	耐火レンガの補強材
+block.tfmg.fireproof_bricks	耐火レンガ
+block.tfmg.fireproof_chemical_vat	耐火化学槽
+block.tfmg.flarestack.tooltip.behaviour1	送り込まれたものを消す
+block.tfmg.flarestack.tooltip.condition1	燃える液体/気体を下から送り込んだとき
+block.tfmg.flarestack.tooltip.summary	不要な石油製品を燃やす
+block.tfmg.fossilstone	化石石
+block.tfmg.gas_lamp	ガスランプ
+block.tfmg.gas_lamp.tooltip.summary	燃える液体を燃やして明かりをともす。
+block.tfmg.glass_cable_insulator	ガラスのケーブル絶縁体
+block.tfmg.hardened_planks	硬化した板材
+block.tfmg.hardened_planks_slab	硬化した板材のハーフブロック
+block.tfmg.hardened_planks_stairs	硬化した板材の階段
+block.tfmg.hardened_planks_wall	硬化した板材の塀
+block.tfmg.heavy_casing_door	重機ケーシングのドア
+block.tfmg.heavy_machinery_casing	重機ケーシング
+block.tfmg.heavy_plated_door	重装甲のドア
+block.tfmg.industrial_aluminum_casing	アルミニウムケーシング
+block.tfmg.industrial_mixer	工業用ミキサー
+block.tfmg.industrial_pipe	工業用パイプ
+block.tfmg.large_engine.tooltip.summary	精製度の低い燃料から回転を生み出す
+block.tfmg.large_pumpjack_hammer_connector	大型ポンプジャックのハンマー接続部
+block.tfmg.large_pumpjack_hammer_head	大型ポンプジャックのハンマーヘッド
+block.tfmg.large_pumpjack_hammer_part	大型ポンプジャックのハンマー部品
+block.tfmg.lead_ladder	鉛のハシゴ
+block.tfmg.liquid_asphalt	液状アスファルト
+block.tfmg.liquid_silicon	液状シリコン
+block.tfmg.lithium_block	リチウムブロック
+block.tfmg.lithium_ore	リチウム鉱石
+block.tfmg.lithium_torch	リチウムの松明
+block.tfmg.lubrication_oil	潤滑油
+block.tfmg.machine_input	機械入力
+block.tfmg.metal_smokestack	金属の煙突
+block.tfmg.modern_light	照明パネル
+block.tfmg.molten_slag	溶融鉱滓
+block.tfmg.napalm_bomb	ナパーム爆弾
+block.tfmg.neon_tube	ネオン管
+block.tfmg.neon_tube.tooltip.behaviour3	形が変わり、管に給電するための空間ができる
+block.tfmg.neon_tube.tooltip.condition3	レンチで使ったとき
+block.tfmg.oil_deposit	油田
+block.tfmg.polarizer	磁化装置
+block.tfmg.polarizer.tooltip.behaviour1	_磁性合金インゴット_ で右クリックすると、しばらくして _磁性合金インゴット_ が _磁石_ になる
+block.tfmg.polarizer.tooltip.summary	磁性合金インゴットから磁石を作る
+block.tfmg.potentiometer.tooltip.behaviour1	設定した割合に応じて、出力側から出る電圧を一定量だけ通す(出力側は上面の矢印のような模様が指している側)
+block.tfmg.potentiometer.tooltip.summary	設定した量の電圧だけを通す
+block.tfmg.pumpjack_base	ポンプジャックの土台
+block.tfmg.pumpjack_crank	ポンプジャックのクランク
+block.tfmg.pumpjack_hammer	ポンプジャックのハンマーホルダー
+block.tfmg.pumpjack_hammer_connector	ポンプジャックのハンマー接続部
+block.tfmg.pumpjack_hammer_head	ポンプジャックのハンマーヘッド
+block.tfmg.pumpjack_hammer_part	ポンプジャックのハンマー部品
+block.tfmg.radial_engine	星型エンジン
+block.tfmg.raw_lithium_block	リチウムの原石ブロック
+block.tfmg.rebar_block	鉄筋ブロック
+block.tfmg.rebar_concrete	鉄筋コンクリート
+block.tfmg.rebar_floor	鉄筋の床
+block.tfmg.rebar_pile	鉄筋の山
+block.tfmg.rebar_pillar	鉄筋の柱
+block.tfmg.rebar_stairs	鉄筋の階段
+block.tfmg.rebar_wall	鉄筋の塀
+block.tfmg.regular_engine	標準エンジン
+block.tfmg.resistor	抵抗器
+block.tfmg.resistor.tooltip.behaviour1	対象ブロックが属する電気グループに、抵抗器の抵抗値を加える(抵抗値の変え方は巻線機のツールチップを参照)
+block.tfmg.resistor.tooltip.condition1	グループ内のブロックに設置したとき
+block.tfmg.resistor.tooltip.summary	ネットワークに抵抗を加える
+block.tfmg.rotor	回転子
+block.tfmg.rusted_blast_furnace_reinforcement	錆びた高炉の補強材
+block.tfmg.rusted_blast_furnace_reinforcement_wall	錆びた高炉の補強材の塀
+block.tfmg.segmented_display	セグメント表示器
+block.tfmg.simple_large_engine	簡易大型エンジン
+block.tfmg.simple_large_engine.tooltip.summary	精製度の低い燃料から回転を生み出す(通常版より効率が悪い)
+block.tfmg.slag_block	鉱滓ブロック
+block.tfmg.slag_bricks_slab	鉱滓レンガのハーフブロック
+block.tfmg.slag_bricks_stairs	鉱滓レンガの階段
+block.tfmg.slag_bricks_wall	鉱滓レンガの塀
+block.tfmg.stator	固定子
+block.tfmg.steel_distillation_controller	鋼鉄の蒸留制御装置
+block.tfmg.steel_distillation_output	鋼鉄の蒸留出力口
+block.tfmg.surface_scanner	地表スキャナー

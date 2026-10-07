@@ -1,0 +1,167 @@
+## remotedesk
+=Desk	机
+=OK	OK
+=Save new label	新しいラベルを保存
+=USB Configurator	USBコンフィギュレーター
+=Tab Analog Lever	タブ式アナログレバー
+=Remote Desk	リモートデスク
+=Desk Label	机のラベル
+=Insert new label	新しいラベルを入力
+=Click to Close	クリックで閉じる
+=> Hellow There...	> こんにちは…
+=Keyboard	キーボード
+=Pixel Block	ピクセルブロック
+block.remotedesk.dimmer_redstone_lamp_on_1	調光レッドストーンランプ 2
+block.remotedesk.dimmer_redstone_lamp_on_2	調光レッドストーンランプ 2
+block.remotedesk.dimmer_redstone_lamp_on_3	調光レッドストーンランプ 3
+block.remotedesk.dimmer_redstone_lamp_on_4	調光レッドストーンランプ 4
+block.remotedesk.dimmer_redstone_lamp_on_5	調光レッドストーンランプ 5
+block.remotedesk.dimmer_redstone_lamp_on_6	調光レッドストーンランプ 6
+block.remotedesk.dimmer_redstone_lamp_on_7	調光レッドストーンランプ 7
+block.remotedesk.dimmer_redstone_lamp_on_8	調光レッドストーンランプ 8
+block.remotedesk.dimmer_redstone_lamp_on_9	調光レッドストーンランプ 9
+block.remotedesk.dimmer_redstone_lamp_on_10	調光レッドストーンランプ 10
+block.remotedesk.dimmer_redstone_lamp_on_11	調光レッドストーンランプ 11
+block.remotedesk.dimmer_redstone_lamp_on_12	調光レッドストーンランプ 12
+block.remotedesk.dimmer_redstone_lamp_on_13	調光レッドストーンランプ 13
+block.remotedesk.dimmer_redstone_lamp_on_14	調光レッドストーンランプ 14
+block.remotedesk.dimmer_redstone_lamp_on_15	調光レッドストーンランプ 15
+block.remotedesk.dimmer_redstone_lamp_off_1	調光レッドストーンランプ 1
+block.remotedesk.dimmer_redstone_lamp_off_2	調光レッドストーンランプ 2
+block.remotedesk.dimmer_redstone_lamp_off_3	調光レッドストーンランプ 3
+block.remotedesk.dimmer_redstone_lamp_off_4	調光レッドストーンランプ 4
+block.remotedesk.dimmer_redstone_lamp_off_5	調光レッドストーンランプ 5
+block.remotedesk.dimmer_redstone_lamp_off_6	調光レッドストーンランプ 6
+block.remotedesk.dimmer_redstone_lamp_off_7	調光レッドストーンランプ 7
+block.remotedesk.dimmer_redstone_lamp_off_8	調光レッドストーンランプ 8
+block.remotedesk.dimmer_redstone_lamp_off_9	調光レッドストーンランプ 9
+block.remotedesk.dimmer_redstone_lamp_off_10	調光レッドストーンランプ 10
+block.remotedesk.dimmer_redstone_lamp_off_11	調光レッドストーンランプ 11
+block.remotedesk.dimmer_redstone_lamp_off_12	調光レッドストーンランプ 12
+block.remotedesk.dimmer_redstone_lamp_off_13	調光レッドストーンランプ 13
+block.remotedesk.dimmer_redstone_lamp_off_14	調光レッドストーンランプ 14
+block.remotedesk.dimmer_redstone_lamp_off_15	調光レッドストーンランプ 15
+block.remotedesk.tab_analog_lever_on_0	タブ式アナログレバー 0
+block.remotedesk.tab_analog_lever_on_1	タブ式アナログレバー 1
+block.remotedesk.tab_analog_lever_on_2	タブ式アナログレバー 2
+block.remotedesk.tab_analog_lever_on_3	タブ式アナログレバー 3
+block.remotedesk.tab_analog_lever_on_4	タブ式アナログレバー 4
+block.remotedesk.tab_analog_lever_on_5	タブ式アナログレバー 5
+block.remotedesk.tab_analog_lever_on_6	タブ式アナログレバー 6
+block.remotedesk.tab_analog_lever_on_7	タブ式アナログレバー 7
+block.remotedesk.tab_analog_lever_on_8	タブ式アナログレバー 8
+block.remotedesk.tab_analog_lever_on_9	タブ式アナログレバー 9
+block.remotedesk.tab_analog_lever_on_10	タブ式アナログレバー 10
+block.remotedesk.tab_analog_lever_on_11	タブ式アナログレバー 11
+block.remotedesk.tab_analog_lever_on_12	タブ式アナログレバー 12
+block.remotedesk.tab_analog_lever_on_13	タブ式アナログレバー 13
+block.remotedesk.tab_analog_lever_on_14	タブ式アナログレバー 14
+block.remotedesk.tab_analog_lever_on_15	タブ式アナログレバー 15
+## mnwe
+creativetab.mnwe_tab	Mekanism Nuclear Weapons
+item.mnwe.bomb_remote	爆弾のリモコン
+item.mnwe.explosive_compound	爆薬の化合物
+item.mnwe.thermite	テルミットの粉
+item.mnwe.charged_capacitor	充電済みのコンデンサー
+item.mnwe.bomb_casing	爆弾の外殻
+item.mnwe.blasting_cap	雷管
+item.mnwe.shaped_charge_liner	成形炸薬のライナー
+item.mnwe.dispersal_core	散布コア
+block.mnwe.warhead_assembler	弾頭組立機
+description.mnwe.warhead_assembler	化学物質の装薬と電力を使い、外殻、コア、起爆装置から弾頭を組み立てる。弾頭はもう手では組み立てられない。
+container.mnwe.warhead_assembler	弾頭組立機
+gui.mnwe.assembler.progress	組み立ての進行
+gui.mnwe.assembler.no_recipe	有効な弾頭の構成がない
+gui.mnwe.jei.assembler.time	%2$s J/tで%1$.1f秒
+jei.mnwe.warhead_assembler.info	このMODのすべての弾頭はここで作る。外殻、コア、起爆装置、改造部品を入れ、正しい化学物質と電力を与える。
+gas.mnwe.nitrogen	窒素
+gas.mnwe.nitric_acid	硝酸
+gas.mnwe.glycerol	グリセリン
+gas.mnwe.nitroglycerin	ニトログリセリン
+gas.mnwe.napalm	ナパーム
+gas.mnwe.thiodiglycol	チオジグリコール
+gas.mnwe.mustard_agent	マスタード剤
+gas.mnwe.phosgene	ホスゲン
+gas.mnwe.nerve_agent	神経剤
+jei.mnwe.explosive_compound.info	安定化させたプラスチック爆薬。化学注入室で粘土にニトログリセリンを染み込ませる。このMODのすべての通常爆薬の基本の装薬。
+jei.mnwe.iron_oxide.info	わざと作った錆。化学注入室で鉄の粉を酸化させる。オスミウムの粉と合わせるとテルミットになる。
+jei.mnwe.thermite.info	何でも溶かすほど高温で燃える。焼夷弾頭に使う。
+jei.mnwe.charged_capacitor.info	過充電したエネルギー貯蔵器で、1回の放電ですべてを一気に放つ。電磁弾頭に使う。
+block.mnwe.industrial_bomb	工業用爆弾
+block.mnwe.hydrogen_bomb	水素爆弾
+block.mnwe.antimatter_bomb	反物質爆弾
+jei.mnwe.industrial_bomb.info	強化した解体用の爆薬。バニラのTNTの2倍の爆発で、導火線が短く、放射線は出ない。爆弾のリモコンにつなげられる。
+jei.mnwe.nuclear_bomb.info	非常に破壊的な爆発装置。爆発すると大きなクレーターを作り、周囲に致死的な放射線を放つ。
+jei.mnwe.hydrogen_bomb.info	さらに破壊的な爆発装置。爆発すると巨大なクレーターを作り、周囲に致死的な放射線を放つ。
+jei.mnwe.antimatter_bomb.info	破壊力の頂点。爆発すると広大な範囲が完全に消滅し、想像を絶する放射線が出る。逃げても無駄。
+jei.mnwe.bomb_remote.info	Mekanismの爆弾を遠隔操作する
+advancement.mnwe.root.title	Mekanism Explosives
+advancement.mnwe.root.description	始まりは化学から。爆薬の化合物を作る。
+advancement.mnwe.industrial_bomb.title	制御された解体
+advancement.mnwe.industrial_bomb.description	本気のTNT。工業用爆弾を組み立てる。
+advancement.mnwe.nuclear_bomb.title	我は死なり…
+advancement.mnwe.nuclear_bomb.description	…世界の破壊者なり。核爆弾を組み立てる。
+advancement.mnwe.hydrogen_bomb.title	千の太陽より明るく
+advancement.mnwe.hydrogen_bomb.description	核融合の力を手にする。水素爆弾を組み立てる。
+advancement.mnwe.antimatter_bomb.title	万物の終わり
+advancement.mnwe.antimatter_bomb.description	究極の大量破壊兵器、反物質爆弾を組み立てる。
+death.attack.mnwe.vaporized	%1$sは核爆発で蒸発した
+death.attack.mnwe.vaporized.player	%1$sは%2$sの核爆発で蒸発した
+block.mnwe.incendiary_bomb	焼夷弾
+block.mnwe.fragmentation_bomb	破片爆弾
+block.mnwe.seismic_charge	地震爆薬
+block.mnwe.bunker_buster	バンカーバスター
+block.mnwe.napalm_fire	ナパームの炎
+item.mnwe.resonance_core	共鳴コア
+item.mnwe.hardened_casing	硬化外殻
+jei.mnwe.shaped_charge.info	向いている方向に細い噴流を放つ。射程が長く横方向の被害はほぼない - トンネル掘りと精密な解体用の爆薬。消したいものに向けよう。
+jei.mnwe.incendiary_bomb.info	小さな爆発の後に広い範囲にナパームの炎を残す。炎は普通よりずっと長く燃え、坂を下って広がり、雨でも消えず、雪や氷を溶かす。
+jei.mnwe.fragmentation_bomb.info	ブロックは一切壊さない。見えるものすべてに致命的な破片を飛ばし、距離で威力が落ち、遮蔽物で止まる。解体ではなく拠点防衛用。
+jei.mnwe.seismic_charge.info	クレーターは残さない。壁をすり抜けて後ろに隠れているものを傷つける衝撃波で、一番もろいブロックしか壊さない。
+jei.mnwe.bunker_buster.info	爆発する前に進行方向へ掘り進むので、屋根の上ではなく目標の内部で爆発する。ミサイルサイロと組み合わせる。
+jei.mnwe.resonance_core.info	爆発を伝わる衝撃波に変える、調律したアメジストの格子。地震弾頭に使う。
+jei.mnwe.hardened_casing.info	固い岩を突き抜けても壊れない精製黒曜石の外殻。バンカーバスターに使う。
+death.attack.mnwe.shrapnel	%1$sは破片で引き裂かれた
+death.attack.mnwe.shrapnel.player	%1$sは%2$sの破片で引き裂かれた
+death.attack.mnwe.shockwave	%1$sは衝撃波で押しつぶされた
+death.attack.mnwe.shockwave.player	%1$sは%2$sの衝撃波で押しつぶされた
+death.attack.mnwe.napalm	%1$sはナパームで焼け死んだ
+death.attack.mnwe.napalm.player	%1$sは%2$sのナパームで生きたまま焼かれた
+advancement.mnwe.warhead_assembler.title	組み立てが必要です
+advancement.mnwe.warhead_assembler.description	台所のテーブルで作る爆弾はもう終わり。弾頭組立機を作る。
+advancement.mnwe.shaped_charge.title	まっすぐ突き抜けろ
+advancement.mnwe.shaped_charge.description	熱意ではなく精密さ。成形炸薬を組み立てる。
+advancement.mnwe.incendiary_bomb.title	すべては燃える
+advancement.mnwe.incendiary_bomb.description	燃やしたくなるものもある。焼夷弾を組み立てる。
+advancement.mnwe.fragmentation_bomb.title	対人用
+advancement.mnwe.fragmentation_bomb.description	建物は残る。中のものは残らない。破片爆弾を組み立てる。
+advancement.mnwe.seismic_charge.title	地面のルール
+advancement.mnwe.seismic_charge.description	仕事は地面にまかせよう。地震爆薬を組み立てる。
+advancement.mnwe.bunker_buster.title	もっと深く
+advancement.mnwe.bunker_buster.description	深く作りすぎる人もいる。バンカーバスターを組み立てる。
+block.mnwe.mustard_bomb	マスタードガス爆弾
+block.mnwe.phosgene_bomb	ホスゲン爆弾
+block.mnwe.nerve_gas_bomb	神経ガス爆弾
+block.mnwe.cryo_charge	冷凍爆薬
+block.mnwe.dirty_bomb	汚い爆弾
+block.mnwe.irradiated_soil	汚染された土
+jei.mnwe.mustard_bomb.info	漂うマスタード剤の雲を放つ。何も壊さないが、防護服一式を着ていないものを盲目にして毒し、触れた作物をすべて枯らす。
+jei.mnwe.phosgene_bomb.info	衰弱させ遅くする、より重い雲。ホスゲンは沈むので、吹き飛ばずに地下室、塹壕、階段にたまる。
+jei.mnwe.nerve_gas_bomb.info	致死性のもの。神経剤の雲は無防備なものをすぐに殺す。防護服一式かMekaSuitだけが対策になる。
+jei.mnwe.cryo_charge.info	範囲内の水を凍らせ、溶岩を黒曜石に変え、ナパームを含むすべての火を消す。巻き込まれたものはのろのろとしか動けなくなる。氷は自然に溶ける。
+jei.mnwe.dirty_bomb.info	爆発はほとんどない。Mekanismの核廃棄物から作られ、広い範囲に大量の放射線と汚染された土をまき散らす。
+jei.mnwe.irradiated_soil.info	放射能爆発で残った汚染された地面。放射線が漏れ出し、何も育たず、ゆっくりとしか土に戻らない。
+advancement.mnwe.mustard_bomb.title	塹壕戦
+advancement.mnwe.mustard_bomb.description	閉めておくべき扉もある。マスタードガス爆弾を組み立てる。
+advancement.mnwe.phosgene_bomb.title	それは沈む
+advancement.mnwe.phosgene_bomb.description	下り坂は安全な方向ではない。ホスゲン爆弾を組み立てる。
+advancement.mnwe.nerve_gas_bomb.title	二度目の息はない
+advancement.mnwe.nerve_gas_bomb.description	ここに部分点はない。神経ガス爆弾を組み立てる。
+advancement.mnwe.cryo_charge.title	消火
+advancement.mnwe.cryo_charge.description	自分が起こした火をすべて消す。冷凍爆薬を組み立てる。
+advancement.mnwe.dirty_bomb.title	もったいない精神
+advancement.mnwe.dirty_bomb.description	原子炉の残りかすを兵器に。汚い爆弾を組み立てる。
+death.attack.mnwe.chemical	%1$sは化学剤で窒息した
+death.attack.mnwe.chemical.player	%1$sは%2$sにガスで殺された
+death.attack.mnwe.cryo	%1$sは凍りついた
+death.attack.mnwe.cryo.player	%1$sは%2$sに凍らされた

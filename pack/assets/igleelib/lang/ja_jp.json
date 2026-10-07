@@ -1,0 +1,17 @@
+{
+  "itemGroup.igleelib.base": "Iglee's Library",
+  "block.igleelib.modium_block": "モディウムブロック",
+  "block.igleelib.derium_block": "デリウムブロック",
+  "block.igleelib.blazum_block": "ブレイズムブロック",
+  "block.igleelib.lavium_block": "ラヴィウムブロック",
+  "item.igleelib.modium_ingot": "モディウムインゴット",
+  "item.igleelib.derium_ingot": "デリウムインゴット",
+  "item.igleelib.blazum_ingot": "ブレイズムインゴット",
+  "item.igleelib.lavium_ingot": "ラヴィウムインゴット",
+  "item.igleelib.blaze_shard": "ブレイズの欠片",
+  "item.igleelib.iglium_upgrade_smithing_template": "イグリウムアップグレード",
+  "item.igleelib.smithing_template.iglium_upgrade.additions_slot_description": "ダイヤモンド、泣く黒曜石、ブレイズロッド、ブレイズの欠片のどれかを置く",
+  "item.igleelib.smithing_template.iglium_upgrade.applies_to": "ネザライトインゴット",
+  "item.igleelib.smithing_template.iglium_upgrade.base_slot_description": "ネザライトインゴットを置いてください",
+  "item.igleelib.smithing_template.iglium_upgrade.ingredients": "ダイヤモンド、泣く黒曜石、ブレイズロッド、ブレイズの欠片"
+}

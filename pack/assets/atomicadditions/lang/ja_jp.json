@@ -1,0 +1,20 @@
+{
+  "block.atomicadditions.casing": "§dAMRケーシング",
+  "block.atomicadditions.casing_port": "§dAMRポート",
+  "message.atomicadditions.port_changed": "AMRポートを変更した:",
+  "message.atomicadditions.port_input": "入力",
+  "message.atomicadditions.port_output": "出力",
+  "container.atomicadditions.atomic": "原子素材再処理機",
+  "jei.atomicadditions.amr": "原子素材再処理機",
+  "jei.atomicadditions.energy": "エネルギー: %s FE/t",
+  "jei.atomicadditions.duration": "所要時間: %sティック",
+  "jei.atomicadditions.rate": "生産量: %s mB/t",
+  "gas.atomicadditions.niobium": "ニオブ",
+  "gas.atomicadditions.germanium": "ゲルマニウム",
+  "gas.atomicadditions.tantalum": "タンタル",
+  "gas.atomicadditions.palladium": "パラジウム",
+  "gas.atomicadditions.copper": "銅",
+  "gas.atomicadditions.rhenium": "レニウム",
+  "item.atomicadditions.activated_crystal": "活性化した%s",
+  "item.atomicadditions.activated_crystal_fallback": "活性化した結晶"
+}

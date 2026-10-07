@@ -1,0 +1,375 @@
+## emextras
+block.emextras.absolute_overclocked_induction_cell	絶対超速インダクションセル
+block.emextras.absolute_overclocked_induction_provider	絶対超速インダクションプロバイダ
+block.emextras.absolute_overclocked_logistical_transporter	絶対超速物流トランスポーター
+block.emextras.absolute_overclocked_mechanical_pipe	絶対超速メカニカルパイプ
+block.emextras.absolute_overclocked_pressurized_tube	絶対超速加圧チューブ
+block.emextras.absolute_overclocked_thermodynamic_conductor	絶対超速熱力学的コンダクター
+block.emextras.absolute_overclocked_universal_cable	絶対超速ユニバーサルケーブル
+block.emextras.cosmic_dense_induction_cell	宇宙高密インダクションセル
+block.emextras.cosmic_dense_induction_provider	宇宙高密インダクションプロバイダ
+block.emextras.cosmic_dense_logistical_transporter	宇宙高密物流トランスポーター
+block.emextras.cosmic_dense_mechanical_pipe	宇宙高密メカニカルパイプ
+block.emextras.cosmic_dense_pressurized_tube	宇宙高密加圧チューブ
+block.emextras.cosmic_dense_thermodynamic_conductor	宇宙高密熱力学的コンダクター
+block.emextras.cosmic_dense_universal_cable	宇宙高密ユニバーサルケーブル
+block.emextras.infinite_multiversal_induction_cell	無限多元インダクションセル
+block.emextras.infinite_multiversal_induction_provider	無限多元インダクションプロバイダ
+block.emextras.infinite_multiversal_logistical_transporter	無限多元物流トランスポーター
+block.emextras.infinite_multiversal_mechanical_pipe	無限多元メカニカルパイプ
+block.emextras.infinite_multiversal_pressurized_tube	無限多元加圧チューブ
+block.emextras.infinite_multiversal_thermodynamic_conductor	無限多元熱力学的コンダクター
+block.emextras.infinite_multiversal_universal_cable	無限多元ユニバーサルケーブル
+block.emextras.supreme_quantum_induction_cell	至高量子インダクションセル
+block.emextras.supreme_quantum_induction_provider	至高量子インダクションプロバイダ
+block.emextras.supreme_quantum_logistical_transporter	至高量子物流トランスポーター
+block.emextras.supreme_quantum_mechanical_pipe	至高量子メカニカルパイプ
+block.emextras.supreme_quantum_pressurized_tube	至高量子加圧チューブ
+block.emextras.supreme_quantum_thermodynamic_conductor	至高量子熱力学的コンダクター
+block.emextras.supreme_quantum_universal_cable	至高量子ユニバーサルケーブル
+## thanasmekanismlights
+item.thanasmekanismlights.bulb_item	高ワット電球
+block.thanasmekanismlights.basic_standard_light	基本標準ライト
+block.thanasmekanismlights.advanced_standard_light	発展標準ライト
+block.thanasmekanismlights.elite_standard_light	精鋭標準ライト
+block.thanasmekanismlights.ultimate_standard_light	究極標準ライト
+item_group.thanasmekanismlights	Thana's Mekanism Lights
+container.thanasmekanismlights.basic_standard_light	基本標準ライト
+container.thanasmekanismlights.advanced_standard_light	発展標準ライト
+container.thanasmekanismlights.elite_standard_light	精鋭標準ライト
+container.thanasmekanismlights.ultimate_standard_light	究極標準ライト
+gui.light.power_consumption	消費:
+block.thanasmekanismlights.light_casing	ライトケーシング
+block.thanasmekanismlights.high_wattage_input_port	高ワット入力ポート
+block.thanasmekanismlights.high_density_led_array	高密度LEDアレイ
+container.thanasmekanismlights.light_multiblock	ライトのマルチブロック
+description.thanasmekanismlights.light_casing	ライトのマルチブロックの土台。これを床に敷き(高ワット入力ポートを1つ以上含める)、内部を高密度LEDアレイで満たし、壁と天井を構造用ガラスで覆って、3x3x3から9x9x9の中空の箱を作る。
+description.thanasmekanismlights.standard_light	周りを照らす電動のライト。スニークして右クリックでオン/オフを切り替える。
+description.thanasmekanismlights.high_wattage_input_port	ライトのマルチブロックに電力を送る。
+description.thanasmekanismlights.led_array	ライトのマルチブロックの光る内部。ケーシングの中に完全に閉じ込める必要がある。
+thanasmekanismlights.multiblock.no_leds	構造物の中にLEDアレイがない。
+thanasmekanismlights.multiblock.status_on	状態: オン
+thanasmekanismlights.multiblock.status_off	状態: オフ
+thanasmekanismlights.multiblock.no_port	構造物には高ワット入力ポートが1つ以上必要。
+thanasmekanismlights.multiblock.size	大きさ: %sx%sx%s
+thanasmekanismlights.multiblock.led_count	LEDアレイ: %s
+thanasmekanismlights.multiblock.range	範囲: %s / %s
+thanasmekanismlights.multiblock.range.tooltip	左クリック: 1  ·  右クリック: 16
+jei.thanasmekanismlights.light_multiblock	ライトのマルチブロック\n\n3x3x3から9x9x9までの中空の箱を作る。\n\n- 床: ライトケーシング。外殻のどこかに高ワット入力ポートを1つ以上。\n- 壁と天井: 構造用ガラス。\n- 内部: 高密度LEDアレイで完全に満たす。\n\n最後のブロックを置くと自動で形成される。右クリックでGUIを開き、-/+ボタンで範囲を設定する(左クリックで1、右クリックで16)。素手でケーシングをスニークして右クリックするとオン/オフを切り替えられる。範囲と消費電力はマルチブロックの大きさに比例する。
+## compactmekanism
+other.compactmekanism.mod_name	Compact Mekanism
+block.compactmekanism.compact_dynamic_tank	コンパクトダイナミックタンク
+block.compactmekanism.compact_induction_matrix	コンパクトインダクションマトリックス
+description.compactmekanism.compact_fission_reactor	核分裂炉をまるごと1ブロックに詰め込んだもの。メルトダウンは絶対に起きない。核分裂燃料と水を送り込むと勝手に動き出し、蒸気と核廃棄物を出す。
+description.compactmekanism.compact_fusion_reactor	核融合炉をまるごと1ブロックにしたもの。D-T燃料(または重水素+三重水素)を送るだけで点火し、水を沸かして蒸気にする。
+description.compactmekanism.compact_industrial_turbine	工業用タービンをまるごと1ブロックにしたもの。蒸気を入れると、エネルギーと水が出てくる。
+description.compactmekanism.compact_thermal_evaporation	加温蒸発濃縮プラントをまるごと1ブロックにしたもの。液体を送ると蒸留し、上から生成物を出す。
+description.compactmekanism.compact_thermoelectric_boiler	熱電ボイラーをまるごと1ブロックにしたもの。過熱冷却材が通って冷やされ、その間に水を沸かして蒸気にする。
+description.compactmekanism.compact_sps	超臨界相変換機をまるごと1ブロックにしたもの。ポロニウムを送って電力を与え続けると反物質を作る。
+description.compactmekanism.compact_dynamic_tank	ケーシングやバルブの構造なしで、液体か1種類の化学物質を保管する。
+description.compactmekanism.compact_induction_matrix	とてつもない容量を持つ1ブロックのエネルギー貯蔵庫。
+container.compactmekanism.compact_fission_reactor	コンパクト核分裂炉
+container.compactmekanism.compact_fusion_reactor	コンパクト核融合炉
+container.compactmekanism.compact_fusion_reactor_fuel	コンパクト核融合炉
+container.compactmekanism.compact_fusion_reactor_heat	コンパクト核融合炉
+container.compactmekanism.compact_fusion_reactor_stats	コンパクト核融合炉
+container.compactmekanism.compact_industrial_turbine	コンパクト工業用タービン
+container.compactmekanism.compact_thermal_evaporation	コンパクト加温蒸発濃縮プラント
+container.compactmekanism.compact_thermoelectric_boiler	コンパクト熱電ボイラー
+container.compactmekanism.boiler_stats	コンパクト熱電ボイラー
+container.compactmekanism.boiler_config	コンパクト熱電ボイラー
+container.compactmekanism.compact_sps	コンパクト超臨界相変換機
+container.compactmekanism.compact_dynamic_tank	コンパクトダイナミックタンク
+container.compactmekanism.compact_induction_matrix	コンパクトインダクションマトリックス
+reactor.compactmekanism.stats.active	稼働中
+boiler.compactmekanism.stats.dispersers_y	圧力分散器の高さ: %1$s
+## oreexcavation
+oreexcavation.key.shape_msg	採掘の形: %s
+oreexcavation.key.shape_disabled	形での採掘は無効になっている！
+oreexcavation.config.gui.mode	発動モード
+oreexcavation.config.gui.outline	形の輪郭を表示
+oreexcavation.config.gui.must_hold	キーを押し続ける必要あり
+oreexcavation.config.gui.side_hit	叩いたブロックの面を使う
+oreexcavation.config.gui.speed	1ティックあたりのブロック数: %s
+oreexcavation.config.gui.limit	ブロックの上限: %s
+oreexcavation.config.gui.range	採掘範囲: %s
+oreexcavation.config.gui.undos	取り消し履歴: %s
+oreexcavation.config.gui.exhaustion	消耗: %s
+oreexcavation.config.gui.experience	経験値: %s
+oreexcavation.config.gui.open_hand	素手を許可
+oreexcavation.config.gui.auto_pickup	自動で拾う
+oreexcavation.config.gui.ignore_tools	道具の種類を無視
+oreexcavation.config.gui.alt_tools	別の道具の判定
+oreexcavation.config.gui.tool_class	標準の道具のみ
+oreexcavation.config.gui.allow_shapes	形での採掘
+oreexcavation.config.gui.tps_guard	TPS保護
+oreexcavation.config.gui.reload_json	JSONファイルを再読み込み
+oreexcavation.config.gui.open_folder	設定フォルダを開く
+oreexcavation.config.gui.undo_replace	置き換え可能なブロックも取り消す
+oreexcavation.config.gui.share_code	共有コード
+oreexcavation.config.gui.invert_tbl	道具のブラックリストを反転
+oreexcavation.config.gui.invert_bbl	ブロックのブラックリストを反転
+oreexcavation.config.gui.patreon	Patreonで寄付
+## amtz
+block.amtz.armory_assembler	ME武器組立機
+itemGroup.amtz	AE2 x Mekanism x TACZ
+gui.amtz.buffer	バッファ
+gui.amtz.upgrades	アップグレード
+gui.amtz.upgrade_counts	スピード x%s エネルギー x%s
+gui.amtz.energy	エネルギー %s / %s FE
+gui.amtz.progress	進行 %s%%
+gui.amtz.queue_short	キュー %s/%s
+gui.amtz.patterns_short	レシピ %s
+gui.amtz.rate	%s FE/個 - %s 秒
+gui.amtz.state.offline	ネットワークがオフライン
+gui.amtz.state.idle	待機中
+gui.amtz.state.crafting	組立中
+gui.amtz.state.no_power	エネルギーが足りない
+gui.amtz.state.blocked	出力が詰まっている
+gui.amtz.help_energy	Mekanismのエネルギーバッファ
+gui.amtz.help_energy_rate	1個あたり%s FE、1個%s秒(アップグレード込み)
+gui.amtz.help_upgrade_speed	スピードアップグレード: 1つにつき速度+%s、1個あたりのエネルギー+%s
+gui.amtz.help_upgrade_energy	エネルギーアップグレード: 1個あたりのエネルギー-%s、バッファ容量+%s
+gui.amtz.help_upgrade_limit	各種類%s個まで(Mekanismのスピード/エネルギーアップグレードのみ)
+gui.amtz.help_order	MEクラフトターミナルでTACZのアイテムを何でも注文できる
+gui.amtz.help_power	Mekanismのケーブル(ジュール)かForge Energyで電力を送る
+gui.amtz.help_return	完成品はMEネットワークに直接戻される
+gui.amtz.machine_tooltip	Mekanismのエネルギーを使ってTACZの銃工のレシピを何でも作る。Mekanismのアップグレードを取り付けられる
+item.amtz.armory_pattern	武器パターン(内部用)
+## appflux
+item.appflux.mega_fe_cell_housing	MEGA FEセル筐体
+item.appflux.fe_1m_cell	1M ME FEストレージセル
+item.appflux.fe_4m_cell	4M ME FEストレージセル
+item.appflux.fe_16m_cell	16M ME FEストレージセル
+item.appflux.fe_64m_cell	64M ME FEストレージセル
+item.appflux.fe_256m_cell	256M ME FEストレージセル
+item.appflux.fe_1k_portable_cell	1k 携帯型FEセル
+item.appflux.fe_4k_portable_cell	4k 携帯型FEセル
+item.appflux.fe_16k_portable_cell	16k 携帯型FEセル
+item.appflux.fe_64k_portable_cell	64k 携帯型FEセル
+item.appflux.fe_256k_portable_cell	256k 携帯型FEセル
+item.appflux.fe_1m_portable_cell	1M 携帯型FEセル
+item.appflux.fe_4m_portable_cell	4M 携帯型FEセル
+item.appflux.fe_16m_portable_cell	16M 携帯型FEセル
+item.appflux.fe_64m_portable_cell	64M 携帯型FEセル
+item.appflux.fe_256m_portable_cell	256M 携帯型FEセル
+item.appflux.fe_creative_cell	クリエイティブ ME FEセル
+item.appflux.core_1m	1M MEエネルギーストレージコンポーネント
+item.appflux.core_4m	4M MEエネルギーストレージコンポーネント
+item.appflux.core_16m	16M MEエネルギーストレージコンポーネント
+item.appflux.core_64m	64M MEエネルギーストレージコンポーネント
+item.appflux.core_256m	256M MEエネルギーストレージコンポーネント
+item.appflux.sky_harden_insulating_resin	スカイ絶縁樹脂
+item.appflux.induction_card.tooltip.02	携帯型FEセルでプレイヤーのインベントリを充電できるようにする
+group.fe_portable_cells.name	携帯型FEセル
+## hardrock_mek_compat
+item.hardrock_mek_compat.clump_bismuth	ビスマスの凝塊
+item.hardrock_mek_compat.clump_chromium	クロムの凝塊
+item.hardrock_mek_compat.clump_nickel	ニッケルの凝塊
+item.hardrock_mek_compat.crystal_bismuth	ビスマスの結晶
+item.hardrock_mek_compat.crystal_chromium	クロムの結晶
+item.hardrock_mek_compat.crystal_silver	銀の結晶
+item.hardrock_mek_compat.dust_dirty_bismuth	汚れたビスマスの粉
+item.hardrock_mek_compat.dust_dirty_chromium	汚れたクロムの粉
+item.hardrock_mek_compat.dust_silver	銀の粉
+item.hardrock_mek_compat.nutrimix	栄養ミックス
+item.hardrock_mek_compat.shard_bismuth	ビスマスの欠片
+item.hardrock_mek_compat.shard_chromium	クロムの欠片
+itemGroup.hardrock_mek_compat	Hardrock Mekanism Compat
+slurry.hardrock_mek_compat.clean_aluminum	純粋なアルミニウムの懸濁液
+slurry.hardrock_mek_compat.clean_bismuth	純粋なビスマスの懸濁液
+slurry.hardrock_mek_compat.clean_chromium	純粋なクロムの懸濁液
+slurry.hardrock_mek_compat.clean_nickel	純粋なニッケルの懸濁液
+slurry.hardrock_mek_compat.clean_silver	純粋な銀の懸濁液
+slurry.hardrock_mek_compat.clean_zinc	純粋な亜鉛の懸濁液
+slurry.hardrock_mek_compat.dirty_aluminum	汚れたアルミニウムの懸濁液
+slurry.hardrock_mek_compat.dirty_bismuth	汚れたビスマスの懸濁液
+slurry.hardrock_mek_compat.dirty_chromium	汚れたクロムの懸濁液
+slurry.hardrock_mek_compat.dirty_nickel	汚れたニッケルの懸濁液
+slurry.hardrock_mek_compat.dirty_silver	汚れた銀の懸濁液
+slurry.hardrock_mek_compat.dirty_zinc	汚れた亜鉛の懸濁液
+## brewingfactory
+block.brewingfactory.advanced_brewing_factory	発展醸造ファクトリー
+block.brewingfactory.basic_brewing_factory	基本醸造ファクトリー
+block.brewingfactory.brewing_chamber	醸造チャンバー
+block.brewingfactory.elite_brewing_factory	精鋭醸造ファクトリー
+block.brewingfactory.potion_decanter	ポーション移し替え機
+block.brewingfactory.ultimate_brewing_factory	究極醸造ファクトリー
+container.brewingfactory.advanced_brewing_factory	発展醸造ファクトリー
+container.brewingfactory.basic_brewing_factory	基本醸造ファクトリー
+container.brewingfactory.brewing_chamber	醸造チャンバー
+container.brewingfactory.elite_brewing_factory	精鋭醸造ファクトリー
+container.brewingfactory.potion_decanter	ポーション移し替え機
+container.brewingfactory.ultimate_brewing_factory	究極醸造ファクトリー
+description.brewingfactory.brewing_chamber	ブレイズパウダーの代わりに電力でバニラの醸造を行う。一度に1本ずつ。ティアインストーラーで醸造ファクトリーにすると、まとめて醸造できる。
+description.brewingfactory.brewing_factory	ブレイズパウダーの代わりに電力でバニラの醸造を行う。瓶の入ったスロットすべてを共通の材料で一度に醸造し、まとめて材料1つで済む。
+description.brewingfactory.potion_decanter	瓶とタンクの間でポーションを両方向に移す。瓶から出すとポーションをタンクに空けてガラス瓶を返し、瓶詰めすると満タンのタンクから新しい瓶に詰める。スプラッシュポーションと残留ポーションも、往復してもそのまま。
+description.brewingfactory.potion_injection_unit	保管したポーションの効果を着用者に保ち続け、効果が切れそうになるたびに1本分を飲む。ヘルメットのタンクは、ポーションの液体ならどこからでも満たせる。治癒など即時のポーションは、持続時間がないので無視される。
+gui.brewingfactory.bottling	瓶詰め
+gui.brewingfactory.decanter_toggle	瓶詰め/瓶から出すを切り替え
+gui.brewingfactory.unbottling	瓶から出す
+item.brewingfactory.module_potion_injection_unit	ポーション注入ユニット
+itemGroup.brewingfactory.brewing_factory	Brewing Factory
+module.brewingfactory.potion_injection_unit	ポーション注入ユニット
+tooltip.brewingfactory.bottles_per_batch	1回あたりの瓶の数: %s
+## fluidic_tanks
+block.fluidic_tanks.fluidic_tank	流体タンク
+block.fluidic_tanks.fluidic_steam_engine	流体蒸気機関
+itemGroup.fluidic_tanks	Fluidic Tanks
+block.fluidic_tanks.copper_fluidic_tank	銅の流体タンク
+block.fluidic_tanks.iron_fluidic_tank	鉄の流体タンク
+block.fluidic_tanks.gold_fluidic_tank	金の流体タンク
+block.fluidic_tanks.emerald_fluidic_tank	エメラルドの流体タンク
+block.fluidic_tanks.diamond_fluidic_tank	ダイヤモンドの流体タンク
+block.fluidic_tanks.netherite_fluidic_tank	ネザライトの流体タンク
+block.fluidic_tanks.ultimate_fluidic_tank	究極の流体タンク
+block.fluidic_tanks.duplicating_fluidic_tank	複製の流体タンク
+block.fluidic_tanks.fluidic_vault	流体保管庫
+block.fluidic_tanks.copper_fluidic_vault	銅の流体保管庫
+block.fluidic_tanks.iron_fluidic_vault	鉄の流体保管庫
+block.fluidic_tanks.gold_fluidic_vault	金の流体保管庫
+block.fluidic_tanks.emerald_fluidic_vault	エメラルドの流体保管庫
+block.fluidic_tanks.diamond_fluidic_vault	ダイヤモンドの流体保管庫
+block.fluidic_tanks.netherite_fluidic_vault	ネザライトの流体保管庫
+block.fluidic_tanks.ultimate_fluidic_vault	究極の流体保管庫
+block.fluidic_tanks.duplicating_fluidic_vault	複製の流体保管庫
+fluidic_tanks.configuration.tanks_vaults_keep_contents	タンク/保管庫が中身を保持する
+tooltip.fluidic_tanks.fluid	液体: %s
+tooltip.fluidic_tanks.amount	量: %s / %s (%s / %s mB)
+## mekanism_empowered
+gui.configuration.mekanism_empowered.inserter	インサーターの設定
+item.mekanism_empowered.advanced_gauge_dropper	発展計量スポイト
+item.mekanism_empowered.basic_gauge_dropper	基本計量スポイト
+item.mekanism_empowered.elite_gauge_dropper	精鋭計量スポイト
+item.mekanism_empowered.ultimate_gauge_dropper	究極計量スポイト
+item.mekanism_empowered.upgrade_auto_inserter	自動搬入アップグレード
+item.mekanism_empowered.upgrade_empowered_energy	強化エネルギーアップグレード
+item.mekanism_empowered.upgrade_empowered_speed	強化スピードアップグレード
+item.mekanism_empowered.upgrade_fast_item_eject	高速アイテム排出アップグレード
+item.mekanism_empowered.upgrade_fast_item_insert	高速アイテム搬入アップグレード
+item.mekanism_empowered.upgrade_io_capacity	I/O容量アップグレード
+upgrade.mekanism_empowered.auto_inserter	自動搬入
+upgrade.mekanism_empowered.auto_inserter.description	機械にアイテムの自動搬入を追加する
+upgrade.mekanism_empowered.energy	強化エネルギー
+upgrade.mekanism_empowered.energy.description	強化スピードアップグレードによるエネルギー消費を減らす
+upgrade.mekanism_empowered.fast_item_eject	高速アイテム排出
+upgrade.mekanism_empowered.fast_item_eject.description	アイテムの排出速度を上げる
+upgrade.mekanism_empowered.fast_item_insert	高速アイテム搬入
+upgrade.mekanism_empowered.fast_item_insert.description	アイテムの搬入速度を上げる。自動搬入が必要
+upgrade.mekanism_empowered.io_capacity	I/O容量
+upgrade.mekanism_empowered.io_capacity.description	1回のI/O操作で運ぶアイテム数を増やす
+upgrade.mekanism_empowered.speed	強化スピード
+upgrade.mekanism_empowered.speed.description	機械の速度を大きく上げる。スピードアップグレード8個が必要
+## mek_factory_info
+jade.mek_factory_info.lines	ライン数: %s
+jade.mek_factory_info.lines_preview	ライン数: %s → %s
+jade.mek_factory_info.tank_storage	容量: %s
+jade.mek_factory_info.tank_storage_preview	容量: %s → %s
+jade.mek_factory_info.tank_output	出力: %s
+jade.mek_factory_info.tank_output_preview	出力: %s → %s
+jade.mek_factory_info.transmitter_capacity	容量: %s
+jade.mek_factory_info.transmitter_capacity_preview	容量: %s → %s
+jade.mek_factory_info.transmitter_rate	転送量: %s
+jade.mek_factory_info.transmitter_rate_preview	転送量: %s → %s
+jade.mek_factory_info.transmitter_pull	引き出し: %s
+jade.mek_factory_info.transmitter_pull_preview	引き出し: %s → %s
+jade.mek_factory_info.transmitter_speed	速度: %s
+jade.mek_factory_info.transmitter_speed_preview	速度: %s → %s
+tooltip.mek_factory_info.lines	ライン数: %s
+config.jade.plugin_mek_factory_info.factory_lines	ファクトリーのライン数
+config.jade.plugin_mek_factory_info.tank_spec	タンクの性能
+config.jade.plugin_mek_factory_info.cable_spec	ケーブルの性能
+gui.mek_factory_info.lines_grouping_toggle.off	L
+gui.mek_factory_info.lines_grouping_toggle.on	[L]
+gui.mek_factory_info.lines_grouping_toggle.title	Mekanismのアイテムをまとめる
+gui.mek_factory_info.lines_grouping_toggle.enabled	アイテム名/MODでの並べ替えにまとめを適用した
+gui.mek_factory_info.lines_grouping_toggle.disabled	無効
+## cp_mek
+item_group.cp_mek.croparium_mekanism	Croparium: Mekanism
+block.cp_mek.osmium_seeds	オスミウムの種
+block.cp_mek.tin_seeds	スズの種
+block.cp_mek.lead_seeds	鉛の種
+block.cp_mek.uranium_seeds	ウランの種
+block.cp_mek.bronze_seeds	青銅の種
+block.cp_mek.steel_seeds	鋼鉄の種
+block.cp_mek.fluorite_seeds	蛍石の種
+block.cp_mek.salt_seeds	塩の種
+block.cp_mek.refined_obsidian_seeds	精製黒曜石の種
+block.cp_mek.refined_glowstone_seeds	精製グロウストーンの種
+block.cp_mek.osmium_crop	オスミウムの作物
+block.cp_mek.tin_crop	スズの作物
+block.cp_mek.lead_crop	鉛の作物
+block.cp_mek.uranium_crop	ウランの作物
+block.cp_mek.bronze_crop	青銅の作物
+block.cp_mek.steel_crop	鋼鉄の作物
+block.cp_mek.fluorite_crop	蛍石の作物
+block.cp_mek.salt_crop	塩の作物
+block.cp_mek.refined_obsidian_crop	精製黒曜石の作物
+block.cp_mek.refined_glowstone_crop	精製グロウストーンの作物
+item.cp_mek.logo	ロゴ
+## mekanism_nuclearscience
+gas.mekanism_nuclearscience.dark_matter	ダークマター
+infuse_type.mekanism_nuclearscience.dark_matter	ダークマター
+block.mekanism_nuclearscience.dark_matter_chargepad	ダークマター注入パッド
+block.mekanism_nuclearscience.dark_matter_injector	ダークマター注入機
+block.mekanism_nuclearscience.dischargepad	放電パッド
+block.mekanism_nuclearscience.subatomic_recompiler	素粒子再構成機
+container.mekanism_nuclearscience.subatomic_recompiler	素粒子再構成機
+item.mekanism_nuclearscience.dark_matter_core	ダークマターコア
+item.mekanism_nuclearscience.module_implosion_reactor_unit	爆縮炉ユニット
+item.mekanism_nuclearscience.pellet_dark_matter	ダークマターペレット
+item.mekanism_nuclearscience.qio_drive_void_singularity	虚空特異点QIOドライブ
+item.mekanism_nuclearscience.item_implosion_reactor_module	爆縮炉モジュール
+module.mekanism_nuclearscience.implosion_reactor_unit	爆縮炉ユニット
+module_type.draconicevolution.implosion_reactor.name	爆縮炉
+gui.mekanism_nuclearscience.subatomic_recompiler.search	検索
+gui.mekanism_nuclearscience.subatomic_recompiler.count	個数
+gui.mekanism_nuclearscience.subatomic_recompiler.amount	量
+gui.mekanism_nuclearscience.subatomic_recompiler.start	開始
+sound_event.mekanism_nuclearscience.tile.machine.subatomic_recompiler	素粒子再構成機が動く
+description.mekanism_nuclearscience.subatomic_recompiler	ダークマターを選んだアイテムに再構成する。
+description.mekanism_nuclearscience.implosion_reactor_unit	MekaSuitボディアーマーにダークマターを蓄え、電力に変えられるようにする。
+description.mekanism_nuclearscience.implosion_reactor_module	Draconic Evolutionの胴防具にダークマターを蓄え、電力に変えられるようにする。
+## astral_mekanism
+description.astral_mekanism.enchanted_machine	通常の機械の強力版。
+description.astral_mekanism.essential_reaction_chamber	Mekanism風にしたAdvanced AEの反応チャンバー。
+description.astral_mekanism.gas_synthesizer	オスミウム圧縮機用の素材を単独で精製し、全体のクラフト速度を上げる機械。
+description.astral_mekanism.infusing_condensentrator	ガスと注入物を混ぜて液体にする。
+description.astral_mekanism.interstellar_antineutronic_matter_reconstruction_apparatus	Astral Mekanism & Energistics の最終コンテンツ。詳しくはJEIを見てください。
+description.astral_mekanism.item_compressor	アイテムを圧縮できる機械。
+description.astral_mekanism.item_unzipper	圧縮したアイテムを元に戻せる機械。
+description.astral_mekanism.mekanical_composter	Mekanism風のコンポスター。
+description.astral_mekanism.mekanical_matter_condenser	Mekanism風の物質凝縮器。
+description.astral_mekanism.mekanical_magma_block	ただの永久熱源。
+description.astral_mekanism.evenly_inserter	アイテム、液体、化学物質を、対象ブロックの受け入れ可能なすべてのスロットやタンクに均等に入れる。
+description.astral_mekanism.ratio_separator	アイテム、液体、化学物質を設定した割合で分ける。
+description.astral_mekanism.xp_tank	経験値を注入物として保管し、プレイヤーの経験値と注入物の経験値を交換できる。
+description.astral_mekanism.sortable_storage_filter_card	並べ替え可能なアイテムストレージ用のフィルターカード。セル作業台でアイテムを登録する。
+explain.astral_mekanism.assemblicator_bookbutton	この機械に登録したレシピをJEIで表示する。\nJEIの「+」ボタンでレシピを登録できる。
+explain.astral_mekanism.assemblicator_torchbutton	このたいまつが灯っていなければ、この機械にレシピが登録されていない。\nJEIの「+」ボタンでレシピを登録できる。
+upgrade.astral_mekanism.tank_capacity	タンク容量
+upgrade.astral_mekanism.advanced_tank_capacity	高度なタンク容量
+upgrade.astral_mekanism.tank_capacity.description	タンクの容量を増やす
+upgrade.astral_mekanism.advanced_tank_capacity.description	タンクの容量をさらに増やす
+wip.astral_mekanism.wip	[開発中] Astral Mekanism & Energistics
+## sophisticatedinventoryinteractions
+sophisticatedinventoryinteractions.configuration.common	共通
+sophisticatedinventoryinteractions.configuration.client	クライアント
+sophisticatedinventoryinteractions.configuration.defaultPolicy	初期の方針
+sophisticatedinventoryinteractions.configuration.controls	操作
+sophisticatedinventoryinteractions.configuration.search	検索
+sophisticatedinventoryinteractions.configuration.sortBy	並べ替え
+sophisticatedinventoryinteractions.configuration.slotExclusions	除外するスロット
+sophisticatedinventoryinteractions.configuration.layout	配置
+sophisticatedinventoryinteractions.configuration.controls.search.hideAtOrBelowActionableContainerSlots	使えるスロットがX以下なら検索を隠す
+sophisticatedinventoryinteractions.configuration.controls.sortBy.hideAtOrBelowActionableContainerSlots	使えるスロットがX以下なら並べ替えを隠す
+sophisticatedinventoryinteractions.configuration.layout.anchorOffsetOverrides	操作部品の位置のずらし
+sophisticatedinventoryinteractions.configuration.rememberSearchPhrase	検索語を覚える
+sophisticatedinventoryinteractions.configuration.compatibility	互換性
+sophisticatedinventoryinteractions.configuration.defaultScreenPolicy	画面の初期の方針
+sophisticatedinventoryinteractions.configuration.minimumActionableContainerSlots	使えるスロットの最小数
+sophisticatedinventoryinteractions.configuration.exclude.screenClasses	ブロックする画面
+sophisticatedinventoryinteractions.configuration.include.screenClasses	許可する画面
+sophisticatedinventoryinteractions.configuration.slotExclusions.screenSlotOverrides	画面ごとの除外スロット
+sophisticatedinventoryinteractions.configuration.defaultPolicy.deny_by_default	初期は拒否
+sophisticatedinventoryinteractions.configuration.defaultPolicy.allow_by_default	初期は許可

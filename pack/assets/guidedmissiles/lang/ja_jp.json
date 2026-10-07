@@ -1,0 +1,21 @@
+{
+  "itemGroup.guidedmissiles": "Mekanism: Tactical Systems",
+  "block.guidedmissiles.radar": "ミサイルレーダー",
+  "block.guidedmissiles.launcher": "ミサイル発射台",
+  "item.guidedmissiles.radar_tablet": "レーダー指令タブレット",
+  "item.guidedmissiles.missile_tier_1": "誘導ミサイル(ティア1)",
+  "item.guidedmissiles.missile_tier_2": "誘導ミサイル(ティア2)",
+  "item.guidedmissiles.missile_tier_3": "誘導ミサイル(ティア3)",
+  "item.guidedmissiles.missile_tier_4": "誘導ミサイル(ティア4)",
+  "item.guidedmissiles.missile_tier_5": "誘導ミサイル(ティア5)",
+  "item.guidedmissiles.missile_tier_6": "誘導ミサイル(ティア6)",
+  "item.guidedmissiles.missile_tier_7": "誘導ミサイル(ティア7)",
+  "item.guidedmissiles.missile_tier_8": "誘導ミサイル(ティア8)",
+  "item.guidedmissiles.missile_tier_9": "誘導ミサイル(ティア9)",
+  "item.guidedmissiles.missile_hellfire": "ヘルファイアミサイル",
+  "item.guidedmissiles.missile_bunker_buster": "バンカーバスターミサイル",
+  "item.guidedmissiles.missile_cluster": "クラスターミサイル",
+  "item.guidedmissiles.missile_incendiary": "焼夷ミサイル",
+  "item.guidedmissiles.missile_chemical_smoke": "化学煙幕ミサイル",
+  "entity.guidedmissiles.missile": "誘導ミサイル"
+}

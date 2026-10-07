@@ -31,8 +31,16 @@ for f in sorted(Path("extracted").glob("*.json")):
         elif ns == "zeta" and k == "zeta.jei.hint_preamble":
             why = "MOD名の接頭辞のみ"
         elif k.startswith("jukebox_song.") or k.startswith("aether_ii.music.") or k.startswith("subtitle.apothic_enchanting.music_disc.") \
-                or (ns in ("idas", "the_bumblezone") and ".music_disc_" in k and k.endswith(".desc")):
+                or (ns in ("idas", "the_bumblezone", "minecraftdungeons") and "music_disc" in k and k.endswith(".desc")):
             why = "楽曲名(作曲者 - 曲名)"
+        elif ns == "ornatelib" and k.startswith("number.ornatelib."):
+            why = "数の単位の略号(k, M, B…)"
+        elif ns == "mekanism_mobs" and k.startswith("subtitles.") and " " not in v:
+            why = "字幕に内部のサウンドIDがそのまま入っているもの"
+        elif ns == "allienfusiongenerator" and k.startswith("subtitles."):
+            why = "開発用のテスト字幕"
+        elif ns == "autcraft_adventure" and (k.endswith(".author") or k in ("item.autcraft_adventure.dfsdf", "block.autcraft_adventure.gfgdsxfg")):
+            why = "絵画の作者名/開発用の仮アイテム名"
         elif re.fullmatch(r"https?://\S+", v):
             why = "URLのみ"
         elif ns == "aether_ii" and v.startswith("Lorem ipsum"):

@@ -1,0 +1,280 @@
+## qioautocrafter
+block.qioautocrafter.qioautocrafter	QIO自動クラフター
+block.qioautocrafter.bound_frequency	結びつけたQIO周波数: %s
+block.qioautocrafter.current_frequency	現在のQIO周波数: %s
+block.qioautocrafter.upgrade_installed	%s個のアップグレードを取り付けた。
+block.qioautocrafter.no_frequency_bound	この機械にはQIO周波数が結びつけられていない。
+block.qioautocrafter.idle	機械は待機中。
+block.qioautocrafter.access_denied	この機械に結びつけられたQIO周波数へのアクセス権がない。
+block.qioautocrafter.rebind_busy	周波数を結びつけ直す前に、今のジョブを終えるか、取り消すか、消去してください。
+block.qioautocrafter.planning_queued	計画を順番待ちに入れた。
+block.qioautocrafter.planning_started	計画を始めた。
+block.qioautocrafter.planning_progress	まだ計画中。
+block.qioautocrafter.running	クラフト中。
+block.qioautocrafter.waiting_energy	エネルギーがたまるのを待っている。
+block.qioautocrafter.waiting_intermediate	中間素材のクラフトが終わるのを待っている。
+block.qioautocrafter.completed	クラフト完了。
+block.qioautocrafter.plan_failed	機械は計画を作れなかった。
+block.qioautocrafter.job_queued	ジョブを順番待ちに入れた。
+qioautocrafter.machine.search	検索
+qioautocrafter.machine.amount	数量
+qioautocrafter.machine.start	開始
+qioautocrafter.machine.cancel	キャンセル
+qioautocrafter.machine.clear	消去
+qioautocrafter.machine.craftables	クラフトできるもの
+qioautocrafter.machine.selection	選択
+qioautocrafter.machine.recipe	レシピ
+qioautocrafter.machine.queue	順番待ち
+qioautocrafter.machine.status	状態
+qioautocrafter.machine.energy	エネルギー
+qioautocrafter.machine.energy_tooltip	蓄えたエネルギー: %s%%
+qioautocrafter.machine.upgrades	アップグレード S:%s E:%s
+qioautocrafter.machine.recipe_idle	実行中のレシピはない。
+qioautocrafter.machine.recipe_progress	レシピ %s/%s
+qioautocrafter.machine.progress_step	工程
+qioautocrafter.machine.progress_total	合計
+qioautocrafter.machine.recipe_progress_verbose	レシピ %s/%s、進行 %s/%s
+qioautocrafter.machine.progress_global	進行 %s/%s
+qioautocrafter.machine.queue_empty	順番待ちのジョブはない。
+qioautocrafter.machine.queue_more	ほか%s件のジョブ
+qioautocrafter.machine.goal	目標: %s x%s
+qioautocrafter.machine.goal_selected	選択中: %s
+qioautocrafter.machine.current_subtask	サブタスク: %s x%s
+qioautocrafter.machine.current_recipe	レシピ: %s
+qioautocrafter.machine.current_job	作業中: %s x%s
+qioautocrafter.machine.current_compact	現在: %s x%s
+qioautocrafter.machine.current_recipe_compact	レシピ: %s
+qioautocrafter.machine.queue_intermediate	中間: %s x%s%s
+qioautocrafter.machine.state_idle_short	待機中
+qioautocrafter.machine.state_planning_short	計画中…
+qioautocrafter.machine.state_running_short	クラフト中…
+qioautocrafter.machine.state_waiting_energy_short	電力不足
+qioautocrafter.machine.state_waiting_intermediate_short	中間クラフト待ち
+qioautocrafter.machine.state_completed_short	完了
+qioautocrafter.machine.state_failed_short	停止中
+qioautocrafter.overlay.open	自動クラフター
+qioautocrafter.overlay.close	閉じる
+qioautocrafter.overlay.request	依頼
+qioautocrafter.overlay.preview	プレビュー
+qioautocrafter.overlay.refresh	更新
+qioautocrafter.overlay.search	絞り込み
+qioautocrafter.overlay.amount	数量
+qioautocrafter.overlay.jobs	ジョブ
+qioautocrafter.overlay.clear_jobs	消去
+qioautocrafter.overlay.plan	計画
+qioautocrafter.overlay.missing	不足
+qioautocrafter.overlay.craftables	クラフトできるもの
+qioautocrafter.overlay.selected	選択中
+qioautocrafter.overlay.status	状態
+qioautocrafter.overlay.stale	古い
+qioautocrafter.overlay.subtitle	QIOの再帰クラフト計画ツール
+qioautocrafter.overlay.ready	準備完了
+qioautocrafter.overlay.ready_preview	プレビューの準備完了
+qioautocrafter.overlay.waiting	選択待ち
+qioautocrafter.overlay.no_selection	クラフトできる完成品を選んでください
+qioautocrafter.overlay.empty_results	今の絞り込みに一致するクラフトできる完成品がない。
+qioautocrafter.overlay.empty_jobs	この周波数で順番待ちのジョブはない。
+qioautocrafter.overlay.preview_hint	アイテムを選ぶとクラフトの計画を作る
+qioautocrafter.overlay.preview_stale_hint	前のプレビューは古くなっている。このQIOの状態で新しい計画を作ってください。
+qioautocrafter.overlay.preview_stale_status	保存したプレビューは今のQIOの状態では古くなっている。
+qioautocrafter.overlay.preview_refresh_status	プレビューを押すと計画を作り直す。
+qioautocrafter.overlay.preview_ok	OK: クラフト%s工程
+qioautocrafter.overlay.eta	完了予定 %s
+qioautocrafter.missing.title	不足している素材
+qioautocrafter.missing.summary.count	項目数: %s
+qioautocrafter.missing.summary.total	不足している合計数: %s
+qioautocrafter.missing.clear	リストを消去
+qioautocrafter.missing.empty	不足している素材はない。
+qioautocrafter.missing.available	QIOにある数: %s
+qioautocrafter.machine.missing_count	不足 (%s)
+qioautocrafter.machine.missing_summary	不足: %s種類、%s個
+qioautocrafter.overlay.job_phase_planning	計画
+qioautocrafter.overlay.job_phase_executing	実行
+qioautocrafter.message.no_qio_context	有効なQIOダッシュボードの状態が見つからなかった。
+qioautocrafter.message.no_qio_frequency	今使えるQIO周波数がない。
+qioautocrafter.message.invalid_amount	依頼する数量は0より大きくする必要がある。
+qioautocrafter.message.unable_to_plan	依頼したアイテムの有効なクラフトの流れを決められない。
+qioautocrafter.message.no_valid_recipe	依頼した完成品の有効なクラフトレシピがない。
+qioautocrafter.message.no_resolvable_variant	レシピのタグ/選択肢から有効な材料を決められなかった。
+qioautocrafter.message.missing_materials	依頼したクラフトには、QIOに実際の基本素材が足りない。
+qioautocrafter.message.recipe_cycle	レシピの循環が見つかった。
+qioautocrafter.message.planner_over_budget	サーバーのティックが長くならないよう計画を中止した。タグの候補を絞るか、先に簡単な中間素材を順番待ちに入れてください。
+qioautocrafter.message.planner_retry_limit	このクラフトのツリーでやり直しが多すぎたため計画を止めた。先に簡単な中間素材を順番待ちに入れてください。
+qioautocrafter.message.decomposition_loop_detected	同じ中間素材が進展なしに何度も分解されたため計画を止めた。
+qioautocrafter.message.unsupported_preview_chain	依頼したプレビューは、クラフト以外か対応していない中間の流れに依存している。
+qioautocrafter.message.execution_failed	順番待ちのジョブを安全に実行できなかった。
+qioautocrafter.message.planning_manager_unavailable	計画サービスは今使えない。
+qioautocrafter.message.planning_task_submit_failed	計画の順番待ちがいっぱい。少ししてからもう一度試してください。
+qioautocrafter.message.planning_task_exception	計画が予期せず失敗した。サーバーログを確認してください。
+qioautocrafter.message.queue_full	機械の順番待ちがいっぱい。
+qioautocrafter.message.duplicate_job	同じジョブがすでに順番待ちにある。
+qioautocrafter.message.job_replanned_qio_changed	QIOが変わったため停止した。新しいインベントリの状態でジョブを計画し直す必要がある。
+qioautocrafter.message.job_cancelled	順番待ちの自動クラフトのジョブを取り消した。
+qioautocrafter.message.job_completed	順番待ちの自動クラフトのジョブが完了した。
+qioautocrafter.message.preview_pending	複数のサーバーティックにわたってプレビューを計画中…
+qioautocrafter.message.job_planning	複数のサーバーティックにわたって計画中。
+qioautocrafter.message.job_executing	計画したクラフトの工程を順に実行中。
+qioautocrafter.job.state.queued	順番待ち
+qioautocrafter.job.state.planned	計画済み
+qioautocrafter.job.state.blocked	停止中
+qioautocrafter.job.state.running	実行中
+qioautocrafter.job.state.completed	完了
+qioautocrafter.job.state.failed	失敗
+qioautocrafter.job.state.cancelled	取り消し
+qioautocrafter.toast.job_completed	QIO自動クラフター: 完了
+qioautocrafter.toast.job_blocked	QIO自動クラフター: 停止
+qioautocrafter.toast.job_failed	QIO自動クラフター: 失敗
+qioautocrafter.toast.job_cancelled	QIO自動クラフター: 取り消し
+qioautocrafter.toast.job_update	QIO自動クラフター
+qioautocrafter.toast.missing_material	不足: %s x%s
+## voltaic
+advancement.voltaic.multimeter.desc	マルチメーターを作る！
+advancement.voltaic.multimeter.title	マルチメーター測定
+chat.voltaic.guidebookclick	ここをクリック
+container.guidebook	ガイドブック
+creativetab.voltaic.main	Voltaic
+dimension.voltaic.overworld	オーバーワールド
+dimension.voltaic.the_end	ジ・エンド
+dimension.voltaic.the_nether	ネザー
+gas.voltaic.empty	空
+gui.voltaic.displayunit.ampere.name	アンペア
+gui.voltaic.displayunit.ampere.nameplural	アンペア
+gui.voltaic.displayunit.amphour.name	アンペア時
+gui.voltaic.displayunit.amphour.nameplural	アンペア時
+gui.voltaic.displayunit.amphour.symbol	Ah
+gui.voltaic.displayunit.buckets.name	バケツ
+gui.voltaic.displayunit.buckets.nameplural	バケツ
+gui.voltaic.displayunit.conductance.name	ジーメンス
+gui.voltaic.displayunit.conductance.nameplural	ジーメンス
+gui.voltaic.displayunit.forgeenergyunit.name	Forge Energy単位
+gui.voltaic.displayunit.forgeenergyunit.nameplural	Forge Energy単位
+gui.voltaic.displayunit.forgeenergyunit.symbol	FE
+gui.voltaic.displayunit.infinity.name	無限
+gui.voltaic.displayunit.joules.name	ジュール
+gui.voltaic.displayunit.joules.nameplural	ジュール
+gui.voltaic.displayunit.percentage.name	パーセント
+gui.voltaic.displayunit.percentage.nameplural	パーセント
+gui.voltaic.displayunit.pressureatm.name	気圧
+gui.voltaic.displayunit.pressureatm.nameplural	気圧
+gui.voltaic.displayunit.pressureatm.symbol	ATM
+gui.voltaic.displayunit.radname	ラド
+gui.voltaic.displayunit.radnameplural	ラド
+gui.voltaic.displayunit.radsymbol	Rad
+gui.voltaic.displayunit.resistance.name	オーム
+gui.voltaic.displayunit.resistance.nameplural	オーム
+gui.voltaic.displayunit.tempcelcius.name	摂氏
+gui.voltaic.displayunit.tempcelcius.nameplural	摂氏
+gui.voltaic.displayunit.tempfahrenheit.name	華氏
+gui.voltaic.displayunit.tempfahrenheit.nameplural	華氏
+gui.voltaic.displayunit.tempkelvin.name	ケルビン
+gui.voltaic.displayunit.tempkelvin.nameplural	ケルビン
+gui.voltaic.displayunit.timeseconds.name	秒
+gui.voltaic.displayunit.timeseconds.nameplural	秒
+gui.voltaic.displayunit.timeticks.name	ティック
+gui.voltaic.displayunit.timeticks.nameplural	ティック
+gui.voltaic.displayunit.voltage.name	ボルト
+gui.voltaic.displayunit.voltage.nameplural	ボルト
+gui.voltaic.displayunit.watt.name	ワット
+gui.voltaic.displayunit.watt.nameplural	ワット
+gui.voltaic.displayunit.watthour.name	ワット時
+gui.voltaic.displayunit.watthour.nameplural	ワット時
+gui.voltaic.displayunit.watthour.symbol	Wh
+gui.voltaic.machine.current	電流: %s
+gui.voltaic.machine.heat	熱: %s
+gui.voltaic.machine.output	出力: %s
+gui.voltaic.machine.satisfaction	充足率: %s
+gui.voltaic.machine.stored	蓄積: %s
+gui.voltaic.machine.temperature	温度: %s
+gui.voltaic.machine.transfer	転送: %s
+gui.voltaic.machine.usage	消費: %s
+gui.voltaic.machine.voltage	電圧: %s
+gui.voltaic.measurementunit.giga.name	ギガ
+gui.voltaic.measurementunit.kilo.name	キロ
+gui.voltaic.measurementunit.mega.name	メガ
+gui.voltaic.measurementunit.micro.name	マイクロ
+gui.voltaic.measurementunit.milli.name	ミリ
+gui.voltaic.measurementunit.nano.name	ナノ
+gui.voltaic.measurementunit.pico.name	ピコ
+guidebook.voltaic.availablemodules	使えるモジュール
+guidebook.voltaic.casesensitive	大文字と小文字を区別
+guidebook.voltaic.chapters	章
+guidebook.voltaic.searchparameters	条件
+guidebook.voltaic.selectall	すべて
+guidebook.voltaic.selectnone	なし
+guidebook.voltaic.title	Voltaic電気規約 第1版
+guidebook.voltaic.titlequote	「一時しのぎほど長続きするものはない。」
+item.voltaic.guidebook	VEC 第1版
+item.voltaic.upgradeadvancedcapacity	容量アップグレード＋
+item.voltaic.upgradeadvancedspeed	速度アップグレード＋
+item.voltaic.upgradebasiccapacity	容量アップグレード
+item.voltaic.upgradebasicspeed	速度アップグレード
+item.voltaic.upgradeexperience	経験値アップグレード
+item.voltaic.upgradeimprovedsolarcell	ソーラーセルアップグレード
+item.voltaic.upgradeiteminput	自動搬入アップグレード
+item.voltaic.upgradeitemoutput	自動搬出アップグレード
+item.voltaic.upgradestator	ステータアップグレード
+item.voltaic.upgradeunbreaking	耐久力アップグレード
+subtitles.voltaic.batteryswap	電池が交換される
+subtitles.voltaic.pressurerelease	ガスがシューッと鳴る
+tooltip.voltaic.currbattery	電池: %s
+tooltip.voltaic.currentgas	ガス: %s
+tooltip.voltaic.gasamount	量: %1$s / %2$s
+tooltip.voltaic.gaspressure	圧力: %s
+tooltip.voltaic.gastemperature	温度: %s
+tooltip.voltaic.guidebookjeirecipe	「R」でレシピ
+tooltip.voltaic.guidebookjeiuse	「U」で使い道
+tooltip.voltaic.guidebookname	またの名をガイドブック
+tooltip.voltaic.info.broken	動いていない
+tooltip.voltaic.info.cleardirs	Shift+左クリックで方向を消去
+tooltip.voltaic.info.dirlist	現在の方向:
+tooltip.voltaic.info.guidebooktemp	本は近日公開
+tooltip.voltaic.info.guidebookuse	Shift+右クリックでWikiを開く
+tooltip.voltaic.info.insmartmode	スマートモード
+tooltip.voltaic.info.iteminputupgrade	隣のインベントリからアイテムを搬入する
+tooltip.voltaic.info.itemoutputupgrade	隣のインベントリにアイテムを搬出する
+tooltip.voltaic.info.nodirs	Shift+右クリックで方向を追加
+tooltip.voltaic.info.range	半径を1広げる
+tooltip.voltaic.info.togglesmart	右クリックでスマートモードを切り替え。
+tooltip.voltaic.info.upgradecapacity	容量: %s
+tooltip.voltaic.info.upgradeenergytransfer	エネルギー転送: %s
+tooltip.voltaic.info.upgradeenergyusage	消費: %s
+tooltip.voltaic.info.upgradespeed	速度: %s
+tooltip.voltaic.info.upgradevoltage	電圧: %s
+tooltip.voltaic.info.xpstored	蓄えた経験値: %s
+tooltip.voltaic.info.xpusage	Shift+右クリックで放出
+tooltip.voltaic.inventoryio	インベントリの入出力
+tooltip.voltaic.inventoryio.back	後
+tooltip.voltaic.inventoryio.bottom	下
+tooltip.voltaic.inventoryio.front	前
+tooltip.voltaic.inventoryio.left	左
+tooltip.voltaic.inventoryio.presstohide	押すと隠す
+tooltip.voltaic.inventoryio.presstoshow	押すと表示
+tooltip.voltaic.inventoryio.right	右
+tooltip.voltaic.inventoryio.slotmap	スロットの配置
+tooltip.voltaic.inventoryio.top	上
+tooltip.voltaic.item.electric.info	蓄積: %s
+tooltip.voltaic.item.electric.voltage	電圧: %s
+tooltip.voltaic.machine.voltage	電圧: %s
+tooltip.voltaic.maxpressure	最大圧力: %s
+tooltip.voltaic.maxtemperature	最高温度: %s
+tooltip.voltaic.radiationshieldingblocked	遮った放射線: %s
+tooltip.voltaic.radiationshieldinglevel	遮蔽レベル: %s
+tooltip.voltaic.scannerpattern	ソナーのパターン
+tooltip.voltaic.tankmaxin	入力 %1$s : %2$s
+tooltip.voltaic.tankmaxout	出力 %1$s : %2$s
+tooltip.voltaic.transformer.energyloss	効率: %s
+tooltip.voltaic.upgrade.advancedcapacity	容量＋
+tooltip.voltaic.upgrade.advancedspeed	速度＋
+tooltip.voltaic.upgrade.basiccapacity	容量
+tooltip.voltaic.upgrade.basicspeed	速度
+tooltip.voltaic.upgrade.experience	経験値
+tooltip.voltaic.upgrade.fortune	幸運
+tooltip.voltaic.upgrade.improvedsolarcell	改良ソーラーセル
+tooltip.voltaic.upgrade.iteminput	自動搬入
+tooltip.voltaic.upgrade.itemoutput	自動搬出
+tooltip.voltaic.upgrade.itemvoid	アイテム消去
+tooltip.voltaic.upgrade.range	範囲
+tooltip.voltaic.upgrade.silktouch	シルクタッチ
+tooltip.voltaic.upgrade.stator	改良ステータ
+tooltip.voltaic.upgrade.unbreaking	耐久力
+tooltip.voltaic.validupgrades	使えるアップグレード:

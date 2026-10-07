@@ -1,0 +1,5 @@
+{
+  "config.jade.plugin_uti": "未翻訳のアイテム",
+  "config.jade.plugin_uti.block_name": "ブロックのサブ言語",
+  "config.jade.plugin_uti.entity_name": "エンティティのサブ言語"
+}

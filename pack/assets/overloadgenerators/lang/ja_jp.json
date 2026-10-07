@@ -1,0 +1,4 @@
+{
+  "gui.overloadgenerators.generic_milliseconds": "%1$s ms",
+  "gui.overloadgenerators.generic_nanoseconds": "%1$s ns"
+}

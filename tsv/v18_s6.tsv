@@ -1,0 +1,347 @@
+## overmek
+item.overmek.blank_circuit_substrate	空の回路基材
+item.overmek.basic_circuit_matrix	基本回路マトリックス
+item.overmek.advanced_circuit_matrix	発展回路マトリックス
+item.overmek.elite_circuit_matrix	精鋭回路マトリックス
+item.overmek.ultimate_circuit_matrix	究極回路マトリックス
+item.overmek.basic_circuit_board	基本回路基板
+item.overmek.advanced_circuit_board	発展回路基板
+item.overmek.elite_circuit_board	精鋭回路基板
+item.overmek.ultimate_circuit_board	究極回路基板
+item.overmek.fission_reactor_circuit_board	核分裂炉の回路基板
+item.overmek.power_multiblock_circuit_board	発電マルチブロックの回路基板
+item.overmek.evaporation_tower_circuit_board	蒸発塔の回路基板
+item.overmek.sps_circuit_board	SPSの回路基板
+itemGroup.overmek	OverMek
+tooltip.overmek.overclock_count	基本のオーバークロック数: %s
+tooltip.overmek.base_speed_multiplier	単体機械の速度: x%s
+tooltip.overmek.energy_usage_profile	単体機械のエネルギー消費: x%s/t
+tooltip.overmek.energy_capacity_profile	機械のエネルギー容量: x%s
+tooltip.overmek.factory_speed_profile	ファクトリーの処理量: x%s
+tooltip.overmek.warmup_profile	ウォームアップ: 最大出力まで%s t
+tooltip.overmek.fission_efficiency_profile	核分裂の冷却効率: x%s
+tooltip.overmek.fission_stability_profile	核分裂の熱安定性: x%s
+tooltip.overmek.power_generation_profile	原子炉/タービンの出力: x%s
+tooltip.overmek.power_fuel_profile	原子炉/タービンの燃料消費: x%s
+tooltip.overmek.multiblock_buffer_profile	マルチブロックのバッファ: x%s
+tooltip.overmek.matrix_capacity_profile	マトリックスの保管容量: x%s
+tooltip.overmek.matrix_transfer_profile	マトリックスの転送速度: x%s
+tooltip.overmek.evaporation_throughput_profile	蒸発の処理量: x%s
+tooltip.overmek.sps_throughput_profile	SPSの処理量: x%s
+tooltip.overmek.sps_stability_profile	SPSの安定性: x%s
+tooltip.overmek.sps_pressure_profile	SPSの圧力: x%s
+tooltip.overmek.sps_energy_profile	SPSのエネルギー消費: x%s
+tooltip.overmek.board_role_basic	役割: 序盤の設備をゆるやかに速くする
+tooltip.overmek.board_role_advanced	役割: 処理量を大きく引き上げる
+tooltip.overmek.board_role_elite	役割: エネルギーの負担を抑えつつ高速に処理する
+tooltip.overmek.board_role_ultimate	役割: ファクトリー向けの終盤の加速
+tooltip.overmek.board_role_fission	役割: 核分裂炉を安定させる終盤専用の基板
+tooltip.overmek.board_role_power_multiblock	役割: 核融合、タービン、インダクションマトリックス向けの終盤の基板
+tooltip.overmek.board_role_evaporation	役割: 加温蒸発濃縮塔向けの終盤の処理量の基板
+tooltip.overmek.board_role_sps	役割: 超臨界相変換機向けの専用制御基板
+tooltip.overmek.board_effect_basic	効果: 速度がだんだん上がり、低めの安定した上限で落ち着く
+tooltip.overmek.board_effect_advanced	効果: ウォームアップが必要だが、ずっと高い速度の上限に届く
+tooltip.overmek.board_effect_elite	効果: ウォームアップの立ち上がりはそのままで、エネルギーの負担をかなり和らげる
+tooltip.overmek.board_effect_ultimate	効果: ウォームアップ後に効率が上がり、ファクトリーの処理量も増える
+tooltip.overmek.board_effect_fission	効果: 燃焼速度を上げずに、冷却効率、安定性、原子炉側のバッファを高める
+tooltip.overmek.board_effect_power_multiblock	効果: バッファを大きくし処理量を強めて、核融合、タービン、マトリックスをさらに強く動かす
+tooltip.overmek.board_effect_evaporation	効果: 塔の処理を強め、液体のバッファを広げ、ウォームアップ後に加速する
+tooltip.overmek.board_effect_sps	効果: 圧力を加えてSPSの処理量を上げ、追加のバッファで高負荷時の動作をなめらかにする
+tooltip.overmek.circuit_board_slot	ここに回路基板を取り付ける
+tooltip.overmek.no_circuit_board	回路基板が取り付けられていない
+tooltip.overmek.machine_disabled	設定により、この機械では回路基板が無効になっている
+tooltip.overmek.board_incompatible	この回路基板は現在の機械に合わない
+tooltip.overmek.current_speed_multiplier	現在の速度: x%s
+tooltip.overmek.current_overclock_bonus	現在のオーバークロックボーナス: +%s
+tooltip.overmek.current_energy_multiplier	現在のエネルギー消費: x%s/t
+tooltip.overmek.current_generation_multiplier	現在の発電量: x%s
+tooltip.overmek.current_cooling_multiplier	現在の冷却効率: x%s
+tooltip.overmek.current_stability_multiplier	現在の熱安定性: x%s
+tooltip.overmek.current_throughput_multiplier	現在の処理量: x%s
+tooltip.overmek.current_fuel_multiplier	現在の燃料消費: x%s
+tooltip.overmek.current_capacity_multiplier	現在のバッファ容量: x%s
+tooltip.overmek.current_matrix_capacity_multiplier	現在のマトリックス容量: x%s
+tooltip.overmek.current_matrix_transfer_multiplier	現在のマトリックス転送: x%s
+tooltip.overmek.current_pressure_multiplier	現在の圧力: x%s
+tooltip.overmek.current_warmup	現在のウォームアップ: %s%%
+tooltip.overmek.current_ticks_required	現在の処理時間: %s t
+## bfr
+block.bfr.fusion_reactor_controller	核融合炉の制御装置
+block.bfr.fusion_reactor_frame	核融合炉のフレーム
+block.bfr.fusion_reactor_port	核融合炉のポート
+block.bfr.irradiated_copper_ore	照射された銅鉱石
+block.bfr.irradiated_gold_ore	照射された金鉱石
+block.bfr.irradiated_iron_ore	照射された鉄鉱石
+block.bfr.irradiated_lead_ore	照射された鉛鉱石
+block.bfr.irradiated_osmium_ore	照射されたオスミウム鉱石
+block.bfr.irradiated_tin_ore	照射されたスズ鉱石
+block.bfr.irradiated_uranium_ore	照射されたウラン鉱石
+block.bfr.redstone_capacitor	レッドストーンコンデンサー
+container.bfr.fusion_reactor_controller	核融合炉の制御装置
+container.bfr.fusion_reactor_logic_adapter	核融合炉のロジックアダプター
+container.bfr.irradiator	照射機
+description.bfr.irradiator	高エネルギー粒子と放射線でアイテムを変化させる
+description.bfr.reactor.logic.efficiency	100% = レッドストーン信号の強さ最大(15ブロック)。1ブロック 約7%
+description.bfr.reactor.logic.error_level	100% = レッドストーン信号の強さ最大(15ブロック)。1ブロック 約7%
+description.bfr.reactor.logic.injection_down	強さに関係なくレッドストーンのパルスを入力
+description.bfr.reactor.logic.injection_up	強さに関係なくレッドストーンのパルスを入力
+description.bfr.reactor.logic.reactivity_down	レッドストーンのパルスの強さ(1-15)だけCRを下げる
+description.bfr.reactor.logic.reactivity_up	レッドストーンのパルスの強さ(1-15)だけCRを上げる
+irradiator.bfr.flux	放射束: %1$s
+irradiator.bfr.has_source	放射線源: OK
+irradiator.bfr.no_source	放射線源: 見つからない
+irradiator.bfr.source_guide	照射機を原子炉のポートの隣に置く
+item.bfr.solidified_waste	固化した核廃棄物
+reactor.bfr.efficiency.cr	CR
+reactor.bfr.efficiency.current_reactivity	現在の反応度: %1$s
+reactor.bfr.efficiency.ef	EF
+reactor.bfr.efficiency.efficiency	効率: %1$s
+reactor.bfr.efficiency.er	ER
+reactor.bfr.efficiency.error_level	誤差レベル: %1$s
+reactor.bfr.efficiency.heat_multiplier	熱倍率: %1$s
+reactor.bfr.efficiency.laser_min_energy	レーザーパルスの最小エネルギー: %1$s
+reactor.bfr.efficiency.laser_min_energy_descr	Hmの悪影響を避ける(1分)
+reactor.bfr.efficiency.laser_ready_button	レーザーパルスの準備完了
+reactor.bfr.efficiency.target_reactivity	目標の反応度: %1$s
+reactor.bfr.efficiency.tr	TR
+reactor.bfr.efficiency_bad	反応の効率が悪い
+reactor.bfr.efficiency_good	反応の効率が良い
+reactor.bfr.efficiency_tab	効率
+reactor.bfr.logic.efficiency	効率
+reactor.bfr.logic.error_level	誤差レベル
+reactor.bfr.logic.injection_down	注入速度 -2
+reactor.bfr.logic.injection_up	注入速度 +2
+reactor.bfr.logic.reactivity_down	反応度 -
+reactor.bfr.logic.reactivity_up	反応度 +
+reactor.bfr.logic_general_tab	一般
+reactor.bfr.logic_help1	自動化に使うロジックポート
+reactor.bfr.logic_help2	出力信号の強さは値を15で割ったもの
+reactor.bfr.logic_help3	CRの調整には入力信号の強さの値を使う
+reactor.bfr.logic_help4	正確に自動化するにはコンピューターを使う
+reactor.bfr.logic_in_tab	入力信号
+reactor.bfr.logic_out_tab	出力信号
+reactor.bfr.might_explode	原子炉が爆発するかもしれない！
+reactor.bfr.might_turnoff	原子炉が止まるかもしれない！
+reactor.bfr.reactor_help1	EFを50%より高く保つため、
+reactor.bfr.reactor_help3	ロジックアダプターでこの作業を自動化する
+reactor.bfr.reactor_help4	CRが低すぎると原子炉はチャンネル6で、高すぎるとチャンネル15で振動する
+reactor.bfr.reactor_help_heat_multiplier1	HmはTRの変わる頻度に影響する
+reactor.bfr.reactor_help_heat_multiplier2	プラズマの温度で決まる
+reactor.bfr.reactor_help_heat_multiplier3	条件によってはHmが0になる
+reactor.bfr.reactor_helps2	CRをできるだけTRに近づけて調整する。
+reactor.bfr.stats.active	液冷
+tootip.bfr.redstone_capacitor	入力されたレッドストーン信号を蓄え、ブロックの前に出力する
+## stagecoach
+block.stagecoach.stagecoach_part	駅馬車
+block.stagecoach.oak_stagecoach	オークの駅馬車
+block.stagecoach.spruce_stagecoach	トウヒの駅馬車
+block.stagecoach.birch_stagecoach	シラカバの駅馬車
+block.stagecoach.jungle_stagecoach	ジャングルの駅馬車
+block.stagecoach.acacia_stagecoach	アカシアの駅馬車
+block.stagecoach.dark_oak_stagecoach	ダークオークの駅馬車
+block.stagecoach.mangrove_stagecoach	マングローブの駅馬車
+block.stagecoach.cherry_stagecoach	サクラの駅馬車
+block.stagecoach.bamboo_stagecoach	竹の駅馬車
+block.stagecoach.crimson_stagecoach	真紅の駅馬車
+block.stagecoach.warped_stagecoach	歪んだ駅馬車
+stagecoach.screen.name.title	この駅馬車に名前を付ける
+stagecoach.screen.rename.title	駅馬車の名前を変える
+stagecoach.screen.name.hint	%s文字まで
+stagecoach.screen.confirm	決定
+stagecoach.screen.cancel	キャンセル
+stagecoach.screen.close	閉じる
+stagecoach.screen.travel	出発
+stagecoach.screen.search	名前で検索
+stagecoach.screen.empty	ほかの駅馬車はまだない。
+stagecoach.screen.empty.hint	旅の途中で見つけた駅馬車を右クリックすると、この一覧に追加される。
+stagecoach.screen.no_match	その名前の駅馬車はない。
+stagecoach.screen.free	無料
+stagecoach.screen.levels	%sレベル
+stagecoach.screen.travelling	%sへ移動中
+stagecoach.screen.remaining	残り%s
+stagecoach.screen.cancel_journey	旅をやめる
+stagecoach.screen.abandon.title	旅をやめる？
+stagecoach.screen.abandon.message	出発した駅馬車で降ろされ、レベルは返される。
+stagecoach.screen.abandon.yes	やめる
+stagecoach.screen.abandon.no	旅を続ける
+stagecoach.tooltip.distance	%sブロック先
+stagecoach.tooltip.yours	自分の駅馬車
+stagecoach.tooltip.discovered	発見済み
+stagecoach.tooltip.no_xp	%sレベル必要 - 足りない
+stagecoach.tooltip.other_dimension	別のディメンション(%s)にある
+stagecoach.tooltip.rename	この駅馬車の名前を変える
+stagecoach.discovered	駅馬車を発見した: %s
+stagecoach.arrived	%sに到着した
+stagecoach.renamed	駅馬車の名前を%sに変えた
+stagecoach.error.not_owner	この駅馬車の名前を変えられるのは所有者だけ。
+stagecoach.error.not_owner_break	この駅馬車を撤去できるのは所有者だけ。
+stagecoach.error.bad_name	名前は1～%s文字にする必要がある。
+stagecoach.error.other_dimension	駅馬車はディメンションをまたいで走らない。
+stagecoach.error.combat	ついさっき攻撃された - 馬車は%s秒後に出発する。
+stagecoach.error.no_xp	この旅には%sレベルかかる。
+stagecoach.end.cancelled	%sへの旅をやめた。レベルは返された。
+stagecoach.end.destination_gone	%sの駅馬車がなくなった。旅は取り消され、レベルは返された。
+stagecoach.end.game_mode_changed	ゲームモードが変わったため、%sへの旅は中止された。レベルは返された。
+stagecoach.end.died	%sへの道中で死んでしまった。レベルは返された。
+stagecoach.end.recovered	サーバーが止まったため%sへの旅が中断された。出発した場所に戻り、レベルは返された。
+itemGroup.stagecoach.stagecoaches	駅馬車
+tooltip.stagecoach.place	置くと道路網に停留所が加わる。
+tooltip.stagecoach.travel	停留所を右クリックすると移動できる。旅には経験値レベルがかかる。
+stagecoach.place.build_limit	ワールドの端にこれほど近いと駅馬車が収まらない。
+stagecoach.place.blocked	駅馬車を置く場所が足りない: %sが邪魔になっている。
+stagecoach.place.entity	駅馬車を置く場所が足りない: %sが邪魔になっている。
+stagecoach.place.protected	駅馬車の一部が、建築できない土地にかかってしまう。
+stagecoach.jade.owner	所有者: %s
+stagecoach.jade.yours	自分の駅馬車
+stagecoach.jade.undiscovered	未発見 - 右クリックで追加
+config.jade.plugin_stagecoach.coach	駅馬車の名前と所有者
+stagecoach.jei.info.what	駅馬車は道路網の停留所。知っている停留所どうしの間を移動できる(初期設定では同じディメンション内のみ)。
+stagecoach.jei.info.place	幅3、高さ3、長さ6の空きが必要で、自分と反対の向きに置かれる。手に持って地面を狙うと置かれる場所が表示される: 緑なら置け、赤なら置けない。置くときに名前を付ける。
+stagecoach.jei.info.discover	ほかの人の駅馬車を右クリックすると発見できる。知っている駅馬車を右クリックすると行き先の一覧が開く。
+stagecoach.jei.info.travel	旅には経験値レベルがかかり(遠いほど多く、上限あり)、時間もかかる: 着くまで安全に道を進む。いつでもやめるとレベルが戻る。攻撃された直後は出発できない。
+stagecoach.jei.info.break	初期設定では、駅馬車を撤去できるのは所有者(かオペレーター)だけで、爆発でも壊れない。
+stagecoach.place.another	別の駅馬車
+## warriorsofpastepoch
+effect.warriorsofpastepoch.contagious_touch_bacterial_splash	感染の手: 細菌の飛沫
+effect.warriorsofpastepoch.disease_resistance	§a病気耐性
+gamerule.skeletonMusketeerSpawn	スケルトン銃士のスポーン
+item.warriorsofpastepoch.scavenger_rat_spawn_egg	あさりネズミのスポーンエッグ
+effect.warriorsofpastepoch.contagious_touch_morbidity	感染の手: 病状
+effect.warriorsofpastepoch.second_hit	二撃目
+effect.warriorsofpastepoch.plague_pestilence	疫病: 悪疫
+effect.warriorsofpastepoch.rough_wound	ひどい傷
+item.warriorsofpastepoch.ammo_bag	弾薬袋
+death.attack.black_death.item	%1$sは%3$sを使った%2$sに殺された
+death.attack.decay.player	%1$sは%2$sから逃れようとして死んだ
+item.warriorsofpastepoch.musketeer_rapier	§b銃士のレイピア
+item.warriorsofpastepoch.forgotten_steel_nugget	忘れられた鋼の塊
+block.warriorsofpastepoch.cistus	シスタス
+item.warriorsofpastepoch.plague_doctor_armor_boots	§bペスト医師のブーツ
+effect.warriorsofpastepoch.plague_bacterial_splash	疫病: 細菌の飛沫
+effect.warriorsofpastepoch.plague_black_death	疫病: 黒死病
+effect.warriorsofpastepoch.plague_decay	疫病: 腐敗
+entity.warriorsofpastepoch.scavenger_rat	あさりネズミ
+effect.warriorsofpastepoch.contagious_touch_black_death	感染の手: 黒死病
+item.warriorsofpastepoch.crystal_blood	§c結晶の血
+block.warriorsofpastepoch.depositof_forgotten_steel	忘れられた鋼の鉱床
+effect.warriorsofpastepoch.first_hit	一撃目
+gamerule.skeletonMusketeerSpawn.description	スケルトン銃士のスポーン
+item.warriorsofpastepoch.surgical_saw	§b手術用のこぎり
+item.warriorsofpastepoch.bayonet_knife	§b銃剣
+item.warriorsofpastepoch.plague_serum_pestilence	§b疫病の血清: 悪疫
+entity.warriorsofpastepoch.skeleton_musketeer	スケルトン銃士
+effect.warriorsofpastepoch.aura_rat_power	§6オーラ: ネズミの力
+item.warriorsofpastepoch.muketers_armor_helmet	§b銃士の帽子
+item_group.warriorsofpastepoch.warriorsof_past_epoch	Warriors of Past Epoch
+item.warriorsofpastepoch.moldy_cheese	カビたチーズ
+death.attack.bacterial_splash	%1$sは病気で吹き飛ばされた
+death.attack.decay	%1$sは生きたまま腐った
+jei.warriorsofpastepoch.moldy_cheese_info	一部の構造物で見つかる
+item.warriorsofpastepoch.anti_plague_serum	§a抗疫病血清
+jei.warriorsofpastepoch.batwing_info	コウモリを倒すと落とす
+item.warriorsofpastepoch.plague_doctor_armor_helmet	§bペスト医師の仮面
+death.attack.bacterial_splash.item	%1$sは%3$sを使った%2$sに殺された
+item.warriorsofpastepoch.plague_serum_decay	§b疫病の血清: 腐敗
+effect.warriorsofpastepoch.piercing_strike	貫通の一撃
+item.warriorsofpastepoch.forgotten_steel_ingot	忘れられた鋼のインゴット
+item.warriorsofpastepoch.stale_cheese_sandwich	古くなったチーズサンド
+item.warriorsofpastepoch.plague_doctor_armor_leggings	§bペスト医師のズボン
+effect.warriorsofpastepoch.contagious_touch_decay	感染の手: 腐敗
+item.warriorsofpastepoch.plague_doctor_armor_chestplate	§bペスト医師の外套
+item.warriorsofpastepoch.morbidity_concentrate	§b病状の濃縮液
+death.attack.decay.item	%1$sは%3$sを使った%2$sに殺された
+item.warriorsofpastepoch.sterile_tissue	無菌の組織
+death.attack.black_death	%1$sは死んだ
+effect.warriorsofpastepoch.morbidity	病状
+death.attack.black_death.player	%1$sは%2$sから逃れようとして死んだ
+item.warriorsofpastepoch.plague_serum_bacterial_splash	§b疫病の血清: 細菌の飛沫
+item.warriorsofpastepoch.muketers_armor_boots	§b銃士のブーツ
+gui.warriorsofpastepoch.ammo_bag_interface.label_ammo_bag	弾薬袋
+jei.warriorsofpastepoch.cistus_info	平原、草原、森に生える
+item.warriorsofpastepoch.plague_serum_black_death	§b疫病の血清: 黒死病
+item.warriorsofpastepoch.rat_carcass	ネズミの死骸
+item.warriorsofpastepoch.forgotten_steel	忘れられた鋼
+item.warriorsofpastepoch.muketers_armor_chestplate	§b銃士の上着
+item.warriorsofpastepoch.muketers_armor_leggings	§b銃士のズボン
+death.attack.bacterial_splash.player	%1$sは%2$sから逃れようとして死んだ
+jei.warriorsofpastepoch.crystal_blood_info	ペスト医師の防具一式を着て、手術用のこぎりでモブを倒すと手に入る
+item.warriorsofpastepoch.plague_vaccine	§a疫病のワクチン
+item.warriorsofpastepoch.skeleton_musketeer_spawn_egg	スケルトン銃士のスポーンエッグ
+item.warriorsofpastepoch.doctors_cane	§b医師の杖
+effect.warriorsofpastepoch.contagious_touch_pestilence	感染の手: 悪疫
+block.warriorsofpastepoch.block_of_forgotten_steel	忘れられた鋼のブロック
+item.warriorsofpastepoch.azure_fabric	紺碧の布
+item.warriorsofpastepoch.thickened_skin	分厚くなった皮
+block.warriorsofpastepoch.block_of_raw_forgotten_steel	忘れられた鋼の原石ブロック
+item.warriorsofpastepoch.musket_ammo	マスケット銃の弾
+## mekanismexplosives
+item.mekanismexplosives.uranium_payload_capsule	ウランの弾頭カプセル
+block.mekanismexplosives.explosive_exothermic	発熱爆薬
+entity.mekanismexplosives.explosive_smoke_primed	点火された煙幕爆薬
+block.mekanismexplosives.explosive_debilitation	衰弱爆薬
+entity.mekanismexplosives.explosive_condensed_primed	点火された凝縮爆薬
+advancements.what_are_you_planning.descr	ウランの弾頭カプセルを手に入れる。
+advancements.matos_law.title	マトの法則
+entity.mekanismexplosives.explosive_chemical_primed	点火された化学爆薬
+block.mekanismexplosives.explosive_smoke	煙幕爆薬
+entity.mekanismexplosives.explosive_shockwave_primed	点火された衝撃波爆薬
+advancements.the_beginning_of_the_end.title	終わりの始まり
+advancements.what_are_you_planning.title	何をする気だ？
+entity.mekanismexplosives.explosive_plutonium_primed	点火されたプルトニウム爆薬
+block.mekanismexplosives.explosive_chemical	化学爆薬
+advancements.matos_law.descr	反物質爆薬を手に入れる。
+block.mekanismexplosives.explosive_shockwave	衝撃波爆薬
+advancements.the_beginning_of_the_end.descr	凝縮爆薬を手に入れる。
+block.mekanismexplosives.cluster_explosive	クラスター爆薬
+block.mekanismexplosives.explosive_nuclear	核爆薬
+entity.mekanismexplosives.explosive_debilitation_primed	点火された衰弱爆薬
+advancements.the_end_of_the_world.descr	超臨界爆薬を手に入れる。
+item_group.mekanismexplosives.mekanism_explosives	Mekanism Explosives
+advancements.mekanism_explosives_advancements.descr	多くの争いの始まりと終わり。
+block.mekanismexplosives.explosive_breaching	突破爆薬
+entity.mekanismexplosives.entity_cluster_explosive	点火されたクラスター爆薬
+=Explosive Condensed Primed	点火された凝縮爆薬
+entity.mekanismexplosives.entity_grenade	手榴弾
+block.mekanismexplosives.explosive_shrapnel	破片爆薬
+advancements.a_small_upgrade.title	小さなアップグレード
+advancements.contingencies.title	万一に備えて…
+block.mekanismexplosives.glass_pressure_plate	ガラスの感圧板
+block.mekanismexplosives.explosive_antimatter	反物質爆薬
+entity.mekanismexplosives.explosive_thermobaric_primed	点火されたサーモバリック爆薬
+advancements.contingencies.descr	核爆薬を手に入れる。
+entity.mekanismexplosives.explosive_polonium_primed	点火されたポロニウム爆薬
+block.mekanismexplosives.energy_block	エネルギーブロック
+advancements.a_big_upgrade.descr	プルトニウム爆薬を手に入れる。
+advancements.a_big_upgrade.title	大きなアップグレード
+item.mekanismexplosives.detonator	起爆装置
+entity.mekanismexplosives.explosive_supercritical_primed	点火された超臨界爆薬
+entity.mekanismexplosives.explosive_shrapnel_primed	点火された破片爆薬
+block.mekanismexplosives.explosive_plutonium	プルトニウム爆薬
+block.mekanismexplosives.explosive_condensed	凝縮爆薬
+block.mekanismexplosives.explosive_polonium	ポロニウム爆薬
+block.mekanismexplosives.explosive_emp	EMP爆薬
+advancements.the_end_of_the_world.title	「世界の終わり」
+block.mekanismexplosives.explosive_supercritical	超臨界爆薬
+entity.mekanismexplosives.explosive_antimatter_primed	点火された反物質爆薬
+itemGroup.tabmekanism_explosives	Mekanism Explosives
+block.mekanismexplosives.explosive_thermobaric	サーモバリック爆薬
+advancements.mekanism_explosives_advancements.title	Mekanism Explosives
+gui.mekanismexplosives.energy.label_energy_block	エネルギーブロック
+entity.mekanismexplosives.explosive_emp_primed	点火されたEMP爆薬
+advancements.a_small_upgrade.descr	ポロニウム爆薬を手に入れる。
+block.mekanismexplosives.white_reinforced_concrete	白色の強化コンクリート
+block.mekanismexplosives.orange_reinforced_concrete	橙色の強化コンクリート
+block.mekanismexplosives.magenta_reinforced_concrete	赤紫色の強化コンクリート
+block.mekanismexplosives.light_blue_reinforced_concrete	空色の強化コンクリート
+block.mekanismexplosives.yellow_reinforced_concrete	黄色の強化コンクリート
+block.mekanismexplosives.lime_reinforced_concrete	黄緑色の強化コンクリート
+block.mekanismexplosives.pink_reinforced_concrete	桃色の強化コンクリート
+block.mekanismexplosives.gray_reinforced_concrete	灰色の強化コンクリート
+block.mekanismexplosives.light_gray_reinforced_concrete	薄灰色の強化コンクリート
+block.mekanismexplosives.cyan_reinforced_concrete	青緑色の強化コンクリート
+block.mekanismexplosives.purple_reinforced_concrete	紫色の強化コンクリート
+block.mekanismexplosives.blue_reinforced_concrete	青色の強化コンクリート
+block.mekanismexplosives.brown_reinforced_concrete	茶色の強化コンクリート
+block.mekanismexplosives.green_reinforced_concrete	緑色の強化コンクリート
+block.mekanismexplosives.red_reinforced_concrete	赤色の強化コンクリート
+block.mekanismexplosives.black_reinforced_concrete	黒色の強化コンクリート

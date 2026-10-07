@@ -1,7 +1,11 @@
 {
   "block.twilightdelight.chaos_stew_block": "カオスシチューのブロック",
+  "block.twilightdelight.fiddlehead_clump": "ゼンマイの茂み",
+  "block.twilightdelight.fiddlehead_clump_upper": "ゼンマイの茂みの上部",
   "block.twilightdelight.saucy_grilled_naga_block": "ナーガのソース焼きのブロック",
   "block.twilightdelight.twilight_cake": "トワイライトケーキ",
+  "block.twilightdelight.twilight_rich_soil": "黄昏の肥沃な土",
+  "block.twilightdelight.twilight_rich_soil_farmland": "黄昏の肥沃な土の耕地",
   "effect.twilightdelight.lich_charge": "リッチの充填",
   "effect.twilightdelight.lich_charge.description": "ホットバーとオフハンドにあるリッチの笏の耐久値を回復する。",
   "effect.twilightdelight.twilight_aura": "トワイライトのオーラ",

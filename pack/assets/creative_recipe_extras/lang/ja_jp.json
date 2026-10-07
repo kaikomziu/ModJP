@@ -1,0 +1,8 @@
+{
+  "gas.mekanism.creative_gas": "クリエイティブガス",
+  "gas.mekanism.nuclear_creative_gas": "核クリエイティブガス",
+  "gas.mekanism.creative_gas_waste": "クリエイティブガスの廃棄物",
+  "gas.mekanism.polonium_concentrate": "ポロニウム濃縮物",
+  "item.mekanism.radiated_lead": "放射線を浴びた鉛",
+  "itemGroup.creative_recipe_extras": "Creative Recipe Extras"
+}

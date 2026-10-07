@@ -1,0 +1,157 @@
+## guidedmissiles
+itemGroup.guidedmissiles	Mekanism: Tactical Systems
+block.guidedmissiles.radar	ミサイルレーダー
+block.guidedmissiles.launcher	ミサイル発射台
+item.guidedmissiles.radar_tablet	レーダー指令タブレット
+item.guidedmissiles.missile_tier_1	誘導ミサイル(ティア1)
+item.guidedmissiles.missile_tier_2	誘導ミサイル(ティア2)
+item.guidedmissiles.missile_tier_3	誘導ミサイル(ティア3)
+item.guidedmissiles.missile_tier_4	誘導ミサイル(ティア4)
+item.guidedmissiles.missile_tier_5	誘導ミサイル(ティア5)
+item.guidedmissiles.missile_tier_6	誘導ミサイル(ティア6)
+item.guidedmissiles.missile_tier_7	誘導ミサイル(ティア7)
+item.guidedmissiles.missile_tier_8	誘導ミサイル(ティア8)
+item.guidedmissiles.missile_tier_9	誘導ミサイル(ティア9)
+item.guidedmissiles.missile_hellfire	ヘルファイアミサイル
+item.guidedmissiles.missile_bunker_buster	バンカーバスターミサイル
+item.guidedmissiles.missile_cluster	クラスターミサイル
+item.guidedmissiles.missile_incendiary	焼夷ミサイル
+item.guidedmissiles.missile_chemical_smoke	化学煙幕ミサイル
+entity.guidedmissiles.missile	誘導ミサイル
+## tcc
+curios.identifier.tcc_kb	空白の鍵
+curios.modifiers.tcc_kb	空白の鍵の属性:
+item.tcc.kongbai_zhijian	§f空白の鍵
+item.tcc.kongbai_zhijian.unworn	§7装備するとリンクのルールが適用される
+item.tcc.kongbai_zhijian.unbound	§7リンクした装飾品がない
+item.tcc.kongbai_zhijian.bound_curio	§7リンクした装飾品: §f%1$s
+item.tcc.kongbai_zhijian.link_rule	§7リンクのルール: §f%1$s §7× §f%2$s §7→ §f%3$s
+item.tcc.merged_rifling.note	ライフリングと同時には装備できない
+item.tcc.blaze_storm.note	ブレイズストーム・プライムと同時には装備できない
+item.tcc.blaze_storm_prime.note	ブレイズストームと同時には装備できない
+item.tcc.rifling.note	融合ライフリングと同時には装備できない
+item.tcc.chamber.note	狙撃銃のマガジンが満タンのとき有効。チャンバー・プライムと同時には装備できない
+item.tcc.chamber_prime.note	狙撃銃のマガジンが満タンのとき有効。チャンバーと同時には装備できない
+gem_class.tcc_kb	空白の鍵
+text.apotheosis.category.curios:tcc_kb.plural	空白の鍵
+tcc.tooltip.serpent_splash	命中時、相手から%1$sブロック以内のモブに、実ダメージの%2$s%%の虚数ダメージを与える
+tcc.tooltip.raven_aim_amp	照準チャージ: %1$s秒間狙うと、銃のダメージと追加ダメージが+%2$s%%。離すかダメージを与えるとリセット
+tcc.tooltip.raven_splash	ヘッドショットの追加の虚数ダメージが相手の周り(半径%1$sブロック)に飛び散る
+item.tcc.zhen_wo.effect.absorption	%1$s秒ごとに衝撃吸収を%2$s回復する
+## atomicadditions
+block.atomicadditions.casing	§dAMRケーシング
+block.atomicadditions.casing_port	§dAMRポート
+message.atomicadditions.port_changed	AMRポートを変更した:
+message.atomicadditions.port_input	入力
+message.atomicadditions.port_output	出力
+container.atomicadditions.atomic	原子素材再処理機
+jei.atomicadditions.amr	原子素材再処理機
+jei.atomicadditions.energy	エネルギー: %s FE/t
+jei.atomicadditions.duration	所要時間: %sティック
+jei.atomicadditions.rate	生産量: %s mB/t
+gas.atomicadditions.niobium	ニオブ
+gas.atomicadditions.germanium	ゲルマニウム
+gas.atomicadditions.tantalum	タンタル
+gas.atomicadditions.palladium	パラジウム
+gas.atomicadditions.copper	銅
+gas.atomicadditions.rhenium	レニウム
+item.atomicadditions.activated_crystal	活性化した%s
+item.atomicadditions.activated_crystal_fallback	活性化した結晶
+## immaterialdrawers
+augment.immaterialdrawers.wireless_charger.desc	%sブロック以内の近くのプレイヤーが持っているものを充電する
+augment.immaterialdrawers.wireless_charger.energy_only	エネルギードロワーの中でしか働かない
+block.immaterialdrawers.chemical_drawer_1	化学物質ドロワー (1x1)
+block.immaterialdrawers.chemical_drawer_2	化学物質ドロワー (1x2)
+block.immaterialdrawers.chemical_drawer_4	化学物質ドロワー (2x2)
+block.immaterialdrawers.energy_drawer	エネルギードロワー
+block.immaterialdrawers.framed_chemical_drawer_1	額縁付き化学物質ドロワー (1x1)
+block.immaterialdrawers.framed_chemical_drawer_2	額縁付き化学物質ドロワー (1x2)
+block.immaterialdrawers.framed_chemical_drawer_4	額縁付き化学物質ドロワー (2x2)
+block.immaterialdrawers.framed_energy_drawer	額縁付きエネルギードロワー
+block.immaterialdrawers.framed_source_drawer	額縁付きソースドロワー
+block.immaterialdrawers.source_drawer	ソースドロワー
+gui.immaterialdrawers.capacity	容量:
+gui.immaterialdrawers.chemical	化学物質:
+gui.immaterialdrawers.energy	エネルギー:
+gui.immaterialdrawers.source	ソース:
+item.immaterialdrawers.wireless_charger	ワイヤレス充電器
+itemGroup.immaterialdrawers	Immaterial Drawers
+## ars_mekanica
+itemGroup.ars_mekanica	Ars Mekanica
+block.ars_mekanica.source_dynamo	ソースダイナモ
+ars_mekanica.tooltip.source_dynamo	近くの瓶のソースをForge Energyに変える。
+ars_mekanica.tooltip.source_dynamo.rate	ソース1あたり%1$s FE、最大%2$s ソース/t
+ars_mekanica.tooltip.source_dynamo.buffer	バッファ: %1$s FE、出力: %2$s FE/t
+ars_mekanica.tooltip.source_dynamo.range	吸い取る範囲: %1$sブロック
+ars_mekanica.page.archwood_sawing	アークウッドの製材
+ars_mekanica.page1.archwood_sawing	精密製材機はあらゆる種類のアークウッドを受け付ける。原木、木、樹皮を剥いだものからはアークウッドの板材が6枚でき、確率でおがくずも出る。ドア、トラップドア、チェスト、ボート、看板などクラフトした部品は、製材して板材や棒に戻せる。
+ars_mekanica.page.source_dynamo	ソースダイナモ
+ars_mekanica.page1.source_dynamo	ソースダイナモは近くのソースジャーからソースを吸い取り、隣の機械やケーブルにForge Energyを送る。動いている間は前面が光り、コンパレーターで内部のバッファを読み取れる。
+ars_mekanica.page.archwood.title	アークウッドの製材
+ars_mekanica.page.archwood.text	精密製材機はあらゆる種類のアークウッドを受け付ける。原木、木、樹皮を剥いだものからはアークウッドの板材が6枚でき、確率でおがくずも出る。
+ars_mekanica.page.archwood.spotlight	ドア、トラップドア、チェスト、ボート、看板などクラフトした部品は、製材して板材や棒に戻せる。
+ars_mekanica.page.dynamo.title	ソースダイナモ
+ars_mekanica.page.dynamo.text	ソースダイナモは近くのソースジャーからソースを吸い取り、隣の機械やケーブルにForge Energyを送る。
+ars_mekanica.page.dynamo.spotlight	動いている間は前面が光り、コンパレーターで内部のバッファを読み取れる。
+## mek_x_star
+module.mek_x_star.module_space_suit	宇宙服ユニット
+module.mek_x_star.module_oxygen_tank	酸素タンクユニット
+module.mek_x_star.module_space_suit_insulation	宇宙服断熱ユニット
+module.mek_x_star.module_heat_resistive	耐熱ユニット
+module.mek_x_star.module_oxygen_tank_expansion	酸素タンク拡張ユニット
+description.mek_x_star.module_space_suit	MekaSuitを宇宙服にする
+description.mek_x_star.module_oxygen_tank	ボディアーマーに呼吸用の酸素タンクを付ける
+description.mek_x_star.module_space_suit_insulation	MekaSuitに断熱材を加えて凍えないようにする
+description.mek_x_star.module_heat_resistive	MekaSuitを暑い惑星の熱に耐えられるようにする
+description.mek_x_star.module_oxygen_tank_expansion	酸素タンクの容量を増やす
+creativetab.mek_x_star.name	Mekanism x Create: Northstar Items
+item.mek_x_star.heat_insulation	断熱材
+item.mek_x_star.crushed_wool	砕いた羊毛
+item.mek_x_star.durasteel	デュラスチール
+item.mek_x_star.pressurized_durasteel	加圧デュラスチール
+item.mek_x_star.incomplete_oxygen_tank_expansion	未完成の酸素タンク拡張ユニット
+## atmosphericwatergenerator
+item.awg.water_filter	水フィルター
+item_group.awg.awg	大気水生成機
+item.atmosphericwatergenerator.air_filter	空気フィルター
+gui.atmosphericwatergenerator.remote_desk_gui.button_unlink	リンク解除
+gui.atmosphericwatergenerator.remote_desk_gui.label_red_stone_signal	レッドストーン信号を反転
+gui.atmosphericwatergenerator.remote_desk_gui.tooltip_registrar_o_nome	ラベルを保存
+block.awg.atmospheric_water_generator	大気水生成機
+gui.atmosphericwatergenerator.remote_desk_gui.tooltip_check_to_invert_redstone_signal	チェックするとレッドストーン信号を反転する
+item.awg.air_filter	空気フィルター
+block.atmosphericwatergenerator.atmospheric_water_generator	大気水生成機
+gui.atmosphericwatergenerator.remote_desk_gui.RemoteDeskGuiTextField	リモートデスク
+item.atmosphericwatergenerator.water_filter	水フィルター
+gui.atmosphericwatergenerator.remote_desk_gui.button_link	リンク
+item_group.atmosphericwatergenerator.awg_tab	大気水生成機 AWG
+item.atmosphericwatergenerator.atmospheric_water_generator	大気水生成機
+## custommachinerymekanism
+custommachinerymekanism.requirements.chemical.error.input	%sが足りない。%smB必要！
+custommachinerymekanism.requirements.chemical.error.output	%smbの%sを保管する空きがない！
+custommachinerymekanism.requirements.heat.error.input	蓄えた熱が足りない。%s必要だが%sしかない！
+custommachinerymekanism.requirements.temp.error	必要な温度: %s
+custommachinerymekanism.requirements.radiation.error	放射線が足りない: %s、%s必要！
+custommachinerymekanism.requirements.radiation.info.input	半径%2$sブロック内の%1$sを除去
+custommachinerymekanism.requirements.radiation.info.output	%sを放出
+custommachinerymekanism.requirements.radiation.info.tick.input	半径%2$sブロック内の%1$s/tを除去
+custommachinerymekanism.requirements.radiation.info.tick.output	%s/tを放出
+custommachinerymekanism.jei.ingredient.heat	熱:  %s
+custommachinerymekanism.jei.ingredient.heat.input	熱を%s消費
+custommachinerymekanism.jei.ingredient.heat.output	熱を%s生産
+custommachinerymekanism.jei.ingredient.heat.pertick.input	熱を%s/t消費
+custommachinerymekanism.jei.ingredient.heat.pertick.output	熱を%s/t生産
+## igleelib
+itemGroup.igleelib.base	Iglee's Library
+block.igleelib.modium_block	モディウムブロック
+block.igleelib.derium_block	デリウムブロック
+block.igleelib.blazum_block	ブレイズムブロック
+block.igleelib.lavium_block	ラヴィウムブロック
+item.igleelib.modium_ingot	モディウムインゴット
+item.igleelib.derium_ingot	デリウムインゴット
+item.igleelib.blazum_ingot	ブレイズムインゴット
+item.igleelib.lavium_ingot	ラヴィウムインゴット
+item.igleelib.blaze_shard	ブレイズの欠片
+item.igleelib.iglium_upgrade_smithing_template	イグリウムアップグレード
+item.igleelib.smithing_template.iglium_upgrade.additions_slot_description	ダイヤモンド、泣く黒曜石、ブレイズロッド、ブレイズの欠片のどれかを置く
+item.igleelib.smithing_template.iglium_upgrade.ingredients	ダイヤモンド、泣く黒曜石、ブレイズロッド、ブレイズの欠片

@@ -1,0 +1,7 @@
+{
+  "factoryfps.loaded": "FactoryFPSが有効。/factoryfps status でリアルタイムの計測値を確認できる。",
+  "factoryfps.reloaded": "FactoryFPSの設定を再読み込みした。",
+  "factoryfps.metrics_reset": "FactoryFPSの計測値をリセットした。",
+  "factoryfps.profile": "FactoryFPSのプロファイル: %s",
+  "factoryfps.status": "FactoryFPS — プロファイル %s、負荷 %s、平滑化FPS %s、検査 %s、削減 %s (%.1f%%)。"
+}

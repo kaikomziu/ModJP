@@ -1,0 +1,4 @@
+{
+  "creativetabs.mekanism_bin_installer": "Mekanism: Bin Installer",
+  "jei.mekanism_bin_installer.bin_installers.description": "§lビン§rのアップグレードに使う§a§lMekanism§rのアイテム。\n§r\n§r基本的な使い方は§a§lMekanismのティアインストーラー§rと同じ: \n§r持っているインストーラーより1つ下のティアの§lビン§rを\n§r§6§lShift+右クリック§rするとアップグレードできる。\n§rただし§a§l基本ビンインストーラー§rだけは違い、\n§rビンではなく§l石§rに§6§l右クリック§rする必要がある。\n§r石の種類は§lタグで指定§rされているので、§c§l花崗岩§rや§7§l安山岩§rなど\n§rいろいろな種類が使える。\n§r注意: §4§l丸石とネザーの石の種類は使えない。§r\n§r\n§r§8(AIによる翻訳を元にしたもの。正確さは保証しない)§r"
+}

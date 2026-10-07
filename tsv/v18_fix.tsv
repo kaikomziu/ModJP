@@ -1,0 +1,17 @@
+## horrorjarred
+item.horrorjarred.cavecrasher_pickaxe_handle.description_0	§7「この道具は別の次元で響いている…」
+item.horrorjarred.cavecrasher_pickaxe_head.description_0	§7「この道具は別の次元で響いている…」
+## skarrier_mobs
+block.skarrier_mobs.stone_golem_unfinished_1	未完成のストーンゴーレム
+block.skarrier_mobs.stone_golem_unfinished_2	未完成のストーンゴーレム
+block.skarrier_mobs.stone_golem_unfinished_3	未完成のストーンゴーレム
+item.skarrier_mobs.magmadermis.description_1	§6盾に塗ると: 50%の確率で攻撃してきた相手に火をつけるが、盾の受けるダメージが増える
+## tcc
+item.tcc.raven.special_invis	常に透明。%1$s秒ごとに%2$s秒間、完全な透明になる
+item.tcc.island_boom_raven.special_invis	常に透明。%1$s秒ごとに%2$s秒間、完全な透明になる
+item.tcc.vill_v.effect	%1$s秒ごとに衝撃吸収を%2$s回復する
+item.tcc.yuxi_zhixia.effect	%1$s秒ごとに衝撃吸収を%2$s回復する
+item.tcc.luoxuan.special_absorption	%2$s秒ごとに衝撃吸収を%3$s回復する
+item.tcc.kalpas.effect	被弾時、ダメージの種類に適応する。同じ種類のダメージを%1$s%%軽減、\n%2$s秒間被弾しないと解除される
+item.tcc.huajie_zhiyan.special_adapt	被弾時、ダメージの種類に適応する。同じ種類のダメージを%1$s%%軽減、\n%2$s秒間被弾しないと解除される
+item.tcc.aomie.special_adapt	被弾時、ダメージの種類に適応する。同じ種類のダメージを%1$s%%軽減、\n%2$s秒間被弾しないと解除される

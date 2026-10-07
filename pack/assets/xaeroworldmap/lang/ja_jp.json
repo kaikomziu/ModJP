@@ -312,5 +312,9 @@
   "gui.xaero_box_map_distances": "マップ上で右クリックした位置や要素までの距離を表示します。位置の場合は2次元の距離、ウェイポイントや追跡中のプレイヤーなどの要素の場合は、該当すれば3次元の距離を表示します。",
   "gui.xaero_auto_convert_wm_distances_km": "マップ上の距離をkmに変換する距離",
   "gui.xaero_auto_convert_wm_distances_km_never": "しない",
-  "gui.xaero_wm_distance_precision": "マップ上の距離の精度"
+  "gui.xaero_wm_distance_precision": "マップ上の距離の精度",
+  "gui.xaero_pac_add_claiming_anchor": "領有アンカーを追加",
+  "gui.xaero_pac_remove_claiming_anchor": "領有アンカーを削除",
+  "gui.xaero_pac_remove_claiming_anchor_confirm_line1": "次の領有アンカーと、その範囲内だけにある領有地をすべて削除する？",
+  "gui.xaero_pac_remove_claiming_anchor_confirm_line2": "この操作は元に戻せない！アンカーのチャンク: %1$s"
 }

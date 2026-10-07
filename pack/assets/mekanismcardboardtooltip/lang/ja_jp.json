@@ -1,0 +1,5 @@
+{
+  "cardboard_box.mekanism.block_entity.spawn_type": "スポーン: %1$s",
+  "config.jade.plugin_mekanismcardboardtooltip.cardboard_box": "ダンボール箱",
+  "jade.mekanismcardboardtooltip.cardboard_box.type": "種類: %1$s"
+}

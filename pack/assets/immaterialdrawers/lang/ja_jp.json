@@ -1,0 +1,20 @@
+{
+  "augment.immaterialdrawers.wireless_charger.desc": "%sブロック以内の近くのプレイヤーが持っているものを充電する",
+  "augment.immaterialdrawers.wireless_charger.energy_only": "エネルギードロワーの中でしか働かない",
+  "block.immaterialdrawers.chemical_drawer_1": "化学物質ドロワー (1x1)",
+  "block.immaterialdrawers.chemical_drawer_2": "化学物質ドロワー (1x2)",
+  "block.immaterialdrawers.chemical_drawer_4": "化学物質ドロワー (2x2)",
+  "block.immaterialdrawers.energy_drawer": "エネルギードロワー",
+  "block.immaterialdrawers.framed_chemical_drawer_1": "額縁付き化学物質ドロワー (1x1)",
+  "block.immaterialdrawers.framed_chemical_drawer_2": "額縁付き化学物質ドロワー (1x2)",
+  "block.immaterialdrawers.framed_chemical_drawer_4": "額縁付き化学物質ドロワー (2x2)",
+  "block.immaterialdrawers.framed_energy_drawer": "額縁付きエネルギードロワー",
+  "block.immaterialdrawers.framed_source_drawer": "額縁付きソースドロワー",
+  "block.immaterialdrawers.source_drawer": "ソースドロワー",
+  "gui.immaterialdrawers.capacity": "容量:",
+  "gui.immaterialdrawers.chemical": "化学物質:",
+  "gui.immaterialdrawers.energy": "エネルギー:",
+  "gui.immaterialdrawers.source": "ソース:",
+  "item.immaterialdrawers.wireless_charger": "ワイヤレス充電器",
+  "itemGroup.immaterialdrawers": "Immaterial Drawers"
+}

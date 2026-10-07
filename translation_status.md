@@ -5,8 +5,9 @@
 | MOD (jar) | 名前空間 | 全キー数 | 日本語済み | 未翻訳 | 今回翻訳 | 英語のまま | 備考 |
 |---|---|---:|---:|---:|---:|---:|---|
 | absentbydesign-1.20.1-1.9.0.jar | absentbydesign | 498 | 364 | 134 | 134 | 0 |  |
+| absolute-mekanism-transporters-1.0.6.jar | absolute_mekanism_transporters | 5 | 0 | 5 | 5 | 0 |  |
 | ad_astra-forge-1.20.1-1.15.21.jar | ad_astra | 825 | 814 | 11 | 11 | 0 |  |
-| Ad-Astra-Giselle-Addon-forge-1.20.1-6.24.jar | ad_astra_giselle_addon | 180 | 1 | 179 | 179 | 0 |  |
+| Ad-Astra-Giselle-Addon-forge-1.20.1-6.25.jar | ad_astra_giselle_addon | 180 | 1 | 179 | 179 | 0 |  |
 | additional_lights-1.20.1-2.1.7.jar | additional_lights | 157 | 0 | 157 | 157 | 0 |  |
 | additionallanterns-1.1.2-forge-mc1.20.2.jar | additionallanterns | 737 | 737 | 0 | 0 | 0 |  |
 | Additional-Weaponry-1.20.1-1.1.5.jar | additionalweaponry | 29 | 0 | 29 | 29 | 0 |  |
@@ -16,6 +17,7 @@
 | advgenerators-1.6.0.6-mc1.20.1.jar | advgenerators | 203 | 0 | 203 | 203 | 0 |  |
 | appliedenergistics2-forge-15.4.11.jar | ae2 | 1003 | 859 | 144 | 144 | 0 |  |
 | AEAdditions-1.20.1-5.1.1.jar | ae2additions | 68 | 68 | 0 | 0 | 0 |  |
+| AE2AddonLib-1.0.4-1.20.1.jar | ae2addonlib | 11 | 8 | 3 | 3 | 0 |  |
 | ae2insertexportcard-1.20.1-1.3.0.jar | ae2insertexportcard | 5 | 0 | 5 | 5 | 0 |  |
 | AE2NetworkAnalyzer-1.20-1.0.6-forge.jar | ae2netanalyser | 24 | 0 | 24 | 24 | 0 |  |
 | AE2-Things-1.2.1.jar | ae2things | 12 | 0 | 12 | 12 | 0 |  |
@@ -25,24 +27,31 @@
 | aether_ii-26.1.2-alpha.4.1-neoforge.jar | aether_ii | 1688 | 0 | 1688 | 1660 | 28 |  |
 | agritechevolved-2.2.0.4+neoforge-mc26.1.2.jar | agritechevolved | 158 | 129 | 29 | 29 | 0 |  |
 | aiotbotania-1.20.1-4.0.8.jar | aiotbotania | 52 | 52 | 0 | 0 | 0 |  |
-| akashic_Library-forge-1.20.1-1.1.10-all.jar | akashic_library | 70 | 0 | 70 | 70 | 0 |  |
+| akashic_Library-forge-1.20.1-1.1.21-all.jar | akashic_library | 71 | 0 | 71 | 71 | 0 |  |
 | alchemistry-1.20.1-2.3.4.jar | alchemistry | 65 | 0 | 65 | 65 | 0 |  |
 | alchemylib-1.20.1-1.0.30.jar | alchemylib | 7 | 0 | 7 | 7 | 0 |  |
 | alexscaves-2.0.2.jar | alexscaves | 1712 | 1676 | 36 | 36 | 0 |  |
 | alexsmobs-1.22.9.jar | alexsmobs | 1076 | 996 | 80 | 80 | 0 |  |
+| AllienFusionGenerator(Forge)1.20.1.jar | allienfusiongenerator | 46 | 0 | 46 | 27 | 19 |  |
 | allthecompressed-1.20.1-3.0.2.jar | allthecompressed | 983 | 0 | 983 | 983 | 0 |  |
 | allthemodium-1.20.1-47.1.25-2.5.8.jar | allthemodium | 283 | 282 | 1 | 1 | 0 |  |
 | alltheores-1.20.1-47.1.3-2.2.4.jar | alltheores | 333 | 332 | 1 | 1 | 0 |  |
 | allthetweaks-1.20.1-47.2.20-2.4.2-all.jar | allthetweaks | 26 | 26 | 0 | 0 | 0 |  |
 | almostunified-forge-1.20.1-0.11.0.jar | almostunified | 6 | 0 | 6 | 6 | 0 |  |
+| ame_cognition-1.0.1.jar | ame_cognition | 8 | 8 | 0 | 0 | 0 |  |
+| ame_dynamics-1.0.2.jar | ame_dynamics | 14 | 14 | 0 | 0 | 0 |  |
+| ame_the_valine-1.0.1.jar | ame_the_valine | 6 | 6 | 0 | 0 | 0 |  |
 | amendments-1.20-2.2.6.jar | amendments | 92 | 88 | 4 | 4 | 0 |  |
+| amtz-1.0.0.jar | amtz | 25 | 0 | 25 | 25 | 0 |  |
 | angelring-1.20.1-2.3.1.jar | angelring | 24 | 0 | 24 | 24 | 0 |  |
 | another_furniture-forge-1.20.1-3.0.4.jar | another_furniture | 168 | 143 | 25 | 25 | 0 |  |
 | antighost-1.19.1-forge42.0.1-1.1.3.jar | antighost | 3 | 3 | 0 | 0 | 0 |  |
 | Apotheosis-1.20.1-7.4.8.jar | apotheosis | 1014 | 1011 | 3 | 3 | 0 |  |
 | ApothicEnchanting-26.1.2-2.0.0.jar | apothic_enchanting | 425 | 396 | 29 | 22 | 7 |  |
 | ApothicSpawners-26.1.2-2.0.1.jar | apothic_spawners | 89 | 1 | 88 | 86 | 2 |  |
+| apothmekcompat-1.0.1.jar | apothmekcompat | 2 | 0 | 2 | 2 | 0 |  |
 | applied-botanics-forge-1.5.2.jar | appbot | 22 | 22 | 0 | 0 | 0 |  |
+| AppliedFlux-1.20-1.3.7-forge.jar | appflux | 55 | 30 | 25 | 25 | 0 |  |
 | appliedcooking-4.0.0.jar | appliedcooking | 7 | 0 | 7 | 7 | 0 |  |
 | appliedsticks-26.1.2-2.0.4.jar | appliedsticks | 2 | 0 | 2 | 2 | 0 |  |
 | Applied-Mekanistics-1.4.3.jar | appmek | 16 | 16 | 0 | 0 | 0 |  |
@@ -52,16 +61,23 @@
 | arsarmiger-1.19.2-1.6.0.jar | ars_armiger | 160 | 0 | 160 | 160 | 0 |  |
 | ars_creo-1.20.1-4.3.0.jar | ars_creo | 14 | 0 | 14 | 14 | 0 |  |
 | ars_elemental-1.20.1-0.6.8.0.jar | ars_elemental | 354 | 322 | 32 | 32 | 0 |  |
+| ars-mekanica-forge-1.20.1-1.3.0.jar | ars_mekanica | 16 | 0 | 16 | 16 | 0 |  |
 | ars_nouveau-1.20.1-4.12.7-all.jar | ars_nouveau | 1532 | 1464 | 68 | 68 | 0 |  |
 | arseng-1.2.0.jar | arseng | 21 | 0 | 21 | 21 | 0 |  |
 | artifacts-forge-9.5.19.jar | artifacts | 266 | 210 | 56 | 56 | 0 |  |
 | Astralosis-0.3.jar | astral | 153 | 0 | 153 | 153 | 0 |  |
+| astral_mekanism-1.8.2-extra-fix1.jar | astral_mekanism | 871 | 850 | 21 | 21 | 0 |  |
 | astrashastra-1.4.0-forge-1.20.1.jar | astrashastra | 74 | 0 | 74 | 74 | 0 |  |
-| fieldguide-1.20.1+1.20.1-forge.jar | atmospheric | 12 | 0 | 12 | 12 | 0 |  |
+| fieldguide-1.21.1+1.20.1-forge.jar | atmospheric | 12 | 0 | 12 | 12 | 0 |  |
+| atmosphericwatergenerator-1.0.12-forge-1.20.1.jar | atmosphericwatergenerator | 21 | 6 | 15 | 15 | 0 |  |
+| atomicadditions1.20.1-1.0.1.jar | atomicadditions | 18 | 0 | 18 | 18 | 0 |  |
 | ApothicAttributes-1.20.1-1.3.7.jar | attributeslib | 130 | 1 | 129 | 129 | 0 |  |
 | auroral-26.1.2-1.5.6.jar | auroral | 160 | 0 | 160 | 160 | 0 |  |
+| autcraft_adventure-3.0.1.jar | autcraft_adventure | 700 | 7 | 693 | 676 | 17 |  |
+| autcraftmekanism-1.0.0-forge-1.20.1.jar | autcraftmekanism | 75 | 0 | 75 | 75 | 0 |  |
 | AutoRegLib-1.8.2-55.jar | autoreglib | 2 | 0 | 2 | 2 | 0 |  |
-| fieldguide-1.20.1+1.20.1-forge.jar | autumnity | 5 | 0 | 5 | 5 | 0 |  |
+| fieldguide-1.21.1+1.20.1-forge.jar | autumnity | 5 | 0 | 5 | 5 | 0 |  |
+| Re-Avaritia-forge-1.20.1-1.4.2-release.jar | avaritia | 719 | 129 | 590 | 587 | 3 |  |
 | baguettelib-1.20.1-Forge-2.0.7.jar | baguettelib | 3 | 0 | 3 | 3 | 0 |  |
 | balm-forge-1.20.1-7.3.44.jar | balm | 35 | 0 | 35 | 35 | 0 |  |
 | BambooEverything-forge-3.0.3+mc1.20.1.jar | bambooeverything | 22 | 0 | 22 | 22 | 0 |  |
@@ -84,11 +100,12 @@
 | YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar | betteroceanmonuments | 4 | 0 | 4 | 4 | 0 |  |
 | YungsBetterStrongholds-1.20-Forge-4.0.3.jar | betterstrongholds | 18 | 0 | 18 | 18 | 0 |  |
 | YungsBetterWitchHuts-1.20-Forge-3.0.3.jar | betterwitchhuts | 4 | 0 | 4 | 4 | 0 |  |
+| BetterFusionReactor-1.20.1-1.4.15.jar | bfr | 70 | 0 | 70 | 68 | 2 |  |
 | baubley-heart-canisters-1.20.1-1.2.0.jar | bhc | 35 | 0 | 35 | 35 | 0 |  |
 | biggerreactors-1.20.1-0.6.0-beta.10.5.jar | biggerreactors | 212 | 0 | 212 | 212 | 0 |  |
-| fieldguide-1.20.1+1.20.1-forge.jar | biomesoplenty | 473 | 451 | 22 | 22 | 0 |  |
+| fieldguide-1.21.1+1.20.1-forge.jar | biomesoplenty | 473 | 451 | 22 | 22 | 0 |  |
 | blockui-1.20.1-1.0.194-snapshot.jar | blockui | 4 | 0 | 4 | 4 | 0 |  |
-| fieldguide-1.20.1+1.20.1-forge.jar | bloomingnature | 9 | 0 | 9 | 9 | 0 |  |
+| fieldguide-1.21.1+1.20.1-forge.jar | bloomingnature | 9 | 0 | 9 | 9 | 0 |  |
 | blue_skies-1.20.1-1.3.31.jar | blue_skies | 1255 | 1198 | 57 | 57 | 0 |  |
 | Bookshelf-Forge-1.20.1-20.2.15.jar | bookshelf | 32 | 32 | 0 | 0 | 0 |  |
 | BOMD-Forge-1.20.1-1.1.2.jar | bosses_of_mass_destruction | 151 | 148 | 3 | 3 | 0 |  |
@@ -96,6 +113,7 @@
 | BotanyPots-Forge-1.20.1-13.0.43.jar | botanypots | 126 | 0 | 126 | 126 | 0 |  |
 | BrandonsCore-1.20.1-3.2.1.302-universal.jar | brandonscore | 102 | 0 | 102 | 102 | 0 |  |
 | BrewinAndChewin-1.20.1-3.2.1.jar | brewinandchewin | 127 | 112 | 15 | 15 | 0 |  |
+| brewingfactory-1.20.1-0.5.2.jar | brewingfactory | 24 | 0 | 24 | 24 | 0 |  |
 | brickhopper-1.20.1-1.7.0.1.jar | brickhopper | 3 | 0 | 3 | 3 | 0 |  |
 | buildinggadgets2-1.0.8.jar | buildinggadgets2 | 111 | 0 | 111 | 111 | 0 |  |
 | bwncr-forge-1.20.1-3.17.2.jar | bwncr | 11 | 0 | 11 | 11 | 0 |  |
@@ -104,15 +122,19 @@
 | caelus-forge-3.2.0+1.20.1.jar | caelus | 1 | 0 | 1 | 1 | 0 |  |
 | camol-26.1.2-0.4.1.jar | camol | 10 | 0 | 10 | 10 | 0 |  |
 | carryon-forge-1.20.1-2.1.2.7.jar | carryon | 12 | 0 | 12 | 12 | 0 |  |
-| casualswing-0.1.0-1.20.1-Forge.jar | casualswing | 42 | 0 | 42 | 42 | 0 |  |
+| casualswing-1.0.2-1.20.1-Forge.jar | casualswing | 42 | 0 | 42 | 42 | 0 |  |
 | L_Enders_Cataclysm-3.31.jar | cataclysm | 735 | 728 | 7 | 7 | 0 |  |
 | ceramicshears-1.20.1-1.9.0.1.jar | ceramicshears | 3 | 0 | 3 | 3 | 0 |  |
 | cfm-forge-1.20.1-7.0.0-pre36.jar | cfm | 551 | 0 | 551 | 551 | 0 |  |
 | CGM-Unofficial-1.4.20+Forge+1.20.1.jar | cgm | 150 | 147 | 3 | 3 | 0 |  |
+| chaosmod-0.1-1.20.1.jar | chaosmod | 683 | 0 | 683 | 683 | 0 |  |
 | charginggadgets-1.11.0.jar | charginggadgets | 5 | 0 | 5 | 5 | 0 |  |
 | charmofundying-forge-6.5.0+1.20.1.jar | charmofundying | 7 | 0 | 7 | 7 | 0 |  |
 | chat_heads-0.15.7-forge-1.20.jar | chat_heads | 30 | 27 | 3 | 3 | 0 |  |
+| chemek-1.1.4.jar | chemek | 53 | 0 | 53 | 53 | 0 |  |
+| chemicalrouterupgrade-1.20.1-forge-0.1.0.jar | chemicalrouterupgrade | 6 | 6 | 0 | 0 | 0 |  |
 | chemlib-1.20.1-2.0.19.jar | chemlib | 1022 | 0 | 1022 | 1022 | 0 |  |
+| MekanismChickenllurgicInfuser-1.20.1-release1.0a-forge.jar | chickenllurgic_infuser | 14 | 13 | 1 | 1 | 0 |  |
 | chilib-1.4.0-1.20.1.jar | chilib | 8 | 0 | 8 | 8 | 0 |  |
 | chipped-forge-1.20.1-3.0.7.jar | chipped | 7258 | 0 | 7258 | 7258 | 0 |  |
 | chisel-26.1.2.18.jar | chisel | 10277 | 0 | 10277 | 10277 | 0 |  |
@@ -122,18 +144,24 @@
 | CodeChickenLib-1.20.1-4.4.0.528-universal.jar | codechickenlib | 18 | 0 | 18 | 18 | 0 |  |
 | BattleCraft-1.3.0.jar | codmod | 531 | 0 | 531 | 531 | 0 |  |
 | cofh_core-1.20.1-11.0.2.56.jar | cofh_core | 215 | 215 | 0 | 0 | 0 |  |
-| collective-1.20.1-8.41.jar | collective | 561 | 54 | 507 | 16 | 491 |  |
+| collective-1.20.1-8.42.jar | collective | 561 | 54 | 507 | 16 | 491 |  |
 | combatroll-forge-1.3.3+1.20.1.jar | combatroll | 27 | 25 | 2 | 2 | 0 |  |
 | combomod.jar | combo | 1 | 0 | 1 | 1 | 0 |  |
 | comforts-forge-6.4.0+1.20.1.jar | comforts | 77 | 42 | 35 | 35 | 0 |  |
 | CommonCapabilities-1.20.1-2.9.11.jar | commoncapabilities | 10 | 1 | 9 | 9 | 0 |  |
 | compactmachines-forge-6.0.3.jar | compactmachines | 98 | 1 | 97 | 97 | 0 |  |
+| compactmekanism.jar | compactmekanism | 32 | 0 | 32 | 32 | 0 |  |
+| compactmekanismmachines-0.1.9.jar | compactmekanismmachines | 29 | 29 | 0 | 0 | 0 |  |
+| compactmekanismmachinesplus-0.4.1.jar | compactmekanismmachinesplus | 6 | 6 | 0 | 0 | 0 |  |
 | cc-tweaked-1.20.1-forge-1.113.1.jar | computercraft | 233 | 233 | 0 | 0 | 0 |  |
 | configured-forge-1.20.1-2.2.3.jar | configured | 62 | 0 | 62 | 62 | 0 |  |
 | connectedglass-1.1.14-forge-mc1.20.1.jar | connectedglass | 120 | 120 | 0 | 0 | 0 |  |
 | ConstructionSticks-1.20.1-1.2.7.jar | constructionstick | 141 | 140 | 1 | 1 | 0 |  |
 | constructionwand-1.20.1-2.11.jar | constructionwand | 59 | 1 | 58 | 58 | 0 |  |
 | Controlling-forge-1.20.1-12.0.2.jar | controlling | 12 | 9 | 3 | 3 | 0 |  |
+| Convenient Interface-1.20.1-1.1.1.jar | convenient_interface | 55 | 0 | 55 | 55 | 0 |  |
+| Convenient Mekanism-1.20.1-0.1.1.jar | convenient_mekanism | 7 | 0 | 7 | 7 | 0 |  |
+| Convenient Storage-1.20.1-1.4.3.jar | convenient_storage | 226 | 164 | 62 | 62 | 0 |  |
 | cookingforblockheads-forge-1.20.1-16.0.15.jar | cookingforblockheads | 158 | 106 | 52 | 52 | 0 |  |
 | corail_woodcutter-1.20.1-3.0.6.jar | corail_woodcutter | 44 | 0 | 44 | 44 | 0 |  |
 | corail_woodcutter_extension_byg-1.19.2-1.0.3.jar | corail_woodcutter_extension_byg | 29 | 0 | 29 | 29 | 0 |  |
@@ -141,7 +169,10 @@
 | corpse-forge-1.20.1-1.0.23.jar | corpse | 20 | 20 | 0 | 0 | 0 |  |
 | cosmeticarmorreworked-1.20.1-v1a.jar | cosmeticarmorreworked | 5 | 5 | 0 | 0 | 0 |  |
 | cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar | cosmeticcorpsecompat | 3 | 0 | 3 | 3 | 0 |  |
+| cp_lib-5.1.0-forge-1.20.1.jar | cp_lib | 316 | 0 | 316 | 316 | 0 |  |
+| cp_mek-3.0.2-forge-1.20.1.jar | cp_mek | 22 | 0 | 22 | 22 | 0 |  |
 | crafting-on-a-stick-1.20.1-1.1.5.jar | crafting_on_a_stick | 13 | 4 | 9 | 0 | 9 |  |
+| crafting_slime_ball-1.0.0.jar | crafting_slime_ball | 16 | 16 | 0 | 0 | 0 |  |
 | craftingtweaks-forge-1.20.1-18.2.9.jar | craftingtweaks | 37 | 0 | 37 | 37 | 0 |  |
 | crashutilities-8.1.4.jar | crashutilities | 4 | 0 | 4 | 4 | 0 |  |
 | create-1.20.1-6.0.8.jar | create | 3646 | 3398 | 248 | 248 | 0 |  |
@@ -150,7 +181,11 @@
 | create_ore_factory-1.0.0-forge-1.20.1.jar | create_ore_factory | 99 | 0 | 99 | 99 | 0 |  |
 | createaddition-1.20.1-1.3.3.jar | createaddition | 255 | 251 | 4 | 4 | 0 |  |
 | creategoggles-1.20.1-6.1.1-[FORGE].jar | creategoggles | 107 | 0 | 107 | 92 | 15 |  |
+| createmeksteam-1.0.2.jar | createmeksteam | 11 | 0 | 11 | 11 | 0 |  |
 | COP-Create+6.0.7-3.1.jar | createoplenty | 4 | 4 | 0 | 0 | 0 |  |
+| createoreexcavation-1.20-1.6.6.jar | createoreexcavation | 105 | 52 | 53 | 52 | 1 |  |
+| creative_recipe-1.0.0.jar | creative_recipe | 6 | 0 | 6 | 6 | 0 |  |
+| creative_recipe_extras-1.0.0.jar | creative_recipe_extras | 6 | 0 | 6 | 6 | 0 |  |
 | CreativeCore_FORGE_v2.12.40_mc1.20.1.jar | creativecore | 44 | 0 | 44 | 41 | 3 |  |
 | creativewirelesstransmitter-1.20.1-1.1.jar | creativewirelesstransmitter | 5 | 0 | 5 | 5 | 0 |  |
 | creeperoverhaul-3.0.2-forge.jar | creeperoverhaul | 57 | 57 | 0 | 0 | 0 |  |
@@ -162,6 +197,7 @@
 | Cucumber-1.20.1-7.0.16.jar | cucumber | 16 | 15 | 1 | 1 | 0 |  |
 | curios-forge-5.14.1+1.20.1.jar | curios | 48 | 32 | 16 | 16 | 0 |  |
 | cursedfate-1.0.39.jar | cursedfate | 743 | 17 | 726 | 726 | 0 |  |
+| Custom-Machinery-Mekanism-1.3.6.jar | custommachinerymekanism | 14 | 0 | 14 | 14 | 0 |  |
 | CyclopsCore-1.20.1-1.22.3.jar | cyclopscore | 42 | 1 | 41 | 41 | 0 |  |
 | dankstorage-forge-1.20.1-16.jar | dankstorage | 76 | 0 | 76 | 76 | 0 |  |
 | DarkModeEverywhere-1.20.1-1.2.4.jar | darkmodeeverywhere | 11 | 0 | 11 | 11 | 0 |  |
@@ -173,6 +209,7 @@
 | defaultoptions-forge-1.20.1-18.0.5.jar | defaultoptions | 7 | 0 | 7 | 7 | 0 |  |
 | Delightful-1.20.1-3.8.1.jar | delightful | 264 | 264 | 0 | 0 | 0 |  |
 | delightful_slaughter-1.0-1.20.1.jar | delightful_slaughter | 70 | 0 | 70 | 70 | 0 |  |
+| densemekanism-1.20.1-1.1.0.jar | densemekanism | 11 | 0 | 11 | 11 | 0 |  |
 | DimStorage-1.20.1-8.0.1.jar | dimstorage | 36 | 0 | 36 | 36 | 0 |  |
 | Ding-1.20.1-Forge-1.5.0.jar | ding | 38 | 0 | 38 | 38 | 0 |  |
 | domum_ornamentum-1.20.1-1.0.304-snapshot-universal.jar | domum_ornamentum | 214 | 0 | 214 | 214 | 0 |  |
@@ -190,9 +227,11 @@
 | easy-villagers-forge-1.20.1-1.1.23.jar | easy_villagers | 28 | 28 | 0 | 0 | 0 |  |
 | eccentrictome-1.20.1-1.10.4.jar | eccentrictome | 3 | 0 | 3 | 3 | 0 |  |
 | effortlessbuilding-1.20.1-3.11.jar | effortlessbuilding | 108 | 13 | 95 | 95 | 0 |  |
+| Electrodynamics-1.20.1-1.0.14.jar | electrodynamics | 1520 | 289 | 1231 | 1207 | 24 |  |
 | elementalcraft-1.20.1-6.0.1.jar | elementalcraft | 671 | 1 | 670 | 670 | 0 |  |
 | elevatorid-1.20.1-1.9.1-forge.jar | elevatorid | 28 | 0 | 28 | 28 | 0 |  |
 | embeddium-0.3.31+mc1.20.1.jar | embeddium | 7 | 0 | 7 | 7 | 0 |  |
+| EvolvedMekanismExtras-1.20.1-1.5.0-fix1-all.jar | emextras | 246 | 218 | 28 | 28 | 0 |  |
 | MekanismEnchantableMekaSuit-1.20.1-1.0.2-all.jar | enchantablemekasuit | 3 | 3 | 0 | 0 | 0 |  |
 | Enchantable-Name-Tags-1.12.6-MODDED-REGEN-COMPAT-forge-1.20.1.jar | enchantablenametags | 40 | 0 | 40 | 40 | 0 |  |
 | Enchantment-Gadgets-1.20.1-1.20.5.jar | enchantment_smelter | 176 | 5 | 171 | 171 | 0 |  |
@@ -206,28 +245,35 @@
 | engineersdecor-1.19.2-forge-1.3.29.jar | engineersdecor | 270 | 3 | 267 | 267 | 0 |  |
 | ensorcellation-1.20.1-5.0.2.24.jar | ensorcellation | 74 | 72 | 2 | 2 | 0 |  |
 | entangled-1.3.21-forge-mc1.20.4.jar | entangled | 24 | 24 | 0 | 0 | 0 |  |
-| entity_model_features-3.3.9-1.20.1-forge.jar | entity_model_features | 287 | 0 | 287 | 287 | 0 |  |
-| entity_texture_features-7.2.4-1.20.1-forge.jar | entity_texture_features | 311 | 4 | 307 | 307 | 0 |  |
+| entity_model_features-3.3.11-1.20.1-forge.jar | entity_model_features | 287 | 0 | 287 | 287 | 0 |  |
+| entity_texture_features-7.2.5-1.20.1-forge.jar | entity_texture_features | 311 | 4 | 307 | 307 | 0 |  |
 | entityculling-forge-1.11.2-mc1.20.1.jar | entityculling | 27 | 0 | 27 | 27 | 0 |  |
-| fieldguide-1.20.1+1.20.1-forge.jar | environmental | 12 | 0 | 12 | 12 | 0 |  |
+| fieldguide-1.21.1+1.20.1-forge.jar | environmental | 12 | 0 | 12 | 12 | 0 |  |
 | epic-fight-20.14.17-mc1.20.1-forge.jar | epicfight | 637 | 462 | 175 | 174 | 1 |  |
 | epitaphs-2.4.0+26.1.2.jar | epitaphs | 90 | 40 | 50 | 49 | 1 |  |
 | EuphoriaPatcher-1.10.5-r5.9.3-forge.jar | euphoria_patcher | 17 | 17 | 0 | 0 | 0 |  |
 | EvilCraft-1.20.1-1.3.3.jar | evilcraft | 627 | 397 | 230 | 230 | 0 |  |
 | EvilCraft-1.20.1-1.3.3.jar | evilcraftcompat | 29 | 2 | 27 | 27 | 0 |  |
+| Evolved Mekanism-1.20.1-1.2.1-fix4.jar | evolvedmekanism | 745 | 291 | 454 | 454 | 0 |  |
 | Exchangers-1.20.1-3.5.1.jar | exchangers | 125 | 1 | 124 | 124 | 0 |  |
 | ExtendedAE-1.20-1.4.21-forge.jar | expatternprovider | 204 | 171 | 33 | 33 | 0 |  |
+| Cognition-v2.4.12-1.20.1.jar | experienceobelisk | 194 | 194 | 0 | 0 | 0 |  |
 | ExplorersCompass-1.20.1-1.4.0-forge.jar | explorerscompass | 68 | 68 | 0 | 0 | 0 |  |
+| Explosion-Overhaul-0.2.3.0-forge-.jar | explosionoverhaul | 225 | 0 | 225 | 225 | 0 |  |
 | ExtraDisks-1.20.1-3.0.3.jar | extradisks | 46 | 28 | 18 | 18 | 0 |  |
 | ExtraStorage-1.20.1-4.0.7.jar | extrastorage | 46 | 0 | 46 | 46 | 0 |  |
 | ExtremeSoundMuffler-3.51-forge-1.20.1.jar | extremesoundmuffler | 56 | 50 | 6 | 6 | 0 |  |
+| factoryfps-1.20.1-forge-1.0.0.jar | factoryfps | 5 | 0 | 5 | 5 | 0 |  |
 | fancymenu_forge_3.9.14_MC_1.20.1.jar | fancymenu | 3372 | 3367 | 5 | 5 | 0 |  |
 | FarmersDelight-1.20.1-1.3.4.jar | farmersdelight | 429 | 377 | 52 | 52 | 0 |  |
 | farmingforblockheads-forge-1.20.1-14.0.4.jar | farmingforblockheads | 50 | 50 | 0 | 0 | 0 |  |
 | FastWorkbench-1.20.1-8.0.4.jar | fastbench | 7 | 0 | 7 | 7 | 0 |  |
-| fieldguide-1.20.1+1.20.1-forge.jar | fieldguide | 311 | 1 | 310 | 310 | 0 |  |
+| fieldguide-1.21.1+1.20.1-forge.jar | fieldguide | 322 | 1 | 321 | 321 | 0 |  |
 | findme-3.2.3-forge.jar | findme | 4 | 0 | 4 | 4 | 0 |  |
+| Firmalife-1.20.1-2.1.28.jar | firmalife | 1013 | 1013 | 0 | 0 | 0 |  |
+| fissionreactoralerts-forge-1.20.1-0.1.0.jar | fissionreactoralerts | 2 | 2 | 0 | 0 | 0 |  |
 | flib-1.20.1-0.0.16.jar | flib | 3 | 0 | 3 | 3 | 0 |  |
+| fluidic_tanks-1.20.1-forge-1.1.1.jar | fluidic_tanks | 24 | 0 | 24 | 24 | 0 |  |
 | FluxNetworks-1.20.1-7.2.1.15.jar | fluxnetworks | 123 | 0 | 123 | 123 | 0 |  |
 | forbidden_arcanus-1.20.1-2.2.6.jar | forbidden_arcanus | 393 | 3 | 390 | 390 | 0 |  |
 | FramedBlocks-9.4.3.jar | framedblocks | 346 | 0 | 346 | 346 | 0 |  |
@@ -241,8 +287,10 @@
 | ftb-quests-forge-2001.4.22.jar | ftbquests | 584 | 0 | 584 | 584 | 0 |  |
 | ftb-teams-forge-2001.3.2.jar | ftbteams | 90 | 0 | 90 | 90 | 0 |  |
 | ftb-ultimine-forge-2001.1.8.jar | ftbultimine | 52 | 0 | 52 | 52 | 0 |  |
+| FunctionalChemical-1.20.1-1.0.jar | functionalchemical | 10 | 0 | 10 | 10 | 0 |  |
 | functionalstorage-1.20.1-1.2.10.jar | functionalstorage | 106 | 0 | 106 | 106 | 0 |  |
-| fusion-1.3.15b-forge-mc1.20.1.jar | fusion | 8 | 0 | 8 | 8 | 0 |  |
+| furyborn-0.4.1-SNAPSHOT.jar | furyborn | 239 | 239 | 0 | 0 | 0 |  |
+| fusion-1.3.16-forge-mc1.20.1.jar | fusion | 8 | 0 | 8 | 8 | 0 |  |
 | fzzy_config-0.7.7+1.20.1+forge.jar | fzzy_config | 287 | 0 | 287 | 287 | 0 |  |
 | gamemenumodoption-mc1.20.1-2.2.1.jar | gamemenumodoption | 1 | 1 | 0 | 0 | 0 |  |
 | GatewaysToEternity-1.20.1-4.2.6.jar | gateways | 87 | 0 | 87 | 87 | 0 |  |
@@ -253,19 +301,25 @@
 | glassential-forge-1.20.1-2.0.0.jar | glassential | 41 | 0 | 41 | 41 | 0 |  |
 | goblintraders-forge-1.20.1-1.11.5.jar | goblintraders | 19 | 6 | 13 | 13 | 0 | 同梱ja_jpが壊れていて読み込まれないため公式訳ごと同梱 |
 | GravitationalModulatingAdditionalUnit-1.20.1-3.5.jar | gravitationalmodulatingunittweaks | 10 | 7 | 3 | 3 | 0 |  |
+| greedycanteen-forge-1.20.1-v1.1.1-all.jar | greedycanteen | 3 | 3 | 0 | 0 | 0 |  |
 | guardvillagers-1.20.1-1.6.19.jar | guardvillagers | 15 | 7 | 8 | 8 | 0 |  |
+| mekanismtacticalsystems-0.0.2.jar | guidedmissiles | 19 | 0 | 19 | 19 | 0 |  |
 | guideme-20.1.15.jar | guideme | 36 | 0 | 36 | 36 | 0 |  |
 | handcrafted-forge-1.20.1-3.0.6.jar | handcrafted | 392 | 216 | 176 | 176 | 0 |  |
+| HardrockMekCompat-1.20.1-1.1.0.jar | hardrock_mek_compat | 44 | 0 | 44 | 44 | 0 |  |
 | HealthOverlay-1.19.2-7.2.1.jar | healthoverlay | 23 | 0 | 23 | 23 | 0 |  |
+| Heavy water Separator-1.0.0.jar | heavy_water_separator | 3 | 3 | 0 | 0 | 0 |  |
 | hexal-forge-1.20.1-0.3.1.jar | hexal | 358 | 1 | 357 | 357 | 0 |  |
 | hexcasting-forge-1.20.1-0.11.4.jar | hexcasting | 1386 | 1386 | 0 | 0 | 0 |  |
 | hexerei-0.4.2.3.jar | hexerei | 1053 | 5 | 1048 | 1048 | 0 |  |
-| otherworld-0.9.2.5.jar | horrorjarred | 673 | 153 | 520 | 520 | 0 |  |
+| otherworld-0.9.2.8.jar | horrorjarred | 806 | 163 | 643 | 643 | 0 |  |
 | HostileNeuralNetworks-1.20.1-5.3.3.jar | hostilenetworks | 160 | 3 | 157 | 157 | 0 |  |
 | IceAndFireCE-1.2.9-1.20.1-forge.jar | iceandfire | 1407 | 1196 | 211 | 211 | 0 |  |
 | iChunUtil-1.20.1-Forge-1.0.3.jar | ichunutil | 38 | 0 | 38 | 38 | 0 |  |
 | idas_forge-1.13.0+1.20.1.jar | idas | 6 | 0 | 6 | 4 | 2 |  |
+| Iglee's Library-1.20.1-1.2.7.jar | igleelib | 15 | 0 | 15 | 15 | 0 |  |
 | IMBlocker-5.6.2.1-forge+1.17-1.20.4.jar | imblocker | 46 | 0 | 46 | 46 | 0 |  |
+| immaterialdrawers-0.2.1+1.20.1.jar | immaterialdrawers | 18 | 0 | 18 | 18 | 0 |  |
 | immersive_armors-1.7.2+1.20.1-forge.jar | immersive_armors | 70 | 70 | 0 | 0 | 0 |  |
 | ImmersiveEngineering-1.20.1-10.2.0-183.jar | immersiveengineering | 1405 | 1403 | 2 | 2 | 0 |  |
 | immersiveoverlays-1.8.5+1.20.1-forge.jar | immersiveoverlays | 225 | 0 | 225 | 225 | 0 |  |
@@ -276,6 +330,7 @@
 | IntegratedCrafting-1.20.1-1.4.8.jar | integratedcrafting | 110 | 1 | 109 | 109 | 0 |  |
 | IntegratedDynamics-1.20.1-1.31.3.jar | integrateddynamics | 1754 | 1 | 1753 | 1753 | 0 |  |
 | IntegratedDynamics-1.20.1-1.31.3.jar | integrateddynamicscompat | 214 | 1 | 213 | 213 | 0 |  |
+| IntegratedMekanism-1.20.1-1.1.0.jar | integratedmekanism | 256 | 1 | 255 | 255 | 0 |  |
 | IntegratedNBT-1.20.1-1.6.3.jar | integratednbt | 85 | 1 | 84 | 84 | 0 |  |
 | IntegratedTerminals-1.20.1-1.7.0.jar | integratedterminals | 177 | 1 | 176 | 176 | 0 |  |
 | IntegratedTerminals-1.20.1-1.7.0.jar | integratedterminalscompat | 12 | 1 | 11 | 11 | 0 |  |
@@ -285,7 +340,7 @@
 | epic-fight-invincible-lib-20.14.8.2-mc1.20.1-forge.jar | invincible | 10 | 0 | 10 | 10 | 0 |  |
 | inworldrecipes-26.1.2-2.6.1.jar | inworldrecipes | 44 | 0 | 44 | 44 | 0 |  |
 | oculus-mc1.20.1-1.8.0.jar | iris | 72 | 62 | 10 | 10 | 0 |  |
-| IrisSearch-1.8.1-forge.jar | iris_search | 13 | 13 | 0 | 0 | 0 |  |
+| IrisSearch-1.8.2-forge.jar | iris_search | 13 | 13 | 0 | 0 | 0 |  |
 | ironfurnaces-1.20.1-4.1.8.jar | ironfurnaces | 141 | 1 | 140 | 140 | 0 |  |
 | IronJetpacks-1.20.1-7.0.9.jar | ironjetpacks | 39 | 39 | 0 | 0 | 0 |  |
 | irons_artifice-26.1.2-1.0.0.jar | irons_artifice | 181 | 124 | 57 | 57 | 0 |  |
@@ -293,29 +348,32 @@
 | irons_lib-1.20.1-2.2.0.jar | irons_lib | 72 | 0 | 72 | 72 | 0 |  |
 | irons_lib-1.20.1-2.2.0.jar | irons_patreon_lib | 2 | 0 | 2 | 2 | 0 |  |
 | irons_spellbooks-1.20.1-3.16.3.jar | irons_spellbooks | 1323 | 1233 | 90 | 90 | 0 |  |
+| irradiated_generator-0.2.1.jar | irradiated_generator | 5 | 5 | 0 | 0 | 0 |  |
 | item-descriptions-2.5.4+1.20.1-forge.jar | item_descriptions | 1545 | 0 | 1545 | 1545 | 0 |  |
 | itemcollectors-1.1.12-forge-mc1.20.2.jar | itemcollectors | 15 | 0 | 15 | 15 | 0 |  |
 | item-filters-forge-2001.1.0-build.59.jar | itemfilters | 41 | 0 | 41 | 41 | 0 |  |
 | Jade-1.20.1-Forge-11.13.3.jar | jade | 282 | 248 | 34 | 34 | 0 |  |
 | jearchaeology-1.20.1-1.0.4.jar | jearchaeology | 20 | 0 | 20 | 20 | 0 |  |
 | jei-1.20.1-forge-15.56.0.205.jar | jei | 340 | 305 | 35 | 35 | 0 |  |
-| JustEnoughMekanismMultiblocks-1.20.1-4.26.jar | jei_mekanism_multiblocks | 103 | 62 | 41 | 41 | 0 |  |
-| jei_plus_plus-1.0.6-1.20.1.jar | jei_plus_plus | 84 | 0 | 84 | 84 | 0 |  |
+| JustEnoughMekanismMultiblocks-1.20.1-4.27.jar | jei_mekanism_multiblocks | 103 | 62 | 41 | 41 | 0 |  |
+| jei_plus_plus-1.0.7-1.20.1.jar | jei_plus_plus | 93 | 0 | 93 | 93 | 0 |  |
 | JustEnoughResources-1.20.1-1.4.0.247.jar | jeresources | 144 | 1 | 143 | 143 | 0 |  |
 | jmi-forge-1.20.1-0.15-74.jar | jmi | 4 | 0 | 4 | 4 | 0 |  |
-| journeymap-forge-1.20.1-6.0.6.jar | journeymap | 1398 | 1395 | 3 | 3 | 0 |  |
+| journeymap-forge-1.20.1-6.0.7.jar | journeymap | 1398 | 1395 | 3 | 3 | 0 |  |
 | jumpoverfences-forge-1.20.1-1.3.1.jar | jumpoverfences | 3 | 0 | 3 | 3 | 0 |  |
 | jupiter-2.3.7-1.20.1-forge.jar | jupiter | 45 | 0 | 45 | 45 | 0 |  |
 | justdirethings-1.6.11.jar | justdirethings | 492 | 482 | 10 | 10 | 0 |  |
-| justenoughbreeding-forge-1.20.1-3.1.1.jar | justenoughbreeding | 22 | 22 | 0 | 0 | 0 |  |
+| justenoughbreeding-forge-1.20.1-3.1.2.jar | justenoughbreeding | 22 | 22 | 0 | 0 | 0 |  |
 | JustEnoughProfessions-forge-1.20.1-3.0.1.jar | justenoughprofessions | 1 | 0 | 1 | 1 | 0 |  |
 | justenoughrecipesharing-neoforge-26.1.2-1.1.2.jar | justenoughrecipesharing | 6 | 6 | 0 | 0 | 0 |  |
-| justenoughthreads-0.14.2+1.20.1.jar | justenoughthreads | 4 | 0 | 4 | 4 | 0 |  |
-| justzoom_forge_2.1.1_MC_1.20.1.jar | justzoom | 29 | 0 | 29 | 29 | 0 |  |
+| justenoughthreads-0.14.3+1.20.1.jar | justenoughthreads | 4 | 0 | 4 | 4 | 0 |  |
+| justzoom_forge_3.0.1_MC_1.20.1.jar | justzoom | 68 | 68 | 0 | 0 | 0 |  |
 | keybindbundles-1.20.1-1.1.0.jar | keybindbundles | 23 | 0 | 23 | 23 | 0 |  |
 | KeybindsPurger-1.4.0-forge-1.20.1.jar | keybindspurger | 4 | 0 | 4 | 4 | 0 |  |
+| kontraption-0.0.5+c9426eb2a6.jar | kontraption | 61 | 1 | 60 | 59 | 1 |  |
 | laserbridges-1.20.1-forge-6.1.jar | laserbridges | 9 | 0 | 9 | 9 | 0 |  |
 | laserio-1.6.8.jar | laserio | 90 | 0 | 90 | 90 | 0 |  |
+| lava_generator-1.0.0-forge-1.20.1.jar | lava_generator | 7 | 5 | 2 | 2 | 0 |  |
 | lendersdelight-1.20.1-1.0.10b.jar | lendersdelight | 86 | 0 | 86 | 86 | 0 |  |
 | libIPN-forge-1.20-4.0.2.jar | libipn | 28 | 0 | 28 | 28 | 0 |  |
 | LibX-1.20.1-5.0.12.jar | libx | 51 | 0 | 51 | 51 | 0 |  |
@@ -343,50 +401,103 @@
 | mcw-mcwwindows-2.4.2-mc1.20.1forge.jar | mcwwindows | 326 | 326 | 0 | 0 | 0 |  |
 | Measurements-forge-1.20.1-2.0.1.jar | measurements | 8 | 1 | 7 | 7 | 0 |  |
 | megacells-forge-2.4.6-1.20.1.jar | megacells | 108 | 0 | 108 | 108 | 0 |  |
+| mek_absolute_finite_energy_cube-1.20.1-release1.0a-forge.jar | mek_absolute_finite_energy_cube | 5 | 0 | 5 | 5 | 0 |  |
+| MekanismEverythingGenerator-1.20.1-release1.0a-forge.jar | mek_everything_generator | 2 | 0 | 2 | 2 | 0 |  |
+| mek-factory-info-forge-1.20.1-1.0.0.jar | mek_factory_info | 23 | 0 | 23 | 23 | 0 |  |
+| mek_integrated_simply_swords-1.0.0.jar | mek_integrated_simply_swords | 91 | 0 | 91 | 91 | 0 |  |
+| MekanismSimpleEngines-1.20.1-release1.0a-forge.jar | mek_simple_engines | 20 | 18 | 2 | 2 | 0 |  |
+| mek_x_star-1.20.1-1.4.0.jar | mek_x_star | 17 | 0 | 17 | 17 | 0 |  |
+| MekanismAdvancedCore-1.20.1-10.4.13.69.jar | mekadvcore | 3 | 3 | 0 | 0 | 0 |  |
+| MekanismAdvancedGenerators-1.20.1-10.4.13.69.jar | mekadvgen | 33 | 33 | 0 | 0 | 0 |  |
 | mekagenjei-1.2.1-20.1.jar | mekagenjei | 10 | 0 | 10 | 10 | 0 |  |
 | mekajadeupgrade-1.4-20.1.jar | mekajadeupgrade | 1 | 0 | 1 | 1 | 0 |  |
 | mekalights-1.2.4.jar | mekalights | 35 | 1 | 34 | 32 | 2 |  |
-| Mekanism-1.20.1-10.4.16.80.jar | mekanism | 1656 | 1655 | 1 | 1 | 0 |  |
+| mekanicalcreate-0.2.7+mc1.20.1.jar | mekanicalcreate | 76 | 0 | 76 | 76 | 0 |  |
+| mekanism_trimming-1.20.1-1.0.jar | mekanism | 1668 | 1655 | 13 | 13 | 0 |  |
 | mekanism_animation_injector-0.5-SNAPSHOT.jar | mekanism_animation_injector | 9 | 9 | 0 | 0 | 0 |  |
+| mekanism_avaritia-0.2.1.jar | mekanism_avaritia | 131 | 131 | 0 | 0 | 0 |  |
+| mekanism_bin_installer-1.0.0.jar | mekanism_bin_installer | 6 | 4 | 2 | 2 | 0 |  |
+| mekanism_clean_vision-1.0.5-1.20.1.jar | mekanism_clean_vision | 2 | 2 | 0 | 0 | 0 |  |
+| mekanism_easy_dust-1.0.0.jar | mekanism_easy_dust | 4 | 4 | 0 | 0 | 0 |  |
+| MekanismEmpowered-20.1-1.3.1.jar | mekanism_empowered | 23 | 0 | 23 | 23 | 0 |  |
+| mekanism_eternal_daystar-1201-1.0.1.jar | mekanism_eternal_daystar | 11 | 11 | 0 | 0 | 0 |  |
 | mekanism_extras-1.20.1-1.5.0.jar | mekanism_extras | 372 | 372 | 0 | 0 | 0 |  |
+| mekanism_large_gauge_dropper-1.20.1-1.0.1.jar | mekanism_large_gauge_dropper | 1 | 1 | 0 | 0 | 0 |  |
 | mekanism_lasers-1.0.10.jar | mekanism_lasers | 20 | 1 | 19 | 19 | 0 |  |
+| mekanism_magic-1.0.4-forge-1.20.1.jar | mekanism_magic | 84 | 0 | 84 | 84 | 0 |  |
+| mekanism_mobs-1.0.4.5VAlph-forge-1.20.1.jar | mekanism_mobs | 166 | 0 | 166 | 61 | 105 |  |
+| Nova-Mekanism-1.20.1-1.2.2.jar | mekanism_more_multiblock | 421 | 421 | 0 | 0 | 0 |  |
+| mekanism_nuclearscience-2.0.0.jar | mekanism_nuclearscience | 24 | 0 | 24 | 24 | 0 |  |
+| mekanism_optimizer-1.20.1-1.2.0.jar | mekanism_optimizer | 50 | 50 | 0 | 0 | 0 |  |
+| mekanism_overclocker-1.20.1-1.0.0-beta.jar | mekanism_overclocker | 9 | 9 | 0 | 0 | 0 |  |
+| mekanism_ponders-1.0.3-1.20.1.jar | mekanism_ponders | 150 | 0 | 150 | 150 | 0 |  |
+| mekanism_the_valine-1.20.1-1.0.1.jar | mekanism_the_valine | 5 | 5 | 0 | 0 | 0 |  |
 | mekanism_turrets-1.3.3.jar | mekanism_turrets | 18 | 18 | 0 | 0 | 0 |  |
 | mekanism_weaponry-1.1.3.jar | mekanism_weaponry | 56 | 0 | 56 | 56 | 0 |  |
+| mekanism-ad-astra-ores-forge-1.20.1-1.1.0.jar | mekanismaaa | 17 | 17 | 0 | 0 | 0 |  |
 | MekanismAdditions-1.20.1-10.4.16.80.jar | mekanismadditions | 321 | 321 | 0 | 0 | 0 |  |
+| mekanismcardboardtooltip-forge-1.20.1-1.4.0.jar | mekanismcardboardtooltip | 3 | 0 | 3 | 3 | 0 |  |
 | mekanismcovers-1.3-BETA+1.20.jar | mekanismcovers | 3 | 0 | 3 | 3 | 0 |  |
 | mekanismcurios-1.20.1-1.2.1.jar | mekanismcurios | 10 | 0 | 10 | 10 | 0 |  |
+| MekanismDelight-1.20.1-1.1.3.jar | mekanismdelight | 53 | 53 | 0 | 0 | 0 |  |
+| mekanismdieselgenerators-1.3.1+mc1.20.1.jar | mekanismdieselgenerators | 459 | 0 | 459 | 458 | 1 |  |
+| MekanismElements-1.20.1-3.0.0-Forge.jar | mekanismelements | 271 | 265 | 6 | 6 | 0 |  |
+| MekanismExplosives-1.20.1-0.3.5.jar | mekanismexplosives | 94 | 20 | 74 | 74 | 0 |  |
 | MekanismGenerators-1.20.1-10.4.16.80.jar | mekanismgenerators | 202 | 202 | 0 | 0 | 0 |  |
+| MekanismMoreMachine-1.20.1-1.0.jar | mekanismmoremachine | 6 | 6 | 0 | 0 | 0 |  |
+| mekanismneutronactivator-1.20.1-1.3.0.jar | mekanismneutronactivator | 7 | 7 | 0 | 0 | 0 |  |
+| mekanismoresfornetherandend-1.0.0-forge-1.20.1.jar | mekanismoresfornetherandend | 11 | 0 | 11 | 11 | 0 |  |
+| MekanismPipeExcavation-1.20.1-1.0.0-all.jar | mekanismpipeexcavation | 2 | 2 | 0 | 0 | 0 |  |
+| mekanismsophisticatedbackpacks-1.0.1+mc1.20.1-forge.jar | mekanismsophisticatedbackpacks | 4 | 0 | 4 | 4 | 0 |  |
+| mto-1.1-forge-1.20.1.jar | mekanismtieredoutlines | 1 | 0 | 1 | 1 | 0 |  |
 | MekanismTools-1.20.1-10.4.16.80.jar | mekanismtools | 183 | 183 | 0 | 0 | 0 |  |
+| mekanismtrashcube-2.0.5-Forge.jar | mekanismtrashcube | 15 | 15 | 0 | 0 | 0 |  |
+| MekanismVoidStabilizingUnit-1201-1.0.0.jar | mekanismvoidstabilizingunit | 4 | 4 | 0 | 0 | 0 |  |
+| mekapumps-1.0.0.jar | mekapumps | 8 | 4 | 4 | 4 | 0 |  |
 | MekanismWeapons-1.20.1-4.2.1.jar | mekaweapons | 47 | 0 | 47 | 47 | 0 |  |
+| mekccupgrades-1.5.0.jar | mekccupgrades | 89 | 89 | 0 | 0 | 0 |  |
 | mekmi-1.1.8.jar | mekmi | 607 | 0 | 607 | 607 | 0 |  |
+| mekmissiles-FORGE-1.5.2-1.20.1.jar | mekmissiles | 38 | 0 | 38 | 38 | 0 |  |
 | mekmm-1.20.1-1.1.2.jar | mekmm | 348 | 348 | 0 | 0 | 0 |  |
+| mekuniverse-0.1.jar | mekuniverse | 29 | 28 | 1 | 1 | 0 |  |
 | mekvamp-1.20.1-1.0.jar | mekvamp | 4 | 0 | 4 | 4 | 0 |  |
 | merequester-forge-1.20.1-1.2.1.jar | merequester | 23 | 0 | 23 | 23 | 0 |  |
 | MoogsEndStructures-universal-1.20-2.1.0.jar | mes | 7 | 0 | 7 | 7 | 0 |  |
 | mezz_config-1.20.1-forge-0.6.8.jar | mezz_config | 18 | 18 | 0 | 0 | 0 |  |
 | mffs-5.1.29-all.jar | mffs | 181 | 0 | 181 | 179 | 2 |  |
 | migueleconomy-1.1.4.jar | migueleconomy | 20 | 0 | 20 | 20 | 0 |  |
-| minecolonies-1.20.1-1.1.1301-snapshot.jar | minecolonies | 3778 | 3778 | 0 | 0 | 0 |  |
-| otherworld-0.9.2.5.jar | minecraft | 6222 | 6127 | 95 | 95 | 0 |  |
+| minecolonies-1.20.1-1.1.1302-snapshot.jar | minecolonies | 3780 | 3780 | 0 | 0 | 0 |  |
+| otherworld-0.9.2.8.jar | minecraft | 6223 | 6127 | 96 | 96 | 0 |  |
+| minecraftdungeons-1.0.7-1.20.1.jar | minecraftdungeons | 589 | 0 | 589 | 583 | 6 |  |
 | mininggadgets-1.15.6.jar | mininggadgets | 85 | 0 | 85 | 85 | 0 |  |
+| mlrm-1.20.1-1.2.jar | mlrm | 15 | 15 | 0 | 0 | 0 |  |
 | MoogsMineshaftsReimagined-universal-1.20-1.1.0.jar | mmr | 29 | 0 | 29 | 29 | 0 |  |
+| mnwe-FORGE-1.7.1-1.20.1.jar | mnwe | 110 | 0 | 110 | 110 | 0 |  |
 | mob_grinding_utils-1.20.1-1.1.0.jar | mob_grinding_utils | 146 | 1 | 145 | 145 | 0 |  |
 | modernfix-forge-5.27.85+mc1.20.1.jar | modernfix | 155 | 121 | 34 | 34 | 0 |  |
 | modnametooltip-1.20.1-1.20.0.jar | modnametooltip | 2 | 0 | 2 | 2 | 0 |  |
 | modonomicon-1.20.1-forge-1.79.3.jar | modonomicon | 195 | 0 | 195 | 68 | 127 |  |
 | modular-routers-12.1.1+mc1.20.1.jar | modularrouters | 360 | 2 | 358 | 358 | 0 |  |
 | modulation-forge-1.20.1-1.6.1.jar | modulation | 43 | 0 | 43 | 43 | 0 |  |
-| MoogsStructureLib-forge-1.20-3.4.1.jar | moogs_structures | 14 | 0 | 14 | 14 | 0 |  |
-| moonlight-1.20-2.16.35-forge.jar | moonlight | 10 | 9 | 1 | 1 | 0 |  |
+| MoogsStructureLib-forge-1.20-3.4.2.jar | moogs_structures | 14 | 0 | 14 | 14 | 0 |  |
+| moonlight-1.20-2.16.36-forge.jar | moonlight | 10 | 9 | 1 | 1 | 0 |  |
+| more_gauge_droppers-0.3.0.jar | more_gauge_droppers | 8 | 8 | 0 | 0 | 0 |  |
 | moreiotas-forge-1.20.1-0.1.2.jar | moreiotas | 157 | 0 | 157 | 157 | 0 |  |
 | MoreMekanismProcessing-1.20.1-4.5.jar | moremekanismprocessing | 64 | 60 | 4 | 4 | 0 |  |
+| moremekasuitmodules-1.20.1-1.0.2.jar | moremekasuitmodules | 55 | 55 | 0 | 0 | 0 |  |
+| moremultiblock-1.1.jar | moremultiblock | 7 | 0 | 7 | 7 | 0 |  |
 | moreoverlays-1.24.1-mc1.20.1-forge.jar | moreoverlays | 41 | 0 | 41 | 41 | 0 |  |
 | moreprotectables-1.20.1-1.2.3.10.jar | moreprotectables | 42 | 0 | 42 | 42 | 0 |  |
 | morered-1.20.1-4.0.0.4.jar | morered | 50 | 0 | 50 | 50 | 0 |  |
+| morethermalevaporation-3.1.0.jar | morethermalevaporation | 67 | 67 | 0 | 0 | 0 |  |
+| morethermalevaporationcompat-2.3-fix1.jar | morethermalevaporationcompat | 146 | 146 | 0 | 0 | 0 |  |
 | Morph-o-Tool-1.7-38.jar | morphtool | 3 | 0 | 3 | 3 | 0 |  |
 | mowziesmobs-1.8.2.jar | mowziesmobs | 440 | 382 | 58 | 58 | 0 |  |
+| MekanismSpectatorModule-1.20.1-1.2.jar | msm | 4 | 4 | 0 | 0 | 0 |  |
 | multipiston-1.20-1.2.43-RELEASE.jar | multipiston | 2 | 0 | 2 | 2 | 0 |  |
 | MoogsVoyagerStructures-universal-1.20-5.1.3.jar | mvs | 7 | 0 | 7 | 7 | 0 |  |
+| Mekanism-Water-Generator-Rebuild-1201-1.1.9.jar | mwgr | 20 | 20 | 0 | 0 | 0 |  |
+| mwgr_ae-1.20.1-1.0.1.jar | mwgr_ae | 3 | 0 | 3 | 3 | 0 |  |
 | myrtrees-forge-1.2.0-build.32.jar | myrtrees | 9 | 0 | 9 | 9 | 0 |  |
 | MysticalAgradditions-1.20.1-7.0.12.jar | mysticalagradditions | 105 | 105 | 0 | 0 | 0 |  |
 | MysticalAgriculture-1.20.1-7.0.24.jar | mysticalagriculture | 748 | 748 | 0 | 0 | 0 |  |
@@ -402,17 +513,28 @@
 | nethersdelight-1.20.1-4.0.jar | nethersdelight | 47 | 0 | 47 | 47 | 0 |  |
 | cfm+nfm-forge-2026.09.19-1.20.1.jar | nfm | 539 | 0 | 539 | 539 | 0 |  |
 | NoChatReports-FORGE-1.20.1-v2.2.3.jar | nochatreports | 129 | 113 | 16 | 16 | 0 |  |
-| fieldguide-1.20.1+1.20.1-forge.jar | nomansland | 9 | 0 | 9 | 9 | 0 |  |
+| fieldguide-1.21.1+1.20.1-forge.jar | nomansland | 9 | 0 | 9 | 9 | 0 |  |
 | nomorecraters-1.0.0.jar | nomorecraters | 10 | 0 | 10 | 10 | 0 |  |
 | nomowanderer-1.20.1_1.6.4.jar | nomowanderer | 4 | 0 | 4 | 4 | 0 |  |
+| Northstar-0.6.6+1.20.1.jar | northstar | 845 | 844 | 1 | 1 | 0 |  |
 | notenoughanimations-forge-1.12.6-mc1.20.1.jar | notenoughanimations | 107 | 0 | 107 | 107 | 0 |  |
+| Nuclear Science-1.20.1-0.8.12.jar | nuclearscience | 371 | 0 | 371 | 363 | 8 |  |
 | nydelight-1.1.0.jar | nydelight | 23 | 23 | 0 | 0 | 0 |  |
 | obscuras_simple_storage-forge-mc1.20.1-v5.0.0.jar | obscuras_storage | 431 | 134 | 297 | 297 | 0 |  |
 | obscure_api-18.jar | obscure_api | 114 | 1 | 113 | 69 | 44 |  |
 | observable-4.4.2.jar | observable | 33 | 0 | 33 | 33 | 0 |  |
 | occultism-1.20.1-1.158.0.jar | occultism | 1685 | 1685 | 0 | 0 | 0 |  |
+| omni_upgrades-1.0.0-1.20.1.jar | omni_upgrades | 9 | 0 | 9 | 9 | 0 |  |
 | oracle_index-neoforge-2.0.0.jar | oracle_index | 45 | 0 | 45 | 45 | 0 |  |
+| oreexcavation-1.13.174.jar | oreexcavation | 35 | 9 | 26 | 26 | 0 |  |
 | oritech-2.0.0-exp6.jar | oritech | 1330 | 1328 | 2 | 2 | 0 |  |
+| OrnateLib-1.20.1-release1.2a-forge.jar | ornatelib | 83 | 41 | 42 | 1 | 41 |  |
+| overloadgenerators-2.1.0.jar | overloadgenerators | 23 | 21 | 2 | 2 | 0 |  |
+| overmek-1.2.0.jar | overmek | 66 | 0 | 66 | 66 | 0 |  |
+| package_mod_core-1.1.6.jar | package_mod_core | 337 | 337 | 0 | 0 | 0 |  |
+| package_mod_mekanism-1.1.1.jar | package_mod_mekanism | 270 | 270 | 0 | 0 | 0 |  |
+| PackagedAuto-1.20.1-3.4.15.46.jar | packagedauto | 97 | 97 | 0 | 0 | 0 |  |
+| PackagedMekemicals-1.20.1-1.2.2.13.jar | packagedmekemicals | 9 | 9 | 0 | 0 | 0 |  |
 | PackMenu-1.20.1-6.1.2.jar | packmenu | 5 | 0 | 5 | 5 | 0 |  |
 | pamhc2crops-1.20-1.0.3.jar | pamhc2crops | 320 | 0 | 320 | 320 | 0 |  |
 | pamhc2foodcore-1.20.4-1.0.5.jar | pamhc2foodcore | 182 | 0 | 182 | 182 | 0 |  |
@@ -435,9 +557,11 @@
 | productivemetalworks-26.1.2-1.17.1.jar | productivemetalworks | 373 | 302 | 71 | 71 | 0 |  |
 | productivetrees-1.20.1-0.2.6.jar | productivetrees | 3860 | 1 | 3859 | 3698 | 161 |  |
 | pylons-1.20.1-4.3.0.jar | pylons | 47 | 0 | 47 | 47 | 0 |  |
-| Quark-4.0-462.jar | quark | 1516 | 1516 | 0 | 0 | 0 |  |
+| qioautocrafter-0.2.0.jar | qioautocrafter | 130 | 0 | 130 | 128 | 2 |  |
+| fieldguide-1.21.1+1.20.1-forge.jar | quark | 1527 | 1516 | 11 | 11 | 0 |  |
 | AdditionalEnchantedMiner-1.20.1-1201.1.136.jar | quarryplus | 205 | 205 | 0 | 0 | 0 |  |
 | quartz-1.20.1-0.2.0-alpha.0.1.jar | quartz | 2 | 0 | 2 | 2 | 0 |  |
+| QuickLink-1.1.17-1.20.1.jar | quicklink | 12 | 0 | 12 | 12 | 0 |  |
 | railcraft-reborn-1.20.1-1.1.11.jar | railcraft | 1030 | 874 | 156 | 156 | 0 |  |
 | Steam_Rails-1.7.3+forge-mc1.20.1.jar | railways | 2571 | 957 | 1614 | 1614 | 0 |  |
 | rangedpumps-1.1.0.jar | rangedpumps | 9 | 0 | 9 | 9 | 0 |  |
@@ -459,6 +583,9 @@
 | RegionsUnexploredForge-0.5.6+1.20.1.jar | regions_unexplored | 836 | 836 | 0 | 0 | 0 |  |
 | relics-1.20.1-0.8.0.13.jar | relics | 403 | 402 | 1 | 1 | 0 |  |
 | reliquary-1.20.1-2.0.65.1565.jar | reliquary | 362 | 362 | 0 | 0 | 0 |  |
+| remotedesk-1.0.2-forge-1.20.1.jar | remotedesk | 132 | 4 | 128 | 127 | 1 |  |
+| replicatemekanism-forge-1.20.1-1.4.6.jar | replicatemekanism | 119 | 118 | 1 | 1 | 0 |  |
+| Replication-1.20.1-1.1.3.jar | replication | 51 | 9 | 42 | 42 | 0 |  |
 | repurposed_structures-7.1.25+1.20.1-forge.jar | repurposed_structures | 162 | 60 | 102 | 102 | 0 |  |
 | rftoolsbase-1.20-5.0.7.jar | rftoolsbase | 55 | 1 | 54 | 54 | 0 |  |
 | rftoolsbuilder-1.20-6.0.10.jar | rftoolsbuilder | 97 | 0 | 97 | 97 | 0 |  |
@@ -468,10 +595,12 @@
 | rftoolsutility-1.20-6.0.7.jar | rftoolsutility | 242 | 0 | 242 | 242 | 0 |  |
 | RootsClassic-1.20.1-1.4.2.jar | rootsclassic | 465 | 2 | 463 | 463 | 0 |  |
 | routers-26.1.2-2.7.5.jar | routers | 69 | 0 | 69 | 69 | 0 |  |
+| routerupgradecore-1.20.1-forge-0.1.1.jar | routerupgradecore | 2 | 2 | 0 | 0 | 0 |  |
 | rsgauges-1.19.2-forge-1.2.19.jar | rsgauges | 332 | 3 | 329 | 329 | 0 |  |
 | RSInfinityBooster-1.20.1-1.0+41.jar | rsinfinitybooster | 3 | 0 | 3 | 3 | 0 |  |
 | rsrequestify-1.20.1-2.3.3.jar | rsrequestify | 7 | 0 | 7 | 7 | 0 |  |
 | Runelic-Forge-1.20.1-18.0.4.jar | runelic | 819 | 0 | 819 | 819 | 0 |  |
+| wickedacidbomb-1.2.1.jar | saeurefassmod | 6 | 0 | 6 | 6 | 0 |  |
 | Searchables-forge-1.20.1-1.0.3.jar | searchables | 1 | 1 | 0 | 0 | 0 |  |
 | sebastrnlib-4.0.0.jar | sebastrnlib | 37 | 0 | 37 | 37 | 0 |  |
 | [1.20.1] SecurityCraft v1.10.2.1.jar | securitycraft | 1442 | 1441 | 1 | 1 | 0 |  |
@@ -479,9 +608,10 @@
 | Super Factory Manager (SFM)-MC1.20.1-4.34.0.jar | sfm | 281 | 0 | 281 | 281 | 0 |  |
 | sgearmetalworks-26.1.2-1.6.0.jar | sgearmetalworks | 139 | 129 | 10 | 10 | 0 |  |
 | shetiphiancore-forge-1.20.1-1.5.jar | shetiphiancore | 102 | 1 | 101 | 101 | 0 |  |
+| shippy_ships-1.0.17.6-FORGE-MC-1.20.1.jar | shippy_ships | 111 | 0 | 111 | 111 | 0 |  |
 | ShoulderSurfing-Forge-1.20.1-5.2.0.jar | shouldersurfing | 360 | 0 | 360 | 360 | 0 |  |
 | Shrink-1.20.1-1.4.5.jar | shrink | 7 | 0 | 7 | 7 | 0 |  |
-| shulespotions-0.4.1.jar | shulespotions | 330 | 20 | 310 | 310 | 0 |  |
+| shulespotions-0.4.2.jar | shulespotions | 330 | 20 | 310 | 310 | 0 |  |
 | silent-gear-1.20.1-3.6.7.jar | silentgear | 963 | 963 | 0 | 0 | 0 |  |
 | silents-gems-1.20.1-4.7.0.jar | silentgems | 85 | 0 | 85 | 85 | 0 |  |
 | silent-lib-1.20.1-8.0.0.jar | silentlib | 5 | 0 | 5 | 5 | 0 |  |
@@ -490,39 +620,43 @@
 | simplylight-1.20.1-1.4.6-build.50.jar | simplylight | 125 | 0 | 125 | 125 | 0 |  |
 | simplyswords-forge-neoforge-1.70.2-1.20.1.jar | simplyswords | 2267 | 637 | 1630 | 1630 | 0 |  |
 | SimplyTooltips-forge-0.1.5-1.20.1.jar | simplytooltips | 31 | 0 | 31 | 31 | 0 |  |
-| skarrier_mobs-1.0.9-forge-1.20.1.jar | skarrier_mobs | 460 | 11 | 449 | 449 | 0 |  |
+| skarrier_mobs-1.1.0(hotfix)-forge-1.20.1.jar | skarrier_mobs | 462 | 11 | 451 | 451 | 0 |  |
 | skinlayers3d-forge-1.11.3-mc1.20.1.jar | skinlayers3d | 44 | 34 | 10 | 10 | 0 |  |
 | sliceanddice-forge-3.6.0.jar | sliceanddice | 17 | 10 | 7 | 7 | 0 |  |
 | smoothboot(reloaded)-mc1.20.1-0.0.4.jar | smoothboot | 14 | 0 | 14 | 14 | 0 |  |
 | sodium-extra-neoforge-0.9.4+mc26.1.2.jar | sodium-extra | 420 | 380 | 40 | 40 | 0 |  |
 | embeddium-0.3.31+mc1.20.1.jar | sodium | 65 | 0 | 65 | 65 | 0 |  |
 | sodiumdynamiclights-forge-1.0.10-1.20.1.jar | sodiumdynamiclights | 34 | 19 | 15 | 15 | 0 |  |
+| Mekanism-MoreSolarPanels-1.20.1-1.5.9.jar | solarpanels | 35 | 0 | 35 | 35 | 0 |  |
 | solcarrot-1.20.1-1.15.1.jar | solcarrot | 59 | 0 | 59 | 59 | 0 |  |
 | soldiersdelight-1.2-forge-1.20.1.jar | soldiersdelight | 22 | 0 | 22 | 22 | 0 |  |
-| sophisticatedbackpacks-1.20.1-3.26.6.2176.jar | sophisticatedbackpacks | 299 | 223 | 76 | 76 | 0 |  |
-| sophisticatedcore-1.20.1-1.5.4.2362.jar | sophisticatedcore | 304 | 215 | 89 | 89 | 0 |  |
-| sophisticatedinventoryinteractions-1.20.1-0.1.13.210.jar | sophisticatedinventoryinteractions | 6 | 0 | 6 | 6 | 0 |  |
+| sophisticatedbackpacks-1.20.1-3.26.9.2194.jar | sophisticatedbackpacks | 299 | 223 | 76 | 76 | 0 |  |
+| sophisticatedcore-1.20.1-1.5.6.2378.jar | sophisticatedcore | 304 | 215 | 89 | 89 | 0 |  |
+| sophisticatedinventoryinteractions-1.20.1-0.1.14.225.jar | sophisticatedinventoryinteractions | 26 | 0 | 26 | 26 | 0 |  |
 | sophisticateditemactions-1.20.1-0.4.18.414.jar | sophisticateditemactions | 35 | 0 | 35 | 35 | 0 |  |
-| sophisticatedstorage-1.20.1-1.5.0.2137.jar | sophisticatedstorage | 314 | 230 | 84 | 84 | 0 |  |
-| sophisticatedstorageinmotion-1.20.1-0.10.38.362.jar | sophisticatedstorageinmotion | 8 | 7 | 1 | 1 | 0 |  |
+| sophisticatedstorage-1.20.1-1.5.1.2158.jar | sophisticatedstorage | 314 | 230 | 84 | 84 | 0 |  |
+| sophisticatedstorageinmotion-1.20.1-0.10.39.371.jar | sophisticatedstorageinmotion | 8 | 7 | 1 | 1 | 0 |  |
 | sound-physics-remastered-forge-1.20.1-1.5.1.jar | sound_physics_remastered | 72 | 0 | 72 | 72 | 0 |  |
+| spatialtoolscmp-1.12.4.jar | spatialtoolscmp | 271 | 0 | 271 | 267 | 4 |  |
 | specs_irons_spellbooks-1.6.10-forge-1.20.1.jar | specs_irons_spellbooks | 125 | 0 | 125 | 125 | 0 |  |
 | spell_actionbar-1.1.7-forge-1.20.1.jar | spell_actionbar | 4 | 0 | 4 | 4 | 0 |  |
 | SpiderOverhaul-0.0.6-Forge-v1.20.jar | spider_overhaul | 83 | 0 | 83 | 83 | 0 |  |
 | spirit-forge-1.19.2-2.2.6.jar | spirit | 103 | 0 | 103 | 103 | 0 |  |
+| Stagecoach-forge-1.20.1-1.0.3.jar | stagecoach | 70 | 0 | 70 | 69 | 1 |  |
 | stepcrafter-neoforge-26.1.2-1.0.3.jar | stepcrafter | 80 | 0 | 80 | 80 | 0 |  |
 | StorageDrawers-forge-1.20.1-12.15.1.jar | storagedrawers | 168 | 168 | 0 | 0 | 0 |  |
 | strainers-1.20.1-1.7.4.jar | strainers | 91 | 0 | 91 | 91 | 0 |  |
+| strongermekasuit-0.1.0.jar | strongermekasuit | 5 | 0 | 5 | 5 | 0 |  |
 | Structory_1.20.x_v1.3.5.jar | structory | 15 | 15 | 0 | 0 | 0 |  |
 | structure_gel-1.20.1-2.16.2.jar | structure_gel | 257 | 0 | 257 | 257 | 0 |  |
 | StructureCompass-1.20.1-2.3.0.jar | structurecompass | 25 | 1 | 24 | 24 | 0 |  |
 | structurize-1.20.1-1.0.821-snapshot.jar | structurize | 226 | 0 | 226 | 226 | 0 |  |
-| supermartijn642corelib-1.1.24b-forge-mc1.20.1.jar | supermartijn642corelib | 1 | 0 | 1 | 1 | 0 |  |
+| supermartijn642corelib-1.1.25-forge-mc1.20.1.jar | supermartijn642corelib | 1 | 0 | 1 | 1 | 0 |  |
 | supplementaries-1.20-3.1.43-forge.jar | supplementaries | 607 | 532 | 75 | 75 | 0 |  |
 | systeams-1.20.1-1.9.2.jar | systeams | 76 | 0 | 76 | 76 | 0 |  |
 | taa-1.4.3+1.20.1.jar | taa | 56 | 0 | 56 | 56 | 0 |  |
 | tacz-1.20.1-1.1.8-hotfix2.jar | tacz | 295 | 295 | 0 | 0 | 0 |  |
-| tcc-1.4.4.jar | tcc | 658 | 14 | 644 | 644 | 0 |  |
+| tcc-1.4.9.jar | tcc | 674 | 14 | 660 | 660 | 0 |  |
 | TConstruct-1.20.1-3.11.2.166.jar | tconstruct | 3291 | 2743 | 548 | 548 | 0 |  |
 | tectonic-3.0.17-forge-1.20.1.jar | tectonic | 96 | 0 | 96 | 96 | 0 |  |
 | tempad-forge-1.20.1-2.3.4.jar | tempad | 59 | 0 | 59 | 59 | 0 |  |
@@ -530,6 +664,10 @@
 | tesseract-1.0.38-forge-mc1.20.1.jar | tesseract | 50 | 0 | 50 | 50 | 0 |  |
 | tetra-1.20.1-6.17.0.jar | tetra | 2648 | 35 | 2613 | 2613 | 0 |  |
 | tetranomicon-1.6.1-1.20.1.jar | tetranomicon | 1045 | 0 | 1045 | 1045 | 0 |  |
+| TerraFirmaCraft-Forge-1.20.1-3.2.26.jar | tfc | 8484 | 8484 | 0 | 0 | 0 |  |
+| tfc-ore-washing-1.20.1-forge-1.0.6.jar | tfcorewashing | 121 | 0 | 121 | 121 | 0 |  |
+| tfmg-1.0.2f.jar | tfmg | 1088 | 3 | 1085 | 1085 | 0 |  |
+| thanasmekanismlights-FORGE-1.4.1-1.20.1.jar | thanasmekanismlights | 28 | 0 | 28 | 28 | 0 |  |
 | the_bumblezone-7.14.0+1.20.1-forge.jar | the_bumblezone | 1380 | 206 | 1174 | 1155 | 19 |  |
 | TheTrialMonolith-1.20.1-Forge-1.4.9.jar | the_trial_monolith | 72 | 72 | 0 | 0 | 0 |  |
 | theoneprobe-1.20.1-10.0.4.jar | theoneprobe | 10 | 0 | 10 | 10 | 0 |  |
@@ -541,7 +679,7 @@
 | time-in-a-bottle-3.0.1-mc1.19.jar | tiab | 3 | 0 | 3 | 3 | 0 |  |
 | titanium-1.20.1-3.8.34.jar | titanium | 48 | 0 | 48 | 48 | 0 |  |
 | ToastControl-1.20.1-8.0.3.jar | toastcontrol | 2 | 0 | 2 | 2 | 0 |  |
-| tombstone-1.20.1-9.1.4.jar | tombstone | 1189 | 1 | 1188 | 1188 | 0 |  |
+| tombstone-1.20.1-9.1.5.jar | tombstone | 1189 | 1 | 1188 | 1188 | 0 |  |
 | ToolBelt-1.20.1-1.20.03.jar | toolbelt | 13 | 13 | 0 | 0 | 0 |  |
 | torchmaster-20.1.9.jar | torchmaster | 14 | 12 | 2 | 2 | 0 |  |
 | trade-cycling-forge-1.20.1-1.0.18.jar | trade_cycling | 2 | 0 | 2 | 2 | 0 |  |
@@ -552,16 +690,20 @@
 | TravelAnchors-1.20.1-5.0.1.jar | travelanchors | 19 | 0 | 19 | 19 | 0 |  |
 | trophymanager-1.20.1-2.1.3.jar | trophymanager | 2 | 0 | 2 | 2 | 0 |  |
 | twilight_construct-1.0.7.jar | twilight_construct | 97 | 0 | 97 | 97 | 0 |  |
-| twilightdelight-2.2.4.jar | twilightdelight | 204 | 177 | 27 | 27 | 0 |  |
+| twilightdelight-2.2.5.jar | twilightdelight | 208 | 177 | 31 | 31 | 0 |  |
 | twilightforest-1.20.1-4.3.2508-universal.jar | twilightforest | 1488 | 0 | 1488 | 1488 | 0 | 同梱ja_jpが壊れていて読み込まれないため公式訳ごと同梱 |
 | Universal Enchantment Info-1.20.1-forge-1.4.0.jar | uei | 59 | 0 | 59 | 59 | 0 |  |
+| UmbraPoorOres-1.20.1-1.2.3.jar | umbra_poor_ores | 169 | 0 | 169 | 169 | 0 |  |
+| umbra_poor_ores_mekanism-1.20.1-1.0.3.jar | umbra_poor_ores_mekanism | 5 | 0 | 5 | 5 | 0 |  |
 | The_Undergarden-1.20.1-0.8.14.jar | undergarden | 548 | 381 | 167 | 167 | 0 |  |
 | Create-Unify-1.20.1-1.0a.Release.jar | unify | 131 | 0 | 131 | 131 | 0 |  |
 | universalgrid-1.20.1-1.1.jar | universalgrid | 8 | 0 | 8 | 8 | 0 |  |
 | unlitcampfire-forge-1.20.1-1.9.2.1.jar | unlitcampfire | 3 | 0 | 3 | 3 | 0 |  |
-| unlocked_typing-merged-1.20.1-3.0.0.jar | unlocked_typing | 30 | 0 | 30 | 30 | 0 |  |
+| unlocked_typing-merged-1.20.1-3.0.1.jar | unlocked_typing | 30 | 0 | 30 | 30 | 0 |  |
+| UntranslatedItems-forge-1.20.1-1.21.jar | untranslateditems | 3 | 0 | 3 | 3 | 0 |  |
 | utilitarian-1.20.1-0.9.1.jar | utilitarian | 55 | 0 | 55 | 55 | 0 |  |
 | UtilitiX-1.20.1-0.8.28.jar | utilitix | 121 | 0 | 121 | 121 | 0 |  |
+| validatescanner-1.0.0.jar | validatescanner | 1 | 0 | 1 | 1 | 0 |  |
 | Vampirism-1.20.1-1.10.17.jar | vampirism | 1437 | 376 | 1061 | 1061 | 0 |  |
 | Vampirism-1.20.1-1.10.17.jar | vampirismguide | 208 | 68 | 140 | 0 | 140 |  |
 | Vehicle-Unofficial-1.20.1.20260413.jar | vehicle | 169 | 0 | 169 | 169 | 0 |  |
@@ -570,17 +712,20 @@
 | voicechat-forge-1.20.1-2.6.22.jar | voicechat | 228 | 228 | 0 | 0 | 0 |  |
 | voidlessframework-1.3.4-forge-1.20.1.jar | voidlessframework | 41 | 0 | 41 | 39 | 2 |  |
 | voidtotem-forge-1.20-3.0.1.jar | voidtotem | 15 | 1 | 14 | 14 | 0 |  |
+| Voltaic-1.20.1-1.0.13.jar | voltaic | 179 | 2 | 177 | 157 | 20 |  |
+| warriors_of_past_epoch_[Forge]_1.20.1_1.4.jar | warriorsofpastepoch | 83 | 4 | 79 | 79 | 0 |  |
 | waystones-forge-1.20.1-14.1.21.jar | waystones | 221 | 193 | 28 | 28 | 0 |  |
-| fieldguide-1.20.1+1.20.1-forge.jar | windswept | 5 | 0 | 5 | 5 | 0 |  |
+| fieldguide-1.21.1+1.20.1-forge.jar | windswept | 5 | 0 | 5 | 5 | 0 |  |
 | wirelesschargers-1.0.10-forge-mc1.20.4.jar | wirelesschargers | 23 | 0 | 23 | 23 | 0 |  |
 | WOC-Remastered-1.5.0-forge-1.20.1.jar | woc_remastered | 352 | 4 | 348 | 348 | 0 |  |
 | WeaponsOfMiracles-2.0.171-mc1.20.1-forge.jar | wom | 335 | 2 | 333 | 333 | 0 |  |
 | woodenhopper-1.20.1-1.6.0.1.jar | woodenhopper | 3 | 0 | 3 | 3 | 0 |  |
 | woodenshears-1.20.1-1.5.0.1.jar | woodenshears | 1 | 0 | 1 | 1 | 0 |  |
+| wope_steel_addon-1.1.0.jar | wope_steel_addon | 3 | 0 | 3 | 3 | 0 |  |
 | WitherSkeletonTweaks-1.20.1-9.1.0.jar | wstweaks | 3 | 3 | 0 | 0 | 0 |  |
-| xaerominimap-forge-1.20.1-26.5.0.jar | xaerobetterpvp | 78 | 67 | 11 | 11 | 0 |  |
-| xaerominimap-forge-1.20.1-26.5.0.jar | xaerominimap | 646 | 187 | 459 | 459 | 0 |  |
-| xaeroworldmap-forge-1.20.1-1.46.0.jar | xaeroworldmap | 322 | 8 | 314 | 314 | 0 |  |
+| xaerominimap-forge-1.20.1-26.6.0.jar | xaerobetterpvp | 78 | 67 | 11 | 11 | 0 |  |
+| xaerominimap-forge-1.20.1-26.6.0.jar | xaerominimap | 646 | 187 | 459 | 459 | 0 |  |
+| xaeroworldmap-forge-1.20.1-1.47.0.jar | xaeroworldmap | 326 | 8 | 318 | 318 | 0 |  |
 | xnetgases-1.20.1-5.1.4.jar | xnet-gases | 24 | 0 | 24 | 24 | 0 |  |
 | xnet-1.20-6.1.7.jar | xnet | 186 | 0 | 186 | 186 | 0 |  |
 | XyCraft Core-0.6.22.jar | xycraft_core | 5 | 0 | 5 | 5 | 0 |  |
@@ -589,7 +734,7 @@
 | ycurrenci-2.1.0-forge-1.20.1.jar | ycurrenci | 30 | 1 | 29 | 29 | 0 |  |
 | YungsCaveBiomes-1.20.1-Forge-2.0.5.jar | yungscavebiomes | 126 | 70 | 56 | 56 | 0 |  |
 | Zeta-1.0-31.jar | zeta | 2 | 0 | 2 | 1 | 1 |  |
-| **合計** | | 181310 | 84795 | 96515 | 95270 | 1245 | |
+| **合計** | | 207278 | 100254 | 107024 | 105523 | 1501 | |
 
 ## 英語のまま残したキー
 
@@ -625,6 +770,25 @@
 | aether_ii | `jukebox_song.aether_ii.demise` | Moorziey - Demise | 楽曲名(作曲者 - 曲名) |
 | aether_ii | `jukebox_song.aether_ii.high` | RENREN - high | 楽曲名(作曲者 - 曲名) |
 | aether_ii | `jukebox_song.aether_ii.revolutions` | sunsette - revolutions | 楽曲名(作曲者 - 曲名) |
+| allienfusiongenerator | `subtitles.t5` | t5 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.f1` | f1 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.f2` | f2 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.test2` | testt2 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.test1` | testt | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.test4` | test4 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.test3` | terst3 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.s1` | s1 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.s2` | s2 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.s3` | s3 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.s4` | s4 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.f10` | f10 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.f3` | f3 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.f4` | f4 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.f5` | f5 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.f6` | f6 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.f7` | f7 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.f8` | f8 | 開発用のテスト字幕 |
+| allienfusiongenerator | `subtitles.f9` | f9 | 開発用のテスト字幕 |
 | apothic_enchanting | `jukebox_song.apothic_enchanting.eterna` | Firel - Eterna | 楽曲名(作曲者 - 曲名) |
 | apothic_enchanting | `subtitle.apothic_enchanting.music_disc.eterna` | Firel - Eterna | 楽曲名(作曲者 - 曲名) |
 | apothic_enchanting | `jukebox_song.apothic_enchanting.quanta` | Firel - Quanta | 楽曲名(作曲者 - 曲名) |
@@ -634,6 +798,26 @@
 | apothic_enchanting | `info.apothic_enchanting.leashed_entity_title` | %s - %s | 記号・アイコン・型番のみ |
 | apothic_spawners | `misc.apothic_spawners.concat` | %s %s | 記号・アイコン・型番のみ |
 | apothic_spawners | `misc.apothic_spawners.value_concat` | %s: %s | 記号・アイコン・型番のみ |
+| autcraft_adventure | `painting.autcraft_adventure.giants_home.author` | willowju | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.lesbian_flag.author` | willowju | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.the_deal.author` | SrNojiko | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.bissexual_flag.author` | willowju | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.the_arrival.author` | SrNojico | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.autcraft_adventure_logo.author` | willowju | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.beira_rio.author` | willowju | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.a_true_world_champion.author` | willowju | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.the_first_sin.author` | willowju | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.gay_flag.author` | willowju | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.ace_flag.author` | willowju | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.the_fear.author` | SrNojiko | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.transflag.author` | willowju | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `item.autcraft_adventure.dfsdf` | Dfsdf | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.panssexualflag.author` | willowju | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `block.autcraft_adventure.gfgdsxfg` | Gfgdsxfg | 絵画の作者名/開発用の仮アイテム名 |
+| autcraft_adventure | `painting.autcraft_adventure.the_speech.author` | SrNojiko | 絵画の作者名/開発用の仮アイテム名 |
+| avaritia | `gui.avaritia.line` | --------------------- | 記号・アイコン・型番のみ |
+| avaritia | `tooltip.avaritia.crafting` | %s: %s x %s | 記号・アイコン・型番のみ |
+| avaritia | `gui.avaritia.neutron_ring.size` | %s: %s | 記号・アイコン・型番のみ |
 | batman_mod | `gui.batman_mod.redstone_scan.label_15` | 15 | 記号・アイコン・型番のみ |
 | batman_mod | `gui.batman_mod.mod_identification_icon.label_empty` | 1.1.0 | 記号・アイコン・型番のみ |
 | batman_mod | `gui.batman_mod.vehichle_select_page.label_work_in_progress` | MKI | 記号・アイコン・型番のみ |
@@ -643,6 +827,8 @@
 | batman_mod | `gui.batman_mod.vehichle_select_page.label_mki` | MKI | 記号・アイコン・型番のみ |
 | batman_mod | `gui.batman_mod.vehichle_select_page.label_mkii1` | MKII | 記号・アイコン・型番のみ |
 | batman_mod | `gui.batman_mod.vehichle_select_page_2.label_mkii1` | MKII | 記号・アイコン・型番のみ |
+| bfr | `reactor.bfr.efficiency.reactivity_down_button` | -5 | 記号・アイコン・型番のみ |
+| bfr | `reactor.bfr.efficiency.reactivity_up_button` | +5 | 記号・アイコン・型番のみ |
 | collective | `collective.areas.gui.unnamedarea` | Unnamed area | Collective内の未導入Serilum系MOD用の文言 |
 | collective | `collective.areas.message.areasignpositions` | Area sign positions around you: | Collective内の未導入Serilum系MOD用の文言 |
 | collective | `collective.areas.message.areasignsaround` | There are no area signs around you. | Collective内の未導入Serilum系MOD用の文言 |
@@ -1173,6 +1359,7 @@
 | creategoggles | `item.creategoggles.golden_backtank.tooltip` | item.GOLDEN_BACKTANK | Createのツールチップ用内部識別子 |
 | creategoggles | `item.creategoggles.iron_backtank.tooltip` | item.IRON_BACKTANK | Createのツールチップ用内部識別子 |
 | creategoggles | `item.creategoggles.leather_backtank.tooltip` | item.LEATHER_BACKTANK | Createのツールチップ用内部識別子 |
+| createoreexcavation | `info.coe.atlas.location2` | ~%s, *, ~%s | 記号・アイコン・型番のみ |
 | creativecore | `gui.minus` | - | 記号・アイコン・型番のみ |
 | creativecore | `gui.plus` | + | 記号・アイコン・型番のみ |
 | creativecore | `gui.del` | x | 記号・アイコン・型番のみ |
@@ -1181,6 +1368,30 @@
 | darkutils | `font.runelic.runelic.preview` | Sphinx of black quartz judge my vow | 特殊フォントの英字パングラム見本(英字グリフ専用) |
 | darkutils | `font.pigpen.pigpen.preview` | Pigs rebuke overly exquisite fig jam with candor and zeal | 特殊フォントの英字パングラム見本(英字グリフ専用) |
 | darkutils | `font.unown.unown.preview` | Unown jars quickly befog the voxelized world map | 特殊フォントの英字パングラム見本(英字グリフ専用) |
+| electrodynamics | `gui.electrodynamics.equals` | = | 記号・アイコン・型番のみ |
+| electrodynamics | `gui.electrodynamics.greaterthan` | > | 記号・アイコン・型番のみ |
+| electrodynamics | `gui.electrodynamics.greaterthanorequalto` | >= | 記号・アイコン・型番のみ |
+| electrodynamics | `gui.electrodynamics.lessthan` | < | 記号・アイコン・型番のみ |
+| electrodynamics | `gui.electrodynamics.lessthanorequalto` | <= | 記号・アイコン・型番のみ |
+| electrodynamics | `gui.electrodynamics.notequals` | != | 記号・アイコン・型番のみ |
+| electrodynamics | `gui.electrodynamics.potentiometer.watts` | W | 記号・アイコン・型番のみ |
+| electrodynamics | `gui.electrodynamics.quarry.notavailable` | N/A | 記号・アイコン・型番のみ |
+| electrodynamics | `gui.electrodynamics.seismicrelay.posfound` | %1$s , %2$s | 記号・アイコン・型番のみ |
+| electrodynamics | `gui.electrodynamics.seismicscanner.nopattern` | N/A | 記号・アイコン・型番のみ |
+| electrodynamics | `gui.electrodynamics.seismicscanner.xcoord` | X: %s | 記号・アイコン・型番のみ |
+| electrodynamics | `gui.electrodynamics.seismicscanner.ycoord` | Y: %s | 記号・アイコン・型番のみ |
+| electrodynamics | `gui.electrodynamics.seismicscanner.zcoord` | Z: %s | 記号・アイコン・型番のみ |
+| electrodynamics | `guidebook.electrodynamics.chapter.electricity.neutralloss` | P = 2 * R * I * I | 記号・アイコン・型番のみ |
+| electrodynamics | `guidebook.electrodynamics.chapter.electricity.ohmslaw` | V = I * R | 記号・アイコン・型番のみ |
+| electrodynamics | `guidebook.electrodynamics.chapter.electricity.powerformula` | P = I * V | 記号・アイコン・型番のみ |
+| electrodynamics | `guidebook.electrodynamics.chapter.electricity.powerfromcurrent` | P = I * I * R | 記号・アイコン・型番のみ |
+| electrodynamics | `guidebook.electrodynamics.chapter.electricity.powerfromvoltage` | P = V * I | 記号・アイコン・型番のみ |
+| electrodynamics | `guidebook.electrodynamics.chapter.electricity.topic.header` | %1$s. %2$s | 記号・アイコン・型番のみ |
+| electrodynamics | `guidebook.electrodynamics.chapter.electricity.voltageval` | %1$s V : %2$s | 記号・アイコン・型番のみ |
+| electrodynamics | `guidebook.electrodynamics.chapter.fluids.topic.header` | %1$s. %2$s | 記号・アイコン・型番のみ |
+| electrodynamics | `guidebook.electrodynamics.chapter.gases.topic.header` | %1$s. %2$s | 記号・アイコン・型番のみ |
+| electrodynamics | `guidebook.electrodynamics.chapter.quarry.drillhead` | %1$s : %2$s | 記号・アイコン・型番のみ |
+| electrodynamics | `guidebook.electrodynamics.chapter.tools.roddamage` | %1$s: %2$s | 記号・アイコン・型番のみ |
 | enchdesc | `enchantment.gofish.deepfry.desc` | Reeling in certain fish will cook them. | 未導入MODのエンチャント説明 |
 | enchdesc | `enchantment.shieldsplus.recoil.desc` | Knocks back attackers and projectiles. | 未導入MODのエンチャント説明 |
 | enchdesc | `enchantment.shieldsplus.reflection.desc` | Reflects damage back at attackers. | 未導入MODのエンチャント説明 |
@@ -1316,6 +1527,7 @@
 | idas | `item.idas.music_disc_calidum.desc` | Cama - calidum | 楽曲名(作曲者 - 曲名) |
 | irons_jewelry | `action.irons_jewelry.apply_effect.description` | (%s %s, %s) | 記号・アイコン・型番のみ |
 | irons_jewelry | `action.irons_jewelry.apply_effect.description_instantaneous` | (%s %s) | 記号・アイコン・型番のみ |
+| kontraption | `chat.kontraption.border` | ================================= | 記号・アイコン・型番のみ |
 | logisticsnetworks | `gui.logisticsnetworks.node.page_info` | %s-%s / %s | 記号・アイコン・型番のみ |
 | logisticsnetworks | `gui.logisticsnetworks.filter.info.icon` | i | 記号・アイコン・型番のみ |
 | logisticsnetworks | `gui.logisticsnetworks.computer.nodes_unknown` | -- | 記号・アイコン・型番のみ |
@@ -1323,8 +1535,120 @@
 | logisticsnetworks | `gui.logisticsnetworks.computer.position` | %s %s,%s,%s | 記号・アイコン・型番のみ |
 | mekalights | `mekalights.gui.decrease` | - | 記号・アイコン・型番のみ |
 | mekalights | `mekalights.gui.increase` | + | 記号・アイコン・型番のみ |
+| mekanism_mobs | `subtitles.mekanitesoundidlemoto` | mekanitesoundidlemoto | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.idlesoundmoto` | idlesoundmoto | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekaniteendmanvidasond` | mekaniteendmanvidasond | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundhurtezombie` | mekanitesoundhurtezombie | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.impactosoundmoto` | impactosoundmoto | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.deathpilagem` | deathpilagem | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundstepspider` | mekanitesoundstepspider | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.shootlaisesound` | shootlaisesound | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundstepskeleton` | mekanitesoundstepskeleton | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitezombiedrowneddeathsound` | mekanitezombiedrowneddeathsound | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundhurtravage` | soundhurtravage | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.sonddeathhusk` | sonddeathhusk | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.shockhit` | shockhit | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekaniteendmanhurt` | mekaniteendmanhurt | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.skeletonsoundvida` | skeletonsoundvida | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundhurtravager` | soundhurtravager | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundhurtdrone` | mekanitesoundhurtdrone | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.sounddeathdrone` | sounddeathdrone | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.creepersounddeath` | creepersounddeath | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.sondhurthusk` | sondhurthusk | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekaniteendmanattack` | mekaniteendmanattack | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlifehusk` | mekanitesoundlifehusk | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.sounddeathravager` | sounddeathravager | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundpassravager` | soundpassravager | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundhurtpilagem` | mekanitesoundhurtpilagem | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.zombielifesoundmekanite` | zombielifesoundmekanite | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesounddeathendman` | mekanitesounddeathendman | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitehurtendman` | mekanitehurtendman | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundattackpilagemvidicator` | mekanitesoundattackpilagemvidicator | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundhurtskeleton` | mekanitesoundhurtskeleton | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitezombiedrownedhurtsound` | mekanitezombiedrownedhurtsound | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.skeletonsoundhurt` | skeletonsoundhurt | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesounddeathzombie` | mekanitesounddeathzombie | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitewitchattacksound` | mekanitewitchattacksound | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.creepersoundhurt` | creepersoundhurt | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundhurtdrone` | soundhurtdrone | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlifeendman` | mekanitesoundlifeendman | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitewitchlifesound` | mekanitewitchlifesound | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.creepersoundlife` | creepersoundlife | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.zombiehurtmekanite` | zombiehurtmekanite | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesounddeathpilagem` | mekanitesounddeathpilagem | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlifepilagem` | mekanitesoundlifepilagem | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundhurtcreeper` | mekanitesoundhurtcreeper | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundhurtendman` | mekanitesoundhurtendman | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesounddeathdrone` | mekanitesounddeathdrone | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.skeletonsoundpass` | skeletonsoundpass | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundlaiseresfriamento` | soundlaiseresfriamento | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlifedrone` | mekanitesoundlifedrone | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.refocosoundpilagem` | refocosoundpilagem | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesounddeathspider` | mekanitesounddeathspider | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundattackvindicator` | soundattackvindicator | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.sondvidahusk` | sondvidahusk | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundhurtzombiedrowned` | mekanitesoundhurtzombiedrowned | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlifekravanger` | mekanitesoundlifekravanger | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekaniteendmandeath` | mekaniteendmandeath | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlifezombie` | mekanitesoundlifezombie | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundattackravager` | soundattackravager | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlifepilagemvidicator` | mekanitesoundlifepilagemvidicator | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundstepravanger` | mekanitesoundstepravanger | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesounddeathzombiedrowned` | mekanitesounddeathzombiedrowned | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlaughterpilagem` | mekanitesoundlaughterpilagem | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.sonddeathspider` | sonddeathspider | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.skeletonsounddeath` | skeletonsounddeath | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundlaisesilenc` | soundlaisesilenc | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.sounddeathravage` | sounddeathravage | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekaniteendmanteleporte` | mekaniteendmanteleporte | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundvidavindicator` | soundvidavindicator | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesounddeathcreeper` | mekanitesounddeathcreeper | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundbeep` | mekanitesoundbeep | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.zombiedeathmekanite` | zombiedeathmekanite | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekaniteslimesoundstep` | mekaniteslimesoundstep | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundhurtravanger` | mekanitesoundhurtravanger | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlifeskeleton` | mekanitesoundlifeskeleton | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesounddeathpravanger` | mekanitesounddeathpravanger | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundvidazombie` | soundvidazombie | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundlaise` | soundlaiseshoot | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesounddeathskeleton` | mekanitesounddeathskeleton | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitezombiedrownedlifesound` | mekanitezombiedrownedlifesound | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.movingsoundmoto` | movingsoundmoto | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlifewitch` | mekanitesoundlifewitch | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundvidaevoke` | soundvidaevoke | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlifecreeper` | mekanitesoundlifecreeper | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesounddeathhusk` | mekanitesounddeathhusk | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.hurtmekanitezombie` | hurtmekanitezombie | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.creepersoundexplos` | creepersoundexplos | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundvidaravager` | soundvidaravager | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundvidaendman` | soundvidaendman | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundvidadrone` | soundvidadrone | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.hurt` | hurt | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundhurthusk` | mekanitesoundhurthusk | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundattackpilagemevoke` | mekanitesoundattackpilagemevoke | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundhurtspider` | mekanitesoundhurtspider | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.death` | death | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekaniteendmangrito` | mekaniteendmangrito | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlifezombiedrowned` | mekanitesoundlifezombiedrowned | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.vidapilagem` | vidapilagem | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.shockon` | shockon | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundattackevoke` | soundattackevoke | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.soundhurtspider` | soundhurtspider | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesounddeathendman.ogg` | mekanitesounddeathendman.ogg | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundlifepilagemevoke` | mekanitesoundlifepilagemevoke | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.sondpass` | passo | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.creepersoundexplod` | creepersoundexplod | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.hurtpilagem` | hurtpilagem | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanism_mobs | `subtitles.mekanitesoundshieldon` | mekanitesoundshieldon | 字幕に内部のサウンドIDがそのまま入っているもの |
+| mekanismdieselgenerators | `status.mekanismdieselgenerators.header` | %s: %s | 記号・アイコン・型番のみ |
 | mffs | `screen.mffs.fortron.value` | %s L / %s L | 記号・アイコン・型番のみ |
 | mffs | `screen.mffs.fortron_cost` | %s%s L/s | 記号・アイコン・型番のみ |
+| minecraftdungeons | `item.minecraftdungeons.skeleton_horseman_music_disc.desc` | Peter Hont - The Four Horsemen | 楽曲名(作曲者 - 曲名) |
+| minecraftdungeons | `item.minecraftdungeons.arch_illager_music_disc.desc` | Peter Hont - The Arch Illager | 楽曲名(作曲者 - 曲名) |
+| minecraftdungeons | `item.minecraftdungeons.redstone_music_disc.desc` | Johan Johnson - Redstone Monstrosity | 楽曲名(作曲者 - 曲名) |
+| minecraftdungeons | `item.minecraftdungeons.cauldron_music_disc.desc` | Johan Johnson - Cauldron | 楽曲名(作曲者 - 曲名) |
+| minecraftdungeons | `item.minecraftdungeons.obsidian_monstrosity_music_disc.desc` | Johan Johnson - arena1 | 楽曲名(作曲者 - 曲名) |
+| minecraftdungeons | `item.minecraftdungeons.nameless_one_music_disc.desc` | Johan Johnson - Necromancer | 楽曲名(作曲者 - 曲名) |
 | modonomicon | `advancement.minecraft.husbandry.ride_a_boat_with_a_goat.title` | Ride a Boat with a Goat | Modonomicon内蔵の開発用デモ/テスト本の文言 |
 | modonomicon | `book.modonomicon.demo.features.command.command_link.text` | [Click me to run the command!](command://test_command2) | Modonomicon内蔵の開発用デモ/テスト本の文言 |
 | modonomicon | `book.modonomicon.demo.features.command.command_link.title` | Command Link | Modonomicon内蔵の開発用デモ/テスト本の文言 |
@@ -1457,6 +1781,14 @@
 | neovitae | `jade.neovitae.array_direction` | %s %s | 記号・アイコン・型番のみ |
 | neovitae | `jei.neovitae.ritual.rune_count` | %s× %s | 記号・アイコン・型番のみ |
 | neovitae | `message.neovitae.divination.altar_stats_footer` | ============================== | 記号・アイコン・型番のみ |
+| nuclearscience | `gui.nuclearscience.displayunit.speedoflightname` | C | 記号・アイコン・型番のみ |
+| nuclearscience | `gui.nuclearscience.displayunit.speedoflightnameplural` | C | 記号・アイコン・型番のみ |
+| nuclearscience | `gui.nuclearscience.displayunit.speedoflightsymbol` | C | 記号・アイコン・型番のみ |
+| nuclearscience | `gui.nuclearscience.teleporter.x` | X: | 記号・アイコン・型番のみ |
+| nuclearscience | `gui.nuclearscience.teleporter.y` | Y: | 記号・アイコン・型番のみ |
+| nuclearscience | `gui.nuclearscience.teleporter.z` | Z: | 記号・アイコン・型番のみ |
+| nuclearscience | `guidebook.nuclearscience.chapter.particleaccelerator.formula` | ((s1 + s2) / 4) ^ 2 | 記号・アイコン・型番のみ |
+| nuclearscience | `guidebook.nuclearscience.chapter.turbines.tempvoltage` | %1$s C : %2$s V | 記号・アイコン・型番のみ |
 | obscure_api | `attribute.obscure_api.accuracy.icon` |  | 記号・アイコン・型番のみ |
 | obscure_api | `attribute.obscure_api.armor.icon` |  | 記号・アイコン・型番のみ |
 | obscure_api | `attribute.obscure_api.attackDamage.icon` |  | 記号・アイコン・型番のみ |
@@ -1501,6 +1833,47 @@
 | obscure_api | `icon.star` | §f | 記号・アイコン・型番のみ |
 | obscure_api | `icon.stick` | §f | 記号・アイコン・型番のみ |
 | obscure_api | `icon.up` | §f | 記号・アイコン・型番のみ |
+| ornatelib | `number.ornatelib.thousand.short` | k | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.million.short` | M | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.billion.short` | B | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.trillion.short` | T | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.quadrillion.short` | Qa | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.quintillion.short` | Qi | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.sextillion.short` | Sx | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.septillion.short` | Sp | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.octillion.short` | Oc | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.nonillion.short` | Nn | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.decillion.short` | Dc | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.undecillion.short` | UDc | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.duodecillion.short` | DDc | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.tredecillion.short` | TDc | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.quattuordecillion.short` | QaDc | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.quindecillion.short` | QiDc | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.sedecillion.short` | SeDc | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.septendecillion.short` | SpDc | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.octodecillion.short` | OcDc | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.novendecillion.short` | NvDc | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.vigintillion.short` | Vg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.unvigintillion.short` | UVg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.duovigintillion.short` | DVg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.tresvigintillion.short` | TVg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.quattuorvigintillion.short` | QaVg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.quinvigintillion.short` | QiVg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.sesvigintillion.short` | SeVg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.septemvigintillion.short` | SpVg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.octovigintillion.short` | OcVg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.novemvigintillion.short` | NvVg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.trigintillion.short` | Tg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.untrigintillion.short` | UTg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.duotrigintillion.short` | DTg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.trestrigintillion.short` | TTg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.quattuortrigintillion.short` | QaTg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.quintrigintillion.short` | QiTg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.sestrigintillion.short` | SeTg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.septentrigintillion.short` | SpTg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.octotrigintillion.short` | OcTg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.noventrigintillion.short` | NvTg | 数の単位の略号(k, M, B…) |
+| ornatelib | `number.ornatelib.quadragintillion.short` | Qd | 数の単位の略号(k, M, B…) |
 | patchouli | `item.patchouli.comprehensive_test_book.landing` | What will hopefully become a comprehensive test book for all of Patchouli, instead of the mishmash of random spaghetti we have right now. | 開発用テスト本の文言 |
 | patchouli | `item.patchouli:test_book_1.landing` | Not as fun landing text but still here. | 開発用テスト本の文言 |
 | patchouli | `item.patchouli:test_book_2.landing` | Landing text! It even supports $(2)colors$() and $(4)the $(bold)like$()! | 開発用テスト本の文言 |
@@ -1680,6 +2053,14 @@
 | productivetrees | `block.productivetrees.yellow_meranti.latin` | Shorea faguetiana | 樹木の学名(ラテン語) |
 | productivetrees | `block.productivetrees.yew.latin` | Taxus baccata | 樹木の学名(ラテン語) |
 | productivetrees | `block.productivetrees.zebrano.latin` | Microberlinia brazzavillensis | 樹木の学名(ラテン語) |
+| qioautocrafter | `qioautocrafter.machine.queue_job` | %s x%s%s | 記号・アイコン・型番のみ |
+| qioautocrafter | `qioautocrafter.overlay.sync` | S | 記号・アイコン・型番のみ |
+| remotedesk | `gui.remote_desk.desk_gui.button_x` | X | 記号・アイコン・型番のみ |
+| spatialtoolscmp | `item.spatialtoolscmp.portable_spatial_cloner.link_dimension` | (%s) | 記号・アイコン・型番のみ |
+| spatialtoolscmp | `item.spatialtoolscmp.portable_spatial_replacer.link_dimension` | (%s) | 記号・アイコン・型番のみ |
+| spatialtoolscmp | `tooltip.spatialtoolscmp.structure_tool.energy_percent` | %s%% | 記号・アイコン・型番のみ |
+| spatialtoolscmp | `tooltip.spatialtoolscmp.structure_tool.energy_value` | %s | 記号・アイコン・型番のみ |
+| stagecoach | `stagecoach.tooltip.coords` | X %s  Y %s  Z %s | 記号・アイコン・型番のみ |
 | the_bumblezone | `item.the_bumblezone.music_disc_honey_bee_rat_faced_boy.download` | https://acidburp.bandcamp.com/track/honey-bee | URLのみ |
 | the_bumblezone | `item.the_bumblezone.music_disc_rivers_of_honey_moserao.desc` | Moserao - Rivers of Honey | 楽曲名(作曲者 - 曲名) |
 | the_bumblezone | `item.the_bumblezone.music_disc_rivers_of_honey_moserao.download` | https://moserao.bandcamp.com/track/rivers-of-honey-2 | URLのみ |
@@ -1841,4 +2222,24 @@
 | vampirismguide | `guide.vampirism.changelog.v1_9.curing.text` | §lCuring Vampiric Creature§r\nThe Infested Apple and the Zombie Injection was removed to align the curing process with the curing of Zombie Villager. The process is now the same: 1. Apply weakness the the creature 2. Interact with them with a Golden Apple 3. Wait | GuideAPI-VP未導入のため表示されないガイド本文 |
 | voidlessframework | `item.voidlessframework.v` | V | 記号・アイコン・型番のみ |
 | voidlessframework | `item.chaseisframework.v` | V | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.ampere.symbol` | A | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.buckets.symbol` | B | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.conductance.symbol` | S | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.joules.symbol` | J | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.percentage.symbol` | % | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.resistance.symbol` | Ω | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.tempcelcius.symbol` | C | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.tempfahrenheit.symbol` | F | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.tempkelvin.symbol` | K | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.timeseconds.symbol` | s | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.timeticks.symbol` | t | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.voltage.symbol` | V | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.displayunit.watt.symbol` | W | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.measurementunit.giga.symbol` | G | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.measurementunit.kilo.symbol` | k | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.measurementunit.mega.symbol` | M | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.measurementunit.micro.symbol` | µ | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.measurementunit.milli.symbol` | m | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.measurementunit.nano.symbol` | n | 記号・アイコン・型番のみ |
+| voltaic | `gui.voltaic.measurementunit.pico.symbol` | p | 記号・アイコン・型番のみ |
 | zeta | `zeta.jei.hint_preamble` | [Zeta]\n | MOD名の接頭辞のみ |

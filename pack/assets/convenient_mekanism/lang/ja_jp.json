@@ -1,0 +1,9 @@
+{
+  "advancements.convenient_mekanism.quantum_smeltery.description": "ストレージタブレットの精錬速度を20000より大きくする",
+  "advancements.convenient_mekanism.quantum_smeltery.title": "量子精錬所",
+  "block.convenient_mekanism.multiple_gas_interface": "複数ガスインターフェース",
+  "block.convenient_mekanism.single_gas_interface": "単一ガスインターフェース",
+  "storage.mekanism.gas": "ガス",
+  "tooltip.convenient_mekanism.gas.amount": "量: %smB",
+  "tooltip.mekanism.recipe.rotary": "回転式のレシピ: %s×%s"
+}

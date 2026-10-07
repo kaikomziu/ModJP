@@ -1,0 +1,14 @@
+{
+  "block.quicklink.item_plug": "アイテムプラグ",
+  "block.quicklink.fluid_plug": "液体プラグ",
+  "block.quicklink.energy_plug": "エネルギープラグ",
+  "block.quicklink.chemical_plug": "化学物質プラグ",
+  "item.quicklink.quicklink_upgrade": "QuickLinkアップグレード",
+  "tooltip.block.quicklink.item_plug.1": "インベントリ間でアイテムを運ぶ。PLUG側 = 送り元、POINT側 = 送り先。",
+  "tooltip.block.quicklink.fluid_plug.1": "タンク間で液体を運ぶ。PLUG側 = 送り元、POINT側 = 送り先。",
+  "tooltip.block.quicklink.energy_plug.1": "機械間でFEエネルギーを運ぶ。PLUG側 = 送り元、POINT側 = 送り先。",
+  "tooltip.block.quicklink.chemical_plug.1": "容器間で化学物質を運ぶ。PLUG側 = 送り元、POINT側 = 送り先。",
+  "tooltip.quicklink.plug.use": "同じ色 = 接続。右クリック: 役割を切り替え | Shift+右クリック: 切り替え/アップグレードを外す | 染料: 色",
+  "tooltip.item.quicklink.quicklink_upgrade.1": "プラグの転送速度を上げる: ティア1=×2、2=×4、3=×8、4=×16。",
+  "tooltip.item.quicklink.quicklink_upgrade.2": "プラグに右クリック: 取り付け | 素手でプラグにShift+右クリック: 外す"
+}

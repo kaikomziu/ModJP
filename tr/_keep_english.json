@@ -29,6 +29,27 @@
   "jukebox_song.aether_ii.high": "楽曲名(作曲者 - 曲名)",
   "jukebox_song.aether_ii.revolutions": "楽曲名(作曲者 - 曲名)"
  },
+ "allienfusiongenerator": {
+  "subtitles.t5": "開発用のテスト字幕",
+  "subtitles.f1": "開発用のテスト字幕",
+  "subtitles.f2": "開発用のテスト字幕",
+  "subtitles.test2": "開発用のテスト字幕",
+  "subtitles.test1": "開発用のテスト字幕",
+  "subtitles.test4": "開発用のテスト字幕",
+  "subtitles.test3": "開発用のテスト字幕",
+  "subtitles.s1": "開発用のテスト字幕",
+  "subtitles.s2": "開発用のテスト字幕",
+  "subtitles.s3": "開発用のテスト字幕",
+  "subtitles.s4": "開発用のテスト字幕",
+  "subtitles.f10": "開発用のテスト字幕",
+  "subtitles.f3": "開発用のテスト字幕",
+  "subtitles.f4": "開発用のテスト字幕",
+  "subtitles.f5": "開発用のテスト字幕",
+  "subtitles.f6": "開発用のテスト字幕",
+  "subtitles.f7": "開発用のテスト字幕",
+  "subtitles.f8": "開発用のテスト字幕",
+  "subtitles.f9": "開発用のテスト字幕"
+ },
  "apothic_enchanting": {
   "jukebox_song.apothic_enchanting.eterna": "楽曲名(作曲者 - 曲名)",
   "subtitle.apothic_enchanting.music_disc.eterna": "楽曲名(作曲者 - 曲名)",
@@ -43,6 +64,30 @@
   "misc.apothic_spawners.value_concat": "記号・アイコン・型番のみ",
   "enchantment.level.0": "記号・アイコン・型番のみ"
  },
+ "autcraft_adventure": {
+  "painting.autcraft_adventure.giants_home.author": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.lesbian_flag.author": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.the_deal.author": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.bissexual_flag.author": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.the_arrival.author": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.autcraft_adventure_logo.author": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.beira_rio.author": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.a_true_world_champion.author": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.the_first_sin.author": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.gay_flag.author": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.ace_flag.author": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.the_fear.author": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.transflag.author": "絵画の作者名/開発用の仮アイテム名",
+  "item.autcraft_adventure.dfsdf": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.panssexualflag.author": "絵画の作者名/開発用の仮アイテム名",
+  "block.autcraft_adventure.gfgdsxfg": "絵画の作者名/開発用の仮アイテム名",
+  "painting.autcraft_adventure.the_speech.author": "絵画の作者名/開発用の仮アイテム名"
+ },
+ "avaritia": {
+  "gui.avaritia.line": "記号・アイコン・型番のみ",
+  "tooltip.avaritia.crafting": "記号・アイコン・型番のみ",
+  "gui.avaritia.neutron_ring.size": "記号・アイコン・型番のみ"
+ },
  "batman_mod": {
   "gui.batman_mod.redstone_scan.label_15": "記号・アイコン・型番のみ",
   "gui.batman_mod.mod_identification_icon.label_empty": "記号・アイコン・型番のみ",
@@ -53,6 +98,10 @@
   "gui.batman_mod.vehichle_select_page.label_mki": "記号・アイコン・型番のみ",
   "gui.batman_mod.vehichle_select_page.label_mkii1": "記号・アイコン・型番のみ",
   "gui.batman_mod.vehichle_select_page_2.label_mkii1": "記号・アイコン・型番のみ"
+ },
+ "bfr": {
+  "reactor.bfr.efficiency.reactivity_down_button": "記号・アイコン・型番のみ",
+  "reactor.bfr.efficiency.reactivity_up_button": "記号・アイコン・型番のみ"
  },
  "collective": {
   "collective.areas.gui.unnamedarea": "Collective内の未導入Serilum系MOD用の文言",
@@ -592,6 +641,9 @@
   "item.creategoggles.iron_backtank.tooltip": "Createのツールチップ用内部識別子",
   "item.creategoggles.leather_backtank.tooltip": "Createのツールチップ用内部識別子"
  },
+ "createoreexcavation": {
+  "info.coe.atlas.location2": "記号・アイコン・型番のみ"
+ },
  "creativecore": {
   "gui.minus": "記号・アイコン・型番のみ",
   "gui.plus": "記号・アイコン・型番のみ",
@@ -603,6 +655,32 @@
   "font.runelic.runelic.preview": "特殊フォントの英字パングラム見本(英字グリフ専用)",
   "font.pigpen.pigpen.preview": "特殊フォントの英字パングラム見本(英字グリフ専用)",
   "font.unown.unown.preview": "特殊フォントの英字パングラム見本(英字グリフ専用)"
+ },
+ "electrodynamics": {
+  "gui.electrodynamics.equals": "記号・アイコン・型番のみ",
+  "gui.electrodynamics.greaterthan": "記号・アイコン・型番のみ",
+  "gui.electrodynamics.greaterthanorequalto": "記号・アイコン・型番のみ",
+  "gui.electrodynamics.lessthan": "記号・アイコン・型番のみ",
+  "gui.electrodynamics.lessthanorequalto": "記号・アイコン・型番のみ",
+  "gui.electrodynamics.notequals": "記号・アイコン・型番のみ",
+  "gui.electrodynamics.potentiometer.watts": "記号・アイコン・型番のみ",
+  "gui.electrodynamics.quarry.notavailable": "記号・アイコン・型番のみ",
+  "gui.electrodynamics.seismicrelay.posfound": "記号・アイコン・型番のみ",
+  "gui.electrodynamics.seismicscanner.nopattern": "記号・アイコン・型番のみ",
+  "gui.electrodynamics.seismicscanner.xcoord": "記号・アイコン・型番のみ",
+  "gui.electrodynamics.seismicscanner.ycoord": "記号・アイコン・型番のみ",
+  "gui.electrodynamics.seismicscanner.zcoord": "記号・アイコン・型番のみ",
+  "guidebook.electrodynamics.chapter.electricity.neutralloss": "記号・アイコン・型番のみ",
+  "guidebook.electrodynamics.chapter.electricity.ohmslaw": "記号・アイコン・型番のみ",
+  "guidebook.electrodynamics.chapter.electricity.powerformula": "記号・アイコン・型番のみ",
+  "guidebook.electrodynamics.chapter.electricity.powerfromcurrent": "記号・アイコン・型番のみ",
+  "guidebook.electrodynamics.chapter.electricity.powerfromvoltage": "記号・アイコン・型番のみ",
+  "guidebook.electrodynamics.chapter.electricity.topic.header": "記号・アイコン・型番のみ",
+  "guidebook.electrodynamics.chapter.electricity.voltageval": "記号・アイコン・型番のみ",
+  "guidebook.electrodynamics.chapter.fluids.topic.header": "記号・アイコン・型番のみ",
+  "guidebook.electrodynamics.chapter.gases.topic.header": "記号・アイコン・型番のみ",
+  "guidebook.electrodynamics.chapter.quarry.drillhead": "記号・アイコン・型番のみ",
+  "guidebook.electrodynamics.chapter.tools.roddamage": "記号・アイコン・型番のみ"
  },
  "enchantment_smelter": {
   "enchantment.level.10": "記号・アイコン・型番のみ"
@@ -757,6 +835,9 @@
   "action.irons_jewelry.apply_effect.description": "記号・アイコン・型番のみ",
   "action.irons_jewelry.apply_effect.description_instantaneous": "記号・アイコン・型番のみ"
  },
+ "kontraption": {
+  "chat.kontraption.border": "記号・アイコン・型番のみ"
+ },
  "logisticsnetworks": {
   "gui.logisticsnetworks.node.page_info": "記号・アイコン・型番のみ",
   "gui.logisticsnetworks.filter.info.icon": "記号・アイコン・型番のみ",
@@ -767,6 +848,116 @@
  "mekalights": {
   "mekalights.gui.decrease": "記号・アイコン・型番のみ",
   "mekalights.gui.increase": "記号・アイコン・型番のみ"
+ },
+ "mekanism_mobs": {
+  "subtitles.mekanitesoundidlemoto": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.idlesoundmoto": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekaniteendmanvidasond": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundhurtezombie": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.impactosoundmoto": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.deathpilagem": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundstepspider": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.shootlaisesound": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundstepskeleton": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitezombiedrowneddeathsound": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundhurtravage": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.sonddeathhusk": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.shockhit": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekaniteendmanhurt": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.skeletonsoundvida": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundhurtravager": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundhurtdrone": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.sounddeathdrone": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.creepersounddeath": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.sondhurthusk": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekaniteendmanattack": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlifehusk": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.sounddeathravager": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundpassravager": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundhurtpilagem": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.zombielifesoundmekanite": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesounddeathendman": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitehurtendman": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundattackpilagemvidicator": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundhurtskeleton": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitezombiedrownedhurtsound": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.skeletonsoundhurt": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesounddeathzombie": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitewitchattacksound": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.creepersoundhurt": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundhurtdrone": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlifeendman": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitewitchlifesound": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.creepersoundlife": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.zombiehurtmekanite": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesounddeathpilagem": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlifepilagem": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundhurtcreeper": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundhurtendman": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesounddeathdrone": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.skeletonsoundpass": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundlaiseresfriamento": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlifedrone": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.refocosoundpilagem": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesounddeathspider": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundattackvindicator": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.sondvidahusk": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundhurtzombiedrowned": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlifekravanger": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekaniteendmandeath": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlifezombie": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundattackravager": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlifepilagemvidicator": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundstepravanger": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesounddeathzombiedrowned": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlaughterpilagem": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.sonddeathspider": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.skeletonsounddeath": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundlaisesilenc": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.sounddeathravage": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekaniteendmanteleporte": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundvidavindicator": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesounddeathcreeper": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundbeep": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.zombiedeathmekanite": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekaniteslimesoundstep": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundhurtravanger": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlifeskeleton": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesounddeathpravanger": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundvidazombie": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundlaise": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesounddeathskeleton": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitezombiedrownedlifesound": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.movingsoundmoto": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlifewitch": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundvidaevoke": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlifecreeper": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesounddeathhusk": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.hurtmekanitezombie": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.creepersoundexplos": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundvidaravager": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundvidaendman": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundvidadrone": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.hurt": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundhurthusk": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundattackpilagemevoke": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundhurtspider": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.death": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekaniteendmangrito": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlifezombiedrowned": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.vidapilagem": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.shockon": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundattackevoke": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.soundhurtspider": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesounddeathendman.ogg": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundlifepilagemevoke": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.sondpass": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.creepersoundexplod": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.hurtpilagem": "字幕に内部のサウンドIDがそのまま入っているもの",
+  "subtitles.mekanitesoundshieldon": "字幕に内部のサウンドIDがそのまま入っているもの"
+ },
+ "mekanismdieselgenerators": {
+  "status.mekanismdieselgenerators.header": "記号・アイコン・型番のみ"
  },
  "mffs": {
   "screen.mffs.fortron.value": "記号・アイコン・型番のみ",
@@ -861,6 +1052,14 @@
   "potion.withDuration": "記号・アイコン・型番のみ",
   "translation.test.args": "記号・アイコン・型番のみ",
   "translation.test.escape": "記号・アイコン・型番のみ"
+ },
+ "minecraftdungeons": {
+  "item.minecraftdungeons.skeleton_horseman_music_disc.desc": "楽曲名(作曲者 - 曲名)",
+  "item.minecraftdungeons.arch_illager_music_disc.desc": "楽曲名(作曲者 - 曲名)",
+  "item.minecraftdungeons.redstone_music_disc.desc": "楽曲名(作曲者 - 曲名)",
+  "item.minecraftdungeons.cauldron_music_disc.desc": "楽曲名(作曲者 - 曲名)",
+  "item.minecraftdungeons.obsidian_monstrosity_music_disc.desc": "楽曲名(作曲者 - 曲名)",
+  "item.minecraftdungeons.nameless_one_music_disc.desc": "楽曲名(作曲者 - 曲名)"
  },
  "modonomicon": {
   "advancement.minecraft.husbandry.ride_a_boat_with_a_goat.title": "Modonomicon内蔵の開発用デモ/テスト本の文言",
@@ -998,6 +1197,16 @@
   "jei.neovitae.ritual.rune_count": "記号・アイコン・型番のみ",
   "message.neovitae.divination.altar_stats_footer": "記号・アイコン・型番のみ"
  },
+ "nuclearscience": {
+  "gui.nuclearscience.displayunit.speedoflightname": "記号・アイコン・型番のみ",
+  "gui.nuclearscience.displayunit.speedoflightnameplural": "記号・アイコン・型番のみ",
+  "gui.nuclearscience.displayunit.speedoflightsymbol": "記号・アイコン・型番のみ",
+  "gui.nuclearscience.teleporter.x": "記号・アイコン・型番のみ",
+  "gui.nuclearscience.teleporter.y": "記号・アイコン・型番のみ",
+  "gui.nuclearscience.teleporter.z": "記号・アイコン・型番のみ",
+  "guidebook.nuclearscience.chapter.particleaccelerator.formula": "記号・アイコン・型番のみ",
+  "guidebook.nuclearscience.chapter.turbines.tempvoltage": "記号・アイコン・型番のみ"
+ },
  "obscure_api": {
   "attribute.obscure_api.accuracy.icon": "記号・アイコン・型番のみ",
   "attribute.obscure_api.armor.icon": "記号・アイコン・型番のみ",
@@ -1043,6 +1252,49 @@
   "icon.star": "記号・アイコン・型番のみ",
   "icon.stick": "記号・アイコン・型番のみ",
   "icon.up": "記号・アイコン・型番のみ"
+ },
+ "ornatelib": {
+  "number.ornatelib.thousand.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.million.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.billion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.trillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.quadrillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.quintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.sextillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.septillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.octillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.nonillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.decillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.undecillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.duodecillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.tredecillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.quattuordecillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.quindecillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.sedecillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.septendecillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.octodecillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.novendecillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.vigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.unvigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.duovigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.tresvigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.quattuorvigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.quinvigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.sesvigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.septemvigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.octovigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.novemvigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.trigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.untrigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.duotrigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.trestrigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.quattuortrigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.quintrigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.sestrigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.septentrigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.octotrigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.noventrigintillion.short": "数の単位の略号(k, M, B…)",
+  "number.ornatelib.quadragintillion.short": "数の単位の略号(k, M, B…)"
  },
  "patchouli": {
   "item.patchouli.comprehensive_test_book.landing": "開発用テスト本の文言",
@@ -1231,6 +1483,22 @@
   "block.productivetrees.yew.latin": "樹木の学名(ラテン語)",
   "block.productivetrees.zebrano.latin": "樹木の学名(ラテン語)"
  },
+ "qioautocrafter": {
+  "qioautocrafter.machine.queue_job": "記号・アイコン・型番のみ",
+  "qioautocrafter.overlay.sync": "記号・アイコン・型番のみ"
+ },
+ "remotedesk": {
+  "gui.remote_desk.desk_gui.button_x": "記号・アイコン・型番のみ"
+ },
+ "spatialtoolscmp": {
+  "item.spatialtoolscmp.portable_spatial_cloner.link_dimension": "記号・アイコン・型番のみ",
+  "item.spatialtoolscmp.portable_spatial_replacer.link_dimension": "記号・アイコン・型番のみ",
+  "tooltip.spatialtoolscmp.structure_tool.energy_percent": "記号・アイコン・型番のみ",
+  "tooltip.spatialtoolscmp.structure_tool.energy_value": "記号・アイコン・型番のみ"
+ },
+ "stagecoach": {
+  "stagecoach.tooltip.coords": "記号・アイコン・型番のみ"
+ },
  "tetra": {
   "enchantment.level.50": "記号・アイコン・型番のみ",
   "enchantment.level.100": "記号・アイコン・型番のみ"
@@ -1401,6 +1669,28 @@
  "voidlessframework": {
   "item.voidlessframework.v": "記号・アイコン・型番のみ",
   "item.chaseisframework.v": "記号・アイコン・型番のみ"
+ },
+ "voltaic": {
+  "gui.voltaic.displayunit.ampere.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.displayunit.buckets.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.displayunit.conductance.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.displayunit.joules.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.displayunit.percentage.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.displayunit.resistance.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.displayunit.tempcelcius.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.displayunit.tempfahrenheit.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.displayunit.tempkelvin.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.displayunit.timeseconds.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.displayunit.timeticks.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.displayunit.voltage.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.displayunit.watt.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.measurementunit.giga.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.measurementunit.kilo.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.measurementunit.mega.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.measurementunit.micro.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.measurementunit.milli.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.measurementunit.nano.symbol": "記号・アイコン・型番のみ",
+  "gui.voltaic.measurementunit.pico.symbol": "記号・アイコン・型番のみ"
  },
  "zeta": {
   "zeta.jei.hint_preamble": "MOD名の接頭辞のみ"

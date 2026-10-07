@@ -1,0 +1,23 @@
+{
+  "description.astral_mekanism.enchanted_machine": "通常の機械の強力版。",
+  "description.astral_mekanism.essential_reaction_chamber": "Mekanism風にしたAdvanced AEの反応チャンバー。",
+  "description.astral_mekanism.gas_synthesizer": "オスミウム圧縮機用の素材を単独で精製し、全体のクラフト速度を上げる機械。",
+  "description.astral_mekanism.infusing_condensentrator": "ガスと注入物を混ぜて液体にする。",
+  "description.astral_mekanism.interstellar_antineutronic_matter_reconstruction_apparatus": "Astral Mekanism & Energistics の最終コンテンツ。詳しくはJEIを見てください。",
+  "description.astral_mekanism.item_compressor": "アイテムを圧縮できる機械。",
+  "description.astral_mekanism.item_unzipper": "圧縮したアイテムを元に戻せる機械。",
+  "description.astral_mekanism.mekanical_composter": "Mekanism風のコンポスター。",
+  "description.astral_mekanism.mekanical_matter_condenser": "Mekanism風の物質凝縮器。",
+  "description.astral_mekanism.mekanical_magma_block": "ただの永久熱源。",
+  "description.astral_mekanism.evenly_inserter": "アイテム、液体、化学物質を、対象ブロックの受け入れ可能なすべてのスロットやタンクに均等に入れる。",
+  "description.astral_mekanism.ratio_separator": "アイテム、液体、化学物質を設定した割合で分ける。",
+  "description.astral_mekanism.xp_tank": "経験値を注入物として保管し、プレイヤーの経験値と注入物の経験値を交換できる。",
+  "description.astral_mekanism.sortable_storage_filter_card": "並べ替え可能なアイテムストレージ用のフィルターカード。セル作業台でアイテムを登録する。",
+  "explain.astral_mekanism.assemblicator_bookbutton": "この機械に登録したレシピをJEIで表示する。\nJEIの「+」ボタンでレシピを登録できる。",
+  "explain.astral_mekanism.assemblicator_torchbutton": "このたいまつが灯っていなければ、この機械にレシピが登録されていない。\nJEIの「+」ボタンでレシピを登録できる。",
+  "upgrade.astral_mekanism.tank_capacity": "タンク容量",
+  "upgrade.astral_mekanism.advanced_tank_capacity": "高度なタンク容量",
+  "upgrade.astral_mekanism.tank_capacity.description": "タンクの容量を増やす",
+  "upgrade.astral_mekanism.advanced_tank_capacity.description": "タンクの容量をさらに増やす",
+  "wip.astral_mekanism.wip": "[開発中] Astral Mekanism & Energistics"
+}

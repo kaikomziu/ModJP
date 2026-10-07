@@ -1,0 +1,464 @@
+## electrodynamics
+@ block.electrodynamics.
+.advancedcompressor	圧縮機 MK2
+.advanceddecompressor	減圧機 MK2
+.advanceddowngradetransformer	降圧変圧器 Mk 2
+.advancedthermoelectricmanipulator	GTLチャンバー MK2
+.advancedupgradetransformer	昇圧変圧器 Mk 2
+.circuitmonitor	回路モニター
+.compressoraddontank	加圧タンク
+.compressorside	圧縮機の側面
+.coolantresavoir	冷却液リザーバー
+.creativegassource	クリエイティブ気体源
+.currentregulator	電流調整器
+.decompressor	減圧機
+.deepslateorechromium	深層クロム鉄鉱
+.deepslateorelithium	深層紅雲母
+.deepslateoresalt	深層岩塩
+.deepslateorethorium	深層トリアナイト
+.deepslateoretitanium	深層金紅石
+.deepslateoreuranium	深層閃ウラン鉱
+.deepslateorevanadium	深層褐鉛鉱
+.fluidpipefilter	液体パイプフィルター
+.fluidpipepump	液体パイプポンプ
+.frame	採掘機のフレーム
+.framecorner	採掘機のフレームの角
+.gaspipefilter	ガスパイプフィルター
+.gaspipepump	ガスパイプポンプ
+.gaspipeuninsulatedcopper	銅のガスパイプ
+.gaspipeuninsulatedplastic	プラスチックのガスパイプ
+.gaspipeuninsulatedsteel	鉄鋼のガスパイプ
+.gastankhsla	HSLAガスボンベ
+.gastankreinforced	強化ガスボンベ
+.gastanksteel	鉄鋼ガスボンベ
+.gasvalve	ガスバルブ
+.gasvent	ガス排出口
+.logisticalmanager	物流管理装置
+.motorcomplex	モーター複合体
+.orechromium	クロム鉄鉱
+.orelithium	紅雲母
+.oresalt	岩塩
+.orethorium	トリアナイト
+.oretitanium	金紅石
+.orevanadium	褐鉛鉱
+.quarry	採掘機
+.raworeblockchromium	クロム鉄鉱の原石ブロック
+.raworeblockthorium	トリアナイトの原石ブロック
+.raworeblocktitanium	金紅石の原石ブロック
+.raworeblockuranium	閃ウラン鉱の原石ブロック
+.seismicmarker	地震波マーカー
+.seismicrelay	地震波リレー
+.steelscaffold	鉄鋼の足場
+.thermoelectricmanipulator	GTLチャンバー
+@ fluid.electrodynamics.
+.fluidclay	液状粘土
+.fluidhydraulic	油圧作動油
+.fluidpolyethylene	液化ポリエチレン
+.fluidsulfatecopper	硫酸銅溶液
+.fluidsulfategold	硫酸金溶液
+.fluidsulfateiron	硫酸鉄溶液
+.fluidsulfatelead	硫酸鉛溶液
+.fluidsulfatelithium	硫酸リチウム溶液
+.fluidsulfatemolybdenum	硫酸モリブデン溶液
+.fluidsulfatenetherite	硫酸カルビン溶液
+.fluidsulfatesilver	硫酸銀溶液
+.fluidsulfatetin	硫酸スズ溶液
+.fluidsulfatevanadium	硫酸バナジウム溶液
+gas.electrodynamics.hydrogen	水素
+gas.electrodynamics.oxygen	酸素
+gas.electrodynamics.steam	蒸気
+@ item.electrodynamics.
+.combatarmorboots	戦闘用ブーツ
+.combatarmorchestplate	戦闘用チェストプレート
+.combatarmorhelmet	戦闘用ヘルメット
+.combatarmorleggings	戦闘用レギンス
+.drillheadhslasteel	HSLA鋼のドリルヘッド
+.drillheadstainlesssteel	ステンレス鋼のドリルヘッド
+.drillheadtitaniumcarbide	炭化チタンのドリルヘッド
+.fiberglasssheet	ガラス繊維シート
+.laminatedcoil	積層銅コイル
+.mechanicalvalve	機械式バルブ
+.plasticfibers	ポリエチレン繊維
+.portablecylinder	携帯用ガスボンベ
+.raworechromium	クロム鉄鉱の原石
+.raworefluorite	蛍石の原石
+.raworelepidolite	紅雲母の原石
+.raworethorium	トリアナイトの原石
+.raworetitanium	金紅石の原石
+.raworevanadinite	褐鉛鉱の原石
+.servoleggings	サーボレギンス
+@ advancement.electrodynamics.
+.advancedsolarpanel.desc	上級ソーラー発電機を作ろう！
+.advancedsolarpanel.title	上級ソーラー発電機
+.basicwiring.desc	はじめてのワイヤーを作ろう！
+.basicwiring.title	配線
+.batterybox.desc	バッテリーを作ろう！
+.batterybox.title	バッテリー
+.betterwiring.desc	銀のワイヤーを作ろう！
+.betterwiring.title	より良い配線
+.carbynebatterybox.desc	カルビンバッテリーを作ろう！
+.carbynebatterybox.title	カルビンバッテリー
+.ceramicinsulatedwiring.desc	銅のセラミックケーブルを作ろう！
+.ceramicinsulatedwiring.title	セラミック配線
+.ceramicinsulation.desc	セラミックシースを作ろう！
+.ceramicinsulation.title	セラミックシース
+.circuitbreaker.desc	回路遮断器を作ろう！
+.circuitbreaker.title	回路遮断器
+.coalgenerator.desc	火力発電機を作ろう！
+.coalgenerator.title	火力発電機
+.doubleelectricarcfurnace.desc	上級アーク炉を作ろう！
+.doubleelectricarcfurnace.title	2倍の溶鉱
+.doubleelectricfurnace.desc	上級電気炉を作ろう！
+.doubleelectricfurnace.title	2倍の精錬
+.doublemineralcrusher.desc	上級鉱物粉砕機を作ろう！
+.doublemineralcrusher.title	2倍の粉砕
+.doublemineralgrinder.desc	上級鉱物研磨機を作ろう！
+.doublemineralgrinder.title	2倍の研磨
+.doublewiremill.desc	上級線材圧延機を作ろう！
+.doublewiremill.title	2倍の圧延
+.downgradetransformer.desc	降圧変圧器を作ろう！
+.downgradetransformer.title	降圧変圧器
+.electricarcfurnace.desc	アーク炉を作ろう！
+.electricarcfurnace.title	電気溶鉱
+.electricfurnace.desc	電気炉を作ろう！
+.electricfurnace.title	電気精錬
+.highlyinsulatedwiring.desc	銅の高圧ケーブルを作ろう！
+.highlyinsulatedwiring.title	高圧配線
+.insulatedwiring.desc	銅の絶縁ケーブルを作ろう！
+.insulatedwiring.title	絶縁配線
+.insulation.desc	ラバーシースを作ろう！
+.insulation.title	ラバーシース
+.lithiumbatterybox.desc	リチウムバッテリーを作ろう！
+.lithiumbatterybox.title	リチウムバッテリー
+.mineralcrusher.desc	鉱物粉砕機を作ろう！
+.mineralcrusher.title	鉱物の粉砕
+.mineralgrinder.desc	鉱物研磨機を作ろう！
+.mineralgrinder.title	鉱物の研磨
+.multimeter.desc	回路計を作ろう！
+.multimeter.title	回路を測る
+.ores.desc	木のツルハシを作ろう！
+.ores.title	採掘
+.rawchromium.desc	クロム鉄鉱の原石を見つけよう！
+.rawchromium.title	クロム鉄鉱の原石
+.rawfluorite.desc	蛍石の原石を見つけよう！
+.rawfluorite.title	蛍石の原石
+.rawlead.desc	方鉛鉱の原石を見つけよう！
+.rawlead.title	方鉛鉱の原石
+.rawlithium.desc	紅雲母の原石を見つけよう！
+.rawlithium.title	紅雲母の原石
+.rawsilver.desc	輝銀鉱の原石を見つけよう！
+.rawsilver.title	輝銀鉱の原石
+.rawthorium.desc	トリアナイトの原石を見つけよう！
+.rawthorium.title	トリアナイトの原石
+.rawtin.desc	スズ石の原石を見つけよう！
+.rawtin.title	スズ石の原石
+.rawtitanium.desc	金紅石の原石を見つけよう！
+.rawtitanium.title	金紅石の原石
+.rawuranium.desc	閃ウラン鉱の原石を見つけよう！
+.rawuranium.title	閃ウラン鉱の原石
+.rawvanadinite.desc	褐鉛鉱の原石を見つけよう！
+.rawvanadinite.title	褐鉛鉱の原石
+.rawvanadium.desc	褐鉛鉱の原石を見つけよう！
+.rawvanadium.title	褐鉛鉱の原石
+.root.desc	電気の世界に足を踏み入れた。
+.root.title	Electrodynamics
+.solarpanel.desc	ソーラー発電機を作ろう！
+.solarpanel.title	ソーラー発電機
+.superconductivewiring.desc	超電導ワイヤーを作ろう！
+.superconductivewiring.title	超電導配線
+.superiorwiring.desc	金のワイヤーを作ろう！
+.superiorwiring.title	上質な配線
+.thermoelectricgenerator.desc	地熱発電機を作ろう！
+.thermoelectricgenerator.title	地熱発電機
+.tripleelectricarcfurnace.desc	高級アーク炉を作ろう！
+.tripleelectricarcfurnace.title	3倍の溶鉱
+.tripleelectricfurnace.desc	高級電気炉を作ろう！
+.tripleelectricfurnace.title	3倍の精錬
+.triplemineralcrusher.desc	高級鉱物粉砕機を作ろう！
+.triplemineralcrusher.title	3倍の粉砕
+.triplemineralgrinder.desc	高級鉱物研磨機を作ろう！
+.triplemineralgrinder.title	3倍の研磨
+.triplewiremill.desc	高級線材圧延機を作ろう！
+.triplewiremill.title	3倍の圧延
+.upgradetransformer.desc	昇圧変圧器を作ろう！
+.upgradetransformer.title	昇圧変圧器
+.wiremill.desc	線材圧延機を作ろう！
+.wiremill.title	線材の圧延
+@ container.
+.advancedcompressor	圧縮機 MK2
+.advanceddecompressor	減圧機 MK2
+.advanceddowngradetransformer	降圧変圧器 Mk 2
+.advancedthermoelectricmanipulator	GTLチャンバー MK2
+.advancedupgradetransformer	昇圧変圧器 Mk 2
+.circuitmonitor	回路モニター
+.compressor	圧縮機
+.coolantresavoir	冷却液リザーバー
+.creativegassource	クリエイティブ気体源
+.decompressor	減圧機
+.electricarcfurnace	アーク炉
+.electricarcfurnacedouble	上級アーク炉
+.electricarcfurnacetriple	高級アーク炉
+.electricdrill	電動ドリル
+.electricfurnace	電気炉
+.electricfurnacedouble	上級電気炉
+.electricfurnacetriple	高級電気炉
+.fluidpipefilter	液体パイプフィルター
+.fluidpipepump	液体パイプポンプ
+.gaspipefilter	ガスパイプフィルター
+.gaspipepump	ガスパイプポンプ
+.gastankhsla	HSLAガスボンベ
+.gastankreinforced	強化ガスボンベ
+.gastanksteel	鉄鋼ガスボンベ
+.gasvent	ガス排出口
+.mineralcrusher	鉱物粉砕機
+.mineralcrusherdouble	上級鉱物粉砕機
+.mineralcrushertriple	高級鉱物粉砕機
+.mineralgrinder	鉱物研磨機
+.mineralgrinderdouble	上級鉱物研磨機
+.mineralgrindertriple	高級鉱物研磨機
+.motorcomplex	モーター複合体
+.potentiometer	電位差計
+.quarry	採掘機
+.rotaryunifier	ロータリーユニファイア
+.seismicrelay	地震波リレー
+.thermoelectricmanipulator	GTLチャンバー
+.wiremill	線材圧延機
+.wiremilldouble	上級線材圧延機
+.wiremilltriple	高級線材圧延機
+creativetab.electrodynamics.grid	Electrodynamics 送電網
+creativetab.electrodynamics.main	Electrodynamics
+death.attack.acceleratedbolt	%1$sは%2$sに撃ち抜かれた
+death.attack.plasmabolt	%1$sは%2$sに蒸発させられた
+dimension.electrodynamics.overworld	オーバーワールド
+dimension.electrodynamics.the_end	ジ・エンド
+dimension.electrodynamics.the_nether	ネザー
+@ gui.electrodynamics.
+.coalgenerator.timeleft	残り時間: %s
+.coilratio	巻数比
+.creativefluidsource.setfluid	液体を設定
+.creativegassource.setgas	気体を設定
+.creativepowersource.power	電力:
+.creativepowersource.voltage	電圧:
+.filter.blacklist	ブラックリスト
+.filter.whitelist	ホワイトリスト
+.genericcharger.chargecapable	充電可能量: %s
+.genericcharger.chargeperc	充電: %s
+.machine.current	電流: %s
+.machine.heat	熱: %s
+.machine.output	出力: %s
+.machine.satisfaction	充足率: %s
+.machine.stored	蓄電: %s
+.machine.temperature	温度: %s
+.machine.transfer	転送: %s
+.machine.usage	消費: %s
+.machine.voltage	電圧: %s
+.motorcomplex.speed	1ブロックあたりのティック: %s
+.multimeterblock.loss	損失: %s
+.multimeterblock.minvoltage	最低電圧: %s
+.multimeterblock.resistance	抵抗: %s
+.multimeterblock.transfer	転送: %s
+.multimeterblock.voltage	電圧: %s
+.networkampacity	許容電流
+.networkload	負荷
+.networkminimumvoltage	最低電圧
+.networkresistance	抵抗
+.networkvoltage	電圧
+.networkwattage	電力
+.operator	演算子
+.potentiometer.usage	消費
+.prioritypump.priority	優先度
+.property	プロパティ
+.quarry.areanotclear	範囲がふさがっている
+.quarry.clearingarea	整地中…
+.quarry.coolantresavoir	冷却液リザーバー
+.quarry.drillhead	ドリルヘッド: %s
+.quarry.errors	エラー:
+.quarry.finished	完了！
+.quarry.fortune	幸運: %s
+.quarry.hashead	あり
+.quarry.inventoryroom	インベントリが満杯
+.quarry.mining	採掘中…
+.quarry.miningframe	稼働中のフレーム
+.quarry.miningposition	採掘位置: %s
+.quarry.miningusage	ドリルの消費: %s
+.quarry.missinghead	ドリルヘッドなし
+.quarry.motorcomplex	モーター複合体
+.quarry.motorcomplexnotpowered	モーターの電力
+.quarry.needvoidcard	カードなし
+.quarry.nocoolant	冷却液の量
+.quarry.nocoolantresavoir	リザーバーなし
+.quarry.nocorners	角が無効
+.quarry.noerrors	なし
+.quarry.nohead	なし
+.quarry.nomotorcomplex	モーターなし
+.quarry.nopower	採掘機の電力
+.quarry.norelay	リレーなし
+.quarry.noring	リングなし
+.quarry.notmining	エラー！
+.quarry.ringusage	リングの消費: %s
+.quarry.seismicrelay	地震波リレー
+.quarry.setup	準備中…
+.quarry.silktouch	シルクタッチ: %s
+.quarry.status	状態:
+.quarry.unbreaking	耐久力: %s
+.quarry.voiditems	消去リスト
+.quarry.wateruse	冷却液/ブロック: %s
+.seismicrelay.dataheader	マーカー
+.seismicrelay.posnotfound	%s 、見つからない
+.seismicrelay.posoptional	%s 、任意
+.seismicscanner.dataheader	スキャン結果:
+.seismicscanner.material	有効なパターン:
+.seismicscanner.nopatternstored	パターンなし
+.seismicscanner.notfound	ブロックが見つからない！
+.seismicscanner.pattern	スキャンしたパターン:
+.seismicscanner.patternintegrity	完全性: %s
+.seismicscanner.performscan	スキャン
+.seismicscanner.scanactive	能動
+.seismicscanner.scanpassive	受動
+.seismicscanner.xcoordna	X: 見つからない
+.seismicscanner.ycoordna	Y: 見つからない
+.seismicscanner.zcoordna	Z: 見つからない
+.thermoelectricmanipulator.temp	温度:
+.value	値
+jei.blasting	アーク炉
+jei.chemical_crystallizer_recipe	ケミカルクリスタライザー
+jei.chemical_mixer_recipe	ケミカルミキサー
+jei.electrolytic_separator_recipe	電解分離器
+jei.energized_alloyer_recipe	合金生成器
+jei.fermentation_plant_recipe	発酵プラント
+jei.gas_condensing	気体の凝縮
+jei.gas_evaporating	液体の蒸発
+jei.lathe_recipe	旋盤
+jei.mineral_crusher_recipe	鉱物粉砕機
+jei.mineral_grinder_recipe	鉱物研磨機
+jei.mineral_washer_recipe	鉱石洗浄機
+jei.oxidation_furnace_recipe	酸化炉
+jei.reinforced_alloyer_recipe	強化合金生成機
+jei.smelting	電気炉
+jei.wire_mill_recipe	線材圧延機
+key.electrodynamics.servoleggingsmode	サーボレギンスのモード切替
+key.electrodynamics.swapbattery	電池を交換
+key.electrodynamics.toggleservoleggings	サーボレギンスのオン/オフ
+@ subtitles.electrodynamics.
+.batteryswap	電池を交換する
+.compressorrunning	圧縮機が気体を加圧する
+.decompressorrunning	減圧機が気体を減圧する
+.hydraulicboots	油圧ピストンが作動する
+.motorrunning	モーターが回る
+.pressurerelease	気体が噴き出す
+.railgunkinetic	レールガンが発射される
+.railgunkinetic_noammo	ロッド切れ
+.railgunplasma_fire	プラズマレールガンが発射される
+.railgunplasma_hit	プラズマレールガンの弾が当たる
+.railgunplasma_nopower	プラズマレールガンの電力切れ
+.transformerhum	変圧器がうなる
+@ tooltip.electrodynamics.
+.addontankcap	容量を%s増やす
+.blockframe.joke	どうやって手に入れたの！？
+.coolantresavoir.place	採掘機の上に置く
+.countdown.tickstillcheck	残りティック: %s
+.creativefluidsource.joke	「もっとだ」 - クライロ・レン
+.creativegassource.joke	「涼風のための熱風」
+.creativepowersource.joke	「無限のパワー」 - スタートレックのバック・ロジャース
+.currbattery	電池: %s
+.currentgas	気体: %s
+.electricdrill.fortunelevel	幸運 %s
+.electricdrill.miningspeed	採掘速度: %s
+.electricdrill.overclock	オーバークロック: %s
+.electricdrill.silktouch	シルクタッチ
+.electricdrill.usage	消費 / ブロック: %s
+.electrolosischamber.procamount	処理量: %s
+.electrolosischamber.satisfaction	充足率: %s
+.fluidtank.capacity	容量: %s
+.fluidvalve	レッドストーン信号を受けると液体を止める
+.fluidvoid	液体を消す
+.gasamount	量: %1$s / %2$s
+.gaspressure	圧力: %s
+.gastank.capacity	容量 : %s
+.gastemperature	温度: %s
+.gasvalve	レッドストーン信号を受けると気体を止める
+.gasvent	気体を消す
+.guidebookjeirecipe	「R」でレシピを表示
+.guidebookjeiuse	「U」で用途を表示
+.guidebookname	別名ガイドブック
+.info.broken	動作していない
+.info.cleardirs	Shift+左クリックで方向を消去
+.info.dirlist	現在の方向:
+.info.guidebooktemp	本は近日公開
+.info.guidebookuse	Shift+右クリックでWikiを開く
+.info.insmartmode	スマートモード
+.info.iteminputupgrade	隣接するインベントリからアイテムを搬入する
+.info.itemoutputupgrade	隣接するインベントリへアイテムを搬出する
+.info.nodirs	Shift+右クリックで方向を追加
+.info.range	半径を1増やす
+.info.togglesmart	右クリックでスマートモードを切り替え。
+.info.upgradecapacity	容量: %s
+.info.upgradeenergytransfer	エネルギー転送: %s
+.info.upgradeenergyusage	消費: %s
+.info.upgradespeed	速度: %s
+.info.upgradevoltage	電圧: %s
+.info.xpstored	蓄えた経験値: %s
+.info.xpusage	Shift+右クリックで取り出す
+.inventoryio	インベントリ入出力
+.inventoryio.back	後
+.inventoryio.bottom	下
+.inventoryio.front	前
+.inventoryio.left	左
+.inventoryio.presstohide	押して隠す
+.inventoryio.presstoshow	押して表示
+.inventoryio.right	右
+.inventoryio.slotmap	スロットマップ
+.inventoryio.top	上
+.item.electric.info	蓄電: %s
+.item.electric.voltage	電圧: %s
+.itemwire.info.fireproof	耐火
+.itemwire.info.insulationrating	絶縁定格: %s
+.itemwire.info.redstone	レッドストーン信号を伝える
+.itemwire.info.uninsulated	絶縁されていない！
+.itemwire.maxamps	許容電流: %s
+.itemwire.resistance	抵抗: %s
+.jetpack.mode	モード:
+.jetpack.modeelytra	エリトラ
+.jetpack.modehover	ホバー
+.jetpack.modeoff	オフ
+.jetpack.moderegular	通常
+.logisticalmanager.use	任意: 採掘機のインベントリを管理する
+.machine.voltage	電圧: %s
+.maxpressure	最大圧力: %s
+.maxtemperature	最高温度: %s
+.motorcomplex.use	採掘機の速度を制御する
+.nightvisiongoggles.off	オフ
+.nightvisiongoggles.on	オン
+.nightvisiongoggles.status	状態:
+.pipeheatloss	熱損失: -%s / ブロック
+.pipeinsulationceramic	セラミック
+.pipeinsulationmaterial	断熱材: %s
+.pipeinsulationnone	なし
+.pipeinsulationwool	羊毛
+.pipematerial	素材: %s
+.pipematerialcopper	銅
+.pipematerialplastic	プラスチック
+.pipematerialsteel	鉄鋼
+.pipemaximumpressure	最大圧力: %s
+.pipethroughput	流量: %s
+.potentiometer.use	設定可能なエネルギー消去装置
+.quarry.power	アップグレードの動作には電力が必要
+.rotaryunifier.toggle	変換を切り替え
+.rotaryunifier.use1	気体は凝縮温度より
+.rotaryunifier.use2	1度高くなければならない
+.scannerpattern	ソナーパターン
+.seismicmarker.redstone	レッドストーン信号でガイド線を表示
+.seismicrelay.use	マーカーの輪を検出して記録する
+.seismicscanner.cooldown	クールダウン: %s
+.seismicscanner.currentore	現在の鉱石: %s
+.seismicscanner.empty	[なし]
+.seismicscanner.oncooldown	クールダウン中
+.seismicscanner.range	半径: %sブロック
+.seismicscanner.showuse	Shift + 右クリックでスキャン
+.servolegs.both	両方
+.servolegs.none	なし
+.servolegs.speed	速度
+.servolegs.step	段差
+.tankmaxin	入力 %1$s : %2$s
+.tankmaxout	出力 %1$s : %2$s
+.transformer.energyloss	効率: %s

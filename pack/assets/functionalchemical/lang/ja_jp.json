@@ -1,0 +1,12 @@
+{
+  "itemGroup.functionalchemical": "Functional Chemical",
+  "block.functionalchemical.chem_1": "化学物質ドロワー (1x1)",
+  "block.functionalchemical.chem_2": "化学物質ドロワー (1x2)",
+  "block.functionalchemical.chem_4": "化学物質ドロワー (2x2)",
+  "block.functionalchemical.radioactive_drawer": "放射性ドロワー",
+  "item.functionalchemical.decay_upgrade": "崩壊アップグレード",
+  "item.functionalchemical.adv_decay_upgrade": "高度な崩壊アップグレード",
+  "tooltip.functionalchemical.decay_upgrade": "崩壊する化学物質をドロワーの中で崩壊させる。",
+  "tooltip.functionalchemical.adv_decay_upgrade": "10倍速い。",
+  "gui.functionalchemical.chemical": "化学物質:"
+}

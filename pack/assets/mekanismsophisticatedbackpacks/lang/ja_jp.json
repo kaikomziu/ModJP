@@ -1,0 +1,6 @@
+{
+  "item.mekanismsophisticatedbackpacks.chemical_tank_upgrade": "化学タンクアップグレード",
+  "item.mekanismsophisticatedbackpacks.chemical_tank_upgrade.tooltip": "Sophisticated BackpackにMekanismのガスを保管する",
+  "item.mekanismsophisticatedbackpacks.chemical_tank_upgrade.tooltip.1": "入力/出力スロットにガスの容器を入れられる",
+  "item.mekanismsophisticatedbackpacks.chemical_tank_upgrade.tooltip.2": "PneumaticCraftの圧力チューブに対応"
+}

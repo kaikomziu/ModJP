@@ -1,0 +1,112 @@
+## mekanismdieselgenerators
+machine.mekanismdieselgenerators.genset	V16ディーゼル発電機
+block.mekanismdieselgenerators.genset_radiator	V16ディーゼル発電機(ラジエーター)
+block.mekanismdieselgenerators.genset_engine	V16ディーゼル発電機(エンジン)
+block.mekanismdieselgenerators.genset_generator	V16ディーゼル発電機(発電部)
+block.mekanismdieselgenerators.genset_turbo	V16ディーゼル発電機(ターボチャージャー)
+block.mekanismdieselgenerators.genset_gen_blower	V16ディーゼル発電機(発電部の送風機)
+block.mekanismdieselgenerators.genset_control_cabinet	V16ディーゼル発電機(制御盤)
+machine.mekanismdieselgenerators.genset12	V12ディーゼル発電機
+block.mekanismdieselgenerators.genset12_radiator12	V12ディーゼル発電機(ラジエーター)
+block.mekanismdieselgenerators.genset12_engine12	V12ディーゼル発電機(エンジン)
+block.mekanismdieselgenerators.genset12_generator12	V12ディーゼル発電機(発電部)
+machine.mekanismdieselgenerators.genset8	V8ディーゼル発電機
+block.mekanismdieselgenerators.genset8_radiator8	V8ディーゼル発電機(ラジエーター)
+block.mekanismdieselgenerators.genset8_engine8	V8ディーゼル発電機(エンジン)
+block.mekanismdieselgenerators.genset8_generator8	V8ディーゼル発電機(発電部)
+machine.mekanismdieselgenerators.genset6	直列6気筒ディーゼル発電機
+block.mekanismdieselgenerators.genset6_radiator6	直列6気筒ディーゼル発電機(ラジエーター)
+block.mekanismdieselgenerators.genset6_engine6	直列6気筒ディーゼル発電機(エンジン)
+block.mekanismdieselgenerators.genset6_generator6	直列6気筒ディーゼル発電機(発電部)
+subtitles.mekanismdieselgenerators.genset.idle_loop	V16ディーゼル発電機がアイドリングする
+subtitles.mekanismdieselgenerators.genset.n324_loop	V16ディーゼル発電機が動く (n324)
+subtitles.mekanismdieselgenerators.genset.n500_loop	V16ディーゼル発電機が動く (n500)
+subtitles.mekanismdieselgenerators.genset.n612_loop	V16ディーゼル発電機が動く (n612)
+subtitles.mekanismdieselgenerators.genset.n669_loop	V16ディーゼル発電機が動く (n669)
+subtitles.mekanismdieselgenerators.genset.n767_loop	V16ディーゼル発電機が動く (n767)
+subtitles.mekanismdieselgenerators.genset.n830_loop	V16ディーゼル発電機が動く (n830)
+subtitles.mekanismdieselgenerators.genset.rampdown	V16ディーゼル発電機が減速する
+subtitles.mekanismdieselgenerators.genset.rampup	V16ディーゼル発電機が加速する
+subtitles.mekanismdieselgenerators.genset.shutdown	V16ディーゼル発電機が止まる
+subtitles.mekanismdieselgenerators.genset.start	V16ディーゼル発電機が始動する
+subtitles.mekanismdieselgenerators.genset12.idle_loop	V12ディーゼル発電機がアイドリングする
+subtitles.mekanismdieselgenerators.genset12.n324_loop	V12ディーゼル発電機が動く (n324)
+subtitles.mekanismdieselgenerators.genset12.n500_loop	V12ディーゼル発電機が動く (n500)
+subtitles.mekanismdieselgenerators.genset12.n612_loop	V12ディーゼル発電機が動く (n612)
+subtitles.mekanismdieselgenerators.genset12.n669_loop	V12ディーゼル発電機が動く (n669)
+subtitles.mekanismdieselgenerators.genset12.n767_loop	V12ディーゼル発電機が動く (n767)
+subtitles.mekanismdieselgenerators.genset12.n830_loop	V12ディーゼル発電機が動く (n830)
+subtitles.mekanismdieselgenerators.genset12.rampdown	V12ディーゼル発電機が減速する
+subtitles.mekanismdieselgenerators.genset12.rampup	V12ディーゼル発電機が加速する
+subtitles.mekanismdieselgenerators.genset12.shutdown	V12ディーゼル発電機が止まる
+subtitles.mekanismdieselgenerators.genset12.start	V12ディーゼル発電機が始動する
+subtitles.mekanismdieselgenerators.genset8.idle_loop	V8ディーゼル発電機がアイドリングする
+subtitles.mekanismdieselgenerators.genset8.rampdown	V8ディーゼル発電機が減速する
+subtitles.mekanismdieselgenerators.genset8.rampup	V8ディーゼル発電機が加速する
+subtitles.mekanismdieselgenerators.genset8.run_full_loop	V8ディーゼル発電機が動く (run_full)
+subtitles.mekanismdieselgenerators.genset8.run_half_loop	V8ディーゼル発電機が動く (run_half)
+subtitles.mekanismdieselgenerators.genset8.run_noload_loop	V8ディーゼル発電機が動く (run_noload)
+subtitles.mekanismdieselgenerators.genset8.shutdown	V8ディーゼル発電機が止まる
+subtitles.mekanismdieselgenerators.genset8.start	V8ディーゼル発電機が始動する
+subtitles.mekanismdieselgenerators.genset6.idle_loop	直列6気筒ディーゼル発電機がアイドリングする
+subtitles.mekanismdieselgenerators.genset6.rampdown	直列6気筒ディーゼル発電機が減速する
+subtitles.mekanismdieselgenerators.genset6.rampup	直列6気筒ディーゼル発電機が加速する
+subtitles.mekanismdieselgenerators.genset6.run_full_loop	直列6気筒ディーゼル発電機が動く (run_full)
+subtitles.mekanismdieselgenerators.genset6.run_half_loop	直列6気筒ディーゼル発電機が動く (run_half)
+subtitles.mekanismdieselgenerators.genset6.run_noload_loop	直列6気筒ディーゼル発電機が動く (run_noload)
+subtitles.mekanismdieselgenerators.genset6.shutdown	直列6気筒ディーゼル発電機が止まる
+subtitles.mekanismdieselgenerators.genset6.start	直列6気筒ディーゼル発電機が始動する
+subtitles.mekanismdieselgenerators.genset6.starter	直列6気筒ディーゼル発電機のセルモーターが回る
+subtitles.mekanismdieselgenerators.genset8.starter	V8ディーゼル発電機のセルモーターが回る
+machine.mekanismdieselgenerators.petrol8	ガソリンV8発電機
+block.mekanismdieselgenerators.petrol8_radiator88	ガソリンV8発電機(ラジエーター)
+block.mekanismdieselgenerators.petrol8_engine88	ガソリンV8発電機(エンジン)
+block.mekanismdieselgenerators.petrol8_generator88	ガソリンV8発電機(発電部)
+machine.mekanismdieselgenerators.heli	ターボシャフト発電機
+block.mekanismdieselgenerators.heli_heli	ターボシャフト発電機(タービン)
+machine.mekanismdieselgenerators.turbine	ガスタービン発電機
+block.mekanismdieselgenerators.turbine_t_encl	ガスタービン発電機(外装)
+block.mekanismdieselgenerators.turbine_t_filter	ガスタービン発電機(吸気フィルター室)
+block.mekanismdieselgenerators.turbine_t_hrsg	ガスタービン発電機(排熱回収ボイラー)
+block.mekanismdieselgenerators.turbine_t_alt	ガスタービン発電機(交流発電機)
+machine.mekanismdieselgenerators.marine6	船舶用2ストローク発電機
+block.mekanismdieselgenerators.marine6_m_frame	船舶用2ストローク発電機(台板)
+block.mekanismdieselgenerators.marine6_m_scav	船舶用2ストローク発電機(掃気)
+block.mekanismdieselgenerators.marine6_m_cyl	船舶用2ストローク発電機(シリンダー)
+block.mekanismdieselgenerators.marine6_m_exh	船舶用2ストローク発電機(排気集合管)
+block.mekanismdieselgenerators.marine6_m_alt	船舶用2ストローク発電機(交流発電機)
+subtitles.mekanismdieselgenerators.heli.start	ターボシャフト発電機が始動する
+subtitles.mekanismdieselgenerators.heli.shutdown	ターボシャフト発電機が停止する
+subtitles.mekanismdieselgenerators.heli.rampup	ターボシャフト発電機が加速する
+subtitles.mekanismdieselgenerators.heli.rampdown	ターボシャフト発電機が減速する
+subtitles.mekanismdieselgenerators.heli.idle_loop	ターボシャフト発電機がアイドリングする
+subtitles.mekanismdieselgenerators.motor.run_loop	三相モーターがうなる
+subtitles.mekanismdieselgenerators.motor.start	三相モーターが始動する
+subtitles.mekanismdieselgenerators.motor.stop	三相モーターが止まっていく
+subtitles.mekanismdieselgenerators.heli.low_loop	ターボシャフト発電機が動く
+subtitles.mekanismdieselgenerators.heli.mid_loop	ターボシャフト発電機が動く
+subtitles.mekanismdieselgenerators.heli.high_loop	ターボシャフト発電機が全開で動く
+subtitles.mekanismdieselgenerators.turbine.start	ガスタービン発電機が始動する
+subtitles.mekanismdieselgenerators.turbine.shutdown	ガスタービン発電機が停止する
+subtitles.mekanismdieselgenerators.turbine.rampup	ガスタービン発電機が加速する
+subtitles.mekanismdieselgenerators.turbine.rampdown	ガスタービン発電機が減速する
+subtitles.mekanismdieselgenerators.turbine.idle_loop	ガスタービン発電機がアイドリングする
+subtitles.mekanismdieselgenerators.turbine.low_loop	ガスタービン発電機が動く
+subtitles.mekanismdieselgenerators.turbine.mid_loop	ガスタービン発電機が動く
+subtitles.mekanismdieselgenerators.turbine.high_loop	ガスタービン発電機が全開で動く
+subtitles.mekanismdieselgenerators.petrol8.start	ガソリンV8発電機が始動する
+subtitles.mekanismdieselgenerators.petrol8.shutdown	ガソリンV8発電機が停止する
+subtitles.mekanismdieselgenerators.petrol8.rampup	ガソリンV8発電機が加速する
+subtitles.mekanismdieselgenerators.petrol8.rampdown	ガソリンV8発電機が減速する
+subtitles.mekanismdieselgenerators.petrol8.idle_loop	ガソリンV8発電機がアイドリングする
+subtitles.mekanismdieselgenerators.petrol8.run_noload_loop	ガソリンV8発電機が動く
+subtitles.mekanismdieselgenerators.petrol8.run_half_loop	ガソリンV8発電機が半負荷で動く
+subtitles.mekanismdieselgenerators.petrol8.run_full_loop	ガソリンV8発電機が全負荷で動く
+subtitles.mekanismdieselgenerators.tdi.start	1.9 TDIが始動する
+subtitles.mekanismdieselgenerators.tdi.idle_loop	1.9 TDIがアイドリングする
+subtitles.mekanismdieselgenerators.tdi.run_noload_loop	1.9 TDIが動く
+subtitles.mekanismdieselgenerators.tdi.run_half_loop	1.9 TDIが動く
+subtitles.mekanismdieselgenerators.tdi.run_full_loop	1.9 TDIが全開で動く
+subtitles.mekanismdieselgenerators.tdi.rampup	1.9 TDIが加速する
+subtitles.mekanismdieselgenerators.tdi.rampdown	1.9 TDIが減速する
+subtitles.mekanismdieselgenerators.tdi.shutdown	1.9 TDIが停止する
