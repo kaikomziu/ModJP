@@ -349,6 +349,7 @@
 | irons_lib-1.20.1-2.2.0.jar | irons_patreon_lib | 2 | 0 | 2 | 2 | 0 |  |
 | irons_spellbooks-1.20.1-3.16.3.jar | irons_spellbooks | 1323 | 1233 | 90 | 90 | 0 |  |
 | irradiated_generator-0.2.1.jar | irradiated_generator | 5 | 5 | 0 | 0 | 0 |  |
+| ists_harder_early-2.2-forge-1.20.1.jar | ists_harder_early | 27 | 0 | 27 | 26 | 1 |  |
 | item-descriptions-2.5.4+1.20.1-forge.jar | item_descriptions | 1545 | 0 | 1545 | 1545 | 0 |  |
 | itemcollectors-1.1.12-forge-mc1.20.2.jar | itemcollectors | 15 | 0 | 15 | 15 | 0 |  |
 | item-filters-forge-2001.1.0-build.59.jar | itemfilters | 41 | 0 | 41 | 41 | 0 |  |
@@ -734,7 +735,7 @@
 | ycurrenci-2.1.0-forge-1.20.1.jar | ycurrenci | 30 | 1 | 29 | 29 | 0 |  |
 | YungsCaveBiomes-1.20.1-Forge-2.0.5.jar | yungscavebiomes | 126 | 70 | 56 | 56 | 0 |  |
 | Zeta-1.0-31.jar | zeta | 2 | 0 | 2 | 1 | 1 |  |
-| **合計** | | 207278 | 100254 | 107024 | 105523 | 1501 | |
+| **合計** | | 207305 | 100254 | 107051 | 105549 | 1502 | |
 
 ## 英語のまま残したキー
 
@@ -1527,6 +1528,7 @@
 | idas | `item.idas.music_disc_calidum.desc` | Cama - calidum | 楽曲名(作曲者 - 曲名) |
 | irons_jewelry | `action.irons_jewelry.apply_effect.description` | (%s %s, %s) | 記号・アイコン・型番のみ |
 | irons_jewelry | `action.irons_jewelry.apply_effect.description_instantaneous` | (%s %s) | 記号・アイコン・型番のみ |
+| ists_harder_early | `item.ists_harder_early.pebble.desc` |  NAV Gaming Crew - At Nether's Gate | 楽曲名(作曲者 - 曲名) |
 | kontraption | `chat.kontraption.border` | ================================= | 記号・アイコン・型番のみ |
 | logisticsnetworks | `gui.logisticsnetworks.node.page_info` | %s-%s / %s | 記号・アイコン・型番のみ |
 | logisticsnetworks | `gui.logisticsnetworks.filter.info.icon` | i | 記号・アイコン・型番のみ |

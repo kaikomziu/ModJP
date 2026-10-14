@@ -1,0 +1,30 @@
+{
+ "ists_harder_early": {
+  "item.ists_harder_early.copper_axe": "銅の斧",
+  "item.ists_harder_early.grass_string": "植物繊維",
+  "gamerule.logBreakDamage": "原木破壊ダメージ",
+  "item.ists_harder_early.flint_knife": "火打石のナイフ",
+  "item.ists_harder_early.pebble": "小石",
+  "advancements.rock.title": "ロック",
+  "advancements.nuggets.title": "塊？",
+  "advancements.no_tree.descr": "言ったでしょ、きついって",
+  "item.ists_harder_early.copper_pickaxe": "銅のツルハシ",
+  "advancements.shardp.title": "鋭い！",
+  "advancements.no_tree.title": "素手で木が殴れない？",
+  "advancements.hard.title": "It's Harder Early",
+  "advancements.hard.descr": "冒険を始めよう！",
+  "advancements.yes_tree.title": "序盤の木こり",
+  "item.ists_harder_early.raw_iron_nugets": "鉄の原石の塊",
+  "advancements.shardp.descr": "火打石のナイフを手に入れた。使ってみよう！",
+  "advancements.yes_tree.descr": "原木を1本切り倒そう！ おめでとう！",
+  "item.ists_harder_early.mud_ball": "泥団子",
+  "advancements.nuggets.descr": "鉄の塊を手に入れた。食べちゃだめだよ",
+  "advancements.rock.descr": "最高だぜ！",
+  "gamerule.logBreakDamage.description": "原木を壊したときのダメージ量",
+  "subtitles.rockhard_song": "とってもロックな音楽",
+  "block.ists_harder_early.pebble_s1": "小石",
+  "item.ists_harder_early.flint_axe": "火打石の斧",
+  "item.ists_harder_early.reinforced_stick": "強化された棒",
+  "item.ists_harder_early.plant_string": "植物の糸"
+ }
+}

@@ -31,6 +31,7 @@ for f in sorted(Path("extracted").glob("*.json")):
         elif ns == "zeta" and k == "zeta.jei.hint_preamble":
             why = "MOD名の接頭辞のみ"
         elif k.startswith("jukebox_song.") or k.startswith("aether_ii.music.") or k.startswith("subtitle.apothic_enchanting.music_disc.") \
+                or (ns == "ists_harder_early" and k == "item.ists_harder_early.pebble.desc") \
                 or (ns in ("idas", "the_bumblezone", "minecraftdungeons") and "music_disc" in k and k.endswith(".desc")):
             why = "楽曲名(作曲者 - 曲名)"
         elif ns == "ornatelib" and k.startswith("number.ornatelib."):

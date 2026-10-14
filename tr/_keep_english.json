@@ -835,6 +835,9 @@
   "action.irons_jewelry.apply_effect.description": "記号・アイコン・型番のみ",
   "action.irons_jewelry.apply_effect.description_instantaneous": "記号・アイコン・型番のみ"
  },
+ "ists_harder_early": {
+  "item.ists_harder_early.pebble.desc": "楽曲名(作曲者 - 曲名)"
+ },
  "kontraption": {
   "chat.kontraption.border": "記号・アイコン・型番のみ"
  },
